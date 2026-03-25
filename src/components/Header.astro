@@ -82,72 +82,72 @@ const switchPath = getLocalizedPath(
       </div>
     </div>
   </div>
+</header>
 
-  <!-- Mobile Menu Overlay -->
-  <div
-    id="mobile-menu-overlay"
-    class="fixed inset-0 bg-dark/50 z-40 hidden opacity-0 transition-opacity duration-300 lg:hidden"
-  ></div>
+<!-- Mobile Menu Overlay (outside header to avoid z-index stacking context issues) -->
+<div
+  id="mobile-menu-overlay"
+  class="fixed inset-0 bg-dark/50 z-[60] hidden opacity-0 transition-opacity duration-300 lg:hidden"
+></div>
 
-  <!-- Mobile Menu Panel -->
-  <nav
-    id="mobile-menu"
-    class="fixed top-0 right-0 h-full w-72 bg-warm-white z-50 transform translate-x-full transition-transform duration-300 ease-in-out lg:hidden shadow-xl flex flex-col"
-    aria-label="Mobile navigation"
-  >
-    <div class="flex items-center justify-between p-6 border-b border-gray-light">
-      <span class="font-serif text-lg text-gold">{t(lang, 'common.menu')}</span>
-      <button
-        id="mobile-menu-close"
-        class="p-2 text-dark-soft hover:text-gold transition-colors"
-        aria-label={t(lang, 'common.close')}
-      >
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12" />
-        </svg>
-      </button>
-    </div>
+<!-- Mobile Menu Panel -->
+<nav
+  id="mobile-menu"
+  class="fixed top-0 right-0 h-full w-72 bg-warm-white z-[70] transform translate-x-full transition-transform duration-300 ease-in-out lg:hidden shadow-xl flex flex-col"
+  aria-label="Mobile navigation"
+>
+  <div class="flex items-center justify-between p-6 border-b border-gray-light">
+    <span class="font-serif text-lg text-gold">{t(lang, 'common.menu')}</span>
+    <button
+      id="mobile-menu-close"
+      class="p-2 text-dark-soft hover:text-gold transition-colors"
+      aria-label={t(lang, 'common.close')}
+    >
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
 
-    <div class="flex-1 overflow-y-auto py-6 px-6 space-y-1">
+  <div class="flex-1 overflow-y-auto py-6 px-6 space-y-1">
+    <a
+      href={getLocalizedPath('/', lang)}
+      class:list={[
+        'block py-3 text-base font-medium transition-colors',
+        currentPath === getLocalizedPath('/', lang)
+          ? 'text-gold'
+          : 'text-dark-soft hover:text-gold',
+      ]}
+    >
+      {t(lang, 'nav.home')}
+    </a>
+    {navItems.map((item) => (
       <a
-        href={getLocalizedPath('/', lang)}
+        href={getLocalizedPath(item.path, lang)}
         class:list={[
           'block py-3 text-base font-medium transition-colors',
-          currentPath === getLocalizedPath('/', lang)
+          isActive(item.path)
             ? 'text-gold'
             : 'text-dark-soft hover:text-gold',
         ]}
       >
-        {t(lang, 'nav.home')}
+        {t(lang, item.key)}
       </a>
-      {navItems.map((item) => (
-        <a
-          href={getLocalizedPath(item.path, lang)}
-          class:list={[
-            'block py-3 text-base font-medium transition-colors',
-            isActive(item.path)
-              ? 'text-gold'
-              : 'text-dark-soft hover:text-gold',
-          ]}
-        >
-          {t(lang, item.key)}
-        </a>
-      ))}
-    </div>
+    ))}
+  </div>
 
-    <div class="mt-auto p-6 border-t border-gray-light">
-      <a
-        href={switchPath}
-        class="flex items-center gap-2 text-sm font-medium text-dark-soft hover:text-gold transition-colors"
-      >
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9" />
-        </svg>
-        {languages[otherLang]}
-      </a>
-    </div>
-  </nav>
-</header>
+  <div class="mt-auto p-6 border-t border-gray-light">
+    <a
+      href={switchPath}
+      class="flex items-center gap-2 text-sm font-medium text-dark-soft hover:text-gold transition-colors"
+    >
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9" />
+      </svg>
+      {languages[otherLang]}
+    </a>
+  </div>
+</nav>
 
 <script>
   const menuBtn = document.getElementById('mobile-menu-btn');
