@@ -15,7 +15,7 @@ export default defineConfig({
         richtext: 'storyblok/RichText',
       },
       apiOptions: {
-        region: 'eu',
+        region: '',
       },
     }),
   ],

@@ -1,4 +1,17 @@
-import { useStoryblokApi } from '@storyblok/astro';
+const STORYBLOK_TOKEN = import.meta.env.STORYBLOK_TOKEN || '';
+const API_BASE = 'https://api.storyblok.com/v2/cdn';
+
+async function storyblokFetch(path: string, params: Record<string, string> = {}) {
+  const url = new URL(`${API_BASE}/${path}`);
+  url.searchParams.set('token', STORYBLOK_TOKEN);
+  url.searchParams.set('version', 'draft');
+  for (const [k, v] of Object.entries(params)) {
+    url.searchParams.set(k, v);
+  }
+  const res = await fetch(url.toString());
+  if (!res.ok) throw new Error(`Storyblok API error: ${res.status}`);
+  return res.json();
+}
 
 export interface CatData {
   slug: string;
@@ -40,13 +53,10 @@ export interface KittenData {
 }
 
 export async function fetchCats(): Promise<CatData[]> {
-  const storyblokApi = useStoryblokApi();
-  const { data } = await storyblokApi.get('cdn/stories', {
+  const data = await storyblokFetch('stories', {
     starts_with: 'cats/',
-    version: import.meta.env.DEV ? 'draft' : 'published',
-    per_page: 100,
+    per_page: '100',
   });
-
   return data.stories.map((story: any) => ({
     slug: story.slug,
     ...story.content,
@@ -54,11 +64,8 @@ export async function fetchCats(): Promise<CatData[]> {
 }
 
 export async function fetchCat(slug: string): Promise<CatData | null> {
-  const storyblokApi = useStoryblokApi();
   try {
-    const { data } = await storyblokApi.get(`cdn/stories/cats/${slug}`, {
-      version: import.meta.env.DEV ? 'draft' : 'published',
-    });
+    const data = await storyblokFetch(`stories/cats/${slug}`);
     return { slug: data.story.slug, ...data.story.content };
   } catch {
     return null;
@@ -66,13 +73,10 @@ export async function fetchCat(slug: string): Promise<CatData | null> {
 }
 
 export async function fetchKittens(): Promise<KittenData[]> {
-  const storyblokApi = useStoryblokApi();
-  const { data } = await storyblokApi.get('cdn/stories', {
+  const data = await storyblokFetch('stories', {
     starts_with: 'kittens/',
-    version: import.meta.env.DEV ? 'draft' : 'published',
-    per_page: 100,
+    per_page: '100',
   });
-
   return data.stories.map((story: any) => ({
     slug: story.slug,
     ...story.content,
@@ -80,11 +84,8 @@ export async function fetchKittens(): Promise<KittenData[]> {
 }
 
 export async function fetchKitten(slug: string): Promise<KittenData | null> {
-  const storyblokApi = useStoryblokApi();
   try {
-    const { data } = await storyblokApi.get(`cdn/stories/kittens/${slug}`, {
-      version: import.meta.env.DEV ? 'draft' : 'published',
-    });
+    const data = await storyblokFetch(`stories/kittens/${slug}`);
     return { slug: data.story.slug, ...data.story.content };
   } catch {
     return null;
