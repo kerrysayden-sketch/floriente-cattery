@@ -10,6 +10,7 @@ interface Props {
   description?: string;
   lang?: Lang;
   ogImage?: string;
+  noindex?: boolean;
 }
 
 const {
@@ -17,6 +18,7 @@ const {
   description = 'Floriente Cattery — Oriental Shorthair & Siamese kittens. Raised at home. Transparent from day one.',
   lang = 'en',
   ogImage = '/images/floriente_dark_navy_transparent.png',
+  noindex = false,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -29,6 +31,7 @@ const pathWithoutLang = Astro.url.pathname.replace(/^\/(en|uk)/, '') || '/';
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
 
     <link rel="canonical" href={canonicalURL} />
 

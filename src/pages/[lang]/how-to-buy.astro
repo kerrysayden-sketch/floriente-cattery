@@ -8,7 +8,7 @@ export const getStaticPaths = createLangStaticPaths;
 const { lang } = Astro.props as { lang: Lang };
 ---
 
-<BaseLayout title={t(lang, 'pages.howToBuy.title')} lang={lang}>
+<BaseLayout title={t(lang, 'pages.howToBuy.title')} lang={lang} noindex>
   <div class="max-w-4xl mx-auto px-6 py-16 text-center">
     <h1 class="text-gold-dark">{t(lang, 'nav.howToBuy')}</h1>
     <p class="mt-4 text-dark-soft">{t(lang, 'pages.comingSoon')}</p>
