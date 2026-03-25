@@ -1,8 +1,9 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Lightbox from '../../../components/ui/Lightbox.astro';
 import { t, getLocalizedPath, locales } from '../../../i18n/utils';
 import type { Lang } from '../../../i18n/utils';
-import { fetchCats, getStatusLabel } from '../../../lib/storyblok';
+import { fetchCats, fetchKittens } from '../../../lib/storyblok';
 import type { CatData } from '../../../lib/storyblok';
 
 export async function getStaticPaths() {
@@ -23,8 +24,16 @@ export async function getStaticPaths() {
 
 const { lang, cat } = Astro.props as { lang: Lang; cat: CatData };
 const photoUrl = cat.photos?.filename || '/images/floriente_dark_navy_transparent.png';
+const hasPhoto = !!cat.photos?.filename;
 const description = lang === 'uk' ? cat.description_uk : cat.description_en;
 const breedFull = cat.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese';
+
+// Fetch offspring (kittens whose father or mother matches this cat's slug)
+let offspring: any[] = [];
+try {
+  const allKittens = await fetchKittens();
+  offspring = allKittens.filter((k) => k.father === cat.slug || k.mother === cat.slug);
+} catch {}
 ---
 
 <BaseLayout
@@ -46,11 +55,12 @@ const breedFull = cat.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese';
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-14">
       <!-- Photo -->
       <div>
-        <div class="aspect-[4/5] rounded-lg overflow-hidden bg-gray-light/50">
+        <div class="aspect-[4/5] rounded-lg overflow-hidden bg-gray-light/50 cursor-pointer">
           <img
             src={photoUrl}
             alt={cat.name}
             class="w-full h-full object-cover"
+            data-lightbox
           />
         </div>
 
@@ -64,6 +74,7 @@ const breedFull = cat.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese';
                   alt={item.caption || cat.name}
                   class="w-full h-full object-cover cursor-pointer hover:opacity-80 transition-opacity"
                   loading="lazy"
+                  data-lightbox
                 />
               </div>
             ))}
@@ -155,6 +166,29 @@ const breedFull = cat.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese';
           </div>
         )}
 
+        {/* Offspring */}
+        {offspring.length > 0 && (
+          <div class="mb-8">
+            <h3 class="text-lg font-serif mb-4">{lang === 'en' ? 'Offspring' : 'Нащадки'}</h3>
+            <div class="space-y-2">
+              {offspring.map((kitten: any) => (
+                <a
+                  href={getLocalizedPath(`/kittens/${kitten.slug}/`, lang)}
+                  class="flex items-center gap-3 p-3 bg-gray-light/30 rounded hover:bg-gray-light/50 transition-colors"
+                >
+                  {kitten.photos?.filename && (
+                    <img src={kitten.photos.filename} alt={kitten.name} class="w-10 h-10 rounded-full object-cover" />
+                  )}
+                  <div>
+                    <span class="text-sm font-medium text-dark">{kitten.name}</span>
+                    <span class="text-xs text-gray-medium ml-2">{kitten.color}</span>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* CTAs */}
         <div class="flex flex-col sm:flex-row gap-3 mt-8">
           <a
@@ -173,4 +207,5 @@ const breedFull = cat.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese';
       </div>
     </div>
   </div>
+  <Lightbox />
 </BaseLayout>

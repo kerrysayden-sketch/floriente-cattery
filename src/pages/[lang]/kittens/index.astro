@@ -15,6 +15,10 @@ try {
 } catch {
   // CMS unavailable
 }
+
+// Split into current and past litters
+const currentKittens = allKittens.filter((k) => k.status !== 'at_new_home');
+const pastKittens = allKittens.filter((k) => k.status === 'at_new_home');
 ---
 
 <BaseLayout
@@ -25,24 +29,47 @@ try {
   <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-20">
     <h1 class="text-center text-gold-dark mb-12">{t(lang, 'nav.kittens')}</h1>
 
-    {allKittens.length > 0 ? (
+    {currentKittens.length > 0 ? (
       <>
         {/* Filters */}
-        <div id="kitten-filters" class="flex flex-wrap gap-3 justify-center mb-10">
-          <button data-filter="all" class="filter-btn active px-4 py-2 rounded-full text-sm font-medium border border-gold bg-gold text-warm-white transition-colors">
+        <div id="kitten-filters" class="flex flex-wrap gap-2 justify-center mb-4">
+          <span class="text-xs text-gray-medium uppercase tracking-wider mr-2 self-center">{lang === 'en' ? 'Status:' : 'Статус:'}</span>
+          <button data-filter="status" data-value="all" class="filter-btn active px-3 py-1.5 rounded-full text-xs font-medium border border-gold bg-gold text-warm-white transition-colors">
             {lang === 'en' ? 'All' : 'Усі'}
           </button>
-          <button data-filter="available" class="filter-btn px-4 py-2 rounded-full text-sm font-medium border border-gray-light text-dark-soft hover:border-gold hover:text-gold transition-colors">
+          <button data-filter="status" data-value="available" class="filter-btn px-3 py-1.5 rounded-full text-xs font-medium border border-gray-light text-dark-soft hover:border-gold hover:text-gold transition-colors">
             {lang === 'en' ? 'Available' : 'Доступні'}
           </button>
-          <button data-filter="reserved" class="filter-btn px-4 py-2 rounded-full text-sm font-medium border border-gray-light text-dark-soft hover:border-gold hover:text-gold transition-colors">
+          <button data-filter="status" data-value="reserved" class="filter-btn px-3 py-1.5 rounded-full text-xs font-medium border border-gray-light text-dark-soft hover:border-gold hover:text-gold transition-colors">
             {lang === 'en' ? 'Reserved' : 'Зарезервовані'}
+          </button>
+        </div>
+        <div class="flex flex-wrap gap-2 justify-center mb-10">
+          <span class="text-xs text-gray-medium uppercase tracking-wider mr-2 self-center">{lang === 'en' ? 'Breed:' : 'Порода:'}</span>
+          <button data-filter="breed" data-value="all" class="filter-btn breed-btn active px-3 py-1.5 rounded-full text-xs font-medium border border-gold bg-gold text-warm-white transition-colors">
+            {lang === 'en' ? 'All' : 'Усі'}
+          </button>
+          <button data-filter="breed" data-value="OSH" class="filter-btn breed-btn px-3 py-1.5 rounded-full text-xs font-medium border border-gray-light text-dark-soft hover:border-gold hover:text-gold transition-colors">
+            Oriental
+          </button>
+          <button data-filter="breed" data-value="SIA" class="filter-btn breed-btn px-3 py-1.5 rounded-full text-xs font-medium border border-gray-light text-dark-soft hover:border-gold hover:text-gold transition-colors">
+            Siamese
+          </button>
+          <span class="text-xs text-gray-medium uppercase tracking-wider ml-4 mr-2 self-center">{lang === 'en' ? 'Sex:' : 'Стать:'}</span>
+          <button data-filter="sex" data-value="all" class="filter-btn sex-btn active px-3 py-1.5 rounded-full text-xs font-medium border border-gold bg-gold text-warm-white transition-colors">
+            {lang === 'en' ? 'All' : 'Усі'}
+          </button>
+          <button data-filter="sex" data-value="male" class="filter-btn sex-btn px-3 py-1.5 rounded-full text-xs font-medium border border-gray-light text-dark-soft hover:border-gold hover:text-gold transition-colors">
+            ♂ {lang === 'en' ? 'Male' : 'Кіт'}
+          </button>
+          <button data-filter="sex" data-value="female" class="filter-btn sex-btn px-3 py-1.5 rounded-full text-xs font-medium border border-gray-light text-dark-soft hover:border-gold hover:text-gold transition-colors">
+            ♀ {lang === 'en' ? 'Female' : 'Кішка'}
           </button>
         </div>
 
         {/* Grid */}
         <div id="kitten-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {allKittens.map((kitten) => <KittenCard kitten={kitten} lang={lang} />)}
+          {currentKittens.map((kitten) => <KittenCard kitten={kitten} lang={lang} />)}
         </div>
 
         {/* Empty filter state */}
@@ -67,44 +94,87 @@ try {
         </a>
       </div>
     )}
+    {/* Litter Archive */}
+    {pastKittens.length > 0 && (
+      <section class="mt-20 pt-12 border-t border-gray-light">
+        <h2 class="text-lg text-gray-medium mb-8">{lang === 'en' ? 'Previous Litters' : 'Попередні виводки'}</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          {pastKittens.map((kitten) => (
+            <a
+              href={getLocalizedPath(`/kittens/${kitten.slug}/`, lang)}
+              class="block rounded-lg overflow-hidden bg-warm-white border border-gray-light hover:border-gold/30 transition-colors"
+            >
+              <div class="aspect-square overflow-hidden bg-gray-light/30">
+                {kitten.photos?.filename ? (
+                  <img src={kitten.photos.filename} alt={kitten.name} class="w-full h-full object-cover opacity-80" loading="lazy" />
+                ) : (
+                  <div class="w-full h-full flex items-center justify-center">
+                    <span class="text-gray-medium text-xs">{kitten.name}</span>
+                  </div>
+                )}
+              </div>
+              <div class="p-3">
+                <p class="text-sm font-medium text-dark">{kitten.name}</p>
+                <p class="text-xs text-gray-medium">{kitten.color}</p>
+                {kitten.owner_name && (
+                  <p class="text-xs text-gold mt-1">{lang === 'en' ? 'New home:' : 'Нова домівка:'} {kitten.owner_country}</p>
+                )}
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
   </div>
 </BaseLayout>
 
 <script>
-  const buttons = document.querySelectorAll('.filter-btn');
   const grid = document.getElementById('kitten-grid');
   const empty = document.getElementById('filter-empty');
 
-  buttons.forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const filter = btn.getAttribute('data-filter');
+  const activeFilters = { status: 'all', breed: 'all', sex: 'all' };
 
-      // Update active button
-      buttons.forEach((b) => {
+  function applyFilters() {
+    if (!grid) return;
+    const cards = grid.querySelectorAll('[data-status]');
+    let visibleCount = 0;
+
+    cards.forEach((card) => {
+      const el = card as HTMLElement;
+      const matchStatus = activeFilters.status === 'all' || el.dataset.status === activeFilters.status;
+      const matchBreed = activeFilters.breed === 'all' || el.dataset.breed === activeFilters.breed;
+      const matchSex = activeFilters.sex === 'all' || el.dataset.sex === activeFilters.sex;
+
+      if (matchStatus && matchBreed && matchSex) {
+        el.style.display = '';
+        visibleCount++;
+      } else {
+        el.style.display = 'none';
+      }
+    });
+
+    if (empty) {
+      empty.classList.toggle('hidden', visibleCount > 0);
+    }
+  }
+
+  document.querySelectorAll('.filter-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const filterType = btn.getAttribute('data-filter') as keyof typeof activeFilters;
+      const value = btn.getAttribute('data-value') || 'all';
+
+      activeFilters[filterType] = value;
+
+      // Update active state within same filter group
+      const siblings = document.querySelectorAll(`[data-filter="${filterType}"]`);
+      siblings.forEach((b) => {
         b.classList.remove('active', 'bg-gold', 'text-warm-white', 'border-gold');
         b.classList.add('border-gray-light', 'text-dark-soft');
       });
       btn.classList.add('active', 'bg-gold', 'text-warm-white', 'border-gold');
       btn.classList.remove('border-gray-light', 'text-dark-soft');
 
-      // Filter cards
-      if (!grid) return;
-      const cards = grid.querySelectorAll('[data-status]');
-      let visibleCount = 0;
-
-      cards.forEach((card) => {
-        const el = card as HTMLElement;
-        if (filter === 'all' || el.dataset.status === filter) {
-          el.style.display = '';
-          visibleCount++;
-        } else {
-          el.style.display = 'none';
-        }
-      });
-
-      if (empty) {
-        empty.classList.toggle('hidden', visibleCount > 0);
-      }
+      applyFilters();
     });
   });
 </script>

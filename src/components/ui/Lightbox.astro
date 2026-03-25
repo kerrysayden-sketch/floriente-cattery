@@ -1,0 +1,66 @@
+---
+// Lightbox component — activated via JS when clicking gallery images
+---
+
+<div
+  id="lightbox"
+  class="fixed inset-0 z-[80] bg-dark/90 hidden items-center justify-center cursor-pointer"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Photo viewer"
+>
+  <button
+    id="lightbox-close"
+    class="absolute top-4 right-4 text-warm-white/80 hover:text-warm-white z-10 p-2"
+    aria-label="Close"
+  >
+    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  </button>
+  <img
+    id="lightbox-img"
+    src=""
+    alt=""
+    class="max-w-[90vw] max-h-[90vh] object-contain rounded"
+  />
+</div>
+
+<script>
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img') as HTMLImageElement;
+  const lightboxClose = document.getElementById('lightbox-close');
+
+  function openLightbox(src: string, alt: string) {
+    if (!lightbox || !lightboxImg) return;
+    lightboxImg.src = src;
+    lightboxImg.alt = alt;
+    lightbox.classList.remove('hidden');
+    lightbox.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    if (!lightbox) return;
+    lightbox.classList.add('hidden');
+    lightbox.classList.remove('flex');
+    document.body.style.overflow = '';
+  }
+
+  // Click on gallery images to open
+  document.querySelectorAll('[data-lightbox]').forEach((el) => {
+    el.addEventListener('click', () => {
+      const img = el as HTMLImageElement;
+      openLightbox(img.src, img.alt);
+    });
+  });
+
+  // Close on click overlay, close button, or Escape
+  lightbox?.addEventListener('click', (e) => {
+    if (e.target === lightbox) closeLightbox();
+  });
+  lightboxClose?.addEventListener('click', closeLightbox);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+</script>
