@@ -1,0 +1,181 @@
+---
+import { t, getLocalizedPath, languages } from '../i18n/utils';
+import type { Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const currentPath = Astro.url.pathname;
+
+const navItems = [
+  { key: 'nav.kittens', path: '/kittens/' },
+  { key: 'nav.ourCats', path: '/our-cats/' },
+  { key: 'nav.about', path: '/about/' },
+  { key: 'nav.howToBuy', path: '/how-to-buy/' },
+  { key: 'nav.blog', path: '/blog/' },
+];
+
+function isActive(itemPath: string): boolean {
+  const localizedPath = getLocalizedPath(itemPath, lang);
+  return currentPath.startsWith(localizedPath);
+}
+
+const otherLang = lang === 'en' ? 'ru' : 'en';
+const switchPath = getLocalizedPath(
+  currentPath.replace(/^\/(en|ru)/, ''),
+  otherLang as Lang,
+);
+---
+
+<header class="fixed top-0 left-0 right-0 z-50 bg-warm-white/95 backdrop-blur-sm border-b border-gray-light">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-20">
+      <!-- Logo -->
+      <a href={getLocalizedPath('/', lang)} class="flex-shrink-0">
+        <img
+          src="/images/floriente_dark_navy_transparent.png"
+          alt="Floriente Cattery"
+          class="h-14 w-auto"
+        />
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden lg:flex items-center gap-8" aria-label="Main navigation">
+        {navItems.map((item) => (
+          <a
+            href={getLocalizedPath(item.path, lang)}
+            class:list={[
+              'text-sm font-medium tracking-wide uppercase transition-colors duration-200',
+              isActive(item.path)
+                ? 'text-gold border-b-2 border-gold pb-1'
+                : 'text-dark-soft hover:text-gold',
+            ]}
+          >
+            {t(lang, item.key)}
+          </a>
+        ))}
+      </nav>
+
+      <!-- Language Switcher (Desktop) + Mobile Menu Button -->
+      <div class="flex items-center gap-4">
+        <a
+          href={switchPath}
+          class="text-sm font-medium text-dark-soft hover:text-gold transition-colors uppercase"
+          aria-label={`Switch to ${languages[otherLang]}`}
+        >
+          {otherLang.toUpperCase()}
+        </a>
+
+        <!-- Mobile Menu Button -->
+        <button
+          id="mobile-menu-btn"
+          class="lg:hidden p-2 text-dark-soft hover:text-gold transition-colors"
+          aria-label={t(lang, 'common.menu')}
+          aria-expanded="false"
+        >
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu Overlay -->
+  <div
+    id="mobile-menu-overlay"
+    class="fixed inset-0 bg-dark/50 z-40 hidden opacity-0 transition-opacity duration-300 lg:hidden"
+  ></div>
+
+  <!-- Mobile Menu Panel -->
+  <nav
+    id="mobile-menu"
+    class="fixed top-0 right-0 h-full w-72 bg-warm-white z-50 transform translate-x-full transition-transform duration-300 ease-in-out lg:hidden shadow-xl"
+    aria-label="Mobile navigation"
+  >
+    <div class="flex items-center justify-between p-6 border-b border-gray-light">
+      <span class="font-serif text-lg text-gold">{t(lang, 'common.menu')}</span>
+      <button
+        id="mobile-menu-close"
+        class="p-2 text-dark-soft hover:text-gold transition-colors"
+        aria-label={t(lang, 'common.close')}
+      >
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+
+    <div class="py-6 px-6 space-y-1">
+      <a
+        href={getLocalizedPath('/', lang)}
+        class:list={[
+          'block py-3 text-base font-medium transition-colors',
+          currentPath === getLocalizedPath('/', lang)
+            ? 'text-gold'
+            : 'text-dark-soft hover:text-gold',
+        ]}
+      >
+        {t(lang, 'nav.home')}
+      </a>
+      {navItems.map((item) => (
+        <a
+          href={getLocalizedPath(item.path, lang)}
+          class:list={[
+            'block py-3 text-base font-medium transition-colors',
+            isActive(item.path)
+              ? 'text-gold'
+              : 'text-dark-soft hover:text-gold',
+          ]}
+        >
+          {t(lang, item.key)}
+        </a>
+      ))}
+    </div>
+
+    <div class="absolute bottom-0 left-0 right-0 p-6 border-t border-gray-light">
+      <a
+        href={switchPath}
+        class="flex items-center gap-2 text-sm font-medium text-dark-soft hover:text-gold transition-colors"
+      >
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9" />
+        </svg>
+        {languages[otherLang]}
+      </a>
+    </div>
+  </nav>
+</header>
+
+<script>
+  const menuBtn = document.getElementById('mobile-menu-btn');
+  const menuClose = document.getElementById('mobile-menu-close');
+  const menu = document.getElementById('mobile-menu');
+  const overlay = document.getElementById('mobile-menu-overlay');
+
+  function openMenu() {
+    menu?.classList.remove('translate-x-full');
+    overlay?.classList.remove('hidden');
+    requestAnimationFrame(() => overlay?.classList.replace('opacity-0', 'opacity-100'));
+    menuBtn?.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    menu?.classList.add('translate-x-full');
+    overlay?.classList.replace('opacity-100', 'opacity-0');
+    setTimeout(() => overlay?.classList.add('hidden'), 300);
+    menuBtn?.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+
+  menuBtn?.addEventListener('click', openMenu);
+  menuClose?.addEventListener('click', closeMenu);
+  overlay?.addEventListener('click', closeMenu);
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeMenu();
+  });
+</script>

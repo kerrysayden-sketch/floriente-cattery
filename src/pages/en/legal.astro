@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/utils';
+
+const lang = 'en';
+---
+
+<BaseLayout title="Legal — Floriente Cattery" lang={lang}>
+  <div class="max-w-4xl mx-auto px-6 py-16 text-center">
+    <h1 class="text-gold-dark">{t(lang, 'nav.legal')}</h1>
+    <p class="mt-4 text-dark-soft">Page coming soon.</p>
+  </div>
+</BaseLayout>

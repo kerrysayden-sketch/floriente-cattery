@@ -1,10 +1,12 @@
 {
   "nav": {
+    "home": "Home",
     "kittens": "Kittens",
     "ourCats": "Our Cats",
     "about": "About",
     "howToBuy": "How to Buy",
     "blog": "Blog",
+    "family": "Family",
     "contact": "Contact",
     "legal": "Legal"
   },
@@ -13,7 +15,12 @@
     "wcf": "WCF Registered Cattery",
     "privacy": "Privacy Policy",
     "cookies": "Cookie Policy",
-    "terms": "Terms & Conditions"
+    "terms": "Terms & Conditions",
+    "quickLinks": "Quick Links",
+    "contacts": "Contact Us",
+    "followUs": "Follow Us",
+    "email": "info@florientecattery.com",
+    "location": "Kyiv Region, Ukraine"
   },
   "home": {
     "heroHeadline": "Oriental & Siamese Kittens",
@@ -28,6 +35,8 @@
   "common": {
     "readMore": "Read more",
     "viewAll": "View all",
-    "backHome": "Back to Home"
+    "backHome": "Back to Home",
+    "menu": "Menu",
+    "close": "Close"
   }
 }

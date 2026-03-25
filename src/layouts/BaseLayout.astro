@@ -1,10 +1,13 @@
 ---
 import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import type { Lang } from '../i18n/utils';
 
 interface Props {
   title: string;
   description?: string;
-  lang?: string;
+  lang?: Lang;
   ogImage?: string;
 }
 
@@ -46,7 +49,11 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
     <title>{title}</title>
   </head>
-  <body class="min-h-screen bg-warm-white text-dark">
-    <slot />
+  <body class="min-h-screen bg-warm-white text-dark flex flex-col">
+    <Header lang={lang} />
+    <main class="flex-1 pt-20">
+      <slot />
+    </main>
+    <Footer lang={lang} />
   </body>
 </html>
