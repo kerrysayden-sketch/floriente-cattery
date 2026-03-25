@@ -1,0 +1,19 @@
+---
+import { getStatusColor, getStatusLabel } from '../../lib/storyblok';
+import type { Lang } from '../../i18n/utils';
+
+interface Props {
+  status: string;
+  lang: Lang;
+}
+
+const { status, lang } = Astro.props;
+---
+
+<span class:list={[
+  'inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium text-warm-white',
+  getStatusColor(status),
+]}>
+  <span class="w-1.5 h-1.5 rounded-full bg-warm-white/60"></span>
+  {getStatusLabel(status, lang)}
+</span>

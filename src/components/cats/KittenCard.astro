@@ -1,0 +1,49 @@
+---
+import { getLocalizedPath } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+import type { KittenData } from '../../lib/storyblok';
+import StatusBadge from './StatusBadge.astro';
+
+interface Props {
+  kitten: KittenData;
+  lang: Lang;
+}
+
+const { kitten, lang } = Astro.props;
+const profileUrl = getLocalizedPath(`/kittens/${kitten.slug}/`, lang);
+const photoUrl = kitten.photos?.filename || '/images/floriente_dark_navy_transparent.png';
+---
+
+<a
+  href={profileUrl}
+  class="group block rounded-lg overflow-hidden bg-warm-white border border-gray-light hover:border-gold/50 transition-all duration-300 hover:shadow-lg"
+  data-status={kitten.status}
+  data-breed={kitten.breed}
+  data-sex={kitten.sex}
+>
+  <div class="relative overflow-hidden aspect-square">
+    <img
+      src={photoUrl}
+      alt={kitten.name}
+      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+      loading="lazy"
+    />
+    <div class="absolute top-3 left-3">
+      <StatusBadge status={kitten.status} lang={lang} />
+    </div>
+    {kitten.sex === 'male' ? (
+      <div class="absolute top-3 right-3 w-7 h-7 rounded-full bg-blue-soft/80 text-warm-white flex items-center justify-center text-xs font-bold">♂</div>
+    ) : (
+      <div class="absolute top-3 right-3 w-7 h-7 rounded-full bg-status-home/80 text-warm-white flex items-center justify-center text-xs font-bold">♀</div>
+    )}
+  </div>
+  <div class="p-4">
+    <h3 class="font-serif text-lg">{kitten.name}</h3>
+    <p class="text-sm text-gray-medium mt-1">
+      {kitten.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese'} · {kitten.color}
+    </p>
+    {kitten.price && kitten.status === 'available' && (
+      <p class="text-sm font-medium text-gold mt-2">€{kitten.price}</p>
+    )}
+  </div>
+</a>

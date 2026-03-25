@@ -1,0 +1,176 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { t, getLocalizedPath, locales } from '../../../i18n/utils';
+import type { Lang } from '../../../i18n/utils';
+import { fetchCats, getStatusLabel } from '../../../lib/storyblok';
+import type { CatData } from '../../../lib/storyblok';
+
+export async function getStaticPaths() {
+  let cats: CatData[] = [];
+  try {
+    cats = await fetchCats();
+  } catch {
+    return [];
+  }
+
+  return locales.flatMap((lang) =>
+    cats.map((cat) => ({
+      params: { lang, slug: cat.slug },
+      props: { lang, cat },
+    }))
+  );
+}
+
+const { lang, cat } = Astro.props as { lang: Lang; cat: CatData };
+const photoUrl = cat.photos?.filename || '/images/floriente_dark_navy_transparent.png';
+const description = lang === 'uk' ? cat.description_uk : cat.description_en;
+const breedFull = cat.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese';
+---
+
+<BaseLayout
+  title={`${cat.name} — Floriente Cattery`}
+  description={description || `${cat.name}, ${breedFull} ${cat.color}`}
+  lang={lang}
+  noindex
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-gray-medium mb-8">
+      <a href={getLocalizedPath('/', lang)} class="hover:text-gold">{t(lang, 'nav.home')}</a>
+      <span class="mx-2">/</span>
+      <a href={getLocalizedPath('/our-cats/', lang)} class="hover:text-gold">{t(lang, 'nav.ourCats')}</a>
+      <span class="mx-2">/</span>
+      <span class="text-dark">{cat.name}</span>
+    </nav>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-14">
+      <!-- Photo -->
+      <div>
+        <div class="aspect-[3/4] rounded-lg overflow-hidden bg-gray-light/50">
+          <img
+            src={photoUrl}
+            alt={cat.name}
+            class="w-full h-full object-cover"
+          />
+        </div>
+
+        {/* Gallery thumbnails */}
+        {cat.gallery && cat.gallery.length > 0 && (
+          <div class="grid grid-cols-4 gap-2 mt-4">
+            {cat.gallery.map((item: any) => (
+              <div class="aspect-square rounded overflow-hidden bg-gray-light/50">
+                <img
+                  src={item.image?.filename || ''}
+                  alt={item.caption || cat.name}
+                  class="w-full h-full object-cover cursor-pointer hover:opacity-80 transition-opacity"
+                  loading="lazy"
+                />
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <!-- Info -->
+      <div>
+        <div class="mb-2">
+          {cat.titles && (
+            <span class="inline-block px-3 py-1 bg-gold/10 text-gold text-sm font-medium rounded mb-3">
+              {cat.titles}
+            </span>
+          )}
+        </div>
+        <h1 class="text-3xl md:text-4xl text-gold-dark mb-2">{cat.name}</h1>
+        <p class="text-gray-medium text-lg mb-6">
+          {cat.role === 'king' ? (lang === 'en' ? 'King' : 'Кіт') : cat.role === 'queen' ? (lang === 'en' ? 'Queen' : 'Кішка') : (lang === 'en' ? 'Retired' : 'На відпочинку')}
+        </p>
+
+        <!-- Details table -->
+        <dl class="space-y-3 mb-8">
+          <div class="flex">
+            <dt class="w-32 text-sm text-gray-medium">{lang === 'en' ? 'Breed' : 'Порода'}</dt>
+            <dd class="text-sm text-dark">{breedFull}</dd>
+          </div>
+          <div class="flex">
+            <dt class="w-32 text-sm text-gray-medium">{lang === 'en' ? 'Color' : 'Колір'}</dt>
+            <dd class="text-sm text-dark">{cat.color}</dd>
+          </div>
+          {cat.ems_code && (
+            <div class="flex">
+              <dt class="w-32 text-sm text-gray-medium">EMS</dt>
+              <dd class="text-sm text-dark font-mono">{cat.ems_code}</dd>
+            </div>
+          )}
+          {cat.dob && (
+            <div class="flex">
+              <dt class="w-32 text-sm text-gray-medium">{lang === 'en' ? 'Born' : 'Народження'}</dt>
+              <dd class="text-sm text-dark">{cat.dob}</dd>
+            </div>
+          )}
+          <div class="flex">
+            <dt class="w-32 text-sm text-gray-medium">{lang === 'en' ? 'Sex' : 'Стать'}</dt>
+            <dd class="text-sm text-dark">{cat.sex === 'male' ? (lang === 'en' ? 'Male' : 'Кіт') : (lang === 'en' ? 'Female' : 'Кішка')}</dd>
+          </div>
+        </dl>
+
+        {/* Description */}
+        {description && (
+          <div class="mb-8">
+            <p class="text-dark-soft leading-relaxed">{description}</p>
+          </div>
+        )}
+
+        {/* Health Tests */}
+        {cat.health_tests && cat.health_tests.length > 0 && (
+          <div class="mb-8">
+            <h3 class="text-lg font-serif mb-4">{lang === 'en' ? 'Health Tests' : 'Тести здоров\'я'}</h3>
+            <div class="space-y-3">
+              {cat.health_tests.map((test: any) => (
+                <div class="flex items-center justify-between p-3 bg-gray-light/30 rounded">
+                  <div>
+                    <span class="text-sm font-medium text-dark">{test.test_name}</span>
+                    {test.lab && <span class="text-xs text-gray-medium ml-2">({test.lab})</span>}
+                  </div>
+                  <div class="flex items-center gap-3">
+                    <span class:list={[
+                      'text-xs font-medium px-2 py-0.5 rounded',
+                      test.result === 'normal' ? 'bg-status-available/10 text-status-available' : 'bg-status-reserved/10 text-status-reserved',
+                    ]}>
+                      {test.result === 'normal' ? 'Normal' : test.result}
+                    </span>
+                    {test.pdf?.filename && (
+                      <a
+                        href={test.pdf.filename}
+                        target="_blank"
+                        rel="noopener"
+                        class="text-xs text-gold hover:text-gold-dark"
+                      >
+                        PDF
+                      </a>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* CTAs */}
+        <div class="flex flex-col sm:flex-row gap-3 mt-8">
+          <a
+            href={getLocalizedPath('/kittens/', lang)}
+            class="inline-block px-6 py-3 bg-gold text-warm-white font-medium rounded hover:bg-gold-dark transition-colors text-sm uppercase tracking-wider text-center"
+          >
+            {t(lang, 'home.ctaMeetKittens')}
+          </a>
+          <a
+            href={getLocalizedPath('/how-to-buy/', lang)}
+            class="inline-block px-6 py-3 border border-gold text-gold font-medium rounded hover:bg-gold hover:text-warm-white transition-colors text-sm uppercase tracking-wider text-center"
+          >
+            {t(lang, 'home.ctaReserve')}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,46 @@
+---
+import { getLocalizedPath } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+import type { CatData } from '../../lib/storyblok';
+
+interface Props {
+  cat: CatData;
+  lang: Lang;
+  size?: 'normal' | 'small';
+}
+
+const { cat, lang, size = 'normal' } = Astro.props;
+const profileUrl = getLocalizedPath(`/our-cats/${cat.slug}/`, lang);
+const photoUrl = cat.photos?.filename || '/images/floriente_dark_navy_transparent.png';
+const isSmall = size === 'small';
+---
+
+<a
+  href={profileUrl}
+  class:list={[
+    'group block rounded-lg overflow-hidden bg-warm-white border border-gray-light hover:border-gold/50 transition-all duration-300 hover:shadow-lg',
+    isSmall ? 'max-w-[200px]' : '',
+  ]}
+>
+  <div class:list={['overflow-hidden', isSmall ? 'aspect-square' : 'aspect-[3/4]']}>
+    <img
+      src={photoUrl}
+      alt={cat.name}
+      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+      loading="lazy"
+    />
+  </div>
+  <div class:list={['p-4', isSmall ? 'p-3' : 'p-4 md:p-5']}>
+    <h3 class:list={['font-serif', isSmall ? 'text-base' : 'text-lg md:text-xl']}>
+      {cat.name}
+    </h3>
+    <p class="text-sm text-gray-medium mt-1">
+      {cat.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese'} · {cat.color}
+    </p>
+    {cat.titles && (
+      <span class="inline-block mt-2 px-2 py-0.5 bg-gold/10 text-gold text-xs font-medium rounded">
+        {cat.titles}
+      </span>
+    )}
+  </div>
+</a>

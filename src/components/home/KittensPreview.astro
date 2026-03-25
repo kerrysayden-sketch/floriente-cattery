@@ -1,24 +1,42 @@
 ---
 import { t, getLocalizedPath } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
+import { fetchKittens } from '../../lib/storyblok';
+import KittenCard from '../cats/KittenCard.astro';
 
 interface Props {
   lang: Lang;
 }
 
 const { lang } = Astro.props;
-// TODO: Replace with real CMS data in Sprint 3
-const kittens: any[] = [];
+
+let availableKittens: any[] = [];
+try {
+  const allKittens = await fetchKittens();
+  availableKittens = allKittens.filter((k) => k.status === 'available').slice(0, 3);
+} catch {
+  // CMS unavailable
+}
 ---
 
 <section class="py-16 md:py-24 px-4 sm:px-6">
   <div class="max-w-6xl mx-auto">
     <h2 class="text-center mb-4">{t(lang, 'home.kittensTitle')}</h2>
 
-    {kittens.length > 0 ? (
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-        {/* Kitten cards will be rendered here in Sprint 3 */}
-      </div>
+    {availableKittens.length > 0 ? (
+      <>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+          {availableKittens.map((kitten) => <KittenCard kitten={kitten} lang={lang} />)}
+        </div>
+        <div class="text-center mt-10">
+          <a
+            href={getLocalizedPath('/kittens/', lang)}
+            class="inline-block px-8 py-3 border border-gold text-gold font-medium rounded hover:bg-gold hover:text-warm-white transition-colors text-sm uppercase tracking-wider"
+          >
+            {t(lang, 'common.viewAll')}
+          </a>
+        </div>
+      </>
     ) : (
       <div class="text-center mt-8 max-w-lg mx-auto">
         <div class="w-20 h-20 mx-auto mb-6 rounded-full bg-gray-light/50 flex items-center justify-center">
