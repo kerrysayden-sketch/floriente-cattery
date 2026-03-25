@@ -1,0 +1,42 @@
+---
+import { t } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+// TODO: Replace with real testimonials from CMS in Sprint 3
+const testimonials = [
+  { name: 'Coming Soon', location: 'Europe', quote: 'Testimonials from happy families will appear here.' },
+];
+---
+
+<section class="py-16 md:py-24 px-4 sm:px-6">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="mb-2">{t(lang, 'home.familyTitle')}</h2>
+    <p class="text-gray-medium mb-12">{t(lang, 'home.familySubtitle')}</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {[1, 2, 3].map(() => (
+        <div class="bg-warm-white border border-gray-light rounded-lg p-8 text-left">
+          <svg class="w-8 h-8 text-gold/30 mb-4" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+          </svg>
+          <p class="text-dark-soft italic mb-6 leading-relaxed">
+            Testimonials from happy kitten families will be displayed here.
+          </p>
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-gray-light/50"></div>
+            <div>
+              <p class="text-sm font-medium text-dark">Happy Family</p>
+              <p class="text-xs text-gray-medium">Europe</p>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

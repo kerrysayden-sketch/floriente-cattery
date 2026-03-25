@@ -8,9 +8,9 @@ interface Props {
 
 const { lang } = Astro.props;
 
-const otherLang = lang === 'en' ? 'ru' : 'en';
+const otherLang = lang === 'en' ? 'uk' : 'en';
 const switchPath = getLocalizedPath(
-  Astro.url.pathname.replace(/^\/(en|ru)/, ''),
+  Astro.url.pathname.replace(/^\/(en|uk)/, ''),
   otherLang as Lang,
 );
 

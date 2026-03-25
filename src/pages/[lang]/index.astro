@@ -1,5 +1,10 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import HeroSection from '../../components/home/HeroSection.astro';
+import TrustBar from '../../components/home/TrustBar.astro';
+import KittensPreview from '../../components/home/KittensPreview.astro';
+import AboutPreview from '../../components/home/AboutPreview.astro';
+import FamilySection from '../../components/home/FamilySection.astro';
 import { t, createLangStaticPaths } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
 
@@ -13,13 +18,30 @@ const { lang } = Astro.props as { lang: Lang };
   description={t(lang, 'pages.index.description')}
   lang={lang}
 >
-  <div class="max-w-4xl mx-auto px-6 py-16 text-center">
-    <img
-      src="/images/floriente_dark_navy_transparent.png"
-      alt={t(lang, 'pages.logoAlt')}
-      class="mx-auto mb-8 w-48"
-    />
-    <h1 class="mb-4 text-gold-dark">{t(lang, 'home.heroHeadline')}</h1>
-    <p class="text-xl text-dark-soft">{t(lang, 'home.heroSubheadline')}</p>
+  <HeroSection lang={lang} />
+  <TrustBar lang={lang} />
+  <div class="scroll-fade">
+    <KittensPreview lang={lang} />
+  </div>
+  <div class="scroll-fade">
+    <AboutPreview lang={lang} />
+  </div>
+  <div class="scroll-fade">
+    <FamilySection lang={lang} />
   </div>
 </BaseLayout>
+
+<script>
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
+
+  document.querySelectorAll('.scroll-fade').forEach((el) => observer.observe(el));
+</script>

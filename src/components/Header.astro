@@ -22,9 +22,9 @@ function isActive(itemPath: string): boolean {
   return currentPath.startsWith(localizedPath);
 }
 
-const otherLang = lang === 'en' ? 'ru' : 'en';
+const otherLang = lang === 'en' ? 'uk' : 'en';
 const switchPath = getLocalizedPath(
-  currentPath.replace(/^\/(en|ru)/, ''),
+  currentPath.replace(/^\/(en|uk)/, ''),
   otherLang as Lang,
 );
 ---

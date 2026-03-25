@@ -1,5 +1,10 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import StorySection from '../../components/about/StorySection.astro';
+import PhilosophySection from '../../components/about/PhilosophySection.astro';
+import CertsSection from '../../components/about/CertsSection.astro';
+import HomeGallery from '../../components/about/HomeGallery.astro';
+import HealthSection from '../../components/about/HealthSection.astro';
 import { t, createLangStaticPaths } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
 
@@ -8,9 +13,40 @@ export const getStaticPaths = createLangStaticPaths;
 const { lang } = Astro.props as { lang: Lang };
 ---
 
-<BaseLayout title={t(lang, 'pages.about.title')} lang={lang} noindex>
-  <div class="max-w-4xl mx-auto px-6 py-16 text-center">
-    <h1 class="text-gold-dark">{t(lang, 'nav.about')}</h1>
-    <p class="mt-4 text-dark-soft">{t(lang, 'pages.comingSoon')}</p>
+<BaseLayout
+  title={t(lang, 'pages.about.title')}
+  description={t(lang, 'pages.about.description')}
+  lang={lang}
+  noindex
+>
+  <div class="scroll-fade">
+    <StorySection lang={lang} />
+  </div>
+  <div class="scroll-fade">
+    <PhilosophySection lang={lang} />
+  </div>
+  <div class="scroll-fade">
+    <CertsSection lang={lang} />
+  </div>
+  <div class="scroll-fade">
+    <HomeGallery lang={lang} />
+  </div>
+  <div class="scroll-fade">
+    <HealthSection lang={lang} />
   </div>
 </BaseLayout>
+
+<script>
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
+
+  document.querySelectorAll('.scroll-fade').forEach((el) => observer.observe(el));
+</script>

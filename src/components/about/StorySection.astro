@@ -1,0 +1,37 @@
+---
+import { t } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
+<section class="py-16 md:py-24 px-4 sm:px-6">
+  <div class="max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <!-- Photo -->
+      <div>
+        <div class="aspect-[4/5] rounded-lg bg-gray-light/50 flex items-center justify-center overflow-hidden">
+          <!-- TODO: Replace with Elvira's photo -->
+          <svg class="w-16 h-16 text-gold/30" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+          </svg>
+        </div>
+      </div>
+
+      <!-- Text -->
+      <div>
+        <h2 class="mb-6">{t(lang, 'about.storyTitle')}</h2>
+        <p class="text-dark-soft leading-relaxed mb-6">
+          {t(lang, 'about.storyText')}
+        </p>
+        <p class="text-dark-soft leading-relaxed">
+          {t(lang, 'about.storyText2')}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

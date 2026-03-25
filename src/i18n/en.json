@@ -29,7 +29,10 @@
       "title": "Floriente Cattery — Oriental & Siamese Kittens",
       "description": "Boutique cattery in Kyiv region, Ukraine. Oriental Shorthair & Siamese kittens raised at home with love."
     },
-    "about": { "title": "About — Floriente Cattery" },
+    "about": {
+      "title": "About — Floriente Cattery",
+      "description": "Meet Elvira and learn about Floriente Cattery — our story, philosophy, health testing, and WCF registration."
+    },
     "kittens": { "title": "Kittens — Floriente Cattery" },
     "ourCats": { "title": "Our Cats — Floriente Cattery" },
     "howToBuy": { "title": "How to Buy — Floriente Cattery" },
@@ -50,15 +53,51 @@
     "ctaMeetKittens": "Meet Our Kittens",
     "ctaReserve": "How to Reserve",
     "trustWcf": "WCF Registered",
-    "trustHealth": "Health Tested Parents",
+    "trustWcfDesc": "Official cattery registered with the World Cat Federation",
+    "trustHealth": "Health Tested",
+    "trustHealthDesc": "All parents tested for genetic diseases",
     "trustHome": "Home Raised",
-    "trustDelivery": "Personal Delivery"
+    "trustHomeDesc": "Kittens grow up in a family environment",
+    "trustDelivery": "Personal Delivery",
+    "trustDeliveryDesc": "We deliver kittens personally across Europe",
+    "kittensTitle": "Available Kittens",
+    "kittensEmpty": "No kittens available at the moment",
+    "kittensWaitlist": "Join our waitlist to be notified when new kittens arrive.",
+    "kittensJoinWaitlist": "Join Waitlist",
+    "aboutTitle": "Our Story",
+    "aboutText": "Floriente Cattery is a small, family-run cattery in the Kyiv region of Ukraine. We specialize in Oriental Shorthair and Siamese cats — elegant, intelligent, and deeply affectionate companions.",
+    "aboutCta": "Read Our Story",
+    "familyTitle": "Happy Families",
+    "familySubtitle": "Our kittens in their new homes"
+  },
+  "about": {
+    "storyTitle": "Our Story",
+    "storyText": "Floriente Cattery was born from a deep love for Oriental and Siamese cats. Our founder Elvira has dedicated years to understanding these extraordinary breeds — their elegance, intelligence, and remarkable bond with humans.",
+    "storyText2": "We are a small, home-based cattery where every cat is a family member. Our kittens grow up surrounded by love, daily interaction, and the comfort of a real home.",
+    "philosophyTitle": "Our Philosophy",
+    "philosophyHealth": "Health First",
+    "philosophyHealthDesc": "Every breeding cat is tested for genetic diseases. We share all test results openly — because transparency builds trust.",
+    "philosophyHome": "Home Environment",
+    "philosophyHomeDesc": "Our cats live with us, not in cages. Kittens are socialized from birth with people, sounds, and everyday life.",
+    "philosophyQuality": "Quality Over Quantity",
+    "philosophyQualityDesc": "We have only a few litters per year. Each kitten receives individual attention and care.",
+    "philosophySupport": "Lifetime Support",
+    "philosophySupportDesc": "We stay connected with every family. Our support doesn't end when the kitten leaves — it's just the beginning.",
+    "certsTitle": "Certifications",
+    "certsSubtitle": "Official recognition and professional development",
+    "homeTitle": "Where Our Cats Live",
+    "homeSubtitle": "Our cats share our home and our life",
+    "healthTitle": "Health Testing",
+    "healthText": "We believe that responsible breeding starts with health. All our breeding cats undergo comprehensive genetic testing to ensure healthy kittens.",
+    "healthTests": "Our cats are tested for PRA, PK Deficiency, and other breed-specific conditions. Test results are available upon request.",
+    "healthLabsTitle": "Testing Partners"
   },
   "common": {
     "readMore": "Read more",
     "viewAll": "View all",
     "backHome": "Back to Home",
     "menu": "Menu",
-    "close": "Close"
+    "close": "Close",
+    "learnMore": "Learn More"
   }
 }
