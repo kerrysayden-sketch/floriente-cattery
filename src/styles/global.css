@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+/* ── Floriente Cattery Design Tokens ── */
+@theme {
+  /* Colors */
+  --color-warm-white: #FAFAF7;
+  --color-gold: #8B7355;
+  --color-gold-light: #A8916F;
+  --color-gold-dark: #6B5740;
+  --color-dark: #1A1A1A;
+  --color-dark-soft: #333333;
+  --color-blue-soft: #9BB8D4;
+  --color-gray-light: #E8E6E1;
+  --color-gray-medium: #B0ADA6;
+
+  /* Status colors */
+  --color-status-available: #22C55E;
+  --color-status-reserved: #F97316;
+  --color-status-home: #8B5CF6;
+  --color-status-evaluation: #3B82F6;
+
+  /* Typography */
+  --font-serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+
+  /* Spacing */
+  --spacing-section: 6rem;
+  --spacing-section-mobile: 3rem;
+}
+
+/* ── Base styles ── */
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: var(--color-dark);
+    background-color: var(--color-warm-white);
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  h1 { font-size: 3rem; }
+  h2 { font-size: 2.25rem; }
+  h3 { font-size: 1.5rem; }
+  h4 { font-size: 1.25rem; }
+
+  @media (max-width: 768px) {
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.75rem; }
+    h3 { font-size: 1.25rem; }
+  }
+
+  a {
+    color: var(--color-gold);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  a:hover {
+    color: var(--color-gold-dark);
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}

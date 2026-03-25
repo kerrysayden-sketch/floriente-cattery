@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/utils';
+
+const lang = 'ru';
+---
+
+<BaseLayout
+  title="Питомник Floriente — Ориентальные и сиамские котята"
+  description="Бутик-питомник в Киевской области, Украина. Ориентальные и сиамские котята, выращенные дома с любовью."
+  lang={lang}
+>
+  <main class="max-w-4xl mx-auto px-6 py-16">
+    <div class="text-center mb-16">
+      <img
+        src="/images/floriente_dark_navy_transparent.png"
+        alt="Логотип питомника Floriente"
+        class="mx-auto mb-8 w-48"
+      />
+      <h1 class="mb-4 text-gold-dark">{t(lang, 'home.heroHeadline')}</h1>
+      <p class="text-xl text-dark-soft">{t(lang, 'home.heroSubheadline')}</p>
+    </div>
+
+    <footer class="text-center text-sm text-gray-medium border-t border-gray-light pt-8">
+      <p>&copy; 2024–2026 {t(lang, 'footer.copyright')}</p>
+      <p class="mt-1">{t(lang, 'footer.wcf')}</p>
+    </footer>
+  </main>
+</BaseLayout>

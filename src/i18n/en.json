@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "kittens": "Kittens",
+    "ourCats": "Our Cats",
+    "about": "About",
+    "howToBuy": "How to Buy",
+    "blog": "Blog",
+    "contact": "Contact",
+    "legal": "Legal"
+  },
+  "footer": {
+    "copyright": "Floriente Cattery. All rights reserved.",
+    "wcf": "WCF Registered Cattery",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy",
+    "terms": "Terms & Conditions"
+  },
+  "home": {
+    "heroHeadline": "Oriental & Siamese Kittens",
+    "heroSubheadline": "Raised at home. Transparent from day one.",
+    "ctaMeetKittens": "Meet Our Kittens",
+    "ctaReserve": "How to Reserve",
+    "trustWcf": "WCF Registered",
+    "trustHealth": "Health Tested Parents",
+    "trustHome": "Home Raised",
+    "trustDelivery": "Personal Delivery"
+  },
+  "common": {
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "backHome": "Back to Home"
+  }
+}
