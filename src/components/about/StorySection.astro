@@ -14,11 +14,13 @@ const { lang } = Astro.props;
     <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <!-- Photo -->
       <div>
-        <div class="aspect-[4/5] rounded-lg bg-gray-light/50 flex items-center justify-center overflow-hidden">
-          <!-- TODO: Replace with Elvira's photo -->
-          <svg class="w-16 h-16 text-gold/30" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-          </svg>
+        <div class="aspect-[4/5] rounded-lg overflow-hidden">
+          <img
+            src="/images/elvira-portrait.jpg"
+            alt="Elvira — founder of Floriente Cattery"
+            class="w-full h-full object-cover"
+            loading="lazy"
+          />
         </div>
       </div>
 
