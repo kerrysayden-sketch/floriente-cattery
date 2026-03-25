@@ -37,16 +37,5 @@ const { lang } = Astro.props as { lang: Lang };
 </BaseLayout>
 
 <script>
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    },
-    { threshold: 0.1 }
-  );
-
-  document.querySelectorAll('.scroll-fade').forEach((el) => observer.observe(el));
+  import '../../scripts/scroll-fade';
 </script>
