@@ -92,7 +92,7 @@ const switchPath = getLocalizedPath(
   <!-- Mobile Menu Panel -->
   <nav
     id="mobile-menu"
-    class="fixed top-0 right-0 h-full w-72 bg-warm-white z-50 transform translate-x-full transition-transform duration-300 ease-in-out lg:hidden shadow-xl"
+    class="fixed top-0 right-0 h-full w-72 bg-warm-white z-50 transform translate-x-full transition-transform duration-300 ease-in-out lg:hidden shadow-xl flex flex-col"
     aria-label="Mobile navigation"
   >
     <div class="flex items-center justify-between p-6 border-b border-gray-light">
@@ -108,7 +108,7 @@ const switchPath = getLocalizedPath(
       </button>
     </div>
 
-    <div class="py-6 px-6 space-y-1">
+    <div class="flex-1 overflow-y-auto py-6 px-6 space-y-1">
       <a
         href={getLocalizedPath('/', lang)}
         class:list={[
@@ -135,7 +135,7 @@ const switchPath = getLocalizedPath(
       ))}
     </div>
 
-    <div class="absolute bottom-0 left-0 right-0 p-6 border-t border-gray-light">
+    <div class="mt-auto p-6 border-t border-gray-light">
       <a
         href={switchPath}
         class="flex items-center gap-2 text-sm font-medium text-dark-soft hover:text-gold transition-colors"

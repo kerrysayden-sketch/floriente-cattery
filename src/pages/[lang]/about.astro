@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t, createLangStaticPaths } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+export const getStaticPaths = createLangStaticPaths;
+
+const { lang } = Astro.props as { lang: Lang };
+---
+
+<BaseLayout title={t(lang, 'pages.about.title')} lang={lang}>
+  <div class="max-w-4xl mx-auto px-6 py-16 text-center">
+    <h1 class="text-gold-dark">{t(lang, 'nav.about')}</h1>
+    <p class="mt-4 text-dark-soft">{t(lang, 'pages.comingSoon')}</p>
+  </div>
+</BaseLayout>

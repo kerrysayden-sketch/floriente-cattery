@@ -1,19 +1,22 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { t } from '../../i18n/utils';
+import { t, createLangStaticPaths } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
 
-const lang = 'ru';
+export const getStaticPaths = createLangStaticPaths;
+
+const { lang } = Astro.props as { lang: Lang };
 ---
 
 <BaseLayout
-  title="Питомник Floriente — Ориентальные и сиамские котята"
-  description="Бутик-питомник в Киевской области, Украина. Ориентальные и сиамские котята, выращенные дома с любовью."
+  title={t(lang, 'pages.index.title')}
+  description={t(lang, 'pages.index.description')}
   lang={lang}
 >
   <div class="max-w-4xl mx-auto px-6 py-16 text-center">
     <img
       src="/images/floriente_dark_navy_transparent.png"
-      alt="Логотип питомника Floriente"
+      alt={t(lang, 'pages.logoAlt')}
       class="mx-auto mb-8 w-48"
     />
     <h1 class="mb-4 text-gold-dark">{t(lang, 'home.heroHeadline')}</h1>

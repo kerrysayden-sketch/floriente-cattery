@@ -22,6 +22,28 @@
     "email": "info@florientecattery.com",
     "location": "Киевская область, Украина"
   },
+  "pages": {
+    "comingSoon": "Страница в разработке.",
+    "logoAlt": "Логотип питомника Floriente",
+    "index": {
+      "title": "Питомник Floriente — Ориентальные и сиамские котята",
+      "description": "Бутик-питомник в Киевской области, Украина. Ориентальные и сиамские котята, выращенные дома с любовью."
+    },
+    "about": { "title": "О нас — Питомник Floriente" },
+    "kittens": { "title": "Котята — Питомник Floriente" },
+    "ourCats": { "title": "Наши кошки — Питомник Floriente" },
+    "howToBuy": { "title": "Как купить — Питомник Floriente" },
+    "blog": { "title": "Блог — Питомник Floriente" },
+    "family": { "title": "Семья — Питомник Floriente" },
+    "contact": { "title": "Контакты — Питомник Floriente" },
+    "legal": { "title": "Правовая информация — Питомник Floriente" }
+  },
+  "notFound": {
+    "title": "404 — Страница не найдена",
+    "heading": "Страница не найдена",
+    "text": "Этот котёнок убежал. Страницы, которую вы ищете, не существует.",
+    "backHome": "На главную"
+  },
   "home": {
     "heroHeadline": "Ориентальные и сиамские котята",
     "heroSubheadline": "Выращены дома. Прозрачность с первого дня.",

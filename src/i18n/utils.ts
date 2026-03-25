@@ -10,6 +10,15 @@ export type Lang = keyof typeof languages;
 
 export const defaultLang: Lang = 'en';
 
+export const locales: Lang[] = ['en', 'ru'];
+
+export function createLangStaticPaths() {
+  return locales.map((lang) => ({
+    params: { lang },
+    props: { lang },
+  }));
+}
+
 const translations = { en, ru } as const;
 
 export function t(lang: Lang, key: string): string {

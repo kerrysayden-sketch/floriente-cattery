@@ -22,6 +22,28 @@
     "email": "info@florientecattery.com",
     "location": "Kyiv Region, Ukraine"
   },
+  "pages": {
+    "comingSoon": "Page coming soon.",
+    "logoAlt": "Floriente Cattery logo",
+    "index": {
+      "title": "Floriente Cattery — Oriental & Siamese Kittens",
+      "description": "Boutique cattery in Kyiv region, Ukraine. Oriental Shorthair & Siamese kittens raised at home with love."
+    },
+    "about": { "title": "About — Floriente Cattery" },
+    "kittens": { "title": "Kittens — Floriente Cattery" },
+    "ourCats": { "title": "Our Cats — Floriente Cattery" },
+    "howToBuy": { "title": "How to Buy — Floriente Cattery" },
+    "blog": { "title": "Blog — Floriente Cattery" },
+    "family": { "title": "Family — Floriente Cattery" },
+    "contact": { "title": "Contact — Floriente Cattery" },
+    "legal": { "title": "Legal — Floriente Cattery" }
+  },
+  "notFound": {
+    "title": "404 — Page Not Found",
+    "heading": "Page Not Found",
+    "text": "This kitten wandered off. The page you're looking for doesn't exist.",
+    "backHome": "Back to Home"
+  },
   "home": {
     "heroHeadline": "Oriental & Siamese Kittens",
     "heroSubheadline": "Raised at home. Transparent from day one.",
