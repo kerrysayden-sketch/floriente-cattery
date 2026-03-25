@@ -11,6 +11,7 @@ interface Props {
 
 const { cat, lang, size = 'normal' } = Astro.props;
 const profileUrl = getLocalizedPath(`/our-cats/${cat.slug}/`, lang);
+const hasPhoto = !!cat.photos?.filename;
 const photoUrl = cat.photos?.filename || '/images/floriente_dark_navy_transparent.png';
 const isSmall = size === 'small';
 ---
@@ -22,11 +23,18 @@ const isSmall = size === 'small';
     isSmall ? 'max-w-[200px]' : '',
   ]}
 >
-  <div class:list={['overflow-hidden', isSmall ? 'aspect-square' : 'aspect-[3/4]']}>
+  <div class:list={[
+    'overflow-hidden bg-gray-light/30',
+    isSmall ? 'aspect-square' : 'aspect-[3/4]',
+    !hasPhoto ? 'flex items-center justify-center p-8' : '',
+  ]}>
     <img
       src={photoUrl}
       alt={cat.name}
-      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+      class:list={[
+        'group-hover:scale-105 transition-transform duration-500',
+        hasPhoto ? 'w-full h-full object-cover' : 'w-full h-auto max-h-full object-contain opacity-30',
+      ]}
       loading="lazy"
     />
   </div>
