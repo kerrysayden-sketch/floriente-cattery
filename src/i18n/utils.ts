@@ -1,16 +1,16 @@
 import en from './en.json';
-import ru from './ru.json';
+import uk from './uk.json';
 
 export const languages = {
   en: 'English',
-  ru: 'Русский',
+  uk: 'Українська',
 } as const;
 
 export type Lang = keyof typeof languages;
 
 export const defaultLang: Lang = 'en';
 
-export const locales: Lang[] = ['en', 'ru'];
+export const locales: Lang[] = ['en', 'uk'];
 
 export function createLangStaticPaths() {
   return locales.map((lang) => ({
@@ -19,7 +19,7 @@ export function createLangStaticPaths() {
   }));
 }
 
-const translations = { en, ru } as const;
+const translations = { en, uk } as const;
 
 export function t(lang: Lang, key: string): string {
   const keys = key.split('.');
@@ -31,11 +31,11 @@ export function t(lang: Lang, key: string): string {
 }
 
 export function getLanguageFromURL(pathname: string): Lang {
-  const match = pathname.match(/^\/(en|ru)\//);
+  const match = pathname.match(/^\/(en|uk)\//);
   return (match?.[1] as Lang) ?? defaultLang;
 }
 
 export function getLocalizedPath(path: string, lang: Lang): string {
-  const cleanPath = path.replace(/^\/(en|ru)/, '');
+  const cleanPath = path.replace(/^\/(en|uk)/, '');
   return `/${lang}${cleanPath || '/'}`;
 }

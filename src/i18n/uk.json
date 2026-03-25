@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "home": "Головна",
+    "kittens": "Кошенята",
+    "ourCats": "Наші коти",
+    "about": "Про нас",
+    "howToBuy": "Як придбати",
+    "blog": "Блог",
+    "family": "Родина",
+    "contact": "Контакти",
+    "legal": "Правова інформація"
+  },
+  "footer": {
+    "copyright": "Розплідник Floriente. Усі права захищені.",
+    "wcf": "Зареєстрований у WCF",
+    "privacy": "Політика конфіденційності",
+    "cookies": "Політика cookies",
+    "terms": "Умови використання",
+    "quickLinks": "Швидкі посилання",
+    "contacts": "Контакти",
+    "followUs": "Ми в соцмережах",
+    "email": "info@florientecattery.com",
+    "location": "Київська область, Україна"
+  },
+  "pages": {
+    "comingSoon": "Сторінка в розробці.",
+    "logoAlt": "Логотип розплідника Floriente",
+    "index": {
+      "title": "Розплідник Floriente — Орієнтальні та сіамські кошенята",
+      "description": "Бутік-розплідник у Київській області, Україна. Орієнтальні та сіамські кошенята, вирощені вдома з любов'ю."
+    },
+    "about": { "title": "Про нас — Розплідник Floriente" },
+    "kittens": { "title": "Кошенята — Розплідник Floriente" },
+    "ourCats": { "title": "Наші коти — Розплідник Floriente" },
+    "howToBuy": { "title": "Як придбати — Розплідник Floriente" },
+    "blog": { "title": "Блог — Розплідник Floriente" },
+    "family": { "title": "Родина — Розплідник Floriente" },
+    "contact": { "title": "Контакти — Розплідник Floriente" },
+    "legal": { "title": "Правова інформація — Розплідник Floriente" }
+  },
+  "notFound": {
+    "title": "404 — Сторінку не знайдено",
+    "heading": "Сторінку не знайдено",
+    "text": "Це кошеня втекло. Сторінки, яку ви шукаєте, не існує.",
+    "backHome": "На головну"
+  },
+  "home": {
+    "heroHeadline": "Орієнтальні та сіамські кошенята",
+    "heroSubheadline": "Вирощені вдома. Прозорість з першого дня.",
+    "ctaMeetKittens": "Познайомитися з кошенятами",
+    "ctaReserve": "Як забронювати",
+    "trustWcf": "Зареєстрований у WCF",
+    "trustHealth": "Батьки з тестами здоров'я",
+    "trustHome": "Вирощені вдома",
+    "trustDelivery": "Особиста доставка"
+  },
+  "common": {
+    "readMore": "Детальніше",
+    "viewAll": "Дивитись усе",
+    "backHome": "На головну",
+    "menu": "Меню",
+    "close": "Закрити"
+  }
+}

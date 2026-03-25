@@ -20,7 +20,7 @@ const {
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const pathWithoutLang = Astro.url.pathname.replace(/^\/(en|ru)/, '') || '/';
+const pathWithoutLang = Astro.url.pathname.replace(/^\/(en|uk)/, '') || '/';
 ---
 
 <!doctype html>
