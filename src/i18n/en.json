@@ -8,6 +8,7 @@
     "blog": "Blog",
     "family": "Family",
     "contact": "Contact",
+    "faq": "FAQ",
     "legal": "Legal"
   },
   "footer": {
@@ -48,6 +49,10 @@
     "blog": {
       "title": "Blog — Floriente Cattery",
       "description": "Articles about Oriental and Siamese cats — breed care, health, nutrition, and life at Floriente Cattery."
+    },
+    "faq": {
+      "title": "FAQ — Floriente Cattery",
+      "description": "Frequently asked questions about Oriental and Siamese kittens at Floriente Cattery — pricing, adoption process, health, care, and delivery."
     },
     "family": {
       "title": "Family — Floriente Cattery",

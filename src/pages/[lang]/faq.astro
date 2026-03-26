@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FAQContent from '../../components/faq/FAQContent.astro';
+import { t, createLangStaticPaths } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+export const getStaticPaths = createLangStaticPaths;
+
+const { lang } = Astro.props as { lang: Lang };
+---
+
+<BaseLayout
+  title={t(lang, 'pages.faq.title')}
+  description={t(lang, 'pages.faq.description')}
+  lang={lang}
+>
+  <FAQContent lang={lang} />
+</BaseLayout>
+
+<script>
+  import '../../scripts/scroll-fade';
+</script>
