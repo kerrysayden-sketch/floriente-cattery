@@ -14,7 +14,7 @@ const navItems = [
   { key: 'nav.ourCats', path: '/our-cats/' },
   { key: 'nav.about', path: '/about/' },
   { key: 'nav.howToBuy', path: '/how-to-buy/' },
-  { key: 'nav.blog', path: '/blog/' },
+  { key: 'nav.contact', path: '/contact/' },
 ];
 
 function isActive(itemPath: string): boolean {
@@ -33,7 +33,7 @@ const switchPath = getLocalizedPath(
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-20">
       <!-- Logo -->
-      <a href={getLocalizedPath('/', lang)} class="flex-shrink-0">
+      <a href={getLocalizedPath('/', lang)} class="flex-shrink-0" aria-label="Floriente Cattery">
         <img
           src="/images/floriente_dark_navy_transparent.png"
           alt="Floriente Cattery"

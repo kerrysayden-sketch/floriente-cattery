@@ -146,9 +146,9 @@
     "tiktokLabel": "TikTok",
     "tiktokDesc": "Follow us for daily moments with our cats and kittens.",
     "tiktokCta": "Follow on TikTok",
-    "messengerLabel": "Messenger",
-    "messengerDesc": "Reach us on Facebook Messenger for a quick chat.",
-    "messengerCta": "Open Messenger",
+    "instagramDmLabel": "Instagram DM",
+    "instagramDmDesc": "Send us a direct message on Instagram for a quick chat.",
+    "instagramDmCta": "Message on Instagram",
     "locationTitle": "Where We Are",
     "locationText": "Kyiv Region, Ukraine",
     "locationNote": "We deliver kittens personally across Europe. Exact location shared after reservation.",
@@ -214,7 +214,7 @@
     "ctaTitle": "Ready to Begin?",
     "ctaText": "The first step is always a conversation. Write to us and we'll be happy to tell you about our upcoming litters.",
     "ctaWhatsApp": "Write on WhatsApp",
-    "ctaMessenger": "Write on Messenger"
+    "ctaInstagram": "Write on Instagram"
   },
   "common": {
     "readMore": "Read more",

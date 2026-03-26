@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import CookieBanner from '../components/CookieBanner.astro';
 import { getLocalizedPath, locales } from '../i18n/utils';
 import type { Lang } from '../i18n/utils';
 
@@ -112,5 +113,6 @@ const pathWithoutLang = Astro.url.pathname.replace(/^\/(en|uk)/, '') || '/';
       <slot />
     </main>
     <Footer lang={lang} />
+    <CookieBanner lang={lang} />
   </body>
 </html>

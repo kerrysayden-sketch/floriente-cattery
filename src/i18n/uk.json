@@ -146,9 +146,9 @@
     "tiktokLabel": "TikTok",
     "tiktokDesc": "Підписуйтесь на щоденні моменти з нашими котами та кошенятами.",
     "tiktokCta": "Підписатися на TikTok",
-    "messengerLabel": "Messenger",
-    "messengerDesc": "Напишіть нам у Facebook Messenger для швидкого спілкування.",
-    "messengerCta": "Відкрити Messenger",
+    "instagramDmLabel": "Instagram DM",
+    "instagramDmDesc": "Напишіть нам у Direct в Instagram для швидкого спілкування.",
+    "instagramDmCta": "Написати в Instagram",
     "locationTitle": "Де ми знаходимося",
     "locationText": "Київська область, Україна",
     "locationNote": "Ми доставляємо кошенят особисто по всій Європі. Точна адреса повідомляється після бронювання.",
@@ -214,7 +214,7 @@
     "ctaTitle": "Готові почати?",
     "ctaText": "Перший крок — це завжди розмова. Напишіть нам, і ми з радістю розповімо про наступні виводки.",
     "ctaWhatsApp": "Написати у WhatsApp",
-    "ctaMessenger": "Написати у Messenger"
+    "ctaInstagram": "Написати в Instagram"
   },
   "common": {
     "readMore": "Детальніше",
