@@ -1,0 +1,43 @@
+---
+import { t } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
+<section class="py-16 md:py-24 px-4 sm:px-6">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-center mb-3">{t(lang, 'howToBuy.pricingTitle')}</h2>
+    <p class="text-center text-dark-soft mb-16 max-w-2xl mx-auto">{t(lang, 'howToBuy.pricingSubtitle')}</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+      <!-- Pet Class Card -->
+      <div class="bg-warm-white border border-gray-light rounded-lg p-8 md:p-10">
+        <h3 class="font-serif text-xl mb-4">{t(lang, 'howToBuy.petTitle')}</h3>
+        <p class="text-gold text-3xl font-serif font-semibold mb-4">{t(lang, 'howToBuy.petPrice')}</p>
+        <div class="border-t border-gray-light my-5"></div>
+        <p class="text-dark-soft text-sm leading-relaxed">{t(lang, 'howToBuy.petDesc')}</p>
+      </div>
+
+      <!-- Breed & Show Card -->
+      <div class="bg-warm-white border border-gray-light rounded-lg p-8 md:p-10">
+        <h3 class="font-serif text-xl mb-4">{t(lang, 'howToBuy.breedShowTitle')}</h3>
+        <p class="text-gold text-3xl font-serif font-semibold mb-4">{t(lang, 'howToBuy.breedShowPrice')}</p>
+        <div class="border-t border-gray-light my-5"></div>
+        <p class="text-dark-soft text-sm leading-relaxed">{t(lang, 'howToBuy.breedShowDesc')}</p>
+      </div>
+    </div>
+
+    <!-- Deposit Info -->
+    <div class="bg-gold/5 border border-gold/20 rounded-lg p-6 text-center max-w-lg mx-auto">
+      <p class="text-sm text-dark-soft mb-1">
+        <span class="font-semibold">{t(lang, 'howToBuy.depositLabel')}:</span> {t(lang, 'howToBuy.depositAmount')}
+      </p>
+      <p class="text-xs text-gray-medium">{t(lang, 'howToBuy.depositNote')}</p>
+    </div>
+  </div>
+</section>

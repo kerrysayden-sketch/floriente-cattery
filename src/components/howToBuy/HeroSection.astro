@@ -1,0 +1,30 @@
+---
+import { t } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
+<section class="py-16 md:py-24 px-4 sm:px-6">
+  <div class="max-w-4xl mx-auto text-center">
+    <h1 class="font-serif text-3xl md:text-5xl text-dark mb-6">{t(lang, 'howToBuy.heroTitle')}</h1>
+    <p class="text-dark-soft text-lg leading-relaxed max-w-2xl mx-auto mb-10">
+      {t(lang, 'howToBuy.heroText')}
+    </p>
+    <a
+      href="https://wa.me/380931884422"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-flex items-center gap-2 px-8 py-3.5 bg-gold text-warm-white rounded-sm text-sm tracking-wider uppercase hover:bg-gold-dark transition-colors"
+    >
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+      </svg>
+      {t(lang, 'howToBuy.heroCta')}
+    </a>
+  </div>
+</section>

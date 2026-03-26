@@ -1,5 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import HeroSection from '../../components/family/HeroSection.astro';
+import AlumniGallery from '../../components/family/AlumniGallery.astro';
+import TestimonialsSection from '../../components/family/TestimonialsSection.astro';
 import { t, createLangStaticPaths } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
 
@@ -8,9 +11,22 @@ export const getStaticPaths = createLangStaticPaths;
 const { lang } = Astro.props as { lang: Lang };
 ---
 
-<BaseLayout title={t(lang, 'pages.family.title')} lang={lang} noindex>
-  <div class="max-w-4xl mx-auto px-6 py-16 text-center">
-    <h1 class="text-gold-dark">{t(lang, 'nav.family')}</h1>
-    <p class="mt-4 text-dark-soft">{t(lang, 'pages.comingSoon')}</p>
+<BaseLayout
+  title={t(lang, 'pages.family.title')}
+  description={t(lang, 'pages.family.description')}
+  lang={lang}
+>
+  <div class="scroll-fade">
+    <HeroSection lang={lang} />
+  </div>
+  <div class="scroll-fade">
+    <AlumniGallery lang={lang} />
+  </div>
+  <div class="scroll-fade">
+    <TestimonialsSection lang={lang} />
   </div>
 </BaseLayout>
+
+<script>
+  import '../../scripts/scroll-fade';
+</script>

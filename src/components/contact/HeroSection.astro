@@ -1,0 +1,19 @@
+---
+import { t } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
+<section class="py-16 md:py-24 px-4 sm:px-6">
+  <div class="max-w-4xl mx-auto text-center">
+    <h1 class="font-serif text-3xl md:text-5xl text-dark mb-6">{t(lang, 'contact.heroTitle')}</h1>
+    <p class="text-dark-soft text-lg leading-relaxed max-w-2xl mx-auto">
+      {t(lang, 'contact.heroText')}
+    </p>
+  </div>
+</section>

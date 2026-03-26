@@ -7,22 +7,64 @@ interface Props {
 }
 
 const { lang } = Astro.props;
+
+const groups = [
+  {
+    labelKey: 'certsCattery',
+    certs: [
+      { src: '/images/certs/wcf-registration.jpg', alt: 'WCF Cattery Registration — Floriente #50188-2025' },
+    ],
+  },
+  {
+    labelKey: 'certsChampions',
+    certs: [
+      { src: '/images/certs/gic-sebastian.jpg', alt: 'Grand Inter-Champion — Sebastian Ole Lukhoye' },
+      { src: '/images/certs/gic-simona.jpg', alt: 'Grand Inter-Champion — Belly Dance Simona' },
+    ],
+  },
+  {
+    labelKey: 'certsEducation',
+    certs: [
+      { src: '/images/certs/wcf-seminar.jpg', alt: 'WCF Exhibitor-Seminar — June 2024, Ternopil' },
+      { src: '/images/certs/felinologist.jpg', alt: 'Felinological Seminar — Breeder-Felinologist Certificate' },
+      { src: '/images/certs/breeder-felinologist-2025.jpg', alt: 'Breeder-Felinologist Certificate — June 2025, Ternopil' },
+    ],
+  },
+];
 ---
 
 <section class="py-16 md:py-24 px-4 sm:px-6">
   <div class="max-w-6xl mx-auto text-center">
     <h2 class="mb-2">{t(lang, 'about.certsTitle')}</h2>
-    <p class="text-gray-medium mb-12">{t(lang, 'about.certsSubtitle')}</p>
+    <p class="text-gray-medium mb-16">{t(lang, 'about.certsSubtitle')}</p>
 
-    <!-- TODO: Replace with real certificate images -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {['WCF Registration', 'GIC Certificate', 'Seminar Certificate'].map((label) => (
-        <div class="aspect-[3/4] rounded-lg bg-gray-light/50 flex items-center justify-center border border-gray-light">
-          <div class="text-center">
-            <svg class="w-12 h-12 text-gold/30 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-            <p class="text-sm text-gray-medium">{label}</p>
+    <div class="space-y-14">
+      {groups.map((group) => (
+        <div>
+          <h3 class="text-sm font-semibold uppercase tracking-wider text-gold mb-6">
+            {t(lang, `about.${group.labelKey}`)}
+          </h3>
+          <div class:list={[
+            'grid gap-6 justify-items-center mx-auto',
+            group.certs.length === 1
+              ? 'grid-cols-1 max-w-xs'
+              : group.certs.length === 2
+                ? 'grid-cols-1 sm:grid-cols-2 max-w-2xl'
+                : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-4xl',
+          ]}>
+            {group.certs.map((cert) => (
+              <div class="group cursor-pointer w-full">
+                <div class="aspect-[3/4] rounded-lg overflow-hidden border border-gray-light shadow-sm hover:shadow-md transition-shadow">
+                  <img
+                    src={cert.src}
+                    alt={cert.alt}
+                    class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                    loading="lazy"
+                    data-lightbox
+                  />
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       ))}

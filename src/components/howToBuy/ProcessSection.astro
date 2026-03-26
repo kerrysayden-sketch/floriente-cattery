@@ -1,0 +1,55 @@
+---
+import { t } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const steps = [
+  { num: 1, icon: 'M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z', titleKey: 'step1Title', descKey: 'step1Desc' },
+  { num: 2, icon: 'M15.6 11.6L22 7v10l-6.4-4.6M2 5h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2V5z', titleKey: 'step2Title', descKey: 'step2Desc' },
+  { num: 3, icon: 'M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16zM21 21l-4.35-4.35', titleKey: 'step3Title', descKey: 'step3Desc' },
+  { num: 4, icon: 'M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M16 13H8M16 17H8M10 9H8', titleKey: 'step4Title', descKey: 'step4Desc' },
+  { num: 5, icon: 'M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2zM12 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8z', titleKey: 'step5Title', descKey: 'step5Desc' },
+  { num: 6, icon: 'M20 12v10H4V12M2 7h20v5H2zM12 22V7M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z', titleKey: 'step6Title', descKey: 'step6Desc' },
+  { num: 7, icon: 'M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z', titleKey: 'step7Title', descKey: 'step7Desc' },
+];
+---
+
+<section class="py-16 md:py-24 px-4 sm:px-6 bg-gray-light/20">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-center mb-3">{t(lang, 'howToBuy.processTitle')}</h2>
+    <p class="text-center text-dark-soft mb-16 max-w-2xl mx-auto">{t(lang, 'howToBuy.processSubtitle')}</p>
+
+    <div class="relative">
+      <!-- Vertical timeline line -->
+      <div class="absolute left-5 top-0 bottom-0 w-px bg-gold/20 hidden md:block" aria-hidden="true"></div>
+
+      <div class="space-y-10">
+        {steps.map((step) => (
+          <div class="flex gap-6 items-start">
+            <!-- Step number circle -->
+            <div class="flex-shrink-0 relative z-10 w-10 h-10 rounded-full bg-gold text-warm-white flex items-center justify-center font-serif font-semibold text-sm">
+              {step.num}
+            </div>
+            <!-- Content -->
+            <div class="flex-1 pt-1">
+              <div class="flex items-center gap-3 mb-2">
+                <div class="w-8 h-8 rounded-full bg-gold/10 flex items-center justify-center">
+                  <svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d={step.icon} />
+                  </svg>
+                </div>
+                <h3 class="text-lg font-serif">{t(lang, `howToBuy.${step.titleKey}`)}</h3>
+              </div>
+              <p class="text-dark-soft text-sm leading-relaxed">{t(lang, `howToBuy.${step.descKey}`)}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

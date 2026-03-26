@@ -35,11 +35,35 @@
     },
     "kittens": { "title": "Kittens — Floriente Cattery" },
     "ourCats": { "title": "Our Cats — Floriente Cattery" },
-    "howToBuy": { "title": "How to Buy — Floriente Cattery" },
+    "howToBuy": {
+      "title": "How to Buy — Floriente Cattery",
+      "description": "Reserve an Oriental or Siamese kitten from Floriente Cattery. Transparent process, open pricing, and lifelong breeder support."
+    },
     "blog": { "title": "Blog — Floriente Cattery" },
-    "family": { "title": "Family — Floriente Cattery" },
-    "contact": { "title": "Contact — Floriente Cattery" },
-    "legal": { "title": "Legal — Floriente Cattery" }
+    "family": {
+      "title": "Family — Floriente Cattery",
+      "description": "Floriente Cattery alumni — our kittens in their new homes across Europe. See how they've grown and thrived with their families."
+    },
+    "contact": {
+      "title": "Contact — Floriente Cattery",
+      "description": "Get in touch with Floriente Cattery. Reach us via WhatsApp, email, or social media to learn about available Oriental and Siamese kittens."
+    },
+    "legal": {
+      "title": "Legal — Floriente Cattery",
+      "description": "Privacy Policy, Cookie Policy, and Terms & Conditions for Floriente Cattery website."
+    }
+  },
+  "family": {
+    "heroTitle": "Our Floriente Family",
+    "heroText": "Every kitten that leaves our home becomes part of a bigger family. Here are some of our alumni — thriving, loved, and living their best lives.",
+    "alumniTitle": "Alumni Gallery",
+    "alumniSubtitle": "Kittens from Litter A & Litter B — all happily in their new homes",
+    "testimonialsTitle": "What Families Say",
+    "testimonialsSubtitle": "More testimonials coming soon — we're collecting stories from our families",
+    "testimonialsPlaceholder": "Testimonials from our families will appear here as we collect them. If you're a Floriente family and would like to share your story, please get in touch!",
+    "ctaTitle": "Want to Join Our Family?",
+    "ctaText": "We'd love to find the perfect kitten for your home.",
+    "ctaCta": "How to Reserve"
   },
   "notFound": {
     "title": "404 — Page Not Found",
@@ -68,7 +92,8 @@
     "aboutText": "Floriente Cattery is a small, family-run cattery in the Kyiv region of Ukraine. We specialize in Oriental Shorthair and Siamese cats — elegant, intelligent, and deeply affectionate companions.",
     "aboutCta": "Read Our Story",
     "familyTitle": "Happy Families",
-    "familySubtitle": "Our kittens in their new homes"
+    "familySubtitle": "Our kittens in their new homes",
+    "familyCta": "Meet All Alumni"
   },
   "about": {
     "storyTitle": "Our Story",
@@ -85,12 +110,100 @@
     "philosophySupportDesc": "We stay connected with every family. Our support doesn't end when the kitten leaves — it's just the beginning.",
     "certsTitle": "Certifications",
     "certsSubtitle": "Official recognition and professional development",
+    "certsCattery": "Cattery",
+    "certsChampions": "Champions",
+    "certsEducation": "Education",
     "homeTitle": "Where Our Cats Live",
     "homeSubtitle": "Our cats share our home and our life",
     "healthTitle": "Health Testing",
     "healthText": "We believe that responsible breeding starts with health. All our breeding cats undergo comprehensive genetic testing to ensure healthy kittens.",
     "healthTests": "Our cats are tested for PRA, PK Deficiency, and other breed-specific conditions. Test results are available upon request.",
     "healthLabsTitle": "Testing Partners"
+  },
+  "contact": {
+    "heroTitle": "Get in Touch",
+    "heroText": "We'd love to hear from you. Whether you're interested in a kitten, have questions about the breed, or just want to say hello — reach out through any channel that suits you.",
+    "methodsTitle": "How to Reach Us",
+    "whatsappLabel": "WhatsApp",
+    "whatsappDesc": "Our primary channel. Write anytime — we usually reply within a few hours.",
+    "whatsappCta": "Open WhatsApp",
+    "emailLabel": "Email",
+    "emailDesc": "For formal inquiries, contracts, or documents.",
+    "instagramLabel": "Instagram",
+    "instagramDesc": "Follow our daily life, new litters, and behind-the-scenes moments.",
+    "instagramCta": "Follow on Instagram",
+    "tiktokLabel": "TikTok",
+    "tiktokDesc": "Follow us for daily moments with our cats and kittens.",
+    "tiktokCta": "Follow on TikTok",
+    "messengerLabel": "Messenger",
+    "messengerDesc": "Reach us on Facebook Messenger for a quick chat.",
+    "messengerCta": "Open Messenger",
+    "locationTitle": "Where We Are",
+    "locationText": "Kyiv Region, Ukraine",
+    "locationNote": "We deliver kittens personally across Europe. Exact location shared after reservation.",
+    "hoursTitle": "Response Hours",
+    "hoursText": "We typically respond within 2–4 hours during daytime (EET/EEST). Evenings and weekends may take a bit longer."
+  },
+  "howToBuy": {
+    "heroTitle": "Your Journey to a Floriente Kitten",
+    "heroText": "We believe finding the right kitten should be personal, transparent, and joyful. Here's how it works — from the first message to a lifetime of friendship.",
+    "heroCta": "Start the Conversation",
+
+    "processTitle": "How It Works",
+    "processSubtitle": "From first contact to lifelong friendship — seven simple steps",
+    "step1Title": "Get in Touch",
+    "step1Desc": "Write to us on WhatsApp or Messenger. Tell us about yourself, your family, and what you're looking for in a companion.",
+    "step2Title": "Video Call",
+    "step2Desc": "We'll arrange a short video call so we can meet each other, answer your questions, and show you our home and cats.",
+    "step3Title": "Choose Your Kitten",
+    "step3Desc": "Once we have a litter available, we'll help you find the kitten whose personality and temperament are the best fit for your family.",
+    "step4Title": "Reserve with Deposit",
+    "step4Desc": "Secure your kitten with a 500 EUR deposit and a signed contract. From this moment, your kitten is reserved for you.",
+    "step5Title": "Watch Me Grow",
+    "step5Desc": "Receive regular photos and videos as your kitten grows. You'll see their first steps, first games, and developing personality.",
+    "step6Title": "Handover Day",
+    "step6Desc": "At 3+ months your kitten is fully vaccinated, microchipped, and ready to come home. We arrange personal delivery across Europe.",
+    "step7Title": "Lifelong Support",
+    "step7Desc": "Our relationship doesn't end at handover. We stay in touch for advice on adaptation, nutrition, behaviour — anytime you need us.",
+
+    "pricingTitle": "Pricing",
+    "pricingSubtitle": "Transparent pricing with no hidden costs",
+    "petTitle": "Pet Class",
+    "petPrice": "800 – 1,500 EUR",
+    "petDesc": "For loving families. Includes spay/neuter contract.",
+    "breedShowTitle": "Breed & Show Class",
+    "breedShowPrice": "Individual pricing",
+    "breedShowDesc": "For approved breeding programmes or show careers. Pricing discussed individually based on the kitten.",
+    "depositLabel": "Reservation Deposit",
+    "depositAmount": "500 EUR",
+    "depositNote": "Non-refundable if the buyer cancels. Fully refundable if we are unable to provide the kitten.",
+
+    "includedTitle": "What's Included",
+    "includedSubtitle": "Every kitten leaves with everything they need to start their new life",
+    "included1": "2× vaccination + rabies",
+    "included2": "Microchip",
+    "included3": "Veterinary passport",
+    "included4": "WCF pedigree",
+    "included5": "Spay/neuter (pet class)",
+    "included6": "Food for first days",
+    "included7": "Toys & comfort blanket",
+    "included8": "Adaptation guide",
+
+    "responsibilitiesTitle": "Your Commitments",
+    "responsibilitiesSubtitle": "We trust our families — and ask for a few promises in return",
+    "resp1": "Observe a 14-day quarantine after arrival",
+    "resp2": "Follow the breeder's care and nutrition guidelines",
+    "resp3": "Do not rehome without the breeder's consent",
+    "resp4": "Share updates — we love seeing our kittens thrive",
+
+    "supportTitle": "After Your Kitten Comes Home",
+    "supportText": "Elvira stays in contact with every family. Whether you need advice on adaptation, nutrition, or behaviour, we're always here. Many of our families stay in touch for years, sharing photos and milestones.",
+    "supportQuote": "We raise not just beautiful cats — we develop character, connection, and a future lifelong love.",
+
+    "ctaTitle": "Ready to Begin?",
+    "ctaText": "The first step is always a conversation. Write to us and we'll be happy to tell you about our upcoming litters.",
+    "ctaWhatsApp": "Write on WhatsApp",
+    "ctaMessenger": "Write on Messenger"
   },
   "common": {
     "readMore": "Read more",

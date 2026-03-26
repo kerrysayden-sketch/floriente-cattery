@@ -1,0 +1,45 @@
+---
+import { t } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
+<section class="py-16 md:py-24 px-4 sm:px-6">
+  <div class="max-w-4xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+      <!-- Location -->
+      <div class="flex gap-5">
+        <div class="flex-shrink-0 w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center">
+          <svg class="w-6 h-6 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-lg font-serif mb-2">{t(lang, 'contact.locationTitle')}</h3>
+          <p class="text-dark font-medium mb-1">{t(lang, 'contact.locationText')}</p>
+          <p class="text-dark-soft text-sm leading-relaxed">{t(lang, 'contact.locationNote')}</p>
+        </div>
+      </div>
+
+      <!-- Hours -->
+      <div class="flex gap-5">
+        <div class="flex-shrink-0 w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center">
+          <svg class="w-6 h-6 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12 6 12 12 16 14" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-lg font-serif mb-2">{t(lang, 'contact.hoursTitle')}</h3>
+          <p class="text-dark-soft text-sm leading-relaxed">{t(lang, 'contact.hoursText')}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

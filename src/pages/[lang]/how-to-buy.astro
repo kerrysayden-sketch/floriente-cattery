@@ -1,5 +1,11 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import HeroSection from '../../components/howToBuy/HeroSection.astro';
+import ProcessSection from '../../components/howToBuy/ProcessSection.astro';
+import PricingSection from '../../components/howToBuy/PricingSection.astro';
+import IncludedSection from '../../components/howToBuy/IncludedSection.astro';
+import SupportSection from '../../components/howToBuy/SupportSection.astro';
+import CTASection from '../../components/howToBuy/CTASection.astro';
 import { t, createLangStaticPaths } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
 
@@ -8,9 +14,31 @@ export const getStaticPaths = createLangStaticPaths;
 const { lang } = Astro.props as { lang: Lang };
 ---
 
-<BaseLayout title={t(lang, 'pages.howToBuy.title')} lang={lang} noindex>
-  <div class="max-w-4xl mx-auto px-6 py-16 text-center">
-    <h1 class="text-gold-dark">{t(lang, 'nav.howToBuy')}</h1>
-    <p class="mt-4 text-dark-soft">{t(lang, 'pages.comingSoon')}</p>
+<BaseLayout
+  title={t(lang, 'pages.howToBuy.title')}
+  description={t(lang, 'pages.howToBuy.description')}
+  lang={lang}
+>
+  <div class="scroll-fade">
+    <HeroSection lang={lang} />
+  </div>
+  <div class="scroll-fade">
+    <ProcessSection lang={lang} />
+  </div>
+  <div class="scroll-fade">
+    <PricingSection lang={lang} />
+  </div>
+  <div class="scroll-fade">
+    <IncludedSection lang={lang} />
+  </div>
+  <div class="scroll-fade">
+    <SupportSection lang={lang} />
+  </div>
+  <div class="scroll-fade">
+    <CTASection lang={lang} />
   </div>
 </BaseLayout>
+
+<script>
+  import '../../scripts/scroll-fade';
+</script>

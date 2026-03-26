@@ -1,0 +1,35 @@
+---
+import { t } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const items = [
+  'included1', 'included2', 'included3', 'included4',
+  'included5', 'included6', 'included7', 'included8',
+];
+---
+
+<section class="py-16 md:py-24 px-4 sm:px-6 bg-gray-light/20">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-center mb-3">{t(lang, 'howToBuy.includedTitle')}</h2>
+    <p class="text-center text-dark-soft mb-16 max-w-2xl mx-auto">{t(lang, 'howToBuy.includedSubtitle')}</p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {items.map((key) => (
+        <div class="flex flex-col items-center text-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-gold/10 flex items-center justify-center">
+            <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <p class="text-dark-soft text-sm font-medium">{t(lang, `howToBuy.${key}`)}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

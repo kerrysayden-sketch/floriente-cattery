@@ -1,0 +1,49 @@
+---
+import { t } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const alumni = [
+  { name: 'Al-Muad Dib Salma', src: '/images/family/al-muad-dib-salma.jpg' },
+  { name: 'Alt Milky', src: '/images/family/alt-milky.jpg' },
+  { name: 'Astra Shakhty', src: '/images/family/astra-shakhty.jpg' },
+  { name: 'Asya', src: '/images/family/asya.jpg' },
+  { name: 'Axel Cornelius', src: '/images/family/axel-cornelius.jpg' },
+  { name: 'Bantik', src: '/images/family/bantik.jpg' },
+  { name: 'Barbie', src: '/images/family/barbie.jpg' },
+  { name: 'Bars', src: '/images/family/bars.jpg' },
+  { name: 'Barton', src: '/images/family/barton.jpg' },
+  { name: 'Bead', src: '/images/family/bead.jpg' },
+  { name: 'Benjamin', src: '/images/family/benjamin.jpg' },
+  { name: 'Bill', src: '/images/family/bill.jpg' },
+  { name: 'Buddy', src: '/images/family/buddy.jpg' },
+];
+---
+
+<section class="py-16 md:py-24 px-4 sm:px-6 bg-gray-light/20">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-center mb-3">{t(lang, 'family.alumniTitle')}</h2>
+    <p class="text-center text-dark-soft mb-16 max-w-2xl mx-auto">{t(lang, 'family.alumniSubtitle')}</p>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+      {alumni.map((kitten) => (
+        <div class="group">
+          <div class="aspect-square rounded-lg overflow-hidden mb-2">
+            <img
+              src={kitten.src}
+              alt={kitten.name}
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              loading="lazy"
+            />
+          </div>
+          <p class="text-sm font-serif text-dark text-center">{kitten.name}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

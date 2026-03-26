@@ -1,0 +1,42 @@
+---
+import { t, getLocalizedPath } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
+<section class="py-16 md:py-24 px-4 sm:px-6">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="mb-3">{t(lang, 'family.testimonialsTitle')}</h2>
+    <p class="text-dark-soft mb-12 max-w-2xl mx-auto">{t(lang, 'family.testimonialsSubtitle')}</p>
+
+    <!-- Placeholder for future testimonials -->
+    <div class="bg-warm-white border border-gray-light rounded-lg p-10 max-w-2xl mx-auto">
+      <svg class="w-10 h-10 text-gold/20 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+      </svg>
+      <p class="text-dark-soft italic leading-relaxed">
+        {t(lang, 'family.testimonialsPlaceholder')}
+      </p>
+    </div>
+
+    <!-- CTA -->
+    <div class="mt-16">
+      <h3 class="font-serif text-xl mb-3">{t(lang, 'family.ctaTitle')}</h3>
+      <p class="text-dark-soft mb-6">{t(lang, 'family.ctaText')}</p>
+      <a
+        href={getLocalizedPath('/how-to-buy/', lang)}
+        class="inline-flex items-center gap-2 px-8 py-3.5 bg-gold text-warm-white rounded-sm text-sm tracking-wider uppercase hover:bg-gold-dark transition-colors"
+      >
+        {t(lang, 'family.ctaCta')}
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14M12 5l7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
