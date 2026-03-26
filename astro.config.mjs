@@ -2,11 +2,18 @@
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 import { storyblok } from '@storyblok/astro';
+import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://florientecattery.com',
   integrations: [
+    sitemap({
+      i18n: {
+        defaultLocale: 'en',
+        locales: { en: 'en', uk: 'uk' },
+      },
+    }),
     storyblok({
       accessToken: import.meta.env.STORYBLOK_TOKEN,
       components: {

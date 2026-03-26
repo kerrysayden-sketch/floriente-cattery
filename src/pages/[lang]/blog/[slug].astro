@@ -1,0 +1,84 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { t, getLocalizedPath } from '../../../i18n/utils';
+import type { Lang } from '../../../i18n/utils';
+import { fetchBlogPosts, fetchBlogPost } from '../../../lib/storyblok';
+import { renderRichText } from '@storyblok/astro';
+
+export async function getStaticPaths() {
+  const posts = await fetchBlogPosts();
+  const paths: any[] = [];
+  for (const post of posts) {
+    paths.push({ params: { lang: 'en', slug: post.slug }, props: { lang: 'en' as Lang } });
+    paths.push({ params: { lang: 'uk', slug: post.slug }, props: { lang: 'uk' as Lang } });
+  }
+  return paths;
+}
+
+const { slug } = Astro.params;
+const { lang } = Astro.props as { lang: Lang };
+
+const post = await fetchBlogPost(slug as string);
+if (!post) return Astro.redirect(`/${lang}/blog/`);
+
+const content = lang === 'uk' ? post.content_uk : post.content_en;
+const renderedContent = content ? renderRichText(content) : '';
+const date = post.published_at ? new Date(post.published_at).toLocaleDateString(lang === 'uk' ? 'uk-UA' : 'en-GB', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
+---
+
+<BaseLayout
+  title={`${post.title} — Floriente Cattery`}
+  description={lang === 'uk' ? post.summary_uk : post.summary_en}
+  lang={lang}
+  ogImage={post.cover?.filename}
+>
+  <article class="py-16 md:py-24 px-4 sm:px-6">
+    <div class="max-w-3xl mx-auto">
+      <!-- Back link -->
+      <a
+        href={getLocalizedPath('/blog/', lang)}
+        class="inline-flex items-center gap-2 text-sm text-gold hover:text-gold-dark transition-colors mb-8"
+      >
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 12H5M12 19l-7-7 7-7" />
+        </svg>
+        {t(lang, 'blog.backToBlog')}
+      </a>
+
+      <!-- Header -->
+      <header class="mb-12">
+        {post.category && (
+          <span class="text-xs uppercase tracking-wider text-gold font-semibold">{post.category}</span>
+        )}
+        <h1 class="font-serif text-3xl md:text-4xl text-dark mt-2 mb-4">{post.title}</h1>
+        <div class="flex items-center gap-4 text-sm text-gray-medium">
+          {date && <time>{date}</time>}
+          {post.author && <span>{post.author}</span>}
+        </div>
+      </header>
+
+      <!-- Cover -->
+      {post.cover?.filename && (
+        <div class="aspect-[16/9] rounded-lg overflow-hidden mb-12">
+          <img
+            src={post.cover.filename}
+            alt={post.cover.alt || post.title}
+            class="w-full h-full object-cover"
+          />
+        </div>
+      )}
+
+      <!-- Content -->
+      <div class="prose prose-lg max-w-none text-dark-soft leading-relaxed
+        [&_h2]:font-serif [&_h2]:text-dark [&_h2]:text-2xl [&_h2]:mt-10 [&_h2]:mb-4
+        [&_h3]:font-serif [&_h3]:text-dark [&_h3]:text-xl [&_h3]:mt-8 [&_h3]:mb-3
+        [&_p]:mb-6
+        [&_a]:text-gold [&_a]:hover:text-gold-dark
+        [&_img]:rounded-lg [&_img]:my-8
+        [&_blockquote]:border-l-4 [&_blockquote]:border-gold [&_blockquote]:pl-6 [&_blockquote]:italic [&_blockquote]:font-serif
+        [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-6
+        [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:mb-6
+      " set:html={renderedContent} />
+    </div>
+  </article>
+</BaseLayout>

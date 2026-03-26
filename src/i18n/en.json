@@ -39,7 +39,10 @@
       "title": "How to Buy — Floriente Cattery",
       "description": "Reserve an Oriental or Siamese kitten from Floriente Cattery. Transparent process, open pricing, and lifelong breeder support."
     },
-    "blog": { "title": "Blog — Floriente Cattery" },
+    "blog": {
+      "title": "Blog — Floriente Cattery",
+      "description": "Articles about Oriental and Siamese cats — breed care, health, nutrition, and life at Floriente Cattery."
+    },
     "family": {
       "title": "Family — Floriente Cattery",
       "description": "Floriente Cattery alumni — our kittens in their new homes across Europe. See how they've grown and thrived with their families."
@@ -119,6 +122,14 @@
     "healthText": "We believe that responsible breeding starts with health. All our breeding cats undergo comprehensive genetic testing to ensure healthy kittens.",
     "healthTests": "Our cats are tested for PRA, PK Deficiency, and other breed-specific conditions. Test results are available upon request.",
     "healthLabsTitle": "Testing Partners"
+  },
+  "blog": {
+    "heroTitle": "Blog",
+    "heroText": "Stories, tips, and insights about Oriental and Siamese cats from our cattery.",
+    "emptyTitle": "Coming Soon",
+    "emptyText": "We're preparing our first articles. Check back soon for stories about breed care, health, and life at Floriente.",
+    "readMore": "Read article",
+    "backToBlog": "Back to Blog"
   },
   "contact": {
     "heroTitle": "Get in Touch",

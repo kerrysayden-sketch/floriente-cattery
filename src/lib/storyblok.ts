@@ -92,6 +92,49 @@ export async function fetchKitten(slug: string): Promise<KittenData | null> {
   }
 }
 
+export interface BlogPostData {
+  slug: string;
+  title: string;
+  summary_en: string;
+  summary_uk: string;
+  content_en: any;
+  content_uk: any;
+  cover: { filename: string; alt: string } | null;
+  category: string;
+  published_at: string;
+  author: string;
+}
+
+export async function fetchBlogPosts(): Promise<BlogPostData[]> {
+  try {
+    const data = await storyblokFetch('stories', {
+      starts_with: 'blog/',
+      per_page: '100',
+      sort_by: 'first_published_at:desc',
+    });
+    return data.stories.map((story: any) => ({
+      slug: story.slug,
+      published_at: story.first_published_at || story.created_at,
+      ...story.content,
+    }));
+  } catch {
+    return [];
+  }
+}
+
+export async function fetchBlogPost(slug: string): Promise<BlogPostData | null> {
+  try {
+    const data = await storyblokFetch(`stories/blog/${slug}`);
+    return {
+      slug: data.story.slug,
+      published_at: data.story.first_published_at || data.story.created_at,
+      ...data.story.content,
+    };
+  } catch {
+    return null;
+  }
+}
+
 export function getCatsByRole(cats: CatData[], role: string): CatData[] {
   return cats.filter((cat) => cat.role === role);
 }
