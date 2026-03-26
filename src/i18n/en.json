@@ -33,8 +33,14 @@
       "title": "About — Floriente Cattery",
       "description": "Meet Elvira and learn about Floriente Cattery — our story, philosophy, health testing, and WCF registration."
     },
-    "kittens": { "title": "Kittens — Floriente Cattery" },
-    "ourCats": { "title": "Our Cats — Floriente Cattery" },
+    "kittens": {
+      "title": "Kittens — Floriente Cattery",
+      "description": "Available Oriental Shorthair and Siamese kittens at Floriente Cattery. View current litters, pricing, and adoption process."
+    },
+    "ourCats": {
+      "title": "Our Cats — Floriente Cattery",
+      "description": "Meet our breeding cats — Oriental Shorthair and Siamese champions. WCF registered, health tested, home raised."
+    },
     "howToBuy": {
       "title": "How to Buy — Floriente Cattery",
       "description": "Reserve an Oriental or Siamese kitten from Floriente Cattery. Transparent process, open pricing, and lifelong breeder support."
@@ -163,7 +169,7 @@
     "processTitle": "How It Works",
     "processSubtitle": "From first contact to lifelong friendship — seven simple steps",
     "step1Title": "Get in Touch",
-    "step1Desc": "Write to us on WhatsApp or Messenger. Tell us about yourself, your family, and what you're looking for in a companion.",
+    "step1Desc": "Write to us on WhatsApp or Instagram. Tell us about yourself, your family, and what you're looking for in a companion.",
     "step2Title": "Video Call",
     "step2Desc": "We'll arrange a short video call so we can meet each other, answer your questions, and show you our home and cats.",
     "step3Title": "Choose Your Kitten",
