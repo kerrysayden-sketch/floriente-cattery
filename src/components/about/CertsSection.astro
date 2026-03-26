@@ -8,15 +8,22 @@ interface Props {
 
 const { lang } = Astro.props;
 
-const groups = [
+/*
+  Layout: alternating rows
+  - Landscape cert → full width, aspect-[4/3]
+  - Portrait pair  → 2 side-by-side, aspect-[3/4]
+*/
+const rows = [
   {
     labelKey: 'certsCattery',
+    layout: 'landscape' as const,
     certs: [
       { src: '/images/certs/wcf-registration.jpg', alt: 'WCF Cattery Registration — Floriente #50188-2025' },
     ],
   },
   {
     labelKey: 'certsChampions',
+    layout: 'portrait-pair' as const,
     certs: [
       { src: '/images/certs/gic-sebastian.jpg', alt: 'Grand Inter-Champion — Sebastian Ole Lukhoye' },
       { src: '/images/certs/gic-simona.jpg', alt: 'Grand Inter-Champion — Belly Dance Simona' },
@@ -24,8 +31,15 @@ const groups = [
   },
   {
     labelKey: 'certsEducation',
+    layout: 'landscape' as const,
     certs: [
       { src: '/images/certs/wcf-seminar.jpg', alt: 'WCF Exhibitor-Seminar — June 2024, Ternopil' },
+    ],
+  },
+  {
+    labelKey: null,
+    layout: 'portrait-pair' as const,
+    certs: [
       { src: '/images/certs/felinologist.jpg', alt: 'Felinological Seminar — Breeder-Felinologist Certificate' },
       { src: '/images/certs/breeder-felinologist-2025.jpg', alt: 'Breeder-Felinologist Certificate — June 2025, Ternopil' },
     ],
@@ -34,38 +48,52 @@ const groups = [
 ---
 
 <section class="py-16 md:py-24 px-4 sm:px-6">
-  <div class="max-w-6xl mx-auto text-center">
+  <div class="max-w-5xl mx-auto text-center">
     <h2 class="mb-2">{t(lang, 'about.certsTitle')}</h2>
     <p class="text-gray-medium mb-16">{t(lang, 'about.certsSubtitle')}</p>
 
-    <div class="space-y-14">
-      {groups.map((group) => (
+    <div class="space-y-10">
+      {rows.map((row) => (
         <div>
-          <h3 class="text-sm font-semibold uppercase tracking-wider text-gold mb-6">
-            {t(lang, `about.${group.labelKey}`)}
-          </h3>
-          <div class:list={[
-            'grid gap-6 justify-items-center mx-auto',
-            group.certs.length === 1
-              ? 'grid-cols-1 max-w-xs'
-              : group.certs.length === 2
-                ? 'grid-cols-1 sm:grid-cols-2 max-w-2xl'
-                : 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-4xl',
-          ]}>
-            {group.certs.map((cert) => (
-              <div class="group cursor-pointer w-full">
-                <div class="aspect-[3/4] rounded-lg overflow-hidden border border-gray-light shadow-sm hover:shadow-md transition-shadow">
+          {row.labelKey && (
+            <h3 class="text-sm font-semibold uppercase tracking-wider text-gold mb-6">
+              {t(lang, `about.${row.labelKey}`)}
+            </h3>
+          )}
+
+          {row.layout === 'landscape' ? (
+            /* Single landscape certificate — full width */
+            <div class="max-w-2xl mx-auto">
+              <div class="group cursor-pointer">
+                <div class="aspect-[4/3] rounded-lg overflow-hidden border border-gray-light shadow-sm hover:shadow-md transition-shadow">
                   <img
-                    src={cert.src}
-                    alt={cert.alt}
-                    class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                    src={row.certs[0].src}
+                    alt={row.certs[0].alt}
+                    class="w-full h-full object-contain bg-gray-light/20 grayscale group-hover:grayscale-0 transition-all duration-500"
                     loading="lazy"
                     data-lightbox
                   />
                 </div>
               </div>
-            ))}
-          </div>
+            </div>
+          ) : (
+            /* Portrait pair — two side by side */
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
+              {row.certs.map((cert) => (
+                <div class="group cursor-pointer">
+                  <div class="aspect-[3/4] rounded-lg overflow-hidden border border-gray-light shadow-sm hover:shadow-md transition-shadow">
+                    <img
+                      src={cert.src}
+                      alt={cert.alt}
+                      class="w-full h-full object-contain bg-gray-light/20 grayscale group-hover:grayscale-0 transition-all duration-500"
+                      loading="lazy"
+                      data-lightbox
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       ))}
     </div>
