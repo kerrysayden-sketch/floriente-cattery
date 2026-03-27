@@ -18,12 +18,13 @@ const {
   title,
   description = 'Floriente Cattery — Oriental Shorthair & Siamese kittens. Raised at home. Transparent from day one.',
   lang = 'en',
-  ogImage = '/images/floriente_dark_navy_transparent.png',
+  ogImage = '/images/cats/sebastian.jpg',
   noindex = false,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const pathWithoutLang = Astro.url.pathname.replace(/^\/(en|uk)/, '') || '/';
+const absoluteOgImage = ogImage.startsWith('http') ? ogImage : new URL(ogImage, Astro.site).toString();
 ---
 
 <!doctype html>
@@ -71,7 +72,7 @@ const pathWithoutLang = Astro.url.pathname.replace(/^\/(en|uk)/, '') || '/';
     <!-- Open Graph -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:image" content={absoluteOgImage} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:site_name" content="Floriente Cattery" />
@@ -80,7 +81,7 @@ const pathWithoutLang = Astro.url.pathname.replace(/^\/(en|uk)/, '') || '/';
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image" content={absoluteOgImage} />
 
     <title>{title}</title>
 

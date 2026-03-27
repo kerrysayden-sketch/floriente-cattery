@@ -4,7 +4,7 @@ const API_BASE = 'https://api.storyblok.com/v2/cdn';
 async function storyblokFetch(path: string, params: Record<string, string> = {}) {
   const url = new URL(`${API_BASE}/${path}`);
   url.searchParams.set('token', STORYBLOK_TOKEN);
-  url.searchParams.set('version', 'draft');
+  url.searchParams.set('version', import.meta.env.DEV ? 'draft' : 'published');
   for (const [k, v] of Object.entries(params)) {
     url.searchParams.set(k, v);
   }

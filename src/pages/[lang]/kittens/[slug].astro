@@ -133,7 +133,7 @@ const breedFull = kitten.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese';
     {/* Watch Me Grow */}
     {kitten.watch_me_grow && kitten.watch_me_grow.length > 0 && (
       <section class="mt-16 md:mt-24">
-        <h2 class="text-center mb-10">Watch Me Grow</h2>
+        <h2 class="text-center mb-10">{lang === 'en' ? 'Watch Me Grow' : 'Як я росту'}</h2>
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
           {kitten.watch_me_grow
             .sort((a: any, b: any) => (a.week || 0) - (b.week || 0))
