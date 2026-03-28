@@ -7,24 +7,49 @@ import { fetchCats, fetchKittens } from '../../../lib/storyblok';
 import type { CatData } from '../../../lib/storyblok';
 
 export async function getStaticPaths() {
+  // Local fallback for cats not yet in Storyblok
+  const localCats: (CatData & { localPhoto?: string; localGallery?: string[] })[] = [
+    {
+      slug: 'halva',
+      name: 'Halva',
+      breed: 'OSH',
+      sex: 'female',
+      color: 'Chocolate',
+      ems_code: 'OSH b',
+      dob: '2025-07-15',
+      titles: '',
+      role: 'queen',
+      photos: null,
+      description_en: 'Our youngest queen, Halva brings warmth and playful energy to Floriente. With her rich chocolate coat and expressive eyes, she embodies the best of Oriental elegance. Currently preparing for her show debut.',
+      description_uk: 'Наша наймолодша кішка, Халва привносить тепло та грайливу енергію у Floriente. Завдяки насиченому шоколадному забарвленню та виразним очам, вона втілює найкраще орієнтальної елегантності. Наразі готується до свого виставкового дебюту.',
+      health_tests: [],
+      gallery: [],
+      pedigree_pdf: null,
+      localPhoto: '/images/cats/halva-main.jpg',
+      localGallery: ['/images/cats/halva-2.jpg', '/images/cats/halva-3.jpg', '/images/cats/halva-4.jpg'],
+    },
+  ];
+
   let cats: CatData[] = [];
   try {
     cats = await fetchCats();
-  } catch {
-    return [];
-  }
+  } catch {}
+
+  // Merge CMS cats + local cats (avoid duplicates)
+  const cmsSlugs = new Set(cats.map(c => c.slug));
+  const allCats = [...cats, ...localCats.filter(c => !cmsSlugs.has(c.slug))];
 
   return locales.flatMap((lang) =>
-    cats.map((cat) => ({
+    allCats.map((cat) => ({
       params: { lang, slug: cat.slug },
       props: { lang, cat },
     }))
   );
 }
 
-const { lang, cat } = Astro.props as { lang: Lang; cat: CatData };
-const photoUrl = cat.photos?.filename || '/images/floriente_dark_navy_transparent.png';
-const hasPhoto = !!cat.photos?.filename;
+const { lang, cat } = Astro.props as { lang: Lang; cat: CatData & { localPhoto?: string; localGallery?: string[] } };
+const photoUrl = cat.localPhoto || cat.photos?.filename || '/images/floriente_dark_navy_transparent.png';
+const hasPhoto = !!cat.localPhoto || !!cat.photos?.filename;
 const description = lang === 'uk' ? cat.description_uk : cat.description_en;
 const breedFull = cat.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese';
 
@@ -63,7 +88,7 @@ try {
           />
         </div>
 
-        {/* Gallery thumbnails */}
+        {/* Gallery thumbnails (CMS) */}
         {cat.gallery && cat.gallery.length > 0 && (
           <div class="grid grid-cols-4 gap-2 mt-4">
             {cat.gallery.map((item: any) => (
@@ -71,6 +96,22 @@ try {
                 <img
                   src={item.image?.filename || ''}
                   alt={item.caption || cat.name}
+                  class="w-full h-full object-cover cursor-pointer hover:opacity-80 transition-opacity"
+                  loading="lazy"
+                  data-lightbox
+                />
+              </div>
+            ))}
+          </div>
+        )}
+        {/* Gallery thumbnails (local fallback) */}
+        {cat.localGallery && cat.localGallery.length > 0 && (
+          <div class="grid grid-cols-4 gap-2 mt-4">
+            {cat.localGallery.map((src: string) => (
+              <div class="aspect-square rounded overflow-hidden bg-gray-light/50">
+                <img
+                  src={src}
+                  alt={cat.name}
                   class="w-full h-full object-cover cursor-pointer hover:opacity-80 transition-opacity"
                   loading="lazy"
                   data-lightbox

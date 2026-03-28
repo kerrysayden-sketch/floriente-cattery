@@ -48,11 +48,16 @@ const halvaFallback: CatData & { localPhoto?: string } = {
   localPhoto: '/images/cats/halva-main.jpg',
 };
 
-// Merge CMS data with local overrides
-const enrichedCats = allCats.map(cat => ({
-  ...cat,
-  ...localOverrides[cat.slug],
-}));
+// Only show these cats in showcase (exclude Salma and any others)
+const showcaseSlugs = ['simona', 'sebastian', 'halva'];
+
+// Merge CMS data with local overrides, filter to showcase only
+const enrichedCats = allCats
+  .filter(cat => showcaseSlugs.includes(cat.slug))
+  .map(cat => ({
+    ...cat,
+    ...localOverrides[cat.slug],
+  }));
 
 // Add Halva if not in CMS
 if (!enrichedCats.find(c => c.slug === 'halva')) {

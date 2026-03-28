@@ -39,9 +39,9 @@ const portraitCerts = [
               alt={cert.alt}
               class="w-full h-full object-contain bg-gray-light/20 grayscale group-hover:grayscale-0 transition-all duration-500"
               loading="lazy"
-              data-lightbox
             />
             <div class="cert-watermark">Floriente Cattery</div>
+            <div class="cert-overlay"></div>
           </div>
         </div>
       ))}
@@ -60,9 +60,9 @@ const portraitCerts = [
               alt={cert.alt}
               class="w-full h-full object-contain bg-gray-light/20 grayscale group-hover:grayscale-0 transition-all duration-500"
               loading="lazy"
-              data-lightbox
             />
             <div class="cert-watermark">Floriente Cattery</div>
+            <div class="cert-overlay"></div>
           </div>
         </div>
       ))}
@@ -91,6 +91,17 @@ const portraitCerts = [
   }
   .cert-card img.touched {
     filter: grayscale(0) !important;
+  }
+  /* Transparent overlay prevents "Save Image As" */
+  .cert-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    background: transparent;
+    cursor: default;
   }
   /* Copy protection */
   .cert-card img {
