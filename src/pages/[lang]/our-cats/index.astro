@@ -37,18 +37,36 @@ const useCompactLayout = activeCats.length <= 4;
     </p>
 
     {useCompactLayout ? (
-      /* Compact layout: all cats in one centered grid when few cats */
-      <section class="mb-16">
-        <div class:list={[
-          'grid gap-8 mx-auto',
-          activeCats.length === 1 ? 'grid-cols-1 max-w-sm' : '',
-          activeCats.length === 2 ? 'grid-cols-1 sm:grid-cols-2 max-w-2xl' : '',
-          activeCats.length === 3 ? 'grid-cols-1 sm:grid-cols-3 max-w-4xl' : '',
-          activeCats.length === 4 ? 'grid-cols-2 max-w-3xl' : '',
-        ]}>
-          {activeCats.map((cat) => <CatCard cat={cat} lang={lang} />)}
-        </div>
-      </section>
+      /* Compact layout with Kings/Queens labels */
+      <>
+        {kings.length > 0 && (
+          <section class="mb-12">
+            <h2 class="text-sm font-semibold uppercase tracking-wider text-gold mb-8 text-center">
+              {kings.length === 1 ? (lang === 'en' ? 'King' : 'Кіт') : (lang === 'en' ? 'Kings' : 'Коти')}
+            </h2>
+            <div class:list={[
+              'grid gap-8 mx-auto',
+              kings.length === 1 ? 'grid-cols-1 max-w-sm' : 'grid-cols-1 sm:grid-cols-2 max-w-2xl',
+            ]}>
+              {kings.map((cat) => <CatCard cat={cat} lang={lang} />)}
+            </div>
+          </section>
+        )}
+        {queens.length > 0 && (
+          <section class="mb-16">
+            <h2 class="text-sm font-semibold uppercase tracking-wider text-gold mb-8 text-center">
+              {queens.length === 1 ? (lang === 'en' ? 'Queen' : 'Кішка') : (lang === 'en' ? 'Queens' : 'Кішки')}
+            </h2>
+            <div class:list={[
+              'grid gap-8 mx-auto',
+              queens.length === 1 ? 'grid-cols-1 max-w-sm' : 'grid-cols-1 sm:grid-cols-2 max-w-2xl',
+              queens.length === 3 ? 'sm:grid-cols-3 max-w-4xl' : '',
+            ]}>
+              {queens.map((cat) => <CatCard cat={cat} lang={lang} />)}
+            </div>
+          </section>
+        )}
+      </>
     ) : (
       /* Full layout: separate Kings/Queens sections when many cats */
       <>

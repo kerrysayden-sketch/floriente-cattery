@@ -9,9 +9,26 @@ interface Props {
 const { lang } = Astro.props;
 
 const items = [
-  'included1', 'included2', 'included3', 'included4',
-  'included5', 'included6', 'included7', 'included8',
+  { key: 'included1', icon: 'syringe' },     // 2x vaccination + rabies
+  { key: 'included2', icon: 'chip' },         // Microchip
+  { key: 'included3', icon: 'passport' },     // Veterinary passport
+  { key: 'included4', icon: 'pedigree' },     // WCF pedigree
+  { key: 'included5', icon: 'scissors' },     // Spay/neuter (pet class)
+  { key: 'included6', icon: 'food' },         // Starter food
+  { key: 'included7', icon: 'toy' },          // Toys & comfort blanket
+  { key: 'included8', icon: 'book' },         // Adaptation guide
 ];
+
+const icons: Record<string, string> = {
+  syringe: '<path d="M19.5 4.5l-1-1m1 1l-2.5 2.5M19.5 4.5L21 3M12 12l-3.5 3.5M2 22l1.5-1.5M5.5 16.5L2 20M15 9l-3 3M17.5 6.5L15 9M8.5 15.5l-3 3" stroke-linecap="round" stroke-linejoin="round"/>',
+  chip: '<path d="M9 3v2M15 3v2M9 19v2M15 19v2M3 9h2M3 15h2M19 9h2M19 15h2M7 7h10v10H7z" stroke-linecap="round" stroke-linejoin="round"/><rect x="9" y="9" width="6" height="6" rx="1" stroke-linecap="round" stroke-linejoin="round"/>',
+  passport: '<path d="M4 4h16v16H4z" rx="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="10" r="3"/><path d="M8 16c0-2.2 1.8-4 4-4s4 1.8 4 4" stroke-linecap="round" stroke-linejoin="round"/>',
+  pedigree: '<path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2M9 12h6M9 16h6" stroke-linecap="round" stroke-linejoin="round"/>',
+  scissors: '<circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12" stroke-linecap="round" stroke-linejoin="round"/>',
+  food: '<path d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8zM6 1v3M10 1v3M14 1v3" stroke-linecap="round" stroke-linejoin="round"/>',
+  toy: '<circle cx="12" cy="12" r="9"/><path d="M12 8a2.5 2.5 0 00-2.5 2.5c0 1 .5 1.5 1.5 2.5l1 1 1-1c1-1 1.5-1.5 1.5-2.5A2.5 2.5 0 0012 8z" stroke-linecap="round" stroke-linejoin="round"/>',
+  book: '<path d="M4 19.5A2.5 2.5 0 016.5 17H20M4 4.5A2.5 2.5 0 016.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15z" stroke-linecap="round" stroke-linejoin="round"/>',
+};
 ---
 
 <section class="py-16 md:py-24 px-4 sm:px-6 bg-gray-light/20">
@@ -19,15 +36,13 @@ const items = [
     <h2 class="text-center mb-3">{t(lang, 'howToBuy.includedTitle')}</h2>
     <p class="text-center text-dark-soft mb-16 max-w-2xl mx-auto">{t(lang, 'howToBuy.includedSubtitle')}</p>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-      {items.map((key) => (
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-8 scroll-fade-stagger">
+      {items.map((item) => (
         <div class="flex flex-col items-center text-center gap-3">
-          <div class="w-10 h-10 rounded-full bg-gold/10 flex items-center justify-center">
-            <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M5 13l4 4L19 7" />
-            </svg>
+          <div class="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center">
+            <svg class="w-6 h-6 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" set:html={icons[item.icon]} />
           </div>
-          <p class="text-dark-soft text-sm font-medium">{t(lang, `howToBuy.${key}`)}</p>
+          <p class="text-dark-soft text-sm font-medium leading-snug">{t(lang, `howToBuy.${item.key}`)}</p>
         </div>
       ))}
     </div>

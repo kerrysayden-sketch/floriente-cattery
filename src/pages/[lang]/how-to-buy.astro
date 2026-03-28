@@ -4,6 +4,7 @@ import HeroSection from '../../components/howToBuy/HeroSection.astro';
 import ProcessSection from '../../components/howToBuy/ProcessSection.astro';
 import PricingSection from '../../components/howToBuy/PricingSection.astro';
 import IncludedSection from '../../components/howToBuy/IncludedSection.astro';
+import TCOSection from '../../components/howToBuy/TCOSection.astro';
 import SupportSection from '../../components/howToBuy/SupportSection.astro';
 import CTASection from '../../components/howToBuy/CTASection.astro';
 import { t, createLangStaticPaths } from '../../i18n/utils';
@@ -30,6 +31,9 @@ const { lang } = Astro.props as { lang: Lang };
   </div>
   <div class="scroll-fade">
     <IncludedSection lang={lang} />
+  </div>
+  <div class="scroll-fade">
+    <TCOSection lang={lang} />
   </div>
   <div class="scroll-fade">
     <SupportSection lang={lang} />

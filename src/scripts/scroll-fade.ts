@@ -13,4 +13,4 @@ const observer = new IntersectionObserver(
   { threshold: 0.1 },
 );
 
-document.querySelectorAll('.scroll-fade').forEach((el) => observer.observe(el));
+document.querySelectorAll('.scroll-fade, .scroll-fade-stagger').forEach((el) => observer.observe(el));

@@ -95,4 +95,49 @@
     opacity: 1;
     transform: translateY(0);
   }
+
+  /* Staggered children: add scroll-fade-stagger to parent */
+  .scroll-fade-ready .scroll-fade-stagger.visible > * {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fade-in 0.6s ease-out both;
+  }
+  .scroll-fade-ready .scroll-fade-stagger.visible > *:nth-child(1) { animation-delay: 0.05s; }
+  .scroll-fade-ready .scroll-fade-stagger.visible > *:nth-child(2) { animation-delay: 0.1s; }
+  .scroll-fade-ready .scroll-fade-stagger.visible > *:nth-child(3) { animation-delay: 0.15s; }
+  .scroll-fade-ready .scroll-fade-stagger.visible > *:nth-child(4) { animation-delay: 0.2s; }
+  .scroll-fade-ready .scroll-fade-stagger.visible > *:nth-child(5) { animation-delay: 0.25s; }
+  .scroll-fade-ready .scroll-fade-stagger.visible > *:nth-child(6) { animation-delay: 0.3s; }
+  .scroll-fade-ready .scroll-fade-stagger.visible > *:nth-child(7) { animation-delay: 0.35s; }
+  .scroll-fade-ready .scroll-fade-stagger.visible > *:nth-child(8) { animation-delay: 0.4s; }
+}
+
+/* ── Card hover lift ── */
+@media (prefers-reduced-motion: no-preference) {
+  .card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px -8px rgba(0,0,0,0.1);
+  }
+}
+
+/* ── Gold underline link animation ── */
+.link-underline {
+  position: relative;
+  display: inline-block;
+}
+.link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--color-gold);
+  transition: width 0.3s ease;
+}
+.link-underline:hover::after {
+  width: 100%;
 }
