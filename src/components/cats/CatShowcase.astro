@@ -1,0 +1,108 @@
+---
+import { getLocalizedPath } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+import type { CatData } from '../../lib/storyblok';
+
+interface Props {
+  cat: CatData & { localPhoto?: string };
+  lang: Lang;
+  reversed?: boolean;
+  isFirst?: boolean;
+}
+
+const { cat, lang, reversed = false, isFirst = false } = Astro.props;
+
+const profileUrl = getLocalizedPath(`/our-cats/${cat.slug}/`, lang);
+const photoUrl = cat.localPhoto || cat.photos?.filename || '/images/floriente_dark_navy_transparent.png';
+const hasPhoto = !!cat.localPhoto || !!cat.photos?.filename;
+const breedFull = cat.breed === 'OSH' ? 'Oriental Shorthair' : cat.breed === 'SIA' ? 'Siamese' : cat.breed;
+const roleLabel = cat.sex === 'female'
+  ? (lang === 'en' ? 'Queen' : 'Кішка')
+  : (lang === 'en' ? 'King' : 'Кіт');
+const description = lang === 'en' ? cat.description_en : cat.description_uk;
+
+// Quick stats
+const stats = [
+  { label: lang === 'en' ? 'Breed' : 'Порода', value: breedFull },
+  { label: lang === 'en' ? 'Color' : 'Окрас', value: cat.color },
+  { label: 'EMS', value: cat.ems_code },
+];
+if (cat.titles) {
+  stats.unshift({ label: lang === 'en' ? 'Titles' : 'Титули', value: cat.titles });
+}
+---
+
+<section class:list={['mb-16 md:mb-24 scroll-fade', !isFirst && 'pt-8 md:pt-12 border-t border-gray-light/50']}>
+  <!-- Role label -->
+  <h2 class="text-sm font-semibold uppercase tracking-wider text-gold mb-8 md:mb-10 text-center">
+    {roleLabel}
+  </h2>
+
+  <!-- Alternating 2-column layout -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center max-w-5xl mx-auto">
+    <!-- Photo -->
+    <a
+      href={profileUrl}
+      class:list={[
+        'group block rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-500',
+        reversed ? 'md:order-2' : 'md:order-1',
+      ]}
+    >
+      <div class="aspect-[4/5] overflow-hidden bg-gray-light/20">
+        <img
+          src={photoUrl}
+          alt={cat.name}
+          class:list={[
+            'w-full h-full transition-transform duration-700 group-hover:scale-[1.03]',
+            hasPhoto ? 'object-cover' : 'object-contain opacity-30 p-8',
+          ]}
+          loading={isFirst ? 'eager' : 'lazy'}
+        />
+      </div>
+    </a>
+
+    <!-- Info panel -->
+    <div class:list={[
+      'flex flex-col justify-center space-y-6',
+      reversed ? 'md:order-1' : 'md:order-2',
+    ]}>
+      <!-- Name -->
+      <div>
+        <h3 class="font-serif text-3xl md:text-4xl text-dark mb-2">{cat.name}</h3>
+        {cat.titles && (
+          <span class="inline-block px-3 py-1 bg-gold/10 text-gold text-xs font-semibold uppercase tracking-wider rounded-full">
+            {cat.titles}
+          </span>
+        )}
+      </div>
+
+      <!-- Quick stats grid -->
+      <div class="grid grid-cols-2 gap-3">
+        {stats.map((stat) => (
+          <div class="bg-warm-white border border-gray-light/50 rounded-lg p-3">
+            <p class="text-xs text-gray-medium uppercase tracking-wider mb-0.5">{stat.label}</p>
+            <p class="text-sm text-dark font-medium">{stat.value}</p>
+          </div>
+        ))}
+      </div>
+
+      <!-- Description -->
+      {description && (
+        <p class="text-dark-soft text-sm leading-relaxed">{description}</p>
+      )}
+
+      <!-- CTA -->
+      <a
+        href={profileUrl}
+        class="inline-flex items-center gap-2 text-gold hover:text-gold-dark text-sm font-medium transition-colors group/link"
+      >
+        <span class="link-underline">
+          {lang === 'en' ? 'View full profile' : 'Переглянути повний профіль'}
+        </span>
+        <svg class="w-4 h-4 transform group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>

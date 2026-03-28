@@ -1,26 +1,71 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import CatShowcase from '../../../components/cats/CatShowcase.astro';
 import CatCard from '../../../components/cats/CatCard.astro';
 import { t, createLangStaticPaths, getLocalizedPath } from '../../../i18n/utils';
 import type { Lang } from '../../../i18n/utils';
 import { fetchCats, getCatsByRole } from '../../../lib/storyblok';
+import type { CatData } from '../../../lib/storyblok';
 
 export const getStaticPaths = createLangStaticPaths;
 
 const { lang } = Astro.props as { lang: Lang };
 
-let allCats: any[] = [];
+let allCats: CatData[] = [];
 try {
   allCats = await fetchCats();
 } catch (e) {
-  // CMS unavailable — show empty state
+  // CMS unavailable — use fallback only
 }
 
-const kings = getCatsByRole(allCats, 'king');
-const queens = getCatsByRole(allCats, 'queen');
-const retired = getCatsByRole(allCats, 'retired');
-const activeCats = [...kings, ...queens];
-const useCompactLayout = activeCats.length <= 4;
+// Fallback/override data for cats not yet in CMS or needing local photos
+const localOverrides: Record<string, Partial<CatData> & { localPhoto?: string }> = {
+  'simona': {
+    localPhoto: '/images/cats/simona-main.jpg',
+  },
+  'sebastian': {
+    localPhoto: '/images/cats/sebastian-main.jpg',
+  },
+};
+
+// Halva fallback (not yet in Storyblok)
+const halvaFallback: CatData & { localPhoto?: string } = {
+  slug: 'halva',
+  name: 'Halva',
+  breed: 'OSH',
+  sex: 'female',
+  color: 'Chocolate',
+  ems_code: 'OSH b',
+  dob: '2025-07-15',
+  titles: '',
+  role: 'queen',
+  photos: null,
+  description_en: 'Our youngest queen, Halva brings warmth and playful energy to Floriente. With her rich chocolate coat and expressive eyes, she embodies the best of Oriental elegance. Currently preparing for her show debut.',
+  description_uk: 'Наша наймолодша кішка, Халва привносить тепло та грайливу енергію у Floriente. Завдяки насиченому шоколадному забарвленню та виразним очам, вона втілює найкраще орієнтальної елегантності. Наразі готується до свого виставкового дебюту.',
+  health_tests: [],
+  gallery: [],
+  pedigree_pdf: null,
+  localPhoto: '/images/cats/halva-main.jpg',
+};
+
+// Merge CMS data with local overrides
+const enrichedCats = allCats.map(cat => ({
+  ...cat,
+  ...localOverrides[cat.slug],
+}));
+
+// Add Halva if not in CMS
+if (!enrichedCats.find(c => c.slug === 'halva')) {
+  enrichedCats.push(halvaFallback);
+}
+
+const kings = enrichedCats.filter(c => c.role === 'king' && c.sex === 'male');
+const queens = enrichedCats.filter(c => c.role === 'queen' || c.sex === 'female');
+const retired = enrichedCats.filter(c => c.role === 'retired');
+
+// Ordered showcase: all cats in alternating layout
+// Queens first, then Kings
+const showcaseCats = [...queens, ...kings];
 ---
 
 <BaseLayout
@@ -36,100 +81,10 @@ const useCompactLayout = activeCats.length <= 4;
         : 'Познайомтеся з котами розплідника Floriente. Кожен з них — протестований на здоров\'я, титулований та, найголовніше, улюблений член родини.'}
     </p>
 
-    {useCompactLayout ? (
-      /* Rich layout: Queens first, then King, with info panels */
-      <>
-        {queens.length > 0 && (
-          <section class="mb-16">
-            <h2 class="text-sm font-semibold uppercase tracking-wider text-gold mb-10 text-center">
-              {queens.length === 1 ? (lang === 'en' ? 'Our Queen' : 'Наша кішка') : (lang === 'en' ? 'Our Queens' : 'Наші кішки')}
-            </h2>
-            <div class:list={[
-              'grid gap-8 mx-auto',
-              queens.length === 1 ? 'grid-cols-1 md:grid-cols-2 max-w-4xl items-center' : 'grid-cols-1 sm:grid-cols-2 max-w-3xl',
-            ]}>
-              {queens.map((cat) => (
-                queens.length === 1 ? (
-                  <>
-                    <CatCard cat={cat} lang={lang} />
-                    <div class="space-y-4 scroll-fade">
-                      <h3 class="font-serif text-2xl text-dark">{cat.name}</h3>
-                      {cat.titles && <p class="text-gold text-sm font-medium uppercase tracking-wider">{cat.titles}</p>}
-                      <p class="text-dark-soft text-sm leading-relaxed">{cat.breed} · {cat.color}</p>
-                      <p class="text-dark-soft text-sm leading-relaxed">
-                        {lang === 'en' ? cat.description_en : cat.description_uk}
-                      </p>
-                      <a href={getLocalizedPath(`/our-cats/${cat.slug}/`, lang)} class="inline-flex items-center gap-1 text-gold text-sm font-medium link-underline">
-                        {lang === 'en' ? 'View profile' : 'Переглянути профіль'}
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-                      </a>
-                    </div>
-                  </>
-                ) : (
-                  <CatCard cat={cat} lang={lang} />
-                )
-              ))}
-            </div>
-          </section>
-        )}
-        {kings.length > 0 && (
-          <section class="mb-16">
-            <h2 class="text-sm font-semibold uppercase tracking-wider text-gold mb-10 text-center">
-              {kings.length === 1 ? (lang === 'en' ? 'Our King' : 'Наш кіт') : (lang === 'en' ? 'Our Kings' : 'Наші коти')}
-            </h2>
-            <div class:list={[
-              'grid gap-8 mx-auto',
-              kings.length === 1 ? 'grid-cols-1 md:grid-cols-2 max-w-4xl items-center' : 'grid-cols-1 sm:grid-cols-2 max-w-3xl',
-            ]}>
-              {kings.map((cat) => (
-                kings.length === 1 ? (
-                  <>
-                    <div class="space-y-4 scroll-fade md:order-1">
-                      <h3 class="font-serif text-2xl text-dark">{cat.name}</h3>
-                      {cat.titles && <p class="text-gold text-sm font-medium uppercase tracking-wider">{cat.titles}</p>}
-                      <p class="text-dark-soft text-sm leading-relaxed">{cat.breed} · {cat.color}</p>
-                      <p class="text-dark-soft text-sm leading-relaxed">
-                        {lang === 'en' ? cat.description_en : cat.description_uk}
-                      </p>
-                      <a href={getLocalizedPath(`/our-cats/${cat.slug}/`, lang)} class="inline-flex items-center gap-1 text-gold text-sm font-medium link-underline">
-                        {lang === 'en' ? 'View profile' : 'Переглянути профіль'}
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-                      </a>
-                    </div>
-                    <div class="md:order-2">
-                      <CatCard cat={cat} lang={lang} />
-                    </div>
-                  </>
-                ) : (
-                  <CatCard cat={cat} lang={lang} />
-                )
-              ))}
-            </div>
-          </section>
-        )}
-      </>
-    ) : (
-      /* Full layout: separate Kings/Queens sections when many cats */
-      <>
-        {queens.length > 0 && (
-          <section class="mb-16">
-            <h2 class="mb-8">{lang === 'en' ? 'Our Queens' : 'Наші кішки'}</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {queens.map((cat) => <CatCard cat={cat} lang={lang} />)}
-            </div>
-          </section>
-        )}
-
-        {kings.length > 0 && (
-          <section class="mb-16">
-            <h2 class="mb-8">{lang === 'en' ? 'Our Kings' : 'Наші коти'}</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {kings.map((cat) => <CatCard cat={cat} lang={lang} />)}
-            </div>
-          </section>
-        )}
-      </>
-    )}
+    {/* Alternating showcase for each cat */}
+    {showcaseCats.map((cat, index) => (
+      <CatShowcase cat={cat} lang={lang} reversed={index % 2 === 1} isFirst={index === 0} />
+    ))}
 
     {/* Retired */}
     {retired.length > 0 && (
@@ -142,7 +97,7 @@ const useCompactLayout = activeCats.length <= 4;
     )}
 
     {/* Empty state */}
-    {allCats.length === 0 && (
+    {showcaseCats.length === 0 && retired.length === 0 && (
       <div class="text-center py-16">
         <p class="text-dark-soft text-lg">{t(lang, 'pages.comingSoon')}</p>
       </div>
