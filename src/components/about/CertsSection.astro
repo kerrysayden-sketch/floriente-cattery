@@ -33,7 +33,7 @@ const portraitCerts = [
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
       {landscapeCerts.map((cert) => (
         <div class="cert-card group cursor-pointer">
-          <div class="aspect-[4/3] rounded-lg overflow-hidden border border-gray-light shadow-sm hover:shadow-md transition-shadow">
+          <div class="aspect-[4/3] rounded-lg overflow-hidden border border-gray-light shadow-sm hover:shadow-md transition-shadow relative">
             <img
               src={cert.src}
               alt={cert.alt}
@@ -41,6 +41,7 @@ const portraitCerts = [
               loading="lazy"
               data-lightbox
             />
+            <div class="cert-watermark">Floriente Cattery</div>
           </div>
         </div>
       ))}
@@ -53,7 +54,7 @@ const portraitCerts = [
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
       {portraitCerts.map((cert) => (
         <div class="cert-card group cursor-pointer">
-          <div class="aspect-[3/4] rounded-lg overflow-hidden border border-gray-light shadow-sm hover:shadow-md transition-shadow">
+          <div class="aspect-[3/4] rounded-lg overflow-hidden border border-gray-light shadow-sm hover:shadow-md transition-shadow relative">
             <img
               src={cert.src}
               alt={cert.alt}
@@ -61,6 +62,7 @@ const portraitCerts = [
               loading="lazy"
               data-lightbox
             />
+            <div class="cert-watermark">Floriente Cattery</div>
           </div>
         </div>
       ))}
@@ -68,11 +70,38 @@ const portraitCerts = [
   </div>
 </section>
 
-<!-- Touch device support: remove grayscale on tap -->
+<!-- Watermark + Touch device support -->
 <style>
-  @media (hover: none) {
-    .cert-card img {
-      filter: grayscale(0) !important;
-    }
+  .cert-watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    font-family: var(--font-serif);
+    font-size: clamp(0.75rem, 2.5vw, 1.25rem);
+    font-weight: 600;
+    color: rgba(139, 115, 85, 0.25);
+    white-space: nowrap;
+    pointer-events: none;
+    user-select: none;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+  .cert-card img.touched {
+    filter: grayscale(0) !important;
   }
 </style>
+
+<script>
+  // On touch devices: tap to show color, revert after 3 seconds
+  if ('ontouchstart' in window || navigator.maxTouchPoints > 0) {
+    document.querySelectorAll('.cert-card img').forEach((img) => {
+      img.addEventListener('touchstart', (e) => {
+        const el = e.currentTarget as HTMLImageElement;
+        el.classList.add('touched');
+        setTimeout(() => el.classList.remove('touched'), 3000);
+      }, { passive: true });
+    });
+  }
+</script>

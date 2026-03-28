@@ -37,32 +37,73 @@ const useCompactLayout = activeCats.length <= 4;
     </p>
 
     {useCompactLayout ? (
-      /* Compact layout with Kings/Queens labels */
+      /* Rich layout: Queens first, then King, with info panels */
       <>
-        {kings.length > 0 && (
-          <section class="mb-12">
-            <h2 class="text-sm font-semibold uppercase tracking-wider text-gold mb-8 text-center">
-              {kings.length === 1 ? (lang === 'en' ? 'King' : 'Кіт') : (lang === 'en' ? 'Kings' : 'Коти')}
+        {queens.length > 0 && (
+          <section class="mb-16">
+            <h2 class="text-sm font-semibold uppercase tracking-wider text-gold mb-10 text-center">
+              {queens.length === 1 ? (lang === 'en' ? 'Our Queen' : 'Наша кішка') : (lang === 'en' ? 'Our Queens' : 'Наші кішки')}
             </h2>
             <div class:list={[
               'grid gap-8 mx-auto',
-              kings.length === 1 ? 'grid-cols-1 max-w-sm' : 'grid-cols-1 sm:grid-cols-2 max-w-2xl',
+              queens.length === 1 ? 'grid-cols-1 md:grid-cols-2 max-w-4xl items-center' : 'grid-cols-1 sm:grid-cols-2 max-w-3xl',
             ]}>
-              {kings.map((cat) => <CatCard cat={cat} lang={lang} />)}
+              {queens.map((cat) => (
+                queens.length === 1 ? (
+                  <>
+                    <CatCard cat={cat} lang={lang} />
+                    <div class="space-y-4 scroll-fade">
+                      <h3 class="font-serif text-2xl text-dark">{cat.name}</h3>
+                      {cat.titles && <p class="text-gold text-sm font-medium uppercase tracking-wider">{cat.titles}</p>}
+                      <p class="text-dark-soft text-sm leading-relaxed">{cat.breed} · {cat.color}</p>
+                      <p class="text-dark-soft text-sm leading-relaxed">
+                        {lang === 'en' ? cat.description_en : cat.description_uk}
+                      </p>
+                      <a href={getLocalizedPath(`/our-cats/${cat.slug}/`, lang)} class="inline-flex items-center gap-1 text-gold text-sm font-medium link-underline">
+                        {lang === 'en' ? 'View profile' : 'Переглянути профіль'}
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+                      </a>
+                    </div>
+                  </>
+                ) : (
+                  <CatCard cat={cat} lang={lang} />
+                )
+              ))}
             </div>
           </section>
         )}
-        {queens.length > 0 && (
+        {kings.length > 0 && (
           <section class="mb-16">
-            <h2 class="text-sm font-semibold uppercase tracking-wider text-gold mb-8 text-center">
-              {queens.length === 1 ? (lang === 'en' ? 'Queen' : 'Кішка') : (lang === 'en' ? 'Queens' : 'Кішки')}
+            <h2 class="text-sm font-semibold uppercase tracking-wider text-gold mb-10 text-center">
+              {kings.length === 1 ? (lang === 'en' ? 'Our King' : 'Наш кіт') : (lang === 'en' ? 'Our Kings' : 'Наші коти')}
             </h2>
             <div class:list={[
               'grid gap-8 mx-auto',
-              queens.length === 1 ? 'grid-cols-1 max-w-sm' : 'grid-cols-1 sm:grid-cols-2 max-w-2xl',
-              queens.length === 3 ? 'sm:grid-cols-3 max-w-4xl' : '',
+              kings.length === 1 ? 'grid-cols-1 md:grid-cols-2 max-w-4xl items-center' : 'grid-cols-1 sm:grid-cols-2 max-w-3xl',
             ]}>
-              {queens.map((cat) => <CatCard cat={cat} lang={lang} />)}
+              {kings.map((cat) => (
+                kings.length === 1 ? (
+                  <>
+                    <div class="space-y-4 scroll-fade md:order-1">
+                      <h3 class="font-serif text-2xl text-dark">{cat.name}</h3>
+                      {cat.titles && <p class="text-gold text-sm font-medium uppercase tracking-wider">{cat.titles}</p>}
+                      <p class="text-dark-soft text-sm leading-relaxed">{cat.breed} · {cat.color}</p>
+                      <p class="text-dark-soft text-sm leading-relaxed">
+                        {lang === 'en' ? cat.description_en : cat.description_uk}
+                      </p>
+                      <a href={getLocalizedPath(`/our-cats/${cat.slug}/`, lang)} class="inline-flex items-center gap-1 text-gold text-sm font-medium link-underline">
+                        {lang === 'en' ? 'View profile' : 'Переглянути профіль'}
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+                      </a>
+                    </div>
+                    <div class="md:order-2">
+                      <CatCard cat={cat} lang={lang} />
+                    </div>
+                  </>
+                ) : (
+                  <CatCard cat={cat} lang={lang} />
+                )
+              ))}
             </div>
           </section>
         )}
