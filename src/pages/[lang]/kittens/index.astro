@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import KittenCard from '../../../components/cats/KittenCard.astro';
 import { t, createLangStaticPaths, getLocalizedPath } from '../../../i18n/utils';
 import type { Lang } from '../../../i18n/utils';
 import { fetchKittens } from '../../../lib/storyblok';
@@ -16,39 +15,39 @@ try {
   // CMS unavailable
 }
 
-// Split into current and past litters
 const currentKittens = allKittens.filter((k) => k.status !== 'at_new_home');
 const pastKittens = allKittens.filter((k) => k.status === 'at_new_home');
 
 // ── Static litter data ──
 const litterA = [
-  { name: 'Salma', full: 'Al Muad\'Dib Salma Ole Lukhoye', photo: '/images/kittens/litter-a/salma.jpg' },
-  { name: 'Milky', full: 'Alt Milky Ole Lukhoye', photo: '/images/kittens/litter-a/milky.jpg' },
-  { name: 'Astra', full: 'Astra Shakhty Ole Lukhoye', photo: '/images/kittens/litter-a/astra.jpg' },
-  { name: 'Asya', full: 'Asya Ole Lukhoye', photo: '/images/kittens/litter-a/asya.jpg' },
-  { name: 'Axel', full: 'Axel Cornelius Ole Lukhoye', photo: '/images/kittens/litter-a/axel.jpg' },
+  { name: 'Salma', full: 'Al Muad\'Dib Salma Ole Lukhoye', photo: '/images/kittens/litter-a/salma.jpg', sex: 'female', breed: 'Oriental Shorthair' },
+  { name: 'Milky', full: 'Alt Milky Ole Lukhoye', photo: '/images/kittens/litter-a/milky.jpg', sex: 'male', breed: 'Oriental Shorthair' },
+  { name: 'Astra', full: 'Astra Shakhty Ole Lukhoye', photo: '/images/kittens/litter-a/astra.jpg', sex: 'female', breed: 'Oriental Shorthair' },
+  { name: 'Asya', full: 'Asya Ole Lukhoye', photo: '/images/kittens/litter-a/asya.jpg', sex: 'female', breed: 'Oriental Shorthair' },
+  { name: 'Axel', full: 'Axel Cornelius Ole Lukhoye', photo: '/images/kittens/litter-a/axel.jpg', sex: 'male', breed: 'Oriental Shorthair' },
 ];
 
 const litterB = [
-  { name: 'Bantik', full: 'Bantik Ole Lukhoye', photo: '/images/kittens/litter-b/bantik.jpg' },
-  { name: 'Barbie', full: 'Barbie Ole Lukhoye', photo: '/images/kittens/litter-b/barbie.jpg' },
-  { name: 'Bars', full: 'Bars Ole Lukhoye', photo: '/images/kittens/litter-b/bars.jpg' },
-  { name: 'Barton', full: 'Barton Ole Lukhoye', photo: '/images/kittens/litter-b/barton.jpg' },
-  { name: 'Bead', full: 'Bead Ole Lukhoye', photo: '/images/kittens/litter-b/bead.jpg' },
-  { name: 'Benjamin', full: 'Benjamin Ole Lukhoye', photo: '/images/kittens/litter-b/benjamin.jpg' },
-  { name: 'Bill', full: 'Bill Ole Lukhoye', photo: '/images/kittens/litter-b/bill.jpg' },
-  { name: 'Buddy', full: 'Buddy Ole Lukhoye', photo: '/images/kittens/litter-b/buddy.jpg' },
+  { name: 'Bantik', full: 'Bantik Ole Lukhoye', photo: '/images/kittens/litter-b/bantik.jpg', sex: 'male', breed: 'Oriental Shorthair' },
+  { name: 'Barbie', full: 'Barbie Ole Lukhoye', photo: '/images/kittens/litter-b/barbie.jpg', sex: 'female', breed: 'Siamese' },
+  { name: 'Bars', full: 'Bars Ole Lukhoye', photo: '/images/kittens/litter-b/bars.jpg', sex: 'male', breed: 'Oriental Shorthair' },
+  { name: 'Barton', full: 'Barton Ole Lukhoye', photo: '/images/kittens/litter-b/barton.jpg', sex: 'male', breed: 'Oriental Shorthair' },
+  { name: 'Bead', full: 'Bead Ole Lukhoye', photo: '/images/kittens/litter-b/bead.jpg', sex: 'female', breed: 'Siamese' },
+  { name: 'Benjamin', full: 'Benjamin Ole Lukhoye', photo: '/images/kittens/litter-b/benjamin.jpg', sex: 'male', breed: 'Oriental Shorthair' },
+  { name: 'Bill', full: 'Bill Ole Lukhoye', photo: '/images/kittens/litter-b/bill.jpg', sex: 'male', breed: 'Siamese' },
+  { name: 'Buddy', full: 'Buddy Ole Lukhoye', photo: '/images/kittens/litter-b/buddy.jpg', sex: 'male', breed: 'Oriental Shorthair' },
 ];
 
 const badgeLabel = lang === 'en' ? 'At New Home' : 'У новому домі';
-const litterATitle = lang === 'en' ? 'Litter A' : 'Помiт A';
-const litterBTitle = lang === 'en' ? 'Litter B' : 'Помiт B';
+const litterATitle = lang === 'en' ? 'Litter "A"' : 'Помiт «A»';
+const litterBTitle = lang === 'en' ? 'Litter "B"' : 'Помiт «Б»';
 const pageSubtitle = lang === 'en'
   ? 'All our kittens have found loving families'
   : 'Усі наші кошенята знайшли люблячі родини';
 const waitlistText = lang === 'en'
   ? 'Interested in a kitten from our future litters?'
   : 'Цікавить кошеня з наших майбутніх помiтів?';
+const hiText = lang === 'en' ? "Hi, I'm" : 'Привіт, я';
 ---
 
 <BaseLayout
@@ -75,34 +74,36 @@ const waitlistText = lang === 'en'
             {lang === 'en' ? 'Reserved' : 'Зарезервовані'}
           </button>
         </div>
-        <div id="kitten-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {currentKittens.map((kitten) => <KittenCard kitten={kitten} lang={lang} />)}
+        <div id="kitten-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 mb-16">
+          {currentKittens.map((kitten) => (
+            <a href={getLocalizedPath(`/kittens/${kitten.slug}/`, lang)} class="kitten-card text-center group" data-status={kitten.status}>
+              <div class="relative mx-auto w-36 h-36 sm:w-40 sm:h-40 md:w-44 md:h-44 mb-3">
+                <div class="w-full h-full rounded-full overflow-hidden border-2 border-gray-200 group-hover:border-gold/40 transition-colors duration-300 shadow-sm">
+                  <img src={kitten.photos?.filename} alt={kitten.name} class="w-full h-full object-cover" loading="lazy" />
+                </div>
+                <span class={`absolute top-0 left-0 inline-flex items-center px-2.5 py-1 rounded-full text-[11px] font-semibold text-warm-white shadow-sm ${kitten.status === 'available' ? 'bg-emerald-500' : kitten.status === 'reserved' ? 'bg-amber-500' : 'bg-status-home'}`}>
+                  {kitten.status === 'available' ? (lang === 'en' ? 'Available' : 'Доступний') : kitten.status === 'reserved' ? (lang === 'en' ? 'Reserved' : 'Зарезервований') : badgeLabel}
+                </span>
+              </div>
+              <h3 class="text-base font-serif text-dark-soft">{hiText} <strong class="text-dark">{kitten.name}</strong></h3>
+              <p class="text-xs text-gray-medium mt-0.5">{kitten.breed || 'Oriental Shorthair'} {kitten.sex === 'male' ? (lang === 'en' ? 'Male' : 'Кіт') : (lang === 'en' ? 'Female' : 'Кішка')}</p>
+            </a>
+          ))}
         </div>
       </>
     )}
 
-    {/* ── Waitlist CTA ── */}
-    <div class="text-center py-10 mb-12 md:mb-16 bg-gold/5 rounded-2xl border border-gold/10">
-      <p class="text-dark-soft text-lg mb-4">{waitlistText}</p>
-      <a
-        href={getLocalizedPath('/contact/', lang)}
-        class="inline-block px-8 py-3 bg-gold text-warm-white font-medium rounded hover:bg-gold-dark transition-colors text-sm uppercase tracking-wider"
-      >
-        {t(lang, 'home.kittensJoinWaitlist')}
-      </a>
-    </div>
-
     {/* ── Litter A ── */}
-    <section class="mb-16 md:mb-20">
+    <section class="mb-14 md:mb-20">
       <div class="flex items-center gap-4 mb-8">
-        <h2 class="text-2xl md:text-3xl text-gold-dark">{litterATitle}</h2>
+        <h2 class="text-2xl md:text-3xl text-gold-dark whitespace-nowrap">{litterATitle}</h2>
         <div class="flex-1 h-px bg-gray-light"></div>
       </div>
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-8">
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-8">
         {litterA.map((kitten) => (
           <div class="text-center group">
-            <div class="relative mx-auto w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 mb-4">
-              <div class="w-full h-full rounded-full overflow-hidden border-3 border-gray-light group-hover:border-gold/40 transition-colors duration-300">
+            <div class="relative mx-auto w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 mb-3">
+              <div class="w-full h-full rounded-full overflow-hidden border-2 border-gray-200 group-hover:border-gold/40 transition-colors duration-300 shadow-sm">
                 <img
                   src={kitten.photo}
                   alt={kitten.full}
@@ -110,29 +111,32 @@ const waitlistText = lang === 'en'
                   loading="lazy"
                 />
               </div>
-              <span class="absolute top-0 left-0 inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-medium text-warm-white bg-status-home shadow-sm">
-                <span class="w-1 h-1 rounded-full bg-warm-white/60"></span>
+              <span class="absolute top-0 left-0 inline-flex items-center px-2.5 py-1 rounded-full text-[11px] font-semibold text-warm-white bg-status-home shadow-sm">
                 {badgeLabel}
               </span>
+              <span class={`absolute top-0 right-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold text-warm-white shadow-sm ${kitten.sex === 'male' ? 'bg-blue-400' : 'bg-pink-400'}`}>
+                {kitten.sex === 'male' ? '♂' : '♀'}
+              </span>
             </div>
-            <h3 class="text-lg font-serif text-dark mb-0.5">{kitten.name}</h3>
-            <p class="text-xs text-gray-medium leading-tight">{kitten.full}</p>
+            <h3 class="text-base font-serif text-dark-soft">{hiText} <strong class="text-dark">{kitten.name}</strong></h3>
+            <p class="text-[11px] text-gray-medium mt-0.5 leading-tight">{kitten.breed}. {kitten.sex === 'male' ? (lang === 'en' ? 'Male' : 'Кіт') : (lang === 'en' ? 'Female' : 'Кішка')}</p>
+            <p class="text-[10px] text-gray-300 mt-0.5 leading-tight">{kitten.full}</p>
           </div>
         ))}
       </div>
     </section>
 
     {/* ── Litter B ── */}
-    <section>
+    <section class="mb-14 md:mb-20">
       <div class="flex items-center gap-4 mb-8">
-        <h2 class="text-2xl md:text-3xl text-gold-dark">{litterBTitle}</h2>
+        <h2 class="text-2xl md:text-3xl text-gold-dark whitespace-nowrap">{litterBTitle}</h2>
         <div class="flex-1 h-px bg-gray-light"></div>
       </div>
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-8">
         {litterB.map((kitten) => (
           <div class="text-center group">
-            <div class="relative mx-auto w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 mb-4">
-              <div class="w-full h-full rounded-full overflow-hidden border-3 border-gray-light group-hover:border-gold/40 transition-colors duration-300">
+            <div class="relative mx-auto w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 mb-3">
+              <div class="w-full h-full rounded-full overflow-hidden border-2 border-gray-200 group-hover:border-gold/40 transition-colors duration-300 shadow-sm">
                 <img
                   src={kitten.photo}
                   alt={kitten.full}
@@ -140,13 +144,16 @@ const waitlistText = lang === 'en'
                   loading="lazy"
                 />
               </div>
-              <span class="absolute top-0 left-0 inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-medium text-warm-white bg-status-home shadow-sm">
-                <span class="w-1 h-1 rounded-full bg-warm-white/60"></span>
+              <span class="absolute top-0 left-0 inline-flex items-center px-2.5 py-1 rounded-full text-[11px] font-semibold text-warm-white bg-status-home shadow-sm">
                 {badgeLabel}
               </span>
+              <span class={`absolute top-0 right-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold text-warm-white shadow-sm ${kitten.sex === 'male' ? 'bg-blue-400' : 'bg-pink-400'}`}>
+                {kitten.sex === 'male' ? '♂' : '♀'}
+              </span>
             </div>
-            <h3 class="text-lg font-serif text-dark mb-0.5">{kitten.name}</h3>
-            <p class="text-xs text-gray-medium leading-tight">{kitten.full}</p>
+            <h3 class="text-base font-serif text-dark-soft">{hiText} <strong class="text-dark">{kitten.name}</strong></h3>
+            <p class="text-[11px] text-gray-medium mt-0.5 leading-tight">{kitten.breed}. {kitten.sex === 'male' ? (lang === 'en' ? 'Male' : 'Кіт') : (lang === 'en' ? 'Female' : 'Кішка')}</p>
+            <p class="text-[10px] text-gray-300 mt-0.5 leading-tight">{kitten.full}</p>
           </div>
         ))}
       </div>
@@ -154,7 +161,7 @@ const waitlistText = lang === 'en'
 
     {/* ── CMS past kittens (if any in Storyblok) ── */}
     {pastKittens.length > 0 && (
-      <section class="mt-20 pt-12 border-t border-gray-light">
+      <section class="mb-14 md:mb-20 pt-12 border-t border-gray-light">
         <h2 class="text-lg text-gray-medium mb-8">{lang === 'en' ? 'Previous Litters' : 'Попередні помiти'}</h2>
         <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
           {pastKittens.map((kitten) => (
@@ -183,6 +190,17 @@ const waitlistText = lang === 'en'
         </div>
       </section>
     )}
+
+    {/* ── Waitlist CTA ── */}
+    <div class="text-center py-10 bg-gold/5 rounded-2xl border border-gold/10">
+      <p class="text-dark-soft text-lg mb-4">{waitlistText}</p>
+      <a
+        href={getLocalizedPath('/contact/', lang)}
+        class="inline-block px-8 py-3 bg-gold text-warm-white font-medium rounded hover:bg-gold-dark transition-colors text-sm uppercase tracking-wider"
+      >
+        {t(lang, 'home.kittensJoinWaitlist')}
+      </a>
+    </div>
   </div>
 </BaseLayout>
 
