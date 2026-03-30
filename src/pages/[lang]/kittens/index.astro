@@ -18,24 +18,24 @@ try {
 const currentKittens = allKittens.filter((k) => k.status !== 'at_new_home');
 const pastKittens = allKittens.filter((k) => k.status === 'at_new_home');
 
-// ── Static litter data ──
+// ── Static litter data (source: Запрос материалов для Эльвиры - ответы.docx) ──
 const litterA = [
-  { name: 'Salma', full: 'Al Muad\'Dib Salma Ole Lukhoye', photo: '/images/kittens/litter-a/salma.jpg', sex: 'female', breed: 'Oriental Shorthair' },
-  { name: 'Milky', full: 'Alt Milky Ole Lukhoye', photo: '/images/kittens/litter-a/milky.jpg', sex: 'male', breed: 'Oriental Shorthair' },
-  { name: 'Astra', full: 'Astra Shakhty Ole Lukhoye', photo: '/images/kittens/litter-a/astra.jpg', sex: 'female', breed: 'Oriental Shorthair' },
-  { name: 'Asya', full: 'Asya Ole Lukhoye', photo: '/images/kittens/litter-a/asya.jpg', sex: 'female', breed: 'Oriental Shorthair' },
-  { name: 'Axel', full: 'Axel Cornelius Ole Lukhoye', photo: '/images/kittens/litter-a/axel.jpg', sex: 'male', breed: 'Oriental Shorthair' },
+  { name: 'Salma', full: 'Al Muad\'Dib Salma Ole Lukhoye', photo: '/images/kittens/litter-a/salma.jpg', sex: 'female', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
+  { name: 'Milky', full: 'Alt Milky Ole Lukhoye', photo: '/images/kittens/litter-a/milky.jpg', sex: 'male', breed: 'Siamese', color: 'Chocolate point' },
+  { name: 'Astra', full: 'Astra Shakhty Ole Lukhoye', photo: '/images/kittens/litter-a/astra.jpg', sex: 'female', breed: 'Oriental Shorthair', color: 'Black' },
+  { name: 'Asya', full: 'Asya Ole Lukhoye', photo: '/images/kittens/litter-a/asya.jpg', sex: 'female', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
+  { name: 'Axel', full: 'Axel Cornelius Ole Lukhoye', photo: '/images/kittens/litter-a/axel.jpg', sex: 'male', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
 ];
 
 const litterB = [
-  { name: 'Bantik', full: 'Bantik Ole Lukhoye', photo: '/images/kittens/litter-b/bantik.jpg', sex: 'male', breed: 'Oriental Shorthair' },
-  { name: 'Barbie', full: 'Barbie Ole Lukhoye', photo: '/images/kittens/litter-b/barbie.jpg', sex: 'female', breed: 'Siamese' },
-  { name: 'Bars', full: 'Bars Ole Lukhoye', photo: '/images/kittens/litter-b/bars.jpg', sex: 'male', breed: 'Oriental Shorthair' },
-  { name: 'Barton', full: 'Barton Ole Lukhoye', photo: '/images/kittens/litter-b/barton.jpg', sex: 'male', breed: 'Oriental Shorthair' },
-  { name: 'Bead', full: 'Bead Ole Lukhoye', photo: '/images/kittens/litter-b/bead.jpg', sex: 'female', breed: 'Siamese' },
-  { name: 'Benjamin', full: 'Benjamin Ole Lukhoye', photo: '/images/kittens/litter-b/benjamin.jpg', sex: 'male', breed: 'Oriental Shorthair' },
-  { name: 'Bill', full: 'Bill Ole Lukhoye', photo: '/images/kittens/litter-b/bill.jpg', sex: 'male', breed: 'Siamese' },
-  { name: 'Buddy', full: 'Buddy Ole Lukhoye', photo: '/images/kittens/litter-b/buddy.jpg', sex: 'male', breed: 'Oriental Shorthair' },
+  { name: 'Bantik', full: 'Bantik Ole Lukhoye', photo: '/images/kittens/litter-b/bantik.jpg', sex: 'male', breed: 'Siamese', color: 'Seal point' },
+  { name: 'Barbie', full: 'Barbie Ole Lukhoye', photo: '/images/kittens/litter-b/barbie.jpg', sex: 'female', breed: 'Oriental Shorthair', color: 'Chocolate spotted tabby' },
+  { name: 'Bars', full: 'Bars Ole Lukhoye', photo: '/images/kittens/litter-b/bars.jpg', sex: 'male', breed: 'Siamese', color: 'Seal point' },
+  { name: 'Barton', full: 'Barton Ole Lukhoye', photo: '/images/kittens/litter-b/barton.jpg', sex: 'male', breed: 'Oriental Shorthair', color: 'Chocolate' },
+  { name: 'Bead', full: 'Bead Ole Lukhoye', photo: '/images/kittens/litter-b/bead.jpg', sex: 'female', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
+  { name: 'Benjamin', full: 'Benjamin Ole Lukhoye', photo: '/images/kittens/litter-b/benjamin.jpg', sex: 'male', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
+  { name: 'Bill', full: 'Bill Ole Lukhoye', photo: '/images/kittens/litter-b/bill.jpg', sex: 'male', breed: 'Siamese', color: 'Seal point' },
+  { name: 'Buddy', full: 'Buddy Ole Lukhoye', photo: '/images/kittens/litter-b/buddy.jpg', sex: 'male', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
 ];
 
 const badgeLabel = lang === 'en' ? 'At New Home' : 'У новому домі';
@@ -99,10 +99,10 @@ const hiText = lang === 'en' ? "Hi, I'm" : 'Привіт, я';
         <h2 class="text-2xl md:text-3xl text-gold-dark whitespace-nowrap">{litterATitle}</h2>
         <div class="flex-1 h-px bg-gray-light"></div>
       </div>
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-8">
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-10">
         {litterA.map((kitten) => (
           <div class="text-center group">
-            <div class="relative mx-auto w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 mb-3">
+            <div class="relative mx-auto w-40 h-40 sm:w-44 sm:h-44 md:w-48 md:h-48 mb-3">
               <div class="w-full h-full rounded-full overflow-hidden border-2 border-gray-200 group-hover:border-gold/40 transition-colors duration-300 shadow-sm">
                 <img
                   src={kitten.photo}
@@ -111,14 +111,14 @@ const hiText = lang === 'en' ? "Hi, I'm" : 'Привіт, я';
                   loading="lazy"
                 />
               </div>
-              <span class="absolute top-0 left-0 inline-flex items-center px-2.5 py-1 rounded-full text-[11px] font-semibold text-warm-white bg-status-home shadow-sm">
+              <span class="absolute top-0 left-0 inline-flex items-center px-3 py-1.5 rounded-full text-xs font-semibold text-warm-white bg-status-home shadow-sm">
                 {badgeLabel}
               </span>
-              <span class={`absolute top-0 right-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold text-warm-white shadow-sm ${kitten.sex === 'male' ? 'bg-blue-400' : 'bg-pink-400'}`}>
-                {kitten.sex === 'male' ? '♂' : '♀'}
-              </span>
             </div>
-            <h3 class="text-base font-serif text-dark-soft">{hiText} <strong class="text-dark">{kitten.name}</strong></h3>
+            <h3 class="text-base font-serif text-dark-soft">
+              {hiText} <strong class="text-dark">{kitten.name}</strong>
+              <span class={`ml-1 text-sm ${kitten.sex === 'male' ? 'text-blue-400' : 'text-pink-400'}`}>{kitten.sex === 'male' ? '♂' : '♀'}</span>
+            </h3>
             <p class="text-[11px] text-gray-medium mt-0.5 leading-tight">{kitten.breed}. {kitten.sex === 'male' ? (lang === 'en' ? 'Male' : 'Кіт') : (lang === 'en' ? 'Female' : 'Кішка')}</p>
             <p class="text-[10px] text-gray-300 mt-0.5 leading-tight">{kitten.full}</p>
           </div>
@@ -132,10 +132,10 @@ const hiText = lang === 'en' ? "Hi, I'm" : 'Привіт, я';
         <h2 class="text-2xl md:text-3xl text-gold-dark whitespace-nowrap">{litterBTitle}</h2>
         <div class="flex-1 h-px bg-gray-light"></div>
       </div>
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-8">
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10">
         {litterB.map((kitten) => (
           <div class="text-center group">
-            <div class="relative mx-auto w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 mb-3">
+            <div class="relative mx-auto w-40 h-40 sm:w-44 sm:h-44 md:w-48 md:h-48 mb-3">
               <div class="w-full h-full rounded-full overflow-hidden border-2 border-gray-200 group-hover:border-gold/40 transition-colors duration-300 shadow-sm">
                 <img
                   src={kitten.photo}
@@ -144,14 +144,14 @@ const hiText = lang === 'en' ? "Hi, I'm" : 'Привіт, я';
                   loading="lazy"
                 />
               </div>
-              <span class="absolute top-0 left-0 inline-flex items-center px-2.5 py-1 rounded-full text-[11px] font-semibold text-warm-white bg-status-home shadow-sm">
+              <span class="absolute top-0 left-0 inline-flex items-center px-3 py-1.5 rounded-full text-xs font-semibold text-warm-white bg-status-home shadow-sm">
                 {badgeLabel}
               </span>
-              <span class={`absolute top-0 right-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold text-warm-white shadow-sm ${kitten.sex === 'male' ? 'bg-blue-400' : 'bg-pink-400'}`}>
-                {kitten.sex === 'male' ? '♂' : '♀'}
-              </span>
             </div>
-            <h3 class="text-base font-serif text-dark-soft">{hiText} <strong class="text-dark">{kitten.name}</strong></h3>
+            <h3 class="text-base font-serif text-dark-soft">
+              {hiText} <strong class="text-dark">{kitten.name}</strong>
+              <span class={`ml-1 text-sm ${kitten.sex === 'male' ? 'text-blue-400' : 'text-pink-400'}`}>{kitten.sex === 'male' ? '♂' : '♀'}</span>
+            </h3>
             <p class="text-[11px] text-gray-medium mt-0.5 leading-tight">{kitten.breed}. {kitten.sex === 'male' ? (lang === 'en' ? 'Male' : 'Кіт') : (lang === 'en' ? 'Female' : 'Кішка')}</p>
             <p class="text-[10px] text-gray-300 mt-0.5 leading-tight">{kitten.full}</p>
           </div>
