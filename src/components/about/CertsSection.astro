@@ -119,13 +119,16 @@ const portraitCerts = [
 </style>
 
 <script>
-  // On touch devices: tap to show color, revert after 3 seconds
+  // On touch devices: tap to show color, revert after 3 seconds.
+  // Listener goes on .cert-card (not img) because .cert-overlay sits above img at z-index:3
+  // and absorbs all touch events before they reach the image.
   if ('ontouchstart' in window || navigator.maxTouchPoints > 0) {
-    document.querySelectorAll('.cert-card img').forEach((img) => {
-      img.addEventListener('touchstart', (e) => {
-        const el = e.currentTarget as HTMLImageElement;
-        el.classList.add('touched');
-        setTimeout(() => el.classList.remove('touched'), 3000);
+    document.querySelectorAll('.cert-card').forEach((card) => {
+      card.addEventListener('touchstart', () => {
+        const img = card.querySelector('img');
+        if (!img) return;
+        img.classList.add('touched');
+        setTimeout(() => img.classList.remove('touched'), 3000);
       }, { passive: true });
     });
   }
@@ -135,7 +138,7 @@ const portraitCerts = [
     img.addEventListener('contextmenu', (e) => e.preventDefault());
   });
 
-  // Disable long-press save on mobile
+  // Disable long-press save on mobile (overlay already covers, belt + suspenders)
   document.querySelectorAll('.cert-card').forEach((card) => {
     card.addEventListener('contextmenu', (e) => e.preventDefault());
   });

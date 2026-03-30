@@ -7,6 +7,28 @@ import { fetchCats, fetchKittens } from '../../../lib/storyblok';
 import type { CatData } from '../../../lib/storyblok';
 
 export async function getStaticPaths() {
+  // Local gallery overrides — applies to any cat (CMS or local) by slug
+  const localGalleries: Record<string, string[]> = {
+    'halva': [
+      '/images/cats/halva-2.jpg',
+      '/images/cats/halva-3.jpg',
+      '/images/cats/halva-4.jpg',
+      '/images/cats/halva-5.jpg',
+      '/images/cats/halva-6.jpg',
+      '/images/cats/halva-7.jpg',
+    ],
+    'sebastian': [
+      '/images/cats/sebastian-2.jpg',
+      '/images/cats/sebastian-3.jpg',
+    ],
+  };
+
+  // Local main photo overrides for CMS cats
+  const localPhotos: Record<string, string> = {
+    'sebastian': '/images/cats/sebastian-main.jpg',
+    'simona': '/images/cats/simona-main.jpg',
+  };
+
   // Local fallback for cats not yet in Storyblok
   const localCats: (CatData & { localPhoto?: string; localGallery?: string[] })[] = [
     {
@@ -16,17 +38,17 @@ export async function getStaticPaths() {
       sex: 'female',
       color: 'Chocolate',
       ems_code: 'OSH b',
-      dob: '2025-07-15',
+      dob: '2025-11-15',
       titles: '',
       role: 'queen',
       photos: null,
       description_en: 'Our youngest queen, Halva brings warmth and playful energy to Floriente. With her rich chocolate coat and expressive eyes, she embodies the best of Oriental elegance. Currently preparing for her show debut.',
-      description_uk: 'Наша наймолодша кішка, Халва привносить тепло та грайливу енергію у Floriente. Завдяки насиченому шоколадному забарвленню та виразним очам, вона втілює найкраще орієнтальної елегантності. Наразі готується до свого виставкового дебюту.',
+      description_uk: 'Наша наймолодша кішка, Халва привносить тепло та грайливу енергію у Floriente. Завдяки насиченому шоколадному забарвленню та виразним очам, вона втілює найкраще орієнтальської елегантності. Наразі готується до свого виставкового дебюту.',
       health_tests: [],
       gallery: [],
       pedigree_pdf: null,
       localPhoto: '/images/cats/halva-main.jpg',
-      localGallery: ['/images/cats/halva-2.jpg', '/images/cats/halva-3.jpg', '/images/cats/halva-4.jpg'],
+      localGallery: localGalleries['halva'],
     },
   ];
 
@@ -42,7 +64,16 @@ export async function getStaticPaths() {
   return locales.flatMap((lang) =>
     allCats.map((cat) => ({
       params: { lang, slug: cat.slug },
-      props: { lang, cat },
+      props: {
+        lang,
+        cat: {
+          ...cat,
+          // Apply local photo override for CMS cats
+          localPhoto: localPhotos[cat.slug] || (cat as any).localPhoto,
+          // Apply local gallery override (extends/replaces CMS gallery)
+          localGallery: localGalleries[cat.slug] || (cat as any).localGallery || [],
+        },
+      },
     }))
   );
 }
@@ -193,7 +224,7 @@ try {
                       <a
                         href={test.pdf.filename}
                         target="_blank"
-                        rel="noopener"
+                        rel="noopener noreferrer"
                         class="text-xs text-gold hover:text-gold-dark"
                       >
                         PDF
