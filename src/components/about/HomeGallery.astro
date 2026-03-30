@@ -9,12 +9,12 @@ interface Props {
 const { lang } = Astro.props;
 
 const photos = [
-  { src: '/images/cats/home-gallery-1.jpg', alt: 'Oriental cat at home', span: true },
-  { src: '/images/cats/home-gallery-2.jpg', alt: 'Oriental cat portrait' },
-  { src: '/images/cats/home-gallery-3.jpg', alt: 'Oriental cat looking at camera' },
-  { src: '/images/cats/home-gallery-4.jpg', alt: 'Oriental cat in motion' },
-  { src: '/images/cats/home-gallery-5.jpg', alt: 'Oriental cat resting' },
-  { src: '/images/cats/home-gallery-6.jpg', alt: 'Oriental cat relaxing' },
+  { src: '/images/cats/home-gallery-1.jpg', alt: 'Two oriental kittens cuddled together on a colorful armchair', span: true },
+  { src: '/images/cats/home-gallery-2.jpg', alt: 'Sebastian and kitten in sunlit living room' },
+  { src: '/images/cats/home-gallery-3.jpg', alt: 'Oriental kitten exploring plants at home' },
+  { src: '/images/cats/home-gallery-4.jpg', alt: 'Oriental cat relaxing in a cozy bed by the window' },
+  { src: '/images/cats/home-gallery-5.jpg', alt: 'Siamese kitten sitting on a playful blanket with toys' },
+  { src: '/images/cats/home-gallery-6.jpg', alt: 'Three Siamese kittens cuddled together on a patchwork armchair' },
 ];
 ---
 
@@ -26,14 +26,13 @@ const photos = [
     <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
       {photos.map((photo, i) => (
         <div class:list={[
-          'rounded-lg overflow-hidden',
-          i <= 1 ? 'aspect-[4/3]' : 'aspect-square',
-          photo.span ? 'md:col-span-2 md:row-span-2 md:aspect-square' : '',
+          'rounded-lg overflow-hidden group',
+          i === 0 ? 'col-span-2 md:col-span-2 md:row-span-2 aspect-[4/3] md:aspect-square' : 'aspect-square',
         ]}>
           <img
             src={photo.src}
             alt={photo.alt}
-            class="w-full h-full object-cover"
+            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             loading="lazy"
           />
         </div>
