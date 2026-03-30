@@ -59,6 +59,15 @@ const waitlistText = lang === 'en'
   ? 'Interested in a kitten from our future litters?'
   : 'Цікавить кошеня з наших майбутніх помiтів?';
 const hiText = lang === 'en' ? "Hi, I'm" : 'Привіт, я';
+
+// ── Storytelling cards ──
+const litterAStory = lang === 'en'
+  ? { title: 'Our first chapter', text: 'Our very first litter. Five unique personalities, each raised with daily attention and care. They became the foundation of everything Floriente stands for\u00A0\u2014 love, trust, and a bond that lasts a lifetime.' }
+  : { title: 'Наш перший розділ', text: 'Наш найперший помiт. П\'ять унiкальних характерiв, кожен з яких виростав з щоденною увагою та турботою. Вони стали основою всього, що означає Floriente\u00A0\u2014 любов, довiра та зв\'язок на все життя.' };
+
+const litterBStory = lang === 'en'
+  ? { title: 'Growing together', text: 'Nine kittens, our biggest litter yet. Each one was raised not just to be beautiful, but to become a true companion\u00A0\u2014 with character, warmth, and a deep connection to their humans.' }
+  : { title: 'Зростаємо разом', text: 'Дев\'ять кошенят\u00A0\u2014 наш найбiльший помiт. Кожне виросло не просто красивим, а справжнiм компаньйоном\u00A0\u2014 з характером, теплотою та глибоким зв\'язком зi своєю людиною.' };
 ---
 
 <BaseLayout
@@ -135,6 +144,13 @@ const hiText = lang === 'en' ? "Hi, I'm" : 'Привіт, я';
             <p class="text-[11px] text-gray-300 mt-0.5 leading-tight">{kitten.full}</p>
           </div>
         ))}
+        {/* Story card fills empty grid space */}
+        <div class="hidden lg:flex col-span-2 sm:col-span-1 lg:col-span-3 items-center justify-center px-6 py-8 rounded-2xl bg-gold/5 border border-gold/10">
+          <div class="text-center max-w-md">
+            <p class="text-lg font-serif text-gold-dark mb-2 italic">{litterAStory.title}</p>
+            <p class="text-sm text-gray-medium leading-relaxed">{litterAStory.text}</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -179,6 +195,13 @@ const hiText = lang === 'en' ? "Hi, I'm" : 'Привіт, я';
             <p class="text-[11px] text-gray-300 mt-0.5 leading-tight">{kitten.full}</p>
           </div>
         ))}
+        {/* Story card fills empty grid space */}
+        <div class="hidden lg:flex col-span-2 sm:col-span-1 lg:col-span-3 items-center justify-center px-6 py-8 rounded-2xl bg-gold/5 border border-gold/10">
+          <div class="text-center max-w-md">
+            <p class="text-lg font-serif text-gold-dark mb-2 italic">{litterBStory.title}</p>
+            <p class="text-sm text-gray-medium leading-relaxed">{litterBStory.text}</p>
+          </div>
+        </div>
       </div>
     </section>
 
