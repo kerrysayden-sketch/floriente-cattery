@@ -15,7 +15,7 @@ const { photos, catName } = Astro.props;
 <div class="cat-gallery">
   <div class="flex gap-3 overflow-x-auto pb-3 snap-x snap-mandatory scrollbar-thin">
     {photos.map((photo, i) => (
-      <div class="flex-shrink-0 w-48 md:w-64 lg:w-72 snap-start group relative cursor-pointer" data-lightbox-trigger>
+      <div class="flex-shrink-0 w-48 md:w-64 lg:w-72 snap-start group relative cursor-pointer" data-lightbox-trigger data-index={i}>
         <div class="aspect-[3/4] overflow-hidden bg-gray-light/20">
           <img
             src={photo.src}
@@ -32,10 +32,13 @@ const { photos, catName } = Astro.props;
   </div>
 </div>
 
-<!-- Lightbox overlay -->
-<div class="cat-lightbox hidden fixed inset-0 z-50 bg-dark/90 flex items-center justify-center p-4 cursor-pointer">
-  <button class="absolute top-4 right-4 text-warm-white text-3xl hover:text-gold transition-colors z-10" aria-label="Close">&times;</button>
-  <img src="" alt="" class="max-w-[90vw] max-h-[90vh] object-contain" />
+<!-- Lightbox with navigation -->
+<div class="cat-lightbox hidden fixed inset-0 z-50 bg-dark/90 flex items-center justify-center p-4">
+  <button class="lb-close absolute top-4 right-4 text-warm-white text-3xl hover:text-gold transition-colors z-10 cursor-pointer" aria-label="Close">&times;</button>
+  <button class="lb-prev absolute left-4 top-1/2 -translate-y-1/2 text-warm-white text-4xl hover:text-gold transition-colors z-10 cursor-pointer px-2" aria-label="Previous">&#8249;</button>
+  <button class="lb-next absolute right-4 top-1/2 -translate-y-1/2 text-warm-white text-4xl hover:text-gold transition-colors z-10 cursor-pointer px-2" aria-label="Next">&#8250;</button>
+  <img src="" alt="" class="max-w-[90vw] max-h-[85vh] object-contain" />
+  <p class="lb-counter absolute bottom-4 left-1/2 -translate-x-1/2 text-warm-white/70 text-xs tracking-wider"></p>
 </div>
 
 <style>
@@ -61,22 +64,49 @@ const { photos, catName } = Astro.props;
     if (!lightbox?.classList.contains('cat-lightbox')) return;
 
     const lightboxImg = lightbox.querySelector('img') as HTMLImageElement;
+    const counter = lightbox.querySelector('.lb-counter') as HTMLElement;
+    const triggers = gallery.querySelectorAll('[data-lightbox-trigger]');
+    const sources: { src: string; alt: string }[] = [];
+    let currentIndex = 0;
 
-    gallery.querySelectorAll('[data-lightbox-trigger]').forEach((trigger) => {
-      trigger.addEventListener('click', () => {
-        const img = trigger.querySelector('img') as HTMLImageElement;
-        if (img) {
-          lightboxImg.src = img.src;
-          lightboxImg.alt = img.alt;
-          lightbox.classList.remove('hidden');
-          document.body.style.overflow = 'hidden';
-        }
-      });
+    triggers.forEach((trigger) => {
+      const img = trigger.querySelector('img') as HTMLImageElement;
+      if (img) sources.push({ src: img.src, alt: img.alt });
     });
 
-    lightbox.addEventListener('click', () => {
+    function show(index: number) {
+      currentIndex = (index + sources.length) % sources.length;
+      lightboxImg.src = sources[currentIndex].src;
+      lightboxImg.alt = sources[currentIndex].alt;
+      counter.textContent = `${currentIndex + 1} / ${sources.length}`;
+      lightbox.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function hide() {
       lightbox.classList.add('hidden');
       document.body.style.overflow = '';
+    }
+
+    triggers.forEach((trigger, i) => {
+      trigger.addEventListener('click', () => show(i));
+    });
+
+    lightbox.querySelector('.lb-close')?.addEventListener('click', (e) => { e.stopPropagation(); hide(); });
+    lightbox.querySelector('.lb-prev')?.addEventListener('click', (e) => { e.stopPropagation(); show(currentIndex - 1); });
+    lightbox.querySelector('.lb-next')?.addEventListener('click', (e) => { e.stopPropagation(); show(currentIndex + 1); });
+
+    // Click background to close
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) hide();
+    });
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (lightbox.classList.contains('hidden')) return;
+      if (e.key === 'Escape') hide();
+      if (e.key === 'ArrowLeft') show(currentIndex - 1);
+      if (e.key === 'ArrowRight') show(currentIndex + 1);
     });
   });
 </script>
