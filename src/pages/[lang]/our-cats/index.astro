@@ -26,7 +26,7 @@ const cats = [
     gallery: [
       { src: '/images/cats/simona-catshow.jpg', label: lang === 'en' ? 'Cat Show — GIC title' : 'Виставка — титул GIC' },
       { src: '/images/cats/simona-3.jpg' },
-      { src: '/images/cats/simona-4.jpg' },
+      { src: '/images/cats/simona-4.jpg', label: lang === 'en' ? 'Studio portrait' : 'Студійний портрет' },
       { src: '/images/cats/simona-5.jpg' },
     ],
     description_en: `Sima is our home inspector. We call her "the German" — everything in her world runs on a strict schedule. Morning starts by the wood stove, stretching out while the fire warms her bones. She melts. Then she sits down to work with me and stays until evening. At bedtime, she's the enforcer: if we don't go upstairs on time, Sima runs to us crying with the most dramatic notes. The schedule is being violated! Immediately!\n\nShe's also a talker. She'll tell you everything: where she went, what she did, what she thinks about it. Used the litter box — she'll report it and won't leave you alone until dad cleans it. Left her at grandma's — she'll recount her entire day down to the minute: who she played with, what she was up to. Going to the bathroom — she's coming with you. Always.\n\nVigilant, vocal, and full of personality.`,
@@ -105,17 +105,21 @@ const roleLabels = {
       const reversed = index % 2 === 1;
       const description = lang === 'en' ? cat.description_en : cat.description_uk;
       const paragraphs = description.split('\n\n');
+      const isFirst = index === 0;
 
       return (
         <section
           id={cat.id}
           class:list={[
-            'mb-20 md:mb-32',
-            index > 0 && 'pt-12 md:pt-16 border-t border-gray-light/30',
+            'mb-14 md:mb-20',
+            index > 0 && 'pt-10 md:pt-14 border-t border-gray-light/30',
           ]}
         >
           {/* Role label */}
-          <p class="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-6 md:mb-8 text-center scroll-fade">
+          <p class:list={[
+            'text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-6 md:mb-8 text-center',
+            !isFirst && 'scroll-fade',
+          ]}>
             {roleLabels[cat.role]}
           </p>
 
@@ -124,16 +128,17 @@ const roleLabels = {
             {/* Photo */}
             <div
               class:list={[
-                'overflow-hidden shadow-lg scroll-fade-left',
-                reversed ? 'md:order-2 scroll-fade-right' : 'md:order-1',
+                'overflow-hidden shadow-lg group',
+                !isFirst && (reversed ? 'scroll-fade-right' : 'scroll-fade-left'),
+                reversed ? 'md:order-2' : 'md:order-1',
               ]}
             >
               <div class="aspect-[4/5] overflow-hidden bg-gray-light/20">
                 <img
                   src={cat.mainPhoto}
                   alt={cat.name}
-                  class="w-full h-full object-cover"
-                  loading={index === 0 ? 'eager' : 'lazy'}
+                  class="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-700"
+                  loading={isFirst ? 'eager' : 'lazy'}
                 />
               </div>
             </div>
@@ -141,8 +146,9 @@ const roleLabels = {
             {/* Info panel */}
             <div
               class:list={[
-                'flex flex-col justify-center space-y-6 scroll-fade-right',
-                reversed ? 'md:order-1 scroll-fade-left' : 'md:order-2',
+                'flex flex-col justify-center space-y-6',
+                !isFirst && (reversed ? 'scroll-fade-left' : 'scroll-fade-right'),
+                reversed ? 'md:order-1' : 'md:order-2',
               ]}
             >
               {/* Name + title */}
@@ -264,7 +270,7 @@ const roleLabels = {
         }
       });
     },
-    { threshold: 0.15 }
+    { threshold: 0.05 }
   );
 
   document.querySelectorAll('.scroll-fade-left, .scroll-fade-right').forEach((el) => {

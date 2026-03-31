@@ -13,10 +13,10 @@ const { photos, catName } = Astro.props;
 ---
 
 <div class="cat-gallery">
-  <div class="flex gap-3 overflow-x-auto pb-2 snap-x snap-mandatory scrollbar-thin">
+  <div class="flex gap-3 overflow-x-auto pb-3 snap-x snap-mandatory scrollbar-thin">
     {photos.map((photo, i) => (
-      <div class="flex-shrink-0 w-40 md:w-52 snap-start group relative">
-        <div class="aspect-square overflow-hidden bg-gray-light/20">
+      <div class="flex-shrink-0 w-48 md:w-64 lg:w-72 snap-start group relative cursor-pointer" data-lightbox-trigger>
+        <div class="aspect-[3/4] overflow-hidden bg-gray-light/20">
           <img
             src={photo.src}
             alt={`${catName} — ${photo.label || `photo ${i + 2}`}`}
@@ -30,6 +30,12 @@ const { photos, catName } = Astro.props;
       </div>
     ))}
   </div>
+</div>
+
+<!-- Lightbox overlay -->
+<div class="cat-lightbox hidden fixed inset-0 z-50 bg-dark/90 flex items-center justify-center p-4 cursor-pointer">
+  <button class="absolute top-4 right-4 text-warm-white text-3xl hover:text-gold transition-colors z-10" aria-label="Close">&times;</button>
+  <img src="" alt="" class="max-w-[90vw] max-h-[90vh] object-contain" />
 </div>
 
 <style>
@@ -48,3 +54,29 @@ const { photos, catName } = Astro.props;
     border-radius: 2px;
   }
 </style>
+
+<script>
+  document.querySelectorAll('.cat-gallery').forEach((gallery) => {
+    const lightbox = gallery.nextElementSibling as HTMLElement;
+    if (!lightbox?.classList.contains('cat-lightbox')) return;
+
+    const lightboxImg = lightbox.querySelector('img') as HTMLImageElement;
+
+    gallery.querySelectorAll('[data-lightbox-trigger]').forEach((trigger) => {
+      trigger.addEventListener('click', () => {
+        const img = trigger.querySelector('img') as HTMLImageElement;
+        if (img) {
+          lightboxImg.src = img.src;
+          lightboxImg.alt = img.alt;
+          lightbox.classList.remove('hidden');
+          document.body.style.overflow = 'hidden';
+        }
+      });
+    });
+
+    lightbox.addEventListener('click', () => {
+      lightbox.classList.add('hidden');
+      document.body.style.overflow = '';
+    });
+  });
+</script>
