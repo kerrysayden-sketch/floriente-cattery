@@ -1,0 +1,50 @@
+---
+interface GalleryPhoto {
+  src: string;
+  label?: string;
+}
+
+interface Props {
+  photos: GalleryPhoto[];
+  catName: string;
+}
+
+const { photos, catName } = Astro.props;
+---
+
+<div class="cat-gallery">
+  <div class="flex gap-3 overflow-x-auto pb-2 snap-x snap-mandatory scrollbar-thin">
+    {photos.map((photo, i) => (
+      <div class="flex-shrink-0 w-40 md:w-52 snap-start group relative">
+        <div class="aspect-square overflow-hidden bg-gray-light/20">
+          <img
+            src={photo.src}
+            alt={`${catName} — ${photo.label || `photo ${i + 2}`}`}
+            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            loading="lazy"
+          />
+        </div>
+        {photo.label && (
+          <p class="text-[10px] text-gray-medium mt-1.5 text-center uppercase tracking-wider">{photo.label}</p>
+        )}
+      </div>
+    ))}
+  </div>
+</div>
+
+<style>
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(181, 152, 105, 0.3) transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    height: 4px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: rgba(181, 152, 105, 0.3);
+    border-radius: 2px;
+  }
+</style>
