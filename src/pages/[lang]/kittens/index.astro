@@ -64,9 +64,7 @@ const litterAStory = lang === 'en'
   ? { title: 'Our first chapter', text: 'Our very first litter. Five unique personalities, each raised with daily attention and care. They became the foundation of everything Floriente stands for\u00A0\u2014 love, trust, and a bond that lasts a lifetime.' }
   : { title: 'Наш перший розділ', text: 'Наш найперший помiт. П\'ять унiкальних характерiв, кожен з яких виростав з щоденною увагою та турботою. Вони стали основою всього, що означає Floriente\u00A0\u2014 любов, довiра та зв\'язок на все життя.' };
 
-const litterBStory = lang === 'en'
-  ? { title: 'Growing together', text: 'Nine kittens, our biggest litter yet. Each one was raised not just to be beautiful, but to become a true companion\u00A0\u2014 with character, warmth, and a deep connection to their humans.' }
-  : { title: 'Зростаємо разом', text: 'Дев\'ять кошенят\u00A0\u2014 наш найбiльший помiт. Кожне виросло не просто красивим, а справжнiм компаньйоном\u00A0\u2014 з характером, теплотою та глибоким зв\'язком зi своєю людиною.' };
+const litterBStory = null; // Removed per operator request
 ---
 
 <BaseLayout
@@ -96,7 +94,7 @@ const litterBStory = lang === 'en'
         <div id="kitten-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {currentKittens.map((kitten) => (
             <a href={getLocalizedPath(`/kittens/${kitten.slug}/`, lang)} class="kitten-card text-center group" data-status={kitten.status}>
-              <div class="relative mx-auto w-44 h-44 sm:w-48 sm:h-48 md:w-52 md:h-52 mb-3">
+              <div class="relative mx-auto w-56 h-56 sm:w-52 sm:h-52 md:w-56 md:h-56 mb-3">
                 <div class="w-full h-full rounded-full overflow-hidden border-2 border-gray-200 group-hover:border-gold/40 transition-colors duration-300 shadow-sm">
                   <img src={kitten.photos?.filename} alt={kitten.name} class="w-full h-full object-cover" loading="lazy" />
                 </div>
@@ -122,7 +120,7 @@ const litterBStory = lang === 'en'
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10">
         {litterA.map((kitten) => (
           <div class="text-center group">
-            <div class="relative mx-auto w-48 h-48 sm:w-52 sm:h-52 md:w-56 md:h-56 mb-3">
+            <div class="relative mx-auto w-60 h-60 sm:w-56 sm:h-56 md:w-60 md:h-60 mb-3">
               <div class="w-full h-full rounded-full overflow-hidden border-2 border-gray-200 group-hover:border-gold/40 group-hover:shadow-md transition-all duration-300 shadow-sm">
                 <img
                   src={kitten.photo}
@@ -163,7 +161,7 @@ const litterBStory = lang === 'en'
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10">
         {litterB.map((kitten) => (
           <div class="text-center group">
-            <div class="relative mx-auto w-48 h-48 sm:w-52 sm:h-52 md:w-56 md:h-56 mb-3">
+            <div class="relative mx-auto w-60 h-60 sm:w-56 sm:h-56 md:w-60 md:h-60 mb-3">
               <div class="w-full h-full rounded-full overflow-hidden border-2 border-gray-200 group-hover:border-gold/40 group-hover:shadow-md transition-all duration-300 shadow-sm">
                 {kitten.photo ? (
                   <img
@@ -194,13 +192,6 @@ const litterBStory = lang === 'en'
             <p class="text-[11px] text-gray-300 mt-0.5 leading-tight">{kitten.full}</p>
           </div>
         ))}
-        {/* Story card fills empty grid space */}
-        <div class="hidden lg:flex col-span-2 sm:col-span-1 lg:col-span-3 items-center justify-center px-6 py-8 rounded-2xl bg-gold/5 border border-gold/10">
-          <div class="text-center max-w-md">
-            <p class="text-lg font-serif text-gold-dark mb-2 italic">{litterBStory.title}</p>
-            <p class="text-sm text-gray-medium leading-relaxed">{litterBStory.text}</p>
-          </div>
-        </div>
       </div>
     </section>
 
