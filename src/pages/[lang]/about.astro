@@ -5,7 +5,7 @@ import PhilosophySection from '../../components/about/PhilosophySection.astro';
 import CertsSection from '../../components/about/CertsSection.astro';
 import HomeGallery from '../../components/about/HomeGallery.astro';
 import HealthSection from '../../components/about/HealthSection.astro';
-import Lightbox from '../../components/ui/Lightbox.astro';
+// Lightbox now included globally via BaseLayout
 import { t, createLangStaticPaths } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
 
@@ -34,7 +34,7 @@ const { lang } = Astro.props as { lang: Lang };
   <div class="scroll-fade">
     <HealthSection lang={lang} />
   </div>
-  <Lightbox />
+  <!-- Lightbox included globally via BaseLayout -->
 </BaseLayout>
 
 <script>

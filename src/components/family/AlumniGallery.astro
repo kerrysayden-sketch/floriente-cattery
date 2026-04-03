@@ -30,10 +30,10 @@ const alumni = [
     <h2 class="text-center mb-3">{t(lang, 'family.alumniTitle')}</h2>
     <p class="text-center text-dark-soft mb-16 max-w-2xl mx-auto">{t(lang, 'family.alumniSubtitle')}</p>
 
-    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
       {alumni.map((kitten) => (
         <div class="group">
-          <div class="aspect-square rounded-lg overflow-hidden mb-2">
+          <div class="aspect-square rounded-lg overflow-hidden mb-2" data-lightbox-gallery="family-alumni">
             <img
               src={kitten.src}
               alt={kitten.name}

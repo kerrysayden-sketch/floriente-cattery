@@ -7,15 +7,19 @@ interface GalleryPhoto {
 interface Props {
   photos: GalleryPhoto[];
   catName: string;
+  galleryId?: string;
 }
 
-const { photos, catName } = Astro.props;
+const { photos, catName, galleryId = catName.toLowerCase().replace(/\s/g, '-') } = Astro.props;
 ---
 
 <div class="cat-gallery">
   <div class="flex gap-3 overflow-x-auto pb-3 snap-x snap-mandatory scrollbar-thin">
     {photos.map((photo, i) => (
-      <div class="flex-shrink-0 w-48 md:w-64 lg:w-72 snap-start group relative cursor-pointer" data-lightbox-trigger data-index={i}>
+      <div
+        class="flex-shrink-0 w-48 md:w-64 lg:w-72 snap-start group relative cursor-pointer"
+        data-lightbox-gallery={`cat-${galleryId}`}
+      >
         <div class="aspect-[3/4] overflow-hidden bg-gray-light/20">
           <img
             src={photo.src}
@@ -48,77 +52,3 @@ const { photos, catName } = Astro.props;
     border-radius: 2px;
   }
 </style>
-
-<script>
-  // Create a single global lightbox appended to body
-  let globalLightbox = document.getElementById('global-cat-lightbox');
-  if (!globalLightbox) {
-    globalLightbox = document.createElement('div');
-    globalLightbox.id = 'global-cat-lightbox';
-    globalLightbox.style.cssText = 'display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;background:rgba(30,28,25,0.95);';
-    globalLightbox.innerHTML = `
-      <button id="lb-close" style="position:absolute;top:16px;right:20px;color:#f5f0e8;font-size:36px;background:none;border:none;cursor:pointer;z-index:10;line-height:1;">&times;</button>
-      <button id="lb-prev" style="position:absolute;left:16px;top:50%;transform:translateY(-50%);color:#f5f0e8;font-size:48px;background:none;border:none;cursor:pointer;z-index:10;line-height:1;">&#8249;</button>
-      <button id="lb-next" style="position:absolute;right:16px;top:50%;transform:translateY(-50%);color:#f5f0e8;font-size:48px;background:none;border:none;cursor:pointer;z-index:10;line-height:1;">&#8250;</button>
-      <div style="display:flex;align-items:center;justify-content:center;width:100%;height:100%;padding:48px;">
-        <img id="lb-img" src="" alt="" style="max-width:100%;max-height:100%;object-fit:contain;" />
-      </div>
-      <p id="lb-counter" style="position:absolute;bottom:16px;left:50%;transform:translateX(-50%);color:rgba(245,240,232,0.6);font-size:12px;letter-spacing:0.1em;"></p>
-    `;
-    document.body.appendChild(globalLightbox);
-
-    const lbImg = document.getElementById('lb-img') as HTMLImageElement;
-    const lbCounter = document.getElementById('lb-counter') as HTMLElement;
-
-    let sources: { src: string; alt: string }[] = [];
-    let currentIndex = 0;
-
-    function show(index: number) {
-      currentIndex = (index + sources.length) % sources.length;
-      lbImg.src = sources[currentIndex].src;
-      lbImg.alt = sources[currentIndex].alt;
-      lbCounter.textContent = `${currentIndex + 1} / ${sources.length}`;
-      globalLightbox!.style.display = 'block';
-      document.body.style.overflow = 'hidden';
-    }
-
-    function hide() {
-      globalLightbox!.style.display = 'none';
-      document.body.style.overflow = '';
-    }
-
-    // Store show/hide/setSources globally
-    (window as any).__catLightbox = { show, hide, setSources: (s: typeof sources) => { sources = s; } };
-
-    document.getElementById('lb-close')?.addEventListener('click', (e) => { e.stopPropagation(); hide(); });
-    document.getElementById('lb-prev')?.addEventListener('click', (e) => { e.stopPropagation(); show(currentIndex - 1); });
-    document.getElementById('lb-next')?.addEventListener('click', (e) => { e.stopPropagation(); show(currentIndex + 1); });
-    globalLightbox.addEventListener('click', (e) => { if (e.target === globalLightbox) hide(); });
-
-    document.addEventListener('keydown', (e) => {
-      if (globalLightbox!.style.display === 'none') return;
-      if (e.key === 'Escape') hide();
-      if (e.key === 'ArrowLeft') show(currentIndex - 1);
-      if (e.key === 'ArrowRight') show(currentIndex + 1);
-    });
-  }
-
-  // Each gallery registers its triggers
-  document.querySelectorAll('.cat-gallery').forEach((gallery) => {
-    const triggers = gallery.querySelectorAll('[data-lightbox-trigger]');
-    const gallerySources: { src: string; alt: string }[] = [];
-
-    triggers.forEach((trigger) => {
-      const img = trigger.querySelector('img') as HTMLImageElement;
-      if (img) gallerySources.push({ src: img.src, alt: img.alt });
-    });
-
-    triggers.forEach((trigger, i) => {
-      trigger.addEventListener('click', () => {
-        const lb = (window as any).__catLightbox;
-        lb.setSources(gallerySources);
-        lb.show(i);
-      });
-    });
-  });
-</script>

@@ -1,0 +1,177 @@
+---
+// Universal lightbox — included once in BaseLayout
+// Any element with data-lightbox-gallery="groupName" becomes a lightbox trigger
+// Photos are collected from img tags inside the trigger elements
+---
+
+<div id="global-lightbox" class="lightbox-overlay" aria-hidden="true">
+  <button id="lb-close" class="lightbox-btn lightbox-close" aria-label="Close">&times;</button>
+  <button id="lb-prev" class="lightbox-btn lightbox-prev" aria-label="Previous">&#8249;</button>
+  <button id="lb-next" class="lightbox-btn lightbox-next" aria-label="Next">&#8250;</button>
+  <div class="lightbox-content">
+    <img id="lb-img" src="" alt="" />
+  </div>
+  <p id="lb-counter" class="lightbox-counter"></p>
+</div>
+
+<style>
+  .lightbox-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    background: rgba(30, 28, 25, 0.95);
+  }
+  .lightbox-overlay[aria-hidden="false"] {
+    display: block;
+  }
+  .lightbox-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 48px 60px;
+  }
+  .lightbox-content img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .lightbox-btn {
+    position: absolute;
+    color: #f5f0e8;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    line-height: 1;
+    padding: 8px;
+    transition: opacity 0.2s;
+  }
+  .lightbox-btn:hover {
+    opacity: 0.7;
+  }
+  .lightbox-close {
+    top: 12px;
+    right: 16px;
+    font-size: 36px;
+  }
+  .lightbox-prev {
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 48px;
+  }
+  .lightbox-next {
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 48px;
+  }
+  .lightbox-counter {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(245, 240, 232, 0.6);
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    margin: 0;
+  }
+
+  @media (max-width: 640px) {
+    .lightbox-content {
+      padding: 24px 12px;
+    }
+    .lightbox-prev { left: 4px; font-size: 36px; }
+    .lightbox-next { right: 4px; font-size: 36px; }
+  }
+</style>
+
+<script>
+  // Global lightbox singleton
+  const overlay = document.getElementById('global-lightbox')!;
+  const lbImg = document.getElementById('lb-img') as HTMLImageElement;
+  const lbCounter = document.getElementById('lb-counter')!;
+
+  let sources: { src: string; alt: string }[] = [];
+  let currentIndex = 0;
+
+  function show(index: number) {
+    currentIndex = ((index % sources.length) + sources.length) % sources.length;
+    lbImg.src = sources[currentIndex].src;
+    lbImg.alt = sources[currentIndex].alt;
+    lbCounter.textContent = `${currentIndex + 1} / ${sources.length}`;
+    overlay.setAttribute('aria-hidden', 'false');
+    overlay.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+  }
+
+  function hide() {
+    overlay.setAttribute('aria-hidden', 'true');
+    overlay.style.display = 'none';
+    document.body.style.overflow = '';
+  }
+
+  // Expose globally for dynamic registration
+  (window as any).__lightbox = { show, hide, setSources: (s: typeof sources) => { sources = s; } };
+
+  // Controls
+  document.getElementById('lb-close')?.addEventListener('click', (e) => { e.stopPropagation(); hide(); });
+  document.getElementById('lb-prev')?.addEventListener('click', (e) => { e.stopPropagation(); show(currentIndex - 1); });
+  document.getElementById('lb-next')?.addEventListener('click', (e) => { e.stopPropagation(); show(currentIndex + 1); });
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) hide(); });
+
+  document.addEventListener('keydown', (e) => {
+    if (overlay.style.display === 'none') return;
+    if (e.key === 'Escape') hide();
+    if (e.key === 'ArrowLeft') show(currentIndex - 1);
+    if (e.key === 'ArrowRight') show(currentIndex + 1);
+  });
+
+  // Touch swipe support
+  let touchStartX = 0;
+  overlay.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; }, { passive: true });
+  overlay.addEventListener('touchend', (e) => {
+    const diff = e.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(diff) > 50) {
+      if (diff > 0) show(currentIndex - 1);
+      else show(currentIndex + 1);
+    }
+  });
+
+  // Auto-register all galleries on page
+  // Any element with [data-lightbox-gallery] groups photos together
+  function registerGalleries() {
+    const galleries = document.querySelectorAll('[data-lightbox-gallery]');
+    const groups: Record<string, { src: string; alt: string }[]> = {};
+
+    galleries.forEach((el) => {
+      const group = el.getAttribute('data-lightbox-gallery') || 'default';
+      if (!groups[group]) groups[group] = [];
+
+      const img = el.querySelector('img') || el as HTMLImageElement;
+      if (img && img.tagName === 'IMG') {
+        const index = groups[group].length;
+        groups[group].push({ src: (img as HTMLImageElement).src, alt: (img as HTMLImageElement).alt || '' });
+
+        el.addEventListener('click', () => {
+          const lb = (window as any).__lightbox;
+          lb.setSources(groups[group]);
+          lb.show(index);
+        });
+
+        // Make visually clickable
+        (el as HTMLElement).style.cursor = 'pointer';
+      }
+    });
+  }
+
+  // Run on load and after Astro page transitions
+  registerGalleries();
+  document.addEventListener('astro:page-load', registerGalleries);
+</script>
