@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+/* ── Prevent horizontal scroll from animations ── */
+html, body {
+  overflow-x: hidden;
+}
+
 /* ── Floriente Cattery Design Tokens ── */
 @theme {
   /* Colors */
