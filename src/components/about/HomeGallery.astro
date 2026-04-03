@@ -23,7 +23,7 @@ const photos = [
     <h2 class="mb-2">{t(lang, 'about.homeTitle')}</h2>
     <p class="text-gray-medium mb-12">{t(lang, 'about.homeSubtitle')}</p>
 
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
       {photos.map((photo, i) => (
         <div class:list={[
           'rounded-lg overflow-hidden group',

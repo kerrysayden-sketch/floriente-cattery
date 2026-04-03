@@ -1,4 +1,9 @@
 ---
-// Redirect root to default locale
-return Astro.redirect('/en/');
+// Instant redirect to default locale — no intermediate page
+return new Response(null, {
+  status: 302,
+  headers: {
+    Location: '/en/',
+  },
+});
 ---

@@ -12,10 +12,10 @@ const { lang } = Astro.props as { lang: Lang };
 const cats = [
   {
     id: 'simona',
-    name: 'Simona',
+    name: 'Simona (Sima)',
     fullName: 'Belly Dance Simona',
     role: 'queen' as const,
-    titles: 'GIC',
+    titles: 'Grand Inter-Champion (GIC)',
     breed: 'Oriental Shorthair',
     color: lang === 'en' ? 'Blue spotted tabby' : 'Блакитний плямистий таббі',
     ems: 'OSH a 24',
@@ -34,10 +34,10 @@ const cats = [
   },
   {
     id: 'sebastian',
-    name: 'Sebastian',
+    name: 'Sebastian (Seba)',
     fullName: 'Sebastian Ole Lukhoye',
     role: 'king' as const,
-    titles: 'GIC',
+    titles: 'Grand Inter-Champion (GIC)',
     breed: 'Oriental Shorthair',
     color: lang === 'en' ? 'Black spotted tabby' : 'Чорний плямистий таббі',
     ems: 'OSH n 24',
@@ -56,7 +56,7 @@ const cats = [
   },
   {
     id: 'halva',
-    name: 'Halva',
+    name: 'Helding (Halva)',
     fullName: 'Helding Ole Lukhoye',
     role: 'queen' as const,
     titles: '',
@@ -156,7 +156,7 @@ const roleLabels = {
                 <h2 class="font-serif text-3xl md:text-4xl lg:text-5xl text-dark mb-2">{cat.name}</h2>
                 {cat.titles && (
                   <span class="inline-block px-3 py-1 bg-gold/10 text-gold text-xs font-semibold uppercase tracking-wider">
-                    {cat.titles} — WCF
+                    {cat.titles} — World Cat Federation
                   </span>
                 )}
               </div>

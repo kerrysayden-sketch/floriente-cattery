@@ -33,7 +33,6 @@ const litterB = [
   { name: 'Bars', full: 'Bars Ole Lukhoye', photo: '/images/kittens/litter-b/bars.jpg', sex: 'male', breed: 'Siamese', color: 'Seal point' },
   { name: 'Barton', full: 'Barton Ole Lukhoye', photo: '/images/kittens/litter-b/barton.jpg', sex: 'male', breed: 'Oriental Shorthair', color: 'Chocolate' },
   { name: 'Bead', full: 'Bead Ole Lukhoye', photo: '/images/kittens/litter-b/bead.jpg', sex: 'female', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
-  { name: 'Bella', full: 'Bella Ole Lukhoye', photo: null, sex: 'female', breed: 'Siamese', color: 'Seal point' },
   { name: 'Benjamin', full: 'Benjamin Ole Lukhoye', photo: '/images/kittens/litter-b/benjamin.jpg', sex: 'male', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
   { name: 'Bill', full: 'Bill Ole Lukhoye', photo: '/images/kittens/litter-b/bill.jpg', sex: 'male', breed: 'Siamese', color: 'Seal point' },
   { name: 'Buddy', full: 'Buddy Ole Lukhoye', photo: '/images/kittens/litter-b/buddy.jpg', sex: 'male', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
@@ -44,16 +43,16 @@ const litterATitle = lang === 'en' ? 'Litter "A"' : 'Помiт «A»';
 const litterBTitle = lang === 'en' ? 'Litter "B"' : 'Помiт «Б»';
 
 const pageSubtitle = lang === 'en'
-  ? 'Each of our 14 kittens grew up surrounded by love and found a family that was just right for them'
-  : 'Кожне з наших 14 кошенят виросло в любові та знайшло родину, яка підходить саме йому';
+  ? 'Each of our 13 kittens grew up surrounded by love and found a family that was just right for them'
+  : 'Кожне з наших 13 кошенят виросло в любові та знайшло родину, яка підходить саме йому';
 
 const litterAMeta = lang === 'en'
   ? 'Born January 16, 2024 · Parents: Sebastian & Simona · 5 kittens'
   : 'Народилися 16 січня 2024 · Батьки: Sebastian & Simona · 5 кошенят';
 
 const litterBMeta = lang === 'en'
-  ? 'Born July 25, 2024 · Parents: Sebastian & Simona · 9 kittens'
-  : 'Народилися 25 липня 2024 · Батьки: Sebastian & Simona · 9 кошенят';
+  ? 'Born July 25, 2024 · Parents: Sebastian & Simona · 8 kittens'
+  : 'Народилися 25 липня 2024 · Батьки: Sebastian & Simona · 8 кошенят';
 
 const waitlistText = lang === 'en'
   ? 'Interested in a kitten from our future litters?'
@@ -94,10 +93,10 @@ const litterBStory = lang === 'en'
             {lang === 'en' ? 'Reserved' : 'Зарезервовані'}
           </button>
         </div>
-        <div id="kitten-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 mb-16">
+        <div id="kitten-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {currentKittens.map((kitten) => (
             <a href={getLocalizedPath(`/kittens/${kitten.slug}/`, lang)} class="kitten-card text-center group" data-status={kitten.status}>
-              <div class="relative mx-auto w-36 h-36 sm:w-40 sm:h-40 md:w-44 md:h-44 mb-3">
+              <div class="relative mx-auto w-44 h-44 sm:w-48 sm:h-48 md:w-52 md:h-52 mb-3">
                 <div class="w-full h-full rounded-full overflow-hidden border-2 border-gray-200 group-hover:border-gold/40 transition-colors duration-300 shadow-sm">
                   <img src={kitten.photos?.filename} alt={kitten.name} class="w-full h-full object-cover" loading="lazy" />
                 </div>
@@ -120,10 +119,10 @@ const litterBStory = lang === 'en'
         <div class="flex-1 h-px bg-gray-light"></div>
       </div>
       <p class="text-sm text-gray-medium mb-8">{litterAMeta}</p>
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10">
         {litterA.map((kitten) => (
           <div class="text-center group">
-            <div class="relative mx-auto w-40 h-40 sm:w-44 sm:h-44 md:w-48 md:h-48 mb-3">
+            <div class="relative mx-auto w-48 h-48 sm:w-52 sm:h-52 md:w-56 md:h-56 mb-3">
               <div class="w-full h-full rounded-full overflow-hidden border-2 border-gray-200 group-hover:border-gold/40 group-hover:shadow-md transition-all duration-300 shadow-sm">
                 <img
                   src={kitten.photo}
@@ -161,10 +160,10 @@ const litterBStory = lang === 'en'
         <div class="flex-1 h-px bg-gray-light"></div>
       </div>
       <p class="text-sm text-gray-medium mb-8">{litterBMeta}</p>
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10">
         {litterB.map((kitten) => (
           <div class="text-center group">
-            <div class="relative mx-auto w-40 h-40 sm:w-44 sm:h-44 md:w-48 md:h-48 mb-3">
+            <div class="relative mx-auto w-48 h-48 sm:w-52 sm:h-52 md:w-56 md:h-56 mb-3">
               <div class="w-full h-full rounded-full overflow-hidden border-2 border-gray-200 group-hover:border-gold/40 group-hover:shadow-md transition-all duration-300 shadow-sm">
                 {kitten.photo ? (
                   <img
@@ -209,7 +208,7 @@ const litterBStory = lang === 'en'
     {pastKittens.length > 0 && (
       <section class="mb-14 md:mb-20 pt-12 border-t border-gray-light">
         <h2 class="text-lg text-gray-medium mb-8">{lang === 'en' ? 'Previous Litters' : 'Попередні помiти'}</h2>
-        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {pastKittens.map((kitten) => (
             <a
               href={getLocalizedPath(`/kittens/${kitten.slug}/`, lang)}
