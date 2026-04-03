@@ -7,30 +7,82 @@ interface Props {
 }
 
 const { lang } = Astro.props;
+
+const reviews = [
+  {
+    owner: lang === 'en' ? 'Natalia' : 'Наталія',
+    kitten: 'Barton (Yarik)',
+    photo: null, // waiting for photo
+    quote_en: 'We found you — and immediately felt the love for the kittens. You could see that you interact with them constantly, play with them, aren\'t afraid to send videos right away and even let us see the little ones. We felt that the kitten grows up in love and care.',
+    quote_uk: 'А потім ми знайшли вас — і одразу відчулася любов до котиків. Було видно, що ви з ними постійно контактуєте, граєтесь, не боїтеся одразу відправити відео і навіть дозволяєте побачити малечу. Ми відчули, що котик росте в любові та турботі.',
+  },
+  {
+    owner: lang === 'en' ? 'Tatiana' : 'Тетяна',
+    kitten: 'Bars (Venyushka)',
+    photo: '/images/family/review-bars-1.jpg',
+    quote_en: 'When you decide to get such a baby, you need to consciously approach the choice of cattery — first of all, it\'s the health of your little one. I\'m very glad that your cattery caught my eye. They give parents the most precious thing — their babies — and continue caring about them afterwards.',
+    quote_uk: 'Коли ти приймаєш рішення завести собі такого малюка, потрібно усвідомлено підходити до вибору розплідника — передусім це здоров\'я вашого маленького. Я дуже рада, що саме ваш розплідник потрапив мені на очі. Вони віддають батькам найцінніше — своїх діток — і проявляють про них турботу далі.',
+  },
+  {
+    owner: lang === 'en' ? 'Victoria' : 'Вікторія',
+    kitten: 'Barbie (Dora)',
+    photo: '/images/family/review-barbie-1.jpg',
+    quote_en: 'We were pleasantly surprised by the attitude towards their kittens, the willingness to provide any photos, videos, and even video calls online. The kitten came with a "dowry" and chipped, with all documents. From day one, she settled in and started asking to be held.',
+    quote_uk: 'Були приємно вражені відношенням до своїх вихованців, готовністю надати будь-які фото, відео, та навіть відео-дзвінки в режимі онлайн. Кошеня приїхало з «приданим» та чіповане, з оформленими документами. З першої хвилини освоїлось і почало проситися на руки.',
+  },
+];
 ---
 
 <section class="py-16 md:py-24 px-4 sm:px-6">
-  <div class="max-w-4xl mx-auto text-center">
-    <h2 class="mb-3">{t(lang, 'family.testimonialsTitle')}</h2>
-    <p class="text-dark-soft mb-12 max-w-2xl mx-auto">{t(lang, 'family.testimonialsSubtitle')}</p>
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-center mb-3">{t(lang, 'family.testimonialsTitle')}</h2>
+    <p class="text-center text-dark-soft mb-12 md:mb-16 max-w-2xl mx-auto">{t(lang, 'family.testimonialsSubtitle')}</p>
 
-    <!-- Placeholder for future testimonials -->
-    <div class="bg-warm-white border border-gray-light rounded-lg p-10 max-w-2xl mx-auto">
-      <svg class="w-10 h-10 text-gold/20 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-      </svg>
-      <p class="text-dark-soft italic leading-relaxed">
-        {t(lang, 'family.testimonialsPlaceholder')}
-      </p>
+    <div class="space-y-10 md:space-y-14">
+      {reviews.map((review) => (
+        <div class="flex flex-col md:flex-row gap-6 md:gap-10 items-start max-w-3xl mx-auto">
+          {/* Photo */}
+          {review.photo ? (
+            <div class="flex-shrink-0 w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden mx-auto md:mx-0" data-lightbox-gallery="reviews">
+              <img
+                src={review.photo}
+                alt={review.owner}
+                class="w-full h-full object-cover"
+                loading="lazy"
+              />
+            </div>
+          ) : (
+            <div class="flex-shrink-0 w-20 h-20 md:w-24 md:h-24 rounded-full bg-gold/10 flex items-center justify-center mx-auto md:mx-0">
+              <span class="text-2xl text-gold font-serif">{review.owner.charAt(0)}</span>
+            </div>
+          )}
+
+          {/* Content */}
+          <div class="flex-1 text-center md:text-left">
+            <svg class="w-6 h-6 text-gold/30 mb-3 mx-auto md:mx-0" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+            </svg>
+            <p class="text-dark-soft italic leading-relaxed mb-4 text-sm md:text-base">
+              {lang === 'en' ? review.quote_en : review.quote_uk}
+            </p>
+            <div>
+              <p class="text-dark font-semibold text-sm">{review.owner}</p>
+              <p class="text-gray-medium text-xs">
+                {lang === 'en' ? `Owner of ${review.kitten}` : `Власник ${review.kitten}`}
+              </p>
+            </div>
+          </div>
+        </div>
+      ))}
     </div>
 
-    <!-- CTA -->
-    <div class="mt-16">
+    {/* CTA */}
+    <div class="mt-16 text-center">
       <h3 class="font-serif text-xl mb-3">{t(lang, 'family.ctaTitle')}</h3>
       <p class="text-dark-soft mb-6">{t(lang, 'family.ctaText')}</p>
       <a
         href={getLocalizedPath('/how-to-buy/', lang)}
-        class="inline-flex items-center gap-2 px-8 py-3.5 bg-gold text-warm-white rounded-sm text-sm tracking-wider uppercase hover:bg-gold-dark transition-colors"
+        class="inline-flex items-center gap-2 px-8 py-3.5 bg-gold text-warm-white text-sm tracking-wider uppercase hover:bg-gold-dark transition-colors"
       >
         {t(lang, 'family.ctaCta')}
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
