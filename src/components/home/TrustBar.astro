@@ -4,9 +4,10 @@ import type { Lang } from '../../i18n/utils';
 
 interface Props {
   lang: Lang;
+  variant?: 'A' | 'B';
 }
 
-const { lang } = Astro.props;
+const { lang, variant = 'A' } = Astro.props;
 
 const items = [
   { icon: 'shield', key: 'trustWcf', descKey: 'trustWcfDesc' },
@@ -23,32 +24,67 @@ const icons: Record<string, string> = {
 };
 ---
 
-<section class="bg-dark py-10 md:py-14">
+{/* Mobile: always grid 2x2, same for both variants */}
+<section class="bg-dark py-10 md:py-16">
   <div class="max-w-6xl mx-auto px-4 sm:px-6">
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 scroll-fade-stagger">
+
+    {/* Mobile layout — same for both variants */}
+    <div class="grid grid-cols-2 gap-6 md:hidden">
       {items.map((item) => (
-        <div class="text-center group">
+        <div class="text-center">
           <div class="w-12 h-12 mx-auto mb-3 flex items-center justify-center">
-            <svg
-              class="w-7 h-7 text-gold group-hover:text-gold-light transition-colors"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
+            <svg class="w-7 h-7 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <path d={icons[item.icon]} />
             </svg>
           </div>
-          <h3 class="text-warm-white text-sm font-semibold uppercase tracking-wider mb-1">
+          <h3 class="text-warm-white text-sm font-semibold uppercase tracking-wider">
             {t(lang, `home.${item.key}`)}
           </h3>
-          <p class="text-warm-white/50 text-xs leading-relaxed hidden md:block">
-            {t(lang, `home.${item.descKey}`)}
-          </p>
         </div>
       ))}
     </div>
+
+    {/* Desktop Variant A: Enhanced horizontal strip */}
+    {variant === 'A' && (
+      <div class="hidden md:grid md:grid-cols-4 gap-8">
+        {items.map((item) => (
+          <div class="text-center group">
+            <div class="w-16 h-16 mx-auto mb-4 flex items-center justify-center rounded-full bg-warm-white/5 group-hover:bg-warm-white/10 transition-colors">
+              <svg class="w-9 h-9 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d={icons[item.icon]} />
+              </svg>
+            </div>
+            <h3 class="text-warm-white text-base font-semibold uppercase tracking-wider mb-2">
+              {t(lang, `home.${item.key}`)}
+            </h3>
+            <p class="text-warm-white/60 text-sm leading-relaxed max-w-[200px] mx-auto">
+              {t(lang, `home.${item.descKey}`)}
+            </p>
+          </div>
+        ))}
+      </div>
+    )}
+
+    {/* Desktop Variant B: Vertical cards */}
+    {variant === 'B' && (
+      <div class="hidden md:grid md:grid-cols-4 gap-6">
+        {items.map((item) => (
+          <div class="bg-warm-white/5 border border-warm-white/10 p-6 text-center group hover:bg-warm-white/10 transition-colors">
+            <div class="w-14 h-14 mx-auto mb-4 flex items-center justify-center">
+              <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d={icons[item.icon]} />
+              </svg>
+            </div>
+            <h3 class="text-warm-white text-base font-semibold uppercase tracking-wider mb-3">
+              {t(lang, `home.${item.key}`)}
+            </h3>
+            <p class="text-warm-white/60 text-sm leading-relaxed">
+              {t(lang, `home.${item.descKey}`)}
+            </p>
+          </div>
+        ))}
+      </div>
+    )}
+
   </div>
 </section>
