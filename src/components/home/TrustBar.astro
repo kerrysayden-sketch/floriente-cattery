@@ -40,6 +40,9 @@ const icons: Record<string, string> = {
           <h3 class="text-warm-white text-sm font-semibold uppercase tracking-wider">
             {t(lang, `home.${item.key}`)}
           </h3>
+          <p class="text-warm-white/50 text-[10px] mt-1 leading-tight">
+            {t(lang, `home.${item.descKey}`)}
+          </p>
         </div>
       ))}
     </div>

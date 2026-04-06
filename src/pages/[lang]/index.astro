@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import HeroSection from '../../components/home/HeroSection.astro';
 import TrustBar from '../../components/home/TrustBar.astro';
-import KittensPreview from '../../components/home/KittensPreview.astro';
+import TestimonialsSection from '../../components/family/TestimonialsSection.astro';
 import AboutPreview from '../../components/home/AboutPreview.astro';
 import FamilySection from '../../components/home/FamilySection.astro';
 import { t, createLangStaticPaths } from '../../i18n/utils';
@@ -21,12 +21,12 @@ const { lang } = Astro.props as { lang: Lang };
   <HeroSection lang={lang} />
   <TrustBar lang={lang} variant="A" />
   <div class="scroll-fade">
-    <KittensPreview lang={lang} />
+    <TestimonialsSection lang={lang} />
   </div>
   <div class="scroll-fade">
     <AboutPreview lang={lang} />
   </div>
-  <div class="scroll-fade">
+  <div id="family" class="scroll-fade">
     <FamilySection lang={lang} />
   </div>
 </BaseLayout>
