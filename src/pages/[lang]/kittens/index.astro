@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import KittensPreview from '../../../components/home/KittensPreview.astro';
 import { t, createLangStaticPaths, getLocalizedPath } from '../../../i18n/utils';
 import type { Lang } from '../../../i18n/utils';
 import { fetchKittens } from '../../../lib/storyblok';
@@ -72,6 +73,8 @@ const litterBStory = null; // Removed per operator request
   description={t(lang, 'pages.kittens.description')}
   lang={lang}
 >
+  <KittensPreview lang={lang} />
+
   <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-20">
     <h1 class="text-center text-gold-dark mb-4">{t(lang, 'nav.kittens')}</h1>
     <p class="text-center text-gray-medium mb-12 md:mb-16 max-w-2xl mx-auto">{pageSubtitle}</p>
