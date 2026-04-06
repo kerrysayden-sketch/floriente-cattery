@@ -1,0 +1,271 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { t, getLocalizedPath, createLangStaticPaths } from '../../../i18n/utils';
+import type { Lang } from '../../../i18n/utils';
+
+export const getStaticPaths = createLangStaticPaths;
+
+const { lang } = Astro.props as { lang: Lang };
+
+const title = lang === 'en'
+  ? 'How to Verify a Legitimate Cattery: A Buyer\'s Checklist'
+  : 'Як перевірити легітимний розплідник: чеклист покупця';
+
+const description = lang === 'en'
+  ? 'Don\'t fall for cat scams. Use this expert checklist to verify any cattery before sending money. Real credentials, real red flags, real protection.'
+  : 'Не потрапте на шахраїв. Використовуйте цей експертний чеклист для перевірки будь-якого розплідника перед оплатою.';
+---
+
+<BaseLayout
+  title={`${title} — Floriente Cattery`}
+  description={description}
+  lang={lang}
+>
+  <article class="py-16 md:py-24 px-4 sm:px-6">
+    <div class="max-w-3xl mx-auto">
+      <!-- Back link -->
+      <a
+        href={getLocalizedPath('/blog/', lang)}
+        class="inline-flex items-center gap-2 text-sm text-gold hover:text-gold-dark transition-colors mb-8"
+      >
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 12H5M12 19l-7-7 7-7" />
+        </svg>
+        {lang === 'en' ? 'Back to Blog' : 'Назад до блогу'}
+      </a>
+
+      <!-- Header -->
+      <header class="mb-12">
+        <span class="text-xs uppercase tracking-wider text-gold font-semibold">
+          {lang === 'en' ? 'Buyer\'s Guide' : 'Гід покупця'}
+        </span>
+        <h1 class="font-serif text-3xl md:text-4xl text-dark mt-2 mb-4">{title}</h1>
+        <div class="flex items-center gap-4 text-sm text-gray-medium">
+          <time>{lang === 'en' ? 'April 2026' : 'Квітень 2026'}</time>
+          <span>Floriente Cattery</span>
+        </div>
+      </header>
+
+      <!-- Content -->
+      <div class="prose prose-lg max-w-none text-dark-soft leading-relaxed
+        [&_h2]:font-serif [&_h2]:text-dark [&_h2]:text-2xl [&_h2]:mt-10 [&_h2]:mb-4
+        [&_h3]:font-serif [&_h3]:text-dark [&_h3]:text-xl [&_h3]:mt-8 [&_h3]:mb-3
+        [&_p]:mb-6
+        [&_a]:text-gold [&_a]:hover:text-gold-dark
+        [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-6
+        [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:mb-6
+        [&_blockquote]:border-l-4 [&_blockquote]:border-gold [&_blockquote]:pl-6 [&_blockquote]:italic
+      ">
+        {lang === 'en' ? (
+          <Fragment>
+            <p>
+              Buying a purebred kitten online can feel risky. Every year, hundreds of people lose money to fake catteries that collect deposits and disappear. The good news: legitimate breeders leave a trail of verifiable credentials. Here's how to check any cattery before you send a single euro.
+            </p>
+
+            <h2>The 7-Point Verification Checklist</h2>
+
+            <h3>1. Check the cattery registration</h3>
+            <p>
+              Every legitimate cattery is registered with a felinological organization — WCF (World Cat Federation), TICA, FIFe, or CFA. Ask for the registration number and verify it directly on the organization's website.
+            </p>
+            <div class="bg-gold/5 border-l-4 border-gold p-4 my-6 not-prose">
+              <p class="text-sm text-dark"><strong>Floriente Cattery:</strong> WCF Registration #50188-2025. Verify at <a href="https://wcf-online.de" target="_blank" rel="noopener" class="text-gold hover:text-gold-dark">wcf-online.de</a></p>
+            </div>
+
+            <h3>2. Ask for a video call with the kitten</h3>
+            <p>
+              A real breeder will happily show you the kitten via video — in their home, with the parents visible. If someone refuses a video call or keeps making excuses, walk away.
+            </p>
+            <div class="bg-gold/5 border-l-4 border-gold p-4 my-6 not-prose">
+              <p class="text-sm text-dark"><strong>Floriente Cattery:</strong> We offer video calls before reservation. You'll see the kitten, the parents, and our home.</p>
+            </div>
+
+            <h3>3. Verify health testing</h3>
+            <p>
+              Responsible breeders test parents for genetic diseases specific to the breed. For Orientals and Siamese, this includes PRA (progressive retinal atrophy), PK deficiency, and blood type. Ask which laboratory performed the tests.
+            </p>
+            <div class="bg-gold/5 border-l-4 border-gold p-4 my-6 not-prose">
+              <p class="text-sm text-dark"><strong>Floriente Cattery:</strong> All parents tested at NeoVetLab and Genomia (Czech Republic). Results shared with buyers before reservation.</p>
+            </div>
+
+            <h3>4. Request the contract</h3>
+            <p>
+              A legitimate cattery always works with a written contract that covers health guarantees, spay/neuter requirements, return policy, and ownership transfer. No contract = no deal.
+            </p>
+            <div class="bg-gold/5 border-l-4 border-gold p-4 my-6 not-prose">
+              <p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Full sales contract provided. Covers health guarantee, microchip, vaccination, pedigree, and post-adoption support.</p>
+            </div>
+
+            <h3>5. Check for champion titles</h3>
+            <p>
+              If a cattery claims their cats are titled, verify the titles. Champion, Grand Champion, International Champion — each title is earned at official cat shows judged by licensed experts.
+            </p>
+            <div class="bg-gold/5 border-l-4 border-gold p-4 my-6 not-prose">
+              <p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Sebastian and Simona — Grand Inter-Champions (GIC), World Cat Federation. Cat show photos and certificates available on our website.</p>
+            </div>
+
+            <h3>6. Look for real owner testimonials</h3>
+            <p>
+              Real reviews with real names, real photos of kittens in their new homes. Not stock photos. Not anonymous quotes. Ask the breeder to connect you with previous buyers.
+            </p>
+            <div class="bg-gold/5 border-l-4 border-gold p-4 my-6 not-prose">
+              <p class="text-sm text-dark"><strong>Floriente Cattery:</strong> 13 kittens in loving homes. Owner testimonials with photos on our homepage. We're happy to connect you with previous families.</p>
+            </div>
+
+            <h3>7. Understand what's included in the price</h3>
+            <p>
+              A transparent breeder lists exactly what comes with the kitten: vaccinations, microchip, passport, pedigree, spay/neuter, food starter kit, adaptation guide. If the price seems too low or the listing is vague — it's a red flag.
+            </p>
+            <div class="bg-gold/5 border-l-4 border-gold p-4 my-6 not-prose">
+              <p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Full breakdown on our <a href={getLocalizedPath('/how-to-buy/', lang)} class="text-gold hover:text-gold-dark">How to Buy</a> page — 8 items included with every kitten.</p>
+            </div>
+
+            <h2>Red Flags: When to Walk Away</h2>
+            <ul>
+              <li><strong>100% prepayment required</strong> before you've seen the kitten on video</li>
+              <li><strong>No registration number</strong> or refusal to share it</li>
+              <li><strong>Stock photos</strong> instead of real photos of kittens and parents</li>
+              <li><strong>Price significantly below market</strong> — Oriental/Siamese kittens from registered breeders cost €800–€1,500+ (pet class)</li>
+              <li><strong>No contract offered</strong> or "we don't do contracts"</li>
+              <li><strong>Pressure to decide quickly</strong> — "this kitten won't last" or "deposit today or lose it"</li>
+              <li><strong>No social media presence</strong> — no Instagram, no Facebook, no history of activity</li>
+            </ul>
+
+            <h2>Your Due Diligence Template</h2>
+            <p>Before sending any money, ask these questions:</p>
+            <ol>
+              <li>What is your cattery registration number? Which organization?</li>
+              <li>Can we do a video call to see the kitten and parents?</li>
+              <li>Which genetic tests have the parents passed? At which lab?</li>
+              <li>Do you provide a written contract? Can I see it before committing?</li>
+              <li>What titles do the parents have? Where can I verify them?</li>
+              <li>Can I speak with a previous buyer?</li>
+              <li>What exactly is included in the price?</li>
+            </ol>
+
+            <p>
+              A legitimate breeder will answer every question without hesitation. If you get vague answers, delays, or pushback — trust your instincts and keep looking.
+            </p>
+          </Fragment>
+        ) : (
+          <Fragment>
+            <p>
+              Покупка породистого кошеняти онлайн може здатися ризикованою. Щороку сотні людей втрачають гроші через фейкові розплідники, які збирають завдатки та зникають. Хороша новина: легітимні заводчики залишають слід верифікованих документів. Ось як перевірити будь-який розплідник, перш ніж надіслати хоча б одне євро.
+            </p>
+
+            <h2>Чеклист з 7 пунктів для перевірки</h2>
+
+            <h3>1. Перевірте реєстрацію розплідника</h3>
+            <p>
+              Кожен легітимний розплідник зареєстрований у фелінологічній організації — WCF (World Cat Federation), TICA, FIFe або CFA. Запитайте реєстраційний номер та перевірте його безпосередньо на сайті організації.
+            </p>
+            <div class="bg-gold/5 border-l-4 border-gold p-4 my-6 not-prose">
+              <p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Реєстрація WCF #50188-2025. Перевірити на <a href="https://wcf-online.de" target="_blank" rel="noopener" class="text-gold hover:text-gold-dark">wcf-online.de</a></p>
+            </div>
+
+            <h3>2. Попросіть відеодзвінок з кошеням</h3>
+            <p>
+              Справжній заводчик з радістю покаже вам кошеня через відео — у своєму домі, з батьками поруч. Якщо хтось відмовляється від відеодзвінка або постійно шукає відмовки — тікайте.
+            </p>
+            <div class="bg-gold/5 border-l-4 border-gold p-4 my-6 not-prose">
+              <p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Ми пропонуємо відеодзвінки до бронювання. Ви побачите кошеня, батьків та наш дім.</p>
+            </div>
+
+            <h3>3. Перевірте тестування здоров'я</h3>
+            <p>
+              Відповідальні заводчики тестують батьків на генетичні захворювання, характерні для породи. Для орієнталів та сіамських це PRA (прогресуюча атрофія сітківки), PK-дефіцит та група крові. Запитайте, яка лабораторія проводила тести.
+            </p>
+            <div class="bg-gold/5 border-l-4 border-gold p-4 my-6 not-prose">
+              <p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Всі батьки протестовані в NeoVetLab та Genomia (Чехія). Результати надаються покупцям до бронювання.</p>
+            </div>
+
+            <h3>4. Запросіть договір</h3>
+            <p>
+              Легітимний розплідник завжди працює з письмовим договором, який покриває гарантії здоров'я, вимоги щодо стерилізації, політику повернення та передачу права власності. Немає договору = немає угоди.
+            </p>
+            <div class="bg-gold/5 border-l-4 border-gold p-4 my-6 not-prose">
+              <p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Повний договір купівлі-продажу. Покриває гарантію здоров'я, мікрочіп, вакцинацію, родовід та підтримку після усиновлення.</p>
+            </div>
+
+            <h3>5. Перевірте чемпіонські титули</h3>
+            <p>
+              Якщо розплідник стверджує, що їхні коти титуловані — перевірте. Чемпіон, Гранд Чемпіон, Інтернаціональний Чемпіон — кожен титул заслуговується на офіційних виставках під оцінкою ліцензованих експертів.
+            </p>
+            <div class="bg-gold/5 border-l-4 border-gold p-4 my-6 not-prose">
+              <p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Sebastian та Simona — Гранд Інтер-Чемпіони (GIC), World Cat Federation. Фото з виставок та сертифікати на нашому сайті.</p>
+            </div>
+
+            <h3>6. Шукайте реальні відгуки власників</h3>
+            <p>
+              Реальні відгуки з реальними іменами, реальними фото кошенят у нових домівках. Не стокові фото. Не анонімні цитати. Попросіть заводчика з'єднати вас з попередніми покупцями.
+            </p>
+            <div class="bg-gold/5 border-l-4 border-gold p-4 my-6 not-prose">
+              <p class="text-sm text-dark"><strong>Floriente Cattery:</strong> 13 кошенят у люблячих домівках. Відгуки власників з фото на нашій головній сторінці. Ми із задоволенням з'єднаємо вас з попередніми родинами.</p>
+            </div>
+
+            <h3>7. Зрозумійте, що входить у ціну</h3>
+            <p>
+              Прозорий заводчик чітко перелічує, що йде з кошеням: вакцинації, мікрочіп, паспорт, родовід, стерилізація, стартовий набір корму, гід з адаптації. Якщо ціна здається занадто низькою або опис розмитий — це червоний прапорець.
+            </p>
+            <div class="bg-gold/5 border-l-4 border-gold p-4 my-6 not-prose">
+              <p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Повний перелік на нашій сторінці <a href={getLocalizedPath('/how-to-buy/', lang)} class="text-gold hover:text-gold-dark">Як придбати</a> — 8 пунктів включено з кожним кошеням.</p>
+            </div>
+
+            <h2>Червоні прапорці: коли варто відмовитися</h2>
+            <ul>
+              <li><strong>100% передоплата</strong> до того, як ви побачили кошеня на відео</li>
+              <li><strong>Немає реєстраційного номера</strong> або відмова його надати</li>
+              <li><strong>Стокові фото</strong> замість реальних фото кошенят та батьків</li>
+              <li><strong>Ціна значно нижча за ринкову</strong> — орієнтальні/сіамські кошенята від зареєстрованих заводчиків коштують €800–€1,500+ (пет-клас)</li>
+              <li><strong>Немає договору</strong> або «ми не працюємо з договорами»</li>
+              <li><strong>Тиск на швидке рішення</strong> — «це кошеня довго не простоїть» або «завдаток сьогодні, інакше втратите»</li>
+              <li><strong>Немає присутності в соцмережах</strong> — ні Instagram, ні Facebook, ні історії активності</li>
+            </ul>
+
+            <h2>Шаблон перевірки</h2>
+            <p>Перед відправкою будь-яких грошей задайте ці питання:</p>
+            <ol>
+              <li>Який реєстраційний номер вашого розплідника? В якій організації?</li>
+              <li>Чи можемо ми зробити відеодзвінок, щоб побачити кошеня та батьків?</li>
+              <li>Які генетичні тести пройшли батьки? В якій лабораторії?</li>
+              <li>Чи надаєте ви письмовий договір? Чи можу я побачити його до зобов'язання?</li>
+              <li>Які титули мають батьки? Де я можу їх перевірити?</li>
+              <li>Чи можу я поговорити з попереднім покупцем?</li>
+              <li>Що саме входить у ціну?</li>
+            </ol>
+
+            <p>
+              Легітимний заводчик відповість на кожне питання без вагань. Якщо отримуєте розмиті відповіді, затримки або опір — довіряйте своїй інтуїції та продовжуйте пошук.
+            </p>
+          </Fragment>
+        )}
+      </div>
+
+      <!-- CTA -->
+      <div class="mt-16 pt-12 border-t border-gray-light/50 text-center">
+        <h3 class="font-serif text-xl text-dark mb-3">
+          {lang === 'en' ? 'Ready to meet our kittens?' : 'Готові познайомитися з нашими кошенятами?'}
+        </h3>
+        <p class="text-dark-soft text-sm mb-6">
+          {lang === 'en'
+            ? 'We pass every point on this checklist. See for yourself.'
+            : 'Ми проходимо кожен пункт цього чеклиста. Переконайтеся самі.'}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href={getLocalizedPath('/our-cats/', lang)}
+            class="inline-block px-8 py-3 bg-gold text-warm-white font-medium hover:bg-gold-dark transition-colors text-sm uppercase tracking-wider"
+          >
+            {t(lang, 'nav.ourCats')}
+          </a>
+          <a
+            href={getLocalizedPath('/how-to-buy/', lang)}
+            class="inline-block px-8 py-3 border border-gold text-gold font-medium hover:bg-gold hover:text-warm-white transition-colors text-sm uppercase tracking-wider"
+          >
+            {t(lang, 'nav.howToBuy')}
+          </a>
+        </div>
+      </div>
+    </div>
+  </article>
+</BaseLayout>
