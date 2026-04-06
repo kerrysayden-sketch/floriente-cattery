@@ -9,12 +9,12 @@ interface Props {
 const { lang } = Astro.props;
 ---
 
-<section class="py-12 md:py-16 px-4 sm:px-6">
+<section class="py-16 md:py-20 px-4 sm:px-6 bg-gray-light/20">
   <div class="max-w-5xl mx-auto">
-    <div class="flex flex-col sm:flex-row items-center gap-6 md:gap-10">
-      <!-- Compact photo -->
-      <div class="flex-shrink-0">
-        <div class="w-28 h-28 md:w-36 md:h-36 rounded-full overflow-hidden border-2 border-gold/20">
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-12 items-center">
+      <!-- Photo — 2 columns on desktop -->
+      <div class="md:col-span-2">
+        <div class="aspect-[3/4] overflow-hidden max-w-[280px] mx-auto md:max-w-none">
           <img
             src="/images/elvira-portrait.jpg"
             alt="Elvira — founder of Floriente Cattery"
@@ -24,22 +24,19 @@ const { lang } = Astro.props;
         </div>
       </div>
 
-      <!-- Text -->
-      <div class="text-center sm:text-left">
-        <h3 class="font-serif text-xl md:text-2xl text-dark mb-2">{t(lang, 'home.aboutTitle')}</h3>
-        <p class="text-dark-soft text-sm md:text-base leading-relaxed mb-4 max-w-xl">
+      <!-- Text — 3 columns on desktop -->
+      <div class="md:col-span-3 text-center md:text-left">
+        <h2 class="font-serif text-2xl md:text-3xl text-dark mb-4">{t(lang, 'home.aboutTitle')}</h2>
+        <p class="text-dark-soft text-sm md:text-base leading-relaxed mb-6">
           {lang === 'en'
-            ? 'Floriente Cattery was born from a deep love for Oriental and Siamese cats. Our founder Elvira has dedicated years to understanding these extraordinary breeds — raising every kitten at home, with love and daily interaction.'
-            : 'Розплідник Floriente народився з глибокої любові до орієнтальних та сіамських котів. Наша засновниця Ельвіра присвятила роки вивченню цих надзвичайних порід — виховуючи кожне кошеня вдома, з любов\'ю та щоденною увагою.'}
+            ? 'Floriente Cattery was born from a deep love for Oriental and Siamese cats. Our founder Elvira has dedicated years to understanding these extraordinary breeds — their elegance, intelligence, and remarkable bond with humans. We are a small, home-based cattery where every cat is a family member.'
+            : 'Розплідник Floriente народився з глибокої любові до орієнтальних та сіамських котів. Наша засновниця Ельвіра присвятила роки вивченню цих надзвичайних порід — їхньої елегантності, інтелекту та особливого зв\'язку з людьми. Ми невеликий домашній розплідник, де кожен кіт — член родини.'}
         </p>
         <a
           href={getLocalizedPath('/about/', lang)}
-          class="inline-flex items-center gap-2 text-sm text-gold hover:text-gold-dark transition-colors font-medium"
+          class="inline-block px-6 py-2.5 border border-gold text-gold font-medium hover:bg-gold hover:text-warm-white transition-colors text-sm uppercase tracking-wider"
         >
           {t(lang, 'home.aboutCta')}
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12h14M12 5l7 7-7 7" />
-          </svg>
         </a>
       </div>
     </div>
