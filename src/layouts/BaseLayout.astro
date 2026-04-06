@@ -110,6 +110,7 @@ const absoluteOgImage = ogImage.startsWith('http') ? ogImage : new URL(ogImage, 
         "https://www.tiktok.com/@floriente_cattery"
       ]
     })} />
+    <slot name="head" />
   </head>
   <body class="min-h-screen bg-warm-white text-dark flex flex-col overflow-x-hidden">
     <Header lang={lang} />
