@@ -9,16 +9,15 @@ interface Props {
 const { lang } = Astro.props;
 ---
 
-<section class="relative flex flex-col items-center justify-center min-h-[85vh] px-6 text-center">
-  <!-- Background gradient fallback -->
+<section class="relative flex flex-col items-center justify-center min-h-[85vh] px-6 text-center overflow-hidden">
+  <!-- Background gradient -->
   <div class="absolute inset-0 bg-gradient-to-b from-warm-white via-warm-white to-gray-light/30"></div>
 
-  <!-- Background video -->
+  <!-- Background video — hidden initially -->
   <video
-    class="absolute inset-0 w-full h-full object-cover"
-    autoplay
+    id="hero-video"
+    class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1500"
     muted
-    loop
     playsinline
     preload="auto"
   >
@@ -26,10 +25,10 @@ const { lang } = Astro.props;
   </video>
 
   <!-- Warm overlay for text readability -->
-  <div class="absolute inset-0 bg-gradient-to-b from-warm-white/50 via-warm-white/60 to-warm-white/90"></div>
+  <div id="hero-overlay" class="absolute inset-0 bg-gradient-to-b from-warm-white/40 via-warm-white/50 to-warm-white/85 opacity-0 transition-opacity duration-1500"></div>
 
   <!-- Logo -->
-  <div class="relative mb-10 animate-fade-in">
+  <div id="hero-logo" class="relative mb-10 animate-fade-in transition-opacity duration-1500">
     <img
       src="/images/floriente_dark_navy_transparent.png"
       alt={t(lang, 'pages.logoAlt')}
@@ -63,3 +62,53 @@ const { lang } = Astro.props;
     </a>
   </div>
 </section>
+
+<style>
+  .transition-opacity {
+    transition-property: opacity;
+  }
+  .duration-1500 {
+    transition-duration: 1500ms;
+  }
+</style>
+
+<script>
+  const video = document.getElementById('hero-video') as HTMLVideoElement | null;
+  const overlay = document.getElementById('hero-overlay');
+  const logo = document.getElementById('hero-logo');
+
+  if (video && overlay && logo) {
+    const DELAY_BEFORE_START = 2000;  // 2s static logo before first play
+    const PAUSE_BETWEEN_LOOPS = 5000; // 5s pause with logo between loops
+
+    function showVideo() {
+      video!.currentTime = 0;
+      video!.play();
+      video!.style.opacity = '1';
+      overlay!.style.opacity = '1';
+      logo!.style.opacity = '0.15';
+    }
+
+    function hideVideo() {
+      video!.style.opacity = '0';
+      overlay!.style.opacity = '0';
+      logo!.style.opacity = '1';
+    }
+
+    // When video ends — fade out, show logo, wait, repeat
+    video.addEventListener('ended', () => {
+      hideVideo();
+      setTimeout(showVideo, PAUSE_BETWEEN_LOOPS);
+    });
+
+    // First play after initial delay
+    video.addEventListener('canplaythrough', () => {
+      setTimeout(showVideo, DELAY_BEFORE_START);
+    }, { once: true });
+
+    // Fallback: if video fails — logo stays
+    video.addEventListener('error', () => {
+      logo!.style.opacity = '1';
+    });
+  }
+</script>
