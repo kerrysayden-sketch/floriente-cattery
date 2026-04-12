@@ -108,12 +108,24 @@ const { lang } = Astro.props;
       setTimeout(showVideo, PAUSE_BETWEEN_LOOPS);
     });
 
-    // First play after initial delay
-    video.addEventListener('canplaythrough', () => {
+    // Start cycle: try multiple events to ensure it fires
+    let started = false;
+    function startCycle() {
+      if (started) return;
+      started = true;
       setTimeout(showVideo, DELAY_BEFORE_START);
-    }, { once: true });
+    }
 
-    // Fallback: if video fails — logo stays
+    video.addEventListener('loadeddata', startCycle, { once: true });
+    video.addEventListener('canplay', startCycle, { once: true });
+    video.addEventListener('canplaythrough', startCycle, { once: true });
+
+    // Fallback: if nothing fires within 3s, try anyway
+    setTimeout(() => {
+      if (!started && video.readyState >= 1) startCycle();
+    }, 3000);
+
+    // Error fallback — logo stays
     video.addEventListener('error', () => {
       logo!.style.opacity = '1';
     });
