@@ -7,17 +7,16 @@ html, body {
 
 /* ── Floriente Cattery Design Tokens ── */
 @theme {
-  /* Colors — Navy + Rose + Gold accent */
-  --color-warm-white: #FAF8F5;
-  --color-gold: #B89193;
-  --color-gold-light: #D4B5B7;
-  --color-gold-dark: #9A7279;
-  --color-dark: #1F2A44;
+  /* Colors */
+  --color-warm-white: #FAFAF7;
+  --color-gold: #8B7355;
+  --color-gold-light: #A8916F;
+  --color-gold-dark: #6B5740;
+  --color-dark: #1A1A1A;
   --color-dark-soft: #333333;
   --color-blue-soft: #9BB8D4;
   --color-gray-light: #E8E6E1;
   --color-gray-medium: #B0ADA6;
-  --color-accent-gold: #C5A572;
 
   /* Status colors */
   --color-status-available: #22C55E;

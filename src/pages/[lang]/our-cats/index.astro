@@ -155,7 +155,7 @@ const roleLabels = {
               <div>
                 <h2 class="font-serif text-3xl md:text-4xl lg:text-5xl text-dark mb-2">{cat.name}</h2>
                 {cat.titles && (
-                  <span class="inline-block px-3 py-1 bg-gold/10 text-gold text-xs font-semibold uppercase tracking-wider">
+                  <span class="inline-block px-3 py-1 bg-accent-gold/10 text-accent-gold text-xs font-semibold uppercase tracking-wider">
                     {cat.titles} — World Cat Federation
                   </span>
                 )}
@@ -170,20 +170,20 @@ const roleLabels = {
 
               {/* Stats */}
               <div class="grid grid-cols-2 gap-3 pt-2">
-                <div class="border-l-2 border-gold/30 pl-3">
+                <div class="border-l-2 border-accent-gold/30 pl-3">
                   <p class="text-[10px] text-gray-medium uppercase tracking-wider">{lang === 'en' ? 'Breed' : 'Порода'}</p>
                   <p class="text-sm text-dark font-medium">{cat.breed}</p>
                 </div>
-                <div class="border-l-2 border-gold/30 pl-3">
+                <div class="border-l-2 border-accent-gold/30 pl-3">
                   <p class="text-[10px] text-gray-medium uppercase tracking-wider">{lang === 'en' ? 'Color' : 'Окрас'}</p>
                   <p class="text-sm text-dark font-medium">{cat.color}</p>
                 </div>
-                <div class="border-l-2 border-gold/30 pl-3">
+                <div class="border-l-2 border-accent-gold/30 pl-3">
                   <p class="text-[10px] text-gray-medium uppercase tracking-wider">EMS</p>
                   <p class="text-sm text-dark font-medium">{cat.ems}</p>
                 </div>
                 {cat.titles && (
-                  <div class="border-l-2 border-gold/30 pl-3">
+                  <div class="border-l-2 border-accent-gold/30 pl-3">
                     <p class="text-[10px] text-gray-medium uppercase tracking-wider">{lang === 'en' ? 'Title' : 'Титул'}</p>
                     <p class="text-sm text-dark font-medium">{cat.titles}</p>
                   </div>
