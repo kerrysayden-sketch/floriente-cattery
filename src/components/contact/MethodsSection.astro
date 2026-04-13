@@ -79,18 +79,10 @@ const followTitle = lang === 'en' ? 'Follow Us' : 'Слідкуйте за на�
           href={m.href}
           target={m.href.startsWith('mailto') ? undefined : '_blank'}
           rel={m.href.startsWith('mailto') ? undefined : 'noopener noreferrer'}
-          class:list={[
-            'group block p-8 transition-colors border',
-            m.accent
-              ? 'bg-gold/5 border-gold/20 hover:bg-gold/10'
-              : 'bg-warm-white border-gray-light hover:border-gold/30',
-          ]}
+          class="group block p-8 transition-colors border bg-warm-white border-gray-light hover:bg-gold/5 hover:border-gold/30"
         >
           <div class="flex items-start gap-5">
-            <div class:list={[
-              'flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center',
-              m.accent ? 'bg-gold/15' : 'bg-gold/10',
-            ]}>
+            <div class="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center bg-gold/10">
               {m.iconFill ? (
                 <svg class="w-6 h-6 text-gold" viewBox="0 0 24 24" fill="currentColor" set:html={m.icon} />
               ) : (
