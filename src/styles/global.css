@@ -9,10 +9,10 @@ html, body {
 @theme {
   /* Colors */
   --color-warm-white: #FAF8F5;
-  --color-gold: #AC8183;
-  --color-gold-light: #CCA4A5;
-  --color-gold-dark: #876164;
-  --color-dark: #1A1A1A;
+  --color-gold: #BFA0A2;
+  --color-gold-light: #D4B5B7;
+  --color-gold-dark: #9A7E80;
+  --color-dark: #1F2A44;
   --color-dark-soft: #333333;
   --color-blue-soft: #9BB8D4;
   --color-gray-light: #E8E6E1;
