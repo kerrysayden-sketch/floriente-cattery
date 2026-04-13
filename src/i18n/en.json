@@ -212,7 +212,7 @@
     "tcoVaccinesNo": "~€130",
     "tcoChip": "Microchip + passport",
     "tcoChipYes": "Included",
-    "tcoChipNo": "€80–150",
+    "tcoChipNo": "~€100",
     "tcoPedigree": "Metrika (kitten card)",
     "tcoPedigreeYes": "Included",
     "tcoPedigreeNo": "Not available",
@@ -229,7 +229,7 @@
     "tcoHealthYes": "Contract-backed",
     "tcoHealthNo": "None",
     "tcoSavings": "Estimated savings",
-    "tcoSavingsAmount": "~€600",
+    "tcoSavingsAmount": "~€650",
 
     "includedTitle": "What's Included",
     "includedSubtitle": "Every kitten leaves with everything they need to start their new life",

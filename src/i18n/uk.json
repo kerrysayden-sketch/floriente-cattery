@@ -212,7 +212,7 @@
     "tcoVaccinesNo": "~€130",
     "tcoChip": "Мікрочіп + паспорт",
     "tcoChipYes": "Включено",
-    "tcoChipNo": "€80–150",
+    "tcoChipNo": "~€100",
     "tcoPedigree": "Метрика",
     "tcoPedigreeYes": "Включено",
     "tcoPedigreeNo": "Недоступно",
@@ -229,7 +229,7 @@
     "tcoHealthYes": "За договором",
     "tcoHealthNo": "Відсутня",
     "tcoSavings": "Орієнтовна економія",
-    "tcoSavingsAmount": "~€600",
+    "tcoSavingsAmount": "~€650",
 
     "includedTitle": "Що входить у вартість",
     "includedSubtitle": "Кожне кошеня від'їжджає з усім необхідним для нового життя",
