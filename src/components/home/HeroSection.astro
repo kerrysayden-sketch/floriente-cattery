@@ -67,16 +67,16 @@ const { lang } = Astro.props;
   /* Video & overlay — hidden by default */
   .hero-video {
     opacity: 0;
-    transition: opacity 1.5s ease;
+    transition: opacity 2s ease;
   }
   .hero-overlay {
     opacity: 0;
-    transition: opacity 1.5s ease;
+    transition: opacity 2s ease;
   }
 
   /* Logo, headline, subheadline — fade transition */
   .hero-fade-element {
-    transition: opacity 1.5s ease;
+    transition: opacity 2s ease;
   }
 
   /* When video is playing — class on section triggers all transitions */
@@ -99,10 +99,20 @@ const { lang } = Astro.props;
     const DELAY_BEFORE_START = 1000;
     const PAUSE_BETWEEN_LOOPS = 5000;
 
+    let fadeOutTimer: ReturnType<typeof setTimeout> | null = null;
+
     function playVideo() {
       video!.currentTime = 0;
       video!.play().then(() => {
         hero!.classList.add('video-playing');
+
+        // Start fade-out 2s before video ends
+        const fadeOutAt = (video!.duration - 2) * 1000;
+        if (fadeOutAt > 0) {
+          fadeOutTimer = setTimeout(() => {
+            hero!.classList.remove('video-playing');
+          }, fadeOutAt);
+        }
       }).catch(() => {
         // autoplay blocked — keep logo
       });
@@ -110,6 +120,7 @@ const { lang } = Astro.props;
 
     function onVideoEnded() {
       hero!.classList.remove('video-playing');
+      if (fadeOutTimer) clearTimeout(fadeOutTimer);
       setTimeout(playVideo, PAUSE_BETWEEN_LOOPS);
     }
 
