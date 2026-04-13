@@ -8,10 +8,10 @@ html, body {
 /* ── Floriente Cattery Design Tokens ── */
 @theme {
   /* Colors */
-  --color-warm-white: #FAFAF7;
-  --color-gold: #8B7355;
-  --color-gold-light: #A8916F;
-  --color-gold-dark: #6B5740;
+  --color-warm-white: #FAF8F5;
+  --color-gold: #AC8183;
+  --color-gold-light: #CCA4A5;
+  --color-gold-dark: #876164;
   --color-dark: #1A1A1A;
   --color-dark-soft: #333333;
   --color-blue-soft: #9BB8D4;
