@@ -65,7 +65,7 @@ const switchPath = getLocalizedPath(
           class="text-sm font-medium text-dark-soft hover:text-gold transition-colors uppercase"
           aria-label={`Switch to ${languages[otherLang]}`}
         >
-          {otherLang.toUpperCase()}
+          {otherLang === 'uk' ? 'UA' : otherLang.toUpperCase()}
         </a>
 
         <!-- Mobile Menu Button -->
