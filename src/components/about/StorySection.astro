@@ -30,8 +30,13 @@ const { lang } = Astro.props;
         <p class="text-dark-soft leading-relaxed mb-6">
           {t(lang, 'about.storyText')}
         </p>
-        <p class="text-dark-soft leading-relaxed">
+        <p class="text-dark-soft leading-relaxed mb-6">
           {t(lang, 'about.storyText2')}
+        </p>
+        <p class="text-dark-soft leading-relaxed">
+          {lang === 'en'
+            ? "And then there's Oleksandr — Elvira's husband and the other half of Floriente. He's the one who handles feed runs, vet trips, heavy lifting, and personally delivers kittens to their new families. He rarely makes it into the frame, but everything you don't see rests on him."
+            : "А ще є Олександр — чоловік Ельвіри та друга половина Floriente. Він той, хто возить корми, їздить до ветклініки, переносить важкі речі і доставляє кошенят у нові родини. Він рідко потрапляє в кадр, але саме на ньому тримається все, що ви не бачите."}
         </p>
       </div>
     </div>
