@@ -87,7 +87,7 @@
   },
   "home": {
     "heroHeadline": "Oriental & Siamese Kittens",
-    "heroSubheadline": "Raised with love and care for each one from the very first days",
+    "heroSubheadline": "Raised with love for each one from the very first days",
     "ctaMeetKittens": "Meet Our Kittens",
     "ctaReserve": "How to Reserve",
     "trustWcf": "WCF Registered",
@@ -97,7 +97,7 @@
     "trustHome": "Home Raised",
     "trustHomeDesc": "Kittens grow up in a family environment",
     "trustDelivery": "Personal Delivery",
-    "trustDeliveryDesc": "We deliver kittens personally across Europe",
+    "trustDeliveryDesc": "Kitten delivery available across Europe",
     "kittensTitle": "Available Kittens",
     "kittensEmpty": "No kittens available at the moment",
     "kittensWaitlist": "Join our waitlist to be notified when new kittens arrive.",
@@ -162,7 +162,7 @@
     "instagramDmCta": "Message on Instagram",
     "locationTitle": "Where We Are",
     "locationText": "Kyiv Region, Ukraine",
-    "locationNote": "We deliver kittens personally across Europe. Exact location shared after reservation.",
+    "locationNote": "Kitten delivery available across Europe. Exact location shared after reservation.",
     "hoursTitle": "Response Hours",
     "hoursText": "We typically respond within 2–4 hours during daytime (EET/EEST). Evenings and weekends may take a bit longer."
   },

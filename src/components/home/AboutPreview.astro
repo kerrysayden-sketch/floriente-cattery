@@ -29,8 +29,13 @@ const { lang } = Astro.props;
         <h2 class="font-serif text-2xl md:text-3xl text-dark mb-4">{t(lang, 'home.aboutTitle')}</h2>
         <p class="text-dark-soft text-sm md:text-base leading-relaxed mb-6">
           {lang === 'en'
-            ? 'Floriente Cattery was born from a deep love for Oriental and Siamese cats. Our founder Elvira has dedicated years to understanding these extraordinary breeds — their elegance, intelligence, and remarkable bond with humans. We are a small, home-based cattery where every cat is a family member.'
-            : 'Розплідник Floriente народився з глибокої любові до орієнтальних та сіамських котів. Наша засновниця Ельвіра присвятила роки вивченню цих надзвичайних порід — їхньої елегантності, інтелекту та особливого зв\'язку з людьми. Ми невеликий домашній розплідник, де кожен кіт — член родини.'}
+            ? 'Floriente Cattery was born from a deep love for Oriental and Siamese cats. Our founder Elvira has dedicated years to understanding these extraordinary breeds — their elegance, intelligence, and remarkable bond with humans. We are a small, home-based cattery where every cat is a family member. Our kittens grow up surrounded by love, daily interaction, and the warmth of a real home.'
+            : 'Розплідник Floriente народився з глибокої любові до орієнтальних та сіамських котів. Наша засновниця Ельвіра присвятила роки вивченню цих надзвичайних порід — їхньої елегантності, інтелекту та особливого зв\'язку з людьми. Ми — невеликий домашній розплідник, де кожен кіт є членом родини. Наші кошенята ростуть в оточенні любові, щоденного спілкування та затишку справжнього дому.'}
+        </p>
+        <p class="text-dark-soft text-sm md:text-base leading-relaxed mb-6">
+          {lang === 'en'
+            ? "And then there's Oleksandr — Elvira's husband and the other half of Floriente. He's the one who handles feed runs, vet trips, heavy lifting, and personally delivers kittens to their new families. He rarely makes it into the frame, but everything you don't see rests on him."
+            : "А ще є Олександр — чоловік Ельвіри та друга половина Floriente. Він той, хто возить корми, їздить до ветклініки, переносить важкі речі і доставляє кошенят у нові родини. Він рідко потрапляє в кадр, але саме на ньому тримається все, що ви не бачите."}
         </p>
         <a
           href={getLocalizedPath('/about/', lang)}
