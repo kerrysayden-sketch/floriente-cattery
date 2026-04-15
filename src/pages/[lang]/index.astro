@@ -2,6 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import HeroSection from '../../components/home/HeroSection.astro';
 import TrustBar from '../../components/home/TrustBar.astro';
+import ProcessPreview from '../../components/home/ProcessPreview.astro';
+import ScamCallout from '../../components/shared/ScamCallout.astro';
 import TestimonialsSection from '../../components/home/TestimonialsSection.astro';
 import AboutPreview from '../../components/home/AboutPreview.astro';
 import FamilySection from '../../components/home/FamilySection.astro';
@@ -20,6 +22,12 @@ const { lang } = Astro.props as { lang: Lang };
 >
   <HeroSection lang={lang} />
   <TrustBar lang={lang} variant="A" />
+  <div class="scroll-fade">
+    <ProcessPreview lang={lang} />
+  </div>
+  <div class="scroll-fade">
+    <ScamCallout lang={lang} />
+  </div>
   <div class="scroll-fade">
     <TestimonialsSection lang={lang} />
   </div>

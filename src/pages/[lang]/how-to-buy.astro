@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import HeroSection from '../../components/howToBuy/HeroSection.astro';
 import ProcessSection from '../../components/howToBuy/ProcessSection.astro';
+import ScamCallout from '../../components/shared/ScamCallout.astro';
 import PricingSection from '../../components/howToBuy/PricingSection.astro';
 import IncludedSection from '../../components/howToBuy/IncludedSection.astro';
 import TCOSection from '../../components/howToBuy/TCOSection.astro';
@@ -25,6 +26,9 @@ const { lang } = Astro.props as { lang: Lang };
   </div>
   <div class="scroll-fade">
     <ProcessSection lang={lang} />
+  </div>
+  <div class="scroll-fade">
+    <ScamCallout lang={lang} />
   </div>
   <div class="scroll-fade">
     <PricingSection lang={lang} />

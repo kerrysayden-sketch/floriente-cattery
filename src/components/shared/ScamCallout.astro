@@ -1,0 +1,45 @@
+---
+import { t, getLocalizedPath } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
+<section class="py-12 md:py-16 px-4 sm:px-6">
+  <div class="max-w-4xl mx-auto">
+    <div class="border border-gold/30 bg-gold/5 p-6 md:p-8 rounded-lg">
+      <div class="flex flex-col md:flex-row md:items-center gap-6">
+        <div class="flex-shrink-0 flex md:block justify-center">
+          <div class="w-12 h-12 md:w-14 md:h-14 rounded-full bg-gold/15 flex items-center justify-center">
+            <svg class="w-6 h-6 md:w-7 md:h-7 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 12l2 2 4-4M12 2l-7 4v6c0 5.55 3.84 9.74 7 11 3.16-1.26 7-5.45 7-11V6l-7-4z" />
+            </svg>
+          </div>
+        </div>
+        <div class="flex-1 text-center md:text-left">
+          <h3 class="font-serif text-lg md:text-xl text-dark mb-2">
+            {t(lang, 'home.scamCalloutTitle')}
+          </h3>
+          <p class="text-dark-soft text-sm leading-relaxed">
+            {t(lang, 'home.scamCalloutText')}
+          </p>
+        </div>
+        <div class="flex-shrink-0 text-center md:text-right">
+          <a
+            href={getLocalizedPath('/blog/how-to-verify-cattery/', lang)}
+            class="inline-flex items-center gap-2 px-5 py-2.5 bg-gold text-warm-white text-sm font-medium uppercase tracking-wider hover:bg-gold-dark transition-colors whitespace-nowrap"
+          >
+            {t(lang, 'home.scamCalloutCta')}
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

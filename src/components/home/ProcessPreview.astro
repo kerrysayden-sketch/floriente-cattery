@@ -1,0 +1,92 @@
+---
+import { t, getLocalizedPath } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const steps = [
+  { titleKey: 'home.processStep1Title', descKey: 'home.processStep1Desc' },
+  { titleKey: 'home.processStep2Title', descKey: 'home.processStep2Desc' },
+  { titleKey: 'home.processStep3Title', descKey: 'home.processStep3Desc' },
+  { titleKey: 'home.processStep4Title', descKey: 'home.processStep4Desc' },
+];
+---
+
+<section class="py-16 md:py-24 px-4 sm:px-6">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-center mb-3">{t(lang, 'home.processPreviewTitle')}</h2>
+    <p class="text-center text-gray-medium mb-12 md:mb-16 text-sm">
+      {t(lang, 'home.processPreviewSubtitle')}
+    </p>
+
+    {/* Desktop: 4 steps in a row with arrows */}
+    <div class="hidden md:flex items-start justify-between gap-4 mb-12">
+      {steps.map((step, i) => (
+        <>
+          <div class="flex-1 text-center max-w-[180px]">
+            <div class="w-12 h-12 mx-auto mb-4 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center">
+              <span class="text-gold font-serif text-xl font-semibold">{i + 1}</span>
+            </div>
+            <h3 class="text-dark font-semibold text-sm uppercase tracking-wider mb-2">
+              {t(lang, step.titleKey)}
+            </h3>
+            <p class="text-dark-soft text-xs leading-relaxed">
+              {t(lang, step.descKey)}
+            </p>
+          </div>
+          {i < steps.length - 1 && (
+            <div class="flex items-center pt-5 text-gold/40">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </div>
+          )}
+        </>
+      ))}
+    </div>
+
+    {/* Mobile: stacked with downward arrows */}
+    <div class="md:hidden space-y-6 mb-12">
+      {steps.map((step, i) => (
+        <>
+          <div class="flex items-start gap-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center">
+              <span class="text-gold font-serif text-base font-semibold">{i + 1}</span>
+            </div>
+            <div class="flex-1">
+              <h3 class="text-dark font-semibold text-sm uppercase tracking-wider mb-1">
+                {t(lang, step.titleKey)}
+              </h3>
+              <p class="text-dark-soft text-sm leading-relaxed">
+                {t(lang, step.descKey)}
+              </p>
+            </div>
+          </div>
+          {i < steps.length - 1 && (
+            <div class="ml-5 text-gold/30">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 5v14M19 12l-7 7-7-7" />
+              </svg>
+            </div>
+          )}
+        </>
+      ))}
+    </div>
+
+    <div class="text-center">
+      <a
+        href={getLocalizedPath('/how-to-buy/', lang)}
+        class="inline-flex items-center gap-2 px-6 py-3 border border-gold text-gold font-medium hover:bg-gold hover:text-warm-white transition-colors text-sm uppercase tracking-wider"
+      >
+        {t(lang, 'home.processPreviewCta')}
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14M12 5l7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
