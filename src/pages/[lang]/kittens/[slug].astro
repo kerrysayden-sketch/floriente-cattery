@@ -23,7 +23,7 @@ export async function getStaticPaths() {
 }
 
 const { lang, kitten } = Astro.props as { lang: Lang; kitten: KittenData };
-const photoUrl = kitten.photos?.filename || '/images/floriente_dark_navy_transparent.png';
+const photoUrl = kitten.photos?.filename || '/images/floriente_dark_navy_transparent.webp';
 const description = lang === 'uk' ? kitten.description_uk : kitten.description_en;
 const breedFull = kitten.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese';
 ---

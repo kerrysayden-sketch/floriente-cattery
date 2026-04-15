@@ -12,7 +12,7 @@ interface Props {
 const { cat, lang, size = 'normal' } = Astro.props;
 const profileUrl = getLocalizedPath(`/our-cats/${cat.slug}/`, lang);
 const hasPhoto = !!cat.photos?.filename;
-const photoUrl = cat.photos?.filename || '/images/floriente_dark_navy_transparent.png';
+const photoUrl = cat.photos?.filename || '/images/floriente_dark_navy_transparent.webp';
 const isSmall = size === 'small';
 ---
 

@@ -21,22 +21,22 @@ const pastKittens = allKittens.filter((k) => k.status === 'at_new_home');
 
 // ── Static litter data (source: Запрос материалов для Эльвиры - ответы.docx) ──
 const litterA = [
-  { name: 'Salma', full: 'Al Muad\'Dib Salma Ole Lukhoye', photo: '/images/kittens/litter-a/salma.jpg', sex: 'female', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
-  { name: 'Milky', full: 'Alt Milky Ole Lukhoye', photo: '/images/kittens/litter-a/milky.jpg', sex: 'male', breed: 'Siamese', color: 'Chocolate point' },
-  { name: 'Astra', full: 'Astra Shakhty Ole Lukhoye', photo: '/images/kittens/litter-a/astra.jpg', sex: 'female', breed: 'Oriental Shorthair', color: 'Black' },
-  { name: 'Asya', full: 'Asya Ole Lukhoye', photo: '/images/kittens/litter-a/asya.jpg', sex: 'female', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
-  { name: 'Axel', full: 'Axel Cornelius Ole Lukhoye', photo: '/images/kittens/litter-a/axel.jpg', sex: 'male', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
+  { name: 'Salma', full: 'Al Muad\'Dib Salma Ole Lukhoye', photo: '/images/kittens/litter-a/salma.webp', sex: 'female', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
+  { name: 'Milky', full: 'Alt Milky Ole Lukhoye', photo: '/images/kittens/litter-a/milky.webp', sex: 'male', breed: 'Siamese', color: 'Chocolate point' },
+  { name: 'Astra', full: 'Astra Shakhty Ole Lukhoye', photo: '/images/kittens/litter-a/astra.webp', sex: 'female', breed: 'Oriental Shorthair', color: 'Black' },
+  { name: 'Asya', full: 'Asya Ole Lukhoye', photo: '/images/kittens/litter-a/asya.webp', sex: 'female', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
+  { name: 'Axel', full: 'Axel Cornelius Ole Lukhoye', photo: '/images/kittens/litter-a/axel.webp', sex: 'male', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
 ];
 
 const litterB = [
-  { name: 'Bantik', full: 'Bantik Ole Lukhoye', photo: '/images/kittens/litter-b/bantik.jpg', sex: 'male', breed: 'Siamese', color: 'Seal point' },
-  { name: 'Barbie', full: 'Barbie Ole Lukhoye', photo: '/images/kittens/litter-b/barbie.jpg', sex: 'female', breed: 'Oriental Shorthair', color: 'Chocolate spotted tabby' },
-  { name: 'Bars', full: 'Bars Ole Lukhoye', photo: '/images/kittens/litter-b/bars.jpg', sex: 'male', breed: 'Siamese', color: 'Seal point' },
-  { name: 'Barton', full: 'Barton Ole Lukhoye', photo: '/images/kittens/litter-b/barton.jpg', sex: 'male', breed: 'Oriental Shorthair', color: 'Chocolate' },
-  { name: 'Bead', full: 'Bead Ole Lukhoye', photo: '/images/kittens/litter-b/bead.jpg', sex: 'female', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
-  { name: 'Benjamin', full: 'Benjamin Ole Lukhoye', photo: '/images/kittens/litter-b/benjamin.jpg', sex: 'male', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
-  { name: 'Bill', full: 'Bill Ole Lukhoye', photo: '/images/kittens/litter-b/bill.jpg', sex: 'male', breed: 'Siamese', color: 'Seal point' },
-  { name: 'Buddy', full: 'Buddy Ole Lukhoye', photo: '/images/kittens/litter-b/buddy.jpg', sex: 'male', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
+  { name: 'Bantik', full: 'Bantik Ole Lukhoye', photo: '/images/kittens/litter-b/bantik.webp', sex: 'male', breed: 'Siamese', color: 'Seal point' },
+  { name: 'Barbie', full: 'Barbie Ole Lukhoye', photo: '/images/kittens/litter-b/barbie.webp', sex: 'female', breed: 'Oriental Shorthair', color: 'Chocolate spotted tabby' },
+  { name: 'Bars', full: 'Bars Ole Lukhoye', photo: '/images/kittens/litter-b/bars.webp', sex: 'male', breed: 'Siamese', color: 'Seal point' },
+  { name: 'Barton', full: 'Barton Ole Lukhoye', photo: '/images/kittens/litter-b/barton.webp', sex: 'male', breed: 'Oriental Shorthair', color: 'Chocolate' },
+  { name: 'Bead', full: 'Bead Ole Lukhoye', photo: '/images/kittens/litter-b/bead.webp', sex: 'female', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
+  { name: 'Benjamin', full: 'Benjamin Ole Lukhoye', photo: '/images/kittens/litter-b/benjamin.webp', sex: 'male', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
+  { name: 'Bill', full: 'Bill Ole Lukhoye', photo: '/images/kittens/litter-b/bill.webp', sex: 'male', breed: 'Siamese', color: 'Seal point' },
+  { name: 'Buddy', full: 'Buddy Ole Lukhoye', photo: '/images/kittens/litter-b/buddy.webp', sex: 'male', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
 ];
 
 const badgeLabel = t(lang, 'kittens.atNewHome');
@@ -118,7 +118,7 @@ const hiText = t(lang, 'kittens.hiText');
                 ) : (
                   <div class="w-full h-full bg-warm-white flex items-center justify-center">
                     <img
-                      src="/images/floriente_dark_navy_transparent.png"
+                      src="/images/floriente_dark_navy_transparent.webp"
                       alt="Floriente Cattery"
                       class="w-28 h-28 opacity-15"
                     />

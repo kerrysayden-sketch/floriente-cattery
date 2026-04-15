@@ -11,7 +11,7 @@ interface Props {
 
 const { kitten, lang } = Astro.props;
 const profileUrl = getLocalizedPath(`/kittens/${kitten.slug}/`, lang);
-const photoUrl = kitten.photos?.filename || '/images/floriente_dark_navy_transparent.png';
+const photoUrl = kitten.photos?.filename || '/images/floriente_dark_navy_transparent.webp';
 ---
 
 <a
