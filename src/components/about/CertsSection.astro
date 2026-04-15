@@ -9,25 +9,25 @@ interface Props {
 const { lang } = Astro.props;
 
 const landscapeCerts = [
-  { src: '/images/certs/wcf-registration.jpg', alt: 'WCF Cattery Registration — Floriente #50188-2025' },
-  { src: '/images/certs/wcf-seminar.jpg', alt: 'WCF Exhibitor-Seminar — June 2024, Ternopil' },
+  { src: '/images/certs/wcf-registration.jpg', alt: 'WCF Cattery Registration - Floriente #50188-2025' },
+  { src: '/images/certs/wcf-seminar.jpg', alt: 'WCF Exhibitor-Seminar - June 2024, Ternopil' },
 ];
 
 const sebastianCerts = [
-  { src: '/images/certs/ch-sebastian.jpg', alt: 'Champion — Sebastian Ole Lukhoye' },
-  { src: '/images/certs/ich-sebastian.jpg', alt: 'Inter-Champion — Sebastian Ole Lukhoye' },
-  { src: '/images/certs/gic-sebastian.jpg', alt: 'Grand Inter-Champion — Sebastian Ole Lukhoye' },
+  { src: '/images/certs/ch-sebastian.jpg', alt: 'Champion - Sebastian Ole Lukhoye' },
+  { src: '/images/certs/ich-sebastian.jpg', alt: 'Inter-Champion - Sebastian Ole Lukhoye' },
+  { src: '/images/certs/gic-sebastian.jpg', alt: 'Grand Inter-Champion - Sebastian Ole Lukhoye' },
 ];
 
 const simonaCerts = [
-  { src: '/images/certs/ch-simona.jpg', alt: 'Champion — Belly Dance Simona' },
-  { src: '/images/certs/ich-simona.jpg', alt: 'Inter-Champion — Belly Dance Simona' },
-  { src: '/images/certs/gic-simona.jpg', alt: 'Grand Inter-Champion — Belly Dance Simona' },
+  { src: '/images/certs/ch-simona.jpg', alt: 'Champion - Belly Dance Simona' },
+  { src: '/images/certs/ich-simona.jpg', alt: 'Inter-Champion - Belly Dance Simona' },
+  { src: '/images/certs/gic-simona.jpg', alt: 'Grand Inter-Champion - Belly Dance Simona' },
 ];
 
 const educationCerts = [
-  { src: '/images/certs/felinologist.jpg', alt: 'Felinological Seminar — Breeder-Felinologist Certificate' },
-  { src: '/images/certs/breeder-felinologist-2025.jpg', alt: 'Breeder-Felinologist Certificate — June 2025, Ternopil' },
+  { src: '/images/certs/felinologist.jpg', alt: 'Felinological Seminar - Breeder-Felinologist Certificate' },
+  { src: '/images/certs/breeder-felinologist-2025.jpg', alt: 'Breeder-Felinologist Certificate - June 2025, Ternopil' },
 ];
 ---
 
@@ -36,7 +36,7 @@ const educationCerts = [
     <h2 class="mb-2">{t(lang, 'about.certsTitle')}</h2>
     <p class="text-gray-medium mb-16">{t(lang, 'about.certsSubtitle')}</p>
 
-    <!-- Row 1: Cattery & Education — 2 landscape certificates side by side -->
+    <!-- Row 1: Cattery & Education - 2 landscape certificates side by side -->
     <h3 class="text-sm font-semibold uppercase tracking-wider text-gold mb-6">
       {t(lang, 'about.certsCattery')} & {t(lang, 'about.certsEducation')}
     </h3>
@@ -57,7 +57,7 @@ const educationCerts = [
       ))}
     </div>
 
-    <!-- Row 2: Sebastian — Champion → Inter-Champion → Grand Inter-Champion -->
+    <!-- Row 2: Sebastian - Champion → Inter-Champion → Grand Inter-Champion -->
     <h3 class="text-sm font-semibold uppercase tracking-wider text-gold mb-6">
       Sebastian Ole Lukhoye
     </h3>
@@ -78,7 +78,7 @@ const educationCerts = [
       ))}
     </div>
 
-    <!-- Row 3: Simona — Champion → Inter-Champion → Grand Inter-Champion -->
+    <!-- Row 3: Simona - Champion → Inter-Champion → Grand Inter-Champion -->
     <h3 class="text-sm font-semibold uppercase tracking-wider text-gold mb-6">
       Belly Dance Simona
     </h3>

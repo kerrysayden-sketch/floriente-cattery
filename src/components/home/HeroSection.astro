@@ -64,7 +64,7 @@ const { lang } = Astro.props;
 </section>
 
 <style>
-  /* Video & overlay — hidden by default */
+  /* Video & overlay - hidden by default */
   .hero-video {
     opacity: 0;
     transition: opacity 2s ease;
@@ -74,12 +74,12 @@ const { lang } = Astro.props;
     transition: opacity 2s ease;
   }
 
-  /* Logo, headline, subheadline — fade transition */
+  /* Logo, headline, subheadline - fade transition */
   .hero-fade-element {
     transition: opacity 2s ease;
   }
 
-  /* When video is playing — class on section triggers all transitions */
+  /* When video is playing - class on section triggers all transitions */
   #hero.video-playing .hero-video {
     opacity: 1;
   }
@@ -114,7 +114,7 @@ const { lang } = Astro.props;
           }, fadeOutAt);
         }
       }).catch(() => {
-        // autoplay blocked — keep logo
+        // autoplay blocked - keep logo
       });
     }
 

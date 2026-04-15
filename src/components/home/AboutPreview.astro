@@ -12,35 +12,35 @@ const { lang } = Astro.props;
 <section class="py-16 md:py-20 px-4 sm:px-6 bg-gray-light/20">
   <div class="max-w-5xl mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-12 items-center">
-      <!-- Photo — 2 columns on desktop -->
+      <!-- Photo - 2 columns on desktop -->
       <div class="md:col-span-2">
         <div class="aspect-[3/4] overflow-hidden max-w-[280px] mx-auto md:max-w-none">
           <img
             src="/images/elvira-portrait.jpg"
-            alt="Elvira — founder of Floriente Cattery"
+            alt="Elvira - founder of Floriente Cattery"
             class="w-full h-full object-cover"
             loading="lazy"
           />
         </div>
       </div>
 
-      <!-- Text — 3 columns on desktop -->
+      <!-- Text - 3 columns on desktop -->
       <div class="md:col-span-3 text-center md:text-left">
         <h2 class="font-serif text-2xl md:text-3xl text-dark mb-4">{t(lang, 'home.aboutTitle')}</h2>
         <p class="text-dark-soft text-sm md:text-base leading-relaxed mb-6">
           {lang === 'en'
-            ? 'Floriente Cattery was born from a deep love for Oriental and Siamese cats. Our founder Elvira has dedicated years to understanding these extraordinary breeds — their elegance, intelligence, and remarkable bond with humans.'
-            : 'Розплідник Floriente народився з глибокої любові до орієнтальних та сіамських котів. Наша засновниця Ельвіра присвятила роки вивченню цих надзвичайних порід — їхньої елегантності, інтелекту та особливого зв\'язку з людьми.'}
+            ? 'Floriente Cattery was born from a deep love for Oriental and Siamese cats. Our founder Elvira has dedicated years to understanding these extraordinary breeds - their elegance, intelligence, and remarkable bond with humans.'
+            : 'Розплідник Floriente народився з глибокої любові до орієнтальних та сіамських котів. Наша засновниця Ельвіра присвятила роки вивченню цих надзвичайних порід - їхньої елегантності, інтелекту та особливого зв\'язку з людьми.'}
         </p>
         <p class="text-dark-soft text-sm md:text-base leading-relaxed mb-6">
           {lang === 'en'
-            ? "And then there's Oleksandr — Elvira's husband and the other half of Floriente. He's the one who handles feed runs, vet trips, heavy lifting, and delivers kittens to their new families. He rarely makes it into the frame, but everything you don't see rests on him."
-            : "А ще є Олександр — чоловік Ельвіри та друга половина Floriente. Він той, хто возить корми, їздить до ветклініки, переносить важкі речі і доставляє кошенят у нові родини. Він рідко потрапляє в кадр, але саме на ньому тримається все, що ви не бачите."}
+            ? "And then there's Oleksandr - Elvira's husband and the other half of Floriente. He's the one who handles feed runs, vet trips, heavy lifting, and delivers kittens to their new families. He rarely makes it into the frame, but everything you don't see rests on him."
+            : "А ще є Олександр - чоловік Ельвіри та друга половина Floriente. Він той, хто возить корми, їздить до ветклініки, переносить важкі речі і доставляє кошенят у нові родини. Він рідко потрапляє в кадр, але саме на ньому тримається все, що ви не бачите."}
         </p>
         <p class="text-dark-soft text-sm md:text-base leading-relaxed mb-6">
           {lang === 'en'
             ? 'We are a small, home-based cattery where every cat is a family member. Our kittens grow up surrounded by love, daily interaction, and the warmth of a real home.'
-            : 'Ми — невеликий домашній розплідник, де кожен кіт є членом родини. Наші кошенята ростуть в оточенні любові, щоденного спілкування та затишку справжнього дому.'}
+            : 'Ми - невеликий домашній розплідник, де кожен кіт є членом родини. Наші кошенята ростуть в оточенні любові, щоденного спілкування та затишку справжнього дому.'}
         </p>
         <a
           href={getLocalizedPath('/about/', lang)}

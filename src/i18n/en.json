@@ -27,60 +27,60 @@
     "comingSoon": "Page coming soon.",
     "logoAlt": "Floriente Cattery logo",
     "index": {
-      "title": "Floriente Cattery — Oriental & Siamese Kittens",
-      "description": "Boutique cattery in Kyiv region, Ukraine. Oriental Shorthair & Siamese kittens raised at home with love."
+      "title": "Floriente Cattery - Oriental & Siamese Kittens",
+      "description": "WCF-registered cattery in Ukraine. Oriental Shorthair and Siamese kittens with health testing, pedigrees, and delivery across Europe."
     },
     "about": {
-      "title": "About — Floriente Cattery",
-      "description": "Meet Elvira and learn about Floriente Cattery — our story, philosophy, health testing, and WCF registration."
+      "title": "About - Floriente Cattery",
+      "description": "Meet Elvira and learn about Floriente Cattery - our story, philosophy, health testing, and WCF registration."
     },
     "kittens": {
-      "title": "Kittens — Floriente Cattery",
+      "title": "Kittens - Floriente Cattery",
       "description": "Available Oriental Shorthair and Siamese kittens at Floriente Cattery. View current litters, pricing, and adoption process."
     },
     "ourCats": {
-      "title": "Our Cats — Floriente Cattery",
-      "description": "Meet our breeding cats — Oriental Shorthair and Siamese champions. WCF registered, health tested, home raised."
+      "title": "Our Cats - Floriente Cattery",
+      "description": "Meet our breeding cats - Oriental Shorthair and Siamese champions. WCF registered, health tested, home raised."
     },
     "howToBuy": {
-      "title": "How to Buy — Floriente Cattery",
+      "title": "How to Buy - Floriente Cattery",
       "description": "Reserve an Oriental or Siamese kitten from Floriente Cattery. Transparent process, open pricing, and lifelong breeder support."
     },
     "blog": {
-      "title": "Blog — Floriente Cattery",
-      "description": "Articles about Oriental and Siamese cats — breed care, health, nutrition, and life at Floriente Cattery."
+      "title": "Blog - Floriente Cattery",
+      "description": "Articles about Oriental and Siamese cats - breed care, health, nutrition, and life at Floriente Cattery."
     },
     "faq": {
-      "title": "FAQ — Floriente Cattery",
-      "description": "Frequently asked questions about Oriental and Siamese kittens at Floriente Cattery — pricing, adoption process, health, care, and delivery."
+      "title": "FAQ - Floriente Cattery",
+      "description": "Frequently asked questions about Oriental and Siamese kittens at Floriente Cattery - pricing, adoption process, health, care, and delivery."
     },
     "family": {
-      "title": "Family — Floriente Cattery",
-      "description": "Floriente Cattery alumni — our kittens in their new homes across Europe. See how they've grown and thrived with their families."
+      "title": "Family - Floriente Cattery",
+      "description": "Floriente Cattery alumni - our kittens in their new homes across Europe. See how they've grown and thrived with their families."
     },
     "contact": {
-      "title": "Contact — Floriente Cattery",
+      "title": "Contact - Floriente Cattery",
       "description": "Get in touch with Floriente Cattery. Reach us via WhatsApp, email, or social media to learn about available Oriental and Siamese kittens."
     },
     "legal": {
-      "title": "Legal — Floriente Cattery",
+      "title": "Legal - Floriente Cattery",
       "description": "Privacy Policy, Cookie Policy, and Terms & Conditions for Floriente Cattery website."
     }
   },
   "family": {
     "heroTitle": "Our Floriente Family",
-    "heroText": "Every kitten that leaves our home becomes part of a bigger family. Here are some of our alumni — thriving, loved, and living their best lives.",
+    "heroText": "Every kitten that leaves our home becomes part of a bigger family. Here are some of our alumni - thriving, loved, and living their best lives.",
     "alumniTitle": "Alumni Gallery",
-    "alumniSubtitle": "Kittens from Litter A & Litter B — all happily in their new homes",
+    "alumniSubtitle": "Kittens from Litter A & Litter B - all happily in their new homes",
     "testimonialsTitle": "What Families Say",
-    "testimonialsSubtitle": "More testimonials coming soon — we're collecting stories from our families",
+    "testimonialsSubtitle": "More testimonials coming soon - we're collecting stories from our families",
     "testimonialsPlaceholder": "Testimonials from our families will appear here as we collect them. If you're a Floriente family and would like to share your story, please get in touch!",
     "ctaTitle": "Want to Join Our Family?",
     "ctaText": "We'd love to find the perfect kitten for your home.",
     "ctaCta": "How to Reserve"
   },
   "notFound": {
-    "title": "404 — Page Not Found",
+    "title": "404 - Page Not Found",
     "heading": "Page Not Found",
     "text": "This kitten wandered off. The page you're looking for doesn't exist.",
     "backHome": "Back to Home"
@@ -91,9 +91,9 @@
     "ctaMeetKittens": "Meet Our Kittens",
     "ctaReserve": "How to Reserve",
     "trustWcf": "WCF Registered",
-    "trustWcfDesc": "Official cattery registered with the World Cat Federation",
+    "trustWcfDesc": "WCF registration No. 50188-2025",
     "trustHealth": "Health Tested",
-    "trustHealthDesc": "All parents tested for genetic diseases",
+    "trustHealthDesc": "Parents tested for PRA, PK Deficiency and breed-specific conditions",
     "trustHome": "Home Raised",
     "trustHomeDesc": "Kittens grow up in a family environment",
     "trustDelivery": "Kitten Delivery",
@@ -103,7 +103,7 @@
     "kittensWaitlist": "Join our waitlist to be notified when new kittens arrive.",
     "kittensJoinWaitlist": "Join Waitlist",
     "aboutTitle": "Our Story",
-    "aboutText": "Floriente Cattery is a small, family-run cattery in the Kyiv region of Ukraine. We specialize in Oriental Shorthair and Siamese cats — elegant, intelligent, and deeply affectionate companions.",
+    "aboutText": "Floriente is a small cattery in the Kyiv region. We breed Oriental Shorthair and Siamese cats - the kind that follow you around the house, greet you at the door, and never let you sit alone.",
     "aboutCta": "Read Our Story",
     "familyTitle": "Happy Families",
     "familySubtitle": "Our kittens in their new homes",
@@ -111,43 +111,43 @@
   },
   "about": {
     "storyTitle": "Our Story",
-    "storyText": "Floriente Cattery was born from a deep love for Oriental and Siamese cats. Our founder Elvira has dedicated years to understanding these extraordinary breeds — their elegance, intelligence, and remarkable bond with humans.",
+    "storyText": "Floriente Cattery was born from a deep love for Oriental and Siamese cats. Our founder Elvira has dedicated years to understanding these extraordinary breeds - their elegance, intelligence, and remarkable bond with humans.",
     "storyText2": "We are a small, home-based cattery where every cat is a family member. Our kittens grow up surrounded by love, daily interaction, and the comfort of a real home.",
     "philosophyTitle": "Our Philosophy",
     "philosophyHealth": "Health First",
-    "philosophyHealthDesc": "Every breeding cat is tested for genetic diseases. We share all test results openly — because transparency builds trust.",
+    "philosophyHealthDesc": "Every breeding cat tested for PRA, PK Deficiency and breed-specific conditions. Test results available on request.",
     "philosophyHome": "Home Environment",
     "philosophyHomeDesc": "Our cats live among us. Kittens are socialized from birth with people, sounds, and everyday life.",
     "philosophyQuality": "Quality Over Quantity",
-    "philosophyQualityDesc": "We have only a few litters per year. Each kitten receives individual attention and care.",
+    "philosophyQualityDesc": "We have only a few litters per year. Each kitten receives individual attention and care. We know each kitten's character by the time they leave.",
     "philosophySupport": "Lifetime Support",
-    "philosophySupportDesc": "We stay connected with every family. Our support doesn't end when the kitten leaves — it's just the beginning.",
+    "philosophySupportDesc": "We stay connected with every family. Our support doesn't end when the kitten leaves - it's just the beginning.",
     "certsTitle": "Certifications",
-    "certsSubtitle": "Official recognition and professional development",
+    "certsSubtitle": "WCF documents, champion titles, and breeder education",
     "certsCattery": "Cattery",
     "certsChampions": "Champions",
     "certsEducation": "Education",
     "homeTitle": "Where Our Cats Live",
     "homeSubtitle": "Our cats share our home and our life",
     "healthTitle": "Health Testing",
-    "healthText": "We believe that responsible breeding starts with health. All our breeding cats undergo comprehensive genetic testing to ensure healthy kittens.",
+    "healthText": "Responsible breeding starts with health. All our breeding cats undergo genetic testing before being bred.",
     "healthTests": "Our cats are tested for PRA, PK Deficiency, and other breed-specific conditions. Test results are available upon request.",
     "healthLabsTitle": "Testing Partners"
   },
   "blog": {
     "heroTitle": "Blog",
-    "heroText": "Stories, tips, and insights about Oriental and Siamese cats from our cattery.",
+    "heroText": "Articles about Oriental and Siamese cats - health, care, and life at Floriente.",
     "emptyTitle": "Coming Soon",
-    "emptyText": "We're preparing our first articles. Check back soon for stories about breed care, health, and life at Floriente.",
+    "emptyText": "First articles are in the works. Come back soon - we'll write about breed care, health, and our cats.",
     "readMore": "Read article",
     "backToBlog": "Back to Blog"
   },
   "contact": {
     "heroTitle": "Get in Touch",
-    "heroText": "We'd love to hear from you. Whether you're interested in a kitten, have questions about the breed, or just want to say hello — reach out through any channel that suits you.",
+    "heroText": "Write to us through any channel that suits you - WhatsApp, Instagram, or email. Questions about our kittens, the breed, or anything else - we answer everything.",
     "methodsTitle": "How to Reach Us",
     "whatsappLabel": "WhatsApp",
-    "whatsappDesc": "Our primary channel. Write anytime — we usually reply within a few hours.",
+    "whatsappDesc": "Our primary channel. Write anytime - we usually reply within a few hours.",
     "whatsappCta": "Open WhatsApp",
     "emailLabel": "Email",
     "emailDesc": "For formal inquiries, contracts, or documents.",
@@ -168,11 +168,11 @@
   },
   "howToBuy": {
     "heroTitle": "Your Journey to a Floriente Kitten",
-    "heroText": "We believe finding the right kitten should be personal, transparent, and joyful. Here's how it works — from the first message to a lifetime of friendship.",
+    "heroText": "Finding the right kitten takes time. Here's how we work with every family - from the first message to the day your kitten comes home.",
     "heroCta": "Start the Conversation",
 
     "processTitle": "How It Works",
-    "processSubtitle": "From first contact to lifelong friendship — seven simple steps",
+    "processSubtitle": "From first message to handover - seven steps",
     "step1Title": "Get in Touch",
     "step1Desc": "Write to us on WhatsApp or Instagram. Tell us about yourself, your family, and what you're looking for in a companion.",
     "step2Title": "Video Call",
@@ -186,7 +186,7 @@
     "step6Title": "Handover Day",
     "step6Desc": "At 3+ months your kitten is fully vaccinated, microchipped, and ready to come home. We arrange delivery across Europe.",
     "step7Title": "Lifelong Support",
-    "step7Desc": "Our relationship doesn't end at handover. We stay in touch for advice on adaptation, nutrition, behaviour — anytime you need us.",
+    "step7Desc": "Our relationship doesn't end at handover. We stay in touch for advice on adaptation, nutrition, behaviour - anytime you need us.",
 
     "pricingTitle": "Pricing",
     "pricingSubtitle": "Transparent pricing with no hidden costs",
@@ -243,18 +243,18 @@
     "included8": "Adaptation guide",
 
     "responsibilitiesTitle": "Your Commitments",
-    "responsibilitiesSubtitle": "We trust our families — and ask for a few promises in return",
+    "responsibilitiesSubtitle": "We trust our families - and ask for a few promises in return",
     "resp1": "Observe a 14-day quarantine after arrival",
     "resp2": "Follow the breeder's care and nutrition guidelines",
     "resp3": "Do not rehome without the breeder's consent",
-    "resp4": "Share updates — we love seeing our kittens thrive",
+    "resp4": "Share updates - we love seeing our kittens thrive",
 
     "supportTitle": "After Your Kitten Comes Home",
-    "supportText": "Elvira stays in contact with every family. Whether you need advice on adaptation, nutrition, or behaviour, we're always here. Many of our families stay in touch for years, sharing photos and milestones.",
-    "supportQuote": "We raise not just beautiful cats — we develop character, connection, and a future lifelong love.",
+    "supportText": "Elvira stays in contact with every family. Questions about adaptation, nutrition, or behaviour - write anytime. Many of our families stay in touch years after, sending photos and asking for advice.",
+    "supportQuote": "We raise cats with character. The kind of character that makes a family say 'this one chose us' years later.",
 
     "ctaTitle": "Ready to Begin?",
-    "ctaText": "The first step is always a conversation. Write to us and we'll be happy to tell you about our upcoming litters.",
+    "ctaText": "Start with a message. We'll tell you which litters are coming and find out if we're a fit for each other.",
     "ctaWhatsApp": "Write on WhatsApp",
     "ctaInstagram": "Write on Instagram"
   },

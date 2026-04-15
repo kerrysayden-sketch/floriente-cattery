@@ -23,7 +23,7 @@ const { photos, catName, galleryId = catName.toLowerCase().replace(/\s/g, '-') }
         <div class="aspect-[3/4] overflow-hidden bg-gray-light/20">
           <img
             src={photo.src}
-            alt={`${catName} — ${photo.label || `photo ${i + 2}`}`}
+            alt={`${catName} - ${photo.label || `photo ${i + 2}`}`}
             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             loading="lazy"
           />
