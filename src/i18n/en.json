@@ -24,7 +24,6 @@
     "location": "Kyiv Region, Ukraine"
   },
   "pages": {
-    "comingSoon": "Page coming soon.",
     "logoAlt": "Floriente Cattery logo",
     "index": {
       "title": "Floriente Cattery - Oriental & Siamese Kittens",
@@ -54,10 +53,6 @@
       "title": "FAQ - Floriente Cattery",
       "description": "Frequently asked questions about Oriental and Siamese kittens at Floriente Cattery - pricing, adoption process, health, care, and delivery."
     },
-    "family": {
-      "title": "Family - Floriente Cattery",
-      "description": "Floriente Cattery alumni - our kittens in their new homes across Europe. See how they've grown and thrived with their families."
-    },
     "contact": {
       "title": "Contact - Floriente Cattery",
       "description": "Get in touch with Floriente Cattery. Reach us via WhatsApp, email, or social media to learn about available Oriental and Siamese kittens."
@@ -67,23 +62,10 @@
       "description": "Privacy Policy, Cookie Policy, and Terms & Conditions for Floriente Cattery website."
     }
   },
-  "family": {
-    "heroTitle": "Our Floriente Family",
-    "heroText": "Every kitten that leaves our home becomes part of a bigger family. Here are some of our alumni - thriving, loved, and living their best lives.",
-    "alumniTitle": "Alumni Gallery",
-    "alumniSubtitle": "Kittens from Litter A & Litter B - all happily in their new homes",
-    "testimonialsTitle": "What Families Say",
-    "testimonialsSubtitle": "More testimonials coming soon - we're collecting stories from our families",
-    "testimonialsPlaceholder": "Testimonials from our families will appear here as we collect them. If you're a Floriente family and would like to share your story, please get in touch!",
-    "ctaTitle": "Want to Join Our Family?",
-    "ctaText": "We'd love to find the perfect kitten for your home.",
-    "ctaCta": "How to Reserve"
-  },
   "notFound": {
     "title": "404 - Page Not Found",
     "heading": "Page Not Found",
-    "text": "This kitten wandered off. The page you're looking for doesn't exist.",
-    "backHome": "Back to Home"
+    "text": "This kitten wandered off. The page you're looking for doesn't exist."
   },
   "home": {
     "heroHeadline": "Oriental & Siamese Kittens",
@@ -103,14 +85,17 @@
     "kittensWaitlist": "Join our waitlist to be notified when new kittens arrive.",
     "kittensJoinWaitlist": "Join Waitlist",
     "aboutTitle": "Our Story",
-    "aboutText": "Floriente is a small cattery in the Kyiv region. We breed Oriental Shorthair and Siamese cats - the kind that follow you around the house, greet you at the door, and never let you sit alone.",
     "aboutParagraph1": "Floriente Cattery was born from a deep love for Oriental and Siamese cats. Our founder Elvira has dedicated years to understanding these extraordinary breeds - their elegance, intelligence, and remarkable bond with humans.",
     "aboutParagraph2": "And then there's Oleksandr - Elvira's husband and the other half of Floriente. He's the one who handles feed runs, vet trips, heavy lifting, and delivers kittens to their new families. He rarely makes it into the frame, but everything you don't see rests on him.",
     "aboutParagraph3": "We are a small, home-based cattery where every cat is a family member. Our kittens grow up surrounded by love, daily interaction, and the warmth of a real home.",
     "aboutCta": "Read Our Story",
     "familyTitle": "Happy Families",
     "familySubtitle": "Our kittens in their new homes",
-    "familyCta": "Meet All Alumni"
+    "testimonialsTitle": "What Families Say",
+    "testimonialsSubtitle": "More testimonials coming soon - we're collecting stories from our families",
+    "familyCtaTitle": "Want to Join Our Family?",
+    "familyCtaText": "We'll help you find the kitten that fits your home best.",
+    "familyCtaCta": "How to Reserve"
   },
   "about": {
     "storyTitle": "Our Story",
@@ -128,7 +113,6 @@
     "certsTitle": "Certifications",
     "certsSubtitle": "WCF documents, champion titles, and breeder education",
     "certsCattery": "Cattery",
-    "certsChampions": "Champions",
     "certsEducation": "Education",
     "homeTitle": "Where Our Cats Live",
     "homeSubtitle": "Our cats share our home and our life",
@@ -185,7 +169,6 @@
     "heroTitle": "Your Journey to a Floriente Kitten",
     "heroText": "Finding the right kitten takes time. Here's how we work with every family - from the first message to the day your kitten comes home.",
     "heroCta": "Start the Conversation",
-
     "processTitle": "How It Works",
     "processSubtitle": "From first message to handover - seven steps",
     "step1Title": "Get in Touch",
@@ -202,7 +185,6 @@
     "step6Desc": "At 3+ months your kitten is fully vaccinated, microchipped, and ready to come home. We arrange delivery across Europe.",
     "step7Title": "Lifelong Support",
     "step7Desc": "Our relationship doesn't end at handover. We stay in touch for advice on adaptation, nutrition, behaviour - anytime you need us.",
-
     "pricingTitle": "Pricing",
     "pricingSubtitle": "Transparent pricing with no hidden costs",
     "petTitle": "Pet Class",
@@ -214,7 +196,6 @@
     "depositLabel": "Reservation Deposit",
     "depositAmount": "50%",
     "depositNote": "Non-refundable if the buyer cancels. May be refunded under the terms specified in the contract.",
-
     "tcoTitle": "What You're Really Getting",
     "tcoSubtitle": "A responsible breeder saves you thousands in the long run",
     "tcoBreeder": "From a Responsible Breeder",
@@ -240,12 +221,8 @@
     "tcoSupport": "Lifetime breeder support",
     "tcoSupportYes": "Always available",
     "tcoSupportNo": "None",
-    "tcoHealth": "Health guarantee",
-    "tcoHealthYes": "Contract-backed",
-    "tcoHealthNo": "None",
     "tcoSavings": "Estimated savings",
     "tcoSavingsAmount": "~€650",
-
     "includedTitle": "What's Included",
     "includedSubtitle": "Every kitten leaves with everything they need to start their new life",
     "included1": "Full vaccination against viruses and rabies",
@@ -256,20 +233,17 @@
     "included6": "Starter food supply",
     "included7": "Toys & comfort blanket",
     "included8": "Adaptation guide",
-
     "responsibilitiesTitle": "Your Commitments",
     "responsibilitiesSubtitle": "We trust our families - and ask for a few promises in return",
     "resp1": "Observe a 14-day quarantine after arrival",
     "resp2": "Follow the breeder's care and nutrition guidelines",
     "resp3": "Do not rehome without the breeder's consent",
     "resp4": "Share updates - we love seeing our kittens thrive",
-
     "faqLabel": "Have more questions?",
     "faqCta": "See our FAQ →",
     "supportTitle": "After Your Kitten Comes Home",
     "supportText": "Elvira stays in contact with every family. Questions about adaptation, nutrition, or behaviour - write anytime. Many of our families stay in touch years after, sending photos and asking for advice.",
     "supportQuote": "We raise cats with character. The kind of character that makes a family say 'this one chose us' years later.",
-
     "ctaTitle": "Ready to Begin?",
     "ctaText": "Start with a message. We'll tell you which litters are coming and find out if we're a fit for each other.",
     "ctaWhatsApp": "Write on WhatsApp",
@@ -336,11 +310,8 @@
     "weekLabel": "Week"
   },
   "common": {
-    "readMore": "Read more",
     "viewAll": "View all",
-    "backHome": "Back to Home",
     "menu": "Menu",
-    "close": "Close",
-    "learnMore": "Learn More"
+    "close": "Close"
   }
 }
