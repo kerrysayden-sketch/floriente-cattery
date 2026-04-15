@@ -58,8 +58,8 @@ const followChannels = [
   },
 ];
 
-const contactTitle = lang === 'en' ? 'Contact Us' : 'Зв\'яжіться з нами';
-const followTitle = lang === 'en' ? 'Follow Us' : 'Слідкуйте за нами';
+const contactTitle = t(lang, 'contact.methodsTitle');
+const followTitle = t(lang, 'contact.followTitle');
 ---
 
 <section class="py-16 md:py-24 px-4 sm:px-6 bg-gray-light/20">
@@ -68,9 +68,7 @@ const followTitle = lang === 'en' ? 'Follow Us' : 'Слідкуйте за на�
     {/* Contact Us block */}
     <h2 class="text-center mb-4">{contactTitle}</h2>
     <p class="text-center text-gray-medium mb-12 text-sm">
-      {lang === 'en'
-        ? 'Reach out through any of these channels - we typically reply within a few hours'
-        : 'Напишіть нам будь-яким зручним способом - зазвичай відповідаємо протягом кількох годин'}
+      {t(lang, 'contact.methodsSubtitle')}
     </p>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16 md:mb-24">
@@ -107,9 +105,7 @@ const followTitle = lang === 'en' ? 'Follow Us' : 'Слідкуйте за на�
     {/* Follow Us block */}
     <h2 class="text-center mb-4">{followTitle}</h2>
     <p class="text-center text-gray-medium mb-12 text-sm">
-      {lang === 'en'
-        ? 'Stay updated with our daily life, new litters, and behind-the-scenes moments'
-        : 'Слідкуйте за нашим щоденним життям, новими пометами та моментами за лаштунками'}
+      {t(lang, 'contact.followSubtitle')}
     </p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">

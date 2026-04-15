@@ -104,6 +104,9 @@
     "kittensJoinWaitlist": "Join Waitlist",
     "aboutTitle": "Our Story",
     "aboutText": "Floriente is a small cattery in the Kyiv region. We breed Oriental Shorthair and Siamese cats - the kind that follow you around the house, greet you at the door, and never let you sit alone.",
+    "aboutParagraph1": "Floriente Cattery was born from a deep love for Oriental and Siamese cats. Our founder Elvira has dedicated years to understanding these extraordinary breeds - their elegance, intelligence, and remarkable bond with humans.",
+    "aboutParagraph2": "And then there's Oleksandr - Elvira's husband and the other half of Floriente. He's the one who handles feed runs, vet trips, heavy lifting, and delivers kittens to their new families. He rarely makes it into the frame, but everything you don't see rests on him.",
+    "aboutParagraph3": "We are a small, home-based cattery where every cat is a family member. Our kittens grow up surrounded by love, daily interaction, and the warmth of a real home.",
     "aboutCta": "Read Our Story",
     "familyTitle": "Happy Families",
     "familySubtitle": "Our kittens in their new homes",
@@ -145,7 +148,10 @@
   "contact": {
     "heroTitle": "Get in Touch",
     "heroText": "Write to us through any channel that suits you - WhatsApp, Instagram, or email. Questions about our kittens, the breed, or anything else - we answer everything.",
-    "methodsTitle": "How to Reach Us",
+    "methodsTitle": "Contact Us",
+    "methodsSubtitle": "Reach out through any of these channels - we typically reply within a few hours",
+    "followTitle": "Follow Us",
+    "followSubtitle": "Stay updated with our daily life, new litters, and behind-the-scenes moments",
     "whatsappLabel": "WhatsApp",
     "whatsappDesc": "Our primary channel. Write anytime - we usually reply within a few hours.",
     "whatsappCta": "Open WhatsApp",
@@ -160,6 +166,7 @@
     "instagramDmLabel": "Instagram DM",
     "instagramDmDesc": "Send us a direct message on Instagram for a quick chat.",
     "instagramDmCta": "Message on Instagram",
+    "mapTitle": "Floriente Cattery location - Kyiv Region, Ukraine",
     "locationTitle": "Where We Are",
     "locationText": "Kyiv Region, Ukraine",
     "locationNote": "Kitten delivery available across Europe. Exact location shared after reservation.",
@@ -249,6 +256,8 @@
     "resp3": "Do not rehome without the breeder's consent",
     "resp4": "Share updates - we love seeing our kittens thrive",
 
+    "faqLabel": "Have more questions?",
+    "faqCta": "See our FAQ →",
     "supportTitle": "After Your Kitten Comes Home",
     "supportText": "Elvira stays in contact with every family. Questions about adaptation, nutrition, or behaviour - write anytime. Many of our families stay in touch years after, sending photos and asking for advice.",
     "supportQuote": "We raise cats with character. The kind of character that makes a family say 'this one chose us' years later.",
@@ -257,6 +266,11 @@
     "ctaText": "Start with a message. We'll tell you which litters are coming and find out if we're a fit for each other.",
     "ctaWhatsApp": "Write on WhatsApp",
     "ctaInstagram": "Write on Instagram"
+  },
+  "faq": {
+    "heroTitle": "Frequently Asked Questions",
+    "heroText": "Everything you need to know about Oriental and Siamese kittens at Floriente Cattery.",
+    "ctaText": "Didn't find your answer? We'd love to hear from you."
   },
   "common": {
     "readMore": "Read more",

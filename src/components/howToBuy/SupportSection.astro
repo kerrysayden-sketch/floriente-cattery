@@ -54,10 +54,10 @@ const responsibilities = ['resp1', 'resp2', 'resp3', 'resp4'];
           <path d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
         <p class="text-dark font-medium mb-1">
-          {lang === 'en' ? 'Have more questions?' : 'Маєте більше запитань?'}
+          {t(lang, 'howToBuy.faqLabel')}
         </p>
         <p class="text-gold text-sm group-hover:text-gold-dark transition-colors">
-          {lang === 'en' ? 'See our FAQ →' : 'Дивіться FAQ →'}
+          {t(lang, 'howToBuy.faqCta')}
         </p>
       </a>
     </div>

@@ -232,12 +232,10 @@ const faqSchema = {
     <!-- Header -->
     <div class="text-center mb-16">
       <h1 class="font-serif text-3xl md:text-5xl text-dark mb-6">
-        {lang === 'en' ? 'Frequently Asked Questions' : 'Часті запитання'}
+        {t(lang, 'faq.heroTitle')}
       </h1>
       <p class="text-dark-soft text-lg leading-relaxed max-w-2xl mx-auto">
-        {lang === 'en'
-          ? 'Everything you need to know about Oriental and Siamese kittens at Floriente Cattery.'
-          : 'Все, що потрібно знати про орієнтальних та сіамських кошенят у розпліднику Floriente.'}
+        {t(lang, 'faq.heroText')}
       </p>
     </div>
 
@@ -268,9 +266,7 @@ const faqSchema = {
     <!-- CTA -->
     <div class="text-center mt-16 scroll-fade">
       <p class="text-dark-soft mb-6">
-        {lang === 'en'
-          ? "Didn't find your answer? We'd love to hear from you."
-          : 'Не знайшли відповідь? Ми будемо раді допомогти.'}
+        {t(lang, 'faq.ctaText')}
       </p>
       <a
         href={getLocalizedPath('/contact/', lang)}
