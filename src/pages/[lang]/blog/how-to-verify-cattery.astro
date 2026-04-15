@@ -7,13 +7,8 @@ export const getStaticPaths = createLangStaticPaths;
 
 const { lang } = Astro.props as { lang: Lang };
 
-const title = lang === 'en'
-  ? 'How to Verify a Legitimate Cattery: A Buyer\'s Checklist'
-  : 'Як перевірити розплідник: чеклист покупця';
-
-const description = lang === 'en'
-  ? 'Don\'t fall for cat scams. Use this expert checklist to verify any cattery before sending money. Real credentials, real red flags, real protection.'
-  : 'Не потрапте на шахраїв. Чеклист для перевірки будь-якого розплідника перед оплатою. Реальні документи, червоні прапорці, захист.';
+const title = t(lang, 'blog.howToVerify.title');
+const description = t(lang, 'blog.howToVerify.description');
 
 const canonicalBase = 'https://florientecattery.com';
 const canonicalUrl = `${canonicalBase}/${lang}/blog/how-to-verify-cattery/`;
@@ -71,17 +66,17 @@ const articleSchema = JSON.stringify({
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M19 12H5M12 19l-7-7 7-7" />
         </svg>
-        {lang === 'en' ? 'Back to Blog' : 'Назад до блогу'}
+        {t(lang, 'blog.backToBlog')}
       </a>
 
       <!-- Header -->
       <header class="mb-12">
         <span class="text-xs uppercase tracking-wider text-gold font-semibold">
-          {lang === 'en' ? 'Buyer\'s Guide' : 'Гід покупця'}
+          {t(lang, 'blog.howToVerify.category')}
         </span>
         <h1 class="font-serif text-3xl md:text-4xl text-dark mt-2 mb-4">{title}</h1>
         <div class="flex items-center gap-4 text-sm text-gray-medium">
-          <time datetime={publishDate}>{lang === 'en' ? 'April 2026' : 'Квітень 2026'}</time>
+          <time datetime={publishDate}>{t(lang, 'blog.howToVerify.publishDate')}</time>
           <span>Floriente Cattery</span>
         </div>
       </header>
@@ -288,12 +283,10 @@ const articleSchema = JSON.stringify({
       <!-- CTA -->
       <div class="mt-16 pt-12 border-t border-gray-light/50 text-center">
         <h3 class="font-serif text-xl text-dark mb-3">
-          {lang === 'en' ? 'Ready to meet our kittens?' : 'Готові познайомитися з нашими кошенятами?'}
+          {t(lang, 'blog.howToVerify.ctaHeading')}
         </h3>
         <p class="text-dark-soft text-sm mb-6">
-          {lang === 'en'
-            ? 'We pass every point on this checklist. See for yourself.'
-            : 'Ми проходимо кожен пункт цього чеклиста. Переконайтеся самі.'}
+          {t(lang, 'blog.howToVerify.ctaText')}
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a

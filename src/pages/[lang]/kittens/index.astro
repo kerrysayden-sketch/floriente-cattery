@@ -39,26 +39,14 @@ const litterB = [
   { name: 'Buddy', full: 'Buddy Ole Lukhoye', photo: '/images/kittens/litter-b/buddy.jpg', sex: 'male', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
 ];
 
-const badgeLabel = lang === 'en' ? 'At New Home' : 'У новому домі';
-const litterATitle = lang === 'en' ? 'Litter "A"' : 'Помiт «A»';
-const litterBTitle = lang === 'en' ? 'Litter "B"' : 'Помiт «Б»';
-
-const pageSubtitle = lang === 'en'
-  ? 'Each kitten grew up surrounded by love and found a family that was just right for them'
-  : 'Кожне кошеня виросло в любові та знайшло родину, яка підходить саме йому';
-
-const litterAMeta = lang === 'en'
-  ? 'Born January 16, 2024 · Parents: Sebastian & Simona · 5 kittens'
-  : 'Народилися 16 січня 2024 · Батьки: Sebastian & Simona · 5 кошенят';
-
-const litterBMeta = lang === 'en'
-  ? 'Born July 25, 2024 · Parents: Sebastian & Simona · 8 kittens'
-  : 'Народилися 25 липня 2024 · Батьки: Sebastian & Simona · 8 кошенят';
-
-const waitlistText = lang === 'en'
-  ? 'Interested in a kitten from our future litters?'
-  : 'Цікавить кошеня з наших майбутніх помiтів?';
-const hiText = lang === 'en' ? "Hi, I'm" : 'Привіт, я';
+const badgeLabel = t(lang, 'kittens.atNewHome');
+const litterATitle = t(lang, 'kittens.litterATitle');
+const litterBTitle = t(lang, 'kittens.litterBTitle');
+const pageSubtitle = t(lang, 'kittens.pageSubtitle');
+const litterAMeta = t(lang, 'kittens.litterAMeta');
+const litterBMeta = t(lang, 'kittens.litterBMeta');
+const waitlistText = t(lang, 'kittens.waitlistText');
+const hiText = t(lang, 'kittens.hiText');
 
 ---
 
@@ -78,15 +66,15 @@ const hiText = lang === 'en' ? "Hi, I'm" : 'Привіт, я';
     {currentKittens.length > 0 && (
       <>
         <div id="kitten-filters" class="flex flex-wrap gap-2 justify-center mb-4">
-          <span class="text-xs text-gray-medium uppercase tracking-wider mr-2 self-center">{lang === 'en' ? 'Status:' : 'Статус:'}</span>
+          <span class="text-xs text-gray-medium uppercase tracking-wider mr-2 self-center">{t(lang, 'kittens.statusLabel')}</span>
           <button data-filter="status" data-value="all" class="filter-btn active px-3 py-1.5 rounded-full text-xs font-medium border border-gold bg-gold text-warm-white transition-colors">
-            {lang === 'en' ? 'All' : 'Усі'}
+            {t(lang, 'kittens.statusAll')}
           </button>
           <button data-filter="status" data-value="available" class="filter-btn px-3 py-1.5 rounded-full text-xs font-medium border border-gray-light text-dark-soft hover:border-gold hover:text-gold transition-colors">
-            {lang === 'en' ? 'Available' : 'Доступні'}
+            {t(lang, 'kittens.statusAvailable')}
           </button>
           <button data-filter="status" data-value="reserved" class="filter-btn px-3 py-1.5 rounded-full text-xs font-medium border border-gray-light text-dark-soft hover:border-gold hover:text-gold transition-colors">
-            {lang === 'en' ? 'Reserved' : 'Зарезервовані'}
+            {t(lang, 'kittens.statusReserved')}
           </button>
         </div>
         <div id="kitten-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
@@ -97,11 +85,11 @@ const hiText = lang === 'en' ? "Hi, I'm" : 'Привіт, я';
                   <img src={kitten.photos?.filename} alt={kitten.name} class="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <span class={`absolute top-0 left-0 inline-flex items-center px-2.5 py-1 rounded-full text-[11px] font-semibold text-warm-white shadow-sm ${kitten.status === 'available' ? 'bg-emerald-500' : kitten.status === 'reserved' ? 'bg-amber-500' : 'bg-status-home'}`}>
-                  {kitten.status === 'available' ? (lang === 'en' ? 'Available' : 'Доступний') : kitten.status === 'reserved' ? (lang === 'en' ? 'Reserved' : 'Зарезервований') : badgeLabel}
+                  {kitten.status === 'available' ? t(lang, 'kittens.statusAvailableSingle') : kitten.status === 'reserved' ? t(lang, 'kittens.statusReservedSingle') : badgeLabel}
                 </span>
               </div>
               <h3 class="text-lg md:text-xl font-serif text-dark-soft">{hiText} <strong class="text-dark">{kitten.name}</strong></h3>
-              <p class="text-xs text-gray-medium mt-0.5">{kitten.breed || 'Oriental Shorthair'} {kitten.sex === 'male' ? (lang === 'en' ? 'Male' : 'Кіт') : (lang === 'en' ? 'Female' : 'Кішка')}</p>
+              <p class="text-xs text-gray-medium mt-0.5">{kitten.breed || 'Oriental Shorthair'} {kitten.sex === 'male' ? t(lang, 'kittens.male') : t(lang, 'kittens.female')}</p>
             </a>
           ))}
         </div>
@@ -145,7 +133,7 @@ const hiText = lang === 'en' ? "Hi, I'm" : 'Привіт, я';
               {hiText} <strong class="text-dark">{kitten.name}</strong>
               <span class={`ml-1.5 text-lg font-bold ${kitten.sex === 'male' ? 'text-blue-400' : 'text-pink-400'}`}>{kitten.sex === 'male' ? '♂' : '♀'}</span>
             </h3>
-            <p class="text-xs text-gray-medium mt-1 leading-tight">{kitten.breed}. {kitten.sex === 'male' ? (lang === 'en' ? 'Male' : 'Кіт') : (lang === 'en' ? 'Female' : 'Кішка')}</p>
+            <p class="text-xs text-gray-medium mt-1 leading-tight">{kitten.breed}. {kitten.sex === 'male' ? t(lang, 'kittens.male') : t(lang, 'kittens.female')}</p>
             <p class="text-[11px] text-gray-300 mt-0.5 leading-tight">{kitten.full}</p>
           </div>
         ))}
@@ -179,7 +167,7 @@ const hiText = lang === 'en' ? "Hi, I'm" : 'Привіт, я';
               {hiText} <strong class="text-dark">{kitten.name}</strong>
               <span class={`ml-1.5 text-lg font-bold ${kitten.sex === 'male' ? 'text-blue-400' : 'text-pink-400'}`}>{kitten.sex === 'male' ? '♂' : '♀'}</span>
             </h3>
-            <p class="text-xs text-gray-medium mt-1 leading-tight">{kitten.breed}. {kitten.sex === 'male' ? (lang === 'en' ? 'Male' : 'Кіт') : (lang === 'en' ? 'Female' : 'Кішка')}</p>
+            <p class="text-xs text-gray-medium mt-1 leading-tight">{kitten.breed}. {kitten.sex === 'male' ? t(lang, 'kittens.male') : t(lang, 'kittens.female')}</p>
             <p class="text-[11px] text-gray-300 mt-0.5 leading-tight">{kitten.full}</p>
           </div>
         ))}
@@ -189,7 +177,7 @@ const hiText = lang === 'en' ? "Hi, I'm" : 'Привіт, я';
     {/* ── CMS past kittens (if any in Storyblok) ── */}
     {pastKittens.length > 0 && (
       <section class="mb-14 md:mb-20 pt-12 border-t border-gray-light">
-        <h2 class="text-lg text-gray-medium mb-8">{lang === 'en' ? 'Previous Litters' : 'Попередні помiти'}</h2>
+        <h2 class="text-lg text-gray-medium mb-8">{t(lang, 'kittens.previousLitters')}</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {pastKittens.map((kitten) => (
             <a
@@ -209,7 +197,7 @@ const hiText = lang === 'en' ? "Hi, I'm" : 'Привіт, я';
                 <p class="text-sm font-medium text-dark">{kitten.name}</p>
                 <p class="text-xs text-gray-medium">{kitten.color}</p>
                 {kitten.owner_name && (
-                  <p class="text-xs text-gold mt-1">{lang === 'en' ? 'New home:' : 'Нова домівка:'} {kitten.owner_country}</p>
+                  <p class="text-xs text-gold mt-1">{t(lang, 'kittens.newHome')} {kitten.owner_country}</p>
                 )}
               </div>
             </a>

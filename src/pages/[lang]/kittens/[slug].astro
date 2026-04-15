@@ -75,26 +75,26 @@ const breedFull = kitten.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese';
 
         <dl class="space-y-3 mb-8">
           <div class="flex">
-            <dt class="w-32 text-sm text-gray-medium">{lang === 'en' ? 'Breed' : 'Порода'}</dt>
+            <dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldBreed')}</dt>
             <dd class="text-sm text-dark">{breedFull}</dd>
           </div>
           <div class="flex">
-            <dt class="w-32 text-sm text-gray-medium">{lang === 'en' ? 'Color' : 'Колір'}</dt>
+            <dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldColor')}</dt>
             <dd class="text-sm text-dark">{kitten.color}</dd>
           </div>
           <div class="flex">
-            <dt class="w-32 text-sm text-gray-medium">{lang === 'en' ? 'Sex' : 'Стать'}</dt>
-            <dd class="text-sm text-dark">{kitten.sex === 'male' ? '♂ ' + (lang === 'en' ? 'Male' : 'Кіт') : '♀ ' + (lang === 'en' ? 'Female' : 'Кішка')}</dd>
+            <dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldSex')}</dt>
+            <dd class="text-sm text-dark">{kitten.sex === 'male' ? '♂ ' + t(lang, 'kittens.male') : '♀ ' + t(lang, 'kittens.female')}</dd>
           </div>
           {kitten.dob && (
             <div class="flex">
-              <dt class="w-32 text-sm text-gray-medium">{lang === 'en' ? 'Born' : 'Народження'}</dt>
+              <dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldBorn')}</dt>
               <dd class="text-sm text-dark">{kitten.dob}</dd>
             </div>
           )}
           {kitten.father && (
             <div class="flex">
-              <dt class="w-32 text-sm text-gray-medium">{lang === 'en' ? 'Father' : 'Батько'}</dt>
+              <dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldFather')}</dt>
               <dd class="text-sm">
                 <a href={getLocalizedPath(`/our-cats/${kitten.father}/`, lang)} class="text-gold hover:text-gold-dark">{kitten.father}</a>
               </dd>
@@ -102,7 +102,7 @@ const breedFull = kitten.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese';
           )}
           {kitten.mother && (
             <div class="flex">
-              <dt class="w-32 text-sm text-gray-medium">{lang === 'en' ? 'Mother' : 'Мати'}</dt>
+              <dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldMother')}</dt>
               <dd class="text-sm">
                 <a href={getLocalizedPath(`/our-cats/${kitten.mother}/`, lang)} class="text-gold hover:text-gold-dark">{kitten.mother}</a>
               </dd>
@@ -113,7 +113,7 @@ const breedFull = kitten.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese';
         {kitten.price && kitten.status === 'available' && (
           <div class="mb-8 p-4 bg-gold/5 border border-gold/20 rounded-lg">
             <p class="text-2xl font-serif text-gold">€{kitten.price}</p>
-            <p class="text-xs text-gray-medium mt-1">{lang === 'en' ? 'Includes vaccination, microchip, EU passport' : 'Включає вакцинацію, мікрочіп, EU паспорт'}</p>
+            <p class="text-xs text-gray-medium mt-1">{t(lang, 'kittens.priceIncludes')}</p>
           </div>
         )}
 
@@ -133,7 +133,7 @@ const breedFull = kitten.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese';
     {/* Watch Me Grow */}
     {kitten.watch_me_grow && kitten.watch_me_grow.length > 0 && (
       <section class="mt-16 md:mt-24">
-        <h2 class="text-center mb-10">{lang === 'en' ? 'Watch Me Grow' : 'Як я росту'}</h2>
+        <h2 class="text-center mb-10">{t(lang, 'kittens.watchMeGrow')}</h2>
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
           {kitten.watch_me_grow
             .sort((a: any, b: any) => (a.week || 0) - (b.week || 0))
@@ -148,7 +148,7 @@ const breedFull = kitten.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese';
                   />
                 </div>
                 <p class="text-xs font-medium text-dark">
-                  {lang === 'en' ? `Week ${entry.week}` : `Тиждень ${entry.week}`}
+                  {t(lang, 'kittens.weekLabel')} {entry.week}
                 </p>
                 {entry.note && <p class="text-xs text-gray-medium">{entry.note}</p>}
               </div>
