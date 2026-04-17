@@ -41,18 +41,31 @@ function walk(dir, exts, files = []) {
   return files;
 }
 
-const en = JSON.parse(fs.readFileSync(path.join(SRC, 'i18n/en.json'), 'utf8'));
-const uk = JSON.parse(fs.readFileSync(path.join(SRC, 'i18n/uk.json'), 'utf8'));
-const enKeys = flatten(en);
-const ukKeys = flatten(uk);
+// Active locales (currently enabled in the build). Sync parity is enforced for these.
+const activeLangs = ['en', 'uk', 'ru'];
+// Archived locales (files kept in the repo for fast restore, but not part of the build).
+// Parity is NOT enforced. They may drift from en.json until Native QA reactivates them.
+const archivedLangs = ['pl', 'de'];
+const langFiles = [...activeLangs, ...archivedLangs];
+const translations = {};
+const keysSets = {};
 
+for (const lang of langFiles) {
+  translations[lang] = JSON.parse(fs.readFileSync(path.join(SRC, `i18n/${lang}.json`), 'utf8'));
+  keysSets[lang] = flatten(translations[lang]);
+}
+
+const enKeys = keysSets['en'];
 const errors = [];
 
-// 1. Sync check
-const onlyInEn = [...enKeys].filter((k) => !ukKeys.has(k));
-const onlyInUk = [...ukKeys].filter((k) => !enKeys.has(k));
-if (onlyInEn.length) errors.push(`Keys only in en.json (${onlyInEn.length}):\n  ${onlyInEn.join('\n  ')}`);
-if (onlyInUk.length) errors.push(`Keys only in uk.json (${onlyInUk.length}):\n  ${onlyInUk.join('\n  ')}`);
+// 1. Sync check — only active locales must match en. Archived locales are informational.
+for (const lang of activeLangs.filter((l) => l !== 'en')) {
+  const langKeys = keysSets[lang];
+  const onlyInEn = [...enKeys].filter((k) => !langKeys.has(k));
+  const onlyInLang = [...langKeys].filter((k) => !enKeys.has(k));
+  if (onlyInEn.length) errors.push(`Keys only in en.json, missing in ${lang}.json (${onlyInEn.length}):\n  ${onlyInEn.join('\n  ')}`);
+  if (onlyInLang.length) errors.push(`Keys only in ${lang}.json, missing in en.json (${onlyInLang.length}):\n  ${onlyInLang.join('\n  ')}`);
+}
 
 // 2. Used keys check
 const sourceFiles = walk(SRC, ['.astro', '.ts', '.js', '.mjs']);
@@ -84,8 +97,14 @@ const unusedKeys = [...enKeys].filter((k) => {
 });
 
 console.log(`📊 i18n stats:`);
-console.log(`   en.json keys:     ${enKeys.size}`);
-console.log(`   uk.json keys:     ${ukKeys.size}`);
+for (const lang of activeLangs) {
+  console.log(`   ${lang}.json (active): ${keysSets[lang].size} keys`);
+}
+for (const lang of archivedLangs) {
+  const diff = enKeys.size - keysSets[lang].size;
+  const drift = diff > 0 ? ` (drift: ${diff} keys behind en)` : '';
+  console.log(`   ${lang}.json (archived): ${keysSets[lang].size} keys${drift}`);
+}
 console.log(`   used in source:   ${usedKeys.size}`);
 console.log(`   dynamic prefixes: ${[...dynamicPrefixes].join(', ') || 'none'}`);
 console.log();
@@ -93,6 +112,102 @@ console.log();
 if (unusedKeys.length) {
   console.log(`ℹ️  Possibly unused keys (${unusedKeys.length}):`);
   unusedKeys.forEach((k) => console.log(`   ${k}`));
+  console.log();
+}
+
+// 3.5. Character-length warnings for layout-sensitive keys
+// These keys render in tight UI zones (buttons, nav, labels, trust cards) where
+// translations 40%+ longer than EN can break layout. Warn at 140% threshold.
+const LAYOUT_SENSITIVE_PATTERNS = [
+  /^nav\./,
+  /^footer\.(privacy|cookies|terms|quickLinks|contacts|followUs)$/,
+  /^home\.(cta|trust|processStep\d+Title|scamCalloutCta|familyCtaCta|testimonialOwnerOf)/,
+  /^home\.kittensJoinWaitlist$/,
+  /^howToBuy\.(hero|cta|faq|pricing|depositLabel|depositAmount|petTitle|breedShowTitle)/,
+  /^kittens\.(status|male|female|fieldBreed|fieldColor|fieldSex|fieldBorn|fieldFather|fieldMother|atNewHome|hiText|weekLabel|newHome)/,
+  /^ourCats\.(queen|king|fieldBreed|fieldColor|fieldTitle|healthTesting)$/,
+  /^common\./,
+  /^blog\.(readMore|backToBlog|emptyTitle)$/,
+  /^faq\.heroTitle$/,
+  /^contact\.(whatsappCta|instagramCta|tiktokCta|instagramDmCta)$/,
+  /^legal\.(toc|privacyLink|cookiesLink|termsLink)$/,
+];
+
+function getValueAtPath(obj, path) {
+  return path.split('.').reduce((v, k) => v?.[k], obj);
+}
+
+function isLayoutSensitive(key) {
+  return LAYOUT_SENSITIVE_PATTERNS.some((pat) => pat.test(key));
+}
+
+const lengthWarnings = [];
+const LENGTH_THRESHOLD = 1.4; // 140% of EN length
+for (const key of enKeys) {
+  if (!isLayoutSensitive(key)) continue;
+  const enValue = getValueAtPath(translations['en'], key);
+  if (typeof enValue !== 'string' || enValue.length < 3) continue;
+  for (const lang of langFiles.filter((l) => l !== 'en')) {
+    const langValue = getValueAtPath(translations[lang], key);
+    if (typeof langValue !== 'string') continue;
+    if (langValue === enValue) continue; // skip untranslated placeholders
+    const ratio = langValue.length / enValue.length;
+    if (ratio >= LENGTH_THRESHOLD) {
+      lengthWarnings.push(`  ${lang.toUpperCase()} ${key}: "${langValue}" (${langValue.length}ch) is ${Math.round(ratio * 100)}% of EN "${enValue}" (${enValue.length}ch)`);
+    }
+  }
+}
+
+if (lengthWarnings.length) {
+  console.log(`⚠️  Layout-sensitive strings ≥140% of EN length (${lengthWarnings.length}):`);
+  lengthWarnings.forEach((w) => console.log(w));
+  console.log(`   These may overflow buttons/nav/labels. Consider shorter translations or CSS audit.`);
+  console.log();
+}
+
+// 4. Routing smoke test — verify getLocalizedPath produces valid URLs
+const slugsFile = fs.readFileSync(path.join(SRC, 'i18n/slugs.ts'), 'utf8');
+const slugMapMatch = slugsFile.match(/export const slugMap = \{([\s\S]*?)\} as const;/);
+if (slugMapMatch) {
+  const slugMap = {};
+  const lineRe = /['"]?([\w-]+)['"]?\s*:\s*\{([^}]+)\}/g;
+  let lm;
+  while ((lm = lineRe.exec(slugMapMatch[1])) !== null) {
+    const pageId = lm[1];
+    const pairs = {};
+    const pairRe = /(\w+)\s*:\s*'([^']*)'/g;
+    let pm;
+    while ((pm = pairRe.exec(lm[2])) !== null) {
+      pairs[pm[1]] = pm[2];
+    }
+    slugMap[pageId] = pairs;
+  }
+
+  const routingErrors = [];
+  const allLangs = ['en', 'uk', 'pl', 'de', 'ru'];
+
+  for (const [pageId, langs] of Object.entries(slugMap)) {
+    for (const lang of allLangs) {
+      const slug = langs[lang];
+      if (slug === undefined) {
+        routingErrors.push(`Missing slug: ${pageId}.${lang}`);
+        continue;
+      }
+      const expectedPath = slug ? `/${lang}/${slug}/` : `/${lang}/`;
+      // Verify no duplicate slugs within same language
+      for (const [otherId, otherLangs] of Object.entries(slugMap)) {
+        if (otherId !== pageId && otherLangs[lang] === slug && slug !== '') {
+          routingErrors.push(`Duplicate slug "${slug}" for ${lang}: ${pageId} and ${otherId}`);
+        }
+      }
+    }
+  }
+
+  if (routingErrors.length) {
+    errors.push(`Routing errors (${routingErrors.length}):\n  ${routingErrors.join('\n  ')}`);
+  } else {
+    console.log(`🔗 Routing: ${Object.keys(slugMap).length} pages × ${allLangs.length} langs — all slugs valid, no duplicates`);
+  }
   console.log();
 }
 

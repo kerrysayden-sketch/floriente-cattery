@@ -13,13 +13,15 @@ const { lang } = Astro.props;
   <!-- Background gradient -->
   <div class="absolute inset-0 bg-gradient-to-b from-warm-white via-warm-white to-gray-light/30"></div>
 
-  <!-- Background video -->
+  <!-- Background video. preload="metadata" keeps LCP low by deferring the 5.8 MB mp4
+       until after first paint; the poster holds the frame until JS triggers load+play. -->
   <video
     id="hero-video"
     class="absolute inset-0 w-full h-full object-cover hero-video"
     muted
     playsinline
-    preload="auto"
+    preload="metadata"
+    poster="/videos/hero-poster.jpg"
   >
     <source src="/videos/hero.mp4" type="video/mp4" />
   </video>
@@ -33,6 +35,9 @@ const { lang } = Astro.props;
       src="/images/floriente_dark_navy_transparent.webp"
       alt={t(lang, 'pages.logoAlt')}
       class="w-56 md:w-72 lg:w-80 h-auto mx-auto"
+      fetchpriority="high"
+      width="320"
+      height="320"
     />
   </div>
 
