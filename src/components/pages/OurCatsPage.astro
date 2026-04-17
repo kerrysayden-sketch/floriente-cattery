@@ -1,0 +1,140 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CatGallery from '../cats/CatGallery.astro';
+import { t, getLocalizedPath } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+import { getCollection } from 'astro:content';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+
+const allCats = await getCollection('cats', ({ data }) => data.lang === lang);
+const cats = allCats.sort((a, b) => a.data.dob.localeCompare(b.data.dob));
+
+const roleLabels = {
+  queen: t(lang, 'ourCats.queen'),
+  king: t(lang, 'ourCats.king'),
+};
+---
+
+<BaseLayout
+  title={t(lang, 'pages.ourCats.title')}
+  description={t(lang, 'pages.ourCats.description')}
+  lang={lang}
+>
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-20">
+    <div class="text-center mb-16 md:mb-24">
+      <h1 class="text-dark mb-4">{t(lang, 'nav.ourCats')}</h1>
+      <p class="text-dark-soft max-w-2xl mx-auto">{t(lang, 'ourCats.pageDescription')}</p>
+    </div>
+
+    {cats.map((entry, index) => {
+      const cat = entry.data;
+      const reversed = index % 2 === 1;
+      const paragraphs = entry.body!.trim().split('\n\n');
+      const isFirst = index === 0;
+      const gallery = cat.gallery.map((g) => ({ src: g.src, label: t(lang, g.labelKey) }));
+      const color = t(lang, `ourCats.${cat.catId}Color`);
+
+      return (
+        <section
+          id={cat.catId}
+          class:list={['mb-14 md:mb-20', index > 0 && 'pt-10 md:pt-14 border-t border-gray-light/30']}
+        >
+          <p class:list={['text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-6 md:mb-8 text-center', !isFirst && 'scroll-fade']}>
+            {roleLabels[cat.role]}
+          </p>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-start max-w-5xl mx-auto">
+            <div class:list={['overflow-hidden shadow-lg group', !isFirst && (reversed ? 'scroll-fade-right' : 'scroll-fade-left'), reversed ? 'md:order-2' : 'md:order-1']}>
+              <div class="aspect-[4/5] overflow-hidden bg-gray-light/20" data-lightbox-gallery={`cat-${cat.catId}`}>
+                <img src={cat.mainPhoto} alt={cat.name} class="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-700" loading={isFirst ? 'eager' : 'lazy'} />
+              </div>
+            </div>
+
+            <div class:list={['flex flex-col justify-center space-y-6', !isFirst && (reversed ? 'scroll-fade-left' : 'scroll-fade-right'), reversed ? 'md:order-1' : 'md:order-2']}>
+              <div>
+                <h2 class="font-serif text-3xl md:text-4xl lg:text-5xl text-dark mb-2">{cat.name}</h2>
+                {cat.titles && (
+                  <span class="inline-block px-3 py-1 bg-accent-gold/10 text-accent-gold text-xs font-semibold uppercase tracking-wider">
+                    {cat.titles} - World Cat Federation
+                  </span>
+                )}
+              </div>
+
+              <div class="space-y-4">
+                {paragraphs.map((p: string) => (
+                  <p class="text-dark-soft text-sm md:text-base leading-relaxed">{p}</p>
+                ))}
+              </div>
+
+              <div class="grid grid-cols-2 gap-3 pt-2">
+                <div class="border-l-2 border-accent-gold/30 pl-3">
+                  <p class="text-[10px] text-gray-medium uppercase tracking-wider">{t(lang, 'ourCats.fieldBreed')}</p>
+                  <p class="text-sm text-dark font-medium">{cat.breed}</p>
+                </div>
+                <div class="border-l-2 border-accent-gold/30 pl-3">
+                  <p class="text-[10px] text-gray-medium uppercase tracking-wider">{t(lang, 'ourCats.fieldColor')}</p>
+                  <p class="text-sm text-dark font-medium">{color}</p>
+                </div>
+                <div class="border-l-2 border-accent-gold/30 pl-3">
+                  <p class="text-[10px] text-gray-medium uppercase tracking-wider">EMS</p>
+                  <p class="text-sm text-dark font-medium">{cat.ems}</p>
+                </div>
+                {cat.titles && (
+                  <div class="border-l-2 border-accent-gold/30 pl-3">
+                    <p class="text-[10px] text-gray-medium uppercase tracking-wider">{t(lang, 'ourCats.fieldTitle')}</p>
+                    <p class="text-sm text-dark font-medium">{cat.titles}</p>
+                  </div>
+                )}
+              </div>
+
+              <div class="bg-warm-white border border-gray-light/50 p-4 mt-2">
+                <div class="flex items-start gap-3">
+                  <span class="text-lg">🔬</span>
+                  <div>
+                    <p class="text-xs font-semibold uppercase tracking-wider text-dark mb-1">{t(lang, 'ourCats.healthTesting')}</p>
+                    <p class="text-xs text-gray-medium">{t(lang, 'ourCats.healthResultsExpected')}</p>
+                    <p class="text-xs text-gray-medium">{t(lang, 'ourCats.healthLabs')}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 md:mt-12 max-w-5xl mx-auto scroll-fade">
+            <CatGallery photos={gallery} catName={cat.name} galleryId={cat.catId} />
+          </div>
+        </section>
+      );
+    })}
+
+    <div class="flex flex-col sm:flex-row gap-4 justify-center mt-8 md:mt-12 pt-12 border-t border-gray-light/30">
+      <a href={getLocalizedPath('/kittens/', lang)} class="inline-block px-8 py-3 bg-gold text-warm-white font-medium hover:bg-gold-dark transition-colors text-sm uppercase tracking-wider text-center">{t(lang, 'home.ctaMeetKittens')}</a>
+      <a href={getLocalizedPath('/how-to-buy/', lang)} class="inline-block px-8 py-3 border border-gold text-gold font-medium hover:bg-gold hover:text-warm-white transition-colors text-sm uppercase tracking-wider text-center">{t(lang, 'home.ctaReserve')}</a>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .scroll-fade-left { opacity: 0; transform: translateX(-40px); transition: opacity 0.8s ease, transform 0.8s ease; }
+  .scroll-fade-right { opacity: 0; transform: translateX(40px); transition: opacity 0.8s ease, transform 0.8s ease; }
+  .scroll-fade-left.visible, .scroll-fade-right.visible { opacity: 1; transform: translateX(0); }
+</style>
+
+<script>
+  import '../../scripts/scroll-fade';
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    },
+    { threshold: 0.05 }
+  );
+
+  document.querySelectorAll('.scroll-fade-left, .scroll-fade-right').forEach((el) => {
+    observer.observe(el);
+  });
+</script>

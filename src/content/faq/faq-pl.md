@@ -1,0 +1,48 @@
+---
+lang: pl
+categories:
+  - title: "O rasie"
+    items:
+      - q: "Jaka jest różnica między kotami orientalnymi a syjamskimi?"
+        a: "Obie rasy mają ten sam elegancki typ ciała i charakter. Główna różnica to umaszczenie: koty syjamskie mają umaszczenie pointed (jaśniejsze ciało z ciemniejszymi kończynami), podczas gdy orientale występują w ponad 300 kombinacjach kolorów i wzorów. Obie rasy są równie inteligentne, rozmowne i przywiązane do właścicieli."
+      - q: "Czy koty orientalne i syjamskie są dobre dla dzieci?"
+        a: "Tak. Są towarzyskie, cierpliwe i lubią interaktywną zabawę. Ich emocje łatwo odczytać po głosie i mowie ciała, co pomaga dzieciom uczyć się szacunku dla granic. Dobrze czują się w aktywnych domach i często stają się ulubieńcem dziecka."
+      - q: "Czy dogadują się z innymi zwierzętami?"
+        a: "Przy odpowiedniej socjalizacji orientale i syjamy dobrze żyją z innymi aktywnymi kotami, a nawet psami. Widzą w nich partnerów do zabawy, a nie zagrożenie. Socjalizujemy nasze kocięta z innymi kotami od urodzenia."
+      - q: "Czy te koty naprawdę są tak głośne, jak mówią?"
+        a: "Tak - i to część ich uroku. Nie tylko miauczą; prowadzą pełne rozmowy. Komentują wszystko, co się wokół dzieje, witają cię przy drzwiach i dają znać, kiedy chcą uwagi. Większość właścicieli uważa to za urocze."
+      - q: "Czy koty orientalne potrzebują dużo uwagi?"
+        a: "Są głęboko zorientowane na ludzi i wolą uczestniczyć w twoim życiu. Chodzą za tobą z pokoju do pokoju, siedzą na biurku podczas pracy i śpią obok ciebie. Jeśli chcesz niezależnego kota - to nie ta rasa. Jeśli chcesz lojalnego kota, który jest zawsze przy tobie - są idealnym wyborem."
+  - title: "Kupno i ceny"
+    items:
+      - q: "Ile kosztuje kociak?"
+        a: "Kocięta klasy pet kosztują od 800 do 1500 EUR w zależności od konkretnego kociaka. Kocięta klasy breed i show wyceniane są indywidualnie, około 2x ceny klasy pet. Cena obejmuje szczepienia, mikroczip, paszport weterynaryjny, metrykę i zestaw startowy."
+      - q: "Co jest zawarte w cenie?"
+        a: "Każde kocię odchodzi z: pełna wakcynacja przeciwko wirusom i wściekliźnie, mikroczip, paszport weterynaryjny, metryka, kastracja/sterylizacja dla klasy pet, karma na pierwsze dni, zabawki, kocyk z domu i przewodnik adaptacyjny."
+      - q: "Jak wygląda proces rezerwacji?"
+        a: "Najpierw napisz do nas na WhatsApp lub Instagram. Umówimy wideorozmowę, żeby się poznać. Gdy będzie dostępny miot, pomożemy wybrać odpowiednie kocię. Rezerwacja to depozyt 50% i podpisana umowa. Potem otrzymujesz regularne zdjęcia i filmy podczas wzrostu kociaka."
+      - q: "Czy depozyt jest zwrotny?"
+        a: "Depozyt 50% jest bezzwrotny w przypadku rezygnacji kupującego. Może zostać zwrócony na warunkach określonych w umowie."
+      - q: "Czy dostarczacie kocięta za granicę?"
+        a: "Tak. Organizujemy osobistą dostawę na terenie całej Europy. Dokładna metoda dostawy i koszty są omawiane indywidualnie. Kocięta nigdy nie są wysyłane same - dostarczamy je osobiście."
+  - title: "Zdrowie i opieka"
+    items:
+      - q: "Czy wasze koty mają testy zdrowotne?"
+        a: "Tak. Wszystkie koty hodowlane są przebadane na PRA, niedobór PK i inne schorzenia genetyczne specyficzne dla rasy. Nigdy nie praktykujemy inbredu. Wyniki testów dostępne na życzenie."
+      - q: "W jakim wieku mogę zabrać kociaka do domu?"
+        a: "Kocięta odchodzą w wieku 3 miesięcy lub starsze, w pełni zaszczepione (w tym wścieklizna), z mikroczipem i paszportem weterynaryjnym. Nigdy nie oddajemy kociąt wcześniej - ten okres jest kluczowy dla socjalizacji i rozwoju układu odpornościowego."
+      - q: "Czym karmić kota orientalnego lub syjamskiego?"
+        a: "Do każdego kociaka dołączamy szczegółowe zalecenia żywieniowe, w tym konkretną karmę, którą jadło. Zalecamy karmę premium - suchą i mokrą, odpowiednią do wieku. Stopniowe przejście jest ważne - nagła zmiana karmy może powodować problemy trawienne."
+      - q: "Czy zapewniacie wsparcie po zakupie?"
+        a: "Zawsze. Elvira pozostaje w kontakcie z każdą rodziną, doradzając w kwestiach adaptacji, żywienia i zachowania - kiedykolwiek nas potrzebujesz. Wiele rodzin utrzymuje kontakt latami, dzieląc się zdjęciami i ważnymi momentami."
+  - title: "O naszej hodowli"
+    items:
+      - q: "Czy Floriente jest zarejestrowaną hodowlą?"
+        a: "Tak. Floriente jest oficjalnie zarejestrowana w World Cat Federation (WCF), numer rejestracji 50188-2025. Nasze koty hodowlane uczestniczą w międzynarodowych wystawach i posiadają tytuły: Champion, Inter-Champion i Grand Inter-Champion (GIC). Elvira jest certyfikowanym hodowcą-felinologiem."
+      - q: "Gdzie się znajdujecie?"
+        a: "Jesteśmy zlokalizowani w obwodzie kijowskim, Ukraina. Nasze koty żyją z nami w domu - nie w klatkach ani oddzielnych pomieszczeniach. Dokładny adres udostępniamy po rezerwacji."
+      - q: "Ile miotów macie rocznie?"
+        a: "Stawiamy na jakość, nie na ilość, i mamy tylko kilka miotów rocznie. Każde kocię otrzymuje indywidualną uwagę, codzienny kontakt i odpowiednią socjalizację w środowisku rodzinnym."
+      - q: "Czy mogę odwiedzić hodowlę przed zakupem?"
+        a: "Oferujemy wideorozmowy, podczas których możesz zobaczyć nasz dom, poznać koty i zadać dowolne pytania. Dla kupujących z zagranicy to najpraktyczniejsza opcja. Wizyty osobiste można umówić po rezerwacji."
+---

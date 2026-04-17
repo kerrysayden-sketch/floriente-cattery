@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import LegalContent from '../legal/LegalContent.astro';
+import { t } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+---
+
+<BaseLayout
+  title={t(lang, 'pages.legal.title')}
+  description={t(lang, 'pages.legal.description')}
+  lang={lang}
+>
+  <LegalContent lang={lang} />
+</BaseLayout>

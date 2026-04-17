@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import HeroSection from '../howToBuy/HeroSection.astro';
+import ProcessSection from '../howToBuy/ProcessSection.astro';
+import ScamCallout from '../shared/ScamCallout.astro';
+import PricingSection from '../howToBuy/PricingSection.astro';
+import IncludedSection from '../howToBuy/IncludedSection.astro';
+import TCOSection from '../howToBuy/TCOSection.astro';
+import SupportSection from '../howToBuy/SupportSection.astro';
+import InternationalSection from '../howToBuy/InternationalSection.astro';
+import CTASection from '../howToBuy/CTASection.astro';
+import { t } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+---
+
+<BaseLayout
+  title={t(lang, 'pages.howToBuy.title')}
+  description={t(lang, 'pages.howToBuy.description')}
+  lang={lang}
+>
+  <div class="scroll-fade"><HeroSection lang={lang} /></div>
+  <div class="scroll-fade"><ProcessSection lang={lang} /></div>
+  <div class="scroll-fade"><ScamCallout lang={lang} /></div>
+  <div class="scroll-fade"><PricingSection lang={lang} /></div>
+  <div class="scroll-fade"><IncludedSection lang={lang} /></div>
+  <div class="scroll-fade"><TCOSection lang={lang} /></div>
+  <div class="scroll-fade"><SupportSection lang={lang} /></div>
+  <div class="scroll-fade"><InternationalSection lang={lang} /></div>
+  <div class="scroll-fade"><CTASection lang={lang} /></div>
+</BaseLayout>
+
+<script>
+  import '../../scripts/scroll-fade';
+</script>

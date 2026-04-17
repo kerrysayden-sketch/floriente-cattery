@@ -109,7 +109,8 @@
     "testimonialsSubtitle": "More testimonials coming soon - we're collecting stories from our families",
     "familyCtaTitle": "Want to Join Our Family?",
     "familyCtaText": "We'll help you find the kitten that fits your home best.",
-    "familyCtaCta": "How to Reserve"
+    "familyCtaCta": "How to Reserve",
+    "testimonialOwnerOf": "Owner of"
   },
   "about": {
     "storyTitle": "Our Story",
@@ -261,7 +262,17 @@
     "ctaTitle": "Ready to Begin?",
     "ctaText": "Start with a message. We'll tell you which litters are coming and find out if we're a fit for each other.",
     "ctaWhatsApp": "Write on WhatsApp",
-    "ctaInstagram": "Write on Instagram"
+    "ctaInstagram": "Write on Instagram",
+    "intlTitle": "For Buyers Outside Ukraine",
+    "intlSubtitle": "We work with families across Europe — Germany, Poland, the Baltics, and beyond. The process is the same; the logistics are discussed per kitten.",
+    "intl.pillar1Title": "Based in Kyiv, WCF-registered",
+    "intl.pillar1Text": "We are registered with the World Cat Federation (No. 50188-2025). Every cat we place comes with a pedigree, parent genetic tests, and an EU-format microchip.",
+    "intl.pillar2Title": "Video call before anything",
+    "intl.pillar2Text": "No deposit, no paperwork, no transport talk until we have met on video. You see our home, meet the cats, and ask every question that matters before committing.",
+    "intl.pillar3Title": "Delivery decided per kitten",
+    "intl.pillar3Text": "Hand-off options include pickup in Kyiv, meeting at a border city, or full EU delivery with a trusted pet-transport partner. We agree on the route and timing once the kitten is old enough for travel.",
+    "intlDisclaimer": "EU Pet Passport readiness, rabies titre results, and export documentation vary by kitten age and destination country. We confirm what is possible for your specific case during the video call — no promises made sight-unseen.",
+    "intlCta": "Book a video call"
   },
   "faq": {
     "heroTitle": "Frequently Asked Questions",
@@ -327,5 +338,13 @@
     "viewAll": "View all",
     "menu": "Menu",
     "close": "Close"
+  },
+  "legal": {
+    "pageTitle": "Legal Information",
+    "lastUpdated": "Last updated",
+    "toc": "On this page",
+    "privacyLink": "Privacy Policy",
+    "cookiesLink": "Cookie Policy",
+    "termsLink": "Terms & Conditions"
   }
 }

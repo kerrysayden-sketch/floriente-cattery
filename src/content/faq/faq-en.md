@@ -1,0 +1,48 @@
+---
+lang: en
+categories:
+  - title: "About the Breed"
+    items:
+      - q: "What is the difference between Oriental and Siamese cats?"
+        a: "Both breeds share the same elegant body type and personality. The main difference is colour: Siamese cats have a pointed coat (lighter body with darker extremities), while Orientals come in over 300 colour and pattern combinations. Both breeds are equally intelligent, vocal, and attached to their owners."
+      - q: "Are Oriental and Siamese cats good with children?"
+        a: "Yes. They are sociable, patient, and enjoy interactive play. Their emotions are easy to read through voice and body language, which helps children learn to respect boundaries. They do well in active homes and often become the child's favourite cat."
+      - q: "Do they get along with other pets?"
+        a: "With proper socialization, Orientals and Siamese live well with other active cats and even dogs. They see them as play partners rather than threats. We socialize our kittens with other cats from birth."
+      - q: "Are these cats really as vocal as people say?"
+        a: "Yes - and it's part of their charm. They don't just meow; they carry on full conversations. They comment on everything happening around them, greet you at the door, and let you know when they want attention. Most owners find it endearing rather than annoying."
+      - q: "Do Oriental cats need a lot of attention?"
+        a: "They are deeply people-oriented and prefer to be involved in your life. They follow you from room to room, sit on your desk while you work, and sleep next to you. If you want an independent cat that stays on its own, this is not the right breed. If you want a loyal cat who's always with you - they're a great match."
+  - title: "Purchasing & Pricing"
+    items:
+      - q: "How much does a kitten cost?"
+        a: "Pet class kittens are priced between 800 and 1,500 EUR depending on the individual kitten. Breed and Show class kittens are priced individually, approximately 2x the pet class price. The price includes vaccinations, microchip, veterinary passport, metrika (kitten card), and a starter kit."
+      - q: "What is included in the price?"
+        a: "Every kitten leaves with: full vaccination against viruses and rabies, microchip, veterinary passport, metrika (kitten card), spay/neuter for pet class, food for first days, toys, comfort blanket from home, and an adaptation guide."
+      - q: "How does the reservation process work?"
+        a: "First, write to us on WhatsApp or Instagram. We'll arrange a video call to get to know each other. When a litter is available, we help you choose the right kitten. You reserve with a 50% deposit and a signed contract. Then you receive regular photos and videos while your kitten grows."
+      - q: "Is the deposit refundable?"
+        a: "The 50% deposit is non-refundable if the buyer cancels. May be refunded under the terms specified in the contract."
+      - q: "Do you deliver kittens internationally?"
+        a: "Yes. We arrange personal delivery across Europe. The exact delivery method and costs are discussed individually based on your location. Kittens are never shipped alone - we deliver them personally."
+  - title: "Health & Care"
+    items:
+      - q: "Are your cats health tested?"
+        a: "Yes. All breeding cats are tested for PRA, PK Deficiency, and other breed-specific genetic conditions. We never practice inbreeding. Test results are available upon request."
+      - q: "At what age can I take my kitten home?"
+        a: "Kittens leave at 3 months or older, fully vaccinated (including rabies), microchipped, and with a veterinary passport. We never release kittens earlier - this period is critical for socialization and immune system development."
+      - q: "What should I feed my Oriental or Siamese cat?"
+        a: "We provide detailed nutrition guidelines with every kitten, including the specific food they've been eating. We recommend premium dry and wet food appropriate for their age. Gradual transitions are important - sudden food changes can cause digestive issues."
+      - q: "Do you provide support after purchase?"
+        a: "Always. Elvira stays in contact with every family for advice on adaptation, nutrition, and behaviour - anytime you need us. Many families stay in touch for years, sharing photos and milestones."
+  - title: "About Our Cattery"
+    items:
+      - q: "Is Floriente a registered cattery?"
+        a: "Yes. Floriente is officially registered with the World Cat Federation (WCF), registration number 50188-2025. Our breeding cats participate in international cat shows and hold titles including Champion, Inter-Champion, and Grand Inter-Champion (GIC). Elvira is a certified Breeder-Felinologist."
+      - q: "Where are you located?"
+        a: "We are located in the Kyiv Region, Ukraine. Our cats live with us at home - not in cages or separate facilities. The exact address is shared after reservation."
+      - q: "How many litters do you have per year?"
+        a: "We focus on quality over quantity and have only a few litters per year. Each kitten receives individual attention, daily interaction, and proper socialization in a family environment."
+      - q: "Can I visit the cattery before purchasing?"
+        a: "We offer video calls where you can see our home, meet the cats, and ask any questions. For international buyers, this is the most practical option. In-person visits can be arranged after reservation."
+---

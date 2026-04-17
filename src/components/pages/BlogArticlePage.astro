@@ -1,0 +1,91 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t, getLocalizedPath } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+import { getCollection, render } from 'astro:content';
+
+interface Props { lang: Lang; articleSlug: string; }
+const { lang, articleSlug } = Astro.props;
+
+const posts = await getCollection('blog', ({ data }) => data.articleSlug === articleSlug && data.lang === lang);
+const post = posts[0];
+const { Content } = await render(post);
+
+const title = post.data.title;
+const description = post.data.description;
+
+const canonicalBase = 'https://florientecattery.com';
+const canonicalUrl = `${canonicalBase}/${lang}/blog/${articleSlug}/`;
+const ogImage = post.data.ogImage ? `${canonicalBase}${post.data.ogImage}` : `${canonicalBase}/images/cats/sebastian-main.webp`;
+const publishDate = post.data.publishDate;
+
+const articleSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": description,
+  "image": ogImage,
+  "datePublished": publishDate,
+  "dateModified": publishDate,
+  "author": { "@type": "Organization", "name": "Floriente Cattery", "url": canonicalBase },
+  "publisher": { "@type": "Organization", "name": "Floriente Cattery", "logo": { "@type": "ImageObject", "url": `${canonicalBase}/favicon-192.png` } },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": canonicalUrl },
+  "inLanguage": lang === 'en' ? 'en' : lang
+});
+---
+
+<BaseLayout
+  title={`${title} - Floriente Cattery`}
+  description={description}
+  lang={lang}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={articleSchema} />
+  </Fragment>
+
+  <article class="py-16 md:py-24 px-4 sm:px-6">
+    <div class="max-w-3xl mx-auto">
+      <a
+        href={getLocalizedPath('/blog/', lang)}
+        class="inline-flex items-center gap-2 text-sm text-gold hover:text-gold-dark transition-colors mb-8"
+      >
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 12H5M12 19l-7-7 7-7" />
+        </svg>
+        {t(lang, 'blog.backToBlog')}
+      </a>
+
+      <header class="mb-12">
+        <span class="text-xs uppercase tracking-wider text-gold font-semibold">
+          {post.data.category}
+        </span>
+        <h1 class="font-serif text-3xl md:text-4xl text-dark mt-2 mb-4">{title}</h1>
+        <div class="flex items-center gap-4 text-sm text-gray-medium">
+          <time datetime={publishDate}>{t(lang, 'blog.howToVerify.publishDate')}</time>
+          <span>Floriente Cattery</span>
+        </div>
+      </header>
+
+      <div class="prose prose-lg max-w-none text-dark-soft leading-relaxed
+        [&_h2]:font-serif [&_h2]:text-dark [&_h2]:text-2xl [&_h2]:mt-10 [&_h2]:mb-4
+        [&_h3]:font-serif [&_h3]:text-dark [&_h3]:text-xl [&_h3]:mt-8 [&_h3]:mb-3
+        [&_p]:mb-6
+        [&_a]:text-gold [&_a]:hover:text-gold-dark
+        [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-6
+        [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:mb-6
+        [&_blockquote]:border-l-4 [&_blockquote]:border-gold [&_blockquote]:pl-6 [&_blockquote]:italic
+      ">
+        <Content />
+      </div>
+
+      <div class="mt-16 pt-12 border-t border-gray-light/50 text-center">
+        <h3 class="font-serif text-xl text-dark mb-3">{t(lang, 'blog.howToVerify.ctaHeading')}</h3>
+        <p class="text-dark-soft text-sm mb-6">{t(lang, 'blog.howToVerify.ctaText')}</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href={getLocalizedPath('/our-cats/', lang)} class="inline-block px-8 py-3 bg-gold text-warm-white font-medium hover:bg-gold-dark transition-colors text-sm uppercase tracking-wider">{t(lang, 'nav.ourCats')}</a>
+          <a href={getLocalizedPath('/how-to-buy/', lang)} class="inline-block px-8 py-3 border border-gold text-gold font-medium hover:bg-gold hover:text-warm-white transition-colors text-sm uppercase tracking-wider">{t(lang, 'nav.howToBuy')}</a>
+        </div>
+      </div>
+    </div>
+  </article>
+</BaseLayout>

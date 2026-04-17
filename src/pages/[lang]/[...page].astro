@@ -1,0 +1,88 @@
+---
+import { locales } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+import { slugMap, getSlug, getPageId } from '../../i18n/slugs';
+import type { PageId } from '../../i18n/slugs';
+import { getCollection } from 'astro:content';
+import { fetchBlogPosts, fetchKittens } from '../../lib/storyblok';
+import type { KittenData } from '../../lib/storyblok';
+
+import HomePage from '../../components/pages/HomePage.astro';
+import AboutPage from '../../components/pages/AboutPage.astro';
+import ContactPage from '../../components/pages/ContactPage.astro';
+import FAQPage from '../../components/pages/FAQPage.astro';
+import HowToBuyPage from '../../components/pages/HowToBuyPage.astro';
+import LegalPage from '../../components/pages/LegalPage.astro';
+import BlogListPage from '../../components/pages/BlogListPage.astro';
+import BlogArticlePage from '../../components/pages/BlogArticlePage.astro';
+import BlogStoryblokPage from '../../components/pages/BlogStoryblokPage.astro';
+import OurCatsPage from '../../components/pages/OurCatsPage.astro';
+import KittensListPage from '../../components/pages/KittensListPage.astro';
+import KittenDetailPage from '../../components/pages/KittenDetailPage.astro';
+
+export async function getStaticPaths() {
+  const paths: any[] = [];
+
+  for (const lang of locales) {
+    for (const [pageId, slugs] of Object.entries(slugMap)) {
+      const slug = slugs[lang as keyof typeof slugs];
+      paths.push({
+        params: { lang, page: slug || undefined },
+        props: { pageId, lang },
+      });
+    }
+
+    const blogSlug = getSlug('blog', lang);
+
+    const blogEntries = await getCollection('blog', ({ data }) => data.lang === lang);
+    for (const entry of blogEntries) {
+      paths.push({
+        params: { lang, page: `${blogSlug}/${entry.data.articleSlug}` },
+        props: { pageId: 'blog-article', lang, articleSlug: entry.data.articleSlug },
+      });
+    }
+
+    let storyblokPosts: any[] = [];
+    try { storyblokPosts = await fetchBlogPosts(); } catch {}
+    for (const post of storyblokPosts) {
+      paths.push({
+        params: { lang, page: `${blogSlug}/${post.slug}` },
+        props: { pageId: 'blog-storyblok', lang, storyblokSlug: post.slug },
+      });
+    }
+
+    const kittensSlug = getSlug('kittens', lang);
+    let kittens: KittenData[] = [];
+    try { kittens = await fetchKittens(); } catch {}
+    for (const kitten of kittens) {
+      paths.push({
+        params: { lang, page: `${kittensSlug}/${kitten.slug}` },
+        props: { pageId: 'kitten-detail', lang, kitten },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { pageId, lang, articleSlug, storyblokSlug, kitten } = Astro.props as {
+  pageId: string;
+  lang: Lang;
+  articleSlug?: string;
+  storyblokSlug?: string;
+  kitten?: KittenData;
+};
+---
+
+{pageId === 'home' && <HomePage lang={lang} />}
+{pageId === 'about' && <AboutPage lang={lang} />}
+{pageId === 'contact' && <ContactPage lang={lang} />}
+{pageId === 'faq' && <FAQPage lang={lang} />}
+{pageId === 'how-to-buy' && <HowToBuyPage lang={lang} />}
+{pageId === 'legal' && <LegalPage lang={lang} />}
+{pageId === 'blog' && <BlogListPage lang={lang} />}
+{pageId === 'blog-article' && <BlogArticlePage lang={lang} articleSlug={articleSlug!} />}
+{pageId === 'blog-storyblok' && <BlogStoryblokPage lang={lang} storyblokSlug={storyblokSlug!} />}
+{pageId === 'our-cats' && <OurCatsPage lang={lang} />}
+{pageId === 'kittens' && <KittensListPage lang={lang} />}
+{pageId === 'kitten-detail' && kitten && <KittenDetailPage lang={lang} kitten={kitten} />}

@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t, getLocalizedPath } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+import { fetchBlogPosts } from '../../lib/storyblok';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+
+const posts = await fetchBlogPosts();
+const hasPosts = posts.length > 0;
+---
+
+<BaseLayout
+  title={t(lang, 'pages.blog.title')}
+  description={t(lang, 'pages.blog.description')}
+  lang={lang}
+>
+  <section class="py-16 md:py-24 px-4 sm:px-6">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-16">
+        <h1 class="font-serif text-3xl md:text-5xl text-dark mb-6">{t(lang, 'blog.heroTitle')}</h1>
+        <p class="text-dark-soft text-lg leading-relaxed max-w-2xl mx-auto">
+          {t(lang, 'blog.heroText')}
+        </p>
+      </div>
+
+      {hasPosts ? (
+        <div class="space-y-8">
+          {posts.map((post) => {
+            const summary = lang === 'uk' ? post.summary_uk : post.summary_en;
+            const date = post.published_at ? new Date(post.published_at).toLocaleDateString(lang === 'uk' ? 'uk-UA' : 'en-GB', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
+            return (
+              <a href={getLocalizedPath(`/blog/${post.slug}/`, lang)} class="group block">
+                <article class="flex flex-col md:flex-row gap-6 bg-warm-white border border-gray-light rounded-lg overflow-hidden hover:border-gold/30 transition-colors">
+                  {post.cover?.filename && (
+                    <div class="md:w-1/3 aspect-[16/9] md:aspect-auto overflow-hidden">
+                      <img
+                        src={post.cover.filename}
+                        alt={post.cover.alt || post.title}
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        loading="lazy"
+                      />
+                    </div>
+                  )}
+                  <div class="flex-1 p-6 md:py-8">
+                    {post.category && (
+                      <span class="text-xs uppercase tracking-wider text-gold font-semibold">{post.category}</span>
+                    )}
+                    <h2 class="font-serif text-xl mt-1 mb-3 group-hover:text-gold transition-colors">{post.title}</h2>
+                    {summary && <p class="text-dark-soft text-sm leading-relaxed mb-4">{summary}</p>}
+                    <div class="flex items-center justify-between">
+                      {date && <time class="text-xs text-gray-medium">{date}</time>}
+                      <span class="text-sm text-gold group-hover:text-gold-dark transition-colors inline-flex items-center gap-1">
+                        {t(lang, 'blog.readMore')}
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </article>
+              </a>
+            );
+          })}
+        </div>
+      ) : (
+        <div class="text-center py-16">
+          <svg class="w-16 h-16 text-gold/20 mx-auto mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+          </svg>
+          <h2 class="font-serif text-xl mb-3">{t(lang, 'blog.emptyTitle')}</h2>
+          <p class="text-dark-soft max-w-md mx-auto">{t(lang, 'blog.emptyText')}</p>
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  import '../../scripts/scroll-fade';
+</script>

@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FAQContent from '../faq/FAQContent.astro';
+import { t } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+---
+
+<BaseLayout
+  title={t(lang, 'pages.faq.title')}
+  description={t(lang, 'pages.faq.description')}
+  lang={lang}
+>
+  <FAQContent lang={lang} />
+</BaseLayout>
+
+<script>
+  import '../../scripts/scroll-fade';
+</script>

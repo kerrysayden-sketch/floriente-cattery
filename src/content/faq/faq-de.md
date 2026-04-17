@@ -1,0 +1,48 @@
+---
+lang: de
+categories:
+  - title: "Über die Rasse"
+    items:
+      - q: "Was ist der Unterschied zwischen Orientalisch Kurzhaar und Siamesen?"
+        a: "Beide Rassen haben denselben eleganten Körperbau und Charakter. Der Hauptunterschied ist die Farbe: Siamesen haben eine Point-Zeichnung (heller Körper mit dunkleren Extremitäten), während Orientalen in über 300 Farb- und Musterkombinationen vorkommen. Beide Rassen sind gleichermaßen intelligent, stimmgewaltig und an ihre Besitzer gebunden."
+      - q: "Sind Orientalisch Kurzhaar und Siamesen gut mit Kindern?"
+        a: "Ja. Sie sind gesellig, geduldig und mögen interaktives Spiel. Ihre Emotionen sind leicht an Stimme und Körpersprache ablesbar, was Kindern hilft, Grenzen zu respektieren. Sie fühlen sich in aktiven Haushalten wohl und werden oft zum Lieblingskätzchen des Kindes."
+      - q: "Verstehen sie sich mit anderen Haustieren?"
+        a: "Bei richtiger Sozialisierung leben Orientalen und Siamesen gut mit anderen aktiven Katzen und sogar Hunden zusammen. Sie sehen sie als Spielpartner statt als Bedrohung. Wir sozialisieren unsere Kitten von Geburt an mit anderen Katzen."
+      - q: "Sind diese Katzen wirklich so stimmgewaltig, wie man sagt?"
+        a: "Ja - und das ist Teil ihres Charmes. Sie miauen nicht nur; sie führen ganze Unterhaltungen. Sie kommentieren alles um sich herum, begrüßen Sie an der Tür und sagen Ihnen, wenn sie Aufmerksamkeit wollen. Die meisten Besitzer finden das liebenswert statt nervig."
+      - q: "Brauchen Orientalen viel Aufmerksamkeit?"
+        a: "Sie sind stark auf Menschen orientiert und wollen an Ihrem Leben teilhaben. Sie folgen Ihnen von Raum zu Raum, sitzen auf Ihrem Schreibtisch während der Arbeit und schlafen neben Ihnen. Wenn Sie eine unabhängige Katze wollen, die sich selbst überlassen bleibt - diese Rasse ist nicht richtig. Wenn Sie eine treue Katze wollen, die immer bei Ihnen ist - perfekte Wahl."
+  - title: "Kauf und Preise"
+    items:
+      - q: "Was kostet ein Kitten?"
+        a: "Pet-Klasse-Kitten kosten zwischen 800 und 1.500 EUR, je nach Kitten. Breed- und Show-Klasse-Kitten werden individuell bepreist, etwa das 2-fache des Pet-Klasse-Preises. Der Preis umfasst Impfungen, Mikrochip, Heimtierausweis, Metrika (Kitten-Karte) und Starterset."
+      - q: "Was ist im Preis enthalten?"
+        a: "Jedes Kitten geht mit: vollständiger Impfung gegen Viren und Tollwut, Mikrochip, Heimtierausweis, Metrika (Kitten-Karte), Kastration für Pet-Klasse, Futter für die ersten Tage, Spielzeug, Kuscheldecke von zu Hause und Eingewöhnungs-Leitfaden."
+      - q: "Wie funktioniert der Reservierungsprozess?"
+        a: "Schreiben Sie uns zuerst auf WhatsApp oder Instagram. Wir vereinbaren einen Videoanruf zum Kennenlernen. Wenn ein Wurf verfügbar ist, helfen wir Ihnen, das richtige Kitten zu wählen. Sie reservieren mit einer 50%-Anzahlung und einem unterzeichneten Vertrag. Dann erhalten Sie regelmäßig Fotos und Videos während des Wachstums."
+      - q: "Ist die Anzahlung erstattungsfähig?"
+        a: "Die 50%-Anzahlung ist nicht erstattungsfähig bei Rücktritt des Käufers. Rückerstattung möglich unter den im Vertrag festgelegten Bedingungen."
+      - q: "Liefern Sie Kitten international?"
+        a: "Ja. Wir organisieren persönliche Lieferung in ganz Europa. Genaue Liefermethode und Kosten werden individuell je nach Standort besprochen. Kitten werden nie allein verschickt - wir liefern persönlich."
+  - title: "Gesundheit und Pflege"
+    items:
+      - q: "Sind Ihre Katzen gesundheitlich getestet?"
+        a: "Ja. Alle Zuchtkatzen werden auf PRA, PK-Mangel und andere rassespezifische genetische Erkrankungen getestet. Wir praktizieren keine Inzucht. Testergebnisse auf Anfrage verfügbar."
+      - q: "In welchem Alter kann ich mein Kitten abholen?"
+        a: "Kitten gehen mit 3 Monaten oder älter, vollständig geimpft (inkl. Tollwut), gechipt und mit Heimtierausweis. Wir geben Kitten nie früher ab - diese Zeit ist entscheidend für Sozialisierung und Immunsystemaufbau."
+      - q: "Was soll ich meiner Orientalisch Kurzhaar oder Siamesen-Katze füttern?"
+        a: "Wir geben bei jedem Kitten detaillierte Ernährungshinweise, einschließlich des konkreten Futters, das sie bisher bekommen hat. Wir empfehlen Premium-Trocken- und Nassfutter, altersgerecht. Langsame Umstellung ist wichtig - abrupte Futterwechsel können Verdauungsprobleme verursachen."
+      - q: "Bieten Sie Unterstützung nach dem Kauf?"
+        a: "Immer. Elvira bleibt mit jeder Familie in Kontakt für Rat zu Eingewöhnung, Ernährung und Verhalten - wann immer Sie uns brauchen. Viele Familien bleiben jahrelang in Kontakt und teilen Fotos und Meilensteine."
+  - title: "Über unsere Zucht"
+    items:
+      - q: "Ist Floriente eine registrierte Zucht?"
+        a: "Ja. Floriente ist offiziell bei der World Cat Federation (WCF) registriert, Registrierungsnummer 50188-2025. Unsere Zuchtkatzen nehmen an internationalen Ausstellungen teil und tragen Titel wie Champion, Inter-Champion und Grand Inter-Champion (GIC). Elvira ist zertifizierte Züchter-Felinologin."
+      - q: "Wo befinden Sie sich?"
+        a: "Wir befinden uns in der Region Kiew, Ukraine. Unsere Katzen leben mit uns zu Hause - nicht in Käfigen oder separaten Anlagen. Die genaue Adresse wird nach Reservierung mitgeteilt."
+      - q: "Wie viele Würfe haben Sie pro Jahr?"
+        a: "Wir setzen auf Qualität statt Quantität und haben nur wenige Würfe pro Jahr. Jedes Kitten erhält individuelle Aufmerksamkeit, täglichen Kontakt und angemessene Sozialisierung im Familienumfeld."
+      - q: "Kann ich die Zucht vor dem Kauf besuchen?"
+        a: "Wir bieten Videoanrufe an, bei denen Sie unser Zuhause sehen, die Katzen kennenlernen und alle Fragen stellen können. Für internationale Käufer ist das die praktischste Option. Persönliche Besuche können nach Reservierung vereinbart werden."
+---

@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import StorySection from '../about/StorySection.astro';
+import PhilosophySection from '../about/PhilosophySection.astro';
+import CertsSection from '../about/CertsSection.astro';
+import HomeGallery from '../about/HomeGallery.astro';
+import HealthSection from '../about/HealthSection.astro';
+import { t } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+---
+
+<BaseLayout
+  title={t(lang, 'pages.about.title')}
+  description={t(lang, 'pages.about.description')}
+  lang={lang}
+>
+  <div class="scroll-fade"><StorySection lang={lang} /></div>
+  <div class="scroll-fade"><PhilosophySection lang={lang} /></div>
+  <div class="scroll-fade"><CertsSection lang={lang} /></div>
+  <div class="scroll-fade"><HomeGallery lang={lang} /></div>
+  <div class="scroll-fade"><HealthSection lang={lang} /></div>
+</BaseLayout>
+
+<script>
+  import '../../scripts/scroll-fade';
+</script>

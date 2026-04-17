@@ -1,0 +1,52 @@
+---
+lang: en
+lastUpdated: "2026-04-17"
+sections:
+  - id: privacy
+    title: "Privacy Policy"
+    subsections:
+      - title: "Who We Are"
+        text: "This website is operated by Floriente Cattery, a home-based cattery located in the Kyiv Region, Ukraine. For any privacy-related inquiries, please contact us at info@florientecattery.com."
+      - title: "Information We Collect"
+        text: "We may collect the following information when you contact us through the website, WhatsApp, email, or social media: your name, email address, phone number, country of residence, and any information you choose to share about your household (family composition, living situation) to help us match you with the right kitten."
+      - title: "How We Use Your Information"
+        text: "We use your personal information solely to: respond to your inquiries about kittens; assess suitability for kitten placement; process reservations and contracts; provide post-adoption support; and send updates about your reserved kitten (Watch Me Grow programme). We do not use your data for marketing purposes unless you explicitly opt in."
+      - title: "Data Sharing"
+        text: "We do not sell, trade, or share your personal information with third parties. Your data may only be shared with veterinary professionals when required for your kitten's health documentation or transport arrangements."
+      - title: "Data Retention"
+        text: "We retain your contact information for the duration of our relationship and for a reasonable period afterward to provide ongoing support. You may request deletion of your data at any time by contacting info@florientecattery.com."
+      - title: "Your Rights"
+        text: "You have the right to: access the personal data we hold about you; request correction of inaccurate data; request deletion of your data; and withdraw consent for data processing at any time. To exercise these rights, please contact info@florientecattery.com."
+  - id: cookies
+    title: "Cookie Policy"
+    subsections:
+      - title: "What Are Cookies"
+        text: "Cookies are small text files stored on your device when you visit a website. They help the website function properly and provide information to the site owners."
+      - title: "Cookies We Use"
+        text: "This website does not set any cookies. We do not use advertising, tracking, or third-party analytics cookies. Language selection is handled via the URL path (e.g. /en/, /uk/) and does not require cookies or storage. Because no tracking is performed, we do not display a cookie consent banner — there is nothing to consent to."
+      - title: "Third-Party Services"
+        text: "Fonts, content, images, and all static assets are served from our own domain (florientecattery.com). We do not embed Google Fonts, CDN scripts, or any third-party trackers. When enabled, we use Cloudflare Web Analytics — a cookieless, privacy-first analytics service that aggregates anonymous traffic statistics (page views, referrers, Core Web Vitals) without setting cookies and without identifying individual visitors. Outbound links to WhatsApp, Instagram, TikTok, or Facebook transfer you to those platforms, which set their own cookies once you arrive there."
+      - title: "Contact Methods"
+        text: "We do not operate a contact form on this website. To reach us, please use the outbound links on our Contact page to WhatsApp, Instagram Direct Message, or email (mailto:info@florientecattery.com). These channels are operated by third parties under their own privacy policies. When you send us a message, the content and your contact handle become available to us so that we can reply."
+  - id: terms
+    title: "Terms & Conditions"
+    subsections:
+      - title: "General"
+        text: "By accessing and using the Floriente Cattery website (florientecattery.com), you agree to these terms and conditions. If you do not agree, please do not use this website."
+      - title: "Website Content"
+        text: "All content on this website, including text, photographs, logos, and design, is the property of Floriente Cattery and is protected by copyright. You may not reproduce, distribute, or use any content without prior written consent."
+      - title: "Kitten Reservations"
+        text: "Information about available kittens, pricing, and conditions displayed on this website is for informational purposes. All reservations are subject to a separate written contract between the buyer and Floriente Cattery. Pricing may change without prior notice on the website."
+      - title: "No Consumer Withdrawal Right"
+        text: "Because each kitten is reserved for a specific buyer after a personal selection process, reservations qualify as custom or personalised goods. EU consumer withdrawal rights (including the 14-day cooling-off period under Directive 2011/83/EU and equivalent national laws such as § 312g BGB in Germany or the Ukrainian Law on Consumer Rights Protection) do not apply. Cancellation, refund, and health-guarantee terms are defined in the reservation contract signed before any deposit is paid."
+      - title: "Accuracy of Information"
+        text: "We make every effort to ensure the accuracy of information on this website, including kitten descriptions, health testing results, and pricing. However, we cannot guarantee that all information is complete or current at all times."
+      - title: "Limitation of Liability"
+        text: "Floriente Cattery shall not be liable for any direct, indirect, or consequential damages arising from the use of this website. The website is provided on an \"as is\" basis without warranties of any kind."
+      - title: "External Links"
+        text: "This website may contain links to external websites (WhatsApp, TikTok, social media). We are not responsible for the content or privacy practices of these third-party sites."
+      - title: "Governing Law"
+        text: "These terms are governed by the laws of Ukraine. Any disputes shall be resolved in accordance with Ukrainian law."
+      - title: "Contact"
+        text: "For any questions regarding these terms, please contact us at info@florientecattery.com."
+---
