@@ -37,6 +37,8 @@ sections:
         text: "All content on this website, including text, photographs, logos, and design, is the property of Floriente Cattery and is protected by copyright. You may not reproduce, distribute, or use any content without prior written consent."
       - title: "Kitten Reservations"
         text: "Information about available kittens, pricing, and conditions displayed on this website is for informational purposes. All reservations are subject to a separate written contract between the buyer and Floriente Cattery. Pricing may change without prior notice on the website."
+      - title: "Delivery and EU Export Readiness"
+        text: "All kittens are transferred no earlier than the age of 12 weeks, fully vaccinated (two infection vaccines plus a rabies shot completed before three months of age), microchipped, dewormed three times, and accompanied by an EU Pet Passport for clients in the European Union. A rabies antibody titre test is available on request at the buyer's cost. Delivery logistics (pickup in Kyiv, border meet-up, or pet-transport service) are agreed on a per-kitten basis during the pre-deposit video call."
       - title: "No Consumer Withdrawal Right"
         text: "Because each kitten is reserved for a specific buyer after a personal selection process, reservations qualify as custom or personalised goods. EU consumer withdrawal rights (including the 14-day cooling-off period under Directive 2011/83/EU and equivalent national laws such as § 312g BGB in Germany or the Ukrainian Law on Consumer Rights Protection) do not apply. Cancellation, refund, and health-guarantee terms are defined in the reservation contract signed before any deposit is paid."
       - title: "Accuracy of Information"
