@@ -2,3 +2,10 @@
 /en/family/ /en/#family 301
 /uk/family/ /uk/#family 301
 /family/ /en/#family 301
+
+# 301 redirects for old UK URLs (pre-localized slugs)
+/uk/about/ /uk/pro-nas/ 301
+/uk/our-cats/ /uk/nashi-koty/ 301
+/uk/how-to-buy/ /uk/yak-prydbanty/ 301
+/uk/contact/ /uk/kontakty/ 301
+/uk/kittens/ /uk/koshenyata/ 301
