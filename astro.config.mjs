@@ -11,8 +11,7 @@ export default defineConfig({
     sitemap({
       i18n: {
         defaultLocale: 'en',
-        // PL/DE disabled at routing layer (Sprint 12.1 — soft rollback). No filter needed.
-        locales: { en: 'en', uk: 'uk', ru: 'ru' },
+        locales: { en: 'en', uk: 'uk', pl: 'pl', de: 'de', ru: 'ru' },
       },
     }),
     storyblok({
@@ -29,8 +28,7 @@ export default defineConfig({
   ],
   i18n: {
     defaultLocale: 'en',
-    // PL/DE soft-rolled-back (Sprint 12.1). See src/i18n/utils.ts for restore notes.
-    locales: ['en', 'uk', 'ru'],
+    locales: ['en', 'uk', 'pl', 'de', 'ru'],
     routing: {
       prefixDefaultLocale: true,
       redirectToDefaultLocale: true,

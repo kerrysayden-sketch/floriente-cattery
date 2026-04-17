@@ -2,9 +2,6 @@ import type { Lang } from './utils';
 
 export type PageId = keyof typeof slugMap;
 
-// PL and DE slug columns are kept here for fast restore after Native QA (Sprint 13).
-// They are currently unused because pl/de are not in `locales` — but leaving them
-// means rollback is one-line revert instead of re-deriving slugs.
 export const slugMap = {
   home:         { en: '',            uk: '',            pl: '',            de: '',              ru: '' },
   about:        { en: 'about',       uk: 'pro-nas',     pl: 'o-nas',       de: 'ueber-uns',     ru: 'o-nas' },

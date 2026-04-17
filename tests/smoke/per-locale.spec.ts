@@ -6,18 +6,17 @@ import { test, expect } from '@playwright/test';
 // Structure driven by a table so adding UK/PL/DE/RU/etc. stays one line.
 
 type Case = {
-  lang: 'en' | 'uk' | 'ru';
+  lang: 'en' | 'uk' | 'pl' | 'de' | 'ru';
   url: string;
   /** Substring expected in <h1>. Loose match — phrasing can tweak without breaking smoke. */
   h1Contains: string;
 };
 
-// PL/DE are disabled (Sprint 12.1 soft rollback) pending Native QA.
-// When they come back: uncomment, add expectNoindex flag to Case, and the indexing
-// assertion in the test body.
 const CASES: Case[] = [
   { lang: 'en', url: '/en/',        h1Contains: 'Oriental'  },
   { lang: 'uk', url: '/uk/',        h1Contains: 'Орієнтал'  },
+  { lang: 'pl', url: '/pl/',        h1Contains: 'Orientaln' },
+  { lang: 'de', url: '/de/',        h1Contains: 'Siamesen'  },
   { lang: 'ru', url: '/ru/',        h1Contains: 'Ориентал'  },
 ];
 
@@ -72,21 +71,14 @@ test('404 page returns 404 status', async ({ page }) => {
   expect(response?.status()).toBe(404);
 });
 
-test('sitemap covers only active locales (EN/UK/RU)', async ({ page }) => {
+test('sitemap covers all 5 active locales', async ({ page }) => {
   const response = await page.goto('/sitemap-0.xml');
   expect(response?.status()).toBe(200);
   const body = await page.content();
-  // PL/DE are soft-disabled — no routes generated, so no URLs expected.
-  expect(body).not.toMatch(/\/(pl|de)\//);
-  // Active locales present
+  // All 5 locales present
   expect(body).toContain('/en/');
   expect(body).toContain('/uk/');
+  expect(body).toContain('/pl/');
+  expect(body).toContain('/de/');
   expect(body).toContain('/ru/');
-});
-
-test('hitting a disabled locale (PL/DE) 404s — proves rollback is real', async ({ page }) => {
-  for (const url of ['/pl/', '/de/', '/pl/o-nas/', '/de/impressum/']) {
-    const r = await page.goto(url);
-    expect(r?.status(), `${url} must be 404 (locale disabled)`).toBe(404);
-  }
 });

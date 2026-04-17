@@ -41,11 +41,9 @@ function walk(dir, exts, files = []) {
   return files;
 }
 
-// Active locales (currently enabled in the build). Sync parity is enforced for these.
-const activeLangs = ['en', 'uk', 'ru'];
-// Archived locales (files kept in the repo for fast restore, but not part of the build).
-// Parity is NOT enforced. They may drift from en.json until Native QA reactivates them.
-const archivedLangs = ['pl', 'de'];
+// All 5 active locales. Key parity is enforced for all of them.
+const activeLangs = ['en', 'uk', 'pl', 'de', 'ru'];
+const archivedLangs = [];
 const langFiles = [...activeLangs, ...archivedLangs];
 const translations = {};
 const keysSets = {};

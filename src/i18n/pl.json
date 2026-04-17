@@ -262,7 +262,17 @@
     "ctaTitle": "Gotowy, żeby zacząć?",
     "ctaText": "Zacznij od wiadomości. Powiemy Ci, jakie mioty planujemy i sprawdzimy, czy do siebie pasujemy.",
     "ctaWhatsApp": "Napisz na WhatsApp",
-    "ctaInstagram": "Napisz na Instagramie"
+    "ctaInstagram": "Napisz na Instagramie",
+    "intlTitle": "Dla kupujących spoza Ukrainy",
+    "intlSubtitle": "Współpracujemy z rodzinami z całej Europy — z Niemiec, Polski, krajów bałtyckich i dalej. Proces jest ten sam; logistyka ustalana indywidualnie dla każdego kocięcia.",
+    "intl.pillar1Title": "Z siedzibą w Kijowie, zarejestrowani w WCF",
+    "intl.pillar1Text": "Jesteśmy zarejestrowani w World Cat Federation (nr 50188-2025). Każde kocię otrzymuje rodowód, testy genetyczne rodziców i mikrochip w standardzie EU.",
+    "intl.pillar2Title": "Rozmowa wideo przed wszystkim innym",
+    "intl.pillar2Text": "Bez zaliczki, bez papierów, bez rozmów o transporcie, dopóki się nie spotkamy na wideo. Zobaczysz nasz dom, poznasz koty i zadasz wszystkie istotne pytania przed podjęciem decyzji.",
+    "intl.pillar3Title": "Dostawa ustalana indywidualnie",
+    "intl.pillar3Text": "Opcje przekazania: odbiór osobisty w Kijowie, spotkanie w mieście granicznym lub pełna dostawa w UE przez zaufanego partnera pet-transport. Trasę i termin ustalamy, gdy kocię osiąga wiek odpowiedni do podróży.",
+    "intlDisclaimer": "Gotowość EU Pet Passport, wyniki badań miana przeciwciał na wściekliznę i dokumentacja eksportowa zależą od wieku kocięcia i kraju docelowego. To, co możliwe w Twoim konkretnym przypadku, potwierdzamy podczas rozmowy wideo — żadnych obietnic bez wcześniejszego poznania.",
+    "intlCta": "Umów rozmowę wideo"
   },
   "faq": {
     "heroTitle": "Najczęściej zadawane pytania",

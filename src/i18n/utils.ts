@@ -1,16 +1,18 @@
 import en from './en.json';
 import uk from './uk.json';
+import pl from './pl.json';
+import de from './de.json';
 import ru from './ru.json';
-// PL and DE translations are machine-translated and await Native QA (Sprint 13).
-// Their JSON, content files, and slug entries remain on disk for later re-enablement —
-// search for "PL/DE soft rollback" to find the places to revert.
-// import pl from './pl.json';
-// import de from './de.json';
+// PL/DE re-enabled 2026-04-17 following "ship, iterate" strategy.
+// Machine-translated content ships now; native QA polishes iteratively based on
+// real user signals. No noindex — let Google index, traffic measure, improve later.
 import { slugMap, type PageId } from './slugs';
 
 export const languages = {
   en: 'English',
   uk: 'Українська',
+  pl: 'Polski',
+  de: 'Deutsch',
   ru: 'Русский',
 } as const;
 
@@ -18,15 +20,13 @@ export type Lang = keyof typeof languages;
 
 export const defaultLang: Lang = 'en';
 
-export const locales: Lang[] = ['en', 'uk', 'ru'];
+export const locales: Lang[] = ['en', 'uk', 'pl', 'de', 'ru'];
 
-// Languages visible in the switcher. Equal to `locales` now that PL/DE are soft-disabled.
-// After Native QA (Sprint 13), re-add 'pl' and 'de' here and in `locales` above.
-export const visibleLocales: Lang[] = ['en', 'uk', 'ru'];
+// All 5 languages visible in the switcher.
+export const visibleLocales: Lang[] = ['en', 'uk', 'pl', 'de', 'ru'];
 
-// Machine-translated locales awaiting Native QA — currently empty because
-// such locales are fully disabled at the routing layer (not rendered at all).
-// If a future locale needs "visible but noindex" posture, add it here.
+// Locales with noindex meta (if a specific locale needs "visible but not indexed").
+// Currently empty — all active locales are indexable.
 export const noindexLocales: Lang[] = [];
 
 export function isNoindexLocale(lang: Lang): boolean {
@@ -43,7 +43,7 @@ export function createLangStaticPaths() {
   }));
 }
 
-const translations = { en, uk, ru } as const;
+const translations = { en, uk, pl, de, ru } as const;
 
 export function t(lang: Lang, key: string): string {
   const keys = key.split('.');
