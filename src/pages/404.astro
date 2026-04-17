@@ -20,14 +20,24 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 </BaseLayout>
 
 <script>
-  const isUk = window.location.pathname.startsWith('/uk');
-  if (isUk) {
-    const h = document.getElementById('heading-404');
-    const p = document.getElementById('text-404');
-    const a = document.getElementById('link-404');
-    if (h) h.textContent = 'Сторінку не знайдено';
-    if (p) p.textContent = 'Це кошеня втекло. Сторінки, яку ви шукаєте, не існує.';
-    if (a) { a.textContent = 'На головну'; a.setAttribute('href', '/uk/'); }
-    document.documentElement.lang = 'uk';
-  }
+  const path = window.location.pathname;
+  const langMatch = path.match(/^\/(en|uk|pl|de|ru)/);
+  const lang = langMatch?.[1] || 'en';
+
+  const texts: Record<string, { heading: string; text: string; link: string }> = {
+    en: { heading: 'Page Not Found', text: "This kitten wandered off. The page you're looking for doesn't exist.", link: 'Back to Home' },
+    uk: { heading: 'Сторінку не знайдено', text: 'Це кошеня втекло. Сторінки, яку ви шукаєте, не існує.', link: 'На головну' },
+    pl: { heading: 'Strona nie znaleziona', text: 'Ten kociak uciekł. Strona, której szukasz, nie istnieje.', link: 'Strona główna' },
+    de: { heading: 'Seite nicht gefunden', text: 'Dieses Kätzchen ist weggelaufen. Die Seite, die Sie suchen, existiert nicht.', link: 'Zur Startseite' },
+    ru: { heading: 'Страница не найдена', text: 'Этот котёнок убежал. Страница, которую вы ищете, не существует.', link: 'На главную' },
+  };
+
+  const t = texts[lang] || texts['en'];
+  const h = document.getElementById('heading-404');
+  const p = document.getElementById('text-404');
+  const a = document.getElementById('link-404');
+  if (h) h.textContent = t.heading;
+  if (p) p.textContent = t.text;
+  if (a) { a.textContent = t.link; a.setAttribute('href', `/${lang}/`); }
+  document.documentElement.lang = lang;
 </script>

@@ -1,6 +1,7 @@
 ---
 import { t, getLocalizedPath } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
+import { getCollection } from 'astro:content';
 
 interface Props {
   lang: Lang;
@@ -8,43 +9,8 @@ interface Props {
 
 const { lang } = Astro.props;
 
-const reviews = [
-  {
-    owner: lang === 'en' ? 'Stas' : 'Стас',
-    kitten: 'Barbie (Dora)',
-    photo: '/images/family/testimonial-barbie.webp',
-    quote_en: 'We were pleasantly surprised by the attitude towards their kittens, the willingness to provide any photos, videos, and even video calls online. The kitten came with a "dowry" and chipped, with all documents. From day one, she settled in and started asking to be held.',
-    quote_uk: 'Були приємно вражені відношенням до своїх вихованців, готовністю надати будь-які фото, відео, та навіть відео-дзвінки в режимі онлайн. Кошеня приїхало з «приданим» та чіповане, з оформленими документами. З першої хвилини освоїлось і почало проситися на руки.',
-  },
-  {
-    owner: lang === 'en' ? 'Tatiana' : 'Тетяна',
-    kitten: 'Bars (Venyushka)',
-    photo: '/images/family/testimonial-bars.webp',
-    quote_en: 'When you decide to get such a baby, you need to consciously approach the choice of cattery - first of all, it\'s the health of your little one. I\'m very glad that your cattery caught my eye. They give parents the most precious thing - their babies - and continue caring about them afterwards.',
-    quote_uk: 'Коли ти приймаєш рішення завести собі такого малюка, потрібно усвідомлено підходити до вибору розплідника - передусім це здоров\'я вашого маленького. Я дуже рада, що саме ваш розплідник потрапив мені на очі. Вони віддають батькам найцінніше - своїх діток - і проявляють про них турботу далі.',
-  },
-  {
-    owner: lang === 'en' ? 'Natalia' : 'Наталія',
-    kitten: 'Barton (Yarik)',
-    photo: '/images/family/testimonial-barton.webp',
-    quote_en: 'We found you - and immediately felt the love for the kittens. You could see that you interact with them constantly, play with them, aren\'t afraid to send videos right away and even let us see the little ones. We felt that the kitten grows up in love and care.',
-    quote_uk: 'А потім ми знайшли вас - і одразу відчулася любов до котиків. Було видно, що ви з ними постійно контактуєте, граєтесь, не боїтеся одразу відправити відео і навіть дозволяєте побачити малечу. Ми відчули, що котик росте в любові та турботі.',
-  },
-  {
-    owner: lang === 'en' ? 'Tatiana' : 'Тетяна',
-    kitten: 'Bantik (Busik)',
-    photo: '/images/family/testimonial-bantik.webp',
-    quote_en: 'Thank you so much for Busik. Every time we kiss him, we think of you. He sleeps with us. Our endless gratitude to you for him.',
-    quote_uk: 'Щиро дякую вам за Бусіка. Скільки разів ми його цілуємо, так вас і згадуємо. Спить він з нами. Безмежна наша вдячність вам за нього.',
-  },
-  {
-    owner: lang === 'en' ? 'Yulia' : 'Юлія',
-    kitten: 'Axel Cornelius (Korneliy)',
-    photo: null,
-    quote_en: 'When my husband comes home from work, Korneliy screams until he picks him up and carries him around. He sleeps with me, and if it\'s bedtime but I\'m not in bed yet - there will be a scandal. If you want the most affectionate cat breed - it\'s the Oriental.',
-    quote_uk: 'Коли чоловік приходить з роботи - Корнелій кричить, поки його не візьмуть на руки. Зі мною він спить, і якщо вже час спати, а ти ще не в ліжку - буде скандал. Якщо хочете найніжнішу породу котів - це орієнтал.',
-  },
-];
+const allReviews = await getCollection('testimonials', ({ data }) => data.lang === lang);
+const reviews = allReviews.sort((a, b) => a.data.order - b.data.order);
 ---
 
 <section class="py-16 md:py-24 px-4 sm:px-6 bg-gray-light/20">
@@ -78,28 +44,28 @@ const reviews = [
 
       {/* Scrollable container */}
       <div id="testimonial-track" class="flex gap-6 overflow-x-auto snap-x snap-mandatory scrollbar-none pb-4">
-        {reviews.map((review) => (
+        {reviews.map((entry) => (
           <div class="flex-shrink-0 w-[85%] sm:w-[45%] md:w-[calc(33.333%-16px)] snap-start text-center">
             {/* Photo circle */}
-            {review.photo ? (
+            {entry.data.photo ? (
               <div class="w-48 h-48 sm:w-44 sm:h-44 md:w-40 md:h-40 lg:w-48 lg:h-48 mx-auto mb-5 rounded-full overflow-hidden border-2 border-accent-gold/20">
                 <img
-                  src={review.photo}
-                  alt={review.owner}
+                  src={entry.data.photo}
+                  alt={entry.data.owner}
                   class="w-full h-full object-cover"
                   loading="lazy"
                 />
               </div>
             ) : (
               <div class="w-48 h-48 sm:w-44 sm:h-44 md:w-40 md:h-40 lg:w-48 lg:h-48 mx-auto mb-5 rounded-full bg-accent-gold/10 flex items-center justify-center border-2 border-accent-gold/20">
-                <span class="text-4xl text-gold font-serif">{review.owner.charAt(0)}</span>
+                <span class="text-4xl text-gold font-serif">{entry.data.owner.charAt(0)}</span>
               </div>
             )}
 
             {/* Name + kitten */}
-            <p class="text-dark font-semibold text-base mb-1">{review.owner}</p>
+            <p class="text-dark font-semibold text-base mb-1">{entry.data.owner}</p>
             <p class="text-gray-medium text-xs mb-4">
-              {lang === 'en' ? `Owner of ${review.kitten}` : `Власник ${review.kitten}`}
+              {t(lang, 'home.testimonialOwnerOf')} {entry.data.kitten}
             </p>
 
             {/* Quote */}
@@ -107,7 +73,7 @@ const reviews = [
               <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
             </svg>
             <p class="text-dark-soft italic text-sm leading-relaxed">
-              {lang === 'en' ? review.quote_en : review.quote_uk}
+              {entry.body!.trim()}
             </p>
           </div>
         ))}

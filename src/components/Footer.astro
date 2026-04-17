@@ -1,5 +1,5 @@
 ---
-import { t, getLocalizedPath, languages } from '../i18n/utils';
+import { t, getLocalizedPath, languages, visibleLocales } from '../i18n/utils';
 import type { Lang } from '../i18n/utils';
 
 interface Props {
@@ -7,12 +7,8 @@ interface Props {
 }
 
 const { lang } = Astro.props;
-
-const otherLang = lang === 'en' ? 'uk' : 'en';
-const switchPath = getLocalizedPath(
-  Astro.url.pathname.replace(/^\/(en|uk)/, ''),
-  otherLang as Lang,
-);
+const currentPath = Astro.url.pathname;
+const otherLocales = visibleLocales.filter((l) => l !== lang);
 
 const quickLinks = [
   { key: 'nav.kittens', path: '/kittens/' },
@@ -123,16 +119,18 @@ const legalLinks = [
             </li>
           ))}
         </ul>
-        <div class="mt-6">
-          <a
-            href={switchPath}
-            class="inline-flex items-center gap-2 text-sm text-warm-white/60 hover:text-gold transition-colors"
-          >
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9" />
-            </svg>
-            {languages[otherLang]}
-          </a>
+        <div class="mt-6 space-y-1">
+          {otherLocales.map((locale) => (
+            <a
+              href={getLocalizedPath(currentPath, locale)}
+              class="flex items-center gap-2 text-sm text-warm-white/60 hover:text-gold transition-colors"
+            >
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9" />
+              </svg>
+              {languages[locale]}
+            </a>
+          ))}
         </div>
       </div>
     </div>

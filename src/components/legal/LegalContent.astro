@@ -1,5 +1,7 @@
 ---
+import { t } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
+import { getCollection } from 'astro:content';
 
 interface Props {
   lang: Lang;
@@ -7,253 +9,45 @@ interface Props {
 
 const { lang } = Astro.props;
 
-const lastUpdated = '2026-03-26';
+const legalEntries = await getCollection('legal', ({ data }) => data.lang === lang);
+const fallbackEntries = legalEntries.length > 0 ? legalEntries : await getCollection('legal', ({ data }) => data.lang === 'en');
+const entry = fallbackEntries[0];
 
-const content = {
-  en: {
-    pageTitle: 'Legal Information',
-    lastUpdated: `Last updated: ${lastUpdated}`,
-    toc: 'On this page',
-    privacyLink: 'Privacy Policy',
-    cookiesLink: 'Cookie Policy',
-    termsLink: 'Terms & Conditions',
-
-    privacyTitle: 'Privacy Policy',
-    privacySections: [
-      {
-        title: 'Who We Are',
-        text: 'This website is operated by Floriente Cattery, a home-based cattery located in the Kyiv Region, Ukraine. For any privacy-related inquiries, please contact us at info@florientecattery.com.',
-      },
-      {
-        title: 'Information We Collect',
-        text: 'We may collect the following information when you contact us through the website, WhatsApp, email, or social media: your name, email address, phone number, country of residence, and any information you choose to share about your household (family composition, living situation) to help us match you with the right kitten.',
-      },
-      {
-        title: 'How We Use Your Information',
-        text: 'We use your personal information solely to: respond to your inquiries about kittens; assess suitability for kitten placement; process reservations and contracts; provide post-adoption support; and send updates about your reserved kitten (Watch Me Grow programme). We do not use your data for marketing purposes unless you explicitly opt in.',
-      },
-      {
-        title: 'Data Sharing',
-        text: 'We do not sell, trade, or share your personal information with third parties. Your data may only be shared with veterinary professionals when required for your kitten\'s health documentation or transport arrangements.',
-      },
-      {
-        title: 'Data Retention',
-        text: 'We retain your contact information for the duration of our relationship and for a reasonable period afterward to provide ongoing support. You may request deletion of your data at any time by contacting info@florientecattery.com.',
-      },
-      {
-        title: 'Your Rights',
-        text: 'You have the right to: access the personal data we hold about you; request correction of inaccurate data; request deletion of your data; and withdraw consent for data processing at any time. To exercise these rights, please contact info@florientecattery.com.',
-      },
-    ],
-
-    cookiesTitle: 'Cookie Policy',
-    cookiesSections: [
-      {
-        title: 'What Are Cookies',
-        text: 'Cookies are small text files stored on your device when you visit a website. They help the website function properly and provide information to the site owners.',
-      },
-      {
-        title: 'Cookies We Use',
-        text: 'This website uses only essential cookies required for basic functionality, such as language preference (English/Ukrainian). We do not use advertising cookies, tracking cookies, or third-party analytics cookies.',
-      },
-      {
-        title: 'Third-Party Services',
-        text: 'Our website may load content from third-party services (such as Storyblok CMS for content delivery and Google Fonts for typography). These services may set their own cookies according to their respective privacy policies.',
-      },
-      {
-        title: 'Managing Cookies',
-        text: 'You can control and delete cookies through your browser settings. Disabling essential cookies may affect the functionality of the website, such as language selection.',
-      },
-    ],
-
-    termsTitle: 'Terms & Conditions',
-    termsSections: [
-      {
-        title: 'General',
-        text: 'By accessing and using the Floriente Cattery website (florientecattery.com), you agree to these terms and conditions. If you do not agree, please do not use this website.',
-      },
-      {
-        title: 'Website Content',
-        text: 'All content on this website, including text, photographs, logos, and design, is the property of Floriente Cattery and is protected by copyright. You may not reproduce, distribute, or use any content without prior written consent.',
-      },
-      {
-        title: 'Kitten Reservations',
-        text: 'Information about available kittens, pricing, and conditions displayed on this website is for informational purposes. All reservations are subject to a separate written contract between the buyer and Floriente Cattery. Pricing may change without prior notice on the website.',
-      },
-      {
-        title: 'Accuracy of Information',
-        text: 'We make every effort to ensure the accuracy of information on this website, including kitten descriptions, health testing results, and pricing. However, we cannot guarantee that all information is complete or current at all times.',
-      },
-      {
-        title: 'Limitation of Liability',
-        text: 'Floriente Cattery shall not be liable for any direct, indirect, or consequential damages arising from the use of this website. The website is provided on an "as is" basis without warranties of any kind.',
-      },
-      {
-        title: 'External Links',
-        text: 'This website may contain links to external websites (WhatsApp, TikTok, social media). We are not responsible for the content or privacy practices of these third-party sites.',
-      },
-      {
-        title: 'Governing Law',
-        text: 'These terms are governed by the laws of Ukraine. Any disputes shall be resolved in accordance with Ukrainian law.',
-      },
-      {
-        title: 'Contact',
-        text: 'For any questions regarding these terms, please contact us at info@florientecattery.com.',
-      },
-    ],
-  },
-  uk: {
-    pageTitle: 'Правова інформація',
-    lastUpdated: `Останнє оновлення: ${lastUpdated}`,
-    toc: 'На цій сторінці',
-    privacyLink: 'Політика конфіденційності',
-    cookiesLink: 'Політика cookies',
-    termsLink: 'Умови використання',
-
-    privacyTitle: 'Політика конфіденційності',
-    privacySections: [
-      {
-        title: 'Хто ми',
-        text: 'Цей вебсайт належить розпліднику Floriente, домашньому розпліднику, розташованому в Київській області, Україна. З питань конфіденційності звертайтеся за адресою info@florientecattery.com.',
-      },
-      {
-        title: 'Інформація, яку ми збираємо',
-        text: "Ми можемо збирати таку інформацію, коли ви зв'язуєтесь з нами через вебсайт, WhatsApp, email або соцмережі: ваше ім'я, електронну адресу, номер телефону, країну проживання та будь-яку інформацію, якою ви вирішите поділитися про своє домогосподарство, щоб допомогти нам підібрати для вас відповідне кошеня.",
-      },
-      {
-        title: 'Як ми використовуємо вашу інформацію',
-        text: "Ми використовуємо вашу особисту інформацію виключно для: відповіді на ваші запити про кошенят; оцінки відповідності для розміщення кошеняти; обробки бронювань та договорів; надання підтримки після усиновлення; та надсилання оновлень про зарезервоване кошеня (програма «Дивіться, як я росту»). Ми не використовуємо ваші дані для маркетингових цілей без вашої явної згоди.",
-      },
-      {
-        title: 'Передача даних',
-        text: "Ми не продаємо, не обмінюємо та не передаємо вашу особисту інформацію третім особам. Ваші дані можуть бути передані лише ветеринарним спеціалістам, коли це необхідно для оформлення медичної документації або організації транспортування вашого кошеняти.",
-      },
-      {
-        title: 'Зберігання даних',
-        text: "Ми зберігаємо вашу контактну інформацію протягом наших відносин та розумний період після них для надання постійної підтримки. Ви можете запросити видалення своїх даних у будь-який час, зв'язавшись з info@florientecattery.com.",
-      },
-      {
-        title: 'Ваші права',
-        text: "Ви маєте право: отримати доступ до особистих даних, які ми зберігаємо про вас; запросити виправлення неточних даних; запросити видалення ваших даних; та відкликати згоду на обробку даних у будь-який час. Для реалізації цих прав зв'яжіться з info@florientecattery.com.",
-      },
-    ],
-
-    cookiesTitle: 'Політика cookies',
-    cookiesSections: [
-      {
-        title: 'Що таке cookies',
-        text: 'Cookies - це невеликі текстові файли, які зберігаються на вашому пристрої під час відвідування вебсайту. Вони допомагають вебсайту правильно функціонувати та надають інформацію власникам сайту.',
-      },
-      {
-        title: 'Cookies, які ми використовуємо',
-        text: 'Цей вебсайт використовує лише необхідні cookies для базової функціональності, такі як збереження мовних налаштувань (англійська/українська). Ми не використовуємо рекламні cookies, cookies відстеження або сторонні аналітичні cookies.',
-      },
-      {
-        title: 'Сторонні сервіси',
-        text: 'Наш вебсайт може завантажувати контент від сторонніх сервісів (таких як Storyblok CMS для доставки контенту та Google Fonts для типографіки). Ці сервіси можуть встановлювати власні cookies відповідно до їхніх політик конфіденційності.',
-      },
-      {
-        title: 'Керування cookies',
-        text: 'Ви можете контролювати та видаляти cookies через налаштування вашого браузера. Вимкнення необхідних cookies може вплинути на функціональність вебсайту, наприклад, на вибір мови.',
-      },
-    ],
-
-    termsTitle: 'Умови використання',
-    termsSections: [
-      {
-        title: 'Загальні положення',
-        text: 'Використовуючи вебсайт розплідника Floriente (florientecattery.com), ви погоджуєтесь з цими умовами. Якщо ви не згодні, будь ласка, не використовуйте цей вебсайт.',
-      },
-      {
-        title: 'Контент вебсайту',
-        text: 'Весь контент на цьому вебсайті, включаючи текст, фотографії, логотипи та дизайн, є власністю розплідника Floriente та захищений авторським правом. Ви не маєте права відтворювати, поширювати або використовувати будь-який контент без попередньої письмової згоди.',
-      },
-      {
-        title: 'Бронювання кошенят',
-        text: 'Інформація про доступних кошенят, ціни та умови, представлена на цьому вебсайті, має інформаційний характер. Усі бронювання регулюються окремим письмовим договором між покупцем та розплідником Floriente. Ціни можуть змінюватися без попереднього повідомлення на вебсайті.',
-      },
-      {
-        title: 'Точність інформації',
-        text: 'Ми докладаємо всіх зусиль для забезпечення точності інформації на цьому вебсайті, включаючи описи кошенят, результати тестів здоров\'я та ціни. Однак ми не можемо гарантувати, що вся інформація є повною або актуальною в будь-який момент.',
-      },
-      {
-        title: 'Обмеження відповідальності',
-        text: 'Розплідник Floriente не несе відповідальності за будь-які прямі, непрямі або побічні збитки, що виникають внаслідок використання цього вебсайту. Вебсайт надається на умовах «як є» без будь-яких гарантій.',
-      },
-      {
-        title: 'Зовнішні посилання',
-        text: 'Цей вебсайт може містити посилання на зовнішні вебсайти (WhatsApp, TikTok, соцмережі). Ми не несемо відповідальності за контент або практику конфіденційності цих сторонніх сайтів.',
-      },
-      {
-        title: 'Застосовне право',
-        text: 'Ці умови регулюються законодавством України. Будь-які спори вирішуються відповідно до законодавства України.',
-      },
-      {
-        title: 'Контакти',
-        text: "З будь-яких питань щодо цих умов зв'яжіться з нами за адресою info@florientecattery.com.",
-      },
-    ],
-  },
-};
-
-const c = content[lang];
+const lastUpdated = entry.data.lastUpdated;
+const sections = entry.data.sections;
 ---
 
 <section class="py-16 md:py-24 px-4 sm:px-6">
   <div class="max-w-4xl mx-auto">
     <!-- Header -->
     <div class="text-center mb-16">
-      <h1 class="font-serif text-3xl md:text-5xl text-dark mb-4">{c.pageTitle}</h1>
-      <p class="text-gray-medium text-sm">{c.lastUpdated}</p>
+      <h1 class="font-serif text-3xl md:text-5xl text-dark mb-4">{t(lang, 'legal.pageTitle')}</h1>
+      <p class="text-gray-medium text-sm">{t(lang, 'legal.lastUpdated')}: {lastUpdated}</p>
     </div>
 
     <!-- Table of Contents -->
     <nav class="bg-gray-light/20 rounded-lg p-6 mb-16">
-      <p class="text-sm font-semibold text-dark mb-3">{c.toc}</p>
+      <p class="text-sm font-semibold text-dark mb-3">{t(lang, 'legal.toc')}</p>
       <ul class="space-y-2">
-        <li>
-          <a href="#privacy" class="text-sm text-gold hover:text-gold-dark transition-colors">{c.privacyLink}</a>
-        </li>
-        <li>
-          <a href="#cookies" class="text-sm text-gold hover:text-gold-dark transition-colors">{c.cookiesLink}</a>
-        </li>
-        <li>
-          <a href="#terms" class="text-sm text-gold hover:text-gold-dark transition-colors">{c.termsLink}</a>
-        </li>
+        {sections.map((section) => (
+          <li>
+            <a href={`#${section.id}`} class="text-sm text-gold hover:text-gold-dark transition-colors">{section.title}</a>
+          </li>
+        ))}
       </ul>
     </nav>
 
-    <!-- Privacy Policy -->
-    <div id="privacy" class="mb-16 scroll-mt-24">
-      <h2 class="mb-8 pb-4 border-b border-gray-light">{c.privacyTitle}</h2>
-      {c.privacySections.map((s) => (
-        <div class="mb-8">
-          <h3 class="text-lg font-serif mb-3">{s.title}</h3>
-          <p class="text-dark-soft text-sm leading-relaxed">{s.text}</p>
-        </div>
-      ))}
-    </div>
-
-    <!-- Cookie Policy -->
-    <div id="cookies" class="mb-16 scroll-mt-24">
-      <h2 class="mb-8 pb-4 border-b border-gray-light">{c.cookiesTitle}</h2>
-      {c.cookiesSections.map((s) => (
-        <div class="mb-8">
-          <h3 class="text-lg font-serif mb-3">{s.title}</h3>
-          <p class="text-dark-soft text-sm leading-relaxed">{s.text}</p>
-        </div>
-      ))}
-    </div>
-
-    <!-- Terms & Conditions -->
-    <div id="terms" class="scroll-mt-24">
-      <h2 class="mb-8 pb-4 border-b border-gray-light">{c.termsTitle}</h2>
-      {c.termsSections.map((s) => (
-        <div class="mb-8">
-          <h3 class="text-lg font-serif mb-3">{s.title}</h3>
-          <p class="text-dark-soft text-sm leading-relaxed">{s.text}</p>
-        </div>
-      ))}
-    </div>
+    <!-- Sections -->
+    {sections.map((section, i) => (
+      <div id={section.id} class:list={['scroll-mt-24', i < sections.length - 1 && 'mb-16']}>
+        <h2 class="mb-8 pb-4 border-b border-gray-light">{section.title}</h2>
+        {section.subsections.map((s) => (
+          <div class="mb-8">
+            <h3 class="text-lg font-serif mb-3">{s.title}</h3>
+            <p class="text-dark-soft text-sm leading-relaxed">{s.text}</p>
+          </div>
+        ))}
+      </div>
+    ))}
   </div>
 </section>
