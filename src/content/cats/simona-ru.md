@@ -7,7 +7,7 @@ role: queen
 titles: "Grand Inter-Champion (GIC)"
 breed: "Oriental Shorthair"
 ems: "OSH a 24"
-dob: "2023-03-04"
+dob: "2023-04-04"
 breeder: "Mukha Anna"
 pedigree: "PCFC 2024/0171/OSH"
 mainPhoto: "/images/cats/simona-main.webp"
