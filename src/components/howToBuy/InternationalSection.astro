@@ -12,10 +12,12 @@ const { lang } = Astro.props;
 // specifics (which countries, which routes, Pet Passport readiness) are deferred to
 // the 1:1 video call because they depend on each kitten's age, vaccine schedule,
 // and current export documentation. This avoids overclaiming on the website.
+// Keys point at howToBuy.intlPillarNTitle / howToBuy.intlPillarNText in each locale.
+// Flat camelCase (no dots inside the leaf key name) so t()'s dot-split resolver works.
 const pillars = [
-  { k: 'intl.pillar1', iconPath: 'M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z' },
-  { k: 'intl.pillar2', iconPath: 'M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z' },
-  { k: 'intl.pillar3', iconPath: 'M4 6h16M4 12h16M4 18h16' },
+  { k: 'intlPillar1', iconPath: 'M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z' },
+  { k: 'intlPillar2', iconPath: 'M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z' },
+  { k: 'intlPillar3', iconPath: 'M4 6h16M4 12h16M4 18h16' },
 ];
 ---
 
@@ -34,8 +36,8 @@ const pillars = [
               <path d={p.iconPath} />
             </svg>
           </div>
-          <h3 class="font-serif text-lg mb-2">{t(lang, `${p.k}Title`)}</h3>
-          <p class="text-dark-soft text-sm leading-relaxed">{t(lang, `${p.k}Text`)}</p>
+          <h3 class="font-serif text-lg mb-2">{t(lang, `howToBuy.${p.k}Title`)}</h3>
+          <p class="text-dark-soft text-sm leading-relaxed">{t(lang, `howToBuy.${p.k}Text`)}</p>
         </div>
       ))}
     </div>
