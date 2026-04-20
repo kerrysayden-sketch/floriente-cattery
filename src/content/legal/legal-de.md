@@ -1,27 +1,31 @@
 ---
 lang: de
-lastUpdated: "2026-04-17"
+lastUpdated: "2026-04-20"
 sections:
   - id: impressum
     title: "Impressum"
     subsections:
       - title: "Anbieterkennzeichnung"
-        text: "Floriente Cattery, Inhaberin: Elvira Naurzalina (registrierte Einzelunternehmerin / ФОП nach ukrainischem Recht), Region Kiew, Ukraine. Die vollständige ladungsfähige Anschrift wird auf Anfrage an Klienten mit berechtigtem rechtlichem Interesse herausgegeben (info@florientecattery.com). Die Zucht ist in der Ukraine ansässig und unterliegt ukrainischem Recht. Diese Anbieterkennzeichnung wird für deutschsprachige Besucher zur Transparenz bereitgestellt."
+        text: "Floriente Cattery, Inhaberin: Elvira Naurzalina (Einzelunternehmerin / ФОП nach ukrainischem Recht). Anschrift: vul. Aviatoriv 55, 08635 Krushynka, Rajon Fastiw, Gebiet Kiew, Ukraine (Original: вул. Авіаторів, 55, 08635 с. Крушинка, Фастівський р-н, Київська обл., Україна). Registrierungsnummer im Einheitsstaatsregister der Ukraine (ЄДР): 2010350010007319901 (Eintrag vom 15.05.2025). Die Tätigkeit wird auf dem Territorium der Ukraine ausgeübt. Verträge mit Kunden unterliegen dem im individuellen Reservierungsvertrag festgelegten Recht (in der Regel ukrainischem Recht), vorbehaltlich zwingender verbraucherschutzrechtlicher Vorschriften des Wohnsitzstaates des Verbrauchers gemäß Art. 6 Rom-I-Verordnung (Verordnung (EG) Nr. 593/2008)."
       - title: "Kontakt"
         text: "E-Mail: info@florientecattery.com. WhatsApp: +380 93 188 4422. Instagram: @floriente_orientals_cattery. Antwortzeit in der Regel innerhalb von 24 Stunden (EET/EEST Werktage, wochenends bis zu 48 Stunden)."
       - title: "Zuchtregistrierung"
         text: "Floriente Cattery ist offiziell bei der World Cat Federation (WCF) registriert. Registrierungsnummer: 50188-2025. Verifikation unter wcf.de/en/cattery-names."
       - title: "Export in die EU"
-        text: "Alle Kitten, die in die EU verkauft werden, erhalten einen EU-Heimtierausweis (EU Pet Passport), vollständige Impfungen inklusive Tollwut (abgeschlossen vor dem dritten Lebensmonat), ISO-konformen Mikrochip und dreifache Entwurmung. Auf Wunsch und auf Kosten des Käufers kann ein Tollwut-Titer-Test (Rabies Titre Test) bei unserem Tierarzt durchgeführt werden. Kitten werden grundsätzlich erst nach vollendeter zwölfter Lebenswoche abgegeben (EU-Standard)."
+        text: "Alle Kitten, die in die EU verkauft werden, erhalten einen EU-Heimtierausweis (EU Pet Passport), vollständige Impfungen einschließlich Tollwutimpfung gemäß den Anforderungen der EU für Heimtiertransporte (Verordnung (EU) Nr. 576/2013), ISO-konformen Mikrochip und dreifache Entwurmung. Auf Wunsch und auf Kosten des Käufers kann ein Tollwut-Titer-Test (Rabies Titre Test) bei unserem Tierarzt durchgeführt werden. Kitten werden grundsätzlich erst nach vollendeter zwölfter Lebenswoche abgegeben (Standard der World Cat Federation)."
       - title: "Verantwortlich für den Inhalt"
         text: "Elvira Naurzalina, Inhaberin und Züchterin. Alle redaktionellen Inhalte, Fotos und Beschreibungen stammen von Floriente Cattery. Für Anfragen zu Urheberrechten oder Lizenzierung: info@florientecattery.com."
       - title: "Haftungsausschluss"
         text: "Die Inhalte dieser Webseite wurden mit größter Sorgfalt erstellt. Für Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir keine Gewähr übernehmen. Für Inhalte externer Links übernehmen wir keine Haftung."
+      - title: "Steuerrechtliche Angaben"
+        text: "Die Inhaberin betreibt das Unternehmen als registrierte Einzelunternehmerin (ФОП) nach ukrainischem Steuerrecht in der vereinfachten Besteuerung Gruppe 2 (Status einer Kleinunternehmerin). Umsatzsteuer-Identifikationsnummer: nicht zutreffend. Die Inhaberin ist weder in der Ukraine noch in einem Mitgliedstaat der Europäischen Union als umsatzsteuerpflichtige Unternehmerin registriert."
+      - title: "Verbraucherstreitbeilegung"
+        text: "Die EU-Kommission hat die Online-Streitbeilegungsplattform (ODR-Plattform) gemäß Verordnung (EU) 2024/3228 zum 20. Juli 2025 eingestellt. Als in der Ukraine ansässiges Unternehmen mit Sitz außerhalb der Europäischen Union sind wir im Sinne von § 36 VSBG weder verpflichtet noch bereit, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen. Gesundheitsgarantie und Regelungen zur Streitbeilegung werden im individuellen Reservierungsvertrag festgelegt, der vor der Anzahlung unterzeichnet wird."
   - id: privacy
     title: "Datenschutzerklärung"
     subsections:
-      - title: "Wer wir sind"
-        text: "Diese Webseite wird von Floriente Cattery betrieben, einer Hauszucht in der Region Kiew, Ukraine. Bei Fragen zum Datenschutz kontaktieren Sie uns unter info@florientecattery.com."
+      - title: "Verantwortlicher im Sinne der DSGVO"
+        text: "Verantwortlicher für die Verarbeitung personenbezogener Daten gemäß Art. 4 Nr. 7 der Verordnung (EU) 2016/679 (DSGVO) ist: Elvira Naurzalina, Inhaberin von Floriente Cattery (Einzelunternehmerin / ФОП nach ukrainischem Recht), vul. Aviatoriv 55, 08635 Krushynka, Rajon Fastiw, Gebiet Kiew, Ukraine. Kontakt für Datenschutzanfragen: info@florientecattery.com."
       - title: "Informationen, die wir erfassen"
         text: "Wir können folgende Informationen erfassen, wenn Sie uns über die Webseite, WhatsApp, E-Mail oder Social Media kontaktieren: Name, E-Mail-Adresse, Telefonnummer, Wohnland und alle Informationen, die Sie über Ihren Haushalt (Familienzusammensetzung, Wohnsituation) teilen möchten, damit wir das passende Kitten empfehlen können."
       - title: "Wie wir Ihre Informationen verwenden"
@@ -43,6 +47,8 @@ sections:
         text: "Schriften, Inhalte, Bilder und sämtliche statischen Assets werden von unserer eigenen Domain (florientecattery.com) ausgeliefert. Wir binden keine Google Fonts, CDN-Skripte oder Drittanbieter-Tracker ein. Sofern aktiviert, verwenden wir Cloudflare Web Analytics — einen cookieless, datenschutzfreundlichen Analysedienst, der anonyme Traffic-Statistiken (Seitenaufrufe, Referrer, Core Web Vitals) aggregiert, ohne Cookies zu setzen oder einzelne Besucher zu identifizieren. Ausgehende Links zu WhatsApp, Instagram, TikTok oder Facebook leiten Sie auf diese Plattformen weiter, die dort ihre eigenen Cookies setzen."
       - title: "Kontaktmöglichkeiten"
         text: "Auf dieser Webseite gibt es kein Kontaktformular. Um uns zu erreichen, nutzen Sie bitte die ausgehenden Links auf unserer Kontaktseite zu WhatsApp, Instagram Direct Message oder E-Mail (mailto:info@florientecattery.com). Diese Kanäle werden von Drittanbietern unter deren eigenen Datenschutzrichtlinien betrieben. Wenn Sie uns eine Nachricht senden, werden uns der Inhalt und Ihr Kontakt-Handle zur Verfügung gestellt, damit wir antworten können."
+      - title: "Einbindung von Google Maps auf der Kontaktseite"
+        text: "Unsere Kontaktseite bindet eine Google-Maps-Karte (iframe von maps.google.com) ein, um unseren Standort zu zeigen. Beim Laden der Kontaktseite stellt Ihr Browser eine Verbindung zu den Servern von Google LLC (USA) her; Google kann dabei eigene Cookies setzen und Daten (einschließlich Ihrer IP-Adresse) gemäß der Datenschutzerklärung von Google verarbeiten. Die Karte wird ausschließlich auf der Kontaktseite geladen — alle anderen Seiten unserer Webseite kommunizieren nicht mit Google. Wir verwenden weder Google Analytics noch Google Tag Manager noch andere Google-Dienste."
   - id: terms
     title: "AGB"
     subsections:
@@ -56,6 +62,8 @@ sections:
         text: "Alle Kitten werden frühestens im Alter von 12 Wochen abgegeben, vollständig geimpft (zwei Infektionsimpfungen plus Tollwutimpfung vor dem dritten Lebensmonat), mit ISO-konformem Mikrochip versehen, dreifach entwurmt und begleitet von einem EU-Heimtierausweis (EU Pet Passport) für Kunden in der Europäischen Union. Ein Tollwut-Titer-Test ist auf Wunsch und auf Kosten des Käufers bei unserem Tierarzt erhältlich. Die Übergabelogistik (Abholung in Kiew, Grenzübergabe oder Haustier-Transportdienst) wird individuell pro Kitten während des Videogesprächs vor der Anzahlung vereinbart."
       - title: "Kein Widerrufsrecht des Verbrauchers"
         text: "Da jedes Kitten nach einem persönlichen Auswahlverfahren für einen bestimmten Käufer reserviert wird, qualifizieren sich Reservierungen als Waren nach Kundenspezifikation. Das Widerrufsrecht für Verbraucher (einschließlich der 14-tägigen Widerrufsfrist gemäß Richtlinie 2011/83/EU und § 312g BGB) findet keine Anwendung. Bedingungen für Stornierung, Rückerstattung und Gesundheitsgarantie werden im Reservierungsvertrag festgelegt, der vor der Anzahlung unterzeichnet wird."
+      - title: "Gewährleistung und Gesundheitsgarantie für das Kitten"
+        text: "Die gesetzliche Gewährleistung nach §§ 434 ff. BGB bleibt für Käufer mit Sitz in der Europäischen Union im Rahmen der Rom-I-Verordnung (Verordnung (EG) Nr. 593/2008) anwendbar, unter Berücksichtigung der besonderen Natur des Kaufgegenstands (lebendes Tier). Kitten werden frühestens nach Abschluss der zwölften Lebenswoche, mit vollständigem Impfprogramm, Gesundheitstests der Elternlinie und tierärztlicher Abschlussuntersuchung übergeben. Der individuelle Reservierungsvertrag präzisiert den Umfang der Gesundheitsgarantie, das Verfahren zur Anzeige nach der Übergabe festgestellter Mängel, Fristen und Nachweisanforderungen sowie die dem Käufer zur Verfügung stehenden Rechtsmittel. Die vertraglichen Bedingungen berücksichtigen die biologische Natur des Kaufgegenstands und schränken die Rechte des Verbrauchers nicht unter das Niveau der zwingenden gesetzlichen Vorschriften ein."
       - title: "Richtigkeit der Informationen"
         text: "Wir bemühen uns um Richtigkeit der Informationen auf dieser Webseite, einschließlich Kitten-Beschreibungen, Gesundheitstest-Ergebnisse und Preise. Wir können jedoch nicht garantieren, dass alle Informationen jederzeit vollständig oder aktuell sind."
       - title: "Haftungsbeschränkung"

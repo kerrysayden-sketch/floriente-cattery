@@ -1,6 +1,6 @@
 ---
 lang: en
-lastUpdated: "2026-04-17"
+lastUpdated: "2026-04-20"
 sections:
   - id: privacy
     title: "Privacy Policy"
@@ -28,6 +28,8 @@ sections:
         text: "Fonts, content, images, and all static assets are served from our own domain (florientecattery.com). We do not embed Google Fonts, CDN scripts, or any third-party trackers. When enabled, we use Cloudflare Web Analytics — a cookieless, privacy-first analytics service that aggregates anonymous traffic statistics (page views, referrers, Core Web Vitals) without setting cookies and without identifying individual visitors. Outbound links to WhatsApp, Instagram, TikTok, or Facebook transfer you to those platforms, which set their own cookies once you arrive there."
       - title: "Contact Methods"
         text: "We do not operate a contact form on this website. To reach us, please use the outbound links on our Contact page to WhatsApp, Instagram Direct Message, or email (mailto:info@florientecattery.com). These channels are operated by third parties under their own privacy policies. When you send us a message, the content and your contact handle become available to us so that we can reply."
+      - title: "Google Maps on the Contact Page"
+        text: "Our Contact page embeds a Google Maps map (iframe from maps.google.com) to show our location. When the Contact page loads, your browser connects to Google LLC (USA) servers; Google may then set its own cookies and process data (including your IP address) in accordance with the Google Privacy Policy. The map is loaded only on the Contact page — all other pages of our website do not communicate with Google. We do not use Google Analytics, Google Tag Manager, or any other Google services."
   - id: terms
     title: "Terms & Conditions"
     subsections:
@@ -38,7 +40,7 @@ sections:
       - title: "Kitten Reservations"
         text: "Information about available kittens, pricing, and conditions displayed on this website is for informational purposes. All reservations are subject to a separate written contract between the buyer and Floriente Cattery. Pricing may change without prior notice on the website."
       - title: "Delivery and EU Export Readiness"
-        text: "All kittens are transferred no earlier than the age of 12 weeks, fully vaccinated (two infection vaccines plus a rabies shot completed before three months of age), microchipped, dewormed three times, and accompanied by an EU Pet Passport for clients in the European Union. A rabies antibody titre test is available on request at the buyer's cost. Delivery logistics (pickup in Kyiv, border meet-up, or pet-transport service) are agreed on a per-kitten basis during the pre-deposit video call."
+        text: "All kittens are transferred no earlier than the age of 12 weeks, fully vaccinated, including a rabies vaccination administered in accordance with EU requirements for pet transport (Regulation (EU) No 576/2013), microchipped, dewormed three times, and accompanied by an EU Pet Passport for clients in the European Union. A rabies antibody titre test is available on request at the buyer's cost. Delivery logistics (pickup in Kyiv, border meet-up, or pet-transport service) are agreed on a per-kitten basis during the pre-deposit video call."
       - title: "No Consumer Withdrawal Right"
         text: "Because each kitten is reserved for a specific buyer after a personal selection process, reservations qualify as custom or personalised goods. EU consumer withdrawal rights (including the 14-day cooling-off period under Directive 2011/83/EU and equivalent national laws such as § 312g BGB in Germany or the Ukrainian Law on Consumer Rights Protection) do not apply. Cancellation, refund, and health-guarantee terms are defined in the reservation contract signed before any deposit is paid."
       - title: "Accuracy of Information"

@@ -1,12 +1,31 @@
 ---
 lang: pl
-lastUpdated: "2026-04-17"
+lastUpdated: "2026-04-20"
 sections:
+  - id: impressum
+    title: "Informacje prawne"
+    subsections:
+      - title: "Dane przedsiębiorcy"
+        text: "Floriente Cattery, właścicielka: Elvira Naurzalina (indywidualna przedsiębiorczyni / ФОП zgodnie z prawem ukraińskim). Adres: ul. Awiatoriw 55, 08635 Kruszynka, powiat fastowski, obwód kijowski, Ukraina (oryginał: вул. Авіаторів, 55, 08635 с. Крушинка, Фастівський р-н, Київська обл., Україна). Numer wpisu w Jednolitym Państwowym Rejestrze Osób Prawnych, Indywidualnych Przedsiębiorców i Organizacji Społecznych Ukrainy (ЄДР): 2010350010007319901 (wpis z dnia 15.05.2025). Działalność hodowli prowadzona jest na terytorium Ukrainy. Umowy z klientami podlegają prawu wskazanemu w indywidualnej umowie rezerwacyjnej (zazwyczaj prawu ukraińskiemu), z zastrzeżeniem bezwzględnie obowiązujących przepisów prawa konsumenckiego państwa zamieszkania konsumenta zgodnie z art. 6 Rozporządzenia Parlamentu Europejskiego i Rady (WE) nr 593/2008 (Rzym I)."
+      - title: "Kontakt"
+        text: "Email: info@florientecattery.com. WhatsApp: +380 93 188 4422. Instagram: @floriente_orientals_cattery. Czas odpowiedzi zwykle w ciągu 24 godzin w dni robocze (czas ukraiński, UTC+2 zimą i UTC+3 latem — czas polski plus 1 godzina); w weekendy do 48 godzin."
+      - title: "Rejestracja hodowli"
+        text: "Floriente Cattery jest oficjalnie zarejestrowana w World Cat Federation (WCF). Numer rejestracji: 50188-2025. Weryfikacja: wcf.de/en/cattery-names."
+      - title: "Eksport do Unii Europejskiej"
+        text: "Wszystkie kocięta sprzedawane do Unii Europejskiej otrzymują paszport UE dla zwierząt domowych (EU Pet Passport), pełny program szczepień wraz ze szczepieniem przeciw wściekliźnie zgodnie z wymogami UE dla przewozu zwierząt domowych (Rozporządzenie (UE) nr 576/2013), mikrochip zgodny ze standardem ISO oraz trzykrotne odrobaczenie. Na życzenie kupującego i na jego koszt możliwe jest wykonanie badania miana przeciwciał przeciwko wściekliźnie (Rabies Titre Test) u naszego lekarza weterynarii. Kocięta przekazywane są nie wcześniej niż po ukończeniu 12. tygodnia życia (zgodnie ze standardem World Cat Federation)."
+      - title: "Odpowiedzialność za treść"
+        text: "Elvira Naurzalina, właścicielka hodowli. Wszystkie treści redakcyjne, fotografie i opisy pochodzą z Floriente Cattery. Zapytania dotyczące praw autorskich lub licencji: info@florientecattery.com."
+      - title: "Wyłączenie odpowiedzialności"
+        text: "Treści niniejszej witryny internetowej zostały opracowane z najwyższą starannością. Nie możemy jednak zagwarantować ich dokładności, kompletności ani aktualności w każdym momencie. Za treści linków zewnętrznych nie ponosimy odpowiedzialności."
+      - title: "Informacje podatkowe"
+        text: "Nie jesteśmy zarejestrowani jako podatnik VAT w Polsce ani w żadnym innym państwie członkowskim Unii Europejskiej. Nie posiadamy polskiego NIP-u. Właścicielka hodowli prowadzi działalność jako indywidualna przedsiębiorczyni (ФОП) w uproszczonym systemie podatkowym grupy 2 zgodnie z ukraińskim prawem podatkowym (status tzw. Kleinunternehmer / drobnego przedsiębiorcy), co na Ukrainie zwalnia ją z obowiązku rejestracji VAT."
+      - title: "Pozasądowe rozwiązywanie sporów konsumenckich"
+        text: "Platforma ODR Komisji Europejskiej (Online Dispute Resolution) została wyłączona z dniem 20 lipca 2025 r. na podstawie Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2024/3228. Jako hodowla zarejestrowana na Ukrainie, z siedzibą poza Unią Europejską, nie jesteśmy zobowiązani do udziału w postępowaniach przed instytucjami pozasądowego rozwiązywania sporów konsumenckich i nie uczestniczymy w takich postępowaniach. Szczegółowe warunki, w tym gwarancja zdrowia oraz zasady rozwiązywania ewentualnych sporów, określone są w indywidualnej umowie rezerwacyjnej podpisywanej przed wpłatą zaliczki."
   - id: privacy
     title: "Polityka prywatności"
     subsections:
-      - title: "Kim jesteśmy"
-        text: "Ta strona internetowa jest prowadzona przez Floriente Cattery, domową hodowlę zlokalizowaną w obwodzie kijowskim, Ukraina. W sprawach dotyczących prywatności prosimy o kontakt pod adresem info@florientecattery.com."
+      - title: "Administrator danych osobowych"
+        text: "Administratorem Twoich danych osobowych w rozumieniu art. 4 pkt 7 Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 (RODO) jest: Elvira Naurzalina, właścicielka hodowli Floriente (indywidualna przedsiębiorczyni / ФОП zgodnie z prawem ukraińskim), ul. Awiatoriw 55, 08635 Kruszynka, powiat fastowski, obwód kijowski, Ukraina. Kontakt w sprawach dotyczących ochrony danych osobowych: info@florientecattery.com."
       - title: "Informacje, które zbieramy"
         text: "Możemy zbierać następujące informacje, gdy kontaktujesz się z nami przez stronę internetową, WhatsApp, email lub media społecznościowe: imię i nazwisko, adres email, numer telefonu, kraj zamieszkania oraz wszelkie informacje, które zdecydujesz się udostępnić o swoim gospodarstwie domowym, aby pomóc nam dopasować odpowiednie kocię."
       - title: "Jak wykorzystujemy Twoje informacje"
@@ -28,6 +47,8 @@ sections:
         text: "Czcionki, treści, obrazy oraz wszystkie statyczne zasoby są serwowane z naszej własnej domeny (florientecattery.com). Nie osadzamy Google Fonts, skryptów CDN ani zewnętrznych trackerów. Jeśli jest włączona, korzystamy z Cloudflare Web Analytics — cookieless, privacy-first usługi analitycznej, która agreguje anonimowe statystyki ruchu (odsłony stron, źródła odwiedzin, Core Web Vitals) bez ustawiania cookies i bez identyfikowania poszczególnych odwiedzających. Linki wychodzące do WhatsApp, Instagram, TikTok lub Facebook przekierowują Cię na te platformy, które ustawiają tam własne cookies."
       - title: "Kanały kontaktu"
         text: "Na tej stronie nie ma formularza kontaktowego. Aby się z nami skontaktować, skorzystaj z zewnętrznych linków na stronie Kontakt — WhatsApp, Instagram Direct Message lub email (mailto:info@florientecattery.com). Te kanały są obsługiwane przez podmioty trzecie zgodnie z ich politykami prywatności. Gdy wysyłasz do nas wiadomość, jej treść i Twój identyfikator kontaktowy stają się dostępne dla nas, abyśmy mogli odpowiedzieć."
+      - title: "Osadzenie Google Maps na stronie Kontakt"
+        text: "Strona Kontakt naszej witryny zawiera osadzoną mapę Google Maps (iframe z maps.google.com), aby wskazać naszą lokalizację. Przy ładowaniu strony Kontakt Twoja przeglądarka nawiązuje połączenie z serwerami Google LLC (USA); Google może ustawiać wówczas własne cookies i przetwarzać dane (w tym Twój adres IP) zgodnie z polityką prywatności Google. Mapa ładowana jest wyłącznie na stronie Kontakt — pozostałe strony naszej witryny nie komunikują się z Google. Nie korzystamy z Google Analytics, Google Tag Manager ani innych usług Google."
   - id: terms
     title: "Regulamin"
     subsections:
@@ -39,8 +60,12 @@ sections:
         text: "Informacje o dostępnych kociętach, cenach i warunkach prezentowane na tej stronie mają charakter informacyjny. Wszystkie rezerwacje podlegają odrębnej pisemnej umowie między kupującym a hodowlą Floriente. Ceny mogą ulec zmianie bez wcześniejszego powiadomienia na stronie."
       - title: "Brak prawa konsumenta do odstąpienia"
         text: "Ponieważ każde kocię jest rezerwowane dla konkretnego kupującego po osobistym procesie wyboru, rezerwacje kwalifikują się jako towar wykonany na zamówienie. Prawa konsumenta do odstąpienia (w tym 14-dniowy okres cooling-off zgodnie z Dyrektywą 2011/83/UE oraz odpowiednimi przepisami krajowymi, takimi jak § 312g BGB w Niemczech czy ukraińska ustawa o ochronie konsumentów) nie mają zastosowania. Warunki anulowania, zwrotu środków i gwarancji zdrowia są określone w umowie rezerwacyjnej podpisywanej przed wpłatą zaliczki."
+      - title: "Rękojmia i gwarancja zdrowia kocięcia"
+        text: "Odpowiedzialność hodowli z tytułu rękojmi za wady fizyczne (art. 556 i nast. Kodeksu cywilnego) stosuje się z uwzględnieniem szczególnej specyfiki sprzedaży żywego zwierzęcia. Kocięta przekazywane są nie wcześniej niż po ukończeniu 12. tygodnia życia, po pełnym programie szczepień, testach zdrowotnych linii rodzicielskich i badaniu weterynaryjnym przed przekazaniem. Indywidualna umowa rezerwacyjna określa zakres gwarancji zdrowia kocięcia, procedurę zgłaszania wad ujawnionych po przekazaniu, terminy i sposób ich dokumentowania oraz dostępne środki prawne kupującego. Warunki umowne uwzględniają biologiczną naturę przedmiotu sprzedaży i nie ograniczają uprawnień konsumenta poniżej poziomu wynikającego z bezwzględnie obowiązujących przepisów prawa polskiego."
+      - title: "Składanie reklamacji"
+        text: "Reklamacje należy kierować na adres email info@florientecattery.com z dopiskiem „Reklamacja\". Reklamację rozpatrzymy w terminie 14 dni od jej otrzymania. Szczegółowa procedura składania reklamacji, w tym wymagane dokumenty, terminy i dostępne środki prawne, określona jest w indywidualnej umowie rezerwacyjnej podpisywanej przed wpłatą zaliczki."
       - title: "Przekazanie i gotowość do eksportu do UE"
-        text: "Wszystkie kocięta są przekazywane nie wcześniej niż po 12. tygodniu życia, w pełni zaszczepione (dwie szczepionki przeciw chorobom zakaźnym plus szczepienie przeciw wściekliźnie przed 3. miesiącem życia), zaczipowane, trzykrotnie odrobaczone, oraz z paszportem EU Pet Passport dla kupujących w Unii Europejskiej. Badanie miana przeciwciał na wściekliznę (Rabies Titre Test) dostępne na życzenie na koszt kupującego. Logistyka przekazania (odbiór w Kijowie, spotkanie graniczne lub usługa pet-transport) ustalana indywidualnie podczas rozmowy wideo przed wpłatą zaliczki."
+        text: "Wszystkie kocięta są przekazywane nie wcześniej niż po 12. tygodniu życia, w pełni zaszczepione (dwie szczepionki przeciw chorobom zakaźnym plus szczepienie przeciw wściekliźnie zgodnie z wymogami UE dla przewozu zwierząt domowych — Rozporządzenie (UE) nr 576/2013), zaczipowane, trzykrotnie odrobaczone oraz z paszportem EU Pet Passport dla kupujących w Unii Europejskiej. Badanie miana przeciwciał na wściekliznę (Rabies Titre Test) dostępne na życzenie na koszt kupującego. Logistyka przekazania (odbiór w Kijowie, spotkanie graniczne lub usługa pet-transport) ustalana indywidualnie podczas rozmowy wideo przed wpłatą zaliczki."
       - title: "Dokładność informacji"
         text: "Dokładamy wszelkich starań, aby zapewnić dokładność informacji na tej stronie, w tym opisów kociąt, wyników testów zdrowotnych i cen. Nie możemy jednak zagwarantować, że wszystkie informacje są kompletne lub aktualne w każdym momencie."
       - title: "Ograniczenie odpowiedzialności"
@@ -48,7 +73,7 @@ sections:
       - title: "Linki zewnętrzne"
         text: "Ta strona może zawierać linki do zewnętrznych stron internetowych (WhatsApp, TikTok, media społecznościowe). Nie ponosimy odpowiedzialności za treści lub praktyki prywatności tych stron trzecich."
       - title: "Prawo właściwe"
-        text: "Niniejszy regulamin podlega prawu Ukrainy. Wszelkie spory będą rozstrzygane zgodnie z prawem ukraińskim."
+        text: "Niniejszy regulamin podlega prawu Ukrainy. Wszelkie spory będą rozstrzygane zgodnie z prawem ukraińskim, z zastrzeżeniem bezwzględnie obowiązujących przepisów prawa konsumenckiego państwa zamieszkania konsumenta zgodnie z art. 6 Rozporządzenia (WE) nr 593/2008 (Rzym I)."
       - title: "Kontakt"
         text: "W sprawie pytań dotyczących niniejszego regulaminu prosimy o kontakt pod adresem info@florientecattery.com."
 ---
