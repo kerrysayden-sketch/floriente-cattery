@@ -6,9 +6,9 @@
     "node": ">=22.12.0"
   },
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
+    "dev": ". ./scripts/load-env.sh && astro dev",
+    "build": ". ./scripts/load-env.sh && astro build",
+    "preview": ". ./scripts/load-env.sh && astro preview",
     "astro": "astro",
     "typecheck": "astro check",
     "i18n:check": "node scripts/check-i18n.mjs",

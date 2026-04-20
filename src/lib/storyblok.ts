@@ -1,4 +1,4 @@
-const STORYBLOK_TOKEN = import.meta.env.STORYBLOK_TOKEN || '';
+const STORYBLOK_TOKEN = process.env.STORYBLOK_TOKEN || '';
 const API_BASE = 'https://api.storyblok.com/v2/cdn';
 
 async function storyblokFetch(path: string, params: Record<string, string> = {}) {

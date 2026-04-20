@@ -15,7 +15,7 @@ export default defineConfig({
       },
     }),
     storyblok({
-      accessToken: import.meta.env.STORYBLOK_TOKEN,
+      accessToken: process.env.STORYBLOK_TOKEN,
       components: {
         page: 'storyblok/Page',
         hero: 'storyblok/Hero',
