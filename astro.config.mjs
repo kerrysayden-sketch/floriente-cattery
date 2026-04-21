@@ -4,6 +4,11 @@ import tailwindcss from '@tailwindcss/vite';
 import { storyblok } from '@storyblok/astro';
 import sitemap from '@astrojs/sitemap';
 
+const storyblokToken = process.env.STORYBLOK_TOKEN;
+if (!storyblokToken) {
+  throw new Error('STORYBLOK_TOKEN not set. Source scripts/load-env.sh or set the env var.');
+}
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://florientecattery.com',
@@ -15,7 +20,7 @@ export default defineConfig({
       },
     }),
     storyblok({
-      accessToken: process.env.STORYBLOK_TOKEN,
+      accessToken: storyblokToken,
       components: {
         page: 'storyblok/Page',
         hero: 'storyblok/Hero',
