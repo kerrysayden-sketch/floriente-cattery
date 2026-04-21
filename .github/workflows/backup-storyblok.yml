@@ -1,0 +1,76 @@
+name: Storyblok content backup
+
+# Nightly backup of Storyblok content to a separate private repository.
+# Uses the same `npm run backup:storyblok` script as local manual runs
+# (scripts/load-env.sh is a no-op on CI; STORYBLOK_TOKEN comes from env).
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # 03:00 UTC daily (05:00 Kyiv winter / 06:00 summer)
+  workflow_dispatch:       # Manual trigger for testing
+
+permissions:
+  contents: read           # Only read main repo; write to backup repo via PAT
+
+concurrency:
+  group: storyblok-backup
+  cancel-in-progress: false
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout main repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Storyblok backup
+        env:
+          STORYBLOK_TOKEN: ${{ secrets.STORYBLOK_TOKEN }}
+        run: npm run backup:storyblok
+
+      - name: Locate backup artifact
+        id: artifact
+        run: |
+          FILE=$(ls -t ../backups/storyblok-export-*.json | head -1)
+          if [ -z "$FILE" ]; then
+            echo "ERROR: no backup file produced" >&2
+            exit 1
+          fi
+          echo "path=$FILE" >> "$GITHUB_OUTPUT"
+          echo "name=$(basename "$FILE")" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout backup repository
+        uses: actions/checkout@v4
+        with:
+          repository: kerrysayden-sketch/floriente-cattery-backups
+          token: ${{ secrets.BACKUP_REPO_PAT }}
+          path: backup-repo
+
+      - name: Copy backup file into backup repo
+        run: |
+          mkdir -p backup-repo/storyblok
+          cp "${{ steps.artifact.outputs.path }}" "backup-repo/storyblok/"
+
+      - name: Commit and push to backup repo
+        working-directory: backup-repo
+        run: |
+          git config user.name  'floriente-backup-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add storyblok/
+          if git diff --cached --quiet; then
+            echo "No changes to commit (backup identical to previous)."
+          else
+            git commit -m "Storyblok backup $(date -u +%Y-%m-%d)"
+            git push
+          fi
