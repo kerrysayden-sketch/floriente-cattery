@@ -3,7 +3,7 @@ testimonialId: axel
 lang: en
 owner: "Yulia"
 kitten: "Axel Cornelius (Korneliy)"
-photo: null
+photo: "/images/family/testimonial-axel.webp"
 order: 5
 ---
 
