@@ -24,4 +24,4 @@ gallery:
 
 Halva przyjechała z daleka. Długo na nią czekaliśmy.
 
-Nazywamy ją naszą małą papugą. Sima siada między nogami, Seba przy stopach - a Halva musi wdrapać się na ramię. Jak najwyżej. Tryb papugi na full. Jeszcze jest mała, jeszcze rośnie - ale już piękność. Nasza wyczekiwana dziewczynka. Nasz papużek.
+Nazywamy ją naszą małą papugą. Sima siada między nogami, Seba przy stopach - a Halva musi wdrapać się na ramię. Jak najwyżej. Tryb papugi na full. Jeszcze jest mała, jeszcze rośnie - ale już piękność. Nasza wyczekiwana dziewczynka. Nasza papużka.
