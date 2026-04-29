@@ -22,8 +22,8 @@ gallery:
     labelKey: "ourCats.sebastianPhoto4"
 ---
 
-Seba to poważny facet. Zaczynał jako chłopiec, a wyrósł na kogoś więcej - opanowany, dostojny, z charyzmą. Ale na osobności, gdy jest tylko mama albo tata, potrafi być czuły i łagodny. Pod warunkiem, że nikt nie patrzy.
+Seba to poważny mężczyzna. Zaczynał jako chłopiec, a wyrósł na kogoś więcej - opanowany, dostojny, z charyzmą. Ale na osobności, gdy jest tylko mama albo tata, potrafi być czuły i łagodny. Pod warunkiem, że nikt nie patrzy.
 
-Ma swój sekret. Po cichu podchodzi do zabawek, bierze jedną, podrzuca, bawi się. Ale w momencie, gdy sięgam po aparat - koniec. "Ja? Bawiłem się? Nie, nic takiego. Nie-nie, to nie ja. Po prostu przechodziłem." Prawdziwi faceci się nie bawią. Dlatego filmiki z Sebą to rzadkość. On zawsze wie, kiedy jest filmowany.
+Ma swój sekret. Po cichu podchodzi do zabawek, bierze jedną, podrzuca, bawi się. Ale w momencie, gdy sięgam po aparat - koniec. "Ja? Bawiłem się? Nie, nic takiego. Nie-nie, to nie ja. Po prostu przechodziłem obok." Prawdziwi mężczyźni się nie bawią. Dlatego filmiki z Sebą to rzadkość. On zawsze wie, kiedy jest filmowany.
 
 Po prostu poważny gość. Tyle.

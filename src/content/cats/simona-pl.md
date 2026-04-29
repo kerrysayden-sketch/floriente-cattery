@@ -22,8 +22,8 @@ gallery:
     labelKey: "ourCats.simonaPhoto4"
 ---
 
-Sima to nasz domowy inspektor. Nazywamy ją "Niemką" - w jej świecie wszystko działa według ścisłego harmonogramu. Poranek zaczyna przy piecu na drewno, przeciągając się, gdy ogień rozgrzewa jej kości. Rozpływa się. Potem siada ze mną do pracy i zostaje do wieczora. Przed snem jest strażniczką porządku: jeśli nie idziemy na górę o czasie, Sima biegnie do nas z płaczem i najbardziej dramatycznymi nutami. Harmonogram jest naruszany! Natychmiast!
+Sima to nasz domowy kontroler. Nazywamy ją "Niemką" - w jej świecie wszystko działa według ścisłego harmonogramu. Poranek zaczyna przy piecu na drewno, przeciągając się, gdy ogień rozgrzewa jej kości. Rozpływa się. Potem siada ze mną do pracy i zostaje do wieczora. Przed snem jest strażniczką porządku: jeśli nie idziemy na górę o czasie, Sima biegnie do nas z płaczem i najbardziej dramatycznymi nutami. Harmonogram jest naruszany! Natychmiast!
 
-Jest też gadułą. Opowie ci wszystko: dokąd poszła, co robiła, co o tym myśli. Skorzystała z kuwety - złoży raport i nie da spokoju, dopóki tata nie posprząta. Zostawiliśmy ją u babci - opowie cały dzień co do minuty: z kim biegała, czym się zajmowała. Idziesz do łazienki - idzie z tobą. Zawsze.
+Jest też gadułą. Opowie ci wszystko: dokąd chodziła, co robiła, co o tym myśli. Skorzystała z kuwety - złoży raport i nie da spokoju, dopóki tata nie posprząta. Zostawiliśmy ją u babci - opowie cały dzień co do minuty: z kim biegała, czym się zajmowała. Idziesz do łazienki - idzie z tobą. Zawsze.
 
 Czujna, głośna i pełna charakteru.
