@@ -2,13 +2,68 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { t, getLocalizedPath } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
+import { getCollection } from 'astro:content';
 import { fetchBlogPosts } from '../../lib/storyblok';
 
 interface Props { lang: Lang; }
 const { lang } = Astro.props;
 
-const posts = await fetchBlogPosts();
+const dateLocaleMap: Record<Lang, string> = {
+  en: 'en-GB',
+  uk: 'uk-UA',
+  pl: 'pl-PL',
+  de: 'de-DE',
+  ru: 'ru-RU',
+};
+
+type ListPost = {
+  slug: string;
+  title: string;
+  summary: string;
+  category: string;
+  cover: string | null;
+  publishedAt: string;
+  href: string;
+};
+
+const localEntries = await getCollection('blog', ({ data }) => data.lang === lang);
+const localPosts: ListPost[] = localEntries.map((entry) => ({
+  slug: entry.data.articleSlug,
+  title: entry.data.title,
+  summary: entry.data.description,
+  category: entry.data.category,
+  cover: entry.data.ogImage ?? null,
+  publishedAt: entry.data.publishDate,
+  href: getLocalizedPath(`/blog/${entry.data.articleSlug}/`, lang),
+}));
+
+let storyblokPosts: ListPost[] = [];
+try {
+  const sb = await fetchBlogPosts();
+  storyblokPosts = sb.map((post) => ({
+    slug: post.slug,
+    title: post.title,
+    summary: lang === 'uk' ? post.summary_uk : post.summary_en,
+    category: post.category,
+    cover: post.cover?.filename ?? null,
+    publishedAt: post.published_at,
+    href: getLocalizedPath(`/blog/${post.slug}/`, lang),
+  }));
+} catch {
+  storyblokPosts = [];
+}
+
+const seenSlugs = new Set(localPosts.map((p) => p.slug));
+const merged: ListPost[] = [
+  ...localPosts,
+  ...storyblokPosts.filter((p) => !seenSlugs.has(p.slug)),
+];
+
+merged.sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''));
+
+const posts = merged;
 const hasPosts = posts.length > 0;
+const dateLocale = dateLocaleMap[lang] ?? 'en-GB';
 ---
 
 <BaseLayout
@@ -28,16 +83,17 @@ const hasPosts = posts.length > 0;
       {hasPosts ? (
         <div class="space-y-8">
           {posts.map((post) => {
-            const summary = lang === 'uk' ? post.summary_uk : post.summary_en;
-            const date = post.published_at ? new Date(post.published_at).toLocaleDateString(lang === 'uk' ? 'uk-UA' : 'en-GB', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
+            const date = post.publishedAt
+              ? new Date(post.publishedAt).toLocaleDateString(dateLocale, { year: 'numeric', month: 'long', day: 'numeric' })
+              : '';
             return (
-              <a href={getLocalizedPath(`/blog/${post.slug}/`, lang)} class="group block">
+              <a href={post.href} class="group block">
                 <article class="flex flex-col md:flex-row gap-6 bg-warm-white border border-gray-light rounded-lg overflow-hidden hover:border-gold/30 transition-colors">
-                  {post.cover?.filename && (
+                  {post.cover && (
                     <div class="md:w-1/3 aspect-[16/9] md:aspect-auto overflow-hidden">
                       <img
-                        src={post.cover.filename}
-                        alt={post.cover.alt || post.title}
+                        src={post.cover}
+                        alt={post.title}
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                         loading="lazy"
                       />
@@ -48,7 +104,7 @@ const hasPosts = posts.length > 0;
                       <span class="text-xs uppercase tracking-wider text-gold font-semibold">{post.category}</span>
                     )}
                     <h2 class="font-serif text-xl mt-1 mb-3 group-hover:text-gold transition-colors">{post.title}</h2>
-                    {summary && <p class="text-dark-soft text-sm leading-relaxed mb-4">{summary}</p>}
+                    {post.summary && <p class="text-dark-soft text-sm leading-relaxed mb-4">{post.summary}</p>}
                     <div class="flex items-center justify-between">
                       {date && <time class="text-xs text-gray-medium">{date}</time>}
                       <span class="text-sm text-gold group-hover:text-gold-dark transition-colors inline-flex items-center gap-1">
