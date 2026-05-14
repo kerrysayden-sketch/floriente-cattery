@@ -18,53 +18,67 @@ Doch falsche Züchter kann man leicht erkennen — wenn man weiß, worauf man ac
 
 Jede Zucht, die Ihr Geld wert ist, ist bei WCF (World Cat Federation), TICA, FIFe oder CFA registriert. Fragen Sie nach der Registrierungsnummer. Gehen Sie auf die Webseite der Organisation und prüfen Sie selbst. Zwei Minuten Arbeit.
 
-> **Floriente Cattery:** Registrierung des Namens FLORIENTE (in Großbuchstaben). Prüfen Sie auf [wcf.de/en/cattery-names](https://wcf.de/en/cattery-names/). WCF #50188-2025
+<div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Registrierung des Namens FLORIENTE (in Großbuchstaben). Prüfen Sie auf <a href="https://wcf.de/en/cattery-names/" target="_blank" rel="noopener" class="text-gold hover:text-gold-dark">wcf.de/en/cattery-names</a>. WCF #50188-2025.</p>
+</div>
 
 ### 2. Bitten Sie um einen Videoanruf
 
 Ein echter Züchter zeigt Ihnen das Kätzchen vor der Kamera — bei sich zu Hause, mit den Eltern daneben. Wenn er ablehnt, Ausreden sucht oder „neue Fotos" statt eines Videos schickt — das ist bereits die Antwort. Gehen Sie weiter.
 
-> **Floriente Cattery:** Wir bieten Videoanrufe vor der Reservierung an. Sie sehen das Kätzchen, die Eltern und unser Zuhause.
+<div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Wir bieten Videoanrufe vor der Reservierung an. Sie sehen das Kätzchen, die Eltern und unser Zuhause.</p>
+</div>
 
 ### 3. Prüfen Sie die Gesundheitstests
 
 Züchter, denen es wichtig ist, testen die Elterntiere vor der Verpaarung auf genetische Erkrankungen. Bei Orientalen und Siamesen: PRA (progressive Netzhautatrophie), PK-Mangel, Blutgruppe. Fragen Sie, welches Labor die Tests durchgeführt hat. Wenn kein Name genannt werden kann — wurde wahrscheinlich nicht getestet.
 
-> **Floriente Cattery:** Alle Elterntiere wurden bei NeoVetLab getestet. Die Ergebnisse werden den Käufern vor der Reservierung mitgeteilt.
+<div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Alle Elterntiere wurden bei NeoVetLab getestet. Die Ergebnisse werden den Käufern vor der Reservierung mitgeteilt.</p>
+</div>
 
 ### 4. Fordern Sie einen Vertrag
 
 Kein schriftlicher Vertrag — kein Geschäft. Ein Vertrag sollte Gesundheitsgarantien, Kastrationsbedingungen, Rückgabeklauseln und Eigentumsübergang abdecken. Wenn jemand sagt: „Wir machen keine Verträge" — das ist keine Zucht, sondern ein Verkäufer.
 
-> **Floriente Cattery:** Der vollständige Kaufvertrag. Er hält den Zustand des Kätzchens zum Zeitpunkt der Übergabe fest, einschließlich Mikrochip, Impfungen und Registrierungsunterlagen, und legt Haltungsbedingungen, Kastration, Rückgabeverfahren und die weitere Begleitung des Besitzers fest. Das ist keine Formsache — sondern Transparenz und Verantwortung auf beiden Seiten.
+<div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Der vollständige Kaufvertrag. Er hält den Zustand des Kätzchens zum Zeitpunkt der Übergabe fest, einschließlich Mikrochip, Impfungen und Registrierungsunterlagen, und legt Haltungsbedingungen, Kastration, Rückgabeverfahren und die weitere Begleitung des Besitzers fest. Das ist keine Formsache — sondern Transparenz und Verantwortung auf beiden Seiten.</p>
+</div>
 
 ### 5. Prüfen Sie die Titel
 
 Züchter nennen gerne Titel. Champion, Grand Champion, International Champion — jeder wird auf offiziellen Ausstellungen von lizenzierten Richtern vergeben. Bitten Sie um Nachweise. Titel sind öffentlich zugänglich.
 
-> **Floriente Cattery:** Sebastian und Simona — Grand Inter-Champions (GIC), World Cat Federation. Ausstellungsfotos und Zertifikate auf unserer Webseite.
+<div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Sebastian und Simona — Grand Inter-Champions (GIC), World Cat Federation. Ausstellungsfotos und Zertifikate auf unserer Webseite.</p>
+</div>
 
 ### 6. Suchen Sie nach echten Bewertungen
 
 Echte Namen. Echte Fotos von Kätzchen in ihren neuen Zuhause. Keine Stockbilder, keine anonymen Zitate. Bitten Sie den Züchter, Sie mit einem früheren Käufer zu verbinden. Wer ablehnt — hat etwas zu verbergen.
 
-> **Floriente Cattery:** Alle Kätzchen sind in liebevollen Familien. Bewertungen der Besitzer mit Fotos finden Sie auf unserer Startseite. Wir vermitteln gerne Kontakt zu früheren Familien.
+<div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Alle Kätzchen sind in liebevollen Familien. Bewertungen der Besitzer mit Fotos finden Sie auf unserer Startseite. Wir vermitteln gerne Kontakt zu früheren Familien.</p>
+</div>
 
 ### 7. Verstehen Sie, was im Preis enthalten ist
 
 Impfungen, Mikrochip, Heimtierausweis, Stammbaum, Kastration, Futter-Starterset, Eingewöhnungs-Leitfaden. Ein seriöser Züchter zählt alles offen auf. Wenn der Preis vage oder verdächtig niedrig ist — laufen Sie weg.
 
-> **Floriente Cattery:** Vollständige Übersicht auf unserer Seite [Kätzchen kaufen](/de/kitten-kaufen/) — 8 Positionen sind bei jedem Kätzchen enthalten.
+<div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Vollständige Übersicht auf unserer Seite <a href="/de/kitten-kaufen/" class="text-gold hover:text-gold-dark">Kätzchen kaufen</a> — 8 Positionen sind bei jedem Kätzchen enthalten.</p>
+</div>
 
 ## Warnzeichen: Wann Sie aussteigen sollten
 
-- 100 % Vorauszahlung, bevor Sie das Kätzchen auf Video gesehen haben
-- Keine Registrierungsnummer oder Weigerung, sie zu nennen
-- Stockfotos statt echter Fotos von Kätzchen und Eltern
-- Preis deutlich unter Marktwert — Orientalen- und Siamkätzchen von registrierten Züchtern kosten 800–1.500+ EUR (Pet-Klasse)
-- Kein Vertrag oder „Wir machen keine Verträge"
-- Druck zur schnellen Entscheidung — „Dieses Kätzchen bleibt nicht lange" oder „Heute anzahlen, sonst verlieren Sie es"
-- Keine Online-Präsenz — kein Instagram, kein Facebook, keine Aktivitätshistorie
+- **100 % Vorauszahlung**, bevor Sie das Kätzchen auf Video gesehen haben
+- **Keine Registrierungsnummer** oder Weigerung, sie zu nennen
+- **Stockfotos** statt echter Fotos von Kätzchen und Eltern
+- **Preis deutlich unter Marktwert** — Orientalen- und Siamkätzchen von registrierten Züchtern kosten 800–1.500+ EUR (Pet-Klasse)
+- **Kein Vertrag** oder „Wir machen keine Verträge"
+- **Druck zur schnellen Entscheidung** — „Dieses Kätzchen bleibt nicht lange" oder „Heute anzahlen, sonst verlieren Sie es"
+- **Keine Online-Präsenz** — kein Instagram, kein Facebook, keine Aktivitätshistorie
 
 ## Bevor Sie Geld senden, stellen Sie diese sieben Fragen
 
