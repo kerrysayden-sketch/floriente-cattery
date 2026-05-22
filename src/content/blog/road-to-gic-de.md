@@ -42,7 +42,7 @@ Bei der dritten Ausstellung änderte sich etwas. Er verstand, was von ihm erwart
 | Titelstufe | Stadt | WCF-Region | Richter | Land |
 |---|---|---|---|---|
 | CH | Krywyj Rih | Region 10 | Tomas (Litauen) | Ukraine |
-| CH | Krywyj Rih | Region 10 | Tetjana Dsjantschuk (Ukraine) | Ukraine |
+| CH | Krywyj Rih | Region 10 | Tetjana Djatschuk (Ukraine) | Ukraine |
 | CH | Kiew | Region 20 | Christopher (Polen) | Ukraine |
 | IC | Kiew | Region 20 | Alina Ingor (Bulgarien) | Ukraine |
 | IC | Odessa | Region 40 | Eva Kalman (Ungarn) | Ukraine |
@@ -95,16 +95,16 @@ Der GIC-Titel kostet insgesamt zwischen 4 000 und 6 500 EUR. Eine Ausstellung in
 
 **Eine Ausstellung, zwei Katzen (ungefähre Werte):**
 
-- Anmeldung zweier Katzen zum Last-Minute-Tarif — ~8 000 UAH (~155 EUR)
-- Hotel für 3 Nächte — ~8 000–9 000 UAH (~155–175 EUR)
-- Benzin — ~5 000 UAH (~95 EUR)
-- Ringe (optional) — 2 000–4 000 UAH (~40–80 EUR)
-- Fotosession — ~6 000 UAH (~115 EUR)
+- Anmeldung zweier Katzen zum Last-Minute-Tarif — ~155 EUR
+- Hotel für 3 Nächte — ~155–175 EUR
+- Benzin — ~95 EUR
+- Ringe (optional) — 40–80 EUR
+- Fotosession — ~115 EUR
 
 Zwischenfazit pro Ausstellung:
 
-- Basisvariante (ohne Ringe und Fotos) — ~20 000 UAH (~390 EUR)
-- Vollvariante (mit allem) — ~30 000 UAH (~580 EUR)
+- Basisvariante (ohne Ringe und Fotos) — ~390 EUR
+- Vollvariante (mit allem) — ~580 EUR
 
 **Das Gesamtbild:**
 

@@ -42,7 +42,7 @@ Na trzeciej wystawie coś się zmieniło. Zrozumiał, czego się od niego oczeku
 | Poziom tytułu | Miasto | Region WCF | Sędzia | Kraj |
 |---|---|---|---|---|
 | CH | Krzywy Róg | Region 10 | Tomas (Litwa) | Ukraina |
-| CH | Krzywy Róg | Region 10 | Tetiana Dzianczuk (Ukraina) | Ukraina |
+| CH | Krzywy Róg | Region 10 | Tetiana Diaczuk (Ukraina) | Ukraina |
 | CH | Kijów | Region 20 | Christopher (Polska) | Ukraina |
 | IC | Kijów | Region 20 | Alina Ingor (Bułgaria) | Ukraina |
 | IC | Odessa | Region 40 | Eva Kalman (Węgry) | Ukraina |
@@ -95,16 +95,16 @@ Tytuł GIC kosztuje łącznie €4 000–6 500. Jedna wystawa w Ukrainie — min
 
 **Jedna wystawa, dwa koty (orientacyjnie):**
 
-- Rejestracja dwóch kotów według taryfy ostatniego momentu — ~8 000 UAH (~€155)
-- Hotel na 3 noce — ~8 000–9 000 UAH (~€155–175)
-- Benzyna — ~5 000 UAH (~€95)
-- Ringi (opcjonalnie) — 2 000–4 000 UAH (~€40–80)
-- Sesja zdjęciowa — ~6 000 UAH (~€115)
+- Rejestracja dwóch kotów według taryfy ostatniego momentu — ~€155
+- Hotel na 3 noce — ~€155–175
+- Benzyna — ~€95
+- Ringi (opcjonalnie) — ~€40–80
+- Sesja zdjęciowa — ~€115
 
 Podsumowanie jednej wystawy:
 
-- Podstawowa (bez ringów i zdjęć) — ~20 000 UAH (~€390)
-- Pełna (ze wszystkim) — ~30 000 UAH (~€580)
+- Podstawowa (bez ringów i zdjęć) — ~€390
+- Pełna (ze wszystkim) — ~€580
 
 **Obraz całościowy:**
 

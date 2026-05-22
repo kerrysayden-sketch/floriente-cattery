@@ -42,7 +42,7 @@ By the third show, something shifted. He figured out what was expected of him �
 | Title Level | City | WCF Region | Judge | Country |
 |---|---|---|---|---|
 | CH | Kryvyi Rih | Region 10 | Tomas (Lithuania) | Ukraine |
-| CH | Kryvyi Rih | Region 10 | Tetyana Dzyanchuk (Ukraine) | Ukraine |
+| CH | Kryvyi Rih | Region 10 | Tetyana Dyachuk (Ukraine) | Ukraine |
 | CH | Kyiv | Region 20 | Christopher (Poland) | Ukraine |
 | IC | Kyiv | Region 20 | Alina Ingor (Bulgaria) | Ukraine |
 | IC | Odesa | Region 40 | Eva Kalman (Hungary) | Ukraine |
@@ -95,16 +95,16 @@ GIC costs between €4,000 and €6,500 total. One show in Ukraine — minimum �
 
 **One show, two cats (approximate):**
 
-- Last-minute registration for two cats — ~8,000 UAH (~€155)
-- Hotel for 3 nights — ~8,000–9,000 UAH (~€155–175)
-- Fuel — ~5,000 UAH (~€95)
-- Rings (optional) — 2,000–4,000 UAH (~€40–80)
-- Photoshoot — ~6,000 UAH (~€115)
+- Last-minute registration for two cats — ~€155
+- Hotel for 3 nights — ~€155–175
+- Fuel — ~€95
+- Rings (optional) — ~€40–80
+- Photoshoot — ~€115
 
 Per-show totals:
 
-- Basic (no rings or photo) — ~20,000 UAH (~€390)
-- Full (with everything) — ~30,000 UAH (~€580)
+- Basic (no rings or photo) — ~€390
+- Full (with everything) — ~€580
 
 **Big picture:**
 
