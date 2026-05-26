@@ -51,7 +51,7 @@ No written contract — no deal. The contract should cover health guarantees, st
 Breeders love to mention titles. Champion, Grand Champion, International Champion — each one earned at official shows judged by licensed experts. Ask for proof. Titles are public record.
 
 <div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
-<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Sebastian and Simona — Grand Inter-Champions (GIC), World Cat Federation. Cat show photos and certificates on our website.</p>
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Sebastian and Simona — Grand International Champions (GICH), World Cat Federation. Cat show photos and certificates on our website.</p>
 </div>
 
 ### 6. Look for real reviews

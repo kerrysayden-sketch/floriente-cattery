@@ -20,7 +20,7 @@ WCF — World Cat Federation — is the largest international cat registry, head
 
 **Verified documents.** Every kitten born in a registered cattery receives a metrika — an official birth certificate with a club number. On the owner's request and for an additional fee, you can order a full pedigree (a 3–5 generation document covering ancestors), with the names, titles, and registration numbers of every ancestor — a traceable record you can verify. This isn't a "purebred-by-looks" certificate. It's documentation that ties your kitten to an international registry.
 
-**Traceable bloodline.** The pedigree connects your kitten to an international database. Every breeding cat in that line has been evaluated and registered. If an ancestor was a Champion or Grand Inter-Champion, that title is in the document — with the shows, judges, and certificates behind it.
+**Traceable bloodline.** The pedigree connects your kitten to an international database. Every breeding cat in that line has been evaluated and registered. If an ancestor was a Champion or Grand International Champion, that title is in the document — with the shows, judges, and certificates behind it.
 
 **Mandatory breeding standards.** WCF sets rules you can't dodge. A breeding tomcat is required to hold at least the Champion title — that's not a recommendation, it's a hard rule. A breeding queen is required to be evaluated at minimum at one show by two experts before her first litter — not necessarily titled, but the official evaluation has to be documented. Cats without show evaluations cannot legally produce kittens with a registered WCF pedigree.
 
@@ -30,26 +30,26 @@ WCF — World Cat Federation — is the largest international cat registry, head
 
 WCF titles aren't honorary. Each one requires a specific number of certificates, a specific number of independent judges, and appearances in clearly defined geographic regions. Here's what the ladder looks like:
 
-| Title | Certificates Required | Judges | Geographic Requirement |
-|---|---|---|---|
-| Champion (CH) | 3 | 3 different judges | 1 country, minimum 95 points |
-| International Champion (IC) | 3 | 3 different judges | 2 different regions |
-| Grand International Champion (GIC) | 3 | minimum 3 judges | 2 different countries |
-| European Champion (EC) | 3 | 3 different judges | 3 different countries — European show level |
-| Grand European Champion (GEC) | 3 | minimum 3 judges | 3 different countries — European show level |
-| World Champion (WC) | 3 | 3 different judges | 3 countries, 2 continents, 98 points |
+| Cat class | Title name | Abbreviation | Certificates | Judges | Geographic requirements | Min score |
+|---|---|---|---|---|---|---|
+| Adult | Champion | CH | 3 × CAC | 3 different judges | Within one country | 93 |
+| Adult | International Champion | ICH (Int.Ch.) | 3 × CACIB | 3 different judges | 2 different countries/regions | 95 |
+| Adult | Grand International Champion | GICH (Gr.Int.Ch.) | 3 × CAGCIB | 3 different judges | 2 different countries | 97 |
+| Adult | European Champion | ECH (Eu.Ch.) | 3 × CACE | 3 different judges | 3 different countries | 97 |
+| Adult | Grand European Champion | GECH (Gr.Eu.Ch.) | 3 × GCACE | 3 different judges | 3 different countries | 97 |
+| Adult | World Champion | WCH (W.Ch.) | 3 × CACM | 3 different judges | 3 different countries (one on a different continent) | 98 |
 
 One judge can issue only one certificate per color/age group on a single show day. One day — one potential evaluation. A two-day show — a maximum of 2 certificates.
 
-Important clarification: GIC is a cumulative title that requires walking the entire ladder in order. A cat can't get GIC straight off. The path: first Champion (3 certificates from 3 different judges), then Int'l Champion (3 more certificates), then Grand Int'l Champion (3 more certificates). Total — 9 certificates, in at least 2 countries.
+Important clarification: GICH is a cumulative title that requires walking the entire ladder in order. A cat can't get GICH straight off. The path: first Champion (3 certificates from 3 different judges), then International Champion (3 more certificates), then Grand International Champion (3 more certificates). Total — 9 certificates, in at least 2 countries.
 
-In practice, that's about 6 trips to different show locations, roughly 2 years of active show work, and serious expense: ~€450 per show in Ukraine, minimum €900+ for a show abroad (travel, accommodation for cats and people, entry fees). A trip to Bulgaria isn't one overnight — it's a week (Lviv → Romania → Bulgaria and back). The realistic budget for the road to GIC is €3,700–6,500. Sebastian from Floriente Cattery currently holds the GIC title — backed by 9 certificates, several border crossings, and a couple of years of work.
+In practice, that's about 6 trips to different show locations, roughly 2 years of active show work, and serious expense: ~€450 per show in Ukraine, minimum €900+ for a show abroad (travel, accommodation for cats and people, entry fees). A trip to Bulgaria isn't one overnight — it's a week (Lviv → Romania → Bulgaria and back). The realistic budget for the road to GICH is €3,700–6,500. Sebastian from Floriente Cattery currently holds the GICH title — backed by 9 certificates, several border crossings, and a couple of years of work.
 
 It's not a title you buy. It's a title you earn — show by show, judge by judge, across borders.
 
 Context: for a breeder, show work is an expensive hobby that covers costs, not a profit center. Kittens don't make up for the cost of training, shows, food, vaccinations, club fees, and documentation. With one or two breeding queens, a cattery breaks even; profit only starts at 3–4 queens — and even then, only if you don't count the time you have to put into every kitten anyway. The price of a kitten from a titled litter is an honest reflection of those costs, not a margin.
 
-What that path looked like for Sebastian — shows, setbacks, judges — read in [#13: The Road to GIC →](#).
+What that path looked like for Sebastian — shows, setbacks, judges — read in [#13: The Road to GICH →](#).
 
 ## How to Verify in 30 Seconds
 
@@ -73,7 +73,7 @@ WCF isn't the only international organization. Understanding the differences hel
 | Dimension | WCF | TICA | FIFe | CFA |
 |---|---|---|---|---|
 | Registration system | Cattery and animal registry, 70+ countries | Global animal and cattery registry | Federation of national feline organizations | US-based, global system |
-| Title system | CH → IC → GIC → EC → GEC → WC | Points system + ring finals | International EMS title system | CH → GCH → DGCH → TGCH → QGCH → SGC |
+| Title system | CH → ICH → GICH → ECH → GECH → WCH | Points system + ring finals | International EMS title system | CH → GCH → DGCH → TGCH → QGCH → SGC |
 | Judging approach | Evaluation against the standard, written description | Rings, comparative judging | Standardized EMS codes | Rings, finals, competition |
 | Geographic coverage | Europe, Eastern Europe, Asia, Latin America | Global, 70+ breeds | Mostly Europe | US, Canada + international shows |
 
@@ -115,13 +115,13 @@ CAC (Certificat d'Aptitude au Championnat) is an individual certificate issued b
 
 Local club certificates aren't internationally verifiable. They may be perfectly legitimate within their country's club system — but you can't check them on wcf.de. The key question: is this cattery in the WCF database? If not, the pedigrees they issue aren't internationally verified pedigrees.
 
-**How much does it cost a breeder to earn the GIC title?**
+**How much does it cost a breeder to earn the GICH title?**
 
-The path from Champion to International Champion to Grand International Champion is cumulative and requires 9 certificates across 3 stages (3 per level), in at least 2 countries. That's about 6 shows, ~2 years of active work. One show in Ukraine — about €450. Abroad — minimum €900+ per trip (travel, accommodation for cats and people, entry), and a trip to far countries like Bulgaria is a week with overnights in Lviv, Romania, and on location. The realistic budget for the road to GIC is €3,700–6,500.
+The path from Champion to International Champion to Grand International Champion is cumulative and requires 9 certificates across 3 stages (3 per level), in at least 2 countries. That's about 6 shows, ~2 years of active work. One show in Ukraine — about €450. Abroad — minimum €900+ per trip (travel, accommodation for cats and people, entry), and a trip to far countries like Bulgaria is a week with overnights in Lviv, Romania, and on location. The realistic budget for the road to GICH is €3,700–6,500.
 
 ## What's Next
 
 You can verify Floriente Cattery right now: wcf.de, registration number 50188-2025. Our current litter with verified pedigrees and titles — [florientecattery.com/en/kittens](/en/kittens/).
 
-- Read [#13: The Road to GIC →](#) — show by show, the path to Sebastian's Grand International Champion title: judges, regions, years on the road.
+- Read [#13: The Road to GICH →](#) — show by show, the path to Sebastian's Grand International Champion title: judges, regions, years on the road.
 - Browse [Our Cats →](/en/our-cats/) — Sebastian, Sima, and Halva: their titles, pedigrees, and role in the breeding program.

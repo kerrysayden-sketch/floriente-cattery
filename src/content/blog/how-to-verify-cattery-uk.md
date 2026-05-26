@@ -51,7 +51,7 @@ ogImage: "/images/cats/sebastian-main.webp"
 Заводчики люблять згадувати титули. Champion, Grand Champion, International Champion — кожен заслуговується на офіційних виставках під оцінкою ліцензованих суддів. Просіть докази. Титули — публічна інформація.
 
 <div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
-<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Sebastian та Simona — Grand Inter-Champions (GIC), World Cat Federation. Фото з виставок та сертифікати на нашому сайті.</p>
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Sebastian та Simona — Grand International Champions (GICH), World Cat Federation. Фото з виставок та сертифікати на нашому сайті.</p>
 </div>
 
 ### 6. Шукайте реальні відгуки

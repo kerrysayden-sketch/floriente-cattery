@@ -51,7 +51,7 @@ Kein schriftlicher Vertrag — kein Geschäft. Ein Vertrag sollte Gesundheitsgar
 Züchter nennen gerne Titel. Champion, Grand Champion, International Champion — jeder wird auf offiziellen Ausstellungen von lizenzierten Richtern vergeben. Bitten Sie um Nachweise. Titel sind öffentlich zugänglich.
 
 <div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
-<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Sebastian und Simona — Grand Inter-Champions (GIC), World Cat Federation. Ausstellungsfotos und Zertifikate auf unserer Webseite.</p>
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Sebastian und Simona — Grand International Champions (GICH), World Cat Federation. Ausstellungsfotos und Zertifikate auf unserer Webseite.</p>
 </div>
 
 ### 6. Suchen Sie nach echten Bewertungen

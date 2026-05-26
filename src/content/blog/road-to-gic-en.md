@@ -1,20 +1,31 @@
 ---
 articleSlug: "road-to-gic"
 lang: "en"
-title: "Sebastian and Simona: Our Road to Grand Inter-Champion"
-description: "Grand Inter-Champion requires 9 evaluations from 6 judges in 2 countries. Sebastian's and Simona's full show paths — cities, judges, costs, and what it means for your kitten."
+title: "Sebastian and Simona: Our Road to Grand International Champion"
+description: "Grand International Champion requires 9 evaluations from 6 judges in 2 countries. Sebastian's and Simona's full show paths — cities, judges, costs, and what it means for your kitten."
 category: "Buyer's Guide"
 publishDate: "2026-05-13"
 ogImage: "/images/cats/sebastian-main.webp"
 ---
 
-Grand Inter-Champion requires 9 evaluations from 6 different judges in 2 countries. It took us 1.5 years, 7 shows (2 days each), and over €6,500. Here's what it looked like — and what it means for your kitten.
+Grand International Champion requires 9 evaluations from 6 different judges in 2 countries. It took us 1.5 years, 7 shows (2 days each), and over €6,500. Here's what it looked like — and what it means for your kitten.
 
-## What GIC Actually Takes
+## What GICH Actually Takes
 
 When you see a show award on a breeder's page, the first assumption is: nice photo, nice trophy. The reality is that the system is built to keep the public picture separate from the actual certification — and knowing the difference matters.
 
-In the WCF system — World Cat Federation, under which Floriente Cattery is registered — Grand Inter-Champion can't be bought, inherited, or handed out by one person. It's built certificate by certificate, judge by judge, region by region.
+Here's the full ladder of adult WCF titles:
+
+| Cat class | Title name | Abbreviation | Certificates | Judges | Geographic requirements | Min score |
+|---|---|---|---|---|---|---|
+| Adult | Champion | CH | 3 × CAC | 3 different judges | Within one country | 93 |
+| Adult | International Champion | ICH (Int.Ch.) | 3 × CACIB | 3 different judges | 2 different countries/regions | 95 |
+| Adult | Grand International Champion | GICH (Gr.Int.Ch.) | 3 × CAGCIB | 3 different judges | 2 different countries | 97 |
+| Adult | European Champion | ECH (Eu.Ch.) | 3 × CACE | 3 different judges | 3 different countries | 97 |
+| Adult | Grand European Champion | GECH (Gr.Eu.Ch.) | 3 × GCACE | 3 different judges | 3 different countries | 97 |
+| Adult | World Champion | WCH (W.Ch.) | 3 × CACM | 3 different judges | 3 different countries (one on a different continent) | 98 |
+
+In the WCF system — World Cat Federation, under which Floriente Cattery is registered — Grand International Champion can't be bought, inherited, or handed out by one person. It's built certificate by certificate, judge by judge, region by region.
 
 The requirements are precise:
 
@@ -23,7 +34,7 @@ The requirements are precise:
 - **3+ WCF regions** — evaluations have to come from different geographic zones
 - **2+ countries** — at least one international certificate, meaning a trip across the border
 
-Each title level is its own threshold. To reach GIC, a cat first has to earn Champion (CH), then Inter-Champion (IC), and only then Grand Inter-Champion (GIC). You don't skip steps. Lower-level certificates don't carry over. Every evaluation is tied to a specific judge, a specific city, a specific date.
+Each title level is its own threshold. To reach GICH, a cat first has to earn Champion (CH), then International Champion (ICH), and only then Grand International Champion (GICH). You don't skip steps. Lower-level certificates don't carry over. Every evaluation is tied to a specific judge, a specific city, a specific date.
 
 The signed judge's report — not the rosette, not the photo — is the only proof a certificate exists. If a breeder claims titles but can't show you the judges' evaluation sheets, those titles aren't there.
 
@@ -37,19 +48,19 @@ First show: he never sat in his cage. Within minutes he was lying on his back on
 
 By the third show, something shifted. He figured out what was expected of him — *stand still, you're being judged, you're beautiful* — and suddenly discovered he was great at it. At one Ukrainian show, he won "best cat of his sex." The panic didn't disappear entirely, but it became manageable. He learned the rules — and started using them.
 
-**Sebastian's official show path to GIC:**
+**Sebastian's official show path to GICH:**
 
 | Title Level | City | WCF Region | Judge | Country |
 |---|---|---|---|---|
 | CH | Kryvyi Rih | Region 10 | Tomas (Lithuania) | Ukraine |
 | CH | Kryvyi Rih | Region 10 | Tetyana Dyachuk (Ukraine) | Ukraine |
 | CH | Kyiv | Region 20 | Christopher (Poland) | Ukraine |
-| IC | Kyiv | Region 20 | Alina Ingor (Bulgaria) | Ukraine |
-| IC | Odesa | Region 40 | Eva Kalman (Hungary) | Ukraine |
-| IC | Odesa | Region 40 | Mariana Tarasova (Ukraine) | Ukraine |
-| GIC | Vinnytsia | Region 50 | Tomas (Lithuania) | Ukraine |
-| GIC | Vinnytsia | Region 50 | Tetyana Dyachuk (Ukraine) | Ukraine |
-| GIC | Varna | International | Alina Ingor (Bulgaria) | **Bulgaria** |
+| ICH | Kyiv | Region 20 | Alina Ingor (Bulgaria) | Ukraine |
+| ICH | Odesa | Region 40 | Eva Kalman (Hungary) | Ukraine |
+| ICH | Odesa | Region 40 | Mariana Tarasova (Ukraine) | Ukraine |
+| GICH | Vinnytsia | Region 50 | Tomas (Lithuania) | Ukraine |
+| GICH | Vinnytsia | Region 50 | Tetyana Dyachuk (Ukraine) | Ukraine |
+| GICH | Varna | International | Alina Ingor (Bulgaria) | **Bulgaria** |
 
 Three title levels. Nine evaluations. Six different judges. Five cities. Two countries. A year and a half.
 
@@ -73,25 +84,25 @@ But shows are about consistency under any conditions. And it's exactly that fine
 
 The ring results reflect this. Not for lack of quality — her structure, profile, coat are exceptional, and judges acknowledged it. But judges evaluate the cat as a whole, including composure under pressure.
 
-**Simona's official show path to GIC:**
+**Simona's official show path to GICH:**
 
 | Title Level | City | WCF Region | Judge | Country |
 |---|---|---|---|---|
 | CH | Ternopil | Region 50 | Inna Ingor (Bulgaria) | Ukraine |
 | CH | Ternopil | Region 50 | Tetyana Dyachuk (Ukraine) | Ukraine |
 | CH | Kryvyi Rih | Region 10 | Tomas (Lithuania) | Ukraine |
-| IC | Kyiv | Region 20 | Inna Ingor (Bulgaria) | Ukraine |
-| IC | Kyiv | Region 20 | Christopher (Poland) | Ukraine |
-| IC | Odesa | Region 40 | Mariana Tarasova (Ukraine) | Ukraine |
-| GIC | Vinnytsia | Region 50 | Tomas (Lithuania) | Ukraine |
-| GIC | Vinnytsia | Region 50 | Tetyana Dyachuk (Ukraine) | Ukraine |
-| GIC | Varna | International | Inna Ingor (Bulgaria) | **Bulgaria** |
+| ICH | Kyiv | Region 20 | Inna Ingor (Bulgaria) | Ukraine |
+| ICH | Kyiv | Region 20 | Christopher (Poland) | Ukraine |
+| ICH | Odesa | Region 40 | Mariana Tarasova (Ukraine) | Ukraine |
+| GICH | Vinnytsia | Region 50 | Tomas (Lithuania) | Ukraine |
+| GICH | Vinnytsia | Region 50 | Tetyana Dyachuk (Ukraine) | Ukraine |
+| GICH | Varna | International | Inna Ingor (Bulgaria) | **Bulgaria** |
 
 Same structure as Seba's — because the WCF system requires it. Same regions, same geography, same final step abroad in Bulgaria. Two cats, two temperaments, one standard of proof.
 
 ## The Real Cost
 
-GIC costs between €4,000 and €6,500 total. One show in Ukraine — minimum €450. Abroad — minimum €1,400 per show (travel, accommodation, entry).
+GICH costs between €4,000 and €6,500 total. One show in Ukraine — minimum €450. Abroad — minimum €1,400 per show (travel, accommodation, entry).
 
 **One show, two cats (approximate):**
 
@@ -138,9 +149,9 @@ And another paradox that never stopped surprising us: everyone expected Simona �
 
 ## Questions and Answers
 
-**What does GIC specifically prove that a regular Champion doesn't?**
+**What does GICH specifically prove that a regular Champion doesn't?**
 
-The Champion title can be earned in one country, from 2–3 judges in one WCF region, with no international evaluation. GIC requires 9 evaluations from 6 different judges in 3 WCF regions and 2 countries — meaning the cat's structure, head shape, body proportions, coat quality, and temperament were independently confirmed outside its home country. When you buy a kitten from a father or mother with the GIC title, you get a documented genetic starting point, verified to an international standard. The judges' evaluation sheets — that's the documentation. A Champion can't deliver that.
+The Champion title can be earned in one country, from 2–3 judges in one WCF region, with no international evaluation. GICH requires 9 evaluations from 6 different judges in 3 WCF regions and 2 countries — meaning the cat's structure, head shape, body proportions, coat quality, and temperament were independently confirmed outside its home country. When you buy a kitten from a father or mother with the GICH title, you get a documented genetic starting point, verified to an international standard. The judges' evaluation sheets — that's the documentation. A Champion can't deliver that.
 
 **Why does behavior matter more than color at shows?**
 
@@ -150,11 +161,11 @@ Because judges evaluate the whole cat, not just looks. An Oriental who holds the
 
 A WCF title requires signed evaluation sheets from certified judges with no connection to the breeder. Each certificate carries the judge's name, country, WCF region, and the cat's score. It's verifiable. "Best kitten of our cattery" or similar — has no external verification. A breeder can grant that to any cat. Ask for the judges' evaluation sheets. If they exist — they'll be shown.
 
-**Why does GIC require judges from 2 different countries?**
+**Why does GICH require judges from 2 different countries?**
 
 Because the emphasis in breed standards can vary by country and by judging culture. An international certificate means the cat was evaluated outside its home country — by a judge with no local connection to the breeder. It's WCF's quality control mechanism for the highest title level.
 
-**How long did your road to GIC actually take?**
+**How long did your road to GICH actually take?**
 
 Minimum time depends on show schedules and region availability. For Floriente, 1.5 years was a realistic timeframe: 7 shows in 6 cities, one international trip, certificates from 6 judges across 3 WCF regions. The system is designed to take time. Titles that appear quickly, come from only one country, or are signed by the same 2–3 judges — deserve questions.
 

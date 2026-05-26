@@ -20,7 +20,7 @@ Die WCF — World Cat Federation — ist die größte internationale Organisatio
 
 **Bestätigte Dokumente.** Jedes Kätzchen, das in einer registrierten Zucht geboren wird, erhält eine Geburtsurkunde — ein offizielles Dokument mit Vereinsnummer. Auf Wunsch des Besitzers und gegen eine zusätzliche Gebühr kann ein vollständiger Stammbaum bestellt werden (ein Dokument, das 3–5 Generationen von Vorfahren umfasst), mit Namen, Titeln und Registrierungsnummern. Das ist kein Zertifikat „rassig aussehend". Das ist ein nachvollziehbarer Eintrag.
 
-**Nachverfolgbare Blutlinie.** Der Stammbaum verbindet Ihr Kätzchen mit einer internationalen Datenbank. Jedes Zuchttier in dieser Linie ist bewertet und registriert. Wenn ein Vorfahre Champion oder Grand Inter-Champion war, steht dieser Titel im Dokument — mit Ausstellungen, Richtern und Zertifikaten dahinter.
+**Nachverfolgbare Blutlinie.** Der Stammbaum verbindet Ihr Kätzchen mit einer internationalen Datenbank. Jedes Zuchttier in dieser Linie ist bewertet und registriert. Wenn ein Vorfahre Champion oder Grand International Champion war, steht dieser Titel im Dokument — mit Ausstellungen, Richtern und Zertifikaten dahinter.
 
 **Verbindliche Standards der Zuchtarbeit.** Die WCF legt Regeln fest, die nicht umgangen werden können. Ein Zuchtkater muss mindestens den Champion-Titel tragen — das ist keine Empfehlung, das ist eine harte Norm. Eine Zuchtkatze muss auf mindestens einer Ausstellung von einem Richter bewertet worden sein. Ein Kater ohne Ausstellungstitel darf rechtlich keine Kätzchen mit registriertem WCF-Stammbaum produzieren.
 
@@ -30,26 +30,26 @@ Die WCF — World Cat Federation — ist die größte internationale Organisatio
 
 WCF-Titel sind keine Ehrenauszeichnungen. Jeder Titel erfordert eine bestimmte Anzahl an Zertifikaten, unabhängigen Richterbewertungen und Auftritten in klar definierten geografischen Regionen. So sieht diese Leiter aus:
 
-| Titel | Erforderliche Zertifikate | Richter | Geografische Anforderung |
-|---|---|---|---|
-| Champion (CH) | 3 | 3 verschiedene Richter | 1 Land, mindestens 95 Punkte |
-| International Champion (IC) | 3 | 3 verschiedene Richter | 2 verschiedene Regionen |
-| Grand Inter-Champion (GIC) | 3 | mindestens 3 Richter | 2 verschiedene Länder |
-| European Champion (EC) | 3 | 3 verschiedene Richter | 3 verschiedene Länder, Wettkampfniveau Europa |
-| Grand European Champion (GEC) | 3 | mindestens 3 Richter | 3 verschiedene Länder, Wettkampfniveau Europa |
-| World Champion (WC) | 3 | 3 verschiedene Richter | 3 Länder, 2 Kontinente, 98 Punkte |
+| Katzenklasse | Titel | Abkürzung | Anzahl Zertifikate | Richteranforderungen | Geografische Anforderungen | Min. Punkte |
+|---|---|---|---|---|---|---|
+| Adult (Erwachsene) | Champion | CH | 3 × CAC | 3 verschiedene Richter | Innerhalb eines Landes | 93 |
+| Adult (Erwachsene) | International Champion | ICH (Int.Ch.) | 3 × CACIB | 3 verschiedene Richter | 2 verschiedene Länder/Regionen | 95 |
+| Adult (Erwachsene) | Grand International Champion | GICH (Gr.Int.Ch.) | 3 × CAGCIB | 3 verschiedene Richter | 2 verschiedene Länder | 97 |
+| Adult (Erwachsene) | European Champion | ECH (Eu.Ch.) | 3 × CACE | 3 verschiedene Richter | 3 verschiedene Länder | 97 |
+| Adult (Erwachsene) | Grand European Champion | GECH (Gr.Eu.Ch.) | 3 × GCACE | 3 verschiedene Richter | 3 verschiedene Länder | 97 |
+| Adult (Erwachsene) | World Champion | WCH (W.Ch.) | 3 × CACM | 3 verschiedene Richter | 3 verschiedene Länder (eines auf einem anderen Kontinent) | 98 |
 
 Ein Richter darf pro Ausstellungstag nur ein einziges Zertifikat in jeder Farb- und Altersgruppe vergeben. Ein Tag — eine mögliche Bewertung. Eine zweitägige Ausstellung — maximal zwei Zertifikate.
 
-Wichtige Präzisierung: GIC ist ein kumulativer Titel, der voraussetzt, dass die gesamte Leiter Schritt für Schritt durchlaufen wird. Eine Katze kann den GIC nicht direkt erhalten. Der Weg lautet: zunächst Champion (3 Zertifikate von 3 verschiedenen Richtern), dann International Champion (weitere 3 Zertifikate), schließlich Grand Inter-Champion (weitere 3 Zertifikate) — in 2 verschiedenen Ländern.
+Wichtige Präzisierung: GICH ist ein kumulativer Titel, der voraussetzt, dass die gesamte Leiter Schritt für Schritt durchlaufen wird. Eine Katze kann den GICH nicht direkt erhalten. Der Weg lautet: zunächst Champion (3 Zertifikate von 3 verschiedenen Richtern), dann International Champion (weitere 3 Zertifikate), schließlich Grand International Champion (weitere 3 Zertifikate) — in 2 verschiedenen Ländern.
 
-In der Praxis bedeutet das etwa 6 Reisen zu verschiedenen Ausstellungsorten, rund 2 Jahre aktive Ausstellungsarbeit und erhebliche Kosten: etwa 450 EUR pro Ausstellung in der Ukraine, mindestens 900+ EUR pro Ausstellung im Ausland. Realer Budgetrahmen für den Weg zum GIC — 3 700–6 500 EUR. Sebastian von Floriente trägt aktuell den GIC-Titel.
+In der Praxis bedeutet das etwa 6 Reisen zu verschiedenen Ausstellungsorten, rund 2 Jahre aktive Ausstellungsarbeit und erhebliche Kosten: etwa 450 EUR pro Ausstellung in der Ukraine, mindestens 900+ EUR pro Ausstellung im Ausland. Realer Budgetrahmen für den Weg zum GICH — 3 700–6 500 EUR. Sebastian von Floriente trägt aktuell den GICH-Titel.
 
 Das ist kein Titel, den man kauft. Das ist ein Titel, den man verdient — Ausstellung für Ausstellung, Richter für Richter, über Grenzen hinweg.
 
 Zum Kontext: Für einen Züchter ist die Ausstellungsarbeit ein teures Hobby, das die Ausgaben deckt, aber keinen Gewinn bringt. Der Verkauf von Kätzchen kompensiert weder die Kosten für Weiterbildung, Ausstellungen, Futter, Impfungen, Vereinsbeiträge noch für Dokumentation. Mit ein bis zwei Zuchtkatzen kommt eine Zucht auf null heraus; Gewinn beginnt erst ab 3–4 Katzen bei regelmäßigen Würfen.
 
-Wie sah dieser Weg für Sebastian aus — Ausstellungen, Rückschläge, Richter — lesen Sie in [#13: Der Weg zum GIC →](#).
+Wie sah dieser Weg für Sebastian aus — Ausstellungen, Rückschläge, Richter — lesen Sie in [#13: Der Weg zum GICH →](#).
 
 ## Wie überprüft man es in 30 Sekunden?
 
@@ -73,7 +73,7 @@ Die WCF ist nicht die einzige internationale Organisation. Wer die Unterschiede 
 | Dimension | WCF | TICA | FIFe | CFA |
 |---|---|---|---|---|
 | Registrierungssystem | Register für Zuchten und Tiere, 80+ Länder | Globales Register für Tiere und Zuchten | Föderation nationaler felinologischer Vereine | Sitz in den USA, globales System |
-| Titelsystem | CH → IC → GIC → EC → GEC → WC | Punktesystem + Ring-Finale | Internationales Titelsystem (EMS) | CH → GCH → DGCH → TGCH → QGCH → SGC |
+| Titelsystem | CH → ICH → GICH → ECH → GECH → WCH | Punktesystem + Ring-Finale | Internationales Titelsystem (EMS) | CH → GCH → DGCH → TGCH → QGCH → SGC |
 | Bewertungsansatz | Bewertung nach Standard, schriftlicher Bericht | Ringe, vergleichende Bewertung | Standardisierte EMS-Codes | Ringe, Finale, Wettbewerb |
 | Geografische Abdeckung | Europa, Osteuropa, Asien, Lateinamerika | Globales System, 70+ Rassen | Überwiegend Europa, 48 Rassen | USA, Kanada + internationale Ausstellungen |
 
@@ -115,13 +115,13 @@ CAC (Certificat d'Aptitude au Championnat) ist ein individuelles Zertifikat, das
 
 Zertifikate lokaler Vereine sind international nicht überprüfbar. Sie können innerhalb des Vereinssystems ihres Landes völlig legitim sein — aber Sie können sie nicht auf wcf.de überprüfen. Die Schlüsselfrage: Ist diese Zucht in der WCF-Datenbank? Wenn nicht, sind die von ihr ausgestellten Stammbäume nicht international verifiziert.
 
-**Wie viel kostet es einen Züchter, den GIC-Titel zu erhalten?**
+**Wie viel kostet es einen Züchter, den GICH-Titel zu erhalten?**
 
-Der Weg von Champion über International Champion zum Grand Inter-Champion ist kumulativ und erfordert 9 Zertifikate in 3 Etappen (je 3 pro Stufe), mindestens in 2 Ländern. Das sind etwa 6 Ausstellungen, etwa 2 Jahre aktive Arbeit. Eine Ausstellung in der Ukraine — etwa 450 EUR. Im Ausland — mindestens 900+ EUR (Anreise, Unterkunft, Gebühren). Gesamtbudget — mindestens 3 000–3 500 EUR.
+Der Weg von Champion über International Champion zum Grand International Champion ist kumulativ und erfordert 9 Zertifikate in 3 Etappen (je 3 pro Stufe), mindestens in 2 Ländern. Das sind etwa 6 Ausstellungen, etwa 2 Jahre aktive Arbeit. Eine Ausstellung in der Ukraine — etwa 450 EUR. Im Ausland — mindestens 900+ EUR (Anreise, Unterkunft, Gebühren). Gesamtbudget — mindestens 3 000–3 500 EUR.
 
 ## Wie geht es weiter
 
 Sie können die Zucht Floriente sofort überprüfen: wcf.de, Registrierungsnummer 50188-2025. Unser aktueller Wurf mit verifizierten Stammbäumen und Titeln — [florientecattery.com/de/kitten](/de/kitten/).
 
-- Lesen Sie [#13: Der Weg zum GIC →](#) — Ausstellung für Ausstellung Sebastians Weg zum Titel Grand Inter-Champion: Richter, Regionen, Reisejahre.
+- Lesen Sie [#13: Der Weg zum GICH →](#) — Ausstellung für Ausstellung Sebastians Weg zum Titel Grand International Champion: Richter, Regionen, Reisejahre.
 - Sehen Sie sich [Unsere Katzen →](/de/unsere-katzen/) an — Sebastian, Sima und Halva: ihre Titel, Stammbäume und Rolle im Zuchtprogramm.

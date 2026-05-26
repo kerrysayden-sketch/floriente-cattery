@@ -51,7 +51,7 @@ Brak pisemnej umowy — brak transakcji. Umowa powinna obejmować gwarancje zdro
 Hodowcy lubią wspominać o tytułach. Champion, Grand Champion, International Champion — każdy zdobywany na oficjalnych wystawach ocenianych przez licencjonowanych sędziów. Proś o dowody. Tytuły to informacja publiczna.
 
 <div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
-<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Sebastian i Simona — Grand Inter-Champions (GIC), World Cat Federation. Zdjęcia z wystaw i certyfikaty na naszej stronie.</p>
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Sebastian i Simona — Grand International Champions (GICH), World Cat Federation. Zdjęcia z wystaw i certyfikaty na naszej stronie.</p>
 </div>
 
 ### 6. Szukaj prawdziwych opinii

@@ -30,26 +30,26 @@ WCF — World Cat Federation — największa międzynarodowa organizacja rejestr
 
 Tytuły WCF nie są honorowe. Każdy wymaga określonej liczby certyfikatów, określonej liczby niezależnych sędziów i występów w ściśle określonych regionach geograficznych. Oto jak wygląda ta drabina:
 
-| Tytuł | Wymagane certyfikaty | Sędziowie | Wymóg geograficzny |
-|---|---|---|---|
-| Champion (CH) | 3 | 3 różnych sędziów | 1 kraj, minimum 95 punktów |
-| Inter-Champion (IC) | 3 | 3 różnych sędziów | 2 różne regiony |
-| Grand Inter-Champion (GIC) | 3 | minimum 3 sędziów | 2 różne kraje |
-| European Champion (EC) | 3 | 3 różnych sędziów | 3 różne kraje, poziom europejski |
-| Grand European Champion (GEC) | 3 | minimum 3 sędziów | 3 różne kraje, poziom europejski |
-| World Champion (WC) | 3 | 3 różnych sędziów | 3 kraje, 2 kontynenty, 98 punktów |
+| Klasa kotów | Nazwa tytułu | Skrót | Liczba certyfikatów | Wymagania wobec sędziów | Wymagania geograficzne | Min. punkty |
+|---|---|---|---|---|---|---|
+| Adult (Dorośli) | Champion | CH | 3 × CAC | 3 różnych sędziów | W obrębie jednego kraju | 93 |
+| Adult (Dorośli) | International Champion | ICH (Int.Ch.) | 3 × CACIB | 3 różnych sędziów | 2 różne kraje/regiony | 95 |
+| Adult (Dorośli) | Grand International Champion | GICH (Gr.Int.Ch.) | 3 × CAGCIB | 3 różnych sędziów | 2 różne kraje | 97 |
+| Adult (Dorośli) | European Champion | ECH (Eu.Ch.) | 3 × CACE | 3 różnych sędziów | 3 różne kraje | 97 |
+| Adult (Dorośli) | Grand European Champion | GECH (Gr.Eu.Ch.) | 3 × GCACE | 3 różnych sędziów | 3 różne kraje | 97 |
+| Adult (Dorośli) | World Champion | WCH (W.Ch.) | 3 × CACM | 3 różnych sędziów | 3 różne kraje (jeden na innym kontynencie) | 98 |
 
 Jeden sędzia może wystawić tylko jeden certyfikat w każdej grupie kolorystycznej/wiekowej w ciągu jednego dnia wystawy. Jeden dzień — jedna potencjalna ocena. Wystawa dwudniowa — maksymalnie 2 certyfikaty.
 
-Ważne doprecyzowanie: GIC to tytuł kumulatywny, wymagający przejścia wszystkich szczebli po kolei. Kot nie może otrzymać GIC od razu. Droga jest taka: najpierw Champion (3 certyfikaty od 3 różnych sędziów), potem Inter-Champion (kolejne 3 certyfikaty), następnie Grand Inter-Champion (jeszcze 3 certyfikaty) — w 2 różnych krajach.
+Ważne doprecyzowanie: GICH to tytuł kumulatywny, wymagający przejścia wszystkich szczebli po kolei. Kot nie może otrzymać GICH od razu. Droga jest taka: najpierw Champion (3 certyfikaty od 3 różnych sędziów), potem International Champion (kolejne 3 certyfikaty), następnie Grand International Champion (jeszcze 3 certyfikaty) — w 2 różnych krajach.
 
-W praktyce oznacza to około 6 wyjazdów do różnych lokalizacji wystawowych, około 2 lat aktywnej pracy wystawowej i poważne wydatki: około €450 za wystawę w Ukrainie, minimum €900+ za wystawę za granicą. Realny budżet drogi do GIC — €3 700–6 500. Sebastian z hodowli Floriente posiada obecnie tytuł GIC.
+W praktyce oznacza to około 6 wyjazdów do różnych lokalizacji wystawowych, około 2 lat aktywnej pracy wystawowej i poważne wydatki: około €450 za wystawę w Ukrainie, minimum €900+ za wystawę za granicą. Realny budżet drogi do GICH — €3 700–6 500. Sebastian z hodowli Floriente posiada obecnie tytuł GICH.
 
 To nie tytuł, który się kupuje. To tytuł, który się zarabia — wystawa po wystawie, sędzia po sędzi, przez granice.
 
 Kontekst: dla hodowcy praca wystawowa to drogie hobby, które pokrywa wydatki, a nie przynosi zysku. Sprzedaż kociąt nie pokrywa kosztów szkolenia, wystaw, karmy, szczepień, składek klubowych i dokumentacji. Z jednej-dwóch kotek hodowlanych hodowla wychodzi na zero; zysk zaczyna się dopiero od 3–4 kotek przy stałych miotach.
 
-Jak wyglądała ta droga dla Sebastiana — wystawa po wystawie, sędziowie, regiony — czytaj w [#13: Droga do GIC →](#).
+Jak wyglądała ta droga dla Sebastiana — wystawa po wystawie, sędziowie, regiony — czytaj w [#13: Droga do GICH →](#).
 
 ## Jak sprawdzić w 30 sekund
 
@@ -73,7 +73,7 @@ WCF to nie jedyna międzynarodowa organizacja. Zrozumienie różnic pomaga czyta
 | Wymiar | WCF | TICA | FIFe | CFA |
 |---|---|---|---|---|
 | System rejestracji | Rejestr hodowli + zwierząt, 80+ krajów | Globalny rejestr zwierząt | Federacja krajowych klubów felinologicznych | Dominuje w Ameryce Północnej |
-| System tytułów | CH → IC → GIC → EC → GEC → WC | Punktowy + finały ringowe | EMS — międzynarodowy system kodowania | Sztywna drabina, limit nazwy 12 znaków |
+| System tytułów | CH → ICH → GICH → ECH → GECH → WCH | Punktowy + finały ringowe | EMS — międzynarodowy system kodowania | Sztywna drabina, limit nazwy 12 znaków |
 | Podejście do oceny | Punkty 95–98, pisemna ocena | Ringi wszystkich ras, ocena porównawcza | Standaryzowane kody EMS | Konserwatywne standardy, 45 uznanych ras |
 | Zasięg geograficzny | Europa, Europa Wschodnia, Azja, Ameryka Łacińska | Globalnie, 70+ ras | Przeważnie Europa, 48 ras | Przeważnie USA i Kanada |
 
@@ -115,7 +115,7 @@ CAC (Certificat d'Aptitude au Championnat) — indywidualny certyfikat wydawany 
 
 Certyfikaty lokalnych klubów nie są weryfikowalne międzynarodowo. Mogą być całkowicie legalne w obrębie systemu klubowego ich kraju — ale nie sprawdzisz ich na wcf.de. Kluczowe pytanie: czy ta hodowla jest w bazie WCF? Jeśli nie, wydane przez nią rodowody nie są zweryfikowane międzynarodowo.
 
-**Ile kosztuje hodowcę uzyskanie tytułu GIC?**
+**Ile kosztuje hodowcę uzyskanie tytułu GICH?**
 
 Droga od Championa do Inter-Championa do Grand Inter-Championa jest kumulatywna i wymaga 9 certyfikatów w 3 etapach (po 3 na każdy poziom), minimum w 2 krajach. To około 6 wystaw, około 2 lat aktywnej pracy. Jedna wystawa w Ukrainie — około €450. Za granicą — minimum €900+ (przejazd, zakwaterowanie, opłaty). Łączny budżet — minimum €3 000–3 500.
 
@@ -123,5 +123,5 @@ Droga od Championa do Inter-Championa do Grand Inter-Championa jest kumulatywna 
 
 Możesz sprawdzić hodowlę Floriente już teraz: wcf.de, numer rejestracji 50188-2025. Nasz aktualny miot ze zweryfikowanymi rodowodami i tytułami — [florientecattery.com/pl/kocieta/](/pl/kocieta/).
 
-- Czytaj [#13: Droga do GIC →](#) — wystawa po wystawie szlak do tytułu Grand Inter-Champion Sebastiana: sędziowie, regiony, lata podróży.
+- Czytaj [#13: Droga do GICH →](#) — wystawa po wystawie szlak do tytułu Grand International Champion Sebastiana: sędziowie, regiony, lata podróży.
 - Zobacz [Nasze koty →](/pl/nasze-koty/) — Sebastian, Sima i Halva: ich tytuły, rodowody i rola w programie hodowlanym.

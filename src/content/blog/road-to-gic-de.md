@@ -1,20 +1,31 @@
 ---
 articleSlug: "road-to-gic"
 lang: "de"
-title: "Sebastian und Simona: Unser Weg zum Grand Inter-Champion"
-description: "Grand Inter-Champion erfordert 9 Bewertungen von 6 Richtern in 2 Ländern. Sebastians und Simonas vollständiger Weg — Städte, Richter, Kosten und was es für Ihr Kätzchen bedeutet."
+title: "Sebastian und Simona: Unser Weg zum Grand International Champion"
+description: "Grand International Champion erfordert 9 Bewertungen von 6 Richtern in 2 Ländern. Sebastians und Simonas vollständiger Weg — Städte, Richter, Kosten und was es für Ihr Kätzchen bedeutet."
 category: "Käuferleitfaden"
 publishDate: "2026-05-13"
 ogImage: "/images/cats/sebastian-main.webp"
 ---
 
-Grand Inter-Champion erfordert 9 Bewertungen von 6 verschiedenen Richtern in 2 Ländern. Wir brauchten 1,5 Jahre, 7 Ausstellungen (zu je 2 Tagen) und mehr als 6 500 EUR. So sah es aus — und was das für Ihr Kätzchen bedeutet.
+Grand International Champion erfordert 9 Bewertungen von 6 verschiedenen Richtern in 2 Ländern. Wir brauchten 1,5 Jahre, 7 Ausstellungen (zu je 2 Tagen) und mehr als 6 500 EUR. So sah es aus — und was das für Ihr Kätzchen bedeutet.
 
-## Was für den GIC tatsächlich erforderlich ist
+## Was für den GICH tatsächlich erforderlich ist
 
 Wenn Sie eine Ausstellungsauszeichnung auf der Seite eines Züchters sehen, denken Sie zuerst an ein schönes Foto, eine schöne Trophäe. In Wirklichkeit ist das System so aufgebaut, dass das äußere Bild von der eigentlichen Zertifizierung getrennt ist — und das Verständnis dieses Unterschieds ist wichtig.
 
-Im System der WCF — der World Cat Federation, unter deren Schirm Floriente Cattery registriert ist — lässt sich Grand Inter-Champion nicht kaufen, nicht erben und nicht von einer einzelnen Person erhalten. Er entsteht Zertifikat für Zertifikat, Richter für Richter, Region für Region.
+Hier ist die vollständige Titelleiter der WCF für erwachsene Katzen:
+
+| Katzenklasse | Titel | Abkürzung | Anzahl Zertifikate | Richteranforderungen | Geografische Anforderungen | Min. Punkte |
+|---|---|---|---|---|---|---|
+| Adult (Erwachsene) | Champion | CH | 3 × CAC | 3 verschiedene Richter | Innerhalb eines Landes | 93 |
+| Adult (Erwachsene) | International Champion | ICH (Int.Ch.) | 3 × CACIB | 3 verschiedene Richter | 2 verschiedene Länder/Regionen | 95 |
+| Adult (Erwachsene) | Grand International Champion | GICH (Gr.Int.Ch.) | 3 × CAGCIB | 3 verschiedene Richter | 2 verschiedene Länder | 97 |
+| Adult (Erwachsene) | European Champion | ECH (Eu.Ch.) | 3 × CACE | 3 verschiedene Richter | 3 verschiedene Länder | 97 |
+| Adult (Erwachsene) | Grand European Champion | GECH (Gr.Eu.Ch.) | 3 × GCACE | 3 verschiedene Richter | 3 verschiedene Länder | 97 |
+| Adult (Erwachsene) | World Champion | WCH (W.Ch.) | 3 × CACM | 3 verschiedene Richter | 3 verschiedene Länder (eines auf einem anderen Kontinent) | 98 |
+
+Im System der WCF — der World Cat Federation, unter deren Schirm Floriente Cattery registriert ist — lässt sich Grand International Champion nicht kaufen, nicht erben und nicht von einer einzelnen Person erhalten. Er entsteht Zertifikat für Zertifikat, Richter für Richter, Region für Region.
 
 Die Anforderungen sind genau definiert:
 
@@ -23,7 +34,7 @@ Die Anforderungen sind genau definiert:
 - **3+ WCF-Regionen** — die Bewertungen müssen aus verschiedenen geografischen Zonen stammen
 - **2+ Länder** — mindestens ein internationales Zertifikat, also eine Auslandsreise
 
-Jede Titelstufe ist eine eigene Hürde. Um den GIC zu erreichen, muss eine Katze zuerst Champion (CH), dann Inter-Champion (IC) und erst danach Grand Inter-Champion (GIC) werden. Schritte werden nicht übersprungen. Zertifikate einer niedrigeren Stufe werden nicht übertragen. Jede Bewertung ist einem bestimmten Richter, einer bestimmten Stadt, einem bestimmten Datum zugeordnet.
+Jede Titelstufe ist eine eigene Hürde. Um den GICH zu erreichen, muss eine Katze zuerst Champion (CH), dann International Champion (ICH) und erst danach Grand International Champion (GICH) werden. Schritte werden nicht übersprungen. Zertifikate einer niedrigeren Stufe werden nicht übertragen. Jede Bewertung ist einem bestimmten Richter, einer bestimmten Stadt, einem bestimmten Datum zugeordnet.
 
 Der unterzeichnete Richterbericht — keine Rosette, kein Foto — ist der einzige Beweis, dass ein Zertifikat existiert. Wenn ein Züchter Titel deklariert, aber keine Bewertungsformulare der Richter zeigen kann — gibt es diese Titel nicht.
 
@@ -37,19 +48,19 @@ Die erste Ausstellung: Er hatte noch nie in einem Käfig gesessen. Nach wenigen 
 
 Bei der dritten Ausstellung änderte sich etwas. Er verstand, was von ihm erwartet wird — *steh ruhig, du wirst bewertet, du bist schön* — und entdeckte plötzlich, dass er gut darin ist. Auf einer der ukrainischen Ausstellungen gewann er „Beste Katze seines Geschlechts". Die Panik verschwand nicht ganz, aber sie wurde kontrollierbar. Er lernte die Regeln — und begann, sie zu nutzen.
 
-**Sebastians offizieller Ausstellungsweg zum GIC:**
+**Sebastians offizieller Ausstellungsweg zum GICH:**
 
 | Titelstufe | Stadt | WCF-Region | Richter | Land |
 |---|---|---|---|---|
 | CH | Krywyj Rih | Region 10 | Tomas (Litauen) | Ukraine |
 | CH | Krywyj Rih | Region 10 | Tetjana Djatschuk (Ukraine) | Ukraine |
 | CH | Kiew | Region 20 | Christopher (Polen) | Ukraine |
-| IC | Kiew | Region 20 | Alina Ingor (Bulgarien) | Ukraine |
-| IC | Odessa | Region 40 | Eva Kalman (Ungarn) | Ukraine |
-| IC | Odessa | Region 40 | Mariana Tarasowa (Ukraine) | Ukraine |
-| GIC | Winnyzja | Region 50 | Tomas (Litauen) | Ukraine |
-| GIC | Winnyzja | Region 50 | Tetjana Djatschuk (Ukraine) | Ukraine |
-| GIC | Warna | International | Alina Ingor (Bulgarien) | **Bulgarien** |
+| ICH | Kiew | Region 20 | Alina Ingor (Bulgarien) | Ukraine |
+| ICH | Odessa | Region 40 | Eva Kalman (Ungarn) | Ukraine |
+| ICH | Odessa | Region 40 | Mariana Tarasowa (Ukraine) | Ukraine |
+| GICH | Winnyzja | Region 50 | Tomas (Litauen) | Ukraine |
+| GICH | Winnyzja | Region 50 | Tetjana Djatschuk (Ukraine) | Ukraine |
+| GICH | Warna | International | Alina Ingor (Bulgarien) | **Bulgarien** |
 
 Drei Titelstufen. Neun Bewertungen. Sechs verschiedene Richter. Fünf Städte. Zwei Länder. Anderthalb Jahre.
 
@@ -73,25 +84,25 @@ Aber Ausstellungen — sie verlangen Stabilität unter allen Bedingungen. Und ge
 
 Die Ergebnisse in den Ringen spiegeln das wider. Nicht aus Mangel an Qualität — ihre Struktur, ihr Profil, ihr Fell sind außergewöhnlich, und die Richter haben das bestätigt. Aber Richter bewerten eine Katze ganzheitlich, einschließlich der Belastbarkeit unter Druck.
 
-**Simonas offizieller Ausstellungsweg zum GIC:**
+**Simonas offizieller Ausstellungsweg zum GICH:**
 
 | Titelstufe | Stadt | WCF-Region | Richter | Land |
 |---|---|---|---|---|
 | CH | Ternopil | Region 50 | Inna Ingor (Bulgarien) | Ukraine |
 | CH | Ternopil | Region 50 | Tetjana Djatschuk (Ukraine) | Ukraine |
 | CH | Krywyj Rih | Region 10 | Tomas (Litauen) | Ukraine |
-| IC | Kiew | Region 20 | Inna Ingor (Bulgarien) | Ukraine |
-| IC | Kiew | Region 20 | Christopher (Polen) | Ukraine |
-| IC | Odessa | Region 40 | Mariana Tarasowa (Ukraine) | Ukraine |
-| GIC | Winnyzja | Region 50 | Tomas (Litauen) | Ukraine |
-| GIC | Winnyzja | Region 50 | Tetjana Djatschuk (Ukraine) | Ukraine |
-| GIC | Warna | International | Inna Ingor (Bulgarien) | **Bulgarien** |
+| ICH | Kiew | Region 20 | Inna Ingor (Bulgarien) | Ukraine |
+| ICH | Kiew | Region 20 | Christopher (Polen) | Ukraine |
+| ICH | Odessa | Region 40 | Mariana Tarasowa (Ukraine) | Ukraine |
+| GICH | Winnyzja | Region 50 | Tomas (Litauen) | Ukraine |
+| GICH | Winnyzja | Region 50 | Tetjana Djatschuk (Ukraine) | Ukraine |
+| GICH | Warna | International | Inna Ingor (Bulgarien) | **Bulgarien** |
 
 Dieselbe Struktur wie bei Seba — denn das WCF-System verlangt es so. Dieselben Regionen, dieselbe Geografie, derselbe finale Schritt im Ausland in Bulgarien. Zwei Katzen, zwei Temperamente, ein Standard des Beweises.
 
 ## Die wirklichen Kosten
 
-Der GIC-Titel kostet insgesamt zwischen 4 000 und 6 500 EUR. Eine Ausstellung in der Ukraine — mindestens 450 EUR. Im Ausland — mindestens 1 400 EUR pro Ausstellung (An- und Abreise, Unterkunft, Teilnahme).
+Der GICH-Titel kostet insgesamt zwischen 4 000 und 6 500 EUR. Eine Ausstellung in der Ukraine — mindestens 450 EUR. Im Ausland — mindestens 1 400 EUR pro Ausstellung (An- und Abreise, Unterkunft, Teilnahme).
 
 **Eine Ausstellung, zwei Katzen (ungefähre Werte):**
 
@@ -138,9 +149,9 @@ Und noch ein Paradox, das uns nicht aufgehört hat zu erstaunen: Alle erwarteten
 
 ## Häufig gestellte Fragen
 
-**Was beweist der GIC konkret, was ein gewöhnlicher Champion nicht beweist?**
+**Was beweist der GICH konkret, was ein gewöhnlicher Champion nicht beweist?**
 
-Den Champion-Titel kann man in einem einzigen Land erhalten, von 2–3 Richtern in einer einzigen WCF-Region, ohne jede internationale Bewertung. Der GIC verlangt 9 Bewertungen von 6 verschiedenen Richtern in 3 WCF-Regionen und 2 Ländern — das heißt, die Struktur der Katze, die Kopfform, die Körperproportionen, die Fellqualität und das Temperament wurden unabhängig außerhalb des Heimatlandes bestätigt. Wenn Sie ein Kätzchen von einem Vater oder einer Mutter mit GIC-Titel kaufen, erhalten Sie einen dokumentierten genetischen Ausgangspunkt, der nach internationalem Standard geprüft ist. Die Bewertungsformulare der Richter — das ist die Dokumentation. Der Champion kann das nicht liefern.
+Den Champion-Titel kann man in einem einzigen Land erhalten, von 2–3 Richtern in einer einzigen WCF-Region, ohne jede internationale Bewertung. Der GICH verlangt 9 Bewertungen von 6 verschiedenen Richtern in 3 WCF-Regionen und 2 Ländern — das heißt, die Struktur der Katze, die Kopfform, die Körperproportionen, die Fellqualität und das Temperament wurden unabhängig außerhalb des Heimatlandes bestätigt. Wenn Sie ein Kätzchen von einem Vater oder einer Mutter mit GICH-Titel kaufen, erhalten Sie einen dokumentierten genetischen Ausgangspunkt, der nach internationalem Standard geprüft ist. Die Bewertungsformulare der Richter — das ist die Dokumentation. Der Champion kann das nicht liefern.
 
 **Warum zählt das Verhalten auf Ausstellungen mehr als die Fellfarbe?**
 
@@ -150,11 +161,11 @@ Weil Richter eine Katze ganzheitlich bewerten, nicht nur das Aussehen. Eine orie
 
 Ein WCF-Titel verlangt unterzeichnete Bewertungsformulare von zertifizierten Richtern, die nicht mit dem Züchter verbunden sind. Jedes Zertifikat enthält den Namen des Richters, das Land, die WCF-Region und die Punktzahl der Katze. Das ist überprüfbar. „Bestes Kätzchen unserer Zucht" oder Ähnliches — hat keine externe Verifikation. Ein Züchter kann das jeder Katze zuschreiben. Verlangen Sie Bewertungsformulare. Wenn sie existieren — werden sie gezeigt.
 
-**Warum erfordert der GIC Richter aus 2 verschiedenen Ländern?**
+**Warum erfordert der GICH Richter aus 2 verschiedenen Ländern?**
 
 Weil die Schwerpunkte in den Rassestandards je nach Land und Richterkultur variieren können. Ein internationales Zertifikat bedeutet, dass die Katze außerhalb des Heimatlandes bewertet wurde — von einem Richter ohne lokale Verbindung zum Züchter. Das ist der WCF-Qualitätskontrollmechanismus für die höchste Titelstufe.
 
-**Wie lange hat Ihr Weg zum GIC tatsächlich gedauert?**
+**Wie lange hat Ihr Weg zum GICH tatsächlich gedauert?**
 
 Die Mindestdauer hängt vom Ausstellungskalender und der Erreichbarkeit der Regionen ab. Für Floriente sind 1,5 Jahre ein realistischer Zeitraum: 7 Ausstellungen in 6 Städten, eine internationale Reise, Zertifikate von 6 Richtern aus 3 WCF-Regionen. Das System ist so gestaltet, dass es Zeit braucht. Titel, die schnell auftauchen, nur aus einem Land kommen oder von denselben 2–3 Richtern unterschrieben sind — verdienen Nachfragen.
 
