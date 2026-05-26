@@ -52,11 +52,11 @@ No lesson plan. No reward schedule. Just a kitten watching an adult cat do somet
 
 The most amazing part happens after the kittens leave. New homes, new routines, no Sima. And then, weeks later, sometimes months later, buyers start writing in. Their cat has started bringing things. Carrying toys to their feet. Leaving something and waiting. The behavior shows up — delayed, but in full.
 
-That's how Floriente knows it's real and consistent — not a quirk of one specific cat.
+That's how Floriente knows it's real and consistent — not a quirk of one cat.
 
 ## Buyers confirm it
 
-We don't promise that any specific kitten will do any specific thing. But the pattern across buyers is steady enough to name.
+We don't promise that every kitten will do all of these things. But the pattern across buyers is steady enough to name.
 
 Families report the same things. The cat meets them at the door. The cat follows them. The cat picks up a sock and carries it. "Then buyers start writing in over time that their cats are doing the same things." Not one or two families. The vast majority.
 

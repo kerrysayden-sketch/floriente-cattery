@@ -56,7 +56,7 @@ Aus diesem Grund weiß Floriente, dass es echt und stabil ist und keine Laune ei
 
 ## Die Käufer bestätigen es
 
-Wir versprechen nicht, dass ein bestimmtes Kätzchen etwas Bestimmtes tun wird. Aber die Regelmäßigkeit bei den Käufern ist stabil genug, um es beim Namen zu nennen.
+Wir versprechen nicht, dass jedes Kätzchen sich genau so verhält. Aber die Regelmäßigkeit bei den Käufern ist stabil genug, um es beim Namen zu nennen.
 
 Familien berichten dasselbe. Die Katze empfängt Sie an der Tür und folgt Ihnen. Sie nimmt eine Socke und trägt sie. „Mit der Zeit beginnen die Käufer zu schreiben, dass ihre Katzen genau dasselbe tun." Nicht eine oder zwei Familien, sondern die überwältigende Mehrheit.
 
