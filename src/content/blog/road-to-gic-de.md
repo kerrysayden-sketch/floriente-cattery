@@ -48,7 +48,7 @@ Bei der dritten Ausstellung änderte sich etwas. Er verstand, was von ihm erwart
 | IC | Odessa | Region 40 | Eva Kalman (Ungarn) | Ukraine |
 | IC | Odessa | Region 40 | Mariana Tarasowa (Ukraine) | Ukraine |
 | GIC | Winnyzja | Region 50 | Tomas (Litauen) | Ukraine |
-| GIC | Winnyzja | Region 50 | Tetjana (Ukraine) | Ukraine |
+| GIC | Winnyzja | Region 50 | Tetjana Djatschuk (Ukraine) | Ukraine |
 | GIC | Warna | International | Alina Ingor (Bulgarien) | **Bulgarien** |
 
 Drei Titelstufen. Neun Bewertungen. Sechs verschiedene Richter. Fünf Städte. Zwei Länder. Anderthalb Jahre.
@@ -78,13 +78,13 @@ Die Ergebnisse in den Ringen spiegeln das wider. Nicht aus Mangel an Qualität �
 | Titelstufe | Stadt | WCF-Region | Richter | Land |
 |---|---|---|---|---|
 | CH | Ternopil | Region 50 | Inna Ingor (Bulgarien) | Ukraine |
-| CH | Ternopil | Region 50 | Tetjana Odyntschuk (Ukraine) | Ukraine |
+| CH | Ternopil | Region 50 | Tetjana Djatschuk (Ukraine) | Ukraine |
 | CH | Krywyj Rih | Region 10 | Tomas (Litauen) | Ukraine |
 | IC | Kiew | Region 20 | Inna Ingor (Bulgarien) | Ukraine |
 | IC | Kiew | Region 20 | Christopher (Polen) | Ukraine |
 | IC | Odessa | Region 40 | Mariana Tarasowa (Ukraine) | Ukraine |
 | GIC | Winnyzja | Region 50 | Tomas (Litauen) | Ukraine |
-| GIC | Winnyzja | Region 50 | Tetjana Odyntschuk (Ukraine) | Ukraine |
+| GIC | Winnyzja | Region 50 | Tetjana Djatschuk (Ukraine) | Ukraine |
 | GIC | Warna | International | Inna Ingor (Bulgarien) | **Bulgarien** |
 
 Dieselbe Struktur wie bei Seba — denn das WCF-System verlangt es so. Dieselben Regionen, dieselbe Geografie, derselbe finale Schritt im Ausland in Bulgarien. Zwei Katzen, zwei Temperamente, ein Standard des Beweises.

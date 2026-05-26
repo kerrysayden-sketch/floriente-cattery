@@ -48,7 +48,7 @@ By the third show, something shifted. He figured out what was expected of him �
 | IC | Odesa | Region 40 | Eva Kalman (Hungary) | Ukraine |
 | IC | Odesa | Region 40 | Mariana Tarasova (Ukraine) | Ukraine |
 | GIC | Vinnytsia | Region 50 | Tomas (Lithuania) | Ukraine |
-| GIC | Vinnytsia | Region 50 | Tetyana (Ukraine) | Ukraine |
+| GIC | Vinnytsia | Region 50 | Tetyana Dyachuk (Ukraine) | Ukraine |
 | GIC | Varna | International | Alina Ingor (Bulgaria) | **Bulgaria** |
 
 Three title levels. Nine evaluations. Six different judges. Five cities. Two countries. A year and a half.
@@ -78,13 +78,13 @@ The ring results reflect this. Not for lack of quality — her structure, profil
 | Title Level | City | WCF Region | Judge | Country |
 |---|---|---|---|---|
 | CH | Ternopil | Region 50 | Inna Ingor (Bulgaria) | Ukraine |
-| CH | Ternopil | Region 50 | Tetyana Odynchuk (Ukraine) | Ukraine |
+| CH | Ternopil | Region 50 | Tetyana Dyachuk (Ukraine) | Ukraine |
 | CH | Kryvyi Rih | Region 10 | Tomas (Lithuania) | Ukraine |
 | IC | Kyiv | Region 20 | Inna Ingor (Bulgaria) | Ukraine |
 | IC | Kyiv | Region 20 | Christopher (Poland) | Ukraine |
 | IC | Odesa | Region 40 | Mariana Tarasova (Ukraine) | Ukraine |
 | GIC | Vinnytsia | Region 50 | Tomas (Lithuania) | Ukraine |
-| GIC | Vinnytsia | Region 50 | Tetyana Odynchuk (Ukraine) | Ukraine |
+| GIC | Vinnytsia | Region 50 | Tetyana Dyachuk (Ukraine) | Ukraine |
 | GIC | Varna | International | Inna Ingor (Bulgaria) | **Bulgaria** |
 
 Same structure as Seba's — because the WCF system requires it. Same regions, same geography, same final step abroad in Bulgaria. Two cats, two temperaments, one standard of proof.

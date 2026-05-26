@@ -48,7 +48,7 @@ Na trzeciej wystawie coś się zmieniło. Zrozumiał, czego się od niego oczeku
 | IC | Odessa | Region 40 | Eva Kalman (Węgry) | Ukraina |
 | IC | Odessa | Region 40 | Mariana Tarasowa (Ukraina) | Ukraina |
 | GIC | Winnica | Region 50 | Tomas (Litwa) | Ukraina |
-| GIC | Winnica | Region 50 | Tetiana (Ukraina) | Ukraina |
+| GIC | Winnica | Region 50 | Tetiana Diaczuk (Ukraina) | Ukraina |
 | GIC | Warna | Międzynarodowy | Alina Ingor (Bułgaria) | **Bułgaria** |
 
 Trzy poziomy tytułów. Dziewięć ocen. Sześciu różnych sędziów. Pięć miast. Dwa kraje. Półtora roku.
@@ -78,13 +78,13 @@ Wyniki na ringach to odzwierciedlają. Nie z powodu braku jakości — jej budow
 | Poziom tytułu | Miasto | Region WCF | Sędzia | Kraj |
 |---|---|---|---|---|
 | CH | Tarnopol | Region 50 | Inna Ingor (Bułgaria) | Ukraina |
-| CH | Tarnopol | Region 50 | Tetiana Odynczuk (Ukraina) | Ukraina |
+| CH | Tarnopol | Region 50 | Tetiana Diaczuk (Ukraina) | Ukraina |
 | CH | Krzywy Róg | Region 10 | Tomas (Litwa) | Ukraina |
 | IC | Kijów | Region 20 | Inna Ingor (Bułgaria) | Ukraina |
 | IC | Kijów | Region 20 | Christopher (Polska) | Ukraina |
 | IC | Odessa | Region 40 | Mariana Tarasowa (Ukraina) | Ukraina |
 | GIC | Winnica | Region 50 | Tomas (Litwa) | Ukraina |
-| GIC | Winnica | Region 50 | Tetiana Odynczuk (Ukraina) | Ukraina |
+| GIC | Winnica | Region 50 | Tetiana Diaczuk (Ukraina) | Ukraina |
 | GIC | Warna | Międzynarodowy | Inna Ingor (Bułgaria) | **Bułgaria** |
 
 Ta sama struktura co u Seby — bo system WCF tego wymaga. Te same regiony, ta sama geografia, ten sam finałowy krok za granicą w Bułgarii. Dwa koty, dwa temperamenty, jeden standard dowodu.
