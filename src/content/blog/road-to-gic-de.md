@@ -52,13 +52,13 @@ Bei der dritten Ausstellung änderte sich etwas. Er verstand, was von ihm erwart
 
 | Titelstufe | Stadt | WCF-Region | Richter | Land |
 |---|---|---|---|---|
-| CH | Krywyj Rih | Region 10 | Tomas (Litauen) | Ukraine |
+| CH | Krywyj Rih | Region 10 | Tomas Balčiūnas (Litauen) | Ukraine |
 | CH | Krywyj Rih | Region 10 | Tetjana Djatschuk (Ukraine) | Ukraine |
-| CH | Kiew | Region 20 | Christopher (Polen) | Ukraine |
+| CH | Kiew | Region 20 | Krzysztof Wycichowski (Polen) | Ukraine |
 | ICH | Kiew | Region 20 | Alina Ingor (Bulgarien) | Ukraine |
 | ICH | Odessa | Region 40 | Eva Kalman (Ungarn) | Ukraine |
 | ICH | Odessa | Region 40 | Mariana Tarasowa (Ukraine) | Ukraine |
-| GICH | Winnyzja | Region 50 | Tomas (Litauen) | Ukraine |
+| GICH | Winnyzja | Region 50 | Tomas Balčiūnas (Litauen) | Ukraine |
 | GICH | Winnyzja | Region 50 | Tetjana Djatschuk (Ukraine) | Ukraine |
 | GICH | Warna | International | Alina Ingor (Bulgarien) | **Bulgarien** |
 
@@ -90,11 +90,11 @@ Die Ergebnisse in den Ringen spiegeln das wider. Nicht aus Mangel an Qualität �
 |---|---|---|---|---|
 | CH | Ternopil | Region 50 | Inna Ingor (Bulgarien) | Ukraine |
 | CH | Ternopil | Region 50 | Tetjana Djatschuk (Ukraine) | Ukraine |
-| CH | Krywyj Rih | Region 10 | Tomas (Litauen) | Ukraine |
+| CH | Krywyj Rih | Region 10 | Tomas Balčiūnas (Litauen) | Ukraine |
 | ICH | Kiew | Region 20 | Inna Ingor (Bulgarien) | Ukraine |
-| ICH | Kiew | Region 20 | Christopher (Polen) | Ukraine |
+| ICH | Kiew | Region 20 | Krzysztof Wycichowski (Polen) | Ukraine |
 | ICH | Odessa | Region 40 | Mariana Tarasowa (Ukraine) | Ukraine |
-| GICH | Winnyzja | Region 50 | Tomas (Litauen) | Ukraine |
+| GICH | Winnyzja | Region 50 | Tomas Balčiūnas (Litauen) | Ukraine |
 | GICH | Winnyzja | Region 50 | Tetjana Djatschuk (Ukraine) | Ukraine |
 | GICH | Warna | International | Inna Ingor (Bulgarien) | **Bulgarien** |
 

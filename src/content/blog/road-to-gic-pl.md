@@ -52,13 +52,13 @@ Na trzeciej wystawie coś się zmieniło. Zrozumiał, czego się od niego oczeku
 
 | Poziom tytułu | Miasto | Region WCF | Sędzia | Kraj |
 |---|---|---|---|---|
-| CH | Krzywy Róg | Region 10 | Tomas (Litwa) | Ukraina |
+| CH | Krzywy Róg | Region 10 | Tomas Balčiūnas (Litwa) | Ukraina |
 | CH | Krzywy Róg | Region 10 | Tetiana Diaczuk (Ukraina) | Ukraina |
-| CH | Kijów | Region 20 | Christopher (Polska) | Ukraina |
+| CH | Kijów | Region 20 | Krzysztof Wycichowski (Polska) | Ukraina |
 | ICH | Kijów | Region 20 | Alina Ingor (Bułgaria) | Ukraina |
 | ICH | Odessa | Region 40 | Eva Kalman (Węgry) | Ukraina |
 | ICH | Odessa | Region 40 | Mariana Tarasowa (Ukraina) | Ukraina |
-| GICH | Winnica | Region 50 | Tomas (Litwa) | Ukraina |
+| GICH | Winnica | Region 50 | Tomas Balčiūnas (Litwa) | Ukraina |
 | GICH | Winnica | Region 50 | Tetiana Diaczuk (Ukraina) | Ukraina |
 | GICH | Warna | Międzynarodowy | Alina Ingor (Bułgaria) | **Bułgaria** |
 
@@ -90,11 +90,11 @@ Wyniki na ringach to odzwierciedlają. Nie z powodu braku jakości — jej budow
 |---|---|---|---|---|
 | CH | Tarnopol | Region 50 | Inna Ingor (Bułgaria) | Ukraina |
 | CH | Tarnopol | Region 50 | Tetiana Diaczuk (Ukraina) | Ukraina |
-| CH | Krzywy Róg | Region 10 | Tomas (Litwa) | Ukraina |
+| CH | Krzywy Róg | Region 10 | Tomas Balčiūnas (Litwa) | Ukraina |
 | ICH | Kijów | Region 20 | Inna Ingor (Bułgaria) | Ukraina |
-| ICH | Kijów | Region 20 | Christopher (Polska) | Ukraina |
+| ICH | Kijów | Region 20 | Krzysztof Wycichowski (Polska) | Ukraina |
 | ICH | Odessa | Region 40 | Mariana Tarasowa (Ukraina) | Ukraina |
-| GICH | Winnica | Region 50 | Tomas (Litwa) | Ukraina |
+| GICH | Winnica | Region 50 | Tomas Balčiūnas (Litwa) | Ukraina |
 | GICH | Winnica | Region 50 | Tetiana Diaczuk (Ukraina) | Ukraina |
 | GICH | Warna | Międzynarodowy | Inna Ingor (Bułgaria) | **Bułgaria** |
 

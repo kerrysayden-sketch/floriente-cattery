@@ -52,13 +52,13 @@ By the third show, something shifted. He figured out what was expected of him �
 
 | Title Level | City | WCF Region | Judge | Country |
 |---|---|---|---|---|
-| CH | Kryvyi Rih | Region 10 | Tomas (Lithuania) | Ukraine |
+| CH | Kryvyi Rih | Region 10 | Tomas Balčiūnas (Lithuania) | Ukraine |
 | CH | Kryvyi Rih | Region 10 | Tetyana Dyachuk (Ukraine) | Ukraine |
-| CH | Kyiv | Region 20 | Christopher (Poland) | Ukraine |
+| CH | Kyiv | Region 20 | Krzysztof Wycichowski (Poland) | Ukraine |
 | ICH | Kyiv | Region 20 | Alina Ingor (Bulgaria) | Ukraine |
 | ICH | Odesa | Region 40 | Eva Kalman (Hungary) | Ukraine |
 | ICH | Odesa | Region 40 | Mariana Tarasova (Ukraine) | Ukraine |
-| GICH | Vinnytsia | Region 50 | Tomas (Lithuania) | Ukraine |
+| GICH | Vinnytsia | Region 50 | Tomas Balčiūnas (Lithuania) | Ukraine |
 | GICH | Vinnytsia | Region 50 | Tetyana Dyachuk (Ukraine) | Ukraine |
 | GICH | Varna | International | Alina Ingor (Bulgaria) | **Bulgaria** |
 
@@ -90,11 +90,11 @@ The ring results reflect this. Not for lack of quality — her structure, profil
 |---|---|---|---|---|
 | CH | Ternopil | Region 50 | Inna Ingor (Bulgaria) | Ukraine |
 | CH | Ternopil | Region 50 | Tetyana Dyachuk (Ukraine) | Ukraine |
-| CH | Kryvyi Rih | Region 10 | Tomas (Lithuania) | Ukraine |
+| CH | Kryvyi Rih | Region 10 | Tomas Balčiūnas (Lithuania) | Ukraine |
 | ICH | Kyiv | Region 20 | Inna Ingor (Bulgaria) | Ukraine |
-| ICH | Kyiv | Region 20 | Christopher (Poland) | Ukraine |
+| ICH | Kyiv | Region 20 | Krzysztof Wycichowski (Poland) | Ukraine |
 | ICH | Odesa | Region 40 | Mariana Tarasova (Ukraine) | Ukraine |
-| GICH | Vinnytsia | Region 50 | Tomas (Lithuania) | Ukraine |
+| GICH | Vinnytsia | Region 50 | Tomas Balčiūnas (Lithuania) | Ukraine |
 | GICH | Vinnytsia | Region 50 | Tetyana Dyachuk (Ukraine) | Ukraine |
 | GICH | Varna | International | Inna Ingor (Bulgaria) | **Bulgaria** |
 
