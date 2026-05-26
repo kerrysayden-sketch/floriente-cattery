@@ -106,16 +106,16 @@ GICH costs between €4,000 and €6,500 total. One show in Ukraine — minimum 
 
 **One show, two cats (approximate):**
 
-- Last-minute registration for two cats — ~€155
-- Hotel for 3 nights — ~€155–175
-- Fuel — ~€95
-- Rings (optional) — ~€40–80
-- Photoshoot — ~€115
+- Last-minute registration for two cats: ~€155
+- Hotel for 3 nights: ~€155–175
+- Fuel: ~€95
+- Rings (optional): ~€40–80
+- Photoshoot: ~€115
 
 Per-show totals:
 
-- Basic (no rings or photo) — ~€390
-- Full (with everything) — ~€580
+- Basic (no rings or photo): ~€390
+- Full (with everything): ~€580
 
 **Big picture:**
 

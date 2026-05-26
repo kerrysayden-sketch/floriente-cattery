@@ -106,16 +106,16 @@ Der GICH-Titel kostet insgesamt zwischen 4 000 und 6 500 EUR. Eine Ausstellung i
 
 **Eine Ausstellung, zwei Katzen (ungefähre Werte):**
 
-- Anmeldung zweier Katzen zum Last-Minute-Tarif — ~155 EUR
-- Hotel für 3 Nächte — ~155–175 EUR
-- Benzin — ~95 EUR
-- Ringe (optional) — 40–80 EUR
-- Fotosession — ~115 EUR
+- Anmeldung zweier Katzen zum Last-Minute-Tarif: ~155 EUR
+- Hotel für 3 Nächte: ~155–175 EUR
+- Benzin: ~95 EUR
+- Ringe (optional): 40–80 EUR
+- Fotosession: ~115 EUR
 
 Zwischenfazit pro Ausstellung:
 
-- Basisvariante (ohne Ringe und Fotos) — ~390 EUR
-- Vollvariante (mit allem) — ~580 EUR
+- Basisvariante (ohne Ringe und Fotos): ~390 EUR
+- Vollvariante (mit allem): ~580 EUR
 
 **Das Gesamtbild:**
 

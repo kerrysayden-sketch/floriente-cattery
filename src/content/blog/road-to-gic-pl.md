@@ -106,16 +106,16 @@ Tytuł GICH kosztuje łącznie €4 000–6 500. Jedna wystawa w Ukrainie — mi
 
 **Jedna wystawa, dwa koty (orientacyjnie):**
 
-- Rejestracja dwóch kotów według taryfy ostatniego momentu — ~€155
-- Hotel na 3 noce — ~€155–175
-- Benzyna — ~€95
-- Ringi (opcjonalnie) — ~€40–80
-- Sesja zdjęciowa — ~€115
+- Rejestracja dwóch kotów według taryfy ostatniego momentu: ~€155
+- Hotel na 3 noce: ~€155–175
+- Benzyna: ~€95
+- Ringi (opcjonalnie): ~€40–80
+- Sesja zdjęciowa: ~€115
 
 Podsumowanie jednej wystawy:
 
-- Podstawowa (bez ringów i zdjęć) — ~€390
-- Pełna (ze wszystkim) — ~€580
+- Podstawowa (bez ringów i zdjęć): ~€390
+- Pełna (ze wszystkim): ~€580
 
 **Obraz całościowy:**
 
