@@ -84,7 +84,7 @@ The ring results reflect this. Not for lack of quality — her structure, profil
 | IC | Kyiv | Region 20 | Christopher (Poland) | Ukraine |
 | IC | Odesa | Region 40 | Mariana Tarasova (Ukraine) | Ukraine |
 | GIC | Vinnytsia | Region 50 | Tomas (Lithuania) | Ukraine |
-| GIC | Vinnytsia | Region 50 | Tetyana (Ukraine) | Ukraine |
+| GIC | Vinnytsia | Region 50 | Tetyana Odynchuk (Ukraine) | Ukraine |
 | GIC | Varna | International | Inna Ingor (Bulgaria) | **Bulgaria** |
 
 Same structure as Seba's — because the WCF system requires it. Same regions, same geography, same final step abroad in Bulgaria. Two cats, two temperaments, one standard of proof.

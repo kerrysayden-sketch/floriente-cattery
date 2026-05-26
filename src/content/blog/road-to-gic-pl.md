@@ -84,7 +84,7 @@ Wyniki na ringach to odzwierciedlają. Nie z powodu braku jakości — jej budow
 | IC | Kijów | Region 20 | Christopher (Polska) | Ukraina |
 | IC | Odessa | Region 40 | Mariana Tarasowa (Ukraina) | Ukraina |
 | GIC | Winnica | Region 50 | Tomas (Litwa) | Ukraina |
-| GIC | Winnica | Region 50 | Tetiana (Ukraina) | Ukraina |
+| GIC | Winnica | Region 50 | Tetiana Odynczuk (Ukraina) | Ukraina |
 | GIC | Warna | Międzynarodowy | Inna Ingor (Bułgaria) | **Bułgaria** |
 
 Ta sama struktura co u Seby — bo system WCF tego wymaga. Te same regiony, ta sama geografia, ten sam finałowy krok za granicą w Bułgarii. Dwa koty, dwa temperamenty, jeden standard dowodu.

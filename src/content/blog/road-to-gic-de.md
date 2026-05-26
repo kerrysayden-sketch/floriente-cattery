@@ -84,7 +84,7 @@ Die Ergebnisse in den Ringen spiegeln das wider. Nicht aus Mangel an Qualität �
 | IC | Kiew | Region 20 | Christopher (Polen) | Ukraine |
 | IC | Odessa | Region 40 | Mariana Tarasowa (Ukraine) | Ukraine |
 | GIC | Winnyzja | Region 50 | Tomas (Litauen) | Ukraine |
-| GIC | Winnyzja | Region 50 | Tetjana (Ukraine) | Ukraine |
+| GIC | Winnyzja | Region 50 | Tetjana Odyntschuk (Ukraine) | Ukraine |
 | GIC | Warna | International | Inna Ingor (Bulgarien) | **Bulgarien** |
 
 Dieselbe Struktur wie bei Seba — denn das WCF-System verlangt es so. Dieselben Regionen, dieselbe Geografie, derselbe finale Schritt im Ausland in Bulgarien. Zwei Katzen, zwei Temperamente, ein Standard des Beweises.
