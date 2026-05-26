@@ -73,7 +73,7 @@ Cztery wzory tabby — z nich najczęstszy u orientala jest cętkowany (24).
 | **22** | Klasyczny (Blotched) | Wyraźne zawijasy po bokach; wzór motyla na ramionach; «tarcza» na boku |
 | **23** | Pręgowany (Mackerel) | Wąskie pionowe pasy biegnące równolegle wzdłuż boków; «szkielet ryby» |
 | **24** | Cętkowany (Spotted) | Okrągłe lub owalne cętki na całym boku; cętki mogą być pełne lub przerywane pasami |
-| **25** | Tikowany (Agouti) | Brak pasów lub cętek na ciele — każdy włos ma naprzemienne jasne i ciemne pasma; tylko minimalne znaczenia na łapach i pyszczku |
+| **25** | Tikowany (Ticked) | Brak pasów lub cętek na ciele — każdy włos ma naprzemienne jasne i ciemne pasma; tylko minimalne znaczenia na łapach i pyszczku |
 
 ## Inne modyfikatory — poza podstawowym przeglądem
 

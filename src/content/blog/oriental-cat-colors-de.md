@@ -73,7 +73,7 @@ Es gibt vier Tabby-Zeichnungen, und die häufigste bei der orientalischen Katze 
 | **22** | Klassisch (Blotched) | Kräftige Wirbel an den Flanken; schmetterlingsförmige Zeichnung an den Schultern; „Zielscheibe" an der Seite |
 | **23** | Getigert (Mackerel) | Schmale, parallel verlaufende vertikale Streifen entlang der Flanken; „Fischgräte" |
 | **24** | Gepunktet (Spotted) | Runde oder ovale Flecken über die gesamte Flanke; können geschlossen oder durch Streifen unterbrochen sein |
-| **25** | Getickt (Agouti) | Keine Streifen oder Flecken auf dem Körper — jedes einzelne Haar ist durch hellere und dunklere Abschnitte gebändert; nur minimale Markierungen an Pfoten und im Gesicht |
+| **25** | Getickt (Ticked) | Keine Streifen oder Flecken auf dem Körper — jedes einzelne Haar ist durch hellere und dunklere Abschnitte gebändert; nur minimale Markierungen an Pfoten und im Gesicht |
 
 ## Weitere Modifikatoren — außerhalb dieses Grundüberblicks
 

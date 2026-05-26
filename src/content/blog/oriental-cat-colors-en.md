@@ -73,7 +73,7 @@ Four tabby patterns — and the most common in the Oriental is spotted (24).
 | **22** | Classic (Blotched) | Bold swirls along the sides; butterfly pattern on the shoulders; a "target" on the flank |
 | **23** | Mackerel | Narrow vertical stripes running parallel along the sides; "fish skeleton" |
 | **24** | Spotted | Round or oval spots all along the side; spots can be solid or broken into stripes |
-| **25** | Ticked (Agouti) | No stripes or spots on the body — each hair shows alternating light and dark bands; only minimal markings on legs and face |
+| **25** | Ticked | No stripes or spots on the body — each hair shows alternating light and dark bands; only minimal markings on legs and face |
 
 ## Other modifiers — outside this basic overview
 
