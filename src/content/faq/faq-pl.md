@@ -24,7 +24,7 @@ categories:
       - q: "Czy zadatek jest zwrotny?"
         a: "Zadatek 50% jest bezzwrotny w przypadku rezygnacji kupującego. Może zostać zwrócony na warunkach określonych w umowie."
       - q: "Czy dostarczacie kocięta za granicę?"
-        a: "Tak. Organizujemy osobisty transport na terenie całej Europy. Dokładna metoda przekazania i koszty są omawiane indywidualnie. Kocięta nigdy nie są wysyłane same - dostarczamy je osobiście."
+        a: "Tak. Organizujemy transport na terenie całej Europy. Dokładna metoda przekazania i koszty są omawiane indywidualnie. Kocięta nigdy nie są wysyłane same — nadzorujemy proces dostawy."
   - title: "Zdrowie i opieka"
     items:
       - q: "Czy Wasze koty mają testy zdrowotne?"

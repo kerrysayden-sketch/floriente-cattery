@@ -24,7 +24,7 @@ categories:
       - q: "Is the deposit refundable?"
         a: "The 50% deposit is non-refundable if the buyer cancels. May be refunded under the terms specified in the contract."
       - q: "Do you deliver kittens internationally?"
-        a: "Yes. We arrange personal delivery across Europe. The exact delivery method and costs are discussed individually based on your location. Kittens are never shipped alone - we deliver them personally."
+        a: "Yes. We arrange delivery across Europe. The exact delivery method and cost are discussed individually. Kittens are never shipped alone — we oversee the delivery process."
   - title: "Health & Care"
     items:
       - q: "Are your cats health tested?"

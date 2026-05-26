@@ -24,7 +24,7 @@ categories:
       - q: "Ist die Anzahlung erstattungsfähig?"
         a: "Die 50%-Anzahlung ist nicht erstattungsfähig bei Rücktritt des Käufers. Rückerstattung möglich unter den im Vertrag festgelegten Bedingungen."
       - q: "Liefern Sie Kitten international?"
-        a: "Ja. Wir organisieren persönliche Lieferung in ganz Europa. Genaue Liefermethode und Kosten werden individuell je nach Standort besprochen. Kitten werden nie allein verschickt - wir liefern persönlich."
+        a: "Ja. Wir organisieren Lieferung in ganz Europa. Genaue Liefermethode und Kosten werden individuell besprochen. Kitten werden nie allein verschickt — wir überwachen den Lieferprozess."
   - title: "Gesundheit und Pflege"
     items:
       - q: "Sind Ihre Katzen gesundheitlich getestet?"
