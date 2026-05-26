@@ -29,7 +29,7 @@ In the WCF system — World Cat Federation, under which Floriente Cattery is reg
 
 The requirements are precise:
 
-- **9+ evaluations** with a score of 97 or higher (Excellent 1)
+- **9+ evaluations at Excellent 1** — scores 93–97 depending on the title level
 - **6+ different judges** — no judge can sign two certificates for the same title level
 - **3+ WCF regions** — evaluations have to come from different geographic zones
 - **2+ countries** — at least one international certificate, meaning a trip across the border

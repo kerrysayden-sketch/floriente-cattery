@@ -29,7 +29,7 @@ W systemie WCF — World Cat Federation, pod patronatem której zarejestrowana j
 
 Wymagania są precyzyjne:
 
-- **9+ ocen** z punktacją 97 lub wyższą (Excellent 1)
+- **9+ ocen Excellent 1** — od 93 do 97 punktów w zależności od poziomu tytułu
 - **6+ różnych sędziów** — żaden sędzia nie może podpisać dwóch certyfikatów na ten sam poziom tytułu
 - **3+ regiony WCF** — oceny muszą pochodzić z różnych stref geograficznych
 - **2+ kraje** — co najmniej jeden międzynarodowy certyfikat, czyli wyjazd za granicę

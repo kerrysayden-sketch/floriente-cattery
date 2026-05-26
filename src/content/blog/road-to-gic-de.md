@@ -29,7 +29,7 @@ Im System der WCF — der World Cat Federation, unter deren Schirm Floriente Cat
 
 Die Anforderungen sind genau definiert:
 
-- **9+ Bewertungen** mit einer Punktzahl von 97 oder höher (Vorzüglich 1)
+- **9+ Bewertungen Vorzüglich 1** — 93–97 Punkte je nach Titelstufe
 - **6+ verschiedene Richter** — kein Richter darf zwei Zertifikate für dieselbe Titelstufe unterschreiben
 - **3+ WCF-Regionen** — die Bewertungen müssen aus verschiedenen geografischen Zonen stammen
 - **2+ Länder** — mindestens ein internationales Zertifikat, also eine Auslandsreise
