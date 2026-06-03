@@ -35,7 +35,7 @@ ogImage: "/images/cats/sebastian-main.webp"
 Заводчики, яким не все одно, тестують батьків на генетичні хвороби до в'язки. Для орієнталів та сіамських: PRA (прогресуюча атрофія сітківки), PK-дефіцит, група крові. Запитайте, яка лабораторія робила тести. Якщо не можуть назвати — скоріш за все, не тестували.
 
 <div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
-<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> усі батьки протестовані в NeoVetLab. Результати надаються покупцям до бронювання.</p>
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> усі коти-виробники протестовані в SOVA GenLab — PK-дефіцит N/N, PRA-rdAc N/N. Дивіться <a href="/uk/pro-nas/#genetic-tests" class="text-gold hover:text-gold-dark">опубліковані сертифікати</a>. Повні звіти надаються покупцям до бронювання.</p>
 </div>
 
 ### 4. Запросіть договір

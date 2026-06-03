@@ -50,7 +50,7 @@ Orientals are naturally lean. But their fast metabolism means weight shifts quic
 
 ### 9. Genetic testing is a must
 
-Two conditions matter most for the Oriental breed: PRA (progressive retinal atrophy) and PK Deficiency (pyruvate kinase deficiency). PRA gradually leads to blindness. PK Deficiency disrupts red blood cell metabolism and causes chronic anemia. Both have genetic markers that can be checked before breeding. A responsible breeder tests every parent cat and provides documentation. Ask for it. If the breeder can't produce it — walk away. Full breakdown in [Article #7 — Health and Lifespan](/en/blog/).
+Two conditions matter most for the Oriental breed: PRA (progressive retinal atrophy) and PK Deficiency (pyruvate kinase deficiency). PRA gradually leads to blindness. PK Deficiency disrupts red blood cell metabolism and causes chronic anemia. Both have genetic markers that can be checked before breeding. A responsible breeder tests every parent cat and provides documentation. Ask for it. If the breeder can't produce it — walk away. See our cats' [published genetic certificates](/en/about/#genetic-tests). Full breakdown in [Article #7 — Health and Lifespan](/en/blog/).
 
 ### 10. Not an easy cat — but if it fits, it fits forever
 

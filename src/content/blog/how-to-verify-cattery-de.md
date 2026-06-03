@@ -35,7 +35,7 @@ Ein echter Züchter zeigt Ihnen das Kätzchen vor der Kamera — bei sich zu Hau
 Züchter, denen es wichtig ist, testen die Elterntiere vor der Verpaarung auf genetische Erkrankungen. Bei Orientalen und Siamesen: PRA (progressive Netzhautatrophie), PK-Mangel, Blutgruppe. Fragen Sie, welches Labor die Tests durchgeführt hat. Wenn kein Name genannt werden kann — wurde wahrscheinlich nicht getestet.
 
 <div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
-<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Alle Elterntiere wurden bei NeoVetLab getestet. Die Ergebnisse werden den Käufern vor der Reservierung mitgeteilt.</p>
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Alle Zuchtkatzen wurden bei SOVA GenLab getestet — PK-Mangel N/N, PRA-rdAc N/N. Siehe die <a href="/de/ueber-uns/#genetic-tests" class="text-gold hover:text-gold-dark">veröffentlichten Zertifikate</a>. Vollständige Berichte werden den Käufern vor der Reservierung mitgeteilt.</p>
 </div>
 
 ### 4. Fordern Sie einen Vertrag

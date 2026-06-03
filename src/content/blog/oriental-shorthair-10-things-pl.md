@@ -50,7 +50,7 @@ Orientale są szczupłe z natury. Ale ich szybki metabolizm oznacza, że waga zm
 
 ### 9. Badanie genetyczne — obowiązkowe
 
-Dwa stany mają największe znaczenie dla rasy orientalnej: PRA (postępujący zanik siatkówki) i PK Deficiency (niedobór kinazy pirogronianowej). PRA stopniowo prowadzi do ślepoty. PK Deficiency zaburza metabolizm erytrocytów i powoduje przewlekłą anemię. Oba mają markery genetyczne, które można sprawdzić przed rozrodem. Odpowiedzialny hodowca bada każdego z rodziców i przedstawia dokumenty. Proś o nie. Jeśli hodowca nie może ich przedstawić — zrezygnuj. Szczegółowo o tym — w [artykule #7 — Zdrowie i długość życia](/pl/blog/).
+Dwa stany mają największe znaczenie dla rasy orientalnej: PRA (postępujący zanik siatkówki) i PK Deficiency (niedobór kinazy pirogronianowej). PRA stopniowo prowadzi do ślepoty. PK Deficiency zaburza metabolizm erytrocytów i powoduje przewlekłą anemię. Oba mają markery genetyczne, które można sprawdzić przed rozrodem. Odpowiedzialny hodowca bada każdego z rodziców i przedstawia dokumenty. Proś o nie. Jeśli hodowca nie może ich przedstawić — zrezygnuj. Zobacz [opublikowane certyfikaty genetyczne](/pl/o-nas/#genetic-tests) naszych kotów. Szczegółowo o tym — w [artykule #7 — Zdrowie i długość życia](/pl/blog/).
 
 ### 10. To nie jest kot dla każdego — ale jeśli do siebie pasujecie -to więź na całe życie
 

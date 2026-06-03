@@ -35,7 +35,7 @@ ogImage: "/images/cats/sebastian-main.webp"
 Заводчики, которым небезразлично, тестируют родителей на генетические болезни до вязки. Для ориенталов и сиамских: PRA (прогрессирующая атрофия сетчатки), дефицит PK, группа крови. Спросите, какая лаборатория делала тесты. Если не могут назвать — скорее всего, не тестировали.
 
 <div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
-<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> все родители протестированы в NeoVetLab. Результаты предоставляются покупателям до бронирования.</p>
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> все племенные кошки протестированы в SOVA GenLab — дефицит PK N/N, PRA-rdAc N/N. Смотрите <a href="/ru/o-nas/#genetic-tests" class="text-gold hover:text-gold-dark">опубликованные сертификаты</a>. Полные отчёты предоставляются покупателям до бронирования.</p>
 </div>
 
 ### 4. Запросите договор

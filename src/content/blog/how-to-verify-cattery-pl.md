@@ -35,7 +35,7 @@ Prawdziwy hodowca pokaże Ci kociaka przez kamerę — w swoim domu, z rodzicami
 Hodowcy, którym zależy, badają rodziców pod kątem chorób genetycznych przed kryciem. Dla orientalów i syjamów: PRA (postępujący zanik siatkówki), niedobór PK, grupa krwi. Zapytaj, jakie laboratorium wykonało testy. Jeśli nie potrafią podać nazwy — najprawdopodobniej nie badali.
 
 <div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
-<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> wszyscy rodzice są przebadani w NeoVetLab. Wyniki są przekazywane kupującym przed rezerwacją.</p>
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> wszystkie koty hodowlane przebadane w SOVA GenLab — niedobór PK N/N, PRA-rdAc N/N. Zobacz <a href="/pl/o-nas/#genetic-tests" class="text-gold hover:text-gold-dark">opublikowane certyfikaty</a>. Pełne raporty przekazywane kupującym przed rezerwacją.</p>
 </div>
 
 ### 4. Poproś o umowę

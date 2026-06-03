@@ -35,7 +35,7 @@ A real breeder will show you the kitten on camera — at home, with the parents 
 Breeders who care test parents for genetic diseases before breeding. For Orientals and Siamese: PRA (progressive retinal atrophy), PK Deficiency, blood type. Ask which lab ran the tests. If they can't name one — they probably didn't test.
 
 <div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
-<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> All parents tested at NeoVetLab. Results shared with buyers before reservation.</p>
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> All breeding cats genetically tested at SOVA GenLab — PK Deficiency N/N, PRA-rdAc N/N. See the <a href="/en/about/#genetic-tests" class="text-gold hover:text-gold-dark">published certificates</a>. Full reports shared with buyers before reservation.</p>
 </div>
 
 ### 4. Request the contract

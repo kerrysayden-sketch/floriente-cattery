@@ -127,7 +127,7 @@ const geneticCerts = [
     </div>
 
     <!-- Row 5: Health & Genetic Testing (readable, no grayscale) -->
-    <h3 class="text-sm font-semibold uppercase tracking-wider text-gold mb-6 mt-10">
+    <h3 id="genetic-tests" class="text-sm font-semibold uppercase tracking-wider text-gold mb-6 mt-10 scroll-mt-28">
       {t(lang, 'about.certsGenetic')}
     </h3>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -148,6 +148,16 @@ const geneticCerts = [
     </div>
   </div>
 </section>
+
+<!-- Certificate lightbox (click any cert to read it enlarged) -->
+<div id="cert-lightbox" class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/80 p-4" role="dialog" aria-modal="true" aria-label="Certificate">
+  <button id="cert-lightbox-close" aria-label="Close" class="absolute top-3 right-5 text-white/70 hover:text-white text-4xl leading-none z-10">&times;</button>
+  <div class="relative max-w-3xl w-full flex items-center justify-center">
+    <img id="cert-lightbox-img" src="" alt="" class="max-w-full max-h-[88vh] object-contain rounded shadow-2xl" />
+    <div class="cert-watermark">Floriente Cattery</div>
+    <div class="cert-overlay"></div>
+  </div>
+</div>
 
 <!-- Watermark + Touch device support -->
 <style>
@@ -221,4 +231,34 @@ const geneticCerts = [
   document.querySelectorAll('.cert-card').forEach((card) => {
     card.addEventListener('contextmenu', (e) => e.preventDefault());
   });
+
+  // Lightbox: click any certificate to read it enlarged (copy-protection preserved)
+  const lb = document.getElementById('cert-lightbox');
+  const lbImg = document.getElementById('cert-lightbox-img');
+  const lbClose = document.getElementById('cert-lightbox-close');
+  if (lb && lbImg && lbClose) {
+    const open = (src, alt) => {
+      lbImg.setAttribute('src', src);
+      lbImg.setAttribute('alt', alt || '');
+      lb.classList.remove('hidden');
+      lb.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    };
+    const close = () => {
+      lb.classList.add('hidden');
+      lb.classList.remove('flex');
+      lbImg.setAttribute('src', '');
+      document.body.style.overflow = '';
+    };
+    document.querySelectorAll('.cert-card').forEach((card) => {
+      card.addEventListener('click', () => {
+        const img = card.querySelector('img');
+        if (img) open(img.getAttribute('src'), img.getAttribute('alt'));
+      });
+    });
+    lbClose.addEventListener('click', close);
+    lb.addEventListener('click', (e) => { if (e.target === lb) close(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+    lbImg.addEventListener('contextmenu', (e) => e.preventDefault());
+  }
 </script>
