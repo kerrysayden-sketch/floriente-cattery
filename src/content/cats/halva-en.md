@@ -1,8 +1,8 @@
 ---
 catId: halva
 lang: en
-name: "Helding (Halva)"
-fullName: "Helding Ole Lukhoye"
+name: "Heldig (Halva)"
+fullName: "Heldig Ole Lukhoye"
 role: queen
 titles: ""
 breed: "Oriental Shorthair"
