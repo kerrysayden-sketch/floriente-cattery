@@ -29,6 +29,12 @@ const educationCerts = [
   { src: '/images/certs/felinologist.webp', alt: 'Felinological Seminar - Breeder-Felinologist Certificate' },
   { src: '/images/certs/breeder-felinologist-2025.webp', alt: 'Breeder-Felinologist Certificate - June 2025, Ternopil' },
 ];
+
+const geneticCerts = [
+  { src: '/images/certs/genetic-sebastian.webp', alt: 'Genetic test (PKdef N/N, PRA-rdAc N/N) - Sebastian Ole Lukhoye, SOVA GenLab' },
+  { src: '/images/certs/genetic-simona.webp', alt: 'Genetic test (PKdef N/N, PRA-rdAc N/N) - Belly Dance Simona, SOVA GenLab' },
+  { src: '/images/certs/genetic-heldig.webp', alt: 'Genetic test (PKdef N/N, PRA-rdAc N/N) - Heldig, SOVA GenLab' },
+];
 ---
 
 <section class="py-16 md:py-24 px-4 sm:px-6">
@@ -111,6 +117,27 @@ const educationCerts = [
               src={cert.src}
               alt={cert.alt}
               class="w-full h-full object-contain bg-gray-light/20 grayscale group-hover:grayscale-0 transition-all duration-500"
+              loading="lazy"
+            />
+            <div class="cert-watermark">Floriente Cattery</div>
+            <div class="cert-overlay"></div>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Row 5: Health & Genetic Testing (readable, no grayscale) -->
+    <h3 class="text-sm font-semibold uppercase tracking-wider text-gold mb-6 mt-10">
+      {t(lang, 'about.certsGenetic')}
+    </h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      {geneticCerts.map((cert) => (
+        <div class="cert-card group cursor-pointer">
+          <div class="aspect-[100/141] rounded-lg overflow-hidden border border-gray-light shadow-sm hover:shadow-md transition-shadow relative">
+            <img
+              src={cert.src}
+              alt={cert.alt}
+              class="w-full h-full object-contain bg-white"
               loading="lazy"
             />
             <div class="cert-watermark">Floriente Cattery</div>
