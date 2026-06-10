@@ -90,7 +90,7 @@ Seien Sie aber darauf vorbereitet, dass viele Züchter Besuche ablehnen, und das
 
 Wenn ein Besuch bei einer lebenden Katze nicht möglich ist, gibt es eine funktionierende Alternative: YouTube und TikTok. Schauen Sie sich Videos an, in denen orientalische Katzen ihren Besitzern auf Schritt und Tritt folgen, laut sprechen und während eines Gesprächs ins Bild drängen. Hören Sie sich diese Geräuschkulisse stundenlang an. Reizt sie Sie oder amüsiert sie Sie? Beunruhigt sie Sie oder berührt sie Sie? Die intensive Auseinandersetzung mit Videos ist ein erprobter Weg, um zu erkennen, ob das die richtige Katze für Sie ist.
 
-[Artikel #8 – „Wie treffe ich die richtige Entscheidung“](/de/blog/) beschreibt den gesamten Entscheidungsprozess ausführlich.
+[Artikel #8 – „Wie treffe ich die richtige Entscheidung“](/de/blog/how-to-choose-oriental-kitten/) beschreibt den gesamten Entscheidungsprozess ausführlich.
 
 ## Bevor Sie sich entscheiden
 

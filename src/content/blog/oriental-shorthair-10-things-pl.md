@@ -90,10 +90,10 @@ Ale bądź gotowy na to, że wielu hodowców odmawia wizyt — i to normalne. Pr
 
 Jeśli odwiedzić kota nie wychodzi, jest sprawdzona alternatywa: YouTube i TikTok. Włącz filmiki, gdzie orientale chodzą za właścicielami ogonkiem, głośno rozmawiają, wchodzą w kadr podczas rozmowy. Posłuchaj tego dźwięku przez godziny. Drażni cię czy bawi? Niepokoi czy wzrusza? Maksymalne zanurzenie poprzez wideo — sprawdzony sposób, żeby zrozumieć, czy to twój kot.
 
-[Artykuł #8 — Jak wybrać](/pl/blog/) szczegółowo omawia cały proces podejmowania decyzji.
+[Artykuł #8 — Jak wybrać](/pl/blog/how-to-choose-oriental-kitten/) szczegółowo omawia cały proces podejmowania decyzji.
 
 ## Zanim zdecydujesz
 
-Jeśli doczytałeś do końca, to znaczy, już myślisz poważnie. To prawidłowy początek. Następny krok — wybrać konkretnego kota, a nie tylko rasę. [Artykuł #8](/pl/blog/) wyjaśnia, jak dokonać tego wyboru w sposób przemyślany: na co zwracać uwagę, o co pytać i co odpowiedzialny hodowca powie Ci nawet bez pytania. Gdy będziesz gotowy, aby iść dalej — jesteśmy tutaj, żeby pomóc znaleźć twojego kota.
+Jeśli doczytałeś do końca, to znaczy, już myślisz poważnie. To prawidłowy początek. Następny krok — wybrać konkretnego kota, a nie tylko rasę. [Artykuł #8](/pl/blog/how-to-choose-oriental-kitten/) wyjaśnia, jak dokonać tego wyboru w sposób przemyślany: na co zwracać uwagę, o co pytać i co odpowiedzialny hodowca powie Ci nawet bez pytania. Gdy będziesz gotowy, aby iść dalej — jesteśmy tutaj, żeby pomóc znaleźć twojego kota.
 
 **Zobacz na żywo:** poznaj nasze [orientale na stronie kociąt](/pl/kocieta/).

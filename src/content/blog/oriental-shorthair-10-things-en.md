@@ -90,7 +90,7 @@ But be ready for many breeders to refuse visits — and that's normal. The reaso
 
 If visiting in person isn't possible, there's a working alternative: YouTube and TikTok. Open videos of Orientals trailing their owners around, talking loudly, jumping into the frame mid-conversation. Listen to that sound for hours. Does it annoy you or amuse you? Bother you or charm you? Maximum exposure through video is a proven way to figure out if this is your cat.
 
-[Article #8 — How to Choose](/en/blog/) covers the entire decision process in detail.
+[Article #8 — How to Choose](/en/blog/how-to-choose-oriental-kitten/) covers the entire decision process in detail.
 
 ## Before you decide
 
