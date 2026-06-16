@@ -8,14 +8,6 @@ publishDate: "2026-05-29"
 ogImage: "/images/cats/sebastian-main.webp"
 ---
 
-Artykuł #6 | Awareness | Floriente Cattery
-
-Cel: 1200–1500 słów | Faza: Awareness | Rola w klastrze: emocjonalne wejście przez zaufanie
-
-Rodzina wzięła dwa nowe koty orientalne — do mieszkających już w domu Maine Coona i Syjama. Syjam zrobił awanturę: nie akceptował nowych zwierząt, skandal za skandalem, nawet sam zachorował — jeździli z nim po klinikach, robili badania. W trzecim tygodniu rodzina była gotowa się poddać. Poprosiłam, żeby poczekali jeszcze tydzień. Po siedmiu dniach — wszystkie cztery koty spały w jednym łóżku.
-
-## W skrócie
-
 Koty orientalne to jedna z ras najbardziej prosocijalnych. Mogą mieszkać z psami, dziećmi i innymi kotami. Ale to, jak dobrze się ułoży, zależy od zapoznania, cierpliwości i tego, co wydarzyło się w pierwszych dziewięciu tygodniach życia kociaka. Nie ma drogi na skróty. Jest właściwa droga.
 
 Ten przewodnik jest dla przyszłych właścicieli klasy PET, którzy zastanawiają się, czy kot orientalny odnajdzie się w ich domu z dziećmi, psem lub innym kotem. Jeśli myślisz o hodowli lub klasie show i potrzebujesz głębszej specyfiki socjalizacji na poziomie programów hodowlanych — napisz do nas, chętnie odpowiemy na szczegółowe pytania.

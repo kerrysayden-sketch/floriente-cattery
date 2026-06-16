@@ -8,10 +8,6 @@ publishDate: "2026-05-29"
 ogImage: "/images/cats/sebastian-main.webp"
 ---
 
-A family took in two new Orientals — joining a Maine Coon and a Siamese who already lived there. The Siamese threw a tantrum: wouldn't accept the newcomers, scene after scene, eventually got sick himself — clinics, blood work, the whole drama. By week three, the family was ready to give up. I asked them to wait one more week. Seven days later — all four cats were sleeping in the same bed.
-
-## The Short Answer
-
 Orientals are one of the most socially adaptive breeds. They can live with dogs, kids, and other cats. But how well it goes depends on the introduction, your patience, and what happened during the kitten's first nine weeks. There's no shortcut. There's a right way.
 
 This guide is for future pet class owners deciding whether an Oriental fits a home with kids, a dog, or another cat. If you're thinking about breeding or show class and need deeper specifics on socialization at the program level — write to us, we're happy to answer detailed questions.

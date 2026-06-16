@@ -8,14 +8,6 @@ publishDate: "2026-05-29"
 ogImage: "/images/cats/sebastian-main.webp"
 ---
 
-Artikel #6 | Awareness | Floriente Cattery
-
-Ziel: 1200–1500 Wörter | Phase: Awareness | Rolle im Cluster: emotionaler Einstieg über Vertrauen
-
-Eine Familie nahm zwei neue orientalische Katzen auf, zusammen mit einer Maine-Coon-Katze und einer Siamkatze, die bereits im Haus lebten. Die Siamkatze machte eine Szene. Sie akzeptierte die Neulinge nicht, ein Streit folgte dem nächsten, und sie wurde sogar selbst krank. Sie wurde in Tierkliniken gebracht, wo Tests gemacht wurden. In der dritten Woche war die Familie bereit aufzugeben. Ich bat sie, noch eine Woche zu warten. Sieben Tage später schliefen alle vier Katzen in einem Bett.
-
-## Die kurze Antwort
-
 Orientalische Katzen gehören zu den sozial anpassungsfähigsten Rassen. Sie können mit Hunden, Kindern und anderen Katzen zusammenleben. Wie gut das allerdings funktioniert, hängt von der Sozialisierung ab, von der Geduld und von dem, was in den ersten neun Lebenswochen des Kätzchens geschehen ist. Es gibt keinen schnellen Weg, sondern nur den richtigen.
 
 Dieser Leitfaden richtet sich an zukünftige Besitzer der Pet-Klasse, die einschätzen, ob ein orientalischer Kater in ihr Zuhause mit Kindern, einem Hund oder einer weiteren Katze passt. Wenn Sie an Zucht- oder Show-Klasse denken und eine tiefere Sozialisierungs-Spezifik auf Zuchtprogrammebene benötigen, schreiben Sie uns und wir beantworten Ihre Fragen gerne im Detail.
