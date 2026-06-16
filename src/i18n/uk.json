@@ -353,5 +353,11 @@
     "privacyLink": "Політика конфіденційності",
     "cookiesLink": "Політика cookies",
     "termsLink": "Умови використання"
+  },
+  "breeds": {
+    "oshMale": "Орієнтальний кіт",
+    "oshFemale": "Орієнтальна кішка",
+    "siamMale": "Сіамський кіт",
+    "siamFemale": "Сіамська кішка"
   }
 }

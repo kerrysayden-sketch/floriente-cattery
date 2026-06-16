@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import KittensPreview from '../home/KittensPreview.astro';
-import { t, getLocalizedPath } from '../../i18n/utils';
+import { t, getLocalizedPath, localizedBreed } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
 import { fetchKittens } from '../../lib/storyblok';
 
@@ -76,7 +76,7 @@ const hiText = t(lang, 'kittens.hiText');
                 </span>
               </div>
               <h3 class="text-lg md:text-xl font-serif text-dark-soft">{hiText} <strong class="text-dark">{kitten.name}</strong></h3>
-              <p class="text-xs text-gray-medium mt-0.5">{kitten.breed || 'Oriental Shorthair'} {kitten.sex === 'male' ? t(lang, 'kittens.male') : t(lang, 'kittens.female')}</p>
+              <p class="text-xs text-gray-medium mt-0.5">{localizedBreed(kitten.breed || 'Oriental Shorthair', kitten.sex, lang)}</p>
             </a>
           ))}
         </div>
@@ -108,7 +108,7 @@ const hiText = t(lang, 'kittens.hiText');
               {hiText} <strong class="text-dark">{kitten.name}</strong>
               <span class={`ml-1.5 text-lg font-bold ${kitten.sex === 'male' ? 'text-blue-400' : 'text-pink-400'}`}>{kitten.sex === 'male' ? '♂' : '♀'}</span>
             </h3>
-            <p class="text-xs text-gray-medium mt-1 leading-tight">{kitten.breed}. {kitten.sex === 'male' ? t(lang, 'kittens.male') : t(lang, 'kittens.female')}</p>
+            <p class="text-xs text-gray-medium mt-1 leading-tight">{localizedBreed(kitten.breed, kitten.sex, lang)}</p>
             <p class="text-[11px] text-gray-300 mt-0.5 leading-tight">{kitten.full}</p>
           </div>
         ))}
@@ -134,7 +134,7 @@ const hiText = t(lang, 'kittens.hiText');
               {hiText} <strong class="text-dark">{kitten.name}</strong>
               <span class={`ml-1.5 text-lg font-bold ${kitten.sex === 'male' ? 'text-blue-400' : 'text-pink-400'}`}>{kitten.sex === 'male' ? '♂' : '♀'}</span>
             </h3>
-            <p class="text-xs text-gray-medium mt-1 leading-tight">{kitten.breed}. {kitten.sex === 'male' ? t(lang, 'kittens.male') : t(lang, 'kittens.female')}</p>
+            <p class="text-xs text-gray-medium mt-1 leading-tight">{localizedBreed(kitten.breed, kitten.sex, lang)}</p>
             <p class="text-[11px] text-gray-300 mt-0.5 leading-tight">{kitten.full}</p>
           </div>
         ))}

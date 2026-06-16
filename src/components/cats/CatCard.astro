@@ -1,5 +1,5 @@
 ---
-import { getLocalizedPath } from '../../i18n/utils';
+import { getLocalizedPath, localizedBreed } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
 import type { CatData } from '../../lib/storyblok';
 
@@ -43,7 +43,7 @@ const isSmall = size === 'small';
       {cat.name}
     </h3>
     <p class="text-sm text-gray-medium mt-1">
-      {cat.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese'} · {cat.color}
+      {localizedBreed(cat.breed, (cat as any).role, lang)} · {cat.color}
     </p>
     {cat.titles && (
       <span class="inline-block mt-2 px-2 py-0.5 bg-gold/10 text-gold text-xs font-medium rounded">

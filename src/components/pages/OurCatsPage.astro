@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CatGallery from '../cats/CatGallery.astro';
-import { t, getLocalizedPath } from '../../i18n/utils';
+import { t, getLocalizedPath, localizedBreed } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
 import { getCollection } from 'astro:content';
 
@@ -79,7 +79,7 @@ const certByCat: Record<string, string> = {
               <div class="grid grid-cols-2 gap-3 pt-2">
                 <div class="border-l-2 border-accent-gold/30 pl-3">
                   <p class="text-[10px] text-gray-medium uppercase tracking-wider">{t(lang, 'ourCats.fieldBreed')}</p>
-                  <p class="text-sm text-dark font-medium">{cat.breed}</p>
+                  <p class="text-sm text-dark font-medium">{localizedBreed(cat.breed, cat.role, lang)}</p>
                 </div>
                 <div class="border-l-2 border-accent-gold/30 pl-3">
                   <p class="text-[10px] text-gray-medium uppercase tracking-wider">{t(lang, 'ourCats.fieldColor')}</p>

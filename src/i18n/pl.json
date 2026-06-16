@@ -353,5 +353,11 @@
     "privacyLink": "Polityka prywatności",
     "cookiesLink": "Polityka cookies",
     "termsLink": "Regulamin"
+  },
+  "breeds": {
+    "oshMale": "Kot orientalny",
+    "oshFemale": "Kotka orientalna",
+    "siamMale": "Kot syjamski",
+    "siamFemale": "Kotka syjamska"
   }
 }

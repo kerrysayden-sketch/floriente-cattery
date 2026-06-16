@@ -1,5 +1,5 @@
 ---
-import { getLocalizedPath } from '../../i18n/utils';
+import { getLocalizedPath, localizedBreed } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
 import type { KittenData } from '../../lib/storyblok';
 import StatusBadge from './StatusBadge.astro';
@@ -40,7 +40,7 @@ const photoUrl = kitten.photos?.filename || '/images/floriente_dark_navy_transpa
   <div class="p-4">
     <h3 class="font-serif text-lg">{kitten.name}</h3>
     <p class="text-sm text-gray-medium mt-1">
-      {kitten.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese'} · {kitten.color}
+      {localizedBreed(kitten.breed, kitten.sex, lang)} · {kitten.color}
     </p>
     {kitten.price && kitten.status === 'available' && (
       <p class="text-sm font-medium text-gold mt-2">€{kitten.price}</p>

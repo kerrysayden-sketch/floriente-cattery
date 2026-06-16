@@ -54,6 +54,19 @@ export function t(lang: Lang, key: string): string {
   return value ?? key;
 }
 
+// Localized, gender-aware breed label.
+// breedRaw may be a code ('OSH') or a string ('Oriental Shorthair' / 'Siamese').
+// genderRaw may be 'male'/'female' (kittens) or 'king'/'queen' (cats).
+export function localizedBreed(
+  breedRaw: string | undefined,
+  genderRaw: string | undefined,
+  lang: Lang,
+): string {
+  const isSiamese = /siam/i.test(breedRaw ?? '');
+  const isMale = genderRaw === 'male' || genderRaw === 'king';
+  return t(lang, `breeds.${isSiamese ? 'siam' : 'osh'}${isMale ? 'Male' : 'Female'}`);
+}
+
 const langPattern = locales.join('|');
 const langRegex = new RegExp(`^\\/(${langPattern})\\/`);
 const langStripRegex = new RegExp(`^\\/(${langPattern})`);

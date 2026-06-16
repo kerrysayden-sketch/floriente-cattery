@@ -353,5 +353,11 @@
     "privacyLink": "Datenschutz",
     "cookiesLink": "Cookie-Richtlinie",
     "termsLink": "AGB"
+  },
+  "breeds": {
+    "oshMale": "Orientalischer Kurzhaarkater",
+    "oshFemale": "Orientalische Kurzhaarkatze",
+    "siamMale": "Siamkater",
+    "siamFemale": "Siamkatze"
   }
 }

@@ -353,5 +353,11 @@
     "privacyLink": "Privacy Policy",
     "cookiesLink": "Cookie Policy",
     "termsLink": "Terms & Conditions"
+  },
+  "breeds": {
+    "oshMale": "Oriental Shorthair",
+    "oshFemale": "Oriental Shorthair",
+    "siamMale": "Siamese",
+    "siamFemale": "Siamese"
   }
 }
