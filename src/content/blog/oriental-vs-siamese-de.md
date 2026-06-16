@@ -97,4 +97,4 @@ Siamkatzen haben grundsätzlich ein intensives Blau, während orientalische Katz
 
 Keine von beiden ist eine „einfache" Katze. Beide brauchen viel Zeit, Aufmerksamkeit und Interaktion. Wenn Sie genau das suchen — jede der beiden Rassen wird es Ihnen reichlich zurückgeben.
 
-**Sehen Sie es in lebendiger Farbe:** unsere [Orientalen auf der Kitten-Seite](/de/kitten/).
+**Sehen Sie es in lebendiger Farbe:** unsere [Orientalen auf der Kätzchen-Seite](/de/kitten/).
