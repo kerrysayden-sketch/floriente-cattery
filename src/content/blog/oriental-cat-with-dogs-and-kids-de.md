@@ -12,8 +12,6 @@ Artikel #6 | Awareness | Floriente Cattery
 
 Ziel: 1200–1500 Wörter | Phase: Awareness | Rolle im Cluster: emotionaler Einstieg über Vertrauen
 
-## Der Aufhänger
-
 Eine Familie nahm zwei neue orientalische Katzen auf, zusammen mit einer Maine-Coon-Katze und einer Siamkatze, die bereits im Haus lebten. Die Siamkatze machte eine Szene. Sie akzeptierte die Neulinge nicht, ein Streit folgte dem nächsten, und sie wurde sogar selbst krank. Sie wurde in Tierkliniken gebracht, wo Tests gemacht wurden. In der dritten Woche war die Familie bereit aufzugeben. Ich bat sie, noch eine Woche zu warten. Sieben Tage später schliefen alle vier Katzen in einem Bett.
 
 ## Die kurze Antwort
@@ -38,13 +36,12 @@ Jugendliche stellen eine andere Frage: die nach Beständigkeit. Ein orientalisch
 
 Nicht jeder Hund ist gleich. Die Rasse, in deren Umgebung der orientalische Kater gerät, hat einen erheblichen Einfluss auf das Ergebnis.
 
-Cavalier King Charles Spaniels haben innerhalb der ersten drei Monate eine Erfolgsquote von 90 % bei der Zusammenführung mit orientalischen Katzen. Sie sind ruhig, haben keinen ausgeprägten Jagdtrieb im Spiel und ertragen es geduldig, ignoriert zu werden, bis die Katze bereit ist.
-
-Golden Retriever liegen bei etwa 85 %. Sie sind ausreichend geduldig, sanft und in der Lage, Raum zu lassen.
-
-Jack Russell Terrier liegen bei 40 %. Sie haben einen starken Jagdtrieb, schnelle Bewegungen und unberechenbare Energie. Es ist nicht unmöglich, aber der Spielraum für Fehler ist gering.
-
-Greyhounds liegen bei 30 %. Der Windhund-Instinkt ist biologisch bedingt und lässt sich durch Erziehung nicht vollständig kontrollieren.
+| Rasse | Erfolgsquote | Merkmale |
+|---|---|---|
+| Cavalier King Charles Spaniel | 90 % | Ruhig, ohne ausgeprägten Jagdtrieb im Spiel; ertragen es geduldig, ignoriert zu werden, bis die Katze bereit ist |
+| Golden Retriever | ~85 % | Ausreichend geduldig, sanft, in der Lage, Raum zu lassen |
+| Jack Russell Terrier | 40 % | Starker Jagdtrieb, schnelle Bewegungen, unberechenbare Energie. Nicht unmöglich, aber der Spielraum für Fehler ist gering |
+| Greyhound | 30 % | Windhund-Instinkt ist biologisch bedingt, nicht behavioral; lässt sich durch Erziehung nicht vollständig kontrollieren |
 
 Das Vorstellungsprotokoll ist nicht weniger wichtig als die Rassenkompatibilität, und es gilt für Hunde und Katzen gleichermaßen. Den vollständigen Ablauf finden Sie im nächsten Abschnitt.
 
@@ -76,7 +73,7 @@ Bei uns leben mehrere Katzen. Die Hierarchie steht nicht zur Debatte, sondern si
 
 „Es ist genauso einfach wie in der Tierwelt. Der Hauptkater ist der Vater. Das ist zu 100 % so.“ Der älteste Kater ist der Alpha. Darunter stehen die Katzen, die bereits Kätzchen hatten. Danach folgt die Reihenfolge nach Alter, absteigend. So ist die Gruppe aufgebaut und so ist auch das Zusammenleben im Haus organisiert.
 
-Es gibt jedoch eine Ausnahme. Wenn der ältere ansässige Kater vom Charakter her ruhig und nicht aggressiv ist und ein jüngerer, aber dominanterer Kater neu dazukommt, kann sich die Hierarchie mit der Zeit verschieben. Elvira hat das selbst erlebt: Ein ausgewachsener und großer Maine Coon gab seine Position mit der Zeit an eine jüngere Siamkatze ab, die als Kätzchen gekommen war. Die Siamkatze wuchs heran, aber der Maine Coon reagierte nicht darauf. Die Siamkatze wurde zur Anführerin. „In diesem Fall wurde die Siamkatze zur Hauptkatze.“ Charakter ist also nicht weniger wichtig als das Alter.
+Es gibt jedoch eine Ausnahme. Wenn der ältere ansässige Kater vom Charakter her ruhig und nicht aggressiv ist und ein jüngerer, aber dominanterer Kater neu dazukommt, kann sich die Hierarchie mit der Zeit verschieben. Elvira hat das selbst erlebt: Ein ausgewachsener und großer Maine Coon gab seine Position mit der Zeit an eine jüngere Siamkatze ab, die als Kätzchen gekommen war. Die Siamkatze wuchs heran, aber der Maine Coon reagierte nicht darauf. „In diesem Fall wurde die Siamkatze zur Hauptkatze.“ Charakter ist also nicht weniger wichtig als das Alter.
 
 ## Warum können sie nicht allein sein?
 

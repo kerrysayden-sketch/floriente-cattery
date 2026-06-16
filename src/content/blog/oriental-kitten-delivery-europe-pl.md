@@ -12,11 +12,11 @@ Przeprowadzka kociaka — to nie zwykła podróż z punktu A do punktu B. To pie
 
 ## Watch Me Grow: znasz kota, zanim go zabierzesz
 
-Siedem miesięcy oczekiwania — to dużo, jeśli to cisza. U nas inaczej.
+Miesiące oczekiwania — to dużo, jeśli to cisza. U nas inaczej.
 
 Przez cały okres Watch Me Grow wysyłamy zdjęcia i wideo 2-3 razy w tygodniu. Obserwujesz, jak kształtuje się charakter: pierwsze wyjścia z transportera, ulubione zabawki, sposób spania, jak kociak reaguje na nowe. Do momentu przekazania już nie patrzysz na nieznajomego kota. Patrzysz na kota, którego znasz.
 
-Jeśli kociak jedzie za granicę — ten okres może trwać ~7 miesięcy (wymagania szczepień i kwarantanny).
+Jeśli kociak jedzie za granicę — ten okres trwa dłużej ze względu na wymagania szczepień i kwarantanny.
 
 Jeśli kociak po Ukrainie — przeprowadzka jest możliwa już od ~3,5 miesiąca.
 

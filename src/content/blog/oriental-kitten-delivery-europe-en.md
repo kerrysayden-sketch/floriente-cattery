@@ -12,11 +12,11 @@ Moving a kitten isn't just a trip from point A to point B. It's the first psycho
 
 ## Watch Me Grow: You Know the Cat Before You Take It Home
 
-Seven months of waiting is a lot — if it's silence. With us, it's different.
+Months of waiting — that's a lot, if it's silence. With us, it's different.
 
 Throughout the Watch Me Grow period, we send photos and videos 2–3 times a week. You watch the personality form: first ventures out of the carrier, favorite toys, sleeping styles, how the kitten reacts to new things. By the time of handover, you're not looking at a stranger. You're looking at a cat you know.
 
-If the kitten is going abroad — this period can run ~7 months (vaccination and quarantine requirements).
+If the kitten is going abroad — this period takes longer due to vaccination and quarantine requirements.
 
 If the kitten is staying in Ukraine — the move is possible from ~3.5 months.
 

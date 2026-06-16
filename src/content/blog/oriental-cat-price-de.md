@@ -148,7 +148,7 @@ Das Risiko eines billigen Kaufs ist nicht nur finanziell. Ein ungetestetes Zucht
 | Mikrochip | Unbekannt | Enthalten |
 | Begleitung nach der Übergabe | Unbekannt | Dauerhaft |
 | Ausstellungsergebnisse | Unbekannt | GIC-Titel, internationale Ausstellungen |
-| Ausfuhr in die EU | Unbekannt | Ja, Mindestalter — 7 Monate |
+| Ausfuhr in die EU | Unbekannt | Ja, Ausfuhrvorbereitung erforderlich |
 | Vertrag | Unbekannt | Standardvertrag |
 
 Es geht nicht um den Preis. Es geht darum, was Sie wissen, bevor Sie bezahlen.

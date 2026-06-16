@@ -148,7 +148,7 @@ Ryzyko taniego zakupu — to nie tylko finansowe. Nieprzetestowana para hodowlan
 | Mikroczip | Nieznane | Wliczone |
 | Wsparcie po przekazaniu | Nieznane | Stałe |
 | Wyniki wystawowe | Nieznane | Tytuły GIC, wystawy międzynarodowe |
-| Wywóz do UE | Nieznane | Tak, minimalny termin — 7 miesięcy |
+| Wywóz do UE | Nieznane | Tak, wymagane przygotowanie do wywozu |
 | Umowa | Nieznane | Standardowa umowa |
 
 Nie chodzi o cenę. Chodzi o to, co wiesz, zanim zapłacisz.

@@ -12,11 +12,11 @@ Der Umzug eines Kittens ist nicht nur eine Fahrt von Punkt A nach Punkt B. Es is
 
 ## Watch Me Grow: Sie kennen die Katze, bevor Sie sie abholen
 
-Sieben Monate Wartezeit sind viel — wenn sie still bleiben. Bei uns ist es anders.
+Monate des Wartens sind viel — wenn sie still bleiben. Bei uns ist es anders.
 
 Während des gesamten Zeitraums Watch Me Grow senden wir Ihnen 2- bis 3-mal pro Woche Fotos und Videos. Sie beobachten, wie sich der Charakter formt: die ersten Ausflüge aus der Transportbox, die liebsten Spielzeuge, die Schlafgewohnheiten, wie das Kitten auf Neues reagiert. Im Moment der Übergabe sehen Sie keine fremde Katze. Sie sehen eine Katze, die Sie kennen.
 
-Geht das Kitten ins Ausland, kann dieser Zeitraum etwa 7 Monate dauern (Anforderungen an Impfungen und Quarantäne).
+Geht das Kitten ins Ausland, dauert dieser Zeitraum länger – wegen der Anforderungen an Impfungen und Quarantäne.
 
 Bleibt das Kitten innerhalb der Ukraine, ist der Umzug bereits ab etwa 3,5 Monaten möglich.
 

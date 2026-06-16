@@ -12,8 +12,6 @@ Artykuł #6 | Awareness | Floriente Cattery
 
 Cel: 1200–1500 słów | Faza: Awareness | Rola w klastrze: emocjonalne wejście przez zaufanie
 
-## Haczyk
-
 Rodzina wzięła dwa nowe koty orientalne — do mieszkających już w domu Maine Coona i Syjama. Syjam zrobił awanturę: nie akceptował nowych zwierząt, skandal za skandalem, nawet sam zachorował — jeździli z nim po klinikach, robili badania. W trzecim tygodniu rodzina była gotowa się poddać. Poprosiłam, żeby poczekali jeszcze tydzień. Po siedmiu dniach — wszystkie cztery koty spały w jednym łóżku.
 
 ## W skrócie
@@ -38,13 +36,12 @@ Nastolatki stawiają inną kwestię: stabilność. Kot orientalny przywiązuje s
 
 Nie każdy pies reaguje tak samo. Rasa psa, z którą ma zamieszkać oriental, ma kluczowe znaczenie na końcowy sukces.
 
-Cavalier King Charles spaniele mają 90% sukcesu przy zapoznawaniu z kotami orientalnymi w ciągu pierwszych trzech miesięcy. Spokojne, bez wyraźnego instynktu łowieckiego podczas zabawy, cierpliwie znoszą ignorowanie ze strony kota, dopóki ten nie poczuje się gotowy na kontakt.
-
-Golden retrievery — około 85%: wystarczająco cierpliwe, łagodne, potrafią zapewnić przestrzeń.
-
-Jack Russell teriery — 40%. Silny instynkt łowiecki, szybkie ruchy, nieprzewidywalna energia. Sukces jest możliwy, ale margines błędu jest bardzo niewielki.
-
-Greyhoundy — 30%. Instynkt u chartów jest uwarunkowany biologiczny, a nie behawioralny. Nie da się go całkowicie wyeliminować poprzez wychowanie.
+| Rasa | Skuteczność | Charakterystyka |
+|---|---|---|
+| Cavalier King Charles spaniel | 90% | Spokojne, bez wyraźnego instynktu łowieckiego podczas zabawy; cierpliwie znoszą ignorowanie ze strony kota, dopóki ten nie poczuje się gotowy |
+| Golden retriever | ~85% | Wystarczająco cierpliwe, łagodne, potrafią zapewnić przestrzeń |
+| Jack Russell terier | 40% | Silny instynkt łowiecki, szybkie ruchy, nieprzewidywalna energia. Sukces jest możliwy, ale margines błędu jest bardzo niewielki |
+| Greyhound | 30% | Instynkt u chartów jest uwarunkowany biologicznie, a nie behawioralnie. Nie da się go całkowicie wyeliminować poprzez wychowanie |
 
 Właściwe przejście przez wszystkie etapy zapoznania ma równie duże znaczenie co i dopasowanie ras, oraz jest taki sam dla psów i kotów. Pełny algorytm — w następnej sekcji.
 
@@ -76,7 +73,7 @@ U nas mieszka kilka kotów. Hierarchia nie podlega negocjacjom. Ona jest ustalon
 
 «Wszystko jest tak, jak w świecie zwierząt. Główny tata. To 100%». Najstarszy kocur — alfa. Niżej — kotki, które miały kociaki. Dalej — według wieku, w porządku malejącym. Tak zorganizowane jest stado. Tak zorganizowany jest dom.
 
-Jest jeden wyjątek. Jeśli rezydujący starszy kocur jest spokojny i nieagresywny z charakteru, a młodszy, ale bardziej dominujący kot pojawia się jako nowy — hierarchia może zmienić się z czasem. Elvira widziała: dorosły i duży Maine Coon z czasem ustąpił pozycji młodszemu syjamskiemu, który przyszedł kociakiem. Syjamski wyrósł. Maine Coon nie reagował. Syjamski stał się głównym. «W tym przypadku syjamski stał się najważniejszy». Charakter, a nie tylko wiek.
+Jest jeden wyjątek. Jeśli rezydujący starszy kocur jest spokojny i nieagresywny z charakteru, a młodszy, ale bardziej dominujący kot pojawia się jako nowy — hierarchia może zmienić się z czasem. Elvira widziała: dorosły i duży Maine Coon z czasem ustąpił pozycji młodszemu syjamskiemu, który przyszedł kociakiem. Syjamski wyrósł. Maine Coon nie reagował. «W tym przypadku syjamski stał się najważniejszy». Charakter, a nie tylko wiek.
 
 ## Dlaczego nie mogą zostawać same
 

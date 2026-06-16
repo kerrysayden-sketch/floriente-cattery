@@ -89,7 +89,7 @@ Dies ist die Dokumenten-Checkliste für ein Kitten, das innerhalb der EU oder au
 
 | # | Dokument | Anmerkungen |
 |---|---|---|
-| 1 | EU-Heimtierausweis (innerhalb der EU) und tierärztliches Gesundheitszeugnis / AHC (aus der Ukraine in die EU) | Verpflichtend für die legale Einreise |
+| 1 | EU-Heimtierausweis (innerhalb der EU) und tierärztliches Gesundheitszeugnis / AHC — Animal Health Certificate (aus der Ukraine in die EU) | Verpflichtend für die legale Einreise |
 | 2 | ISO-Mikrochip mit 15 Ziffern | Muss vor der Reise implantiert sein; die Nummer ist im Heimtierausweis vermerkt |
 | 3 | Impfeintrag — Kombination gegen Viruserkrankungen und gegen Tollwut | Daten, Name des Impfstoffs, Chargennummer, Unterschrift des Tierarztes |
 | 4 | Ergebnis der Tollwut-Titerbestimmung (wenn das Zielland es verlangt) | Bluttest aus einem akkreditierten Labor; Ergebnis ≥ 0,5 IE/ml |

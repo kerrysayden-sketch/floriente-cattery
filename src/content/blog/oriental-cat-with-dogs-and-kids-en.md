@@ -8,8 +8,6 @@ publishDate: "2026-05-29"
 ogImage: "/images/cats/sebastian-main.webp"
 ---
 
-## The Hook
-
 A family took in two new Orientals — joining a Maine Coon and a Siamese who already lived there. The Siamese threw a tantrum: wouldn't accept the newcomers, scene after scene, eventually got sick himself — clinics, blood work, the whole drama. By week three, the family was ready to give up. I asked them to wait one more week. Seven days later — all four cats were sleeping in the same bed.
 
 ## The Short Answer
@@ -34,13 +32,12 @@ Teenagers raise a different question: stability. An Oriental bonds to whoever sp
 
 Not every dog is the same question. The breed an Oriental is introduced to significantly affects the outcome.
 
-Cavalier King Charles Spaniels see a 90% success rate when introduced to Oriental cats within the first three months. Calm, no strong hunting drive in play, patient with being ignored by a cat until the cat is ready.
-
-Golden Retrievers — around 85%: patient enough, gentle, able to give space.
-
-Jack Russell Terriers — 40%. Strong prey drive, fast movements, unpredictable energy. Not impossible, but the margin for error is narrow.
-
-Greyhounds — 30%. Sighthound instinct is biological, not behavioral. It can't be fully trained out.
+| Breed | Success rate | Notes |
+|---|---|---|
+| Cavalier King Charles Spaniel | 90% | Calm, no strong hunting drive in play; patient with being ignored by a cat until the cat is ready |
+| Golden Retriever | ~85% | Patient enough, gentle, able to give space |
+| Jack Russell Terrier | 40% | Strong prey drive, fast movements, unpredictable energy. Not impossible, but the margin for error is narrow |
+| Greyhound | 30% | Sighthound instinct is biological, not behavioral. It can't be fully trained out |
 
 The introduction protocol matters as much as breed compatibility — and it's the same for dogs and cats. Full algorithm in the next section.
 
@@ -72,7 +69,7 @@ We have several cats in the house. The hierarchy isn't up for debate. It's biolo
 
 "It's just like the animal world. The dad is in charge. 100%." The oldest tomcat is alpha. Below him — the queens who've had litters. Then by age, descending. That's how a pride works. That's how the home works.
 
-There's one exception. If the resident senior cat is calm and non-aggressive by nature, and a younger but more dominant cat arrives new — the hierarchy can shift over time. Elvira saw it: an adult, large Maine Coon eventually yielded position to a younger Siamese who came as a kitten. The Siamese grew up. The Maine Coon didn't react. The Siamese became the boss. "In that case the Siamese became the head." Character, not just age.
+There's one exception. If the resident senior cat is calm and non-aggressive by nature, and a younger but more dominant cat arrives new — the hierarchy can shift over time. Elvira saw it: an adult, large Maine Coon eventually yielded position to a younger Siamese who came as a kitten. The Siamese grew up. The Maine Coon didn't react. "In that case the Siamese became the head." Character, not just age.
 
 ## Why They Can't Be Alone
 

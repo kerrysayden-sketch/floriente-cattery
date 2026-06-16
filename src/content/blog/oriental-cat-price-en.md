@@ -148,7 +148,7 @@ The risk of a cheap purchase isn't only financial. An untested breeding pair can
 | Microchip | Unknown | Included |
 | Post-handover support | Unknown | Ongoing |
 | Show results | Unknown | GIC titles, international shows |
-| Export to EU | Unknown | Yes, minimum age — 7 months |
+| Export to EU | Unknown | Yes, export preparation required |
 | Contract | Unknown | Standard contract |
 
 It's not about the price. It's about what you know before you pay.

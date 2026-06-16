@@ -89,7 +89,7 @@ To lista kontrolna dokumentów dla kociaka przekazywanego wewnątrz UE lub z Ukr
 
 | # | Dokument | Uwagi |
 |---|---|---|
-| 1 | Paszport UE dla zwierząt (w obrębie UE) oraz Świadectwo zdrowia weterynaryjnego / AHC (z Ukrainy do UE) | Obowiązkowy dla legalnego przywozu |
+| 1 | Paszport UE dla zwierząt (w obrębie UE) oraz Świadectwo zdrowia weterynaryjnego / AHC — Animal Health Certificate (z Ukrainy do UE) | Obowiązkowy dla legalnego przywozu |
 | 2 | Mikrochip ISO, 15 cyfr | Musi być wszczepiony przed przeprowadzką; numer zapisany w paszporcie |
 | 3 | Wpis o szczepieniu — kompleks przeciw wirusom i przeciw wściekliźnie | Daty, nazwa szczepionki, numer serii, podpis weterynarza |
 | 4 | Wynik miana przeciw wściekliźnie (jeśli wymaga kraj przeznaczenia) | Badanie krwi z akredytowanego laboratorium; wynik ≥0,5 j.m./ml |
