@@ -2,7 +2,7 @@
 articleSlug: "oriental-cat-colors"
 lang: "de"
 title: "Farben der orientalischen Katze: Ein grundlegender Leitfaden mit Beispielen unserer Katzen"
-description: "Lernen Sie EMS-Farbcodes anhand dreier Floriente-Katzen zu lesen. 9 Grundfarben, 4 Tabby-Zeichnungen, 600+ Kombinationen — ein Leitfaden für Pet-Klasse-Besitzer."
+description: "Lernen Sie EMS-Farbcodes anhand dreier Floriente-Katzen zu lesen. 9 Grundfarben, 4 Tabby-Zeichnungen, über 600 Kombinationen — ein Leitfaden für Pet-Klasse-Besitzer."
 category: "Über die Rasse"
 publishDate: "2026-05-20"
 ogImage: "/images/cats/sebastian-main.webp"

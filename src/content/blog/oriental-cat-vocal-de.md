@@ -2,7 +2,7 @@
 articleSlug: "oriental-cat-vocal"
 lang: "de"
 title: "Sind orientalische Katzen wirklich so gesprächig?"
-description: "Sind orientalische Katzen wirklich so gesprächig? Ja — mit Lautwörterbuch, Siam-Vergleich und einem ehrlichen Eignungstest. Inklusive FAQ."
+description: "Sind orientalische Katzen wirklich so gesprächig? Ja — mit Lautwörterbuch, Siamkatzen-Vergleich und einem ehrlichen Eignungstest. Inklusive FAQ."
 category: "Über die Rasse"
 publishDate: "2026-05-25"
 ogImage: "/images/cats/sebastian-main.webp"

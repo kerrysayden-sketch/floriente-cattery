@@ -1,7 +1,7 @@
 ---
 articleSlug: "oriental-vs-siamese"
 lang: "de"
-title: "Orientalische Katze oder Siamkatze: Was ist eigentlich der Unterschied?"
+title: "Was unterscheidet Orientalische Katzen und Siamkatzen?"
 description: "Was trennt orientalische und Siamkatzen? Ein einziges rezessives Gen — und die meisten Register klassifizieren sie als eine Gruppe. Genetik, Vergleich, FAQ."
 category: "Über die Rasse"
 publishDate: "2026-05-18"

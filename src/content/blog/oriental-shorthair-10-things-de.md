@@ -2,7 +2,7 @@
 articleSlug: "oriental-shorthair-10-things"
 lang: "de"
 title: "10 Dinge, die Sie wissen sollten, bevor Sie sich eine orientalische Katze anschaffen"
-description: "10 Dinge, die Sie über die Orientalisch Kurzhaar wissen sollten: Klettenkatze, Trennungsangst, Stimme und ehrliche Vor- und Nachteile."
+description: "10 Dinge, die Sie über die Orientalische Kurzhaarkatze wissen sollten: Klettenkatze, Trennungsangst, Stimme und ehrliche Vor- und Nachteile."
 category: "Über die Rasse"
 publishDate: "2026-05-27"
 ogImage: "/images/cats/sebastian-main.webp"

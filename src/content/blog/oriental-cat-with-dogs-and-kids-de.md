@@ -2,7 +2,7 @@
 articleSlug: "oriental-cat-with-dogs-and-kids"
 lang: "de"
 title: "Orientalische Katzen mit Kindern, Hunden und anderen Katzen: Wie sieht es wirklich aus?"
-description: "Verstehen sich orientalische Katzen mit Hund, Kind und anderen Katzen? Ein 5-Schritte-Protokoll, echte Fälle und die Rolle der Gerüche."
+description: "Verstehen sich orientalische Katzen mit Hunden, Kindern und anderen Katzen? Ein 5-Schritte-Protokoll, echte Fälle und die Rolle der Gerüche."
 category: "Über die Rasse"
 publishDate: "2026-05-29"
 ogImage: "/images/cats/sebastian-main.webp"

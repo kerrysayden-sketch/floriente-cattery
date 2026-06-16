@@ -24,4 +24,4 @@ gallery:
 
 Halva kam von weit her. Wir haben lange auf sie gewartet.
 
-Wir nennen sie unseren kleinen Papagei. Sima setzt sich zwischen die Beine, Seba zu den Füßen - Halva muss auf die Schulter klettern. So hoch wie möglich. Voller Papageien-Modus. Sie ist noch klein, noch am Wachsen - aber schon eine Schönheit. Unser lang erwartetes Mädchen. Unser Papagei.
+Wir nennen sie unseren kleinen Papagei. Sima setzt sich zwischen die Beine, Seba zu den Füßen - Halva muss auf die Schulter klettern. So hoch wie möglich. Voller Papageien-Modus. Sie ist noch klein, noch am Wachsen, aber schon eine Schönheit. Unser lang erwartetes Mädchen. Unser Papagei.

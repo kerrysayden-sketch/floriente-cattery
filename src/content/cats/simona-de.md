@@ -22,7 +22,7 @@ gallery:
     labelKey: "ourCats.simonaPhoto4"
 ---
 
-Sima ist unsere Hauskontrolleurin. Wir nennen sie „die Deutsche" - in ihrer Welt läuft alles nach strengem Zeitplan. Der Morgen beginnt am Holzofen, sie streckt sich, während das Feuer ihre Knochen wärmt. Sie schmilzt dahin. Dann setzt sie sich zu mir zur Arbeit und bleibt bis zum Abend. Zur Schlafenszeit ist sie die Durchsetzerin: Gehen wir nicht pünktlich nach oben, rennt Sima uns mit den dramatischsten Tönen entgegen. Der Zeitplan wird verletzt! Sofort!
+Sima ist unsere Hauskontrolleurin. Wir nennen sie „die Deutsche" - in ihrer Welt läuft alles nach strengem Zeitplan. Der Morgen beginnt am Holzofen. Sie streckt sich, während das Feuer ihre Knochen wärmt. Sie schmilzt dahin. Dann setzt sie sich zu mir zur Arbeit und bleibt bis zum Abend. Zur Schlafenszeit ist sie die Durchsetzerin: Gehen wir nicht pünktlich nach oben, rennt Sima uns mit den dramatischsten Tönen entgegen. Der Zeitplan wird verletzt! Sofort!
 
 Sie ist auch eine Plaudertasche. Sie erzählt Ihnen alles: wo sie war, was sie tat, was sie davon hält. Sie hat die Kiste benutzt - sie meldet es und lässt nicht locker, bis Papa saubermacht. Bei Oma gelassen - sie erzählt ihren ganzen Tag bis zur Minute: mit wem sie spielte, was sie trieb. Gehst du ins Bad - sie kommt mit. Immer.
 

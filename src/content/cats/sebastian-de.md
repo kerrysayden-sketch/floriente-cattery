@@ -22,7 +22,7 @@ gallery:
     labelKey: "ourCats.sebastianPhoto4"
 ---
 
-Seba ist ein ernster Mann. Er startete als Junge und wuchs zu etwas mehr heran - gelassen, würdevoll, mit Präsenz. Aber im Privaten, wenn nur Mama oder Papa dabei sind, kann er sanft und liebevoll sein. Solange niemand zuschaut.
+Seba ist ein ernster Mann. Er startete als Junge und wuchs zu einem gelassenen, würdevollen Kater mit Präsenz heran. Aber im Privaten, wenn nur Mama oder Papa dabei sind, kann er sanft und liebevoll sein. Solange niemand zuschaut.
 
 Er hat ein Geheimnis. Leise schleicht er sich zum Spielzeughaufen, nimmt eines auf, wirft es umher, spielt. Doch in dem Moment, wenn ich zur Kamera greife - vorbei. „Ich? Gespielt? Nein, nichts dergleichen. Nee, war ich nicht. Nur vorbeigegangen." Echte Männer spielen nicht. Deshalb sind Videos von Seba selten. Er weiß immer, wenn er gefilmt wird.
 
