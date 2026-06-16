@@ -55,7 +55,7 @@ Każda wizyta w klinice weterynaryjnej — transport, konsultacja, opłata za sz
 
 Kupujący czasem uważają, że w cenę wliczona jest duża marża. Realna arytmetyka jest inna.
 
-Wychowanie jednego miotu — od urodzenia kociaków do przekazania nowym właścicielom — kosztuje około 2000 euro w normalnych warunkach. To jedzenie dla rosnącego miotu, żwirek, kursy odrobaczania, kilka wizyt w klinice na każde szczepienie, czipowanie, dokumenty i czas, który nie ma czystego rachunku.
+Wychowanie jednego miotu — od urodzenia kociaków do przekazania nowym właścicielom — kosztuje około 2000 euro w normalnych warunkach. To jedzenie dla rosnącego miotu, żwirek, kursy odrobaczania, kilka wizyt w klinice na każde szczepienie, czipowanie, dokumenty i wiele godzin codziennej pracy, których nie da się w pełni ująć w kosztach.
 
 Jak mówi Elwira: «Jeden kociak w istocie pokrywa wydatki na cały miot». To prawda, jeśli liczyć podstawowe wydatki — jedzenie, medycyna, opieka.
 
@@ -133,7 +133,7 @@ Czasem kociaki orientalne można znaleźć na tablicach ogłoszeniowych za 200-4
 
 Elwira o różnicy: «To nie po prostu ktoś stworzył stronę na OLX, kupił dwa koty i sprzedaje kociaki» — to nie o przypadkowej działalności, a o systemowej pracy.
 
-Fachowy wkład — to część tego, za co płacisz: «Przechodzimy szkolenia weterynaryjne, szkolenia hodowlane, uczymy się fotografii» — podstawy weterynaryjne, genetyka i hodowla, prawidłowa prezentacja zwierząt. To nie hobby. To kwalifikacje.
+Fachowy wkład — to wiedza i doświadczenie gromadzone latami. Weterynaria, genetyka, selekcja, wychowanie i socjalizacja zwierząt — wszystko to wymaga ciągłego kształcenia. To nie hobby, lecz wykwalifikowana praca.
 
 Ryzyko taniego zakupu — to nie tylko finansowe. Nieprzetestowana para hodowlana może dawać kociaki z patologiami dziedzicznymi. PRA (postępujący zanik siatkówki) u orientalnych może prowadzić do ślepoty. Kociak bez pełnej dokumentacji szczepień będzie cię kosztował więcej już przy pierwszej wizycie u weterynarza, niż różnica w cenie, którą zaoszczędziłeś.
 

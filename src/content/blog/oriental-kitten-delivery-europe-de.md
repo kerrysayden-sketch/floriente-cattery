@@ -8,7 +8,7 @@ publishDate: "2026-06-05"
 ogImage: "/images/cats/sebastian-main.webp"
 ---
 
-Der Umzug eines Kittens ist nicht nur eine Fahrt von Punkt A nach Punkt B. Es ist der erste psychologische Bruch in seinem Leben: neuer Ort, neue Gerüche, neue Menschen, neue Geräusche. Wie es das bewältigt, hängt davon ab, was wir in den vorherigen Wochen getan und womit wir Sie für diese Reise ausgestattet haben. So verläuft der Weg von unserem Zuhause zu Ihrem.
+Der Umzug eines Kittens ist nicht nur eine Fahrt von Punkt A nach Punkt B. Es ist der erste psychologische Bruch in seinem Leben: neuer Ort, neue Gerüche, neue Menschen, neue Geräusche. Wie es das bewältigt, hängt davon ab, was wir in den vorherigen Wochen getan und womit wir Sie für diese Reise ausgestattet haben. Wir erzählen, wie dieser Weg verläuft — von unserem Zuhause zu Ihrem.
 
 ## Watch Me Grow: Sie kennen die Katze, bevor Sie sie abholen
 

@@ -55,7 +55,7 @@ Every clinic visit — transport, consultation, vaccination fee — is real cost
 
 Buyers sometimes assume there's a big margin built into the price. The actual math is different.
 
-Raising one litter — from kittens being born to handover — costs around 2,000 EUR under normal conditions. That's food for the growing litter, litter substrate, deworming courses, multiple clinic visits for each vaccination, microchipping, paperwork, and time that has no clean accounting.
+Raising one litter — from kittens being born to handover — costs around 2,000 EUR under normal conditions. That's food for the growing litter, litter substrate, deworming courses, multiple clinic visits for each vaccination, microchipping, paperwork, and many hours of daily work that can't be fully accounted for in the costs.
 
 As Elvira puts it: "One kitten basically covers the cost of the whole litter." That's true for baseline costs — food, medicine, care.
 
@@ -133,7 +133,7 @@ From time to time, Oriental kittens show up on classifieds for 200–400 EUR fro
 
 Elvira on the difference: "It's not just someone who set up a page on OLX, bought two cats, and is selling kittens" — it's not casual activity, it's systematic work.
 
-Professional input is part of what you're paying for: "We go through veterinary training, breeding training, we learn photography" — vet basics, genetics and selection, proper presentation of animals. This isn't a hobby. It's qualification.
+Professional input is knowledge and experience built up over years. Veterinary medicine, genetics, selection, raising and socializing the animals — all of it takes continuous learning. This isn't a hobby, it's qualified work.
 
 The risk of a cheap purchase isn't only financial. An untested breeding pair can produce kittens with hereditary pathologies. PRA (progressive retinal atrophy) in Orientals can lead to blindness. A kitten without complete vaccination documentation will cost you more on the first vet visit alone than the price difference you saved.
 

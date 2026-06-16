@@ -8,7 +8,7 @@ publishDate: "2026-06-05"
 ogImage: "/images/cats/sebastian-main.webp"
 ---
 
-Moving a kitten isn't just a trip from point A to point B. It's the first psychological break in its life: new place, new smells, new people, new sounds. How it handles that depends on what we did in the weeks before and what we sent you off with for the road. Here's what it looks like, from our home to yours.
+Moving a kitten isn't just a trip from point A to point B. It's the first psychological break in its life: new place, new smells, new people, new sounds. How it handles that depends on what we did in the weeks before and what we sent you off with for the road. Here's how this journey unfolds — from our home to yours.
 
 ## Watch Me Grow: You Know the Cat Before You Take It Home
 

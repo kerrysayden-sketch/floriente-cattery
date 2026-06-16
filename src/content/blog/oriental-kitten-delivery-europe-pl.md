@@ -8,7 +8,7 @@ publishDate: "2026-06-05"
 ogImage: "/images/cats/sebastian-main.webp"
 ---
 
-Przeprowadzka kociaka — to nie zwykła podróż z punktu A do punktu B. To pierwsze w jego życiu psychologiczne rozdarcie: nowe miejsce, nowe zapachy, nowi ludzie, nowe dźwięki. Jak sobie poradzi — zależy od tego, co zrobiliśmy w poprzednich tygodniach i czym was wyposażyliśmy na tę drogę. Oto jak to wygląda od naszego domu do twojego.
+Przeprowadzka kociaka — to nie zwykła podróż z punktu A do punktu B. To pierwsze w jego życiu psychologiczne rozdarcie: nowe miejsce, nowe zapachy, nowi ludzie, nowe dźwięki. Jak sobie poradzi — zależy od tego, co zrobiliśmy w poprzednich tygodniach i czym was wyposażyliśmy na tę drogę. Opowiadamy, jak przebiega ta droga — od naszego domu do twojego.
 
 ## Watch Me Grow: znasz kota, zanim go zabierzesz
 

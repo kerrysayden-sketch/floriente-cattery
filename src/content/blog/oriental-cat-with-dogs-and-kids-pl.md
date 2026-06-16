@@ -103,7 +103,7 @@ I to już wystarczy, żeby równowaga się utrzymała.
 
 ## Dwa powody, dla których warto izolować nowego kota — i dlaczego kolejność działań ma znaczenie
 
-Pierwszy powód — zdrowie. Kot, który przyjechał — z hodowli, z lotu, z drogi — mógł złapać cokolwiek. Rezydujące koty, które od lat siedzą w domu, nie mają odporności na takie bakterie i wirusy. To jak człowiek, który latami siedział w domu, nagle wszedł do metra — i następnego dnia kicha. Koty żyją w swoim zamkniętym mikroświecie. Dlatego pierwsze tydzień-dwa nowego kota trzymają osobno: to nie ostrożność, to kwarantanna w celu ochrony wszystkich.
+Pierwszy powód — zdrowie. Kot, który przyjechał — z innej hodowli, z lotu, z drogi — mógł złapać cokolwiek. Rezydujące koty, które od lat siedzą w domu, nie mają odporności na takie bakterie i wirusy. To jak człowiek, który latami siedział w domu, nagle wszedł do metra — i następnego dnia kicha. Koty żyją w swoim zamkniętym mikroświecie. Dlatego pierwsze tydzień-dwa nowego kota trzymają osobno: to nie ostrożność, to kwarantanna w celu ochrony wszystkich.
 
 Drugi powód — zapachy. Koty żyją w świecie zapachów, do którego my nie mamy dostępu. «One żyją kategoriami zapachów. Wszędzie są różne zapachy —one muszą się nimi wymienić». Nowe zwierzę, które przychodzi do domu, przynosi ze sobą obcy profil zapachowy: inną hodowlę, inne środowisko. Dopóki zapachy się nie wymienią, nowy kot jest postrzegany jako wtargnięcie — niekoniecznie wrogie, ale «obce». Rezydujące koty nie są kapryśne. Reagują na coś realnego, czego ty nie odczuwasz.
 

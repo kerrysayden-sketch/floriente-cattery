@@ -55,7 +55,7 @@ Jeder Besuch in der Tierklinik — Transport, Konsultation, Impfgebühr — sind
 
 Käufer nehmen manchmal an, im Preis stecke eine große Marge. Die tatsächliche Rechnung sieht anders aus.
 
-Einen Wurf großzuziehen — von der Geburt der Kitten bis zur Übergabe an die neuen Halter — kostet unter normalen Bedingungen etwa 2.000 EUR. Das umfasst Futter für den heranwachsenden Wurf, Streu, Entwurmungskuren, mehrere Klinikbesuche für jede Impfung, Mikrochip-Implantation, Dokumente — und Zeit, die in keiner sauberen Rechnung erscheint.
+Einen Wurf großzuziehen — von der Geburt der Kitten bis zur Übergabe an die neuen Halter — kostet unter normalen Bedingungen etwa 2.000 EUR. Das umfasst Futter für den heranwachsenden Wurf, Streu, Entwurmungskuren, mehrere Klinikbesuche für jede Impfung, Mikrochip-Implantation, Dokumente — und viele Stunden täglicher Arbeit, die sich nicht vollständig in den Kosten abbilden lassen.
 
 Wie Elvira es ausdrückt: «Im Grunde deckt ein Kitten die Kosten für den gesamten Wurf». Das stimmt, wenn man die Grundkosten ansetzt — Futter, Medizin, Pflege.
 
@@ -133,7 +133,7 @@ Hin und wieder finden sich Orientalisch-Kitten in Kleinanzeigen für 200–400 E
 
 Elvira über den Unterschied: «Das ist nicht einfach jemand, der eine Seite auf OLX angelegt, zwei Katzen gekauft hat und nun Kitten verkauft» — es geht nicht um beiläufige Tätigkeit, sondern um systematische Arbeit.
 
-Der fachliche Beitrag ist Teil dessen, wofür Sie bezahlen: «Wir absolvieren tierärztliche Fortbildungen, Zuchtfortbildungen, lernen Fotografie» — tierärztliche Grundlagen, Genetik und Selektion, korrekte Präsentation der Tiere. Das ist kein Hobby. Das ist eine Qualifikation.
+Der fachliche Beitrag ist über Jahre aufgebautes Wissen und Erfahrung. Tiermedizin, Genetik, Selektion, Aufzucht und Sozialisierung der Tiere — all das erfordert ständige Weiterbildung. Das ist kein Hobby, sondern qualifizierte Arbeit.
 
 Das Risiko eines billigen Kaufs ist nicht nur finanziell. Ein ungetestetes Zuchtpaar kann Kitten mit Erbkrankheiten hervorbringen. PRA (progressive Netzhautatrophie) kann bei Orientalen zur Erblindung führen. Ein Kitten ohne vollständige Impfdokumentation wird Sie bereits beim ersten Tierarztbesuch mehr kosten als der Preisunterschied, den Sie gespart haben.
 

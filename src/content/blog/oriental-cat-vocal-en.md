@@ -14,7 +14,7 @@ Yes, they talk. Yes, they answer. And yes — over time, you'll learn to read ev
 
 Orientals are one of the most vocal domestic cat breeds out there. This isn't a quirk of one cat's personality. It's a breed trait. If you're getting an Oriental, you're not getting a quiet cat that occasionally reminds you about dinner. You're getting a conversation partner — full-time.
 
-People who love talkative cats aren't looking for a pet. They're looking for someone to talk to.
+People who love talkative cats aren't looking for just a pet. They're looking for a real conversation partner.
 
 ## Why they're so vocal
 
@@ -22,9 +22,9 @@ Most house cats have a narrow vocal repertoire. Meow for food. Hiss when scared.
 
 Orientals are a different category. Their range covers everything from a low rumble to sharp, insistent demands. They adjust tone, volume, and rhythm depending on what they need and how urgent it is.
 
-This isn't an individual trait — it's the architecture of the breed. Oleksandr, who's lived with Orientals for years, puts it well. Even the quietest Oriental is louder than most cats of other breeds.
+This isn't an individual character trait — it's a breed trait. Oleksandr, who has lived with Orientals for many years, put it precisely:
 
-"The quietest Oriental is always louder and more talkative than any other cat." — Oleksandr
+"Even the quietest Oriental is usually far more talkative than most cats of other breeds."
 
 Vocal behavior is tied directly to how emotional these cats are. Orientals don't hold back what they feel. They voice it. If something's wrong — you'll know. If everything's great — you'll know that too.
 
@@ -44,7 +44,7 @@ Three cats, one breed, three different vocal styles. The breed gives them the in
 
 ## Sound dictionary
 
-Living with an Oriental means learning a new language. Here's a rough phrasebook.
+Living with an Oriental means learning a new language. Below is a rough phrasebook.
 
 Hunger arrives regularly and confidently. Not a single meow — a sequence. It starts soft and builds if you don't react. With Halva, it's worked out into a system. The timing is exact, the escalation is deliberate.
 
@@ -56,7 +56,7 @@ Joy is the quietest state. Soft, drawn-out purring. Sometimes a chirp when somet
 
 Displeasure — you can't miss it. The pitch drops. The pace slows. There's often a small pause before the sound — and that's what gives it weight. Sima switches to this when the routine is broken: furniture moved, dinner late.
 
-Here's a quick reference table.
+Below is a quick reference table.
 
 | Sound | What it means | Example |
 | --- | --- | --- |
@@ -66,7 +66,7 @@ Here's a quick reference table.
 | Soft purring, chirping | Joy, interest | Seba on the feather wand |
 | Pitch drops, pause before the sound | Displeasure | Sima, when the furniture's moved |
 
-These sounds aren't random. That's what surprises a lot of people. There's a grammar to it. It takes a few months to learn — but after that, you read your cat as easily as you read text.
+These sounds aren't random. For many people, it comes as a discovery. There's a grammar to it. It takes a few months to learn — but after that, you read your cat as easily as you read text.
 
 ## Siamese vs Oriental voice
 

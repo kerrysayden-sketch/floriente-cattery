@@ -14,7 +14,7 @@ Ja, sie sprechen. Ja, sie antworten. Und ja — mit der Zeit lernen Sie, jeden e
 
 Orientalische Katzen sind eine der stimmgewaltigsten Hauskatzenrassen überhaupt. Es handelt sich nicht um eine typische Besonderheit, die bei einzelnen Katzen auftritt. Das ist ein Rassemerkmal. Wenn man eine orientalische Katze zu sich nimmt, holt man sich keine stille Katze, die nur manchmal an die Mahlzeit erinnert. Man bekommt stattdessen einen Gesprächspartner auf Dauer.
 
-Die Leute, die gesprächige Katzen lieben, suchen kein Haustier — sie suchen jemanden, mit dem man reden kann.
+Die Leute, die gesprächige Katzen lieben, suchen nicht einfach nur ein Haustier — sie suchen einen echten Gesprächspartner.
 
 ## Warum sind sie so stimmgewaltig?
 
@@ -22,9 +22,9 @@ Die meisten Hauskatzen haben ein schmales stimmliches Repertoire. Es gibt ein Mi
 
 Orientalische Katzen sind eine andere Kategorie. Ihre Stimmen reichen vom tiefen Grollen bis zu lauten, fordernden Tönen. Sie verändern Klangfarbe, Lautstärke und Rhythmus, und das hängt davon ab, was sie gerade wollen und wie dringend es ist.
 
-Das ist keine individuelle Eigenschaft, sondern das liegt in der Natur der Rasse. Olexandr, der seit Jahren mit orientalischen Katzen lebt, bringt es auf den Punkt: Selbst die ruhigste orientalische Katze ist lauter als die meisten Vertreter anderer Rassen.
+Das ist keine individuelle Charaktereigenschaft, sondern eine Eigenschaft der Rasse. Olexandr, der seit vielen Jahren mit orientalischen Katzen lebt, hat es sehr treffend formuliert:
 
-„Selbst die leiseste orientalische Katze ist immer lauter und gesprächiger als alle anderen Katzen", sagt Olexandr.
+„Selbst die leiseste orientalische Katze ist in der Regel deutlich gesprächiger als die meisten Katzen anderer Rassen."
 
 Das stimmgewaltige Verhalten ist untrennbar mit der Emotionalität dieser Katzen verbunden. Orientalische Katzen halten nicht zurück, was sie empfinden. Sie äußern es. Wenn etwas nicht stimmt, werden Sie es erfahren. Und wenn alles wunderbar ist, ebenfalls.
 
@@ -44,7 +44,7 @@ Hier sind drei Katzen, eine Rasse, drei unterschiedliche Stimmstile. Die Rasse l
 
 ## Ein Wörterbuch der Laute
 
-Mit einer orientalischen Katze zu leben bedeutet, eine neue Sprache zu lernen. Hier ist ein grober Sprachführer.
+Mit einer orientalischen Katze zu leben bedeutet, eine neue Sprache zu lernen. Nachfolgend ein grober Sprachführer.
 
 Hunger meldet sich regelmäßig und selbstbewusst. Kein einzelnes Miauen — eine ganze Folge. Es beginnt leise und steigert sich, wenn man nicht reagiert. Es ist ein eingespieltes System für Halva. Der Zeitpunkt ist präzise gewählt, und die Eskalation ist Absicht.
 
@@ -56,7 +56,7 @@ Freude ist der leiseste Zustand. Ein sanftes, lang gezogenes Schnurren. Manchmal
 
 Unzufriedenheit ist unverwechselbar. Die Klangfarbe sinkt und das Tempo verlangsamt sich. Vor dem Laut gibt es oft eine kleine Pause, und genau das macht ihn bedeutender. Sima äußert diesen Ton, wenn die gewohnte Ordnung gestört wird. Bei dieser Laune passen umgestellte Möbel und verspätetes Futter nicht.
 
-Hier eine zusammengefasste Übersicht der Laute, die zur schnellen Orientierung dient.
+Nachfolgend eine zusammengefasste Übersicht der Laute, die zur schnellen Orientierung dient.
 
 | Laut | Bedeutung | Beispiel |
 |---|---|---|
@@ -66,7 +66,7 @@ Hier eine zusammengefasste Übersicht der Laute, die zur schnellen Orientierung 
 | Sanftes Schnurren, Zwitschern | Freude, Interesse | Seba bei der Federspielangel |
 | Klangfarbe sinkt, Pause vor dem Laut | Unzufriedenheit | Sima, wenn die Möbel umgestellt wurden |
 
-Diese Laute sind nicht zufällig. Für viele Leute ist das genau die Überraschung: Hier gibt es eine Grammatik. Ihr Erlernen braucht einige Monate — danach aber lesen Sie Ihre Katze ebenso mühelos wie einen Text.
+Diese Laute sind nicht zufällig. Für viele ist das eine Überraschung: Hier gibt es eine Grammatik. Ihr Erlernen braucht einige Monate — danach aber lesen Sie Ihre Katze ebenso mühelos wie einen Text.
 
 ## Siamstimme oder orientalische Stimme
 

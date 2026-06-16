@@ -95,7 +95,7 @@ And that's enough for the balance to hold.
 
 ## Two Reasons to Isolate a New Cat — and Why Order Matters
 
-First reason — health. A cat who's just arrived — from a cattery, a flight, the road — could have picked up anything. Resident cats who've been at home for years have no immunity to those bacteria and viruses. It's like a person who's been home for years suddenly riding the metro — and sneezing the next day. Cats are natural endemics. That's why the new cat stays separate for the first week or two: it's not caution, it's quarantine to protect everyone.
+First reason — health. A cat who's just arrived — from another cattery, a flight, the road — could have picked up anything. Resident cats who've been at home for years have no immunity to those bacteria and viruses. It's like a person who's been home for years suddenly riding the metro — and sneezing the next day. Cats are natural endemics. That's why the new cat stays separate for the first week or two: it's not caution, it's quarantine to protect everyone.
 
 Second reason — scents. Cats live in a world of smells we don't have access to. "They live by scent. Different smells everywhere — they need to exchange them." A new animal coming into the house brings a foreign scent profile: different cattery, different environment. Until the scents mix, the new cat reads as an intrusion — not necessarily hostile, but "foreign." Resident cats aren't being difficult. They're reacting to something real that you can't perceive.
 
