@@ -19,6 +19,13 @@ const canonicalUrl = `${canonicalBase}/${lang}/blog/${articleSlug}/`;
 const ogImage = post.data.ogImage ? `${canonicalBase}${post.data.ogImage}` : `${canonicalBase}/images/cats/sebastian-main.webp`;
 const publishDate = post.data.publishDate;
 
+const dateLocaleMap: Record<Lang, string> = {
+  en: 'en-GB', uk: 'uk-UA', pl: 'pl-PL', de: 'de-DE', ru: 'ru-RU',
+};
+const formattedDate = publishDate
+  ? new Date(publishDate).toLocaleDateString(dateLocaleMap[lang] ?? 'en-GB', { year: 'numeric', month: 'long', day: 'numeric' })
+  : '';
+
 const articleSchema = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Article",
@@ -61,7 +68,7 @@ const articleSchema = JSON.stringify({
         </span>
         <h1 class="font-serif text-3xl md:text-4xl text-dark mt-2 mb-4">{title}</h1>
         <div class="flex items-center gap-4 text-sm text-gray-medium">
-          <time datetime={publishDate}>{t(lang, 'blog.howToVerify.publishDate')}</time>
+          <time datetime={publishDate}>{formattedDate}</time>
           <span>Floriente Cattery</span>
         </div>
       </header>
