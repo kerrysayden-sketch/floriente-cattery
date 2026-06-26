@@ -85,13 +85,14 @@ In the Pages project → Settings → Environment variables, set for **Productio
 | `GOOGLE_SHEET_RANGE` | plain | `Waitlist!A:S` |
 | `TURNSTILE_SECRET_KEY` | secret | optional (§8) |
 | `PUBLIC_TURNSTILE_SITE_KEY` | plain (build) | optional (§8) — must also be in **build** env |
-| `WAITLIST_ALLOW_DEGRADED` | plain | **Production: leave UNSET.** Preview/local: `true` only if you want it live without full notify config. |
+| `WAITLIST_ALLOW_DEGRADED` | plain | **Production & Preview: leave UNSET.** Local dev only: `true`. |
 
 > **Production safety:** `WAITLIST_ALLOW_DEGRADED` is unset by default = **strict mode**.
 > In strict mode, if the Resend notification is not fully configured, the function
-> returns **500 `config`** instead of a false `200` — so a misconfigured production
-> can never accept a submission and silently lose the lead. Set `true` only in
-> local/preview where you intentionally test without sending email.
+> returns **500 `config`** instead of a false `200` — so a misconfigured environment
+> can never accept a submission and silently lose the lead. **Preview runs live**
+> (real credentials, strict) just like production; set `true` **only** for local
+> development where you intentionally test without sending email.
 
 ## 7. Gmail filter (triage)
 

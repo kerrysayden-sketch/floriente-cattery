@@ -7,9 +7,9 @@
 
 # ── Safety mode ──────────────────────────────────────────────
 # Allow degraded mode (skip unconfigured notify/sheet and still return 200).
-# Set 'true' for LOCAL/PREVIEW only. In PRODUCTION leave this UNSET — strict
-# mode then returns 500 'config' if notification email is not configured, so a
-# misconfigured prod can never silently accept and lose a lead.
+# Set 'true' for LOCAL development only. Do NOT set it in Preview or Production
+# — both run STRICT/live with real credentials, so a missing notify config
+# returns 500 'config' instead of silently accepting and losing a lead.
 WAITLIST_ALLOW_DEGRADED=true
 
 # ── Notification email (Resend) ──────────────────────────────
