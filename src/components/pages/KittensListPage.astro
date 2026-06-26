@@ -68,6 +68,10 @@ const hiText = t(lang, 'kittens.hiText');
         rel="noopener noreferrer"
         class="inline-block px-8 py-3 bg-gold text-warm-white font-medium rounded hover:bg-gold-dark transition-colors text-sm"
       >{t(lang, 'kittens.availabilityCta')}</a>
+      <p class="text-dark-soft text-sm mt-4">
+        {t(lang, 'kittens.waitlistPrompt')}
+        <a href={getLocalizedPath('/kittens/waitlist/', lang)} class="text-gold hover:text-gold-dark underline underline-offset-2">{t(lang, 'kittens.waitlistFormLink')}</a>
+      </p>
     </div>
 
     {currentKittens.length > 0 && (
