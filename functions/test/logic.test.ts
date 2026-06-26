@@ -8,7 +8,7 @@ import { validateSubmission } from '../api/_lib/validate.ts';
 import { buildSubject, classLabel, breedLabel, isoDate } from '../api/_lib/subject.ts';
 import { checkHoneypot, MIN_FILL_MS } from '../api/_lib/antispam.ts';
 import { autoReply } from '../api/_lib/emailCopy.ts';
-import { buildRow } from '../api/_lib/sheet.ts';
+import { buildValues } from '../api/_lib/store.ts';
 import { LOCALES } from '../api/_lib/types.ts';
 
 const validRaw = {
@@ -123,16 +123,19 @@ test('auto-reply copy exists for every locale', () => {
   }
 });
 
-test('sheet row has 19 columns in the agreed order', () => {
+test('D1 insert values: 20 columns in schema order, raw enums stored', () => {
   const r = validateSubmission(validRaw);
-  const row = buildRow(r.clean!, new Date('2026-06-26T10:00:00Z'));
-  assert.equal(row.length, 19);
-  assert.equal(row[0], '2026-06-26T10:00:00.000Z'); // CreatedAt
-  assert.equal(row[1], 'de'); // Locale
-  assert.equal(row[2], 'Anna K.'); // Name
-  assert.equal(row[8], 'Breeding & Show'); // Class
-  assert.equal(row[10], 'female / black'); // SexColorPreference
-  assert.equal(row[16], 'Yes'); // GDPRConsent
-  assert.equal(row[17], ''); // Status (operator-owned)
-  assert.equal(row[18], ''); // Notes (operator-owned)
+  const v = buildValues(r.clean!, new Date('2026-06-26T10:00:00Z'));
+  assert.equal(v.length, 20);
+  assert.equal(v[0], '2026-06-26T10:00:00.000Z'); // created_at
+  assert.equal(v[1], 'de'); // locale
+  assert.equal(v[2], 'Anna K.'); // name
+  assert.equal(v[8], 'breeding_show'); // interest_class (raw enum, not label)
+  assert.equal(v[9], 'oriental'); // breed_preference (raw enum)
+  assert.equal(v[10], 'female'); // sex_preference (separate column)
+  assert.equal(v[11], 'black'); // color_preference (separate column)
+  assert.equal(v[13], 1); // video_call_ready (true → 1)
+  assert.equal(v[17], 1); // gdpr_consent
+  assert.equal(v[18], 'new'); // status
+  assert.equal(v[19], ''); // notes
 });

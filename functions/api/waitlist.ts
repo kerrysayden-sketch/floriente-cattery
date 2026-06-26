@@ -1,19 +1,24 @@
 // POST /api/waitlist — Cloudflare Pages Function.
 // Pipeline: method guard → parse → honeypot/fill-time → Turnstile (env-gated)
-// → validate + consent gate → notification email (hard) → auto-reply (soft)
-// → Google Sheet append (soft/degrade) → JSON response.
+// → validate + consent gate → notification email (hard) → D1 insert (hard)
+// → auto-reply (soft) → JSON response.
 //
-// Hard dependency = the notification email. By DEFAULT (strict) an unconfigured
-// notify path returns 500 'config' — never a false success. Degraded mode
-// (skip + return 200) is opt-in via WAITLIST_ALLOW_DEGRADED='true' for
-// local/preview only. Sheet + auto-reply stay soft. Production acceptance
-// (notify PASS + Sheet PASS) is verified by the operator — see WAITLIST-SETUP.md.
+// Hard dependencies = notification email AND the D1 insert. By DEFAULT (strict):
+//   notify unconfigured  → 500 'config'
+//   notify send fails    → 500 'server'
+//   D1 binding missing   → 500 'storage'
+//   D1 insert fails      → 500 'storage'
+//   notify PASS + D1 PASS → 200 (auto-reply failure is logged, still 200)
+// Degraded mode (skip notify AND D1, return 200) is opt-in via
+// WAITLIST_ALLOW_DEGRADED='true' for LOCAL development only — never Preview/Prod.
+// Order is notify → D1: the flaky external call is checked first, so the common
+// failure writes no partial state (minimizes duplicate rows on retry).
 import type { FnContext, RawSubmission } from './_lib/types.ts';
 import { validateSubmission } from './_lib/validate.ts';
 import { checkHoneypot, verifyTurnstile } from './_lib/antispam.ts';
 import { buildSubject } from './_lib/subject.ts';
 import { sendNotification, sendAutoReply } from './_lib/email.ts';
-import { appendToSheet } from './_lib/sheet.ts';
+import { insertSubmission } from './_lib/store.ts';
 
 const MAX_BODY_BYTES = 20_000;
 
@@ -70,7 +75,7 @@ export const onRequest = async (context: FnContext): Promise<Response> => {
   // ONLY when explicitly enabled. Default is STRICT — production safety.
   const allowDegraded = env.WAITLIST_ALLOW_DEGRADED === 'true';
 
-  // Notification email — hard dependency.
+  // 1. Notification email — hard dependency.
   const now = new Date();
   const subject = buildSubject(clean, now);
   const notify = await sendNotification(env, clean, subject);
@@ -85,16 +90,24 @@ export const onRequest = async (context: FnContext): Promise<Response> => {
     return json(500, { ok: false, error: 'config' });
   }
 
-  // Auto-reply — soft (failure must not lose the lead).
+  // 2. D1 insert — hard dependency in strict mode.
+  const store = await insertSubmission(env, clean, now);
+  if (store.status === 'error') {
+    console.error(`waitlist: store error — ${store.detail}`);
+    return json(500, { ok: false, error: 'storage' });
+  }
+  if (store.status === 'skipped' && !allowDegraded) {
+    // Binding missing + not in degraded mode → the lead would not be stored.
+    console.error('waitlist: D1 binding missing and degraded mode disabled → 500 storage');
+    return json(500, { ok: false, error: 'storage' });
+  }
+
+  // 3. Auto-reply — soft (failure must not lose the lead).
   const reply = await sendAutoReply(env, clean);
   if (reply.status === 'error') console.error(`waitlist: autoreply error — ${reply.detail}`);
 
-  // Google Sheet — soft/degrade. Operator verifies PASS for production acceptance.
-  const sheet = await appendToSheet(env, clean, now);
-  if (sheet.status === 'error') console.error(`waitlist: sheet error — ${sheet.detail}`);
-
   console.log(
-    `waitlist: ok notify=${notify.status} autoreply=${reply.status} sheet=${sheet.status} degraded=${allowDegraded} locale=${clean.locale}`,
+    `waitlist: ok notify=${notify.status} store=${store.status} autoreply=${reply.status} degraded=${allowDegraded} locale=${clean.locale}`,
   );
   return json(200, { ok: true });
 };

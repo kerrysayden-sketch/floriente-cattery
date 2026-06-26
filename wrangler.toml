@@ -12,3 +12,15 @@
 name = "floriente-cattery"
 pages_build_output_dir = "dist"
 compatibility_date = "2024-11-01"
+
+# D1 storage binding. For LOCAL `wrangler pages dev`, the binding name is enough
+# (a local SQLite is created under .wrangler/). For remote Preview/Production the
+# binding is configured in the Cloudflare Pages dashboard per environment
+# (Settings → Functions → D1 bindings), pointing `WAITLIST_DB` at:
+#   Preview     → floriente-waitlist-preview
+#   Production  → floriente-waitlist-prod
+# database_id is an identifier (not a secret); fill it after `wrangler d1 create`.
+[[d1_databases]]
+binding = "WAITLIST_DB"
+database_name = "floriente-waitlist-preview"
+database_id = "REPLACE_AFTER_d1_create"

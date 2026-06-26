@@ -11,27 +11,45 @@ export const LOCALES: Locale[] = ['en', 'uk', 'pl', 'de', 'ru'];
 export type InterestClass = 'pet' | 'breeding_show' | 'not_sure';
 export type PreferredChannel = 'whatsapp' | 'telegram' | 'instagram' | 'email' | 'phone';
 
-// Runtime environment (Cloudflare Pages env / wrangler .dev.vars).
-// Every value is optional so the function degrades gracefully when a feature
-// (Turnstile, Sheet) is not yet configured.
+// Minimal Cloudflare D1 surface (only what the storage layer uses). Avoids a
+// dependency on @cloudflare/workers-types.
+export interface D1Result {
+  success: boolean;
+  error?: string;
+}
+export interface D1PreparedStatement {
+  bind(...values: unknown[]): D1PreparedStatement;
+  run(): Promise<D1Result>;
+}
+export interface D1Database {
+  prepare(query: string): D1PreparedStatement;
+}
+
+// Result of an external/storage operation (email send, D1 insert).
+//   ok      → succeeded
+//   skipped → not configured (only tolerated in local degraded mode)
+//   error   → configured but failed
+export type OpResult =
+  | { status: 'ok'; id?: string }
+  | { status: 'skipped'; reason: string }
+  | { status: 'error'; detail: string };
+
+// Runtime environment (Cloudflare Pages env / bindings, wrangler .dev.vars).
 export interface Env {
-  // Safety mode. Degraded mode (skip unconfigured notify/sheet and still return
-  // 200) is allowed ONLY when this equals the string 'true'. Default (unset)
-  // is STRICT: if notification email is not configured, the request fails with
-  // 500 'config' rather than silently accepting and losing the lead.
-  // Set 'true' for local/preview only; leave UNSET in production.
+  // Safety mode. Degraded mode (skip unconfigured notify AND D1, still return
+  // 200) is allowed ONLY when this equals the string 'true', and ONLY locally.
+  // Default (unset) is STRICT: missing notify config OR missing/failed D1 fails
+  // with 500 rather than silently accepting and losing the lead.
+  // Leave UNSET in Preview and Production.
   WAITLIST_ALLOW_DEGRADED?: string;
-  // Notification email (Resend)
+  // Notification email (Resend) — hard dependency.
   RESEND_API_KEY?: string;
   WAITLIST_FROM?: string; // verified sender, e.g. "Floriente <waitlist@florientecattery.com>"
   WAITLIST_NOTIFY_TO?: string; // e.g. "info@florientecattery.com"
   // Anti-spam (optional)
   TURNSTILE_SECRET_KEY?: string;
-  // Google Sheet (optional in dev/preview; required for production acceptance)
-  GOOGLE_SERVICE_ACCOUNT_EMAIL?: string;
-  GOOGLE_PRIVATE_KEY?: string;
-  GOOGLE_SHEET_ID?: string;
-  GOOGLE_SHEET_RANGE?: string; // default "Waitlist!A:S"
+  // Storage — Cloudflare D1 binding. Hard dependency in strict mode.
+  WAITLIST_DB?: D1Database;
 }
 
 // Minimal Pages-function context (only what we use).

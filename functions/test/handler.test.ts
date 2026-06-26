@@ -51,10 +51,31 @@ const RESEND_ENV: Env = {
   WAITLIST_NOTIFY_TO: 'info@florientecattery.com',
 };
 
-test('degraded mode: valid POST returns 200 with notify skipped (no fetch)', async () => {
+// Fake D1 binding: records bound values; run() succeeds unless { fail: true }.
+function fakeDb(opts: { fail?: boolean } = {}) {
+  const calls: unknown[][] = [];
+  const stmt = {
+    bind(...vals: unknown[]) {
+      calls.push(vals);
+      return stmt;
+    },
+    async run() {
+      return opts.fail ? { success: false, error: 'boom' } : { success: true };
+    },
+  };
+  return { db: { prepare: (_sql: string) => stmt }, calls };
+}
+
+const okResend = () =>
+  new Response(JSON.stringify({ id: 'mock-id' }), {
+    status: 200,
+    headers: { 'content-type': 'application/json' },
+  });
+
+test('degraded mode: valid POST returns 200 with notify + store skipped (no fetch)', async () => {
   const fx = mockFetch(() => new Response('should-not-be-called', { status: 500 }));
   try {
-    const env: Env = { WAITLIST_ALLOW_DEGRADED: 'true' }; // no email creds
+    const env: Env = { WAITLIST_ALLOW_DEGRADED: 'true' }; // no email creds, no D1 binding
     const res = await onRequest({ request: makeRequest(VALID), env });
     assert.equal(res.status, 200);
     assert.deepEqual(await res.json(), { ok: true });
@@ -77,20 +98,46 @@ test('production (strict default): missing notify config returns 500 config', as
   }
 });
 
-test('production (strict) + notify configured: send succeeds → 200', async () => {
+test('production (strict) + notify configured + D1 bound: → 200, insert attempted', async () => {
   const fx = mockFetch((url) => {
     assert.ok(url.includes('api.resend.com'), `unexpected fetch to ${url}`);
-    return new Response(JSON.stringify({ id: 'mock-id' }), {
-      status: 200,
-      headers: { 'content-type': 'application/json' },
-    });
+    return okResend();
   });
+  const db = fakeDb();
   try {
-    const env: Env = { ...RESEND_ENV }; // configured, strict (no degraded flag)
+    const env: Env = { ...RESEND_ENV, WAITLIST_DB: db.db }; // configured, strict, D1 bound
     const res = await onRequest({ request: makeRequest(VALID), env });
     assert.equal(res.status, 200);
     assert.deepEqual(await res.json(), { ok: true });
     assert.ok(fx.count() >= 1, 'notification email should be attempted');
+    assert.equal(db.calls.length, 1, 'exactly one D1 insert');
+    assert.equal(db.calls[0].length, 20, 'D1 insert binds 20 values');
+  } finally {
+    fx.restore();
+  }
+});
+
+test('production (strict) + notify ok + D1 binding MISSING → 500 storage', async () => {
+  const fx = mockFetch(okResend);
+  try {
+    const env: Env = { ...RESEND_ENV }; // notify configured, NO D1 binding, strict
+    const res = await onRequest({ request: makeRequest(VALID), env });
+    assert.equal(res.status, 500);
+    assert.deepEqual(await res.json(), { ok: false, error: 'storage' });
+  } finally {
+    fx.restore();
+  }
+});
+
+test('production (strict) + notify ok + D1 insert FAILS → 500 storage', async () => {
+  const fx = mockFetch(okResend);
+  const db = fakeDb({ fail: true });
+  try {
+    const env: Env = { ...RESEND_ENV, WAITLIST_DB: db.db };
+    const res = await onRequest({ request: makeRequest(VALID), env });
+    assert.equal(res.status, 500);
+    assert.deepEqual(await res.json(), { ok: false, error: 'storage' });
+    assert.equal(db.calls.length, 1, 'insert was attempted');
   } finally {
     fx.restore();
   }

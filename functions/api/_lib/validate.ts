@@ -11,7 +11,7 @@ import { LOCALES } from './types.ts';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-// Length caps — defensive against oversized payloads reaching email/Sheet.
+// Length caps — defensive against oversized payloads reaching email/D1.
 const MAX = {
   name: 120,
   email: 160,

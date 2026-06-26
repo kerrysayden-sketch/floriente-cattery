@@ -6,15 +6,15 @@
 # Cloudflare Pages project (Settings → Environment variables). See WAITLIST-SETUP.md.
 
 # ── Safety mode ──────────────────────────────────────────────
-# Allow degraded mode (skip unconfigured notify/sheet and still return 200).
+# Allow degraded mode (skip unconfigured notify AND D1, still return 200).
 # Set 'true' for LOCAL development only. Do NOT set it in Preview or Production
-# — both run STRICT/live with real credentials, so a missing notify config
-# returns 500 'config' instead of silently accepting and losing a lead.
+# — both run STRICT/live, so a missing notify config OR missing/failed D1
+# returns 500 instead of silently accepting and losing a lead.
 WAITLIST_ALLOW_DEGRADED=true
 
 # ── Notification email (Resend) ──────────────────────────────
-# In degraded mode these may be empty (email SKIPPED, still 200).
-# In strict/production mode they are REQUIRED or the request returns 500.
+# In LOCAL degraded mode these may be empty (email SKIPPED, still 200).
+# In strict (Preview/Production) they are REQUIRED or the request returns 500.
 RESEND_API_KEY=
 WAITLIST_FROM="Floriente Cattery <waitlist@florientecattery.com>"
 WAITLIST_NOTIFY_TO=info@florientecattery.com
@@ -23,10 +23,8 @@ WAITLIST_NOTIFY_TO=info@florientecattery.com
 # When set, Turnstile is enforced. When empty, only honeypot + fill-time apply.
 TURNSTILE_SECRET_KEY=
 
-# ── Google Sheet (optional in dev; REQUIRED for production acceptance) ──
-# Service account with edit access to the sheet. PRIVATE_KEY may contain literal
-# \n sequences (they are normalized at runtime).
-GOOGLE_SERVICE_ACCOUNT_EMAIL=
-GOOGLE_PRIVATE_KEY=
-GOOGLE_SHEET_ID=
-GOOGLE_SHEET_RANGE="Waitlist!A:S"
+# ── Storage (Cloudflare D1) ──────────────────────────────────
+# D1 is a BINDING, not a secret — it lives in wrangler.toml ([[d1_databases]])
+# for local dev and in the Cloudflare Pages dashboard for Preview/Production.
+# There is nothing to put here for D1. Apply the schema before first use:
+#   npx wrangler d1 execute floriente-waitlist-preview --local --file=db/schema.sql

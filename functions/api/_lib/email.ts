@@ -1,16 +1,10 @@
 // Resend email: notification to Elvira + localized auto-reply to the applicant.
-import type { Env, CleanSubmission } from './types.ts';
+import type { Env, CleanSubmission, OpResult } from './types.ts';
 import { classLabel, breedLabel } from './subject.ts';
 import { autoReply } from './emailCopy.ts';
 
-// Outcome shared by notify / autoreply / sheet so the handler can decide:
-//   ok      → succeeded
-//   skipped → not configured (degrade in dev/preview)
-//   error   → configured but failed (notify=error → 500)
-export type SendResult =
-  | { status: 'ok'; id?: string }
-  | { status: 'skipped'; reason: string }
-  | { status: 'error'; detail: string };
+// Result type is shared across email + storage layers (see types.ts OpResult).
+export type SendResult = OpResult;
 
 export function escapeHtml(s: string): string {
   return s
