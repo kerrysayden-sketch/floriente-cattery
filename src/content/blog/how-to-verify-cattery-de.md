@@ -4,7 +4,7 @@ lang: "de"
 title: "Wie Sie eine Zucht vor dem Kauf eines Kätzchens prüfen"
 description: "7-Punkte-Checkliste zur Prüfung einer Zucht, bevor Sie Geld senden. Warnzeichen, entscheidende Fragen und worauf in den Dokumenten zu achten ist."
 category: "Käuferleitfaden"
-publishDate: "2026-05-07"
+publishDate: "2026-05-01"
 ogImage: "/images/cats/sebastian-main.webp"
 ---
 

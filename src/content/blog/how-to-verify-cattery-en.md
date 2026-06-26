@@ -4,7 +4,7 @@ lang: "en"
 title: "How to Verify a Cattery Before Buying a Kitten"
 description: "A 7-point checklist to verify a cattery before sending money. Red flags, essential questions, and what to check in the paperwork."
 category: "Buyer's Guide"
-publishDate: "2026-05-07"
+publishDate: "2026-05-01"
 ogImage: "/images/cats/sebastian-main.webp"
 ---
 

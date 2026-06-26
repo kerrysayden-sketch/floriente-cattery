@@ -4,7 +4,7 @@ lang: "pl"
 title: "Jak sprawdzić hodowlę przed zakupem kociaka"
 description: "Lista kontrolna z 7 punktów do sprawdzenia hodowli przed wysłaniem pieniędzy. Sygnały ostrzegawcze, kluczowe pytania i co weryfikować w dokumentach."
 category: "Przewodnik kupującego"
-publishDate: "2026-05-07"
+publishDate: "2026-05-01"
 ogImage: "/images/cats/sebastian-main.webp"
 ---
 
