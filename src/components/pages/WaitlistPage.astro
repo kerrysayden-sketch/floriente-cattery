@@ -1,0 +1,64 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import WaitlistForm from '../waitlist/WaitlistForm.astro';
+import { t } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const expectations = [
+  'waitlist.expectExpected',
+  'waitlist.expectReady',
+  'waitlist.expectNoGuarantee',
+  'waitlist.expectFitOrder',
+];
+
+// Turnstile script is injected only when a site key is configured (Gate 2 / prod).
+const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY;
+---
+
+<BaseLayout
+  title={t(lang, 'pages.waitlist.title')}
+  description={t(lang, 'pages.waitlist.description')}
+  lang={lang}
+>
+  {/* Hero */}
+  <section class="px-4 sm:px-6 pt-16 md:pt-24 pb-8 text-center">
+    <h1 class="text-dark mb-4">{t(lang, 'waitlist.heroTitle')}</h1>
+    <p class="text-dark-soft max-w-2xl mx-auto">{t(lang, 'waitlist.heroIntro')}</p>
+  </section>
+
+  {/* Expectations notice — honest framing required before the form */}
+  <section class="px-4 sm:px-6 pb-12">
+    <div class="max-w-2xl mx-auto bg-gold/5 border border-gold/20 rounded-lg p-6">
+      <h2 class="text-base font-serif text-dark mb-4">{t(lang, 'waitlist.expectTitle')}</h2>
+      <ul class="space-y-2.5">
+        {expectations.map((key) => (
+          <li class="flex items-start gap-3 text-sm text-dark-soft">
+            <svg class="w-4 h-4 text-gold flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 6L9 17l-5-5" />
+            </svg>
+            <span>{t(lang, key)}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  {/* Form */}
+  <section class="px-4 sm:px-6 pb-20 md:pb-28">
+    <WaitlistForm lang={lang} />
+  </section>
+</BaseLayout>
+
+{turnstileSiteKey && (
+  <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+)}
+
+<script>
+  import '../../scripts/waitlist-form';
+</script>

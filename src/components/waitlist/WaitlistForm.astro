@@ -1,0 +1,247 @@
+---
+import { t, getLocalizedPath } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const legalPath = getLocalizedPath('/legal/', lang);
+
+// Turnstile is opt-in: the widget renders only when a site key is configured
+// (Gate 2 / production). Absent in Gate 1 — the form works without it.
+const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY;
+
+// value/labelKey pairs — value is the stable enum sent to the API, label is localized.
+const channels: [string, string][] = [
+  ['whatsapp', 'channelWhatsApp'],
+  ['telegram', 'channelTelegram'],
+  ['instagram', 'channelInstagram'],
+  ['email', 'channelEmail'],
+  ['phone', 'channelPhone'],
+];
+const classes: [string, string][] = [
+  ['pet', 'classPet'],
+  ['breeding_show', 'classBreedingShow'],
+  ['not_sure', 'classNotSure'],
+];
+const breeds: [string, string][] = [
+  ['oriental', 'breedOriental'],
+  ['siamese', 'breedSiamese'],
+  ['no_pref', 'breedNoPref'],
+];
+const sexes: [string, string][] = [
+  ['male', 'sexMale'],
+  ['female', 'sexFemale'],
+  ['no_pref', 'sexNoPref'],
+];
+const timings: [string, string][] = [
+  ['now', 'timingReadyNow'],
+  ['flexible', 'timingFlexible'],
+  ['specific', 'timingSpecific'],
+];
+const sources: [string, string][] = [
+  ['email', 'sourceEmail'],
+  ['whatsapp', 'sourceWhatsApp'],
+  ['instagram', 'sourceInstagram'],
+  ['telegram', 'sourceTelegram'],
+  ['tiktok', 'sourceTiktok'],
+  ['google', 'sourceGoogle'],
+  ['referral', 'sourceReferral'],
+];
+
+// Messages the client script needs (localized here, read from a JSON island).
+const clientMessages = {
+  errorValidation: t(lang, 'waitlist.errorValidation'),
+  errorConsent: t(lang, 'waitlist.errorConsent'),
+  errorServer: t(lang, 'waitlist.errorServer'),
+  errorNetwork: t(lang, 'waitlist.errorNetwork'),
+  submit: t(lang, 'waitlist.submit'),
+  submitting: t(lang, 'waitlist.submitting'),
+};
+
+const inputClass =
+  'w-full px-4 py-3 bg-warm-white border border-gray-light rounded text-dark-soft text-sm focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold/30 transition-colors';
+const labelClass = 'block text-sm font-medium text-dark mb-1.5';
+const helpClass = 'text-xs text-gray-medium mt-1';
+const errClass = 'field-error text-xs text-red-600 mt-1 hidden';
+const reqMark = '<span class="text-gold" aria-hidden="true"> *</span>';
+const requiredText = t(lang, 'waitlist.requiredHint');
+const optionalText = t(lang, 'waitlist.optionalHint');
+const selectPlaceholder = t(lang, 'waitlist.selectPlaceholder');
+---
+
+<form id="waitlist-form" method="POST" action="/api/waitlist" novalidate class="max-w-2xl mx-auto">
+  <input type="hidden" name="locale" value={lang} />
+  <input type="hidden" name="ts" value="" />
+  {/* Honeypot — must stay empty. Hidden from humans, off the tab order. */}
+  <div aria-hidden="true" class="absolute -left-[9999px] w-px h-px overflow-hidden" data-honeypot>
+    <label>Company (leave blank)<input type="text" name="company" tabindex="-1" autocomplete="off" /></label>
+  </div>
+
+  {/* ── Section 1: contact (required) ───────────────────────── */}
+  <fieldset class="mb-10">
+    <legend class="text-lg font-serif text-dark mb-5">{t(lang, 'waitlist.sectionContact')}</legend>
+
+    <div class="space-y-5">
+      <div>
+        <label class={labelClass} for="wl-name">{t(lang, 'waitlist.nameLabel')}<Fragment set:html={reqMark} /></label>
+        <input class={inputClass} id="wl-name" name="name" type="text" autocomplete="name" required aria-required="true" />
+        <p class={errClass} data-error-for="name">{requiredText}</p>
+      </div>
+
+      <div>
+        <label class={labelClass} for="wl-email">{t(lang, 'waitlist.emailLabel')}<Fragment set:html={reqMark} /></label>
+        <input class={inputClass} id="wl-email" name="email" type="email" autocomplete="email" required aria-required="true" />
+        <p class={errClass} data-error-for="email">{requiredText}</p>
+      </div>
+
+      <div>
+        <label class={labelClass} for="wl-channel">{t(lang, 'waitlist.channelLabel')}<Fragment set:html={reqMark} /></label>
+        <select class={inputClass} id="wl-channel" name="preferredChannel" required aria-required="true">
+          <option value="" disabled selected>{selectPlaceholder}</option>
+          {channels.map(([value, key]) => <option value={value}>{t(lang, `waitlist.${key}`)}</option>)}
+        </select>
+        <p class={errClass} data-error-for="preferredChannel">{requiredText}</p>
+      </div>
+
+      <div>
+        <label class={labelClass} for="wl-contact">{t(lang, 'waitlist.contactValueLabel')}<Fragment set:html={reqMark} /></label>
+        <input class={inputClass} id="wl-contact" name="contactValue" type="text" required aria-required="true" aria-describedby="wl-contact-help" />
+        <p class={helpClass} id="wl-contact-help">{t(lang, 'waitlist.contactValueHelp')}</p>
+        <p class={errClass} data-error-for="contactValue">{requiredText}</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+        <div>
+          <label class={labelClass} for="wl-country">{t(lang, 'waitlist.countryLabel')}<Fragment set:html={reqMark} /></label>
+          <input class={inputClass} id="wl-country" name="country" type="text" autocomplete="country-name" required aria-required="true" />
+          <p class={errClass} data-error-for="country">{requiredText}</p>
+        </div>
+        <div>
+          <label class={labelClass} for="wl-city">{t(lang, 'waitlist.cityLabel')} <span class="text-gray-medium font-normal">({optionalText})</span></label>
+          <input class={inputClass} id="wl-city" name="city" type="text" autocomplete="address-level2" />
+        </div>
+      </div>
+
+      <fieldset>
+        <legend class={labelClass}>{t(lang, 'waitlist.classLabel')}<Fragment set:html={reqMark} /></legend>
+        <div class="space-y-2 mt-1">
+          {classes.map(([value, key], i) => (
+            <label class="flex items-center gap-3 px-4 py-3 border border-gray-light rounded cursor-pointer hover:border-gold/40 transition-colors">
+              <input type="radio" name="interestClass" value={value} required={i === 0} aria-required="true" class="accent-gold" />
+              <span class="text-sm text-dark-soft">{t(lang, `waitlist.${key}`)}</span>
+            </label>
+          ))}
+        </div>
+        <p class={helpClass}>{t(lang, 'waitlist.classHelp')}</p>
+        <p class={errClass} data-error-for="interestClass">{requiredText}</p>
+      </fieldset>
+    </div>
+  </fieldset>
+
+  {/* ── Section 2: preferences (all optional) ───────────────── */}
+  <fieldset class="mb-10">
+    <legend class="text-lg font-serif text-dark mb-1">{t(lang, 'waitlist.sectionPreferences')}</legend>
+    <p class="text-xs text-gray-medium mb-5">({optionalText})</p>
+
+    <div class="space-y-5">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+        <div>
+          <label class={labelClass} for="wl-breed">{t(lang, 'waitlist.breedLabel')}</label>
+          <select class={inputClass} id="wl-breed" name="breedPreference">
+            <option value="">{selectPlaceholder}</option>
+            {breeds.map(([value, key]) => <option value={value}>{t(lang, `waitlist.${key}`)}</option>)}
+          </select>
+        </div>
+        <div>
+          <label class={labelClass} for="wl-sex">{t(lang, 'waitlist.sexLabel')}</label>
+          <select class={inputClass} id="wl-sex" name="sexPreference">
+            <option value="">{selectPlaceholder}</option>
+            {sexes.map(([value, key]) => <option value={value}>{t(lang, `waitlist.${key}`)}</option>)}
+          </select>
+        </div>
+      </div>
+
+      <div>
+        <label class={labelClass} for="wl-color">{t(lang, 'waitlist.colorLabel')}</label>
+        <input class={inputClass} id="wl-color" name="colorPreference" type="text" />
+      </div>
+
+      <div>
+        <label class={labelClass} for="wl-timing">{t(lang, 'waitlist.timingLabel')}</label>
+        <select class={inputClass} id="wl-timing" name="timing">
+          <option value="">{selectPlaceholder}</option>
+          {timings.map(([value, key]) => <option value={value}>{t(lang, `waitlist.${key}`)}</option>)}
+        </select>
+        <p class={helpClass}>{t(lang, 'waitlist.timingHelp')}</p>
+      </div>
+
+      <label class="flex items-center gap-3 cursor-pointer">
+        <input type="checkbox" name="videoCallReady" value="true" class="accent-gold w-4 h-4" />
+        <span class="text-sm text-dark-soft">{t(lang, 'waitlist.videoCallLabel')}</span>
+      </label>
+
+      <div>
+        <label class={labelClass} for="wl-source">{t(lang, 'waitlist.sourceLabel')}</label>
+        <select class={inputClass} id="wl-source" name="sourceChannel">
+          <option value="">{selectPlaceholder}</option>
+          {sources.map(([value, key]) => <option value={value}>{t(lang, `waitlist.${key}`)}</option>)}
+        </select>
+      </div>
+
+      <div>
+        <label class={labelClass} for="wl-exp">{t(lang, 'waitlist.experienceLabel')}</label>
+        <textarea class={inputClass} id="wl-exp" name="homeExperience" rows="3" placeholder={t(lang, 'waitlist.experiencePlaceholder')}></textarea>
+      </div>
+
+      <div>
+        <label class={labelClass} for="wl-wishes">{t(lang, 'waitlist.wishesLabel')}</label>
+        <textarea class={inputClass} id="wl-wishes" name="wishes" rows="3" placeholder={t(lang, 'waitlist.wishesPlaceholder')}></textarea>
+      </div>
+    </div>
+  </fieldset>
+
+  {/* ── Section 3: consent (required) ───────────────────────── */}
+  <fieldset class="mb-8">
+    <legend class="text-lg font-serif text-dark mb-5">{t(lang, 'waitlist.sectionConsent')}</legend>
+    <label class="flex items-start gap-3 cursor-pointer">
+      <input type="checkbox" name="gdprConsent" value="true" required aria-required="true" class="accent-gold w-4 h-4 mt-0.5 flex-shrink-0" />
+      <span class="text-sm text-dark-soft">
+        {t(lang, 'waitlist.consentLabel')}{' '}
+        <a href={legalPath} class="text-gold underline hover:text-gold-dark">{t(lang, 'waitlist.consentLinkText')}</a>
+      </span>
+    </label>
+    <p class={errClass} data-error-for="gdprConsent">{t(lang, 'waitlist.errorConsent')}</p>
+
+    {turnstileSiteKey && (
+      <div class="cf-turnstile mt-5" data-sitekey={turnstileSiteKey}></div>
+    )}
+  </fieldset>
+
+  {/* Aggregate error summary + submit */}
+  <div id="waitlist-error" role="alert" class="hidden mb-5 px-4 py-3 border border-red-300 bg-red-50 text-red-700 text-sm rounded"></div>
+
+  <button
+    type="submit"
+    id="waitlist-submit"
+    class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-10 py-3.5 bg-gold text-warm-white rounded-sm text-sm tracking-wider uppercase hover:bg-gold-dark transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
+  >
+    {t(lang, 'waitlist.submit')}
+  </button>
+</form>
+
+{/* Success panel — revealed by the client script on a 200 response. */}
+<div id="waitlist-success" role="status" class="hidden max-w-2xl mx-auto text-center py-10">
+  <div class="w-16 h-16 mx-auto mb-5 rounded-full bg-gold/10 flex items-center justify-center">
+    <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M20 6L9 17l-5-5" />
+    </svg>
+  </div>
+  <h3 class="text-xl font-serif text-dark mb-2">{t(lang, 'waitlist.successTitle')}</h3>
+  <p class="text-dark-soft text-sm max-w-md mx-auto">{t(lang, 'waitlist.successBody')}</p>
+</div>
+
+<script type="application/json" id="waitlist-messages" set:html={JSON.stringify(clientMessages)}></script>

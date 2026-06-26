@@ -7,6 +7,7 @@ export const slugMap = {
   about:        { en: 'about',       uk: 'pro-nas',     pl: 'o-nas',       de: 'ueber-uns',     ru: 'o-nas' },
   'our-cats':   { en: 'our-cats',    uk: 'nashi-koty',  pl: 'nasze-koty',  de: 'unsere-katzen', ru: 'nashi-koshki' },
   kittens:      { en: 'kittens',     uk: 'koshenyata',  pl: 'kocieta',     de: 'kitten',        ru: 'kotyata' },
+  'kittens-waitlist': { en: 'kittens/waitlist', uk: 'koshenyata/waitlist', pl: 'kocieta/waitlist', de: 'kitten/waitlist', ru: 'kotyata/waitlist' },
   'how-to-buy': { en: 'how-to-buy',  uk: 'yak-prydbanty', pl: 'jak-kupic', de: 'kitten-kaufen', ru: 'kak-kupit' },
   contact:      { en: 'contact',     uk: 'kontakty',    pl: 'kontakt',     de: 'kontakt',       ru: 'kontakty' },
   faq:          { en: 'faq',         uk: 'faq',         pl: 'faq',         de: 'faq',           ru: 'faq' },

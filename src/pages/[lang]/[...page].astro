@@ -19,6 +19,7 @@ import BlogStoryblokPage from '../../components/pages/BlogStoryblokPage.astro';
 import OurCatsPage from '../../components/pages/OurCatsPage.astro';
 import KittensListPage from '../../components/pages/KittensListPage.astro';
 import KittenDetailPage from '../../components/pages/KittenDetailPage.astro';
+import WaitlistPage from '../../components/pages/WaitlistPage.astro';
 
 export async function getStaticPaths() {
   const paths: any[] = [];
@@ -85,4 +86,5 @@ const { pageId, lang, articleSlug, storyblokSlug, kitten } = Astro.props as {
 {pageId === 'blog-storyblok' && <BlogStoryblokPage lang={lang} storyblokSlug={storyblokSlug!} />}
 {pageId === 'our-cats' && <OurCatsPage lang={lang} />}
 {pageId === 'kittens' && <KittensListPage lang={lang} />}
+{pageId === 'kittens-waitlist' && <WaitlistPage lang={lang} />}
 {pageId === 'kitten-detail' && kitten && <KittenDetailPage lang={lang} kitten={kitten} />}
