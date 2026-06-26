@@ -191,4 +191,4 @@ Jeśli cena ci odpowiada i rasa pasuje — następny krok: proces rezerwacji. Na
 
 Nie masz jeszcze pewności, że orientalny to kot dla ciebie? Zacznij od tego, [jak wybrać kociaka orientalnego](/pl/blog/how-to-choose-oriental-kitten/) — to krok przed ceną. A gdy rezerwacja jest gotowa, [dostawa po Europie](/pl/blog/oriental-kitten-delivery-europe/) opisuje przygotowanie i przekazanie.
 
-Zanim podejmiesz decyzję, przeczytaj również [Artykuł nr 10: Czerwone flagi i oszustwa na rynku kociaków →](/pl/blog/) — żeby dokładnie wiedzieć, na co zwracać uwagę przy porównywaniu hodowli i co naprawdę oznacza «tanio».
+Zanim podejmiesz decyzję, przeczytaj również [Artykuł nr 10: Czerwone flagi i oszustwa na rynku kociaków →](/pl/blog/kitten-scam-red-flags/) — żeby dokładnie wiedzieć, na co zwracać uwagę przy porównywaniu hodowli i co naprawdę oznacza «tanio».

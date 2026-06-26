@@ -139,7 +139,7 @@ General range for Orientals and Siamese — 12–15 years. Breed-specific statis
 
 ## Our Cats Come with Documents
 
-Every breeding cat at Floriente has PRA genetic test results. Every kitten is handed over with a veterinary passport and microchip registration. We publish test results not to impress — it's the baseline standard, not an advantage.
+Every breeding cat at Floriente has PRA genetic test results. Every kitten is handed over with a veterinary passport and microchip registration. We publish test results not to impress — it's the baseline standard, not an advantage. See our cats' [published genetic certificates](/en/about/#genetic-tests).
 
 You can see our current cats and upcoming litters on the page: [florientecattery.com/en/kittens](/en/kittens/). PDF test results are available on request — just message us.
 

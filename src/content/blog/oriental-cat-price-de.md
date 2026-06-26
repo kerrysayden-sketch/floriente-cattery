@@ -191,4 +191,4 @@ Wenn der Preis für Sie passt und die Rasse zu Ihnen passt — der nächste Schr
 
 Noch nicht sicher, ob der Orientale die richtige Katze für Sie ist? Beginnen Sie damit, [wie man ein Orientalisch-Kätzchen auswählt](/de/blog/how-to-choose-oriental-kitten/) — der Schritt vor dem Preis. Und sobald reserviert ist, führt Sie [die Lieferung innerhalb Europas](/de/blog/oriental-kitten-delivery-europe/) durch Vorbereitung und Übergabe.
 
-Bevor Sie sich entscheiden, lesen Sie auch [Artikel Nr. 10: Warnzeichen und Betrug auf dem Kätzchen-Markt →](/de/blog/) — damit Sie genau wissen, worauf Sie beim Vergleich von Zuchten achten sollten und was «günstig» wirklich bedeutet.
+Bevor Sie sich entscheiden, lesen Sie auch [Artikel Nr. 10: Warnzeichen und Betrug auf dem Kätzchen-Markt →](/de/blog/kitten-scam-red-flags/) — damit Sie genau wissen, worauf Sie beim Vergleich von Zuchten achten sollten und was «günstig» wirklich bedeutet.

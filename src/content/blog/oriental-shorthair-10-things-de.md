@@ -50,7 +50,7 @@ Orientalische Katzen sind von Natur aus schlank. Ihr schneller Stoffwechsel bede
 
 ### 9. Gentests sind obligatorisch
 
-Zwei Erkrankungen sind für die orientalische Rasse besonders bedeutsam. Das sind PRA (progressive Retinaatrophie) und PK-Mangel (Pyruvatkinase-Mangel). PRA führt schrittweise zur Erblindung, während PK-Mangel den Erythrozytenstoffwechsel stört und eine chronische Anämie verursacht. Beide besitzen genetische Marker, die sich vor der Verpaarung prüfen lassen. Ein verantwortungsvoller Züchter testet jedes Elterntier und legt die Dokumente vor. Verlangen Sie diese. Wenn der Züchter sie nicht vorlegen kann, gehen Sie weiter. Sehen Sie die [veröffentlichten Gentest-Zertifikate](/de/ueber-uns/#genetic-tests) unserer Katzen. Ausführlich dazu – in [Artikel #7: Gesundheit und Lebenserwartung](/de/blog/).
+Zwei Erkrankungen sind für die orientalische Rasse besonders bedeutsam. Das sind PRA (progressive Retinaatrophie) und PK-Mangel (Pyruvatkinase-Mangel). PRA führt schrittweise zur Erblindung, während PK-Mangel den Erythrozytenstoffwechsel stört und eine chronische Anämie verursacht. Beide besitzen genetische Marker, die sich vor der Verpaarung prüfen lassen. Ein verantwortungsvoller Züchter testet jedes Elterntier und legt die Dokumente vor. Verlangen Sie diese. Wenn der Züchter sie nicht vorlegen kann, gehen Sie weiter. Sehen Sie die [veröffentlichten Gentest-Zertifikate](/de/ueber-uns/#genetic-tests) unserer Katzen. Ausführlich dazu – in [Artikel #7: Gesundheit und Lebenserwartung](/de/blog/oriental-cat-health/).
 
 ### 10. Keine einfache Katze, aber wenn sie passt, dann für immer
 

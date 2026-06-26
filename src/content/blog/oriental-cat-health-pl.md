@@ -139,7 +139,7 @@ Ogólny zakres dla kotów orientalnych i syjamskich — 12-15 lat. Statystyczne 
 
 ## Nasze koty — z dokumentami
 
-Każde zwierzę hodowlane w Floriente ma wyniki testowania genetycznego na PRA. Każdy kociak przekazywany jest z paszportem weterynaryjnym i rejestracją mikroczipa. Publikujemy wyniki testów nie po to, żeby zaimponować — to standard podstawowy, nie zaleta.
+Każde zwierzę hodowlane w Floriente ma wyniki testowania genetycznego na PRA. Każdy kociak przekazywany jest z paszportem weterynaryjnym i rejestracją mikroczipa. Publikujemy wyniki testów nie po to, żeby zaimponować — to standard podstawowy, nie zaleta. Zobacz [opublikowane certyfikaty genetyczne](/pl/o-nas/#genetic-tests) naszych kotów.
 
 Zobaczyć nasze aktualne koty i przyszłe mioty można na stronie: [florientecattery.com/pl/kocieta](/pl/kocieta/). Wyniki testów PDF są dostępne na życzenie — po prostu napisz do nas.
 

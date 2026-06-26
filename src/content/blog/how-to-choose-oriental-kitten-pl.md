@@ -123,7 +123,7 @@ A jeśli boisz się, że kociaka zabiorą podczas twojego namyślania? «Jeśli 
 
 **Jakie pytania mogę zadawać hodowcy?**
 
-Wszystkie. Pytaj o protokoły testowania genetycznego, metody socjalizacji, harmonogram szczepień, jaki pakiet dokumentów wchodzi przy przekazaniu, ile kotów obecnie mieszka w hodowli i jakie wsparcie hodowca zapewnia po przeprowadzce kociaka. Hodowca, który uchyla się od konkretnych pytań o testowanie zdrowia, ujawnia nie skromność — a wymijanie.
+Wszystkie. Pytaj o protokoły testowania genetycznego, metody socjalizacji, harmonogram szczepień, jaki pakiet dokumentów wchodzi przy przekazaniu, ile kotów obecnie mieszka w hodowli i jakie wsparcie hodowca zapewnia po przeprowadzce kociaka. Hodowca, który uchyla się od konkretnych pytań o testowanie zdrowia, ujawnia nie skromność — a wymijanie. Pełna lista — w artykule [18 pytań do hodowcy przed zakupem kociaka](/pl/blog/questions-to-ask-cat-breeder/).
 
 **Czy normalne jest stać w kolejce kilka miesięcy?**
 

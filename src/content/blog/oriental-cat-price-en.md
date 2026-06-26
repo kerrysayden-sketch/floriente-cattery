@@ -191,4 +191,4 @@ If the price works for you and the breed fits — next step is the reservation p
 
 Not sure the Oriental is the right cat for you yet? Start with [how to choose an Oriental kitten](/en/blog/how-to-choose-oriental-kitten/) — the step that comes before price. And once you've reserved, [delivery across Europe](/en/blog/oriental-kitten-delivery-europe/) walks through preparation and handover.
 
-Before deciding, also read [Article #10: Red Flags and Scams in the Kitten Market →](/en/blog/) — so you know exactly what to watch for when comparing catteries and what "cheap" really means.
+Before deciding, also read [Article #10: Red Flags and Scams in the Kitten Market →](/en/blog/kitten-scam-red-flags/) — so you know exactly what to watch for when comparing catteries and what "cheap" really means.

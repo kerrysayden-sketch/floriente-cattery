@@ -123,7 +123,7 @@ Worried the kitten will get taken while you're thinking? "If it's yours — you'
 
 **What questions can I ask the breeder?**
 
-All of them. Ask about genetic testing protocols, socialization methods, vaccination schedule, what document package comes with handover, how many cats currently live in the cattery, and what post-handover support the breeder offers. A breeder who dodges specific questions about health testing isn't being modest — they're being evasive.
+All of them. Ask about genetic testing protocols, socialization methods, vaccination schedule, what document package comes with handover, how many cats currently live in the cattery, and what post-handover support the breeder offers. A breeder who dodges specific questions about health testing isn't being modest — they're being evasive. For the full list, see [18 questions to ask a breeder before buying](/en/blog/questions-to-ask-cat-breeder/).
 
 **Is it normal to wait several months in line?**
 

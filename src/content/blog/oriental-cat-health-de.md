@@ -139,7 +139,7 @@ Die allgemeine Spanne für Orientalen und Siamesen beträgt 12–15 Jahre. Rasse
 
 ## Unsere Katzen — mit Dokumenten
 
-Jedes Zuchttier bei Floriente verfügt über PRA-Gentestergebnisse. Jedes Kätzchen wird mit Heimtierausweis und Mikrochip-Registrierung übergeben. Wir veröffentlichen die Testergebnisse nicht, um zu beeindrucken — das ist Basisstandard, kein Vorteil.
+Jedes Zuchttier bei Floriente verfügt über PRA-Gentestergebnisse. Jedes Kätzchen wird mit Heimtierausweis und Mikrochip-Registrierung übergeben. Wir veröffentlichen die Testergebnisse nicht, um zu beeindrucken — das ist Basisstandard, kein Vorteil. Sehen Sie die [veröffentlichten Gentest-Zertifikate](/de/ueber-uns/#genetic-tests) unserer Katzen.
 
 Unsere aktuellen Katzen und kommenden Würfe finden Sie auf der Seite: [florientecattery.com/de/kitten](/de/kitten/). PDF-Testergebnisse sind auf Anfrage erhältlich — schreiben Sie uns einfach.
 

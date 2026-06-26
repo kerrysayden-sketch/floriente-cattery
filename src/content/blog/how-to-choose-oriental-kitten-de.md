@@ -123,7 +123,7 @@ Und wenn Sie fürchten, das Kätzchen könnte vergeben werden, während Sie noch
 
 **Welche Fragen darf ich dem Züchter stellen?**
 
-Alle. Fragen Sie nach Gentest-Protokollen, Sozialisierungsmethoden, Impfplan, dem Dokumentenpaket bei der Übergabe, wie viele Katzen derzeit in der Zucht leben, und welche Unterstützung der Züchter nach dem Umzug des Kätzchens leistet. Ein Züchter, der konkreten Fragen zur Gesundheitsprüfung ausweicht, zeigt keine Bescheidenheit — er weicht aus.
+Alle. Fragen Sie nach Gentest-Protokollen, Sozialisierungsmethoden, Impfplan, dem Dokumentenpaket bei der Übergabe, wie viele Katzen derzeit in der Zucht leben, und welche Unterstützung der Züchter nach dem Umzug des Kätzchens leistet. Ein Züchter, der konkreten Fragen zur Gesundheitsprüfung ausweicht, zeigt keine Bescheidenheit — er weicht aus. Die vollständige Liste finden Sie im Artikel [18 Fragen an den Züchter vor dem Kätzchenkauf](/de/blog/questions-to-ask-cat-breeder/).
 
 **Ist es normal, mehrere Monate auf der Warteliste zu stehen?**
 
