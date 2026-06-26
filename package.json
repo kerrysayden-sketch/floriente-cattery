@@ -12,6 +12,9 @@
     "astro": "astro",
     "typecheck": ". ./scripts/load-env.sh && astro check",
     "i18n:check": "node scripts/check-i18n.mjs",
+    "functions:check": "tsc -p functions/tsconfig.json",
+    "functions:test": "node --experimental-strip-types --test functions/test/logic.test.ts functions/test/handler.test.ts",
+    "pages:dev": "wrangler pages dev",
     "test:smoke": "playwright test",
     "fonts:refresh": "curl -sA 'Mozilla/5.0' 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap' -o public/fonts/fonts.css && node scripts/build-fonts.mjs",
     "backup:storyblok": ". ./scripts/load-env.sh && node scripts/storyblok-backup.mjs"

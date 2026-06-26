@@ -18,6 +18,13 @@ pnpm-debug.log*
 .env*
 !.env.example
 
+# Cloudflare Pages function secrets for local `wrangler pages dev`
+.dev.vars
+!.dev.vars.example
+
+# Wrangler local state/cache
+.wrangler/
+
 # macOS-specific files
 .DS_Store
 
