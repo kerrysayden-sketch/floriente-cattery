@@ -64,7 +64,7 @@
     },
     "waitlist": {
       "title": "Kitten Waitlist - Floriente Cattery",
-      "description": "Join the Floriente Cattery waitlist for upcoming Oriental Shorthair and Siamese kittens. Share your preferences and we will contact suitable applicants in order."
+      "description": "Join the Floriente Cattery waitlist for upcoming Oriental Shorthair and Siamese kittens. Share your preferences and we will contact you."
     }
   },
   "notFound": {
@@ -371,12 +371,11 @@
   },
   "waitlist": {
     "heroTitle": "Kitten Waitlist",
-    "heroIntro": "We are expecting a litter and forming a waitlist. Share a few details and we will reach out to suitable homes in turn.",
+    "heroIntro": "We are expecting a litter and building a waitlist. Leave a few details, and we will contact you.",
     "expectTitle": "What to expect",
     "expectExpected": "Kittens are expected in early July 2026.",
     "expectReady": "They will be ready for their new homes at 3 months of age.",
     "expectNoGuarantee": "Joining the waitlist does not guarantee a reservation.",
-    "expectFitOrder": "Elvira will contact suitable applicants in order, based on fit.",
     "sectionContact": "Your contact details",
     "sectionPreferences": "Your preferences",
     "sectionConsent": "Consent",
@@ -436,6 +435,7 @@
     "errorServer": "Something went wrong on our side. Please try again in a moment.",
     "errorNetwork": "We could not reach the server. Check your connection and try again.",
     "consentLabel": "I consent to Floriente Cattery storing these details to contact me about kittens.",
-    "consentLinkText": "Privacy Policy"
+    "consentLinkText": "Privacy Policy",
+    "sourceAiAssistant": "AI assistant (ChatGPT, Claude, etc.)"
   }
 }

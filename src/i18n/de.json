@@ -64,7 +64,7 @@
     },
     "waitlist": {
       "title": "Kitten-Warteliste - Floriente Cattery",
-      "description": "Tragen Sie sich in die Warteliste von Floriente Cattery für kommende Orientalisch-Kurzhaar- und Siam-Kätzchen ein. Teilen Sie uns Ihre Wünsche mit, und wir kontaktieren passende Interessenten der Reihe nach."
+      "description": "Tragen Sie sich in die Warteliste von Floriente Cattery für kommende Orientalisch-Kurzhaar- und Siam-Kätzchen ein. Teilen Sie uns Ihre Wünsche mit, und wir melden uns bei Ihnen."
     }
   },
   "notFound": {
@@ -371,12 +371,11 @@
   },
   "waitlist": {
     "heroTitle": "Kitten-Warteliste",
-    "heroIntro": "Wir erwarten einen Wurf und stellen eine Warteliste zusammen. Hinterlassen Sie ein paar Angaben, und wir melden uns der Reihe nach bei passenden Familien.",
+    "heroIntro": "Wir erwarten einen Wurf und führen eine Warteliste. Hinterlassen Sie ein paar Angaben, und wir melden uns bei Ihnen.",
     "expectTitle": "Was Sie erwartet",
     "expectExpected": "Die Kätzchen werden Anfang Juli 2026 erwartet.",
     "expectReady": "Sie sind im Alter von 3 Monaten bereit für ihr neues Zuhause.",
     "expectNoGuarantee": "Der Eintrag in die Warteliste garantiert keine Reservierung.",
-    "expectFitOrder": "Elvira kontaktiert passende Interessenten der Reihe nach, basierend auf der Eignung.",
     "sectionContact": "Ihre Kontaktdaten",
     "sectionPreferences": "Ihre Wünsche",
     "sectionConsent": "Einwilligung",
@@ -436,6 +435,7 @@
     "errorServer": "Auf unserer Seite ist etwas schiefgelaufen. Bitte versuchen Sie es gleich erneut.",
     "errorNetwork": "Der Server war nicht erreichbar. Prüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
     "consentLabel": "Ich willige ein, dass Floriente Cattery diese Angaben speichert, um mich zu Kätzchen zu kontaktieren.",
-    "consentLinkText": "Datenschutzerklärung"
+    "consentLinkText": "Datenschutzerklärung",
+    "sourceAiAssistant": "KI-Assistent (ChatGPT, Claude usw.)"
   }
 }

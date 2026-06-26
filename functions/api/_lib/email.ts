@@ -1,6 +1,6 @@
 // Resend email: notification to Elvira + localized auto-reply to the applicant.
 import type { Env, CleanSubmission, OpResult } from './types.ts';
-import { classLabel, breedLabel } from './subject.ts';
+import { classLabel, breedLabel, sourceLabel } from './subject.ts';
 import { autoReply } from './emailCopy.ts';
 
 // Result type is shared across email + storage layers (see types.ts OpResult).
@@ -59,7 +59,7 @@ function notificationHtml(c: CleanSubmission): string {
     ['Colour preference', c.colorPreference],
     ['Timing', c.timing],
     ['Video call ready', c.videoCallReady ? 'Yes' : 'No'],
-    ['Source channel', c.sourceChannel],
+    ['Source channel', sourceLabel(c.sourceChannel)],
     ['Experience / home', c.homeExperience],
     ['Wishes', c.wishes],
     ['Locale', c.locale],
@@ -90,7 +90,7 @@ function notificationText(c: CleanSubmission): string {
     `Colour preference: ${c.colorPreference}`,
     `Timing: ${c.timing}`,
     `Video call ready: ${c.videoCallReady ? 'Yes' : 'No'}`,
-    `Source channel: ${c.sourceChannel}`,
+    `Source channel: ${sourceLabel(c.sourceChannel)}`,
     `Experience / home: ${c.homeExperience}`,
     `Wishes: ${c.wishes}`,
     `Locale: ${c.locale}`,

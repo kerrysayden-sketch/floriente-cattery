@@ -24,6 +24,16 @@ export function breedLabel(b: string): string {
   return BREED_LABEL[b] ?? b;
 }
 
+// Source-channel display labels (English, for the notification). Only values that
+// benefit from a friendlier form are mapped; anything else shows its raw value.
+const SOURCE_LABEL: Record<string, string> = {
+  ai_assistant: 'AI assistant (ChatGPT, Claude, etc.)',
+};
+
+export function sourceLabel(s: string): string {
+  return SOURCE_LABEL[s] ?? s;
+}
+
 // YYYY-MM-DD in UTC. Date injected for deterministic tests.
 export function isoDate(d: Date): string {
   return d.toISOString().slice(0, 10);
