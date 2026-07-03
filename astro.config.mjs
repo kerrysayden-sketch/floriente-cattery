@@ -3,10 +3,51 @@ import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 import { storyblok } from '@storyblok/astro';
 import sitemap from '@astrojs/sitemap';
+import { readFileSync, readdirSync } from 'node:fs';
+import { slugMap } from './src/i18n/slugs';
 
 const storyblokToken = process.env.STORYBLOK_TOKEN;
 if (!storyblokToken) {
   throw new Error('STORYBLOK_TOKEN not set. Source scripts/load-env.sh or set the env var.');
+}
+
+// Sitemap helpers: real publishDate per blog slug (lastmod) and correct
+// hreflang alternates for localized page slugs (the built-in sitemap i18n
+// option matches locales by identical paths, which our localized slugs break).
+const SITE = 'https://florientecattery.com';
+const SITEMAP_LOCALES = ['en', 'uk', 'pl', 'de', 'ru'];
+
+const blogDates = {};
+for (const f of readdirSync('./src/content/blog')) {
+  const m = f.match(/^(.*)-en\.md$/);
+  if (!m) continue;
+  const d = readFileSync(`./src/content/blog/${f}`, 'utf8').match(/^publishDate:\s*"([0-9-]+)"/m);
+  if (d) blogDates[m[1]] = d[1];
+}
+
+function sitemapSerialize(item) {
+  const path = new URL(item.url).pathname;
+  const m = path.match(/^\/(en|uk|pl|de|ru)\/(.*)$/);
+  if (!m) return item;
+  const rest = m[2];
+  let links = null;
+  if (rest === '') {
+    links = SITEMAP_LOCALES.map((l) => ({ url: `${SITE}/${l}/`, lang: l }));
+  } else if (rest.startsWith('blog/')) {
+    // blog slugs are identical across locales
+    links = SITEMAP_LOCALES.map((l) => ({ url: `${SITE}/${l}/${rest}`, lang: l }));
+    const slug = rest.replace(/^blog\//, '').replace(/\/$/, '');
+    if (slug && blogDates[slug]) item.lastmod = blogDates[slug];
+  } else {
+    const slug = rest.replace(/\/$/, '');
+    const pageId = Object.keys(slugMap).find((k) => slugMap[k][m[1]] === slug);
+    if (pageId) links = SITEMAP_LOCALES.map((l) => ({ url: `${SITE}/${l}/${slugMap[pageId][l]}/`, lang: l }));
+  }
+  if (links) {
+    links.push({ url: links.find((x) => x.lang === 'en').url, lang: 'x-default' });
+    item.links = links;
+  }
+  return item;
 }
 
 // https://astro.build/config
@@ -14,10 +55,9 @@ export default defineConfig({
   site: 'https://florientecattery.com',
   integrations: [
     sitemap({
-      i18n: {
-        defaultLocale: 'en',
-        locales: { en: 'en', uk: 'uk', pl: 'pl', de: 'de', ru: 'ru' },
-      },
+      // root '/' is a 302 redirect to /en/, not a canonical page
+      filter: (page) => page !== `${SITE}/`,
+      serialize: sitemapSerialize,
     }),
     storyblok({
       accessToken: storyblokToken,
