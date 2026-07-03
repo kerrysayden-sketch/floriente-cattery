@@ -5,7 +5,7 @@ title: "Oriental Cats with Kids, Dogs, and Other Cats: What It Actually Looks Li
 description: "Do Oriental cats get along with dogs, kids, and other cats? A breeder's 5-step intro protocol, real cases, and why scent — not character — decides."
 category: "About the Breed"
 publishDate: "2026-05-29"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-with-dogs-and-kids.webp"
 ---
 
 Orientals are one of the most socially adaptive breeds. They can live with dogs, kids, and other cats. But how well it goes depends on the introduction, your patience, and what happened during the kitten's first nine weeks. There's no shortcut. There's a right way.

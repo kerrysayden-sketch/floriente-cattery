@@ -5,7 +5,7 @@ title: "Себастьян і Симона: наш шлях до Grand Internati
 description: "Grand International Champion вимагає 9 оцінок від 6 суддів у 2 країнах. Повний шлях Себастьяна та Симони — міста, судді, вартість і що це означає для вашого кошеняти."
 category: "Гід покупця"
 publishDate: "2026-05-13"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/road-to-gic.webp"
 ---
 
 Grand International Champion вимагає 9 оцінок від 6 різних суддів у 2 країнах. Нам знадобились 1,5 року, 7 виставок (по 2 дні) і понад €6 500. Ось як це виглядало — і що це означає для вашого кошеняти.

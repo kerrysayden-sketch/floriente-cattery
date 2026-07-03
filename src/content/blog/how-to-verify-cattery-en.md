@@ -5,7 +5,7 @@ title: "How to Verify a Cattery Before Buying a Kitten"
 description: "A 7-point checklist to verify a cattery before sending money. Red flags, essential questions, and what to check in the paperwork."
 category: "Buyer's Guide"
 publishDate: "2026-05-01"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/how-to-verify-cattery.webp"
 ---
 
 Buying a purebred kitten online is risky. Every year, hundreds of people wire money to catteries that don't exist. The deposit vanishes. The kitten never arrives.

@@ -5,7 +5,7 @@ title: "День в Floriente Cattery"
 description: "Как выглядит жизнь в питомнике ориенталов без прикрас: завтрак в 6 утра, дровяная печь и котята, которые растут в центре семейной жизни Floriente."
 category: "Жизнь в Floriente"
 publishDate: "2026-06-15"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cattery-daily-life.webp"
 ---
 
 Seba требует завтрака в 6 утра. Девочки спят, пока мама не встанет. Потом печь, ритуал прогрева косточек и расписание, которое Sima контролирует с театральной точностью. Именно здесь растёт ваш ориентальный котёнок.

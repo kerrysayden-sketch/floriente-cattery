@@ -5,7 +5,7 @@ title: "From Our Home to Yours: How We Prepare a Kitten to Move"
 description: "How we prepare an Oriental kitten for the move: Watch Me Grow updates, the 'trousseau' that travels along, handover day, and what's normal in the first week."
 category: "Buyer's Guide"
 publishDate: "2026-06-05"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-kitten-delivery-europe.webp"
 ---
 
 Moving a kitten isn't just a trip from point A to point B. It's the first psychological break in its life: new place, new smells, new people, new sounds. How it handles that depends on what we did in the weeks before and what we sent you off with for the road. Here's how this journey unfolds — from our home to yours.

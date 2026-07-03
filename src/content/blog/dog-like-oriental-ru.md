@@ -5,7 +5,7 @@ title: "Почему ориентальных котов называют «со
 description: "Ориентальные коты приносят игрушки, встречают у двери, ходят за вами всюду. Почему они привязываются как собаки — и чего ожидать от котёнка из Floriente."
 category: "О породе"
 publishDate: "2026-05-22"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/dog-like-oriental.webp"
 ---
 
 ## Крючок

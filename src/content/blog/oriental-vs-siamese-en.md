@@ -5,7 +5,7 @@ title: "Oriental vs Siamese Cat: What's the Real Difference?"
 description: "What separates Oriental and Siamese cats? A single recessive gene — and most registries still classify them as one group. Genetics, comparison, FAQ."
 category: "About the Breed"
 publishDate: "2026-05-18"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-vs-siamese.webp"
 ---
 
 Both can be born in the same litter. One has blue eyes, the other green. Everything else? Almost identical.

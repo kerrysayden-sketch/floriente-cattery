@@ -5,7 +5,7 @@ title: "Testowanie genetyczne kotów orientalnych: co powinien sprawdzać hodowc
 description: "Testy genetyczne kotów orientalnych: które testy musi pokazać hodowca (PRA, PK Deficiency), kalendarz szczepień, zdrowie rasy i długość życia."
 category: "O rasie"
 publishDate: "2026-06-12"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-health.webp"
 ---
 
 «Nasze koty są zdrowe» — to nie fakt. Faktem jest PDF z certyfikowanego laboratorium. Oto, co w tym PDF powinno być.

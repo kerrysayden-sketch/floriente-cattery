@@ -5,7 +5,7 @@ title: "Nasze rodziny: Historie i opinie właścicieli kociaków Floriente"
 description: "Prawdziwe opinie o hodowli Floriente: pięć rodzin, pięć kociaków orientalnych — dlaczego wybrali rasę, jak przebiegła adaptacja i czemu wracają."
 category: "Życie w Floriente"
 publishDate: "2026-06-17"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/floriente-cattery-reviews.webp"
 ---
 
 Trzy rodziny wróciły po drugiego orientalnego. Jedna z nich — nawet po trzeciego. To nie marketing. To wzorzec, którego się nie podrabia.

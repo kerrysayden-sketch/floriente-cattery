@@ -5,7 +5,7 @@ title: "Dlaczego koty orientalne nazywa się «psami w kocim ciele»"
 description: "Koty orientalne przynoszą zabawki, witają cię przy drzwiach, chodzą za tobą wszędzie. Dlaczego przywiązują się jak psy — i czego oczekiwać od kociaka z Floriente."
 category: "O rasie"
 publishDate: "2026-05-22"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/dog-like-oriental.webp"
 ---
 
 ## Haczyk

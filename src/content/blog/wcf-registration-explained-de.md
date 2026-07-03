@@ -5,7 +5,7 @@ title: "WCF-Registrierung: Was sie bedeutet und warum sie wichtig ist"
 description: "Was die WCF-Registrierung wirklich bedeutet — und wie Sie jede Zucht in 30 Sekunden prüfen. Zuchtstandards, Titelsystem, Verifikation auf wcf.de."
 category: "Käuferleitfaden"
 publishDate: "2026-05-10"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/wcf-registration-explained.webp"
 ---
 
 Jede bei der WCF registrierte Zucht lässt sich in 30 Sekunden überprüfen. So funktioniert es — und warum das wichtiger ist als jedes Foto auf Instagram.

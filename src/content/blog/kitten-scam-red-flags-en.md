@@ -5,7 +5,7 @@ title: "Red Flags When Buying a Kitten Online: How to Tell a Breeder from a Scam
 description: "Buying a kitten online? Learn the 3 scam schemes, a 7-point verification checklist, and how a real breeder differs from a fraudster before you pay any deposit."
 category: "Buyer's Guide"
 publishDate: "2026-06-10"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/kitten-scam-red-flags.webp"
 ---
 
 While I was looking for Halva, scammers tried to fool me five times. Here's how I learned to tell a breeder from a scammer.

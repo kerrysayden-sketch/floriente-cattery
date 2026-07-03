@@ -5,7 +5,7 @@ title: "Warum werden orientalische Katzen als «Hunde im Katzenpelz» bezeichnet
 description: "Orientalische Katzen apportieren, begrüßen Sie an der Tür, folgen Ihnen überall. Warum sie sich wie Hunde binden — und was Sie von einem Floriente-Kätzchen erwarten können."
 category: "Über die Rasse"
 publishDate: "2026-05-22"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/dog-like-oriental.webp"
 ---
 
 ## Der Aufhänger

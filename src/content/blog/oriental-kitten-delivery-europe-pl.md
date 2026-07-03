@@ -5,7 +5,7 @@ title: "Z naszego domu do twojego: jak przygotowujemy kociaka do przeprowadzki"
 description: "Jak przygotowujemy kociaka orientalnego do przeprowadzki: Watch Me Grow, «wyprawka» w drogę, dzień przekazania i co normalne w pierwszym tygodniu."
 category: "Przewodnik kupującego"
 publishDate: "2026-06-05"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-kitten-delivery-europe.webp"
 ---
 
 Przeprowadzka kociaka — to nie zwykła podróż z punktu A do punktu B. To pierwsze w jego życiu psychologiczne rozdarcie: nowe miejsce, nowe zapachy, nowi ludzie, nowe dźwięki. Jak sobie poradzi — zależy od tego, co zrobiliśmy w poprzednich tygodniach i czym was wyposażyliśmy na tę drogę. Opowiadamy, jak przebiega ta droga — od naszego domu do twojego.

@@ -5,7 +5,7 @@ title: "Oriental Colors: A Basic Guide With Examples From Our Cats"
 description: "Learn to read EMS color codes through three Floriente cats. 9 base colors, 4 tabby patterns, 600+ combinations — a basic guide for pet-class owners."
 category: "About the Breed"
 publishDate: "2026-05-20"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-colors.webp"
 ---
 
 Orientals are one of the most varied breeds in terms of color. European felinology uses a single standard — EMS (Easy Mind System, FIFe) — to mark color: breed + color + pattern = 3 to 5 characters. Learn to read this code through three of our cats, and you'll be able to decode most pedigree entries.

@@ -5,7 +5,7 @@ title: "Jak wybrać kociaka orientalnego u hodowcy"
 description: "Jak wybrać kociaka orientalnego u hodowcy: klasy pet/breed/show, czytanie charakteru od urodzenia, wywiad z kupującym i lista 7 dokumentów dla UE."
 category: "Przewodnik kupującego"
 publishDate: "2026-06-01"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/how-to-choose-oriental-kitten.webp"
 ---
 
 Nie wybierasz kociaka. Znajdujesz swojego. Czasem hodowca widzi dopasowanie wcześniej niż ty.

@@ -5,7 +5,7 @@ title: "Genetic Testing of Oriental Cats: What a Breeder Should Be Checking"
 description: "Genetic testing for Oriental cats: which tests a breeder must show (PRA, PK Deficiency), the vaccination schedule, breed health, and realistic lifespan."
 category: "About the Breed"
 publishDate: "2026-06-12"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-health.webp"
 ---
 
 "Our cats are healthy" — that's not a fact. The fact is a PDF from a certified lab. Here's what should be in that PDF.

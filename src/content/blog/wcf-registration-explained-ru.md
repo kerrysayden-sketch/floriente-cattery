@@ -5,7 +5,7 @@ title: "Регистрация WCF: что это значит и почему �
 description: "Что на самом деле означает регистрация WCF — и как проверить любой питомник за 30 секунд. Стандарты разведения, лестница титулов, проверка на wcf.de."
 category: "Гид покупателя"
 publishDate: "2026-05-10"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/wcf-registration-explained.webp"
 ---
 
 Любой питомник, зарегистрированный в WCF, можно проверить за 30 секунд. Вот как — и почему это важнее любой фотографии в Instagram.

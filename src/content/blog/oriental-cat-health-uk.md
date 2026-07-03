@@ -5,7 +5,7 @@ title: "Генетичне тестування орієнтальних кот�
 description: "Генетичне тестування орієнтальних котів: які тести має показати заводчик (PRA, PK Deficiency), календар щеплень, здоров'я породи і тривалість життя."
 category: "Про породу"
 publishDate: "2026-06-12"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-health.webp"
 ---
 
 «Наші коти здорові» — це не факт. Факт — це PDF з сертифікованої лабораторії. Ось що в тому PDF має бути.

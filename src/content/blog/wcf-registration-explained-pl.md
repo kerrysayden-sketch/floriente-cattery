@@ -5,7 +5,7 @@ title: "Rejestracja WCF: co to znaczy i dlaczego to ważne"
 description: "Co naprawdę oznacza rejestracja WCF — i jak sprawdzić każdą hodowlę w 30 sekund. Standardy hodowli, system tytułów, weryfikacja na wcf.de."
 category: "Przewodnik kupującego"
 publishDate: "2026-05-10"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/wcf-registration-explained.webp"
 ---
 
 Każdą hodowlę zarejestrowaną w WCF można sprawdzić w 30 sekund. Oto jak — i dlaczego jest to ważniejsze niż jakiekolwiek zdjęcie na Instagramie.

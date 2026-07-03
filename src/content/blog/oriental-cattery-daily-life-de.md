@@ -5,7 +5,7 @@ title: "Ein Tag bei Floriente Cattery"
 description: "Wie der Alltag in der Katzenzucht wirklich aussieht: Frühstück um 6 Uhr, ein Holzofen und Kätzchen, die mitten im Familienleben von Floriente aufwachsen."
 category: "Leben bei Floriente"
 publishDate: "2026-06-15"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cattery-daily-life.webp"
 ---
 
 Seba verlangt sein Frühstück um 6 Uhr morgens. Die Mädchen schlafen, bis die Mama aufsteht. Danach der Ofen, das Ritual des Knochenwärmens und ein Zeitplan, den Sima mit theatralischer Präzision steuert. Genau hier wächst Ihr orientalisches Kätzchen heran.

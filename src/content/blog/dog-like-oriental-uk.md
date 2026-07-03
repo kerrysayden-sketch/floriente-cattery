@@ -5,7 +5,7 @@ title: "Чому орієнтальних котів називають «соб
 description: "Орієнтальні коти приносять іграшки, зустрічають біля дверей, ходять за вами всюди. Чому вони прив'язуються як собаки — і що очікувати від кошеняти з Floriente."
 category: "Про породу"
 publishDate: "2026-05-22"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/dog-like-oriental.webp"
 ---
 
 ## Гачок

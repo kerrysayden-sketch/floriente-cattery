@@ -5,7 +5,7 @@ title: "Unsere Familien: Geschichten und Erfahrungsberichte der Halter von Flori
 description: "Echte Floriente Cattery Erfahrungen: fünf Familien, fünf orientalische Kätzchen — warum sie die Rasse wählten und wie die Eingewöhnung wirklich lief."
 category: "Leben bei Floriente"
 publishDate: "2026-06-17"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/floriente-cattery-reviews.webp"
 ---
 
 Drei Familien sind für einen zweiten Orientalen zurückgekehrt. Eine von ihnen sogar für einen dritten. Das ist kein Marketing. Das ist eine Regelmäßigkeit, die sich nicht fälschen lässt.

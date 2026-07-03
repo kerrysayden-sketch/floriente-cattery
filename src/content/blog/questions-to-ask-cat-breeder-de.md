@@ -5,7 +5,7 @@ title: "Was Sie den Züchter vor dem Kätzchen-Kauf fragen sollten: 18 Fragen, d
 description: "18 Fragen an den Züchter vor dem Kätzchenkauf: Gesundheit, Genetik, Sozialisierung, Dokumente — und die Fragen, die ein guter Züchter Ihnen stellt."
 category: "Käuferleitfaden"
 publishDate: "2026-06-08"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/questions-to-ask-cat-breeder.webp"
 ---
 
 Ein guter Züchter stellt IHNEN mehr Fragen als Sie ihm. Wenn nicht — ist das bereits das erste Signal.

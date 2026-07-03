@@ -5,7 +5,7 @@ title: "Dzień w Floriente Cattery"
 description: "Jak wygląda życie w hodowli kotów orientalnych: śniadanie o 6 rano, piec na drewno i kocięta dorastające w środku rodzinnego życia Floriente."
 category: "Życie w Floriente"
 publishDate: "2026-06-15"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cattery-daily-life.webp"
 ---
 
 Seba domaga się śniadania o 6 rano. Dziewczynki śpią, dopóki mama nie wstanie. Potem piec, rytuał ogrzewania kostek i rozkład dnia, który Sima kontroluje z teatralną precyzją. To właśnie tu wyrasta twój kociak orientalny.

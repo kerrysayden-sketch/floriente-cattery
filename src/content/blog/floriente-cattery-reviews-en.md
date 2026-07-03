@@ -5,7 +5,7 @@ title: "Our Families: Stories and Reviews from Floriente Kitten Owners"
 description: "Real Floriente Cattery reviews: five families, five Oriental kittens — why they chose the breed, how adaptation went, and why they come back."
 category: "Life at Floriente"
 publishDate: "2026-06-17"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/floriente-cattery-reviews.webp"
 ---
 
 Three families came back for a second Oriental. One of them — for a third. This isn't marketing. It's a pattern you can't fake.

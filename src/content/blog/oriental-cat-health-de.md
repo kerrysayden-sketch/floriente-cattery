@@ -5,7 +5,7 @@ title: "Gentests bei Orientalen: Was ein Züchter prüfen muss"
 description: "Gentests bei Orientalen: welche Tests ein Züchter zeigen muss (PRA, PK-Mangel), der Impfkalender, rassetypische Gesundheit und die Lebenserwartung."
 category: "Über die Rasse"
 publishDate: "2026-06-12"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-health.webp"
 ---
 
 «Unsere Katzen sind gesund» — das ist keine Tatsache. Eine Tatsache ist ein PDF aus einem zertifizierten Labor. Hier steht, was in diesem PDF stehen muss.

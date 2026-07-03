@@ -5,7 +5,7 @@ title: "Kot orientalny vs syjamski: na czym w rzeczywistości polega różnica?"
 description: "Co dzieli kota orientalnego i syjamskiego? Jeden gen recesywny — a większość rejestrów uznaje je za jedną grupę. Genetyka, porównanie, FAQ."
 category: "O rasie"
 publishDate: "2026-05-18"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-vs-siamese.webp"
 ---
 
 Oba mogą urodzić się w jednym miocie. Jeden ma niebieskie oczy, drugi zielone. A cała reszta? W rzeczywistości są niemal identyczne.

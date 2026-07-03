@@ -5,7 +5,7 @@ title: "10 rzeczy, które warto wiedzieć, przed adopcją kota orientalnego"
 description: "10 rzeczy, które warto wiedzieć przed zakupem kota orientalnego: kot-rzep, lęk separacyjny, głos oraz szczere plusy i minusy rasy."
 category: "O rasie"
 publishDate: "2026-05-27"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-shorthair-10-things.webp"
 ---
 
 Kot orientalny zmieni twój codzienny rytm. Aby zrozumieć, czy ta rasa jest dla ciebie, warto poznać jej cechy.

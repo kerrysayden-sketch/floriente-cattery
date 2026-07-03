@@ -5,7 +5,7 @@ title: "WCF Registration: What It Means and Why It Matters"
 description: "What WCF registration actually means — and how to verify any cattery in 30 seconds. Breeding standards, the title ladder, and verification on wcf.de."
 category: "Buyer's Guide"
 publishDate: "2026-05-10"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/wcf-registration-explained.webp"
 ---
 
 Any cattery registered with WCF can be verified in 30 seconds. Here's how — and why this matters more than any Instagram photo.

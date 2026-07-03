@@ -5,7 +5,7 @@ title: "Farben der orientalischen Katze: Ein grundlegender Leitfaden mit Beispie
 description: "Lernen Sie EMS-Farbcodes anhand dreier Floriente-Katzen zu lesen. 9 Grundfarben, 4 Tabby-Zeichnungen, über 600 Kombinationen — ein Leitfaden für Pet-Klasse-Besitzer."
 category: "Über die Rasse"
 publishDate: "2026-05-20"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-colors.webp"
 ---
 
 Orientalische Katzen sind eine der farblich vielfältigsten Rassen. Die europäische Felinologie verwendet einen einheitlichen Standard — EMS (Easy Mind System, FIFe) — für die Bezeichnung der Farben: Rasse + Farbe + Zeichnung = 3 bis 5 Zeichen. Lernen Sie, diesen Code anhand unserer drei Katzen zu lesen, und Sie können die meisten Einträge in Stammbäumen entschlüsseln.

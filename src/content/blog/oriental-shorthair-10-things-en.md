@@ -5,7 +5,7 @@ title: "10 Things to Know Before Getting an Oriental Cat"
 description: "10 things to know before getting an Oriental Shorthair: velcro cat, separation anxiety, vocal nature, and an honest pros-and-cons fit check."
 category: "About the Breed"
 publishDate: "2026-05-27"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-shorthair-10-things.webp"
 ---
 
 An Oriental cat will change your daily routine. To understand whether this breed is right for you, it helps to know its traits.

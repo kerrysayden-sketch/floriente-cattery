@@ -5,7 +5,7 @@ title: "Wie Sie ein Orientalisch-Kätzchen beim Züchter auswählen"
 description: "Orientalisch-Kätzchen beim Züchter auswählen: pet/breed/show-Klassen, Charakter von Geburt an lesen, das Käufer-Interview und die 7-Punkte-EU-Checkliste."
 category: "Käuferleitfaden"
 publishDate: "2026-06-01"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/how-to-choose-oriental-kitten.webp"
 ---
 
 Sie wählen kein Kätzchen aus. Sie finden Ihres. Manchmal erkennt der Züchter die Übereinstimmung früher als Sie selbst.

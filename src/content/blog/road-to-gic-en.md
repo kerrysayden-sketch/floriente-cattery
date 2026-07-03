@@ -5,7 +5,7 @@ title: "Sebastian and Simona: Our Road to Grand International Champion"
 description: "Grand International Champion requires 9 evaluations from 6 judges in 2 countries. Sebastian's and Simona's full show paths — cities, judges, costs, and what it means for your kitten."
 category: "Buyer's Guide"
 publishDate: "2026-05-13"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/road-to-gic.webp"
 ---
 
 Grand International Champion requires 9 evaluations from 6 different judges in 2 countries. It took us 1.5 years, 7 shows (2 days each), and over €6,500. Here's what it looked like — and what it means for your kitten.

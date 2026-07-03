@@ -5,7 +5,7 @@ title: "Warnzeichen beim Kätzchen-Kauf online: Wie Sie einen Züchter von einem
 description: "Kätzchen online kaufen? Die 3 Betrugsmaschen, eine 7-Punkte-Checkliste und wie sich ein echter Züchter vom Betrüger unterscheidet — vor jeder Anzahlung."
 category: "Käuferleitfaden"
 publishDate: "2026-06-10"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/kitten-scam-red-flags.webp"
 ---
 
 Während ich nach Halva suchte, wurde fünfmal versucht, mich zu betrügen. So habe ich gelernt, einen Züchter von einem Betrüger zu unterscheiden.

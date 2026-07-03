@@ -5,7 +5,7 @@ title: "Wie Sie eine Zucht vor dem Kauf eines Kätzchens prüfen"
 description: "7-Punkte-Checkliste zur Prüfung einer Zucht, bevor Sie Geld senden. Warnzeichen, entscheidende Fragen und worauf in den Dokumenten zu achten ist."
 category: "Käuferleitfaden"
 publishDate: "2026-05-01"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/how-to-verify-cattery.webp"
 ---
 
 Der Online-Kauf eines Rassekätzchens ist riskant. Jedes Jahr überweisen Hunderte Menschen Geld an Zuchten, die es nicht gibt. Die Anzahlung verschwindet. Das Kätzchen kommt nie an.

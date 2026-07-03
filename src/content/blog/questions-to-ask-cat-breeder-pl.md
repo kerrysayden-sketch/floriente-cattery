@@ -5,7 +5,7 @@ title: "O co pytać hodowcę przed zakupem kociaka: 18 pytań, które odróżnia
 description: "18 pytań do hodowcy przed zakupem kociaka: zdrowie, genetyka, socjalizacja, dokumenty — i pytania, które dobry hodowca zadaje tobie."
 category: "Przewodnik kupującego"
 publishDate: "2026-06-08"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/questions-to-ask-cat-breeder.webp"
 ---
 
 Dobry hodowca zadaje TOBIE więcej pytań niż ty jemu. Jeśli nie — to już pierwszy sygnał.

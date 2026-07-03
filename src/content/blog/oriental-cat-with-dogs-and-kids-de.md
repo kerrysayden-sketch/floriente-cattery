@@ -5,7 +5,7 @@ title: "Orientalische Katzen mit Kindern, Hunden und anderen Katzen: Wie sieht e
 description: "Verstehen sich orientalische Katzen mit Hunden, Kindern und anderen Katzen? Ein 5-Schritte-Protokoll, echte Fälle und die Rolle der Gerüche."
 category: "Über die Rasse"
 publishDate: "2026-05-29"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-with-dogs-and-kids.webp"
 ---
 
 Orientalische Katzen gehören zu den sozial anpassungsfähigsten Rassen. Sie können mit Hunden, Kindern und anderen Katzen zusammenleben. Wie gut das allerdings funktioniert, hängt von der Sozialisierung ab, von der Geduld und von dem, was in den ersten neun Lebenswochen des Kätzchens geschehen ist. Es gibt keinen schnellen Weg, sondern nur den richtigen.

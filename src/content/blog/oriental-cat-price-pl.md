@@ -5,7 +5,7 @@ title: "Ile kosztuje kot orientalny w 2026 roku?"
 description: "Ile kosztuje kot orientalny w 2026: przedziały pet/breed/show (€800–4500), co wchodzi w cenę, realna ekonomia hodowli i porównanie z «napisz na priv»."
 category: "Przewodnik kupującego"
 publishDate: "2026-06-03"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-price.webp"
 ---
 
 «Ile kosztuje kociak?» — najczęstsze pytanie. 90% hodowców odpowiada: «Pisz na priv». My odpowiadamy tutaj.

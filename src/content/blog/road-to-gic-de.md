@@ -5,7 +5,7 @@ title: "Sebastian und Simona: Unser Weg zum Grand International Champion"
 description: "Grand International Champion erfordert 9 Bewertungen von 6 Richtern in 2 Ländern. Sebastians und Simonas vollständiger Weg — Städte, Richter, Kosten und was es für Ihr Kätzchen bedeutet."
 category: "Käuferleitfaden"
 publishDate: "2026-05-13"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/road-to-gic.webp"
 ---
 
 Grand International Champion erfordert 9 Bewertungen von 6 verschiedenen Richtern in 2 Ländern. Wir brauchten 1,5 Jahre, 7 Ausstellungen (zu je 2 Tagen) und mehr als 6 500 EUR. So sah es aus — und was das für Ihr Kätzchen bedeutet.

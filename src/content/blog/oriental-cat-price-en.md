@@ -5,7 +5,7 @@ title: "How Much Does an Oriental Cat Cost in 2026?"
 description: "Oriental cat price in 2026: pet/breed/show ranges (€800–4,500), what's included, the real economics of breeding, and a transparent breeder vs 'DM me' table."
 category: "Buyer's Guide"
 publishDate: "2026-06-03"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-price.webp"
 ---
 
 "How much is the kitten?" — the most common question. 90% of breeders answer: "DM us." We answer here.

@@ -5,7 +5,7 @@ title: "Koty orientalne a dzieci, psy i inne koty: jak budować relacje"
 description: "Czy kot orientalny dogaduje się z psem, dziećmi i innymi kotami? 5-krokowy protokół zapoznania od hodowcy, realne przypadki i rola zapachów."
 category: "O rasie"
 publishDate: "2026-05-29"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-with-dogs-and-kids.webp"
 ---
 
 Koty orientalne to jedna z ras najbardziej prosocijalnych. Mogą mieszkać z psami, dziećmi i innymi kotami. Ale to, jak dobrze się ułoży, zależy od zapoznania, cierpliwości i tego, co wydarzyło się w pierwszych dziewięciu tygodniach życia kociaka. Nie ma drogi na skróty. Jest właściwa droga.

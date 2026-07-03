@@ -5,7 +5,7 @@ title: "Czy koty orientalne są naprawdę takie gadatliwe?"
 description: "Czy koty orientalne są naprawdę tak głośne? Tak — słownik dźwięków, porównanie z syjamem i szczery test dopasowania. Z sekcją FAQ."
 category: "O rasie"
 publishDate: "2026-05-25"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-vocal.webp"
 ---
 
 Tak, mówią. Tak, odpowiadają. I tak — z czasem nauczysz się rozumieć każdy dźwięk.

@@ -5,7 +5,7 @@ title: "Sebastian i Simona: nasza droga do Grand International Champion"
 description: "Grand International Champion wymaga 9 ocen od 6 sędziów w 2 krajach. Pełna droga Sebastiana i Simony — miasta, sędziowie, koszty i co to znaczy dla Twojego kociaka."
 category: "Przewodnik kupującego"
 publishDate: "2026-05-13"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/road-to-gic.webp"
 ---
 
 Tytuł Grand International Champion wymaga 9 ocen od 6 różnych sędziów w 2 krajach. Zajęło nam 1,5 roku, 7 wystaw (po 2 dni) i ponad €6 500. Oto jak to wyglądało — i co to znaczy dla Twojego kociaka.

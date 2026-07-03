@@ -5,7 +5,7 @@ title: "Von unserem Zuhause zu Ihrem: Wie wir das Kätzchen auf den Umzug vorber
 description: "Wie wir ein Orientalisch-Kätzchen auf den Umzug vorbereiten: Watch-Me-Grow-Updates, die «Mitgift», der Übergabetag und was in der ersten Woche normal ist."
 category: "Käuferleitfaden"
 publishDate: "2026-06-05"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-kitten-delivery-europe.webp"
 ---
 
 Der Umzug eines Kätzchens ist nicht nur eine Fahrt von Punkt A nach Punkt B. Es ist der erste psychologische Bruch in seinem Leben: neuer Ort, neue Gerüche, neue Menschen, neue Geräusche. Wie es das bewältigt, hängt davon ab, was wir in den vorherigen Wochen getan und womit wir Sie für diese Reise ausgestattet haben. Wir erzählen, wie dieser Weg verläuft — von unserem Zuhause zu Ihrem.

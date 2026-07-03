@@ -5,7 +5,7 @@ title: "Як вибрати орієнтальне кошеня у заводч�
 description: "Як вибрати орієнтальне кошеня у заводчика: класи pet/breed/show, читання характеру з народження, інтерв'ю покупця та чек-лист із 7 документів для ЄС."
 category: "Гід покупця"
 publishDate: "2026-06-01"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/how-to-choose-oriental-kitten.webp"
 ---
 
 Ти не вибираєш кошеня. Ти знаходиш своє. Іноді заводчик бачить збіг раніше за тебе.

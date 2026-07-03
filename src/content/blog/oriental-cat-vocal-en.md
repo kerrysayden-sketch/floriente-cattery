@@ -5,7 +5,7 @@ title: "Are Oriental Cats Really That Talkative?"
 description: "Are Oriental cats really that vocal? Yes — with a sound dictionary, a Siamese comparison, and an honest fit-check before you commit. Plus FAQ."
 category: "About the Breed"
 publishDate: "2026-05-25"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-vocal.webp"
 ---
 
 Yes, they talk. Yes, they answer. And yes — over time, you'll learn to read every sound.

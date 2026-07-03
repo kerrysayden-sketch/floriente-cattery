@@ -5,7 +5,7 @@ title: "Why Oriental Cats Are Called \"Dogs in Cat Skin\""
 description: "Oriental cats fetch toys, meet you at the door, follow you everywhere. Why they bond like dogs — and what to expect from a Floriente kitten."
 category: "About the Breed"
 publishDate: "2026-05-22"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/dog-like-oriental.webp"
 ---
 
 ## Hook

@@ -5,7 +5,7 @@ title: "Kolory orientala: podstawowy przewodnik na przykładzie naszych kotów"
 description: "Naucz się odczytywać kody kolorów EMS na przykładzie trzech kotów Floriente. 9 bazowych kolorów, 4 wzory tabby, 600+ kombinacji — przewodnik dla klasy PET."
 category: "O rasie"
 publishDate: "2026-05-20"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-colors.webp"
 ---
 
 Koty orientalne to jedna z ras o największym zróżnicowaniu umaszczeń. Felinologia europejska używa jednolitego standardu EMS (Easy Mind System, FIFe) do oznaczania kolorów: rasa + kolor + wzór = 3-5 symboli. Naucz się odczytywać ten kod na przykładzie trzech naszych kotów — i będziesz mógł rozszyfrować większość zapisów w rodowodach.

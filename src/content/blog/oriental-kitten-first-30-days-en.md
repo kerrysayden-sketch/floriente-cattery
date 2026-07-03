@@ -5,7 +5,7 @@ title: "First 30 Days with an Oriental Kitten: A Week-by-Week Protocol"
 description: "Your Oriental kitten's first 30 days at home: a week-by-week adaptation protocol — the safe room method, a shopping checklist, and when to call the vet."
 category: "Buyer's Guide"
 publishDate: "2026-06-19"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-kitten-first-30-days.webp"
 ---
 
 Kitten's home. The carrier sits in the hallway. Inside — silence.

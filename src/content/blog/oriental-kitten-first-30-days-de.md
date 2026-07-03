@@ -5,7 +5,7 @@ title: "Die ersten 30 Tage mit einem orientalischen Kätzchen: Protokoll Woche f
 description: "Die ersten 30 Tage Ihres Kätzchens zu Hause: Eingewöhnung Woche für Woche — die Ein-Zimmer-Methode, Einkaufs-Checkliste und wann Sie den Tierarzt rufen."
 category: "Käuferleitfaden"
 publishDate: "2026-06-19"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-kitten-first-30-days.webp"
 ---
 
 Das Kätzchen ist zu Hause. Die Transportbox steht im Flur. Drinnen — Stille.

@@ -5,7 +5,7 @@ title: "Pierwsze 30 dni z kociakiem orientalnym: protokół tygodniami"
 description: "Pierwsze 30 dni kociaka orientalnego w domu: protokół adaptacji tydzień po tygodniu — metoda jednego pokoju, lista zakupów i kiedy dzwonić do weterynarza."
 category: "Przewodnik kupującego"
 publishDate: "2026-06-19"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-kitten-first-30-days.webp"
 ---
 
 Kociak w domu. Transporter stoi w przedpokoju. W środku — cisza.

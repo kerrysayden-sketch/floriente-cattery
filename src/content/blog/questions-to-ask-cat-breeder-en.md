@@ -5,7 +5,7 @@ title: "What to Ask a Breeder Before Buying a Kitten: 18 Questions That Separate
 description: "18 questions to ask a cat breeder before buying a kitten — health, genetics, socialization, documents, and the questions a good breeder asks you back."
 category: "Buyer's Guide"
 publishDate: "2026-06-08"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/questions-to-ask-cat-breeder.webp"
 ---
 
 A good breeder asks YOU more questions than you ask them. If they don't — that's the first signal already.

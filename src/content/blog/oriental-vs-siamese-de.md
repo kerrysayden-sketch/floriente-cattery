@@ -5,7 +5,7 @@ title: "Was unterscheidet Orientalische Katzen und Siamkatzen?"
 description: "Was trennt orientalische und Siamkatzen? Ein einziges rezessives Gen — und die meisten Register klassifizieren sie als eine Gruppe. Genetik, Vergleich, FAQ."
 category: "Über die Rasse"
 publishDate: "2026-05-18"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-vs-siamese.webp"
 ---
 
 Beide Katzen können im selben Wurf geboren werden. Die eine hat blaue Augen, die andere grüne. Und alles andere? Eigentlich sind sie fast identisch.

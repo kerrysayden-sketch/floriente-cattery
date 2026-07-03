@@ -5,7 +5,7 @@ title: "Wie viel kostet eine Orientalkatze im Jahr 2026?"
 description: "Was kostet eine Orientalkatze 2026: pet/breed/show-Spannen (800–4.500 €), was enthalten ist, echte Zuchtökonomie und Vergleich zum «Preis auf Anfrage»."
 category: "Käuferleitfaden"
 publishDate: "2026-06-03"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-price.webp"
 ---
 
 «Wie viel kostet ein Kätzchen?» — die häufigste Frage. 90 % der Züchter antworten: «Schreiben Sie uns privat». Wir antworten hier.

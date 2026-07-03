@@ -5,7 +5,7 @@ title: "Jak sprawdzić hodowlę przed zakupem kociaka"
 description: "Lista kontrolna z 7 punktów do sprawdzenia hodowli przed wysłaniem pieniędzy. Sygnały ostrzegawcze, kluczowe pytania i co weryfikować w dokumentach."
 category: "Przewodnik kupującego"
 publishDate: "2026-05-01"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/how-to-verify-cattery.webp"
 ---
 
 Zakup rasowego kociaka online to ryzyko. Co roku setki osób wysyłają pieniądze do hodowców, którzy nie istnieją. Zadatek znika. Kociak nigdy nie przyjeżdża.

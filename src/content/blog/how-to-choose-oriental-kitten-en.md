@@ -5,7 +5,7 @@ title: "How to Choose an Oriental Kitten from a Breeder"
 description: "How to choose an Oriental kitten: pet/breed/show classes, reading character from birth, the breeder's buyer interview, and the 7-item EU handover checklist."
 category: "Buyer's Guide"
 publishDate: "2026-06-01"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/how-to-choose-oriental-kitten.webp"
 ---
 
 You don't choose a kitten. You find yours. Sometimes the breeder sees the match before you do.

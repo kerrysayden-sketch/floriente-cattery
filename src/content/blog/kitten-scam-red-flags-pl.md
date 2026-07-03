@@ -5,7 +5,7 @@ title: "Czerwone flagi przy zakupie kociaka online: jak odróżnić hodowcę od 
 description: "Kupujesz kociaka online? Trzy schematy oszustw, lista kontrolna z 7 punktów i czym prawdziwy hodowca różni się od oszusta — zanim wpłacisz zaliczkę."
 category: "Przewodnik kupującego"
 publishDate: "2026-06-10"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/kitten-scam-red-flags.webp"
 ---
 
 Kiedy szukałam Halvy, próbowano mnie oszukać pięć razy. Oto jak nauczyłam się odróżniać hodowcę od oszusta.

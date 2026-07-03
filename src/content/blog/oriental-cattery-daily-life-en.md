@@ -5,7 +5,7 @@ title: "A Day at Floriente Cattery"
 description: "What daily life at an Oriental cattery really looks like: 6 a.m. breakfast, a wood stove, and kittens raised in the middle of family life at Floriente."
 category: "Life at Floriente"
 publishDate: "2026-06-15"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cattery-daily-life.webp"
 ---
 
 Seba demands breakfast at 6 a.m. The girls sleep until mom gets up. Then the wood stove, the bone-warming ritual, and the schedule Sima runs with theatrical precision. This is where your Oriental kitten grows up.
