@@ -4,6 +4,7 @@ import KittensPreview from '../home/KittensPreview.astro';
 import { t, getLocalizedPath, localizedBreed } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
 import { fetchKittens } from '../../lib/storyblok';
+import { whatsappLink } from '../../lib/whatsapp';
 
 interface Props { lang: Lang; }
 const { lang } = Astro.props;
@@ -62,7 +63,7 @@ const hiText = t(lang, 'kittens.hiText');
       )}
       <p class="text-dark-soft mb-6">{t(lang, 'kittens.availabilityNext')}</p>
       <a
-        href="https://wa.me/380931884422"
+        href={whatsappLink(lang, 'nextLitter')}
         target="_blank"
         rel="noopener noreferrer"
         class="inline-block px-8 py-3 bg-gold text-warm-white font-medium rounded hover:bg-gold-dark transition-colors text-sm"
