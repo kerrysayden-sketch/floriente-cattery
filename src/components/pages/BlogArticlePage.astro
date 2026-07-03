@@ -86,6 +86,8 @@ const articleSchema = JSON.stringify({
   description={description}
   lang={lang}
   ogImage={ogImage}
+  ogType="article"
+  publishedTime={publishDate}
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={articleSchema} />
