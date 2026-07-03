@@ -132,4 +132,4 @@ Jeśli chcesz zobaczyć, jak wygląda zdrowa, dobrze zsocjalizowana orientalna k
 
 ## Co dalej
 
-Jeśli budujesz rodzinę — a nie po prostu kupujesz zwierzę — potrzebujesz szerszego obrazu. Artykuł [«10 rzeczy, które warto wiedzieć, zanim weźmiesz kota orientalnego»](/pl/blog/oriental-shorthair-10-things/) daje pełny przegląd przed podjęciem decyzji. A gdy kociak już zamieszka w domu poradnik [«Pierwsze 30 dni»](/pl/blog/) przeprowadzi przez etapy zapoznania, adaptacji i wszystkiego, co dzieje się w pierwszym miesiącu.
+Jeśli budujesz rodzinę — a nie po prostu kupujesz zwierzę — potrzebujesz szerszego obrazu. Artykuł [«10 rzeczy, które warto wiedzieć, zanim weźmiesz kota orientalnego»](/pl/blog/oriental-shorthair-10-things/) daje pełny przegląd przed podjęciem decyzji. A gdy kociak już zamieszka w domu poradnik [«Pierwsze 30 dni»](/pl/blog/oriental-kitten-first-30-days/) przeprowadzi przez etapy zapoznania, adaptacji i wszystkiego, co dzieje się w pierwszym miesiącu.

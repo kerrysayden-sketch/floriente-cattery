@@ -128,4 +128,4 @@ Wenn Sie sehen möchten, wie eine gesunde, gut sozialisierte orientalische Katze
 
 ## Wie geht es weiter?
 
-Wenn Sie eine Familie aufbauen und nicht einfach ein Tier kaufen, brauchen Sie das größere Bild. Der Artikel [„10 Dinge, die Sie wissen sollten, bevor Sie sich eine orientalische Katze anschaffen“](/de/blog/oriental-shorthair-10-things/) bietet einen vollständigen Überblick vor Ihrer Entscheidung. Und wenn das Kätzchen bereits zu Hause ist, enthält [„Die ersten 30 Tage“](/de/blog/) das genaue Protokoll für Vorstellung, Eingewöhnung und alles, was im ersten Monat geschieht.
+Wenn Sie eine Familie aufbauen und nicht einfach ein Tier kaufen, brauchen Sie das größere Bild. Der Artikel [„10 Dinge, die Sie wissen sollten, bevor Sie sich eine orientalische Katze anschaffen“](/de/blog/oriental-shorthair-10-things/) bietet einen vollständigen Überblick vor Ihrer Entscheidung. Und wenn das Kätzchen bereits zu Hause ist, enthält [„Die ersten 30 Tage“](/de/blog/oriental-kitten-first-30-days/) das genaue Protokoll für Vorstellung, Eingewöhnung und alles, was im ersten Monat geschieht.

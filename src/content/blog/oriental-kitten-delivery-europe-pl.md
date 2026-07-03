@@ -84,7 +84,7 @@ Parcie do kuwety bez rezultatu lub krew w moczu. U kotów niedrożność dróg m
 
 Apatia, odmowa ruchu, kicha i kaszle — każdy z tych sygnałów osobno, tym bardziej razem.
 
-Pierwszy miesiąc — osobny temat. Zasada 3-3-3 (3 dni dekompresja, 3 tygodnie adaptacja, 3 miesiące pełne poczucie domu), tryb karmienia, pierwsze sesje zabawowe, zapoznanie z innymi zwierzętami — wszystko szczegółowo opisane w [Artykule #17 — Pierwsze 30 dni z kociakiem Floriente](/pl/blog/). Przeczytaj go zanim kociak przyjedzie — wtedy będziesz gotów.
+Pierwszy miesiąc — osobny temat. Zasada 3-3-3 (3 dni dekompresja, 3 tygodnie adaptacja, 3 miesiące pełne poczucie domu), tryb karmienia, pierwsze sesje zabawowe, zapoznanie z innymi zwierzętami — wszystko szczegółowo opisane w [Artykule #17 — Pierwsze 30 dni z kociakiem Floriente](/pl/blog/oriental-kitten-first-30-days/). Przeczytaj go zanim kociak przyjedzie — wtedy będziesz gotów.
 
 ## Najczęściej zadawane pytania
 
@@ -112,4 +112,4 @@ Dlatego standardowe podejście — minimalizować stres bez leków: przygotowany
 
 Każdy kociak — to swoja historia przygotowania. Jeśli myślisz o konkretnym kociaku z Floriente lub chcesz zobaczyć aktualne mioty — [strona naszych kociąt](/pl/kocieta/). Proces rezerwacji i to, co dzieje się od pierwszego kontaktu do przekazania, opisano w [Artykule #9 — Struktura ceny i co w niej zawarte](/pl/blog/oriental-cat-price/) oraz na stronie [Jak kupić](/pl/jak-kupic/). Warto też wiedzieć, [jak sprawdzić hodowlę przed zakupem](/pl/blog/how-to-verify-cattery/).
 
-A gdy zechcesz przeczytać, jak to wyglądało u rodzin, które już przeszły tę drogę — [Artykuł #16 — Opowieści właścicieli](/pl/blog/).
+A gdy zechcesz przeczytać, jak to wyglądało u rodzin, które już przeszły tę drogę — [Artykuł #16 — Opowieści właścicieli](/pl/blog/floriente-cattery-reviews/).

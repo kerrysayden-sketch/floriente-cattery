@@ -128,4 +128,4 @@ If you want to see what a healthy, well-socialized Oriental cat looks like befor
 
 ## What's Next
 
-If you're building a family — not just buying an animal — you need the wider picture. The article [10 Things to Know Before Getting an Oriental](/en/blog/oriental-shorthair-10-things/) gives the full overview before you decide. And once the kitten is home — [The First 30 Days](/en/blog/) has the exact protocol for introductions, adjustment, and everything that happens in the first month.
+If you're building a family — not just buying an animal — you need the wider picture. The article [10 Things to Know Before Getting an Oriental](/en/blog/oriental-shorthair-10-things/) gives the full overview before you decide. And once the kitten is home — [The First 30 Days](/en/blog/oriental-kitten-first-30-days/) has the exact protocol for introductions, adjustment, and everything that happens in the first month.

@@ -84,7 +84,7 @@ Pressen in der Katzentoilette ohne Ergebnis oder Blut im Urin. Bei Katzen ist ei
 
 Apathie, Bewegungsverweigerung, Niesen und Husten — jedes dieser Signale für sich, erst recht in Kombination.
 
-Der erste Monat ist ein eigenes Thema. Die 3-3-3-Regel (3 Tage Dekompression, 3 Wochen Eingewöhnung, 3 Monate vollständiges Heimatgefühl), Fütterungsrhythmus, erste Spielsessions, das Kennenlernen anderer Tiere — alles detailliert beschrieben in [Artikel #17 — Die ersten 30 Tage mit einem Floriente-Kätzchen](/de/blog/). Lesen Sie ihn, bevor das Kätzchen ankommt — so sind Sie vorbereitet.
+Der erste Monat ist ein eigenes Thema. Die 3-3-3-Regel (3 Tage Dekompression, 3 Wochen Eingewöhnung, 3 Monate vollständiges Heimatgefühl), Fütterungsrhythmus, erste Spielsessions, das Kennenlernen anderer Tiere — alles detailliert beschrieben in [Artikel #17 — Die ersten 30 Tage mit einem Floriente-Kätzchen](/de/blog/oriental-kitten-first-30-days/). Lesen Sie ihn, bevor das Kätzchen ankommt — so sind Sie vorbereitet.
 
 ## Häufig gestellte Fragen
 
@@ -112,4 +112,4 @@ Der Standardansatz lautet daher: Stress ohne Medikamente minimieren — vorberei
 
 Jedes Kätzchen hat seine eigene Vorbereitungsgeschichte. Wenn Sie an ein konkretes Kätzchen von Floriente denken oder die aktuellen Würfe sehen möchten — [Seite unserer Kätzchen](/de/kitten/). Den Reservierungsprozess und das, was vom Erstkontakt bis zur Übergabe geschieht, beschreiben wir in [Artikel #9 — Preisstruktur und was im Preis enthalten ist](/de/blog/oriental-cat-price/) und auf der Seite [Wie man kauft](/de/kitten-kaufen/). Es lohnt sich auch zu wissen, [wie man eine Zucht vor dem Kauf überprüft](/de/blog/how-to-verify-cattery/).
 
-Und wenn Sie lesen möchten, wie es bei Familien war, die diesen Weg bereits gegangen sind — [Artikel #16 — Erfahrungsberichte unserer Halter](/de/blog/).
+Und wenn Sie lesen möchten, wie es bei Familien war, die diesen Weg bereits gegangen sind — [Artikel #16 — Erfahrungsberichte unserer Halter](/de/blog/floriente-cattery-reviews/).

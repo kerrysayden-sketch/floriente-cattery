@@ -84,7 +84,7 @@ Straining in the litter box without result, or blood in the urine. Urinary obstr
 
 Lethargy, refusing to move, sneezing and coughing — any of these signals on its own, much less together.
 
-The first month is a topic of its own. The 3-3-3 rule (3 days of decompression, 3 weeks of adjustment, 3 months to fully feel at home), feeding schedule, first play sessions, introductions to other animals — all of it is laid out in detail in [Article #17 — First 30 Days with a Floriente Kitten](/en/blog/). Read it before the kitten arrives — that way you'll be ready.
+The first month is a topic of its own. The 3-3-3 rule (3 days of decompression, 3 weeks of adjustment, 3 months to fully feel at home), feeding schedule, first play sessions, introductions to other animals — all of it is laid out in detail in [Article #17 — First 30 Days with a Floriente Kitten](/en/blog/oriental-kitten-first-30-days/). Read it before the kitten arrives — that way you'll be ready.
 
 ## Frequently Asked Questions
 
@@ -112,4 +112,4 @@ So the standard approach is to minimize stress without medication: a prepared ca
 
 Every kitten has its own preparation story. If you're thinking about a specific kitten from Floriente or want to see current litters — [our kittens page](/en/kittens/). The reservation process and what happens from first contact through handover is laid out in [Article #9 — Price Breakdown and What's Included](/en/blog/oriental-cat-price/) and on the [How to Buy](/en/how-to-buy/) page. It's also worth knowing [how to verify a cattery before you buy](/en/blog/how-to-verify-cattery/).
 
-And if you'd like to read what it was like for families who've already done this — [Article #16 — Owner Stories](/en/blog/).
+And if you'd like to read what it was like for families who've already done this — [Article #16 — Owner Stories](/en/blog/floriente-cattery-reviews/).
