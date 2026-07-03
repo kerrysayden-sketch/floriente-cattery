@@ -183,7 +183,8 @@
     "locationText": "Obwód kijowski, Ukraina",
     "locationNote": "Transport kociąt na terenie całej Europy. Dokładna lokalizacja udostępniana po rezerwacji.",
     "hoursTitle": "Godziny odpowiedzi",
-    "hoursText": "Zazwyczaj odpowiadamy w ciągu 2-4 godzin w ciągu dnia (EET/EEST). Wieczorami i w weekendy może to potrwać nieco dłużej."
+    "hoursText": "Zazwyczaj odpowiadamy w ciągu 2-4 godzin w ciągu dnia (EET/EEST). Wieczorami i w weekendy może to potrwać nieco dłużej.",
+    "kittenEnquiryNote": "W sprawie kociąt: kolejny miot jest spodziewany około połowy lipca 2026."
   },
   "howToBuy": {
     "heroTitle": "Twoja droga do kociaka z Floriente",
@@ -339,7 +340,10 @@
     "fieldMother": "Matka",
     "priceIncludes": "Obejmuje szczepienia, mikroczip, paszport UE",
     "watchMeGrow": "Patrz, jak rosnę",
-    "weekLabel": "Tydzień"
+    "weekLabel": "Tydzień",
+    "availabilityNone": "Obecnie nie ma dostępnych kociąt.",
+    "availabilityNext": "Kolejny miot jest spodziewany około połowy lipca 2026.",
+    "availabilityCta": "Napisz do nas na WhatsApp, aby zapytać o kolejny miot lub dołączyć do listy oczekujących."
   },
   "common": {
     "viewAll": "Zobacz wszystkie",

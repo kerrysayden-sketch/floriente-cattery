@@ -54,7 +54,20 @@ const hiText = t(lang, 'kittens.hiText');
 
   <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-20">
     <h1 class="text-center text-dark mb-4">{t(lang, 'nav.kittens')}</h1>
-    <p class="text-center text-gray-medium mb-12 md:mb-16 max-w-2xl mx-auto">{pageSubtitle}</p>
+    <p class="text-center text-gray-medium mb-8 max-w-2xl mx-auto">{pageSubtitle}</p>
+
+    <div class="max-w-2xl mx-auto text-center mb-12 md:mb-16 py-8 px-6 bg-gold/5 rounded-2xl border border-gold/10">
+      {currentKittens.length === 0 && (
+        <p class="text-dark text-lg mb-2">{t(lang, 'kittens.availabilityNone')}</p>
+      )}
+      <p class="text-dark-soft mb-6">{t(lang, 'kittens.availabilityNext')}</p>
+      <a
+        href="https://wa.me/380931884422"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-block px-8 py-3 bg-gold text-warm-white font-medium rounded hover:bg-gold-dark transition-colors text-sm"
+      >{t(lang, 'kittens.availabilityCta')}</a>
+    </div>
 
     {currentKittens.length > 0 && (
       <>

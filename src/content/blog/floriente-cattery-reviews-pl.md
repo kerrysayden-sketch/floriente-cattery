@@ -122,7 +122,7 @@ Następny krok — twój.
 
 [Jak kupić →](/pl/jak-kupic/) — jak przebiega proces, jakie dokumenty otrzymujesz, jakie pytania warto zadać.
 
-[Nasz aktualny miot — florientecattery.com/pl/kocieta](/pl/kocieta/) — kociaki, które właśnie przygotowują się do przeprowadzki do takich rodzin jak te.
+[Nasz aktualny miot — florientecattery.com/pl/kocieta](/pl/kocieta/) — kociaki z Floriente trafiają do takich rodzin jak te.
 
 [Skontaktuj się →](/pl/kontakt/) — zapytaj wprost. O proces, o dostępne kociaki lub poproś o połączenie cię z jedną z tych rodzin.
 

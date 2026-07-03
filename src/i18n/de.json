@@ -183,7 +183,8 @@
     "locationText": "Region Kiew, Ukraine",
     "locationNote": "Kätzchen-Lieferung in ganz Europa verfügbar. Genauer Standort nach Reservierung.",
     "hoursTitle": "Antwortzeiten",
-    "hoursText": "Wir antworten meist innerhalb von 2-4 Stunden tagsüber (MEZ/MESZ). Abends und am Wochenende kann es etwas länger dauern."
+    "hoursText": "Wir antworten meist innerhalb von 2-4 Stunden tagsüber (MEZ/MESZ). Abends und am Wochenende kann es etwas länger dauern.",
+    "kittenEnquiryNote": "Für Anfragen zu Kätzchen: Der nächste Wurf wird voraussichtlich Mitte Juli 2026 erwartet."
   },
   "howToBuy": {
     "heroTitle": "Ihr Weg zu einem Floriente-Kätzchen",
@@ -339,7 +340,10 @@
     "fieldMother": "Mutter",
     "priceIncludes": "Inklusive Impfung, Mikrochip, EU-Pass",
     "watchMeGrow": "Wachstum verfolgen",
-    "weekLabel": "Woche"
+    "weekLabel": "Woche",
+    "availabilityNone": "Derzeit sind keine Kätzchen verfügbar.",
+    "availabilityNext": "Der nächste Wurf wird voraussichtlich Mitte Juli 2026 erwartet.",
+    "availabilityCta": "Schreiben Sie uns auf WhatsApp, um nach dem nächsten Wurf zu fragen oder sich auf die Warteliste setzen zu lassen."
   },
   "common": {
     "viewAll": "Alle ansehen",

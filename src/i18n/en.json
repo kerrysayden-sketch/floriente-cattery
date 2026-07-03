@@ -183,7 +183,8 @@
     "locationText": "Kyiv Region, Ukraine",
     "locationNote": "Kitten delivery available across Europe. Exact location shared after reservation.",
     "hoursTitle": "Response Hours",
-    "hoursText": "We typically respond within 2–4 hours during daytime (EET/EEST). Evenings and weekends may take a bit longer."
+    "hoursText": "We typically respond within 2–4 hours during daytime (EET/EEST). Evenings and weekends may take a bit longer.",
+    "kittenEnquiryNote": "For kitten enquiries: the next litter is expected around mid-July 2026."
   },
   "howToBuy": {
     "heroTitle": "Your Journey to a Floriente Kitten",
@@ -339,7 +340,10 @@
     "fieldMother": "Mother",
     "priceIncludes": "Includes vaccination, microchip, EU passport",
     "watchMeGrow": "Watch Me Grow",
-    "weekLabel": "Week"
+    "weekLabel": "Week",
+    "availabilityNone": "No kittens are currently available.",
+    "availabilityNext": "The next litter is expected around mid-July 2026.",
+    "availabilityCta": "Message us on WhatsApp to ask about the next litter or join the waiting list."
   },
   "common": {
     "viewAll": "View all",
