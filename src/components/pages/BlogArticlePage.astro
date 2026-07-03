@@ -26,6 +26,46 @@ const formattedDate = publishDate
   ? new Date(publishDate).toLocaleDateString(dateLocaleMap[lang] ?? 'en-GB', { year: 'numeric', month: 'long', day: 'numeric' })
   : '';
 
+// FAQPage schema from the article's own visible Q&A blocks (bold full-line
+// questions + first answer paragraph). Extraction is deterministic; if fewer
+// than 2 clean pairs are found, no FAQ schema is emitted for the page.
+function stripMd(s: string): string {
+  return s
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/\*([^*]+)\*/g, '$1')
+    .replace(/`([^`]+)`/g, '$1')
+    .trim();
+}
+function extractFaqPairs(body: string): { q: string; a: string }[] {
+  const pairs: { q: string; a: string }[] = [];
+  const blocks = body.split(/\n\s*\n/).map((b) => b.trim()).filter(Boolean);
+  for (let i = 0; i < blocks.length; i++) {
+    const b = blocks[i];
+    const isFullBold = /^\*\*[^*]+\*\*$/.test(b.replace(/\n/g, ' ').trim());
+    if (!isFullBold || !b.includes('?')) continue;
+    const next = blocks[i + 1];
+    if (!next) continue;
+    const nextIsStructural =
+      /^#{1,6}\s/.test(next) || /^\*\*[^*]+\*\*$/.test(next.replace(/\n/g, ' ').trim()) || next.startsWith('|') || next.startsWith('-');
+    if (nextIsStructural) continue;
+    pairs.push({ q: stripMd(b), a: stripMd(next.replace(/\n/g, ' ')) });
+  }
+  return pairs;
+}
+const faqPairs = extractFaqPairs(post.body ?? '');
+const faqSchema = faqPairs.length >= 2
+  ? JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqPairs.map((p) => ({
+        "@type": "Question",
+        "name": p.q,
+        "acceptedAnswer": { "@type": "Answer", "text": p.a },
+      })),
+    })
+  : null;
+
 const articleSchema = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Article",
@@ -49,6 +89,7 @@ const articleSchema = JSON.stringify({
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={articleSchema} />
+    {faqSchema && <script type="application/ld+json" set:html={faqSchema} />}
   </Fragment>
 
   <article class="py-16 md:py-24 px-4 sm:px-6">
