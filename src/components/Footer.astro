@@ -1,6 +1,7 @@
 ---
 import { t, getLocalizedPath, languages, visibleLocales } from '../i18n/utils';
 import type { Lang } from '../i18n/utils';
+import { whatsappLink } from '../lib/whatsapp';
 
 interface Props {
   lang: Lang;
@@ -72,6 +73,16 @@ const legalLinks = [
           {t(lang, 'footer.contacts')}
         </h4>
         <ul class="space-y-2">
+          <li>
+            <a
+              href={whatsappLink(lang, 'generalContact')}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-sm text-warm-white/60 hover:text-gold transition-colors"
+            >
+              {t(lang, 'footer.whatsapp')}
+            </a>
+          </li>
           <li>
             <a
               href="mailto:info@florientecattery.com"

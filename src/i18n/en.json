@@ -21,7 +21,8 @@
     "contacts": "Contact Us",
     "followUs": "Follow Us",
     "email": "info@florientecattery.com",
-    "location": "Kyiv Region, Ukraine"
+    "location": "Kyiv Region, Ukraine",
+    "whatsapp": "Ask us on WhatsApp"
   },
   "pages": {
     "logoAlt": "Floriente Cattery logo",
@@ -35,7 +36,7 @@
     },
     "kittens": {
       "title": "Kittens - Floriente Cattery",
-      "description": "Available Oriental Shorthair and Siamese kittens at Floriente Cattery. View current litters, pricing, and adoption process."
+      "description": "Available Oriental Shorthair and Siamese kittens at Floriente Cattery. View our kittens, pricing, and adoption process."
     },
     "ourCats": {
       "title": "Our Cats - Floriente Cattery",

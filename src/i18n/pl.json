@@ -21,7 +21,8 @@
     "contacts": "Kontakt",
     "followUs": "Obserwuj nas",
     "email": "info@florientecattery.com",
-    "location": "Obwód kijowski, Ukraina"
+    "location": "Obwód kijowski, Ukraina",
+    "whatsapp": "Napisz do nas na WhatsApp"
   },
   "pages": {
     "logoAlt": "Logo Floriente Cattery",
@@ -35,7 +36,7 @@
     },
     "kittens": {
       "title": "Kocięta orientalne na sprzedaż | Floriente Cattery",
-      "description": "Dostępne kocięta orientalne i syjamskie z rodowodem WCF. Sprawdź aktualne mioty, ceny i warunki rezerwacji. Dostawa do Polski."
+      "description": "Dostępne kocięta orientalne i syjamskie z rodowodem WCF. Poznaj nasze kocięta, ceny i warunki rezerwacji. Dostawa do Polski."
     },
     "ourCats": {
       "title": "Nasze koty - Orientalne i Syjamskie | Floriente",
