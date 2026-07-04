@@ -122,7 +122,7 @@ The next step is yours.
 
 [How to Buy →](/en/how-to-buy/) — how the process works, what documents you receive, what questions to ask.
 
-[Our current litter — florientecattery.com/en/kittens](/en/kittens/) — kittens from Floriente move into families like these.
+[Our kittens — florientecattery.com/en/kittens](/en/kittens/) — kittens from Floriente move into families like these.
 
 [Contact →](/en/contact/) — ask directly. About the process, about available kittens, or to be put in touch with one of these families.
 

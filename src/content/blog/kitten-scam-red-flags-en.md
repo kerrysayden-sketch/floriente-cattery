@@ -123,6 +123,6 @@ Specific questions that separate a prepared buyer from an impulsive one — and 
 
 What's included in the price at a legitimate breeder, why responsible breeding economics look the way they do — and what "cheap" actually signals about a listing.
 
-Want to see what a real breeder process looks like? Our current litter: [florientecattery.com/en/kittens](/en/kittens/). All cats with full documents, tested parents, and open contact.
+Want to see what a real breeder process looks like? Our kittens: [florientecattery.com/en/kittens](/en/kittens/). All cats with full documents, tested parents, and open contact.
 
 Floriente Cattery — WCF registered, Ukraine. Oriental Shorthair.

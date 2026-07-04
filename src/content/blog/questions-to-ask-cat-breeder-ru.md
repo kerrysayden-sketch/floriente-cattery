@@ -199,4 +199,4 @@ ogImage: "/images/blog/questions-to-ask-cat-breeder.webp"
 
 Читайте [Как купить — пошаговый процесс →](/ru/kak-kupit/) — что происходит от первого контакта до передачи.
 
-[Свяжитесь с Floriente Cattery →](/ru/kontakty/) — мы отвечаем на все 18. Наш текущий помёт: [florientecattery.com/ru/kotyata](/ru/kotyata/).
+[Свяжитесь с Floriente Cattery →](/ru/kontakty/) — мы отвечаем на все 18. Наши котята: [florientecattery.com/ru/kotyata](/ru/kotyata/).

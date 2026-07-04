@@ -121,7 +121,7 @@ Genetyka jest probabilistyczna, a nie zdeterminowana. Nawet od dwóch rodziców 
 
 ## Gotowi zobaczyć koty w kolorze na żywo?
 
-Zobacz [nasz aktualny miot](/pl/kocieta/). Podajemy kod EMS i szczegółowy opis koloru każdego kociaka — teraz potrafisz przeczytać go sam.
+Zobacz [nasze kocięta](/pl/kocieta/). Podajemy kod EMS i szczegółowy opis koloru każdego kociaka — teraz potrafisz przeczytać go sam.
 
 ## Czytaj dalej
 

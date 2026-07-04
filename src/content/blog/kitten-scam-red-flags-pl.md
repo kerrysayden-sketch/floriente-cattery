@@ -123,6 +123,6 @@ Konkretne pytania, które odróżniają przygotowanego kupującego od impulsywne
 
 Co jest wliczone w cenę u legalnego hodowcy, dlaczego ekonomia odpowiedzialnej hodowli wygląda tak, jak wygląda — i co «tanio» naprawdę sygnalizuje w ogłoszeniu.
 
-Chcesz zobaczyć, jak wygląda prawdziwy proces hodowlany? Nasz aktualny miot: [florientecattery.com/pl/kocieta](/pl/kocieta/). Wszystkie koty z pełnymi dokumentami, testowanymi rodzicami i otwartym kontaktem.
+Chcesz zobaczyć, jak wygląda prawdziwy proces hodowlany? Nasze kocięta: [florientecattery.com/pl/kocieta](/pl/kocieta/). Wszystkie koty z pełnymi dokumentami, testowanymi rodzicami i otwartym kontaktem.
 
 Hodowla Floriente — zarejestrowana w WCF, Ukraina. Orientalna krótkowłosa.

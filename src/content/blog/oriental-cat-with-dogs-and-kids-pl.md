@@ -126,7 +126,7 @@ Dla większości — tak. U 92% kotów z grupy orientalno-syjamskiej odnotowuje 
 
 To fundament, na którym opiera się cała reszta. Kociak bez odpowiedniej socjalizacji w ciągu pierwszych 9 tygodni, poniesie ten deficyt na całe życie — wolniej ufa, wolniej się adaptuje, gorzej znosi zmiany. Kiedy widzisz kociaka, który jest ciekawski, pewny siebie i zabawny pomimo nieznanego miejsca — to dziewięć tygodni pracy hodowcy uczynione widocznymi.
 
-## Zapoznanie w akcji — nasz aktualny miot
+## Zapoznanie w akcji — nasze kocięta
 
 Jeśli chcesz zobaczyć, jak wygląda zdrowa, dobrze zsocjalizowana orientalna kotka, zanim przeprowadzi się do ciebie: [florientecattery.com/pl/kocieta](/pl/kocieta/). Każdy kociak przechodzi pierwsze tygodnie socjalizacji u nas — z dziećmi, z innymi kotami, z różnymi dźwiękami i sytuacjami. Otrzymujesz nie tylko zwierzę, ale już zaadaptowaną osobowość.
 

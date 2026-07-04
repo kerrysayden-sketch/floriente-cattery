@@ -121,7 +121,7 @@ The path from Champion to International Champion to Grand International Champion
 
 ## What's Next
 
-You can verify Floriente Cattery right now: wcf.de, registration number 50188-2025. Our current litter with verified pedigrees and titles — [florientecattery.com/en/kittens](/en/kittens/).
+You can verify Floriente Cattery right now: wcf.de, registration number 50188-2025. Our kittens with verified pedigrees and titles — [florientecattery.com/en/kittens](/en/kittens/).
 
 - Read [#13: The Road to GICH →](#) — show by show, the path to Sebastian's Grand International Champion title: judges, regions, years on the road.
 - Browse [Our Cats →](/en/our-cats/) — Sebastian, Sima, and Halva: their titles, pedigrees, and role in the breeding program.

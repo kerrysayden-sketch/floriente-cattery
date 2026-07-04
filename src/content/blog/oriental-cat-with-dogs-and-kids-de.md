@@ -122,7 +122,7 @@ Für die meisten ist das richtig. Bei 92 % der Katzen aus der orientalisch-siami
 
 Sie ist das Fundament, auf dem alles Weitere aufbaut. Ein Kätzchen, das in den ersten 9 Wochen keine Sozialisierung erfahren hat, wird dieses Defizit ein Leben lang mit sich tragen. Es vertraut langsamer, gewöhnt sich langsamer ein und verträgt Veränderungen schlechter. Wenn Sie ein Kätzchen sehen, das trotz unbekannter Umgebung neugierig, selbstsicher und verspielt ist, dann werden neun Wochen Züchterarbeit sichtbar.
 
-## Sozialisierung in Aktion — unser aktueller Wurf
+## Sozialisierung in Aktion — unsere Kätzchen
 
 Wenn Sie sehen möchten, wie eine gesunde, gut sozialisierte orientalische Katze aussieht, bevor sie zu Ihnen zieht: [/de/kitten/](/de/kitten/). Jedes Kätzchen durchläuft bei uns die ersten Wochen der Sozialisierung mit Kindern, anderen Katzen, unterschiedlichen Geräuschen und Situationen. Sie bekommen nicht einfach ein Tier, sondern eine bereits eingewöhnte Persönlichkeit.
 

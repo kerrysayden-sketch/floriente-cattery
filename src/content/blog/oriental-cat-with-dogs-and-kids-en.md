@@ -122,7 +122,7 @@ For most — yes. In 92% of cats in the Oriental-Siamese group, stress markers s
 
 It's the foundation everything else is built on. A kitten who didn't get socialization in the first 9 weeks carries that deficit for life — slower to trust, slower to adjust, worse with change. When you see a kitten who's curious, confident, and playful in an unfamiliar place — that's nine weeks of breeder work made visible.
 
-## Introductions in Action — Our Current Litter
+## Introductions in Action — Our Kittens
 
 If you want to see what a healthy, well-socialized Oriental cat looks like before she moves in with you: [our kittens page](/en/kittens/). Every kitten goes through the first weeks of socialization with us — with kids, with other cats, with different sounds and situations. You're not getting just an animal — you're getting an already-adapted personality.
 

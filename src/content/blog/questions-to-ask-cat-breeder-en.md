@@ -199,4 +199,4 @@ Read [How to Choose a Kitten from a Breeder →](/en/blog/how-to-choose-oriental
 
 Read [How to Buy — step-by-step process →](/en/how-to-buy/) — what happens from first contact to handover.
 
-[Contact Floriente Cattery →](/en/contact/) — we answer all 18. Our current litter: [florientecattery.com/en/kittens](/en/kittens/).
+[Contact Floriente Cattery →](/en/contact/) — we answer all 18. Our kittens: [florientecattery.com/en/kittens](/en/kittens/).

@@ -121,7 +121,7 @@ Genetics is probabilistic, not fixed. Even from two parents of the same color, a
 
 ## Ready to see the cats in living color?
 
-Take a look at [our current litter](/en/kittens/). We list the EMS code and a detailed color description for every kitten — now you can read it yourself.
+Take a look at [our kittens](/en/kittens/). We list the EMS code and a detailed color description for every kitten — now you can read it yourself.
 
 ## Read more
 

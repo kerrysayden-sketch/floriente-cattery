@@ -176,4 +176,4 @@ Die ersten 30 Tage sind das Fundament. Danach geht es darum, dieses Fundament zu
 
 [Artikel #19 — Pflege](/de/blog/): Ohren, Fell, Krallen — der vollständige Plan für Orientalen, einschließlich der Frage, wie man das Kätzchen vom ersten Tag an an die Behandlung gewöhnt
 
-Fragen zu Ihrem Kätzchen? Schreiben Sie Floriente Cattery direkt — wir sind Ihre erste Anlaufstelle, nicht die letzte. Und wenn Sie diesen Artikel lesen, bevor Sie ein Kätzchen zu sich nehmen, finden Sie unseren aktuellen Wurf auf [florientecattery.com/de/kitten](/de/kitten/).
+Fragen zu Ihrem Kätzchen? Schreiben Sie Floriente Cattery direkt — wir sind Ihre erste Anlaufstelle, nicht die letzte. Und wenn Sie diesen Artikel lesen, bevor Sie ein Kätzchen zu sich nehmen, finden Sie unsere Kätzchen auf [florientecattery.com/de/kitten](/de/kitten/).

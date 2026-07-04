@@ -120,4 +120,4 @@ Gdy nadejdzie czas, by zawieźć kociaka do domu — oto jak przebiega ta droga:
 
 Jeśli chcesz wiedzieć, jak będą wyglądać pierwsze 30 dni już w twoim domu — co kontynuować z tego, co tu się zaczęło — opisuje to [Artykuł #17: Pierwsze 30 dni z kociakiem Floriente](/pl/blog/oriental-kitten-first-30-days/).
 
-A gdy będziesz gotów porozmawiać o terminach i dostępności: nasz aktualny miot — [florientecattery.com/pl/kocieta](/pl/kocieta/). Elwira najszybciej odpowiada na [Instagramie](https://instagram.com/floriente_orientals_cattery) i przez formularz kontaktowy.
+A gdy będziesz gotów porozmawiać o terminach i dostępności: nasze kocięta — [florientecattery.com/pl/kocieta](/pl/kocieta/). Elwira najszybciej odpowiada na [Instagramie](https://instagram.com/floriente_orientals_cattery) i przez formularz kontaktowy.

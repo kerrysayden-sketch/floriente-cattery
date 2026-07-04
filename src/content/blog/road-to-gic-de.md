@@ -177,4 +177,4 @@ Der nächste Artikel zeigt, wie dieses Umfeld im Alltag aussieht. [Ein Tag bei F
 
 Oder, falls Sie bereit sind, die Katzen kennenzulernen:
 
-[Unser aktueller Wurf — Kätzchen von Floriente](/de/kitten/) — Kätzchen mit Stammbäumen, geprüften Eltern und Titeln in direkter Linie.
+[Unsere Kätzchen — Kätzchen von Floriente](/de/kitten/) — Kätzchen mit Stammbäumen, geprüften Eltern und Titeln in direkter Linie.

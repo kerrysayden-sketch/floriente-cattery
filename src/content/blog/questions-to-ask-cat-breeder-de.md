@@ -199,4 +199,4 @@ Lesen Sie [Wie Sie ein Kätzchen beim Züchter auswählen →](/de/blog/how-to-c
 
 Lesen Sie [Kätzchen kaufen — Schritt-für-Schritt-Prozess →](/de/kitten-kaufen/) — was vom Erstkontakt bis zur Übergabe geschieht.
 
-[Kontaktieren Sie Floriente Cattery →](/de/kontakt/) — wir beantworten alle 18 Fragen. Unser aktueller Wurf: [florientecattery.com/de/kitten](/de/kitten/).
+[Kontaktieren Sie Floriente Cattery →](/de/kontakt/) — wir beantworten alle 18 Fragen. Unsere Kätzchen: [florientecattery.com/de/kitten](/de/kitten/).

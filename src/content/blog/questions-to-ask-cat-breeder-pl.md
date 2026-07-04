@@ -199,4 +199,4 @@ Przeczytaj [Jak wybrać kociaka od hodowcy →](/pl/blog/how-to-choose-oriental-
 
 Przeczytaj [Jak kupić — proces krok po kroku →](/pl/jak-kupic/) — co dzieje się od pierwszego kontaktu do przekazania.
 
-[Skontaktuj się z Floriente Cattery →](/pl/kontakt/) — odpowiadamy na wszystkie 18. Nasz aktualny miot: [florientecattery.com/pl/kocieta](/pl/kocieta/).
+[Skontaktuj się z Floriente Cattery →](/pl/kontakt/) — odpowiadamy na wszystkie 18. Nasze kocięta: [florientecattery.com/pl/kocieta](/pl/kocieta/).

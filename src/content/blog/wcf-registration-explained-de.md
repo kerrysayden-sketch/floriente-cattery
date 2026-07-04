@@ -121,7 +121,7 @@ Der Weg von Champion über International Champion zum Grand International Champi
 
 ## Wie geht es weiter
 
-Sie können die Zucht Floriente sofort überprüfen: wcf.de, Registrierungsnummer 50188-2025. Unser aktueller Wurf mit verifizierten Stammbäumen und Titeln — [florientecattery.com/de/kitten](/de/kitten/).
+Sie können die Zucht Floriente sofort überprüfen: wcf.de, Registrierungsnummer 50188-2025. Unsere Kätzchen mit verifizierten Stammbäumen und Titeln — [florientecattery.com/de/kitten](/de/kitten/).
 
 - Lesen Sie [#13: Der Weg zum GICH →](#) — Ausstellung für Ausstellung Sebastians Weg zum Titel Grand International Champion: Richter, Regionen, Reisejahre.
 - Sehen Sie sich [Unsere Katzen →](/de/unsere-katzen/) an — Sebastian, Sima und Halva: ihre Titel, Stammbäume und Rolle im Zuchtprogramm.

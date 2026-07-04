@@ -176,4 +176,4 @@ The first 30 days are the foundation. After that — maintaining that foundation
 
 [Article #19 — Care](/en/blog/): ears, coat, claws — the full schedule for an Oriental, including how to get the kitten used to handling from day one
 
-Questions about your kitten? Write to Floriente Cattery directly — we're your first point of contact, not your last. And if you're reading this article before getting a kitten — our current litter is at [florientecattery.com/en/kittens](/en/kittens/).
+Questions about your kitten? Write to Floriente Cattery directly — we're your first point of contact, not your last. And if you're reading this article before getting a kitten — our kittens are at [florientecattery.com/en/kittens](/en/kittens/).

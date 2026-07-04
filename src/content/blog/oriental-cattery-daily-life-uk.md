@@ -120,4 +120,4 @@ ogImage: "/images/blog/oriental-cattery-daily-life.webp"
 
 Якщо хочете знати і як виглядатимуть перші 30 днів уже у вашому домі — що продовжити з того, що тут почалось, — це описано в [Статті #17: Перші 30 днів з кошеням Floriente](/uk/blog/oriental-kitten-first-30-days/).
 
-А коли будете готові поговорити про терміни і наявність: наш поточний помет — [florientecattery.com/uk/koshenyata](/uk/koshenyata/). Ельвіра найшвидше відповідає в [Instagram](https://instagram.com/floriente_orientals_cattery) і через контактну форму.
+А коли будете готові поговорити про терміни і наявність: наші кошенята — [florientecattery.com/uk/koshenyata](/uk/koshenyata/). Ельвіра найшвидше відповідає в [Instagram](https://instagram.com/floriente_orientals_cattery) і через контактну форму.

@@ -177,4 +177,4 @@ The next article shows what that environment looks like every day. [A Day at Flo
 
 Or, if you're already ready to meet the cats:
 
-[Our current litter — Floriente kittens](/en/kittens/) — kittens with pedigrees, verified parents, and titles in the direct line.
+[Our kittens — Floriente kittens](/en/kittens/) — kittens with pedigrees, verified parents, and titles in the direct line.

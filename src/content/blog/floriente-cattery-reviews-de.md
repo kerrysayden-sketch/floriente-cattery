@@ -122,7 +122,7 @@ Der nächste Schritt liegt bei Ihnen.
 
 [Wie man kauft →](/de/kitten-kaufen/) — wie der Prozess abläuft, welche Dokumente Sie erhalten, welche Fragen Sie stellen sollten.
 
-[Unser aktueller Wurf — florientecattery.com/de/kitten](/de/kitten/) — Kätzchen von Floriente ziehen in Familien wie diese.
+[Unsere Kätzchen — florientecattery.com/de/kitten](/de/kitten/) — Kätzchen von Floriente ziehen in Familien wie diese.
 
 [Kontakt →](/de/kontakt/) — fragen Sie direkt nach. Zum Ablauf, zu verfügbaren Kätzchen oder bitten Sie uns, Sie mit einer dieser Familien zu verbinden.
 

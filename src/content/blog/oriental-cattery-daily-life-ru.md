@@ -120,4 +120,4 @@ Seba будит Сашу в 6 утра. Девочки спят, пока Эль
 
 Если хотите знать и как будут выглядеть первые 30 дней уже в вашем доме — что продолжить из того, что здесь началось, — это описано в [Статье #17: Первые 30 дней с котёнком Floriente](/ru/blog/oriental-kitten-first-30-days/).
 
-А когда будете готовы поговорить о сроках и наличии: наш текущий помёт — [florientecattery.com/ru/kotyata](/ru/kotyata/). Эльвира быстрее всего отвечает в [Instagram](https://instagram.com/floriente_orientals_cattery) и через контактную форму.
+А когда будете готовы поговорить о сроках и наличии: наши котята — [florientecattery.com/ru/kotyata](/ru/kotyata/). Эльвира быстрее всего отвечает в [Instagram](https://instagram.com/floriente_orientals_cattery) и через контактную форму.

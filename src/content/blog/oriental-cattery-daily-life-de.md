@@ -120,4 +120,4 @@ Wenn die Zeit kommt, das Kätzchen nach Hause zu bringen — so verläuft diese 
 
 Wenn Sie auch wissen möchten, wie die ersten 30 Tage bereits in Ihrem Zuhause aussehen — was Sie aus dem fortführen sollten, was hier begonnen hat — wird das in [Artikel #17: Die ersten 30 Tage mit einem Floriente-Kätzchen](/de/blog/oriental-kitten-first-30-days/) beschrieben.
 
-Und wenn Sie bereit sind, über Termine und Verfügbarkeit zu sprechen: Unser aktueller Wurf — [florientecattery.com/de/kitten](/de/kitten/). Elvira antwortet am schnellsten auf [Instagram](https://instagram.com/floriente_orientals_cattery) und über das Kontaktformular.
+Und wenn Sie bereit sind, über Termine und Verfügbarkeit zu sprechen: Unsere Kätzchen — [florientecattery.com/de/kitten](/de/kitten/). Elvira antwortet am schnellsten auf [Instagram](https://instagram.com/floriente_orientals_cattery) und über das Kontaktformular.

@@ -199,4 +199,4 @@ ogImage: "/images/blog/questions-to-ask-cat-breeder.webp"
 
 Читайте [Як купити — покроковий процес →](/uk/yak-prydbanty/) — що відбувається від першого контакту до передачі.
 
-[Зв'яжіться з Floriente Cattery →](/uk/kontakty/) — ми відповідаємо на всі 18. Наш поточний помет: [florientecattery.com/uk/koshenyata](/uk/koshenyata/).
+[Зв'яжіться з Floriente Cattery →](/uk/kontakty/) — ми відповідаємо на всі 18. Наші кошенята: [florientecattery.com/uk/koshenyata](/uk/koshenyata/).

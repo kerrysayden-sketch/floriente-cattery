@@ -121,7 +121,7 @@ Die Genetik ist probabilistisch und nicht deterministisch. Selbst von zwei Elter
 
 ## Sind Sie bereit, die Katzen in lebendiger Farbe zu sehen?
 
-Sehen Sie sich [unseren aktuellen Wurf](/de/kitten/) an. Wir geben den EMS-Code und eine ausführliche Farbbeschreibung jedes Kätzchens an — Sie können sie jetzt selbst lesen.
+Sehen Sie sich [unsere Kätzchen](/de/kitten/) an. Wir geben den EMS-Code und eine ausführliche Farbbeschreibung jedes Kätzchens an — Sie können sie jetzt selbst lesen.
 
 ## Lesen Sie weiter
 

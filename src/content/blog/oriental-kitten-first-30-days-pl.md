@@ -176,4 +176,4 @@ Pierwsze 30 dni — fundament. Dalej — utrzymanie tego fundamentu.
 
 [Artykuł #19 — Pielęgnacja](/pl/blog/): uszy, sierść, pazury — pełny rozkład dla orientalnego, włącznie z tym, jak przyzwyczaić kociaka do zabiegów od pierwszego dnia
 
-Pytania dotyczące twojego kociaka? Pisz do Floriente Cattery bezpośrednio — jesteśmy pierwszym punktem kontaktu, nie ostatnim. A jeśli czytasz ten artykuł zanim weźmiesz kociaka — nasz aktualny miot na [florientecattery.com/pl/kocieta](/pl/kocieta/).
+Pytania dotyczące twojego kociaka? Pisz do Floriente Cattery bezpośrednio — jesteśmy pierwszym punktem kontaktu, nie ostatnim. A jeśli czytasz ten artykuł zanim weźmiesz kociaka — nasze kocięta — na [florientecattery.com/pl/kocieta](/pl/kocieta/).

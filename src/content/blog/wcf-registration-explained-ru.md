@@ -121,7 +121,7 @@ CAC (Certificat d'Aptitude au Championnat) — индивидуальный се
 
 ## Что дальше
 
-Вы можете проверить питомник Floriente прямо сейчас: wcf.de, регистрационный номер 50188-2025. Наш текущий помёт с проверенными родословными и титулами — [florientecattery.com/ru/kotyata](/ru/kotyata/).
+Вы можете проверить питомник Floriente прямо сейчас: wcf.de, регистрационный номер 50188-2025. Наши котята с проверенными родословными и титулами — [florientecattery.com/ru/kotyata](/ru/kotyata/).
 
 - Читайте [#13: Дорога к GICH →](#) — выставка за выставкой путь Sebastian к титулу Grand International Champion: судьи, регионы, годы поездок.
 - Посмотрите [Наши кошки →](/ru/nashi-koshki/) — Sebastian, Sima и Halva: их титулы, родословные и роль в племенной программе.

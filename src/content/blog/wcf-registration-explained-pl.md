@@ -121,7 +121,7 @@ Droga od Championa do Inter-Championa do Grand Inter-Championa jest kumulatywna 
 
 ## Co dalej
 
-Możesz sprawdzić hodowlę Floriente już teraz: wcf.de, numer rejestracji 50188-2025. Nasz aktualny miot ze zweryfikowanymi rodowodami i tytułami — [florientecattery.com/pl/kocieta/](/pl/kocieta/).
+Możesz sprawdzić hodowlę Floriente już teraz: wcf.de, numer rejestracji 50188-2025. Nasze kocięta ze zweryfikowanymi rodowodami i tytułami — [florientecattery.com/pl/kocieta/](/pl/kocieta/).
 
 - Czytaj [#13: Droga do GICH →](#) — wystawa po wystawie szlak do tytułu Grand International Champion Sebastiana: sędziowie, regiony, lata podróży.
 - Zobacz [Nasze koty →](/pl/nasze-koty/) — Sebastian, Sima i Halva: ich tytuły, rodowody i rola w programie hodowlanym.

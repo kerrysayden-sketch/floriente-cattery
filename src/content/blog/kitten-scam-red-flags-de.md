@@ -123,6 +123,6 @@ Konkrete Fragen, die einen vorbereiteten Käufer von einem impulsiven unterschei
 
 Was bei einem seriösen Züchter im Preis enthalten ist, warum die Ökonomie verantwortungsvoller Zucht so aussieht — und was «günstig» wirklich über eine Anzeige aussagt.
 
-Möchten Sie sehen, wie ein echter Zuchtprozess aussieht? Unser aktueller Wurf: [florientecattery.com/de/kitten](/de/kitten/). Alle Katzen mit vollständigen Dokumenten, getesteten Elterntieren und offenem Kontakt.
+Möchten Sie sehen, wie ein echter Zuchtprozess aussieht? Unsere Kätzchen: [florientecattery.com/de/kitten](/de/kitten/). Alle Katzen mit vollständigen Dokumenten, getesteten Elterntieren und offenem Kontakt.
 
 Zucht Floriente — WCF-registriert, Ukraine. Orientalisch Kurzhaar.

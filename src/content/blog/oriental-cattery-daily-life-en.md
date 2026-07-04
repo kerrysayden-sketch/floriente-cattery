@@ -120,4 +120,4 @@ When the time comes to bring your kitten home — here's how that road works: [A
 
 If you want to know what the first 30 days at your home will look like — what to continue from what started here — that's covered in [Article #17: First 30 Days with a Floriente Kitten](/en/blog/oriental-kitten-first-30-days/).
 
-And when you're ready to talk timing and availability: our current litter — [florientecattery.com/en/kittens](/en/kittens/). Elvira responds fastest on [Instagram](https://instagram.com/floriente_orientals_cattery) and through the contact form.
+And when you're ready to talk timing and availability: our kittens — [florientecattery.com/en/kittens](/en/kittens/). Elvira responds fastest on [Instagram](https://instagram.com/floriente_orientals_cattery) and through the contact form.
