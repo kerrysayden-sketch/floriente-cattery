@@ -348,7 +348,9 @@
     "weekLabel": "Woche",
     "availabilityNone": "Derzeit sind keine Kätzchen verfügbar.",
     "availabilityNext": "Der nächste Wurf wird voraussichtlich Mitte Juli 2026 erwartet.",
-    "availabilityCta": "Schreiben Sie uns auf WhatsApp, um nach dem nächsten Wurf zu fragen oder sich auf die Warteliste setzen zu lassen."
+    "availabilityCta": "Schreiben Sie uns auf WhatsApp, um nach dem nächsten Wurf zu fragen oder sich auf die Warteliste setzen zu lassen.",
+    "waitlistPrompt": "Möchten Sie Ihre Angaben hinterlassen?",
+    "waitlistFormLink": "Tragen Sie sich in die Warteliste ein."
   },
   "common": {
     "viewAll": "Alle ansehen",

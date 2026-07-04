@@ -348,7 +348,9 @@
     "weekLabel": "Week",
     "availabilityNone": "No kittens are currently available.",
     "availabilityNext": "The next litter is expected around mid-July 2026.",
-    "availabilityCta": "Message us on WhatsApp to ask about the next litter or join the waiting list."
+    "availabilityCta": "Message us on WhatsApp to ask about the next litter or join the waiting list.",
+    "waitlistPrompt": "Prefer to leave your details?",
+    "waitlistFormLink": "Join the waiting list."
   },
   "common": {
     "viewAll": "View all",

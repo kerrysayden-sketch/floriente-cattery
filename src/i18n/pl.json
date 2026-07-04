@@ -348,7 +348,9 @@
     "weekLabel": "Tydzień",
     "availabilityNone": "Obecnie nie ma dostępnych kociąt.",
     "availabilityNext": "Kolejny miot jest spodziewany około połowy lipca 2026.",
-    "availabilityCta": "Napisz do nas na WhatsApp, aby zapytać o kolejny miot lub dołączyć do listy oczekujących."
+    "availabilityCta": "Napisz do nas na WhatsApp, aby zapytać o kolejny miot lub dołączyć do listy oczekujących.",
+    "waitlistPrompt": "Chcesz zostawić swoje dane?",
+    "waitlistFormLink": "Dołącz do listy oczekujących."
   },
   "common": {
     "viewAll": "Zobacz wszystkie",
