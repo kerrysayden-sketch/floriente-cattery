@@ -1,6 +1,7 @@
-# Cloudflare Pages config — used by `wrangler pages dev` for LOCAL function
-# testing only. Production build/deploy is configured in the Cloudflare Pages
-# dashboard (this file does not deploy anything).
+# Cloudflare Pages config. Because `pages_build_output_dir` is set, Cloudflare
+# Pages treats THIS FILE as the source of truth for deployment bindings
+# (top-level = Production, [env.preview] = Preview deployments). It is also
+# used by `wrangler pages dev` for local function testing.
 #
 # Local run:
 #   npm run build              # produces dist/ (needs STORYBLOK_TOKEN)
@@ -13,14 +14,16 @@ name = "floriente-cattery"
 pages_build_output_dir = "dist"
 compatibility_date = "2024-11-01"
 
-# D1 storage binding. For LOCAL `wrangler pages dev`, the binding name is enough
-# (a local SQLite is created under .wrangler/). For remote Preview/Production the
-# binding is configured in the Cloudflare Pages dashboard per environment
-# (Settings → Functions → D1 bindings), pointing `WAITLIST_DB` at:
-#   Preview     → floriente-waitlist-preview
-#   Production  → floriente-waitlist-prod
-# database_id is an identifier (not a secret); fill it after `wrangler d1 create`.
+# D1 storage binding (`WAITLIST_DB`). database_id is an identifier, not a secret.
+# Production deployments use floriente-waitlist-prod; Preview deployments use
+# floriente-waitlist-preview. Local `wrangler pages dev` creates a SQLite under
+# .wrangler/ regardless of the id.
 [[d1_databases]]
 binding = "WAITLIST_DB"
+database_name = "floriente-waitlist-prod"
+database_id = "a6708ec0-9e79-4fa3-87b7-7152aca4ced8"
+
+[[env.preview.d1_databases]]
+binding = "WAITLIST_DB"
 database_name = "floriente-waitlist-preview"
-database_id = "REPLACE_AFTER_d1_create"
+database_id = "8b4c5c8f-27ce-4d59-8cf0-43c099d04afb"
