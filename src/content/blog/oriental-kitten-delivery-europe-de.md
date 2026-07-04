@@ -110,6 +110,6 @@ Der Standardansatz lautet daher: Stress ohne Medikamente minimieren — vorberei
 
 ## Bereit für das Kennenlernen?
 
-Jedes Kätzchen hat seine eigene Vorbereitungsgeschichte. Wenn Sie an ein konkretes Kätzchen von Floriente denken oder die aktuellen Würfe sehen möchten — [Seite unserer Kätzchen](/de/kitten/). Den Reservierungsprozess und das, was vom Erstkontakt bis zur Übergabe geschieht, beschreiben wir in [Artikel #9 — Preisstruktur und was im Preis enthalten ist](/de/blog/oriental-cat-price/) und auf der Seite [Wie man kauft](/de/kitten-kaufen/). Es lohnt sich auch zu wissen, [wie man eine Zucht vor dem Kauf überprüft](/de/blog/how-to-verify-cattery/).
+Jedes Kätzchen hat seine eigene Vorbereitungsgeschichte. Wenn Sie an ein konkretes Kätzchen von Floriente denken oder unsere Kätzchen sehen möchten — [Seite unserer Kätzchen](/de/kitten/). Den Reservierungsprozess und das, was vom Erstkontakt bis zur Übergabe geschieht, beschreiben wir in [Artikel #9 — Preisstruktur und was im Preis enthalten ist](/de/blog/oriental-cat-price/) und auf der Seite [Wie man kauft](/de/kitten-kaufen/). Es lohnt sich auch zu wissen, [wie man eine Zucht vor dem Kauf überprüft](/de/blog/how-to-verify-cattery/).
 
 Und wenn Sie lesen möchten, wie es bei Familien war, die diesen Weg bereits gegangen sind — [Artikel #16 — Erfahrungsberichte unserer Halter](/de/blog/floriente-cattery-reviews/).

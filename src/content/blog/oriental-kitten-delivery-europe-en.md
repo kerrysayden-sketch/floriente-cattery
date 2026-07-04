@@ -110,6 +110,6 @@ So the standard approach is to minimize stress without medication: a prepared ca
 
 ## Ready to Meet?
 
-Every kitten has its own preparation story. If you're thinking about a specific kitten from Floriente or want to see current litters — [our kittens page](/en/kittens/). The reservation process and what happens from first contact through handover is laid out in [Article #9 — Price Breakdown and What's Included](/en/blog/oriental-cat-price/) and on the [How to Buy](/en/how-to-buy/) page. It's also worth knowing [how to verify a cattery before you buy](/en/blog/how-to-verify-cattery/).
+Every kitten has its own preparation story. If you're thinking about a specific kitten from Floriente or want to see our kittens — [our kittens page](/en/kittens/). The reservation process and what happens from first contact through handover is laid out in [Article #9 — Price Breakdown and What's Included](/en/blog/oriental-cat-price/) and on the [How to Buy](/en/how-to-buy/) page. It's also worth knowing [how to verify a cattery before you buy](/en/blog/how-to-verify-cattery/).
 
 And if you'd like to read what it was like for families who've already done this — [Article #16 — Owner Stories](/en/blog/floriente-cattery-reviews/).

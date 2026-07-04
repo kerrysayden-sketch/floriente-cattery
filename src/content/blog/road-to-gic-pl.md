@@ -177,4 +177,4 @@ Następny artykuł pokazuje, jak wygląda to środowisko na co dzień. [Dzień w
 
 Lub, jeśli jesteś już gotowy poznać koty:
 
-[Nasze kocięta — kociaki Floriente](/pl/kocieta/) — kociaki z rodowodem, sprawdzonymi rodzicami i tytułami w prostej linii.
+[Nasze kocięta](/pl/kocieta/) — kociaki z rodowodem, sprawdzonymi rodzicami i tytułami w prostej linii.

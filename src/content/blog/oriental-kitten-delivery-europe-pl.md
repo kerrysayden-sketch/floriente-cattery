@@ -110,6 +110,6 @@ Dlatego standardowe podejście — minimalizować stres bez leków: przygotowany
 
 ## Gotowi do spotkania?
 
-Każdy kociak — to swoja historia przygotowania. Jeśli myślisz o konkretnym kociaku z Floriente lub chcesz zobaczyć aktualne mioty — [strona naszych kociąt](/pl/kocieta/). Proces rezerwacji i to, co dzieje się od pierwszego kontaktu do przekazania, opisano w [Artykule #9 — Struktura ceny i co w niej zawarte](/pl/blog/oriental-cat-price/) oraz na stronie [Jak kupić](/pl/jak-kupic/). Warto też wiedzieć, [jak sprawdzić hodowlę przed zakupem](/pl/blog/how-to-verify-cattery/).
+Każdy kociak — to swoja historia przygotowania. Jeśli myślisz o konkretnym kociaku z Floriente lub chcesz zobaczyć nasze kocięta — [strona naszych kociąt](/pl/kocieta/). Proces rezerwacji i to, co dzieje się od pierwszego kontaktu do przekazania, opisano w [Artykule #9 — Struktura ceny i co w niej zawarte](/pl/blog/oriental-cat-price/) oraz na stronie [Jak kupić](/pl/jak-kupic/). Warto też wiedzieć, [jak sprawdzić hodowlę przed zakupem](/pl/blog/how-to-verify-cattery/).
 
 A gdy zechcesz przeczytać, jak to wyglądało u rodzin, które już przeszły tę drogę — [Artykuł #16 — Opowieści właścicieli](/pl/blog/floriente-cattery-reviews/).
