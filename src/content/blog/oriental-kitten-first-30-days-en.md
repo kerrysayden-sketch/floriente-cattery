@@ -172,8 +172,8 @@ In the third week, the stress layer starts to peel away. By the third month, you
 
 The first 30 days are the foundation. After that — maintaining that foundation.
 
-[Article #18 — Nutrition](/en/blog/): what to feed, how much, wet or dry, transition protocols, which supplements not to give without a vet's go-ahead
+[Article #18 — Nutrition](/en/blog/oriental-cat-nutrition/): what to feed, how much, wet or dry, transition protocols, which supplements not to give without a vet's go-ahead
 
-[Article #19 — Care](/en/blog/): ears, coat, claws — the full schedule for an Oriental, including how to get the kitten used to handling from day one
+[Article #19 — Care](/en/blog/oriental-cat-grooming/): ears, coat, claws, and realistic dental care.
 
 Questions about your kitten? Write to Floriente Cattery directly — we're your first point of contact, not your last. And if you're reading this article before getting a kitten — our kittens are at [florientecattery.com/en/kittens](/en/kittens/).

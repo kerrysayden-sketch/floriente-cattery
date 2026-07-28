@@ -172,8 +172,8 @@ W trzecim tygodniu warstwa stresu zaczyna opadać. W trzecim miesiącu poznajesz
 
 Pierwsze 30 dni — fundament. Dalej — utrzymanie tego fundamentu.
 
-[Artykuł #18 — Żywienie](/pl/blog/): co dawać, ile, mokra czy sucha karma, protokoły przejścia, których suplementów nie dawać bez wskazania weterynarza
+[Artykuł #18 — Żywienie](/pl/blog/oriental-cat-nutrition/): co dawać, ile, mokra czy sucha karma, protokoły przejścia, których suplementów nie dawać bez wskazania weterynarza
 
-[Artykuł #19 — Pielęgnacja](/pl/blog/): uszy, sierść, pazury — pełny rozkład dla orientalnego, włącznie z tym, jak przyzwyczaić kociaka do zabiegów od pierwszego dnia
+[Artykuł #19 — Pielęgnacja](/pl/blog/oriental-cat-grooming/): uszy, sierść, pazury i realistyczna pielęgnacja zębów.
 
 Pytania dotyczące twojego kociaka? Pisz do Floriente Cattery bezpośrednio — jesteśmy pierwszym punktem kontaktu, nie ostatnim. A jeśli czytasz ten artykuł zanim weźmiesz kociaka — nasze kocięta — na [florientecattery.com/pl/kocieta](/pl/kocieta/).
