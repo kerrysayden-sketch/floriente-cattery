@@ -5,7 +5,7 @@ title: "Jak podróżować z kotem samolotem, samochodem lub pociągiem"
 description: "Podróż z kotem po Europie: paszport UE, test poziomu przeciwciał, świadectwo zdrowia, zasady w kabinie i przygotowanie transportera bez sedacji."
 category: "Opieka nad kotem"
 publishDate: "2026-06-29"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/travelling-with-oriental-cat.webp"
 ---
 
 Podróż z kotem to nie sytuacja awaryjna, lecz zaplanowany proces. Kot powinien być wcześniej przyzwyczajony do swojego transportera. Miejsce w kabinie należy rezerwować jednocześnie z zakupem własnego biletu. W przypadku wyjazdu do UE dokumenty muszą być poprawnie sporządzone. Nie stosować środków uspokajających (sedacji) podczas lotu. Poniżej wyjaśnimy, jak jak się do tego przygotować: czego wymagają linie lotnicze, jak przygotować kota do podróży, co jest wymagane przy przekraczaniu granicy UE oraz kiedy warto podawać tabletkę uspokajającą, a kiedy ich unikać.

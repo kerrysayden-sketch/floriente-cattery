@@ -5,7 +5,7 @@ title: "Jak rozbawić kota orientalnego i dlaczego to ważniejsze niż myślisz"
 description: "Zabawki dla kota orientalnego i plan wzbogacania środowiska: 2–3 sesje zabawy dziennie, przestrzeń pionowa, karmniki interaktywne i co działa naprawdę."
 category: "Opieka nad kotem"
 publishDate: "2026-06-27"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-toys-enrichment.webp"
 ---
 
 Twój kot orientalny się nie nudzi, on czeka. I tylko 2-3 zaplanowane sesje zabawy dziennie oddzielają zadowolonego, pewnego siebie kota od takiego, który staje się apatyczny lub natarczywy. Poniżej: zabawki dla kota orientalnego i wzbogacanie środowiska, dzięki któremu naprawdę działają.

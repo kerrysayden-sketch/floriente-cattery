@@ -5,7 +5,7 @@ title: "Czym karmić kota orientalnego: kompletny praktyczny przewodnik"
 description: "Czym karmić kota orientalnego: proporcja karmy mokrej i suchej, rotacja marek, 7-dniowy protokół przejścia, produkty zakazane i realne menu Floriente."
 category: "Opieka nad kotem"
 publishDate: "2026-06-23"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-nutrition.webp"
 ---
 
 Kociak jest już w domu. Od dziś zaczyna się najważniejsza codzienna decyzja, jaką będziesz podejmować przez najbliższe kilkanaście lat: co trafi do miski.

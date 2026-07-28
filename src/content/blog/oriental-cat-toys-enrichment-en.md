@@ -5,7 +5,7 @@ title: "How to Entertain an Oriental Cat (and Why It Matters More Than You Think
 description: "The best toys for Oriental cats and a simple enrichment plan: 2–3 play sessions a day, vertical space, puzzle feeders and what works at Floriente."
 category: "Owner Care"
 publishDate: "2026-06-27"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-toys-enrichment.webp"
 ---
 
 Your Oriental isn't bored — he's waiting. And just 2–3 structured play sessions a day are what separate a content, confident cat from an apartment with a listless or compulsive cat. Below: the best toys for Oriental cats and the enrichment that makes them work.

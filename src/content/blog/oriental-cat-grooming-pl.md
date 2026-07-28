@@ -5,7 +5,7 @@ title: "Pielęgnacja kota orientalnego: sierść, zęby, pazury i uszy"
 description: "Pielęgnacja kota orientalnego bez mitów: sierść, uszy, pazury i zęby w realnym harmonogramie — i co robić, gdy kot nie pozwala obcinać pazurów."
 category: "Opieka nad kotem"
 publishDate: "2026-06-25"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-grooming.webp"
 ---
 
 Koty orientalne wymagają znacznie mniej uwagi, niż się wydaje. Czesanie — praktycznie niepotrzebne, pazury — 1 raz w miesiącu, kąpiel — najwyżej dwa razy w roku. Ale jest jeden obszar, który właściciele najczęściej pomijają i to właśnie on czasem odbija się na narządach wewnętrznych. Ten artykuł obejmuje wszystkie cztery obszary, żeby nic cię nie zaskoczyło.

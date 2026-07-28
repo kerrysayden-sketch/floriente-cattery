@@ -5,7 +5,7 @@ title: "Caring for an Oriental Cat: Coat, Teeth, Claws, and Ears"
 description: "Oriental cat grooming without the myths: coat, ears, claws and teeth on a realistic schedule — plus what to do when the cat won't let you brush them."
 category: "Owner Care"
 publishDate: "2026-06-25"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-grooming.webp"
 ---
 
 Oriental cats need much less than it looks. Brushing — practically not needed, claws — once a month, baths — twice a year at most. But there's one area owners skip the most often — and it's the one that eventually hits internal organs. This article closes all four zones, so nothing catches you off guard.

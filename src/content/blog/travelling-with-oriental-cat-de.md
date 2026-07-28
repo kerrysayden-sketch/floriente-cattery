@@ -5,7 +5,7 @@ title: "Wie reist man mit der Katze: Flugzeug, Auto, Bahn"
 description: "Mit Katze reisen in der EU: Heimtierausweis, Tollwut-Titertest, Gesundheitszeugnis, Kabinenregeln und die Boxgewöhnung, die den Stress deutlich senkt."
 category: "Katzenpflege"
 publishDate: "2026-06-29"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/travelling-with-oriental-cat.webp"
 ---
 
 Eine Reise mit der Katze ist keine Notfallsituation, sondern ein planbarer Prozess. Eine Transportbox, an die sich die Katze rechtzeitig gewöhnt hat. Die Reservierung eines Platzes in der Kabine gleichzeitig mit Ihrem Ticket. Korrekt ausgestellte Dokumente, wenn Sie in die EU reisen. Während des Fluges sollte keine Sedierung erfolgen. Im Folgenden erfahren Sie, wie Sie das alles richtig machen: was Fluggesellschaften verlangen, wie Sie die Katze vorbereiten, was an der EU-Grenze nötig ist, wann ein Beruhigungsmittel angebracht ist und wann nicht.

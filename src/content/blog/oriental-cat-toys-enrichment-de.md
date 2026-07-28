@@ -5,7 +5,7 @@ title: "Wie man eine orientalische Katze beschäftigt (und warum das wichtiger i
 description: "Spielzeug und Beschäftigung für orientalische Katzen: 2–3 Spielsessions am Tag, vertikaler Raum, Futterpuzzles und was bei Floriente funktioniert."
 category: "Katzenpflege"
 publishDate: "2026-06-27"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-toys-enrichment.webp"
 ---
 
 Ihre orientalische Katze langweilt sich nicht, sondern wartet. Und nur 2–3 strukturierte Spielsessions pro Tag trennen eine zufriedene, selbstsichere Katze von einer Wohnung, in der die Katze apathisch oder anhänglich-fordernd herumläuft. Unten: Spielzeug und Beschäftigung für orientalische Katzen — und wie beides zusammenwirkt.

@@ -5,7 +5,7 @@ title: "Wie füttert man eine orientalische Katze? Der vollständige Praxis-Ratg
 description: "Ernährung der orientalischen Katze: Verhältnis von Nass- zu Trockenfutter, Markenrotation, 7-Tage-Umstellung, verbotene Lebensmittel, Floriente-Plan."
 category: "Katzenpflege"
 publishDate: "2026-06-23"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-nutrition.webp"
 ---
 
 Das Kätzchen ist zu Hause. Die wichtigste tägliche Entscheidung, die Sie in den nächsten 15+ Jahren treffen werden, beginnt heute: Was im Napf ist.

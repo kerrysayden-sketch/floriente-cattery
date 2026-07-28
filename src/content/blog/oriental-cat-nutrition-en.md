@@ -5,7 +5,7 @@ title: "What to Feed an Oriental Cat: A Complete Practical Guide"
 description: "What to feed an Oriental cat: the wet-to-dry balance, brand rotation, a 7-day transition protocol, forbidden foods, and the real Floriente feeding plan."
 category: "Owner Care"
 publishDate: "2026-06-23"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-nutrition.webp"
 ---
 
 The kitten's home. Now the most important daily decision you'll make for the next 15+ years starts today: what's in the bowl.

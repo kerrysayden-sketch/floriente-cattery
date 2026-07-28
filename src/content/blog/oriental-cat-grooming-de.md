@@ -5,7 +5,7 @@ title: "Pflege der orientalischen Katze: Fell, Zähne, Krallen und Ohren"
 description: "Pflege der orientalischen Katze ohne Mythen: Fell, Ohren, Krallen und Zähne im realistischen Plan — und was tun, wenn die Katze das Putzen verweigert."
 category: "Katzenpflege"
 publishDate: "2026-06-25"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/oriental-cat-grooming.webp"
 ---
 
 Orientalische Katzen benötigen weniger Pflege, als es scheint. Bürsten ist praktisch nicht nötig, Krallen schneidet man einmal im Monat, Baden höchstens zweimal im Jahr. Aber es gibt einen Bereich, den Besitzer am häufigsten übersehen, und genau dieser wirkt sich mit der Zeit auf die inneren Organe aus. Dieser Artikel behandelt alle vier Bereiche, damit es später keine Überraschungen gibt.

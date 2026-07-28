@@ -5,7 +5,7 @@ title: "How to Travel with a Cat: By Plane, Car, Train"
 description: "Travelling with a cat in Europe: EU pet passport, rabies titre test, animal health certificate, cabin rules and the carrier routine that lowers stress."
 category: "Owner Care"
 publishDate: "2026-06-29"
-ogImage: "/images/cats/sebastian-main.webp"
+ogImage: "/images/blog/travelling-with-oriental-cat.webp"
 ---
 
 Traveling with a cat isn't an emergency — it's a planned process. A carrier the cat is already used to. A cabin spot booked at the same time as your ticket. Properly prepared documents, if you're going to the EU. No sedation at altitude. Below — how to do it right: what airlines require, how to prep the cat, what's needed at the EU border, when sedatives are appropriate, and when they aren't.
