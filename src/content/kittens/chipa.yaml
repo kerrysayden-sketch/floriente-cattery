@@ -1,0 +1,105 @@
+# Floriente Cattery — Litter C — invariant kitten entity.
+# Generated in WU-1 from Floriente_Litter_C_with_photos-2.xlsx. Facts only.
+# Localized copy lives in src/content/kitten-copy/<kittenId>-<lang>.md.
+
+kittenId: "chipa"
+litter: "c"
+
+# §1.3 homeName is the PRIMARY customer-facing name. Never auto-replaced
+# by the Latin passport first name, and never translated.
+homeName: "Чипа"
+passportName: "Chipa Floriente"
+passportNameRu: "Чипа"
+
+breed: "Oriental Shorthair"          # matches localizedBreed() /siam/i test
+breedCode: "OSH"
+sex: "female"
+ems: "n24"
+dob: "2026-07-06"           # workbook "06/07/2026" DD/MM/YYYY — see WU-1 report §9
+
+# Three INDEPENDENT dimensions. Do not merge them into a single field.
+#
+# publicationState: draft | published
+#   Lifecycle only. `draft` asserts nothing commercial. A draft entity must
+#   never generate a public route or card.
+publicationState: "draft"
+
+# commercialStatus: available | reserved | evaluation | at_new_home | null
+#   null = NOT STATED. The workbook is not authoritative for availability, so
+#   no status is invented here merely to satisfy the schema.
+commercialStatus: null
+
+# featuredOnHome: explicit editorial switch, independent of both fields above.
+#   Must stay false while publicationState is "draft".
+featuredOnHome: false
+
+# §1.7 PROVISIONAL: null means OWNER INPUT REQUIRED. Not an editorial
+# selection. The runtime WU must refuse to publish a kitten while null.
+heroImage: null
+cardImage: null
+
+# §10 Traceability: every asset back to workbook row / anchor / media / sha.
+images:
+  - n: 1
+    src: "/images/kittens/litter-c/chipa-1.webp"
+    width: 900
+    height: 1200
+    source:
+      media: "image21.jpg"
+      anchor: "G10"
+      width: 960
+      height: 1280
+      sha256: "ea94472acd189fd5fce1758c491e346576158d0bd3f8b776eb1b9782aa7cd8cb"
+      archive: "_source-originals/litter-c/chipa-1.jpg"
+  - n: 2
+    src: "/images/kittens/litter-c/chipa-2.webp"
+    width: 900
+    height: 1200
+    source:
+      media: "image22.jpg"
+      anchor: "G10"
+      width: 960
+      height: 1280
+      sha256: "8e994f343ddc9634ddf4db0c9cd17aa5d78ddf5f91482c7762bdb687da8c471a"
+      archive: "_source-originals/litter-c/chipa-2.jpg"
+  - n: 3
+    src: "/images/kittens/litter-c/chipa-3.webp"
+    width: 900
+    height: 1200
+    source:
+      media: "image23.jpg"
+      anchor: "H10"
+      width: 960
+      height: 1280
+      sha256: "a2b84fd0fd573cd4c12b4256d3e49129fd026277f8f5f9f1ac61f7f75362239f"
+      archive: "_source-originals/litter-c/chipa-3.jpg"
+  - n: 4
+    src: "/images/kittens/litter-c/chipa-4.webp"
+    width: 900
+    height: 1200
+    source:
+      media: "image24.jpg"
+      anchor: "J10"
+      width: 960
+      height: 1280
+      sha256: "4bb3fa8d088557cad6b0fcbbb0c79b58ce01775fcff175458c0d25913db4d6cc"
+      archive: "_source-originals/litter-c/chipa-4.jpg"
+
+# Verbatim workbook values, retained for audit. §1.9: source data only —
+# documentRaw MUST NOT be rendered publicly without an explicit decision.
+source:
+  workbookRow: 10
+  workbookFile: "Floriente_Litter_C_with_photos-2.xlsx"
+  workbookSha256: "7afba2604314787b96f75771740385aa6f202e9b38bcd16e9dd1c4dd92ee8a42"
+  indexRaw: "6"
+  homeNameRaw: "Чипа"
+  breedRaw: "(OSH) Oriental Shorthair"
+  sexRaw: "Female"
+  passportRaw: |-
+    Chipa Floriente
+    (Чипа)
+  colorRaw: |-
+    n24 - Black Spotted Tabby
+    (Черный пятнистый табби)
+  documentRaw: |-
+    Metrics

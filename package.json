@@ -12,6 +12,7 @@
     "astro": "astro",
     "typecheck": ". ./scripts/load-env.sh && astro check",
     "i18n:check": "node scripts/check-i18n.mjs",
+    "kittens:check": "node scripts/check-kittens.mjs",
     "functions:check": "tsc -p functions/tsconfig.json",
     "functions:test": "node --experimental-strip-types --test functions/test/logic.test.ts functions/test/handler.test.ts",
     "pages:dev": "npx wrangler pages dev",

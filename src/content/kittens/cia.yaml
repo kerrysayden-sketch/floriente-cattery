@@ -1,0 +1,107 @@
+# Floriente Cattery — Litter C — invariant kitten entity.
+# Generated in WU-1 from Floriente_Litter_C_with_photos-2.xlsx. Facts only.
+# Localized copy lives in src/content/kitten-copy/<kittenId>-<lang>.md.
+
+kittenId: "cia"
+litter: "c"
+
+# §1.3 homeName is the PRIMARY customer-facing name. Never auto-replaced
+# by the Latin passport first name, and never translated.
+homeName: "Сиа"
+passportName: "Cia Floriente"
+passportNameRu: "Сиа Флориенте"
+
+breed: "Oriental Shorthair"          # matches localizedBreed() /siam/i test
+breedCode: "OSH"
+sex: "female"
+ems: "n24"
+dob: "2026-07-06"           # workbook "06/07/2026" DD/MM/YYYY — see WU-1 report §9
+
+# Three INDEPENDENT dimensions. Do not merge them into a single field.
+#
+# publicationState: draft | published
+#   Lifecycle only. `draft` asserts nothing commercial. A draft entity must
+#   never generate a public route or card.
+publicationState: "draft"
+
+# commercialStatus: available | reserved | evaluation | at_new_home | null
+#   null = NOT STATED. The workbook is not authoritative for availability, so
+#   no status is invented here merely to satisfy the schema.
+commercialStatus: null
+
+# featuredOnHome: explicit editorial switch, independent of both fields above.
+#   Must stay false while publicationState is "draft".
+featuredOnHome: false
+
+# §1.7 PROVISIONAL: null means OWNER INPUT REQUIRED. Not an editorial
+# selection. The runtime WU must refuse to publish a kitten while null.
+heroImage: null
+cardImage: null
+
+# §10 Traceability: every asset back to workbook row / anchor / media / sha.
+images:
+  - n: 1
+    src: "/images/kittens/litter-c/cia-1.webp"
+    width: 900
+    height: 1200
+    source:
+      media: "image13.jpg"
+      anchor: "F8"
+      width: 960
+      height: 1280
+      sha256: "599a9f7580cb0aa633c27c3407a5285958b3cc33f2e4103b6ee32aebaf3c6097"
+      archive: "_source-originals/litter-c/cia-1.jpg"
+  - n: 2
+    src: "/images/kittens/litter-c/cia-2.webp"
+    width: 900
+    height: 1200
+    source:
+      media: "image14.jpg"
+      anchor: "G8"
+      width: 960
+      height: 1280
+      sha256: "efd499f3cbe98395845558a0e1b2f49fb88f30f976590ba820338ec0b1477c3c"
+      archive: "_source-originals/litter-c/cia-2.jpg"
+  - n: 3
+    src: "/images/kittens/litter-c/cia-3.webp"
+    width: 900
+    height: 1200
+    source:
+      media: "image15.jpg"
+      anchor: "I8"
+      width: 960
+      height: 1280
+      sha256: "c4b08eb08ddfbf98e067773de64c7624edee7e0f53cd7f1ee347fed8e75af3e2"
+      archive: "_source-originals/litter-c/cia-3.jpg"
+  - n: 4
+    src: "/images/kittens/litter-c/cia-4.webp"
+    width: 900
+    height: 1200
+    source:
+      media: "image16.jpg"
+      anchor: "J8"
+      width: 960
+      height: 1280
+      sha256: "5918f61c11f5ac7d91a20d08f28633fc3e056749e1c14320c0f8466d605a4f75"
+      archive: "_source-originals/litter-c/cia-4.jpg"
+
+# Verbatim workbook values, retained for audit. §1.9: source data only —
+# documentRaw MUST NOT be rendered publicly without an explicit decision.
+source:
+  workbookRow: 8
+  workbookFile: "Floriente_Litter_C_with_photos-2.xlsx"
+  workbookSha256: "7afba2604314787b96f75771740385aa6f202e9b38bcd16e9dd1c4dd92ee8a42"
+  indexRaw: "4"
+  homeNameRaw: "Сиа"
+  breedRaw: "(OSH) Oriental Shorthair"
+  sexRaw: "Female"
+  passportRaw: |-
+    Cia Floriente
+    (Сиа Флориенте)
+  colorRaw: |-
+    n24 - Black Spotted Tabby
+    (Черный пятнистый табби)
+  documentRaw: |-
+    Pedigree Olexadr Rovnyy
+    Родословная Ровный Александр
+    (Pet/NOT for breeding)
