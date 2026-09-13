@@ -43,7 +43,8 @@ Frontmatter (see `src/content.config.ts` → `kittenCopy`):
 The markdown **body** is the description, split on blank lines into paragraphs
 at render time — the same convention as `src/content/cats/`.
 
-Invariant facts (name, breed, sex, EMS, DOB, images, status, `featuredOnHome`)
+Invariant facts (name, breed, sex, EMS, DOB, images, `publicationState`,
+`commercialStatus`, `featuredInKittensPreview`)
 are **not** repeated here. They live once, on the entity.
 
 ## Enforcement

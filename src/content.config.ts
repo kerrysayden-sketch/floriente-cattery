@@ -79,7 +79,7 @@ const legal = defineCollection({
 // Kittens (Litter C onward). Normalised model, introduced in WU-1.
 //
 // `kittens`    = ONE invariant entity per kitten. Facts, images, availability
-//                and homepage exposure live here exactly once, so a state flip
+//                and preview membership live here exactly once, so a state flip
 //                or a hero pick is a single edit and cannot drift between
 //                locales. Litters A and B are untouched historical content and
 //                deliberately stay hardcoded in KittensListPage.astro.
@@ -125,10 +125,13 @@ const kittens = defineCollection({
     // a first-class value: never invent a status to satisfy validation.
     commercialStatus: z.enum(['available', 'reserved', 'evaluation', 'at_new_home']).nullable(),
 
-    // featuredOnHome — an explicit editorial switch, independent of both fields
-    // above. Changing commercialStatus must never move a kitten onto the home
-    // page, and publishing must never do so either.
-    featuredOnHome: z.boolean(),
+    // featuredInKittensPreview — an explicit editorial switch, independent of
+    // both fields above. It means exactly "include this published kitten in the
+    // optional KittensPreview block on the kittens listing page", and nothing
+    // more. It is NOT home-page exposure: HomePage.astro renders no kitten
+    // component at all. Changing commercialStatus must never flip it, and
+    // publishing must never flip it either.
+    featuredInKittensPreview: z.boolean(),
 
     // §1.7 null = OWNER INPUT REQUIRED. Not an editorial selection.
     heroImage: z.number().int().min(1).max(4).nullable(),
@@ -165,9 +168,9 @@ const kittens = defineCollection({
     }),
   })
     // A draft entity is not public, so it cannot be featured on a public page.
-    .refine((k) => !(k.featuredOnHome && k.publicationState !== 'published'), {
-      message: 'featuredOnHome must be false while publicationState is "draft"',
-      path: ['featuredOnHome'],
+    .refine((k) => !(k.featuredInKittensPreview && k.publicationState !== 'published'), {
+      message: 'featuredInKittensPreview must be false while publicationState is "draft"',
+      path: ['featuredInKittensPreview'],
     })
     // Publication requires the owner's hero/card selection; a provisional
     // choice must never reach public UI.

@@ -1,7 +1,7 @@
 ---
 import { t, getLocalizedPath } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
-import { fetchKittens } from '../../lib/storyblok';
+import { getPreviewFeaturedKittens } from '../../lib/kittens';
 import KittenCard from '../cats/KittenCard.astro';
 
 interface Props {
@@ -10,23 +10,24 @@ interface Props {
 
 const { lang } = Astro.props;
 
-let availableKittens: any[] = [];
-try {
-  const allKittens = await fetchKittens();
-  availableKittens = allKittens.filter((k) => k.status === 'available').slice(0, 3);
-} catch {
-  // CMS unavailable
-}
+// This component is NOT mounted on the home page — HomePage.astro renders no
+// kitten component. Its only mount point is the top of the kittens listing, and
+// the field is named for that. (The components/home/ path is historical.)
+//
+// Membership is `featuredInKittensPreview` and nothing else. Publication is a
+// precondition, never a trigger, and commercial status is not consulted at all:
+// publishing a kitten, or marking one available, must never move it here.
+const previewKittens = (await getPreviewFeaturedKittens()).slice(0, 3);
 ---
 
 <section class="py-16 md:py-24 px-4 sm:px-6">
   <div class="max-w-6xl mx-auto">
     <h2 class="text-center mb-4">{t(lang, 'home.kittensTitle')}</h2>
 
-    {availableKittens.length > 0 ? (
+    {previewKittens.length > 0 ? (
       <>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-          {availableKittens.map((kitten) => <KittenCard kitten={kitten} lang={lang} />)}
+          {previewKittens.map((kitten) => <KittenCard kitten={kitten} lang={lang} />)}
         </div>
         <div class="text-center mt-10">
           <a

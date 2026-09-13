@@ -31,6 +31,16 @@ export interface CatData {
   pedigree_pdf: { filename: string } | null;
 }
 
+// ─────────────────────────────────────────────────────────────────────────────
+// DEPRECATED (WU-2): the kitten runtime now sources from the `kittens` and
+// `kittenCopy` content collections via src/lib/kittens.ts. `KittenData`,
+// `fetchKittens`, `fetchKitten`, `getStatusColor` and `getStatusLabel` have no
+// remaining callers. They are left in place deliberately — removing them is a
+// separate cleanup work unit, and Storyblok is still the live source for blog
+// posts (`fetchBlogPosts` / `fetchBlogPost`), which must not be disturbed here.
+// Note `getStatusLabel` only ever had EN/UK labels; the replacement resolves
+// status through the five-locale i18n mechanism.
+// ─────────────────────────────────────────────────────────────────────────────
 export interface KittenData {
   slug: string;
   name: string;

@@ -1,89 +1,109 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import StatusBadge from '../cats/StatusBadge.astro';
-import { t, getLocalizedPath } from '../../i18n/utils';
+import CatGallery from '../cats/CatGallery.astro';
+import { t, getLocalizedPath, localizedBreed } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
-import type { KittenData } from '../../lib/storyblok';
+import { kittenImage } from '../../lib/kittens';
+import type { KittenEntry, KittenCopyEntry } from '../../lib/kittens';
+import { whatsappLink } from '../../lib/whatsapp';
 
-interface Props { lang: Lang; kitten: KittenData; }
-const { lang, kitten } = Astro.props;
-const photoUrl = kitten.photos?.filename || '/images/floriente_dark_navy_transparent.webp';
-const description = lang === 'uk' ? kitten.description_uk : kitten.description_en;
-const breedFull = kitten.breed === 'OSH' ? 'Oriental Shorthair' : 'Siamese';
+interface Props {
+  lang: Lang;
+  /** Published entities only — the route is not generated for drafts. */
+  kitten: KittenEntry;
+  /** Guaranteed present: the router asserts five-locale copy before publishing. */
+  copy: KittenCopyEntry;
+}
+
+const { lang, kitten, copy } = Astro.props;
+const k = kitten.data;
+const c = copy.data;
+
+const hero = kittenImage(kitten, 'heroImage');
+const breedLabel = localizedBreed(k.breed, k.sex, lang);
+
+// Description lives in the markdown body, split on blank lines — the same
+// convention as src/content/cats/. No English fallback: a missing locale is a
+// build failure, not a silent substitution.
+const paragraphs = copy.body?.trim().split('\n\n').filter(Boolean) ?? [];
+
+// Gallery keeps deterministic source order (n = 1..4) until an owner-approved
+// order exists. Captions are localized and optional.
+const captionFor = (n: number) => c.captions.find((x) => x.n === n)?.text;
+const gallery = k.images
+  .slice()
+  .sort((a, b) => a.n - b.n)
+  .map((img) => ({ src: img.src, label: captionFor(img.n) }));
+
+// Shares the GlobalLightbox group with the hero, so the hero opens the gallery.
+const galleryId = `kitten-${k.kittenId}`;
+
+const title = c.metaTitle || `${k.homeName} — Floriente Cattery`;
+const description = c.metaDescription || paragraphs[0] || `${k.homeName} · ${breedLabel}`;
 ---
 
-<BaseLayout
-  title={`${kitten.name} - Floriente Cattery`}
-  description={description || `${kitten.name}, ${breedFull} kitten`}
-  lang={lang}
->
+<BaseLayout title={title} description={description} lang={lang} ogImage={hero.src}>
   <div class="max-w-5xl mx-auto px-4 sm:px-6 py-12 md:py-20">
     <nav class="text-sm text-gray-medium mb-8">
       <a href={getLocalizedPath('/', lang)} class="hover:text-gold">{t(lang, 'nav.home')}</a>
       <span class="mx-2">/</span>
       <a href={getLocalizedPath('/kittens/', lang)} class="hover:text-gold">{t(lang, 'nav.kittens')}</a>
       <span class="mx-2">/</span>
-      <span class="text-dark">{kitten.name}</span>
+      <span class="text-dark">{k.homeName}</span>
     </nav>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-14">
       <div>
-        <div class="relative aspect-square rounded-lg overflow-hidden bg-gray-light/50">
-          <img src={photoUrl} alt={kitten.name} class="w-full h-full object-cover" />
-          <div class="absolute top-4 left-4"><StatusBadge status={kitten.status} lang={lang} /></div>
+        <div class="relative aspect-[3/4] rounded-lg overflow-hidden bg-gray-light/50" data-lightbox-gallery={`cat-${galleryId}`}>
+          <img
+            src={hero.src}
+            alt={c.alt}
+            width={hero.width}
+            height={hero.height}
+            class="w-full h-full object-cover"
+            loading="eager"
+          />
+          <div class="absolute top-4 left-4"><StatusBadge status={k.commercialStatus} lang={lang} /></div>
         </div>
-        {kitten.gallery && kitten.gallery.length > 0 && (
-          <div class="grid grid-cols-4 gap-2 mt-4">
-            {kitten.gallery.map((item: any) => (
-              <div class="aspect-square rounded overflow-hidden bg-gray-light/50">
-                <img src={item.image?.filename || ''} alt={item.caption || kitten.name} class="w-full h-full object-cover" loading="lazy" />
-              </div>
-            ))}
-          </div>
-        )}
       </div>
 
       <div>
-        <h1 class="text-3xl md:text-4xl text-dark mb-4">{kitten.name}</h1>
+        <h1 class="text-3xl md:text-4xl text-dark mb-1">{k.homeName}</h1>
+        <p class="text-sm text-gray-medium mb-6">{k.passportName}</p>
+
         <dl class="space-y-3 mb-8">
-          <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldBreed')}</dt><dd class="text-sm text-dark">{breedFull}</dd></div>
-          <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldColor')}</dt><dd class="text-sm text-dark">{kitten.color}</dd></div>
-          <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldSex')}</dt><dd class="text-sm text-dark">{kitten.sex === 'male' ? '♂ ' + t(lang, 'kittens.male') : '♀ ' + t(lang, 'kittens.female')}</dd></div>
-          {kitten.dob && <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldBorn')}</dt><dd class="text-sm text-dark">{kitten.dob}</dd></div>}
-          {kitten.father && <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldFather')}</dt><dd class="text-sm"><a href={getLocalizedPath(`/our-cats/${kitten.father}/`, lang)} class="text-gold hover:text-gold-dark">{kitten.father}</a></dd></div>}
-          {kitten.mother && <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldMother')}</dt><dd class="text-sm"><a href={getLocalizedPath(`/our-cats/${kitten.mother}/`, lang)} class="text-gold hover:text-gold-dark">{kitten.mother}</a></dd></div>}
+          <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldBreed')}</dt><dd class="text-sm text-dark">{breedLabel}</dd></div>
+          <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldColor')}</dt><dd class="text-sm text-dark">{c.colorLabel} <span class="text-gray-medium">({k.ems})</span></dd></div>
+          <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldSex')}</dt><dd class="text-sm text-dark">{k.sex === 'male' ? '♂ ' + t(lang, 'kittens.male') : '♀ ' + t(lang, 'kittens.female')}</dd></div>
+          <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldBorn')}</dt><dd class="text-sm text-dark">{k.dob}</dd></div>
         </dl>
 
-        {kitten.price && kitten.status === 'available' && (
-          <div class="mb-8 p-4 bg-gold/5 border border-gold/20 rounded-lg">
-            <p class="text-2xl font-serif text-gold">€{kitten.price}</p>
-            <p class="text-xs text-gray-medium mt-1">{t(lang, 'kittens.priceIncludes')}</p>
+        {c.traits.length > 0 && (
+          <ul class="flex flex-wrap gap-2 mb-8 list-none p-0">
+            {c.traits.map((trait) => (
+              <li class="px-3 py-1 rounded-full bg-gold/10 text-gold text-xs font-medium">{trait}</li>
+            ))}
+          </ul>
+        )}
+
+        {paragraphs.length > 0 && (
+          <div class="space-y-4 mb-8">
+            {paragraphs.map((p) => <p class="text-dark-soft text-sm md:text-base leading-relaxed">{p}</p>)}
           </div>
         )}
 
-        {description && <p class="text-dark-soft leading-relaxed mb-8">{description}</p>}
-
-        <a href={getLocalizedPath('/how-to-buy/', lang)} class="inline-block px-8 py-3.5 bg-gold text-warm-white font-medium rounded hover:bg-gold-dark transition-colors text-sm uppercase tracking-wider">{t(lang, 'home.ctaReserve')}</a>
+        <a
+          href={whatsappLink(lang, 'nextLitter', k.homeName)}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block px-8 py-3.5 bg-gold text-warm-white font-medium rounded hover:bg-gold-dark transition-colors text-sm uppercase tracking-wider"
+        >{t(lang, 'kittens.availabilityCta')}</a>
       </div>
     </div>
 
-    {kitten.watch_me_grow && kitten.watch_me_grow.length > 0 && (
-      <section class="mt-16 md:mt-24">
-        <h2 class="text-center mb-10">{t(lang, 'kittens.watchMeGrow')}</h2>
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-          {kitten.watch_me_grow
-            .sort((a: any, b: any) => (a.week || 0) - (b.week || 0))
-            .map((entry: any) => (
-              <div class="text-center">
-                <div class="aspect-square rounded-lg overflow-hidden bg-gray-light/50 mb-2">
-                  <img src={entry.photo?.filename || ''} alt={`Week ${entry.week}`} class="w-full h-full object-cover" loading="lazy" />
-                </div>
-                <p class="text-xs font-medium text-dark">{t(lang, 'kittens.weekLabel')} {entry.week}</p>
-                {entry.note && <p class="text-xs text-gray-medium">{entry.note}</p>}
-              </div>
-            ))}
-        </div>
-      </section>
-    )}
+    <div class="mt-10 md:mt-14">
+      <CatGallery photos={gallery} catName={c.alt} galleryId={galleryId} />
+    </div>
   </div>
 </BaseLayout>

@@ -1,19 +1,24 @@
 ---
-import { getStatusColor, getStatusLabel } from '../../lib/storyblok';
+import { commercialStatusColor, commercialStatusLabel } from '../../lib/kittens';
+import type { CommercialStatus } from '../../lib/kittens';
 import type { Lang } from '../../i18n/utils';
 
 interface Props {
-  status: string;
+  /** `null` means "not stated" — a valid state that renders no badge at all. */
+  status: CommercialStatus | null;
   lang: Lang;
 }
 
 const { status, lang } = Astro.props;
+const label = commercialStatusLabel(status, lang);
 ---
 
-<span class:list={[
-  'inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium text-warm-white',
-  getStatusColor(status),
-]}>
-  <span class="w-1.5 h-1.5 rounded-full bg-warm-white/60"></span>
-  {getStatusLabel(status, lang)}
-</span>
+{label && (
+  <span class:list={[
+    'inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium text-warm-white',
+    commercialStatusColor(status),
+  ]}>
+    <span class="w-1.5 h-1.5 rounded-full bg-warm-white/60"></span>
+    {label}
+  </span>
+)}

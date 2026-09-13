@@ -9,11 +9,11 @@
  *   4. no image (media, sha256 or derivative path) shared between kittens
  *   5. every derivative exists on disk at the declared dimensions
  *   6. no orphan derivative files
- *   7. publicationState, commercialStatus and featuredOnHome stay three
+ *   7. publicationState, commercialStatus and featuredInKittensPreview stay three
  *      INDEPENDENT dimensions — none may be derived from or gated on another
  *   8. publication gate: publicationState may only reach `published` once the
  *      owner has chosen a hero and a card image
- *   9. a draft entity can never be featured on the home page
+ *   9. a draft entity can never be featured in the KittensPreview block
  *  10. no commercial status is ever required — `null` (not stated) is valid in
  *      every publication state, so nothing is fabricated to pass validation
  *
@@ -155,9 +155,11 @@ for (const dir of litterDirs) {
 
 // ── 7-10. the three independent dimensions ───────────────────────────────────
 //
-// publicationState  draft | published            — lifecycle
-// commercialStatus  available | reserved | evaluation | at_new_home | null
-// featuredOnHome    boolean                      — editorial
+// publicationState          draft | published    — lifecycle
+// commercialStatus          available | reserved | evaluation | at_new_home | null
+// featuredInKittensPreview  boolean             — editorial; membership of the
+//   KittensPreview block on the kittens LISTING page. Not home-page exposure:
+//   HomePage.astro renders no kitten component.
 //
 // The only permitted cross-field rules are the two directional gates below.
 // Deliberately NOT enforced, because these three axes are independent:
@@ -168,7 +170,7 @@ for (const dir of litterDirs) {
 const COMMERCIAL = ['available', 'reserved', 'evaluation', 'at_new_home'];
 
 for (const k of kittens) {
-  const { publicationState, commercialStatus, heroImage, cardImage, featuredOnHome } = k.data;
+  const { publicationState, commercialStatus, heroImage, cardImage, featuredInKittensPreview } = k.data;
 
   if (!['draft', 'published'].includes(publicationState))
     fail(`${k.file}: publicationState "${publicationState}" is not draft|published`);
@@ -187,9 +189,9 @@ for (const k of kittens) {
     if (cardImage == null) fail(`${k.file}: publicationState "published" but cardImage is null — owner card selection required before publication`);
   }
 
-  // Gate 2 — a draft is not public, so it cannot be featured on a public page.
-  if (featuredOnHome && publicationState !== 'published')
-    fail(`${k.file}: featuredOnHome is true while publicationState is "${publicationState}"`);
+  // Gate 2 — a draft is not public, so it cannot be featured in a public block.
+  if (featuredInKittensPreview && publicationState !== 'published')
+    fail(`${k.file}: featuredInKittensPreview is true while publicationState is "${publicationState}"`);
 
   for (const [field, v] of [['heroImage', heroImage], ['cardImage', cardImage]])
     if (v != null && !(k.data.images ?? []).some((i) => i.n === v)) fail(`${k.file}: ${field} = ${v} does not match any image n`);
@@ -240,7 +242,7 @@ const tally = (f) => Object.entries(kittens.reduce((a, k) => {
 }, {})).map(([v, n]) => `${n}× ${v}`).join(', ');
 console.log(`   publicationState:  ${tally('publicationState')}`);
 console.log(`   commercialStatus:  ${tally('commercialStatus')}`);
-console.log(`   featuredOnHome:    ${kittens.filter((k) => k.data.featuredOnHome).length} of ${kittens.length} true`);
+console.log(`   previewFeatured:   ${kittens.filter((k) => k.data.featuredInKittensPreview).length} of ${kittens.length} true`);
 console.log(`   hero selected:     ${kittens.filter((k) => k.data.heroImage != null).length} of ${kittens.length}`);
 console.log(`   locale copy:       ${copyFiles.length} files${REQUIRE_COPY ? ' (required for published)' : ' (not required while all entities are draft)'}`);
 console.log();

@@ -3,19 +3,29 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import KittensPreview from '../home/KittensPreview.astro';
 import { t, getLocalizedPath, localizedBreed } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
-import { fetchKittens } from '../../lib/storyblok';
+import { getPublishedKittensByLitter, getKittenCopy, kittenDetailPath, kittenImage,
+         commercialStatusLabel, commercialStatusColor, getPreviewFeaturedKittens } from '../../lib/kittens';
 import { whatsappLink } from '../../lib/whatsapp';
 
 interface Props { lang: Lang; }
 const { lang } = Astro.props;
 
-let allKittens: any[] = [];
-try {
-  allKittens = await fetchKittens();
-} catch {}
+// Litters A and B below are historical content and stay hardcoded, untouched.
+// Litter C onward comes from the content collection, and only ever published
+// entities: `getPublishedKittensByLitter` filters drafts out at the source.
+const litterC = await getPublishedKittensByLitter('c');
 
-const currentKittens = allKittens.filter((k) => k.status !== 'at_new_home');
-const pastKittens = allKittens.filter((k) => k.status === 'at_new_home');
+// KittensPreview sits in components/home/ for historical reasons, but
+// HomePage.astro does not render it — its only mount point is the top of this
+// listing, which is what `featuredInKittensPreview` names. Show it only when it
+// has something to show. Featuring is the sole trigger: a published-but-
+// unfeatured kitten appears in the Litter C block below and nowhere else.
+const previewKittens = await getPreviewFeaturedKittens();
+const litterCCopy = new Map(
+  await Promise.all(
+    litterC.map(async (k) => [k.data.kittenId, await getKittenCopy(k.data.kittenId, lang)] as const),
+  ),
+);
 
 const litterA = [
   { name: 'Salma', full: 'Al Muad\'Dib Salma Ole Lukhoye', photo: '/images/kittens/litter-a/salma.webp', sex: 'female', breed: 'Oriental Shorthair', color: 'Black spotted tabby' },
@@ -51,14 +61,14 @@ const hiText = t(lang, 'kittens.hiText');
   description={t(lang, 'pages.kittens.description')}
   lang={lang}
 >
-  {currentKittens.length > 0 && <KittensPreview lang={lang} />}
+  {previewKittens.length > 0 && <KittensPreview lang={lang} />}
 
   <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-20">
     <h1 class="text-center text-dark mb-4">{t(lang, 'nav.kittens')}</h1>
     <p class="text-center text-gray-medium mb-8 max-w-2xl mx-auto">{pageSubtitle}</p>
 
     <div class="max-w-2xl mx-auto text-center mb-12 md:mb-16 py-8 px-6 bg-gold/5 rounded-2xl border border-gold/10">
-      {currentKittens.length === 0 && (
+      {litterC.length === 0 && (
         <p class="text-dark text-lg mb-2">{t(lang, 'kittens.availabilityNone')}</p>
       )}
       <p class="text-dark-soft mb-6">{t(lang, 'kittens.availabilityNext')}</p>
@@ -74,31 +84,48 @@ const hiText = t(lang, 'kittens.hiText');
       </p>
     </div>
 
-    {currentKittens.length > 0 && (
-      <>
+    {litterC.length > 0 && (
+      <section class="mb-14 md:mb-20">
+        <div class="flex items-center gap-4 mb-2">
+          <h2 class="text-2xl md:text-3xl text-dark">{t(lang, 'kittens.litterCTitle')}</h2>
+          <div class="flex-1 h-px bg-gray-light"></div>
+        </div>
+        <p class="text-sm text-gray-medium mb-8">{t(lang, 'kittens.litterCMeta')}</p>
+
         <div id="kitten-filters" class="flex flex-wrap gap-2 justify-center mb-4">
           <span class="text-xs text-gray-medium uppercase tracking-wider mr-2 self-center">{t(lang, 'kittens.statusLabel')}</span>
           <button data-filter="status" data-value="all" class="filter-btn active px-3 py-1.5 rounded-full text-xs font-medium border border-gold bg-gold text-warm-white transition-colors">{t(lang, 'kittens.statusAll')}</button>
           <button data-filter="status" data-value="available" class="filter-btn px-3 py-1.5 rounded-full text-xs font-medium border border-gray-light text-dark-soft hover:border-gold hover:text-gold transition-colors">{t(lang, 'kittens.statusAvailable')}</button>
           <button data-filter="status" data-value="reserved" class="filter-btn px-3 py-1.5 rounded-full text-xs font-medium border border-gray-light text-dark-soft hover:border-gold hover:text-gold transition-colors">{t(lang, 'kittens.statusReserved')}</button>
         </div>
-        <div id="kitten-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-          {currentKittens.map((kitten) => (
-            <a href={getLocalizedPath(`/kittens/${kitten.slug}/`, lang)} class="kitten-card text-center group" data-status={kitten.status}>
-              <div class="relative mx-auto w-72 h-72 sm:w-56 sm:h-56 md:w-60 md:h-60 mb-3">
-                <div class="w-full h-full rounded-full overflow-hidden border-2 border-gray-200 group-hover:border-gold/40 transition-colors duration-300 shadow-sm">
-                  <img src={kitten.photos?.filename} alt={kitten.name} class="w-full h-full object-cover" loading="lazy" />
+
+        <div id="kitten-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10">
+          {litterC.map((entry) => {
+            const k = entry.data;
+            const photo = kittenImage(entry, 'cardImage');
+            const statusLabel = commercialStatusLabel(k.commercialStatus, lang);
+            const colorLabel = litterCCopy.get(k.kittenId)?.data.colorLabel;
+            return (
+              <a href={kittenDetailPath(k.kittenId, lang)} class="kitten-card text-center group" data-status={k.commercialStatus ?? 'none'}>
+                <div class="relative mx-auto w-72 h-72 sm:w-60 sm:h-60 md:w-64 md:h-64 mb-3">
+                  <div class="w-full h-full rounded-full overflow-hidden border-2 border-gray-200 group-hover:border-gold/40 group-hover:shadow-md transition-all duration-300 shadow-sm">
+                    <img src={photo.src} alt={k.homeName} width={photo.width} height={photo.height} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+                  </div>
+                  {statusLabel && (
+                    <span class={`absolute top-0 left-0 inline-flex items-center px-3.5 py-1.5 rounded-full text-sm font-bold text-warm-white shadow-sm ${commercialStatusColor(k.commercialStatus)}`}>{statusLabel}</span>
+                  )}
                 </div>
-                <span class={`absolute top-0 left-0 inline-flex items-center px-2.5 py-1 rounded-full text-[11px] font-semibold text-warm-white shadow-sm ${kitten.status === 'available' ? 'bg-emerald-500' : kitten.status === 'reserved' ? 'bg-amber-500' : 'bg-status-home'}`}>
-                  {kitten.status === 'available' ? t(lang, 'kittens.statusAvailableSingle') : kitten.status === 'reserved' ? t(lang, 'kittens.statusReservedSingle') : badgeLabel}
-                </span>
-              </div>
-              <h3 class="text-lg md:text-xl font-serif text-dark-soft">{hiText} <strong class="text-dark">{kitten.name}</strong></h3>
-              <p class="text-xs text-gray-medium mt-0.5">{localizedBreed(kitten.breed || 'Oriental Shorthair', kitten.sex, lang)}</p>
-            </a>
-          ))}
+                <h3 class="text-lg md:text-xl font-serif text-dark-soft">
+                  {hiText} <strong class="text-dark">{k.homeName}</strong>
+                  <span class={`ml-1.5 text-lg font-bold ${k.sex === 'male' ? 'text-blue-400' : 'text-pink-400'}`}>{k.sex === 'male' ? '♂' : '♀'}</span>
+                </h3>
+                <p class="text-xs text-gray-medium mt-1 leading-tight">{localizedBreed(k.breed, k.sex, lang)}{colorLabel ? ` · ${colorLabel}` : ''}</p>
+                <p class="text-[11px] text-gray-300 mt-0.5 leading-tight">{k.passportName}</p>
+              </a>
+            );
+          })}
         </div>
-      </>
+      </section>
     )}
 
     <section class="mb-14 md:mb-20">
@@ -158,30 +185,6 @@ const hiText = t(lang, 'kittens.hiText');
         ))}
       </div>
     </section>
-
-    {pastKittens.length > 0 && (
-      <section class="mb-14 md:mb-20 pt-12 border-t border-gray-light">
-        <h2 class="text-lg text-gray-medium mb-8">{t(lang, 'kittens.previousLitters')}</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {pastKittens.map((kitten) => (
-            <a href={getLocalizedPath(`/kittens/${kitten.slug}/`, lang)} class="block rounded-lg overflow-hidden bg-warm-white border border-gray-light hover:border-gold/30 transition-colors">
-              <div class="aspect-square overflow-hidden bg-gray-light/30">
-                {kitten.photos?.filename ? (
-                  <img src={kitten.photos.filename} alt={kitten.name} class="w-full h-full object-cover opacity-80" loading="lazy" />
-                ) : (
-                  <div class="w-full h-full flex items-center justify-center"><span class="text-gray-medium text-xs">{kitten.name}</span></div>
-                )}
-              </div>
-              <div class="p-3">
-                <p class="text-sm font-medium text-dark">{kitten.name}</p>
-                <p class="text-xs text-gray-medium">{kitten.color}</p>
-                {kitten.owner_name && <p class="text-xs text-gold mt-1">{t(lang, 'kittens.newHome')} {kitten.owner_country}</p>}
-              </div>
-            </a>
-          ))}
-        </div>
-      </section>
-    )}
 
     <div class="text-center py-10 bg-gold/5 rounded-2xl border border-gold/10">
       <p class="text-dark-soft text-lg mb-4">{waitlistText}</p>

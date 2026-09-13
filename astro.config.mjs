@@ -17,6 +17,12 @@ if (!storyblokToken) {
 const SITE = 'https://florientecattery.com';
 const SITEMAP_LOCALES = ['en', 'uk', 'pl', 'de', 'ru'];
 
+// Localized parent segment for kitten routes, keyed by locale. Typed explicitly
+// because this file is checked JS and `slugMap.kittens` is a const-asserted
+// object that cannot be indexed by a plain string.
+/** @type {Record<string, string>} */
+const KITTENS_SLUG = slugMap.kittens;
+
 const blogDates = {};
 for (const f of readdirSync('./src/content/blog')) {
   const m = f.match(/^(.*)-en\.md$/);
@@ -41,7 +47,21 @@ function sitemapSerialize(item) {
   } else {
     const slug = rest.replace(/\/$/, '');
     const pageId = Object.keys(slugMap).find((k) => slugMap[k][m[1]] === slug);
-    if (pageId) links = SITEMAP_LOCALES.map((l) => ({ url: `${SITE}/${l}/${slugMap[pageId][l]}/`, lang: l }));
+    if (pageId) {
+      links = SITEMAP_LOCALES.map((l) => ({ url: `${SITE}/${l}/${slugMap[pageId][l]}/`, lang: l }));
+    } else {
+      // Kitten detail pages: the parent segment is localized, the kittenId is
+      // locale-invariant (the same shape as blog articles). Without this the
+      // whole-path slugMap lookup above finds nothing and the entry ships with
+      // no alternates, so on-page hreflang and the sitemap would disagree.
+      const kittensPrefix = `${KITTENS_SLUG[m[1]]}/`;
+      if (slug.startsWith(kittensPrefix)) {
+        const kittenId = slug.slice(kittensPrefix.length);
+        if (kittenId && !kittenId.includes('/')) {
+          links = SITEMAP_LOCALES.map((l) => ({ url: `${SITE}/${l}/${KITTENS_SLUG[l]}/${kittenId}/`, lang: l }));
+        }
+      }
+    }
   }
   if (links) {
     links.push({ url: links.find((x) => x.lang === 'en').url, lang: 'x-default' });

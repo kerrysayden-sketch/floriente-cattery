@@ -4,8 +4,9 @@ import type { Lang } from '../../i18n/utils';
 import { slugMap, getSlug, getPageId } from '../../i18n/slugs';
 import type { PageId } from '../../i18n/slugs';
 import { getCollection } from 'astro:content';
-import { fetchBlogPosts, fetchKittens } from '../../lib/storyblok';
-import type { KittenData } from '../../lib/storyblok';
+import { fetchBlogPosts } from '../../lib/storyblok';
+import { getPublishedKittens, getKittenCopy, assertPublishedKittensHaveCopy } from '../../lib/kittens';
+import type { KittenEntry, KittenCopyEntry } from '../../lib/kittens';
 
 import HomePage from '../../components/pages/HomePage.astro';
 import AboutPage from '../../components/pages/AboutPage.astro';
@@ -23,6 +24,13 @@ import WaitlistPage from '../../components/pages/WaitlistPage.astro';
 
 export async function getStaticPaths() {
   const paths: any[] = [];
+
+  // Publication gate, enforced once for the whole build: a published kitten
+  // must have copy in all five locales. This site has no silent English
+  // fallback, so a missing locale fails the build with an explicit message
+  // rather than quietly serving English. Mirrors `kittens:check --require-copy`.
+  const publishedKittens = await getPublishedKittens();
+  await assertPublishedKittensHaveCopy(publishedKittens);
 
   for (const lang of locales) {
     for (const [pageId, slugs] of Object.entries(slugMap)) {
@@ -52,13 +60,16 @@ export async function getStaticPaths() {
       });
     }
 
+    // Kitten detail routes. `getPublishedKittens()` is the single gateway and
+    // filters drafts out at the source, so a draft entity cannot produce a
+    // route, a card, a sitemap entry or an hreflang alternate. The sub-slug is
+    // the locale-invariant kittenId; only the parent segment is localized.
     const kittensSlug = getSlug('kittens', lang);
-    let kittens: KittenData[] = [];
-    try { kittens = await fetchKittens(); } catch {}
-    for (const kitten of kittens) {
+    for (const kitten of publishedKittens) {
+      const copy = await getKittenCopy(kitten.data.kittenId, lang);
       paths.push({
-        params: { lang, page: `${kittensSlug}/${kitten.slug}` },
-        props: { pageId: 'kitten-detail', lang, kitten },
+        params: { lang, page: `${kittensSlug}/${kitten.data.kittenId}` },
+        props: { pageId: 'kitten-detail', lang, kitten, copy },
       });
     }
   }
@@ -66,12 +77,13 @@ export async function getStaticPaths() {
   return paths;
 }
 
-const { pageId, lang, articleSlug, storyblokSlug, kitten } = Astro.props as {
+const { pageId, lang, articleSlug, storyblokSlug, kitten, copy } = Astro.props as {
   pageId: string;
   lang: Lang;
   articleSlug?: string;
   storyblokSlug?: string;
-  kitten?: KittenData;
+  kitten?: KittenEntry;
+  copy?: KittenCopyEntry;
 };
 ---
 
@@ -87,4 +99,4 @@ const { pageId, lang, articleSlug, storyblokSlug, kitten } = Astro.props as {
 {pageId === 'our-cats' && <OurCatsPage lang={lang} />}
 {pageId === 'kittens' && <KittensListPage lang={lang} />}
 {pageId === 'kittens-waitlist' && <WaitlistPage lang={lang} />}
-{pageId === 'kitten-detail' && kitten && <KittenDetailPage lang={lang} kitten={kitten} />}
+{pageId === 'kitten-detail' && kitten && copy && <KittenDetailPage lang={lang} kitten={kitten} copy={copy} />}

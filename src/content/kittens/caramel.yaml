@@ -29,9 +29,11 @@ publicationState: "draft"
 #   no status is invented here merely to satisfy the schema.
 commercialStatus: null
 
-# featuredOnHome: explicit editorial switch, independent of both fields above.
-#   Must stay false while publicationState is "draft".
-featuredOnHome: false
+# featuredInKittensPreview: explicit editorial switch, independent of both
+#   fields above. Means "include in the KittensPreview block on the kittens
+#   listing page" — NOT home-page exposure; HomePage.astro renders no kitten
+#   component. Must stay false while publicationState is "draft".
+featuredInKittensPreview: false
 
 # §1.7 PROVISIONAL: null means OWNER INPUT REQUIRED. Not an editorial
 # selection. The runtime WU must refuse to publish a kitten while null.
