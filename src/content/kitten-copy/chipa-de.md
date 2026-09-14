@@ -3,7 +3,7 @@ kittenId: "chipa"
 lang: "de"
 colorLabel: "Schwarz getupft-tabby"
 alt: "Chipa, Orientalisch-Kurzhaar-Kätzchen, Schwarz getupft-tabby"
-cardPersonality: "Geduldig und unkompliziert — alle Impfungen und das Chippen hat sie ruhig mitgemacht."
+cardPersonality: "Geduldig und unkompliziert — Impfungen und das Chippen hat sie ruhig mitgemacht."
 traits: ["Geduldig", "Gelassen", "Unkompliziert"]
 captions: []
 ---
