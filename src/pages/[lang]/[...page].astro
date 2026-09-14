@@ -21,6 +21,7 @@ import OurCatsPage from '../../components/pages/OurCatsPage.astro';
 import KittensListPage from '../../components/pages/KittensListPage.astro';
 import KittenDetailPage from '../../components/pages/KittenDetailPage.astro';
 import WaitlistPage from '../../components/pages/WaitlistPage.astro';
+import SampleContractPage from '../../components/pages/SampleContractPage.astro';
 
 export async function getStaticPaths() {
   const paths: any[] = [];
@@ -93,6 +94,7 @@ const { pageId, lang, articleSlug, storyblokSlug, kitten, copy } = Astro.props a
 {pageId === 'faq' && <FAQPage lang={lang} />}
 {pageId === 'how-to-buy' && <HowToBuyPage lang={lang} />}
 {pageId === 'legal' && <LegalPage lang={lang} />}
+{pageId === 'sample-contract' && <SampleContractPage lang={lang} />}
 {pageId === 'blog' && <BlogListPage lang={lang} />}
 {pageId === 'blog-article' && <BlogArticlePage lang={lang} articleSlug={articleSlug!} />}
 {pageId === 'blog-storyblok' && <BlogStoryblokPage lang={lang} storyblokSlug={storyblokSlug!} />}

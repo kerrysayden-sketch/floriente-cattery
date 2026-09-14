@@ -54,6 +54,13 @@ const faq = defineCollection({
       items: z.array(z.object({
         q: z.string(),
         a: z.string(),
+        // Optional follow-up link rendered AFTER the answer text. Kept out of
+        // `a` on purpose: `a` is rendered as plain text and also feeds the
+        // FAQPage JSON-LD `acceptedAnswer.text`, where markup does not belong.
+        // `linkTo` is a canonical (English-slug) path resolved per locale via
+        // getLocalizedPath, so one value works in all five locales.
+        linkTo: z.string().optional(),
+        linkText: z.string().optional(),
       })),
     })),
   }),

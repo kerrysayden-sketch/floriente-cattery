@@ -13,6 +13,7 @@ export const slugMap = {
   faq:          { en: 'faq',         uk: 'faq',         pl: 'faq',         de: 'faq',           ru: 'faq' },
   blog:         { en: 'blog',        uk: 'blog',        pl: 'blog',        de: 'blog',          ru: 'blog' },
   legal:        { en: 'legal',       uk: 'legal',       pl: 'regulamin',   de: 'impressum',     ru: 'pravila' },
+  'sample-contract': { en: 'sample-contract', uk: 'zrazok-dohovoru', pl: 'wzor-umowy', de: 'mustervertrag', ru: 'obrazets-dogovora' },
 } as const;
 
 const reverseMap = new Map<string, PageId>();

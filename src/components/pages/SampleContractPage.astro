@@ -1,0 +1,96 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/utils';
+import type { Lang } from '../../i18n/utils';
+import { whatsappLink } from '../../lib/whatsapp';
+
+interface Props { lang: Lang; }
+const { lang } = Astro.props;
+
+// The public sample is ONE bilingual EN/UK file, linked from all five locales:
+// the page carries the localized explanation, the PDF carries the instrument.
+// Served from /documents/, which is noindex via public/_headers so the file can
+// never outrank the page it belongs to.
+//
+// This is the ONLY place on the site that links directly to the PDF. Every
+// other surface links here. Deliberately a plain <a download link — the site
+// CSP sets object-src 'none', so an inline PDF viewer would fail silently.
+const PDF_PATH = '/documents/floriente-sample-pet-class-kitten-sale-contract.pdf';
+
+const covers = [1, 2, 3, 4, 5, 6, 7].map((n) => t(lang, `sampleContract.covers${n}`));
+---
+
+<BaseLayout
+  title={t(lang, 'pages.sampleContract.title')}
+  description={t(lang, 'pages.sampleContract.description')}
+  lang={lang}
+>
+  <section class="py-16 md:py-24 px-4 sm:px-6">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="font-serif text-3xl md:text-5xl text-dark mb-6">
+        {t(lang, 'sampleContract.heroTitle')}
+      </h1>
+      <p class="text-dark-soft text-lg leading-relaxed mb-12">
+        {t(lang, 'sampleContract.heroText')}
+      </p>
+
+      <h2 class="text-sm font-semibold uppercase tracking-wider text-gold mb-5">
+        {t(lang, 'sampleContract.coversTitle')}
+      </h2>
+      <ul class="space-y-3 mb-12 list-none p-0">
+        {covers.map((item) => (
+          <li class="flex gap-3 text-dark-soft text-sm md:text-base leading-relaxed">
+            <svg class="w-4 h-4 mt-1 flex-shrink-0 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 6L9 17l-5-5" />
+            </svg>
+            <span>{item}</span>
+          </li>
+        ))}
+      </ul>
+
+      <div class="bg-gold/5 border border-gold/20 rounded-lg p-6 md:p-8 mb-8">
+        <h2 class="font-serif text-xl text-dark mb-3">
+          {t(lang, 'sampleContract.personalTitle')}
+        </h2>
+        <p class="text-dark-soft text-sm leading-relaxed">
+          {t(lang, 'sampleContract.personalText')}
+        </p>
+      </div>
+
+      <p class="text-dark-soft text-sm leading-relaxed mb-4">
+        {t(lang, 'sampleContract.deliveryNote')}
+      </p>
+      <p class="text-dark-soft text-sm leading-relaxed mb-12">
+        {t(lang, 'sampleContract.breedingNote')}
+      </p>
+
+      <div class="text-center border-t border-gray-light pt-10">
+        <a
+          href={PDF_PATH}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 px-8 py-3.5 bg-gold text-warm-white font-medium rounded hover:bg-gold-dark transition-colors text-sm uppercase tracking-wider"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
+          </svg>
+          {t(lang, 'sampleContract.downloadCta')}
+        </a>
+        <p class="text-xs text-gray-medium mt-4">
+          {t(lang, 'sampleContract.formatNote')}
+        </p>
+        <p class="text-sm text-dark-soft mt-6">
+          {t(lang, 'sampleContract.questionsText')}
+        </p>
+        <a
+          href={whatsappLink(lang, 'howToBuy')}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block mt-3 text-sm text-gold hover:text-gold-dark underline underline-offset-2"
+        >
+          {t(lang, 'footer.whatsapp')}
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

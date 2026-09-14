@@ -22,7 +22,8 @@
     "followUs": "Folgen Sie uns",
     "email": "info@florientecattery.com",
     "location": "Region Kiew, Ukraine",
-    "whatsapp": "Schreiben Sie uns auf WhatsApp"
+    "whatsapp": "Schreiben Sie uns auf WhatsApp",
+    "sampleContract": "Mustervertrag"
   },
   "pages": {
     "logoAlt": "Floriente Cattery Logo",
@@ -65,6 +66,10 @@
     "waitlist": {
       "title": "Kitten-Warteliste - Floriente Cattery",
       "description": "Tragen Sie sich in die Warteliste von Floriente Cattery für kommende Orientalisch-Kurzhaar- und Siam-Kätzchen ein. Teilen Sie uns Ihre Wünsche mit, und wir melden uns bei Ihnen."
+    },
+    "sampleContract": {
+      "title": "Muster-Kaufvertrag für Pet-Class-Kätzchen - Floriente Cattery",
+      "description": "Lesen Sie den Muster-Kaufvertrag für Pet-Class-Kätzchen von Floriente Cattery vor der Reservierung. Zweisprachiges PDF auf Englisch und Ukrainisch. Der endgültige Vertrag wird individuell ausgefüllt."
     }
   },
   "notFound": {
@@ -221,7 +226,7 @@
     "breedShowDesc": "Für genehmigte Zuchtprogramme oder Showkarrieren. Preise werden individuell besprochen.",
     "depositLabel": "Reservierungs-Anzahlung",
     "depositAmount": "50%",
-    "depositNote": "Nicht rückerstattungsfähig bei Rücktritt des Käufers. Rückerstattung möglich unter den im Vertrag festgelegten Bedingungen.",
+    "depositNote": "Die Reservierungsgebühr wird auf den Kaufpreis angerechnet. Bei Rücktritt des Käufers wird sie nicht erstattet.",
     "tcoTitle": "Was Sie wirklich bekommen",
     "tcoSubtitle": "Ein verantwortungsvoller Züchter spart Ihnen langfristig Tausende",
     "tcoBreeder": "Von einem verantwortungsvollen Züchter",
@@ -277,7 +282,7 @@
     "intlTitle": "Für Käufer außerhalb der Ukraine",
     "intlSubtitle": "Wir arbeiten mit Familien aus ganz Europa zusammen — Deutschland, Polen, dem Baltikum und darüber hinaus. Der Prozess bleibt gleich; die Logistik wird pro Kätzchen individuell besprochen.",
     "intlPillar1Title": "Sitz in Kiew, WCF-registriert",
-    "intlPillar1Text": "Wir sind bei der World Cat Federation registriert (Nr. 50188-2025). Jedes Kätzchen erhält einen Stammbaum, Gentests der Eltern und einen EU-konformen Mikrochip.",
+    "intlPillar1Text": "Wir sind bei der World Cat Federation registriert (Nr. 50188-2025). Jedes Kätzchen erhält Registrierungsunterlagen, Informationen zu den Gentests der Eltern und einen EU-konformen Mikrochip. Ein Stammbaum kann je nach Kätzchen und Vereinbarung verfügbar sein.",
     "intlPillar2Title": "Videogespräch vor allem anderen",
     "intlPillar2Text": "Keine Anzahlung, keine Papiere, keine Transportgespräche, bevor wir uns per Video kennengelernt haben. Sie sehen unser Zuhause, lernen die Katzen kennen und stellen alle wichtigen Fragen, bevor Sie sich festlegen.",
     "intlPillar3Title": "Übergabe individuell geregelt",
@@ -446,5 +451,25 @@
     "consentLabel": "Ich willige ein, dass Floriente Cattery diese Angaben speichert, um mich zu Kätzchen zu kontaktieren.",
     "consentLinkText": "Datenschutzerklärung",
     "sourceAiAssistant": "KI-Assistent (ChatGPT, Claude usw.)"
+  },
+  "sampleContract": {
+    "heroTitle": "Muster-Kaufvertrag für Pet-Class-Kätzchen",
+    "heroText": "Jedes Floriente-Kätzchen zieht auf Grundlage eines schriftlichen, von beiden Seiten unterzeichneten Vertrags in seine neue Familie. Sie können unseren Standardvertrag für die Pet-Klasse vollständig lesen, bevor Sie etwas reservieren.",
+    "coversTitle": "Was der Vertrag regelt",
+    "covers1": "Wer die Vertragsparteien sind",
+    "covers2": "Das Kätzchen — Rasse, Farbe, Geschlecht, Geburtsdatum, Mikrochip und Registrierungsnummer",
+    "covers3": "Preis, Reservierungsgebühr und der bei der Übergabe fällige Restbetrag",
+    "covers4": "Ihre Pflichten als Halter — Pflege, Haltungsbedingungen, Ernährung und tierärztliche Versorgung",
+    "covers5": "Unsere Pflichten — einschließlich Beratung zu Gesundheit, Ernährung und Pflege über das ganze Leben des Kätzchens",
+    "covers6": "Übergabe und der Gesundheitszustand des Kätzchens bei der Übergabe",
+    "covers7": "Die Unterlagen, die Ihr Kätzchen begleiten",
+    "personalTitle": "Ihr Vertrag wird individuell ausgefüllt",
+    "personalText": "Dies ist ein Muster. Der Vertrag, den Sie unterschreiben, wird mit Ihren Angaben, Ihrem Kätzchen und dem vereinbarten Preis ausgefüllt. Die Zahlungsdaten stehen im individuellen Vertrag.",
+    "deliveryNote": "Dieses Standardmuster der Pet-Klasse sieht die Übergabe bei uns vor. Eine Lieferung innerhalb Europas kann für ein einzelnes Kätzchen gesondert organisiert werden; Route, Zeitpunkt und Kosten werden vor der Reservierung vereinbart.",
+    "breedingNote": "Dieses Muster gilt für Kätzchen der Pet-Klasse. Kätzchen, die mit Zuchtrechten verkauft werden, unterliegen gesonderten individuellen Bedingungen.",
+    "downloadCta": "Mustervertrag herunterladen (PDF · EN/UK)",
+    "formatNote": "Das Muster ist zweisprachig — Englisch und Ukrainisch.",
+    "questionsText": "Fragen zu den Bedingungen? Schreiben Sie uns auf WhatsApp oder an info@florientecattery.com.",
+    "linkInline": "Vertrag vor der Reservierung ansehen"
   }
 }

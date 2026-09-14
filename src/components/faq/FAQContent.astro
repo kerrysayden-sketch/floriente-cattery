@@ -56,6 +56,12 @@ const faqSchema = {
                 </summary>
                 <div class="px-6 pb-6 pt-0 text-dark-soft text-sm leading-relaxed">
                   {faq.a}
+                  {faq.linkTo && faq.linkText && (
+                    <a
+                      href={getLocalizedPath(faq.linkTo, lang)}
+                      class="block mt-3 text-gold hover:text-gold-dark underline underline-offset-2"
+                    >{faq.linkText}</a>
+                  )}
                 </div>
               </details>
             ))}

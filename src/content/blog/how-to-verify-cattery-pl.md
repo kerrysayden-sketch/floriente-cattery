@@ -43,7 +43,7 @@ Hodowcy, którym zależy, badają rodziców pod kątem chorób genetycznych prze
 Brak pisemnej umowy — brak transakcji. Umowa powinna obejmować gwarancje zdrowotne, warunki sterylizacji, politykę zwrotu, przeniesienie prawa własności. Jeśli mówią «nie podpisujemy umów» — to nie jest hodowla, to sprzedawca.
 
 <div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
-<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> pełna umowa kupna-sprzedaży. Utrwala stan kociaka w momencie przekazania, obecność mikroczipa, szczepień i dokumentów rejestracyjnych. Określa warunki utrzymania, sterylizacji, procedurę zwrotu oraz dalsze wsparcie właściciela. To nie kwestia formalności — to kwestia przejrzystości i odpowiedzialności obu stron.</p>
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> pełna umowa kupna-sprzedaży. Utrwala stan kociaka w momencie przekazania, obecność mikroczipa, szczepień i dokumentów rejestracyjnych. Określa warunki utrzymania i opieki, sterylizacji, wykaz dokumentów przekazywanych wraz z kociakiem oraz dalsze wsparcie właściciela. To nie kwestia formalności — to kwestia przejrzystości i odpowiedzialności obu stron. <a href="/pl/wzor-umowy/" class="text-gold hover:text-gold-dark">Nasz wzór umowy możesz przeczytać tutaj.</a></p>
 </div>
 
 ### 5. Sprawdź tytuły

@@ -43,7 +43,7 @@ Züchter, denen es wichtig ist, testen die Elterntiere vor der Verpaarung auf ge
 Kein schriftlicher Vertrag — kein Geschäft. Ein Vertrag sollte Gesundheitsgarantien, Kastrationsbedingungen, Rückgabeklauseln und Eigentumsübergang abdecken. Wenn jemand sagt: „Wir machen keine Verträge" — das ist keine Zucht, sondern ein Verkäufer.
 
 <div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
-<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Der vollständige Kaufvertrag. Er hält den Zustand des Kätzchens zum Zeitpunkt der Übergabe fest, einschließlich Mikrochip, Impfungen und Registrierungsunterlagen, und legt Haltungsbedingungen, Kastration, Rückgabeverfahren und die weitere Begleitung des Besitzers fest. Das ist keine Formsache — sondern Transparenz und Verantwortung auf beiden Seiten.</p>
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Der vollständige Kaufvertrag. Er hält den Zustand des Kätzchens zum Zeitpunkt der Übergabe fest, einschließlich Mikrochip, Impfungen und Registrierungsunterlagen, und legt Haltungs- und Pflegebedingungen, Kastration, die mit dem Kätzchen übergebenen Unterlagen und die weitere Begleitung des Besitzers fest. Das ist keine Formsache — sondern Transparenz und Verantwortung auf beiden Seiten. <a href="/de/mustervertrag/" class="text-gold hover:text-gold-dark">Unseren Mustervertrag können Sie hier lesen.</a></p>
 </div>
 
 ### 5. Prüfen Sie die Titel

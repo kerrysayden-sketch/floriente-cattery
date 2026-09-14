@@ -15,5 +15,9 @@
 /images/*
   Cache-Control: public, max-age=604800
 
+/documents/*
+  Cache-Control: public, max-age=604800
+  X-Robots-Tag: noindex
+
 /videos/*
   Cache-Control: public, max-age=604800

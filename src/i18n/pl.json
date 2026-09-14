@@ -22,7 +22,8 @@
     "followUs": "Obserwuj nas",
     "email": "info@florientecattery.com",
     "location": "Obwód kijowski, Ukraina",
-    "whatsapp": "Napisz do nas na WhatsApp"
+    "whatsapp": "Napisz do nas na WhatsApp",
+    "sampleContract": "Wzór umowy"
   },
   "pages": {
     "logoAlt": "Logo Floriente Cattery",
@@ -65,6 +66,10 @@
     "waitlist": {
       "title": "Lista oczekujących na kocięta - Floriente Cattery",
       "description": "Dołącz do listy oczekujących Floriente Cattery na przyszłe kocięta orientalne i syjamskie. Podaj swoje preferencje, a skontaktujemy się z Tobą."
+    },
+    "sampleContract": {
+      "title": "Wzór umowy sprzedaży kocięcia (klasa Pet) - Floriente Cattery",
+      "description": "Przeczytaj wzór umowy sprzedaży kocięcia klasy Pet hodowli Floriente Cattery przed rezerwacją. Dwujęzyczny PDF po angielsku i ukraińsku. Ostateczna umowa jest indywidualna."
     }
   },
   "notFound": {
@@ -221,7 +226,7 @@
     "breedShowDesc": "Dla zatwierdzonych programów hodowlanych lub kariery wystawowej. Cena ustalana indywidualnie.",
     "depositLabel": "Zadatek za rezerwację",
     "depositAmount": "50%",
-    "depositNote": "Bezzwrotny w przypadku rezygnacji kupującego. Może zostać zwrócony na warunkach określonych w umowie.",
+    "depositNote": "Zadatek jest zaliczany na poczet ceny zakupu. W przypadku rezygnacji kupującego nie podlega zwrotowi.",
     "tcoTitle": "Co tak naprawdę otrzymujesz",
     "tcoSubtitle": "Odpowiedzialny hodowca oszczędza Ci tysiące w dłuższej perspektywie",
     "tcoBreeder": "Od odpowiedzialnego hodowcy",
@@ -277,7 +282,7 @@
     "intlTitle": "Dla kupujących spoza Ukrainy",
     "intlSubtitle": "Współpracujemy z rodzinami z całej Europy — z Niemiec, Polski, krajów bałtyckich i innych. Proces jest ten sam; logistyka ustalana indywidualnie dla każdego kocięcia.",
     "intlPillar1Title": "Z siedzibą w Kijowie, zarejestrowani w WCF",
-    "intlPillar1Text": "Jesteśmy zarejestrowani w World Cat Federation (nr 50188-2025). Każde kocię otrzymuje rodowód, testy genetyczne rodziców i mikrochip w standardzie EU.",
+    "intlPillar1Text": "Jesteśmy zarejestrowani w World Cat Federation (nr 50188-2025). Każde kocię otrzymuje dokumenty rejestracyjne, informacje o testach genetycznych rodziców i mikrochip w standardzie EU. Rodowód może być dostępny w zależności od kociaka i ustaleń.",
     "intlPillar2Title": "Wideorozmowa przed podjęciem dalszych kroków",
     "intlPillar2Text": "Bez zadatku, bez papierów, bez rozmów o transporcie, dopóki się nie spotkamy na wideo. Zobaczysz nasz dom, poznasz koty i zadasz wszystkie istotne pytania przed podjęciem dalszych kroków.",
     "intlPillar3Title": "Dostawa ustalana indywidualnie",
@@ -446,5 +451,25 @@
     "consentLabel": "Wyrażam zgodę na przechowywanie tych danych przez Floriente Cattery w celu kontaktu w sprawie kociąt.",
     "consentLinkText": "Polityka prywatności",
     "sourceAiAssistant": "Asystent AI (ChatGPT, Claude itp.)"
+  },
+  "sampleContract": {
+    "heroTitle": "Wzór umowy sprzedaży kocięcia (klasa Pet)",
+    "heroText": "Każde kocię z hodowli Floriente trafia do nowej rodziny na podstawie pisemnej umowy podpisanej przez obie strony. Naszą standardową umowę dla klasy Pet możesz przeczytać w całości, zanim cokolwiek zarezerwujesz.",
+    "coversTitle": "Co obejmuje umowa",
+    "covers1": "Kim są strony umowy",
+    "covers2": "Kocię — rasa, umaszczenie, płeć, data urodzenia, mikroczip i numer rejestracyjny",
+    "covers3": "Cena, zadatek i kwota pozostała do zapłaty przy przekazaniu",
+    "covers4": "Twoje zobowiązania jako właściciela — opieka, warunki utrzymania, żywienie i opieka weterynaryjna",
+    "covers5": "Nasze zobowiązania — w tym doradztwo w sprawach zdrowia, żywienia i opieki przez całe życie kocięcia",
+    "covers6": "Przekazanie kocięcia i stan jego zdrowia w momencie przekazania",
+    "covers7": "Dokumenty przekazywane wraz z kocięciem",
+    "personalTitle": "Twoja umowa jest indywidualna",
+    "personalText": "To jest wzór. Umowa, którą podpisujesz, zostaje uzupełniona o Twoje dane, dane Twojego kocięcia i ustaloną cenę. Dane do płatności podawane są w indywidualnej umowie.",
+    "deliveryNote": "Ten standardowy wzór klasy Pet przewiduje odbiór u nas. Dostawa na terenie Europy może zostać zorganizowana osobno dla konkretnego kociaka; trasa, termin i koszt są ustalane przed rezerwacją.",
+    "breedingNote": "Ten wzór dotyczy kociąt klasy Pet. Kocięta sprzedawane z prawami hodowlanymi podlegają odrębnym, indywidualnym warunkom.",
+    "downloadCta": "Pobierz wzór umowy (PDF · EN/UK)",
+    "formatNote": "Wzór jest dwujęzyczny — po angielsku i ukraińsku.",
+    "questionsText": "Pytania o warunki? Napisz do nas na WhatsApp lub na info@florientecattery.com.",
+    "linkInline": "Zobacz umowę przed rezerwacją"
   }
 }

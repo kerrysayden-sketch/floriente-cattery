@@ -1,5 +1,5 @@
 ---
-import { t } from '../../i18n/utils';
+import { t, getLocalizedPath } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
 
 interface Props {
@@ -38,6 +38,10 @@ const { lang } = Astro.props;
         <span class="font-semibold">{t(lang, 'howToBuy.depositLabel')}:</span> {t(lang, 'howToBuy.depositAmount')}
       </p>
       <p class="text-xs text-gray-medium">{t(lang, 'howToBuy.depositNote')}</p>
+      <a
+        href={getLocalizedPath('/sample-contract/', lang)}
+        class="inline-block mt-3 text-xs text-gold hover:text-gold-dark underline underline-offset-2"
+      >{t(lang, 'sampleContract.linkInline')}</a>
     </div>
   </div>
 </section>

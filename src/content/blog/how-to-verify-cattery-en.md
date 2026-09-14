@@ -43,7 +43,7 @@ Breeders who care test parents for genetic diseases before breeding. For Orienta
 No written contract — no deal. The contract should cover health guarantees, sterilization terms, return policy, and transfer of ownership. If they say "we don't do contracts" — that's not a cattery, that's a seller.
 
 <div class="bg-accent-gold/5 border-l-4 border-accent-gold p-4 my-6 not-prose">
-<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Full sales contract provided. Documents the kitten's condition at handover, microchip, vaccinations, and registration paperwork. Spells out care terms, sterilization, return process, and ongoing owner support. Not a formality — it's about transparency and accountability on both sides.</p>
+<p class="text-sm text-dark"><strong>Floriente Cattery:</strong> Full sales contract provided. Documents the kitten's condition at handover, microchip, vaccinations, and registration paperwork. Spells out care and housing terms, sterilization, the documents supplied with the kitten, and ongoing owner support. Not a formality — it's about transparency and accountability on both sides. <a href="/en/sample-contract/" class="text-gold hover:text-gold-dark">You can read our sample contract here.</a></p>
 </div>
 
 ### 5. Check the titles

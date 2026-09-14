@@ -22,7 +22,8 @@
     "followUs": "Follow Us",
     "email": "info@florientecattery.com",
     "location": "Kyiv Region, Ukraine",
-    "whatsapp": "Ask us on WhatsApp"
+    "whatsapp": "Ask us on WhatsApp",
+    "sampleContract": "Sample contract"
   },
   "pages": {
     "logoAlt": "Floriente Cattery logo",
@@ -65,6 +66,10 @@
     "waitlist": {
       "title": "Kitten Waitlist - Floriente Cattery",
       "description": "Join the Floriente Cattery waitlist for upcoming Oriental Shorthair and Siamese kittens. Share your preferences and we will contact you."
+    },
+    "sampleContract": {
+      "title": "Sample Pet-Class Kitten Sale Contract - Floriente Cattery",
+      "description": "Read the Floriente Cattery sample Pet-Class kitten sale contract before you reserve. Bilingual English/Ukrainian PDF. The final contract is personalised for each buyer and kitten."
     }
   },
   "notFound": {
@@ -221,7 +226,7 @@
     "breedShowDesc": "For approved breeding programmes or show careers. Pricing discussed individually based on the kitten.",
     "depositLabel": "Reservation Deposit",
     "depositAmount": "50%",
-    "depositNote": "Non-refundable if the buyer cancels. May be refunded under the terms specified in the contract.",
+    "depositNote": "The reservation fee is credited toward the purchase price. It is not refundable if the buyer cancels.",
     "tcoTitle": "What You're Really Getting",
     "tcoSubtitle": "A responsible breeder saves you thousands in the long run",
     "tcoBreeder": "From a Responsible Breeder",
@@ -277,7 +282,7 @@
     "intlTitle": "For Buyers Outside Ukraine",
     "intlSubtitle": "We work with families across Europe — Germany, Poland, the Baltics, and beyond. The process is the same; the logistics are discussed per kitten.",
     "intlPillar1Title": "Based in Kyiv, WCF-registered",
-    "intlPillar1Text": "We are registered with the World Cat Federation (No. 50188-2025). Every cat we place comes with a pedigree, parent genetic tests, and an EU-format microchip.",
+    "intlPillar1Text": "We are registered with the World Cat Federation (No. 50188-2025). Every kitten is placed with registration documents, parent genetic test information, and an EU-format microchip. A pedigree may be available depending on the kitten and agreement.",
     "intlPillar2Title": "Video call before anything",
     "intlPillar2Text": "No deposit, no paperwork, no transport talk until we have met on video. You see our home, meet the cats, and ask every question that matters before committing.",
     "intlPillar3Title": "Delivery decided per kitten",
@@ -446,5 +451,25 @@
     "consentLabel": "I consent to Floriente Cattery storing these details to contact me about kittens.",
     "consentLinkText": "Privacy Policy",
     "sourceAiAssistant": "AI assistant (ChatGPT, Claude, etc.)"
+  },
+  "sampleContract": {
+    "heroTitle": "Sample Pet-Class Kitten Sale Contract",
+    "heroText": "Every Floriente kitten goes to its new family under a written contract, signed by both sides. You can read our standard Pet-Class contract in full before you reserve anything.",
+    "coversTitle": "What the contract covers",
+    "covers1": "Who the parties are",
+    "covers2": "The kitten — breed, colour, sex, date of birth, microchip and registration number",
+    "covers3": "Price, reservation fee and the balance due at handover",
+    "covers4": "Your commitments as an owner — care, housing, feeding and veterinary care",
+    "covers5": "Our commitments — including advice on health, feeding and care for the kitten's whole life",
+    "covers6": "Handover, and the kitten's health at handover",
+    "covers7": "The documents that come with your kitten",
+    "personalTitle": "Your contract is personalised",
+    "personalText": "This is a sample. The contract you sign is completed with your details, your kitten and the agreed price. Payment details are provided in the individual contract.",
+    "deliveryNote": "This standard Pet-Class sample shows handover at our location. Delivery within Europe can be arranged separately for an individual kitten; the route, timing and cost are agreed before reservation.",
+    "breedingNote": "This sample applies to Pet-Class kittens. Kittens sold with breeding rights are subject to separate individual terms.",
+    "downloadCta": "Download the sample contract (PDF · EN/UK)",
+    "formatNote": "The sample is bilingual — English and Ukrainian.",
+    "questionsText": "Questions about the terms? Write to us on WhatsApp or at info@florientecattery.com.",
+    "linkInline": "View the sample contract before you reserve"
   }
 }

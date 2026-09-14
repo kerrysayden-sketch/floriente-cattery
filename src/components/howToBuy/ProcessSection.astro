@@ -1,5 +1,5 @@
 ---
-import { t } from '../../i18n/utils';
+import { t, getLocalizedPath } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
 
 interface Props {
@@ -46,6 +46,12 @@ const steps = [
                 <h3 class="text-lg font-serif">{t(lang, `howToBuy.${step.titleKey}`)}</h3>
               </div>
               <p class="text-dark-soft text-sm leading-relaxed">{t(lang, `howToBuy.${step.descKey}`)}</p>
+              {step.num === 4 && (
+                <a
+                  href={getLocalizedPath('/sample-contract/', lang)}
+                  class="inline-block mt-2 text-sm text-gold hover:text-gold-dark underline underline-offset-2"
+                >{t(lang, 'sampleContract.linkInline')}</a>
+              )}
             </div>
           </div>
         ))}
