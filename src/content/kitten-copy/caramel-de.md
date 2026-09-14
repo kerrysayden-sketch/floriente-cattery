@@ -3,7 +3,7 @@ kittenId: "caramel"
 lang: "de"
 colorLabel: "Schwarz getupft-tabby"
 alt: "Caramel, Orientalisch-Kurzhaar-Kätzchen, Schwarz getupft-tabby"
-cardPersonality: "Sehr ruhig und gelassen; sie mag geschützte Plätze, an denen sie sich verstecken kann."
+cardPersonality: "Sehr ruhig und gelassen; sie mag geschützte Plätze zum Verstecken."
 traits: ["Ruhig", "Gelassen"]
 captions: []
 ---
