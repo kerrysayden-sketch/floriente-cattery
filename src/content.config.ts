@@ -133,9 +133,30 @@ const kittens = defineCollection({
     // publishing must never flip it either.
     featuredInKittensPreview: z.boolean(),
 
-    // §1.7 null = OWNER INPUT REQUIRED. Not an editorial selection.
+    // Owner-selected hero, as an index into `images`. null = not yet chosen.
     heroImage: z.number().int().min(1).max(4).nullable(),
-    cardImage: z.number().int().min(1).max(4).nullable(),
+
+    // The listing card uses a DEDICATED owner-supplied crop, not one of the
+    // four gallery frames — a tighter head-and-shoulders portrait that survives
+    // the circular crop. It is deliberately NOT part of `images`, or it would
+    // appear twice in the gallery. null = not yet supplied.
+    cardPhoto: z.object({
+      src: z.string(),
+      width: z.number().int().positive(),
+      height: z.number().int().positive(),
+      source: z.object({
+        file: z.string(),
+        sha256: z.string().length(64),
+        archive: z.string(),
+        provenance: z.string(),
+      }),
+    }).nullable(),
+
+    // §9 Normalized, customer-facing documents state. The verbatim workbook
+    // wording stays in `source.documentRaw` and is never rendered — it carries
+    // an internal breeder reference and the pet/breeding restriction, neither
+    // of which is published in this release. null = not stated.
+    documents: z.enum(['metrics', 'pedigree']).nullable(),
 
     images: z.array(z.object({
       n: z.number().int().min(1),
@@ -178,9 +199,18 @@ const kittens = defineCollection({
       message: 'publicationState "published" requires an owner-selected heroImage',
       path: ['heroImage'],
     })
-    .refine((k) => !(k.publicationState === 'published' && k.cardImage == null), {
-      message: 'publicationState "published" requires an owner-selected cardImage',
-      path: ['cardImage'],
+    .refine((k) => !(k.publicationState === 'published' && k.cardPhoto == null), {
+      message: 'publicationState "published" requires an owner-selected cardPhoto',
+      path: ['cardPhoto'],
+    })
+    // Name Strategy C: the primary customer-facing name is the Latin passport
+    // FIRST name, derived from `passportName` so there is one source of truth.
+    // This guard makes the derivation safe — if a future kitten's passport name
+    // and kittenId ever disagree, the build fails instead of silently rendering
+    // the wrong name.
+    .refine((k) => k.passportName.trim().split(/\s+/)[0].toLowerCase() === k.kittenId.toLowerCase(), {
+      message: 'the first word of passportName must equal kittenId (Name Strategy C derives the display name from it)',
+      path: ['passportName'],
     }),
 });
 

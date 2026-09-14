@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import KittensPreview from '../home/KittensPreview.astro';
 import { t, getLocalizedPath, localizedBreed } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
-import { getPublishedKittensByLitter, getKittenCopy, kittenDetailPath, kittenImage,
+import { getPublishedKittensByLitter, getKittenCopy, kittenDetailPath, kittenDisplayName,
          commercialStatusLabel, commercialStatusColor, getPreviewFeaturedKittens } from '../../lib/kittens';
 import { whatsappLink } from '../../lib/whatsapp';
 
@@ -102,25 +102,27 @@ const hiText = t(lang, 'kittens.hiText');
         <div id="kitten-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10">
           {litterC.map((entry) => {
             const k = entry.data;
-            const photo = kittenImage(entry, 'cardImage');
+            const photo = k.cardPhoto!;
+            const displayName = kittenDisplayName(entry);
             const statusLabel = commercialStatusLabel(k.commercialStatus, lang);
-            const colorLabel = litterCCopy.get(k.kittenId)?.data.colorLabel;
+            const copy = litterCCopy.get(k.kittenId);
+            const colorLabel = copy?.data.colorLabel;
             return (
               <a href={kittenDetailPath(k.kittenId, lang)} class="kitten-card text-center group" data-status={k.commercialStatus ?? 'none'}>
                 <div class="relative mx-auto w-72 h-72 sm:w-60 sm:h-60 md:w-64 md:h-64 mb-3">
                   <div class="w-full h-full rounded-full overflow-hidden border-2 border-gray-200 group-hover:border-gold/40 group-hover:shadow-md transition-all duration-300 shadow-sm">
-                    <img src={photo.src} alt={k.homeName} width={photo.width} height={photo.height} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+                    <img src={photo.src} alt={copy?.data.alt ?? displayName} width={photo.width} height={photo.height} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
                   </div>
                   {statusLabel && (
                     <span class={`absolute top-0 left-0 inline-flex items-center px-3.5 py-1.5 rounded-full text-sm font-bold text-warm-white shadow-sm ${commercialStatusColor(k.commercialStatus)}`}>{statusLabel}</span>
                   )}
                 </div>
                 <h3 class="text-lg md:text-xl font-serif text-dark-soft">
-                  {hiText} <strong class="text-dark">{k.homeName}</strong>
+                  {hiText} <strong class="text-dark">{displayName}</strong>
                   <span class={`ml-1.5 text-lg font-bold ${k.sex === 'male' ? 'text-blue-400' : 'text-pink-400'}`}>{k.sex === 'male' ? '♂' : '♀'}</span>
                 </h3>
                 <p class="text-xs text-gray-medium mt-1 leading-tight">{localizedBreed(k.breed, k.sex, lang)}{colorLabel ? ` · ${colorLabel}` : ''}</p>
-                <p class="text-[11px] text-gray-300 mt-0.5 leading-tight">{k.passportName}</p>
+                <p class="text-[11px] text-gray-300 mt-0.5 leading-tight">{t(lang, 'kittens.homeNameLabel')} {k.homeName}</p>
               </a>
             );
           })}

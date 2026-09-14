@@ -8,9 +8,16 @@ interface Props {
   photos: GalleryPhoto[];
   catName: string;
   galleryId?: string;
+  /**
+   * When set, used verbatim as every image's alt instead of the composed
+   * "<catName> - photo N". Kitten galleries pass a ready factual alt and show
+   * all four frames, so the "photo 2..5" numbering (which assumes a separate
+   * main photo, as on the adult-cat page) would be wrong there.
+   */
+  altBase?: string;
 }
 
-const { photos, catName, galleryId = catName.toLowerCase().replace(/\s/g, '-') } = Astro.props;
+const { photos, catName, galleryId = catName.toLowerCase().replace(/\s/g, '-'), altBase } = Astro.props;
 ---
 
 <div class="cat-gallery">
@@ -23,7 +30,7 @@ const { photos, catName, galleryId = catName.toLowerCase().replace(/\s/g, '-') }
         <div class="aspect-[3/4] overflow-hidden bg-gray-light/20">
           <img
             src={photo.src}
-            alt={`${catName} - ${photo.label || `photo ${i + 2}`}`}
+            alt={altBase ? (photo.label ? `${altBase} - ${photo.label}` : altBase) : `${catName} - ${photo.label || `photo ${i + 2}`}`}
             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             loading="lazy"
           />

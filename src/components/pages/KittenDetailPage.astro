@@ -4,7 +4,7 @@ import StatusBadge from '../cats/StatusBadge.astro';
 import CatGallery from '../cats/CatGallery.astro';
 import { t, getLocalizedPath, localizedBreed } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
-import { kittenImage } from '../../lib/kittens';
+import { kittenHeroImage, kittenDisplayName, documentsLabel } from '../../lib/kittens';
 import type { KittenEntry, KittenCopyEntry } from '../../lib/kittens';
 import { whatsappLink } from '../../lib/whatsapp';
 
@@ -20,8 +20,15 @@ const { lang, kitten, copy } = Astro.props;
 const k = kitten.data;
 const c = copy.data;
 
-const hero = kittenImage(kitten, 'heroImage');
+const hero = kittenHeroImage(kitten);
 const breedLabel = localizedBreed(k.breed, k.sex, lang);
+// Name Strategy C: Latin passport first name is the primary name in all locales.
+const displayName = kittenDisplayName(kitten);
+// Normalized documents value only — source.documentRaw is never rendered.
+const documents = documentsLabel(k.documents, lang);
+// Human-readable birth date per locale — the raw ISO value is storage, not copy.
+const dob = new Intl.DateTimeFormat(lang, { day: 'numeric', month: 'long', year: 'numeric' })
+  .format(new Date(`${k.dob}T00:00:00Z`));
 
 // Description lives in the markdown body, split on blank lines — the same
 // convention as src/content/cats/. No English fallback: a missing locale is a
@@ -39,8 +46,8 @@ const gallery = k.images
 // Shares the GlobalLightbox group with the hero, so the hero opens the gallery.
 const galleryId = `kitten-${k.kittenId}`;
 
-const title = c.metaTitle || `${k.homeName} — Floriente Cattery`;
-const description = c.metaDescription || paragraphs[0] || `${k.homeName} · ${breedLabel}`;
+const title = c.metaTitle || `${displayName} — Floriente Cattery`;
+const description = c.metaDescription || paragraphs[0] || `${displayName} · ${breedLabel}`;
 ---
 
 <BaseLayout title={title} description={description} lang={lang} ogImage={hero.src}>
@@ -50,7 +57,7 @@ const description = c.metaDescription || paragraphs[0] || `${k.homeName} · ${br
       <span class="mx-2">/</span>
       <a href={getLocalizedPath('/kittens/', lang)} class="hover:text-gold">{t(lang, 'nav.kittens')}</a>
       <span class="mx-2">/</span>
-      <span class="text-dark">{k.homeName}</span>
+      <span class="text-dark">{displayName}</span>
     </nav>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-14">
@@ -69,14 +76,16 @@ const description = c.metaDescription || paragraphs[0] || `${k.homeName} · ${br
       </div>
 
       <div>
-        <h1 class="text-3xl md:text-4xl text-dark mb-1">{k.homeName}</h1>
-        <p class="text-sm text-gray-medium mb-6">{k.passportName}</p>
+        <h1 class="text-3xl md:text-4xl text-dark mb-1">{displayName}</h1>
+        <p class="text-sm text-gray-medium">{k.passportName}</p>
+        <p class="text-sm text-gray-medium mb-6">{t(lang, 'kittens.homeNameLabel')} {k.homeName}</p>
 
         <dl class="space-y-3 mb-8">
           <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldBreed')}</dt><dd class="text-sm text-dark">{breedLabel}</dd></div>
           <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldColor')}</dt><dd class="text-sm text-dark">{c.colorLabel} <span class="text-gray-medium">({k.ems})</span></dd></div>
           <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldSex')}</dt><dd class="text-sm text-dark">{k.sex === 'male' ? '♂ ' + t(lang, 'kittens.male') : '♀ ' + t(lang, 'kittens.female')}</dd></div>
-          <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldBorn')}</dt><dd class="text-sm text-dark">{k.dob}</dd></div>
+          <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldBorn')}</dt><dd class="text-sm text-dark">{dob}</dd></div>
+          {documents && <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldDocuments')}</dt><dd class="text-sm text-dark">{documents}</dd></div>}
         </dl>
 
         {c.traits.length > 0 && (
@@ -94,16 +103,16 @@ const description = c.metaDescription || paragraphs[0] || `${k.homeName} · ${br
         )}
 
         <a
-          href={whatsappLink(lang, 'nextLitter', k.homeName)}
+          href={whatsappLink(lang, 'nextLitter', displayName)}
           target="_blank"
           rel="noopener noreferrer"
           class="inline-block px-8 py-3.5 bg-gold text-warm-white font-medium rounded hover:bg-gold-dark transition-colors text-sm uppercase tracking-wider"
-        >{t(lang, 'kittens.availabilityCta')}</a>
+        >{t(lang, 'home.ctaReserve')}</a>
       </div>
     </div>
 
     <div class="mt-10 md:mt-14">
-      <CatGallery photos={gallery} catName={c.alt} galleryId={galleryId} />
+      <CatGallery photos={gallery} catName={c.alt} altBase={c.alt} galleryId={galleryId} />
     </div>
   </div>
 </BaseLayout>

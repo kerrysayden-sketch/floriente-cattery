@@ -1,7 +1,7 @@
 ---
 import { t, getLocalizedPath } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
-import { getPreviewFeaturedKittens } from '../../lib/kittens';
+import { getPreviewFeaturedKittens, getKittenCopy } from '../../lib/kittens';
 import KittenCard from '../cats/KittenCard.astro';
 
 interface Props {
@@ -18,6 +18,11 @@ const { lang } = Astro.props;
 // precondition, never a trigger, and commercial status is not consulted at all:
 // publishing a kitten, or marking one available, must never move it here.
 const previewKittens = (await getPreviewFeaturedKittens()).slice(0, 3);
+const previewCopy = new Map(
+  await Promise.all(
+    previewKittens.map(async (k) => [k.data.kittenId, await getKittenCopy(k.data.kittenId, lang)] as const),
+  ),
+);
 ---
 
 <section class="py-16 md:py-24 px-4 sm:px-6">
@@ -27,7 +32,7 @@ const previewKittens = (await getPreviewFeaturedKittens()).slice(0, 3);
     {previewKittens.length > 0 ? (
       <>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-          {previewKittens.map((kitten) => <KittenCard kitten={kitten} lang={lang} />)}
+          {previewKittens.map((kitten) => <KittenCard kitten={kitten} lang={lang} alt={previewCopy.get(kitten.data.kittenId)?.data.alt} />)}
         </div>
         <div class="text-center mt-10">
           <a

@@ -12,7 +12,9 @@
  *   7. publicationState, commercialStatus and featuredInKittensPreview stay three
  *      INDEPENDENT dimensions — none may be derived from or gated on another
  *   8. publication gate: publicationState may only reach `published` once the
- *      owner has chosen a hero and a card image
+ *      owner has chosen a hero frame and a dedicated card crop, and the card
+ *      crop is NEVER one of the four gallery frames
+ *  11. Name Strategy C stays derivable: passportName's first word === kittenId
  *   9. a draft entity can never be featured in the KittensPreview block
  *  10. no commercial status is ever required — `null` (not stated) is valid in
  *      every publication state, so nothing is fabricated to pass validation
@@ -142,6 +144,37 @@ for (const k of kittens) {
   }
 }
 
+// ── card crop: present, on disk, correctly sized, and NOT a gallery frame ────
+for (const k of kittens) {
+  const card = k.data.cardPhoto;
+  if (!card) continue;
+  const label = `${k.id}-card`;
+
+  if (!card.src?.startsWith('/images/kittens/')) { fail(`${label}: path "${card.src}" outside /images/kittens/`); continue; }
+  declaredDerivatives.add(card.src);
+
+  // The whole point of a dedicated crop: it must not also be a gallery image,
+  // or it would render twice on the detail page.
+  if ((k.data.images ?? []).some((i) => i.src === card.src))
+    fail(`${label}: card crop is also a gallery image — it would appear twice in the gallery`);
+  if (card.source?.sha256 && seenSha.has(card.source.sha256))
+    fail(`${label}: card source sha256 matches gallery image ${seenSha.get(card.source.sha256)}`);
+
+  const onDisk = path.join(PUBLIC_DIR, card.src.replace(/^\//, ''));
+  if (!fs.existsSync(onDisk)) { fail(`${label}: missing on disk — public${card.src}`); continue; }
+  const dim = webpSize(onDisk);
+  if (!dim) fail(`${label}: public${card.src} is not a readable WebP`);
+  else if (dim.width !== card.width || dim.height !== card.height)
+    fail(`${label}: declared ${card.width}×${card.height} but file is ${dim.width}×${dim.height}`);
+}
+
+// ── Name Strategy C: the displayed name must stay derivable ─────────────────
+for (const k of kittens) {
+  const first = String(k.data.passportName ?? '').trim().split(/\s+/)[0] ?? '';
+  if (first.toLowerCase() !== k.id.toLowerCase())
+    fail(`${k.file}: passportName first word "${first}" !== kittenId "${k.id}" — Name Strategy C derives the displayed name from it`);
+}
+
 // orphan derivatives
 const litterDirs = new Set([...declaredDerivatives].map((s) => path.dirname(s)));
 for (const dir of litterDirs) {
@@ -170,7 +203,7 @@ for (const dir of litterDirs) {
 const COMMERCIAL = ['available', 'reserved', 'evaluation', 'at_new_home'];
 
 for (const k of kittens) {
-  const { publicationState, commercialStatus, heroImage, cardImage, featuredInKittensPreview } = k.data;
+  const { publicationState, commercialStatus, heroImage, featuredInKittensPreview } = k.data;
 
   if (!['draft', 'published'].includes(publicationState))
     fail(`${k.file}: publicationState "${publicationState}" is not draft|published`);
@@ -186,15 +219,16 @@ for (const k of kittens) {
   // Gate 1 — publication requires the owner's image selections.
   if (publicationState === 'published') {
     if (heroImage == null) fail(`${k.file}: publicationState "published" but heroImage is null — owner hero selection required before publication`);
-    if (cardImage == null) fail(`${k.file}: publicationState "published" but cardImage is null — owner card selection required before publication`);
+    if (k.data.cardPhoto == null) fail(`${k.file}: publicationState "published" but cardPhoto is null — owner card crop required before publication`);
+    if (k.data.documents === undefined) fail(`${k.file}: publicationState "published" but documents is missing`);
   }
 
   // Gate 2 — a draft is not public, so it cannot be featured in a public block.
   if (featuredInKittensPreview && publicationState !== 'published')
     fail(`${k.file}: featuredInKittensPreview is true while publicationState is "${publicationState}"`);
 
-  for (const [field, v] of [['heroImage', heroImage], ['cardImage', cardImage]])
-    if (v != null && !(k.data.images ?? []).some((i) => i.n === v)) fail(`${k.file}: ${field} = ${v} does not match any image n`);
+  if (heroImage != null && !(k.data.images ?? []).some((i) => i.n === heroImage))
+    fail(`${k.file}: heroImage = ${heroImage} does not match any image n`);
 
   // Informational only — never an error. A published kitten with no stated
   // commercial status is legitimate; the runtime must simply render no badge.
@@ -235,6 +269,8 @@ console.log(`   images declared:   ${totalImages}`);
 console.log(`   unique media:      ${seenMedia.size}`);
 console.log(`   unique sha256:     ${seenSha.size}`);
 console.log(`   derivatives:       ${declaredDerivatives.size} declared, all present at declared dimensions`);
+console.log(`   card crops:        ${kittens.filter((k) => k.data.cardPhoto).length} of ${kittens.length}, none of them a gallery frame`);
+console.log(`   documents:         ${Object.entries(kittens.reduce((a, k) => ({ ...a, [k.data.documents ?? 'not stated']: (a[k.data.documents ?? 'not stated'] ?? 0) + 1 }), {})).map(([d, n]) => `${n}× ${d}`).join(', ')}`);
 console.log(`   cross-kitten maps: 0`);
 const tally = (f) => Object.entries(kittens.reduce((a, k) => {
   const v = k.data[f] ?? 'null';

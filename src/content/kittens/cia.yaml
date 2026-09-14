@@ -22,12 +22,12 @@ dob: "2026-07-06"           # workbook "06/07/2026" DD/MM/YYYY — see WU-1 repo
 # publicationState: draft | published
 #   Lifecycle only. `draft` asserts nothing commercial. A draft entity must
 #   never generate a public route or card.
-publicationState: "draft"
+publicationState: "published"
 
 # commercialStatus: available | reserved | evaluation | at_new_home | null
 #   null = NOT STATED. The workbook is not authoritative for availability, so
 #   no status is invented here merely to satisfy the schema.
-commercialStatus: null
+commercialStatus: "reserved"
 
 # featuredInKittensPreview: explicit editorial switch, independent of both
 #   fields above. Means "include in the KittensPreview block on the kittens
@@ -37,10 +37,21 @@ featuredInKittensPreview: false
 
 # §1.7 PROVISIONAL: null means OWNER INPUT REQUIRED. Not an editorial
 # selection. The runtime WU must refuse to publish a kitten while null.
-heroImage: null
-cardImage: null
+heroImage: 1
+cardPhoto:
+  src: "/images/kittens/litter-c/cia-card.webp"
+  width: 748
+  height: 796
+  source:
+    file: "Cia Floriente 5 - Card-фото.png"
+    sha256: "b4a65e3e8f0d79de143063dd9ef764e1cdd84595934d7a9067066d705c11d338"
+    archive: "_source-originals/litter-c-cards/cia-card.png"
+    provenance: "closer portrait of the wand-toy moment seen in cia-4, framed much tighter"
 
 # §10 Traceability: every asset back to workbook row / anchor / media / sha.
+# §9 Normalized customer-facing value. Raw wording stays in source.documentRaw.
+documents: "pedigree"
+
 images:
   - n: 1
     src: "/images/kittens/litter-c/cia-1.webp"

@@ -82,10 +82,38 @@ export function kittenDetailPath(kittenId: string, lang: Lang): string {
   return getLocalizedPath(`/kittens/${kittenId}/`, lang);
 }
 
-/** The kitten's chosen hero/card image, or the first image as a structural fallback. */
-export function kittenImage(kitten: KittenEntry, which: 'heroImage' | 'cardImage') {
-  const n = kitten.data[which];
+/** The kitten's owner-chosen hero frame, with the first image as a structural fallback. */
+export function kittenHeroImage(kitten: KittenEntry) {
+  const n = kitten.data.heroImage;
   return kitten.data.images.find((i) => i.n === n) ?? kitten.data.images[0];
+}
+
+/**
+ * Name Strategy C: the primary customer-facing name in every locale is the
+ * Latin passport FIRST name — Chanel, Churchill, Cai, Cia, Caramel, Chipa.
+ *
+ * Derived from `passportName` rather than stored twice, so there is one source
+ * of truth. The schema refines that this first word equals `kittenId`, so a
+ * future mismatch fails the build instead of rendering the wrong name.
+ */
+export function kittenDisplayName(kitten: KittenEntry): string {
+  return kitten.data.passportName.trim().split(/\s+/)[0];
+}
+
+// Normalized documents labels. The verbatim workbook wording (which carries an
+// internal breeder reference and the pet/breeding restriction) stays in
+// `source.documentRaw` and is never rendered.
+const DOCUMENTS_KEY = {
+  metrics: 'kittens.docMetrics',
+  pedigree: 'kittens.docPedigree',
+} as const;
+
+/** Localized documents label, or null when not stated — null renders no line. */
+export function documentsLabel(
+  documents: KittenEntry['data']['documents'],
+  lang: Lang,
+): string | null {
+  return documents ? t(lang, DOCUMENTS_KEY[documents]) : null;
 }
 
 // Commercial status labels resolve through the normal i18n mechanism, so

@@ -1,7 +1,7 @@
 ---
-import { localizedBreed } from '../../i18n/utils';
+import { t, localizedBreed } from '../../i18n/utils';
 import type { Lang } from '../../i18n/utils';
-import { kittenDetailPath, kittenImage } from '../../lib/kittens';
+import { kittenDetailPath, kittenDisplayName } from '../../lib/kittens';
 import type { KittenEntry } from '../../lib/kittens';
 import StatusBadge from './StatusBadge.astro';
 
@@ -9,12 +9,16 @@ interface Props {
   /** Always a published entity — drafts never reach a card. */
   kitten: KittenEntry;
   lang: Lang;
+  /** Localized factual alt from kittenCopy; falls back to the display name. */
+  alt?: string;
 }
 
-const { kitten, lang } = Astro.props;
+const { kitten, lang, alt } = Astro.props;
 const k = kitten.data;
 const profileUrl = kittenDetailPath(k.kittenId, lang);
-const photo = kittenImage(kitten, 'cardImage');
+// Dedicated card crop, never a gallery frame.
+const photo = k.cardPhoto!;
+const displayName = kittenDisplayName(kitten);
 ---
 
 <a
@@ -27,7 +31,7 @@ const photo = kittenImage(kitten, 'cardImage');
   <div class="relative overflow-hidden aspect-square">
     <img
       src={photo.src}
-      alt={k.homeName}
+      alt={alt ?? displayName}
       width={photo.width}
       height={photo.height}
       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -43,8 +47,8 @@ const photo = kittenImage(kitten, 'cardImage');
     )}
   </div>
   <div class="p-4">
-    <h3 class="font-serif text-lg">{k.homeName}</h3>
+    <h3 class="font-serif text-lg">{displayName}</h3>
     <p class="text-sm text-gray-medium mt-1">{localizedBreed(k.breed, k.sex, lang)}</p>
-    <p class="text-[11px] text-gray-300 mt-0.5">{k.passportName}</p>
+    <p class="text-[11px] text-gray-300 mt-0.5">{t(lang, 'kittens.homeNameLabel')} {k.homeName}</p>
   </div>
 </a>
