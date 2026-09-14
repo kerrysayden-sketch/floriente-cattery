@@ -90,11 +90,13 @@ const legal = defineCollection({
 //                or a hero pick is a single edit and cannot drift between
 //                locales. Litters A and B are untouched historical content and
 //                deliberately stay hardcoded in KittensListPage.astro.
-// `kittenCopy` = the genuinely localized layer, one file per kitten per locale,
-//                description in the markdown body. Intentionally EMPTY until the
-//                copy work unit: the build's "No files found" notice for this
-//                collection is the expected signal that copy is still missing.
-//                No placeholder text is added to satisfy the schema.
+// `kittenCopy` = the genuinely localized layer, one file per kitten per locale:
+//                the factual description in the markdown body, plus the
+//                personality fields (`traits`, `cardPersonality`) that the
+//                listing card renders. All 30 files exist; a missing locale is a
+//                build failure, never a silent English fallback, and placeholder
+//                or machine-translated filler is not an acceptable way to
+//                satisfy the schema.
 // ─────────────────────────────────────────────────────────────────────────────
 
 const LOCALES = ['en', 'uk', 'pl', 'de', 'ru'] as const;
@@ -232,14 +234,23 @@ const kittenCopy = defineCollection({
     alt: z.string(),
     metaTitle: z.string().optional(),
     metaDescription: z.string().optional(),
-    // ONE short personality sentence for the LISTING CARD (~8-12 words),
-    // owner-approved from the breeder's own account of the litter. Optional by
-    // design: a kitten without it renders exactly as before, so the field can
-    // never force placeholder copy or break a build. Deliberately a string and
-    // not an array — the card carries a single understated line, while the
-    // chips stay on the detail page in `traits`, so the two surfaces can be
-    // edited independently.
+    // ── Personality. Both fields render on the LITTER C LISTING CARD. ────────
+    // Personality is a browsing surface: a visitor comparing the litter should
+    // be able to tell the kittens apart from the grid, without opening a page
+    // each. KittensListPage renders the chips and the line together inside the
+    // card; KittenDetailPage renders NEITHER and stays factual. Do not "restore"
+    // a personality block there — that would undo the product decision and
+    // duplicate the card.
+    //
+    // cardPersonality — ONE short description (~8-12 words), owner-approved from
+    // the breeder's own account of the litter. Optional by design, so a kitten
+    // without it renders exactly as before and no placeholder copy is ever
+    // required. A string rather than an array: the card carries a single
+    // understated line beneath the chips.
     cardPersonality: z.string().optional(),
+    // traits — short localized personality chips, up to three, rendered as pills
+    // on the listing card above `cardPersonality`. Never padded to a fixed count:
+    // Cai and Caramel carry two because the source supports two.
     traits: z.array(z.string()).default([]),
     captions: z.array(z.object({ n: z.number().int().min(1).max(4), text: z.string() })).default([]),
     // Body = the description. No fallback: a missing locale file is a missing
