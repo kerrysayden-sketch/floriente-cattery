@@ -99,7 +99,13 @@ const hiText = t(lang, 'kittens.hiText');
           <button data-filter="status" data-value="reserved" class="filter-btn px-3 py-1.5 rounded-full text-xs font-medium border border-gray-light text-dark-soft hover:border-gold hover:text-gold transition-colors">{t(lang, 'kittens.statusReserved')}</button>
         </div>
 
-        <div id="kitten-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10">
+        {/*
+          Three columns, not four: six kittens fill two complete rows instead of
+          leaving a ragged 4+2, and the extra column width pays for the card's
+          internal padding — without it the German lines lose the layout margin
+          they were edited to gain.
+        */}
+        <div id="kitten-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {litterC.map((entry) => {
             const k = entry.data;
             const photo = k.cardPhoto!;
@@ -108,9 +114,18 @@ const hiText = t(lang, 'kittens.hiText');
             const copy = litterCCopy.get(k.kittenId);
             const colorLabel = copy?.data.colorLabel;
             return (
-              <a href={kittenDetailPath(k.kittenId, lang)} class="kitten-card text-center group" data-status={k.commercialStatus ?? 'none'}>
-                <div class="relative mx-auto w-72 h-72 sm:w-60 sm:h-60 md:w-64 md:h-64 mb-3">
-                  <div class="w-full h-full rounded-full overflow-hidden border-2 border-gray-200 group-hover:border-gold/40 group-hover:shadow-md transition-all duration-300 shadow-sm">
+              <a
+                href={kittenDetailPath(k.kittenId, lang)}
+                class="kitten-card group flex flex-col text-center rounded-xl bg-white border border-gray-light p-5 shadow-sm transition-all duration-300 hover:border-gold/40 hover:shadow-lg"
+                data-status={k.commercialStatus ?? 'none'}
+              >
+                {/*
+                  The card surface is plain white on the warm-white page
+                  (--color-warm-white IS the page background), so the lift comes
+                  from the border and shadow rather than from a tinted fill.
+                */}
+                <div class="relative mx-auto w-full max-w-64 aspect-square mb-4">
+                  <div class="w-full h-full rounded-full overflow-hidden border border-gray-light">
                     <img src={photo.src} alt={copy?.data.alt ?? displayName} width={photo.width} height={photo.height} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
                   </div>
                   {statusLabel && (
@@ -124,14 +139,14 @@ const hiText = t(lang, 'kittens.hiText');
                 <p class="text-xs text-gray-medium mt-1 leading-tight">{localizedBreed(k.breed, k.sex, lang)}{colorLabel ? ` · ${colorLabel}` : ''}</p>
                 <p class="text-[11px] text-gray-300 mt-0.5 leading-tight">{t(lang, 'kittens.homeNameLabel')} {k.homeName}</p>
                 {copy && copy.data.traits.length > 0 && (
-                  <ul class="flex flex-wrap justify-center gap-1.5 mt-2.5 list-none p-0">
+                  <ul class="flex flex-wrap justify-center gap-1.5 mt-3 list-none p-0">
                     {copy.data.traits.map((trait) => (
                       <li class="px-2.5 py-0.5 rounded-full bg-gold/10 text-gold text-[11px] leading-snug">{trait}</li>
                     ))}
                   </ul>
                 )}
                 {copy?.data.cardPersonality && (
-                  <p class="text-xs text-gray-medium mt-2 leading-snug max-w-[17rem] mx-auto">{copy.data.cardPersonality}</p>
+                  <p class="text-xs text-gray-medium mt-2.5 leading-snug">{copy.data.cardPersonality}</p>
                 )}
               </a>
             );
