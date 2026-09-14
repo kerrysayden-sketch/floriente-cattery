@@ -3,7 +3,8 @@ kittenId: "churchill"
 lang: "en"
 colorLabel: "Seal Tabby point"
 alt: "Churchill, Siamese kitten, Seal Tabby point"
-traits: []
+cardPersonality: "Brave and level-headed: he doesn't run with the group — he makes his own decisions."
+traits: ["Brave", "Independent", "Level-headed"]
 captions: []
 ---
 

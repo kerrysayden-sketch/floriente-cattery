@@ -3,7 +3,8 @@ kittenId: "caramel"
 lang: "en"
 colorLabel: "Black tabby spotted"
 alt: "Caramel, Oriental Shorthair kitten, Black tabby spotted"
-traits: []
+cardPersonality: "Very quiet and calm; she likes tucked-away places where she can hide."
+traits: ["Quiet", "Calm"]
 captions: []
 ---
 

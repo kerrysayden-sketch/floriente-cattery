@@ -3,7 +3,8 @@ kittenId: "cai"
 lang: "de"
 colorLabel: "Schwarz getupft-tabby"
 alt: "Cai, Orientalisch-Kurzhaar-Kätzchen, Schwarz getupft-tabby"
-traits: []
+cardPersonality: "Sehr gesellig und ein selbstbewusster Anführer unter den Kitten."
+traits: ["Gesellig", "Anführer"]
 captions: []
 ---
 

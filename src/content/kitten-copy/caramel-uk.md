@@ -3,7 +3,8 @@ kittenId: "caramel"
 lang: "uk"
 colorLabel: "Чорний плямистий таббі"
 alt: "Caramel, орієнтальне кошеня, Чорний плямистий таббі"
-traits: []
+cardPersonality: "Дуже тиха і спокійна; любить затишні місця, де можна сховатися."
+traits: ["Тиха", "Спокійна"]
 captions: []
 ---
 

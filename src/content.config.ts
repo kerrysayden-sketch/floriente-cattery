@@ -232,6 +232,14 @@ const kittenCopy = defineCollection({
     alt: z.string(),
     metaTitle: z.string().optional(),
     metaDescription: z.string().optional(),
+    // ONE short personality sentence for the LISTING CARD (~8-12 words),
+    // owner-approved from the breeder's own account of the litter. Optional by
+    // design: a kitten without it renders exactly as before, so the field can
+    // never force placeholder copy or break a build. Deliberately a string and
+    // not an array — the card carries a single understated line, while the
+    // chips stay on the detail page in `traits`, so the two surfaces can be
+    // edited independently.
+    cardPersonality: z.string().optional(),
     traits: z.array(z.string()).default([]),
     captions: z.array(z.object({ n: z.number().int().min(1).max(4), text: z.string() })).default([]),
     // Body = the description. No fallback: a missing locale file is a missing

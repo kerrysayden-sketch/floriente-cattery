@@ -3,7 +3,8 @@ kittenId: "chanel"
 lang: "de"
 colorLabel: "Schokolade"
 alt: "Chanel, Orientalisch-Kurzhaar-Kätzchen, Schokolade"
-traits: []
+cardPersonality: "Fröhlich und mutig: Sie springt hoch und kommt von selbst auf Menschen zu."
+traits: ["Fröhlich", "Mutig", "Gesellig"]
 captions: []
 ---
 

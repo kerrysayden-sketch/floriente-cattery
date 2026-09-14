@@ -3,7 +3,8 @@ kittenId: "cai"
 lang: "en"
 colorLabel: "Black tabby spotted"
 alt: "Cai, Oriental Shorthair kitten, Black tabby spotted"
-traits: []
+cardPersonality: "Very sociable and a confident leader among the other kittens."
+traits: ["Sociable", "Leader"]
 captions: []
 ---
 

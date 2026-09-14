@@ -3,7 +3,8 @@ kittenId: "churchill"
 lang: "de"
 colorLabel: "Seal-Tabby-Point"
 alt: "Churchill, Siam-Kätzchen, Seal-Tabby-Point"
-traits: []
+cardPersonality: "Mutig und besonnen: Er läuft nicht einfach mit, sondern entscheidet selbst."
+traits: ["Mutig", "Selbstständig", "Besonnen"]
 captions: []
 ---
 

@@ -3,7 +3,8 @@ kittenId: "chanel"
 lang: "en"
 colorLabel: "Chocolate"
 alt: "Chanel, Oriental Shorthair kitten, Chocolate"
-traits: []
+cardPersonality: "Cheerful and brave: she jumps high and comes out to say hello on her own."
+traits: ["Cheerful", "Brave", "Outgoing"]
 captions: []
 ---
 

@@ -3,7 +3,8 @@ kittenId: "churchill"
 lang: "pl"
 colorLabel: "Seal tabby point"
 alt: "Churchill, kocię syjamskie, Seal tabby point"
-traits: []
+cardPersonality: "Odważny i rozważny: nie biegnie za grupą, decyzje podejmuje sam."
+traits: ["Odważny", "Samodzielny", "Rozważny"]
 captions: []
 ---
 

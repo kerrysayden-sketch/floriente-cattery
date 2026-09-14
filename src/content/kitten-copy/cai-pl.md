@@ -3,7 +3,8 @@ kittenId: "cai"
 lang: "pl"
 colorLabel: "Czarny cętkowany tabby"
 alt: "Cai, kocię orientalne, Czarny cętkowany tabby"
-traits: []
+cardPersonality: "Bardzo towarzyski i pewny siebie lider w grupie kociąt."
+traits: ["Towarzyski", "Lider"]
 captions: []
 ---
 

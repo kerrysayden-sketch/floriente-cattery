@@ -3,7 +3,8 @@ kittenId: "chanel"
 lang: "pl"
 colorLabel: "Czekoladowy"
 alt: "Chanel, kocię orientalne, Czekoladowy"
-traits: []
+cardPersonality: "Wesoła i odważna: wysoko skacze i sama wychodzi się przywitać."
+traits: ["Radosna", "Odważna", "Towarzyska"]
 captions: []
 ---
 

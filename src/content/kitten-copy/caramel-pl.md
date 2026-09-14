@@ -3,7 +3,8 @@ kittenId: "caramel"
 lang: "pl"
 colorLabel: "Czarny cętkowany tabby"
 alt: "Caramel, kocię orientalne, Czarny cętkowany tabby"
-traits: []
+cardPersonality: "Bardzo cicha i spokojna; lubi ustronne miejsca, w których może się schować."
+traits: ["Cicha", "Spokojna"]
 captions: []
 ---
 
