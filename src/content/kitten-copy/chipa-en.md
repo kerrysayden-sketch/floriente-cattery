@@ -9,5 +9,3 @@ captions: []
 ---
 
 Chipa is a female Oriental Shorthair kitten from Litter C at Floriente Cattery, born on 6 July 2026. Colour: Black tabby spotted. Parents: Sebastian and Simona.
-
-Chipa went through her microchipping and all her vaccinations calmly — without a single squeak.

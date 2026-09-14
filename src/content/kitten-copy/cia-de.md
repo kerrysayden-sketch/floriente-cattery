@@ -9,5 +9,3 @@ captions: []
 ---
 
 Cia ist ein weibliches Orientalisch-Kurzhaar-Kätzchen aus Wurf „C” der Floriente Cattery, geboren am 6. Juli 2026. Farbe: Schwarz getupft-tabby. Eltern: Sebastian und Simona.
-
-Cia hält kaum still: Sie muss ständig in Bewegung sein und springen. Kaum geht eine Tür auf, ist sie schon da.

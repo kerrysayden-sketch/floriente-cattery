@@ -123,6 +123,13 @@ const hiText = t(lang, 'kittens.hiText');
                 </h3>
                 <p class="text-xs text-gray-medium mt-1 leading-tight">{localizedBreed(k.breed, k.sex, lang)}{colorLabel ? ` · ${colorLabel}` : ''}</p>
                 <p class="text-[11px] text-gray-300 mt-0.5 leading-tight">{t(lang, 'kittens.homeNameLabel')} {k.homeName}</p>
+                {copy && copy.data.traits.length > 0 && (
+                  <ul class="flex flex-wrap justify-center gap-1.5 mt-2.5 list-none p-0">
+                    {copy.data.traits.map((trait) => (
+                      <li class="px-2.5 py-0.5 rounded-full bg-gold/10 text-gold text-[11px] leading-snug">{trait}</li>
+                    ))}
+                  </ul>
+                )}
                 {copy?.data.cardPersonality && (
                   <p class="text-xs text-gray-medium mt-2 leading-snug max-w-[17rem] mx-auto">{copy.data.cardPersonality}</p>
                 )}

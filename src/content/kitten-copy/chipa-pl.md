@@ -9,5 +9,3 @@ captions: []
 ---
 
 Chipa to kotka orientalna z miotu „C” hodowli Floriente Cattery, urodzona 6 lipca 2026 roku. Umaszczenie: Czarny cętkowany tabby. Rodzice: Sebastian i Simona.
-
-Chipa spokojnie przeszła czipowanie i wszystkie szczepienia — bez jednego pisku.

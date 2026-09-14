@@ -88,13 +88,13 @@ const description = c.metaDescription || paragraphs[0] || `${displayName} · ${b
           {documents && <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldDocuments')}</dt><dd class="text-sm text-dark">{documents}</dd></div>}
         </dl>
 
-        {c.traits.length > 0 && (
-          <ul class="flex flex-wrap gap-2 mb-8 list-none p-0">
-            {c.traits.map((trait) => (
-              <li class="px-3 py-1 rounded-full bg-gold/10 text-gold text-xs font-medium">{trait}</li>
-            ))}
-          </ul>
-        )}
+        {/*
+          `traits` is deliberately NOT rendered here. Personality is a browsing
+          surface: it belongs on the listing card, where a visitor compares the
+          litter, not behind a click on one kitten. KittensListPage renders the
+          chips and the short description together; this page stays factual.
+          The field itself is live content — see src/content.config.ts.
+        */}
 
         {paragraphs.length > 0 && (
           <div class="space-y-4 mb-8">
