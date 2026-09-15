@@ -88,17 +88,32 @@ const description = c.metaDescription || paragraphs[0] || `${displayName} · ${b
           {documents && <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldDocuments')}</dt><dd class="text-sm text-dark">{documents}</dd></div>}
         </dl>
 
-        {/*
-          `traits` is deliberately NOT rendered here. Personality is a browsing
-          surface: it belongs on the listing card, where a visitor compares the
-          litter, not behind a click on one kitten. KittensListPage renders the
-          chips and the short description together; this page stays factual.
-          The field itself is live content — see src/content.config.ts.
-        */}
-
         {paragraphs.length > 0 && (
-          <div class="space-y-4 mb-8">
+          <div class="space-y-4 mb-6">
             {paragraphs.map((p) => <p class="text-dark-soft text-sm md:text-base leading-relaxed">{p}</p>)}
+          </div>
+        )}
+
+        {/*
+          Personality — the breeder's own account of this kitten, in the visitor's
+          locale. An additive block inside the existing information column: the
+          factual description sits above it and the reservation CTA below, so it
+          reads as part of this kitten's story rather than as a separate panel.
+          The listing deliberately carries none of this: it stays a photo-led
+          index, and personality is what a visitor finds on opening a kitten.
+        */}
+        {(c.traits.length > 0 || c.cardPersonality) && (
+          <div class="mb-8">
+            {c.traits.length > 0 && (
+              <ul class="flex flex-wrap gap-2 mb-3 list-none p-0">
+                {c.traits.map((trait) => (
+                  <li class="px-3 py-1 rounded-full bg-gold/10 text-gold text-xs font-medium">{trait}</li>
+                ))}
+              </ul>
+            )}
+            {c.cardPersonality && (
+              <p class="text-dark-soft text-sm leading-relaxed">{c.cardPersonality}</p>
+            )}
           </div>
         )}
 

@@ -93,7 +93,7 @@ const legal = defineCollection({
 // `kittenCopy` = the genuinely localized layer, one file per kitten per locale:
 //                the factual description in the markdown body, plus the
 //                personality fields (`traits`, `cardPersonality`) that the
-//                listing card renders. All 30 files exist; a missing locale is a
+//                kitten detail page renders. All 30 files exist; a missing locale is a
 //                build failure, never a silent English fallback, and placeholder
 //                or machine-translated filler is not an acceptable way to
 //                satisfy the schema.
@@ -234,23 +234,24 @@ const kittenCopy = defineCollection({
     alt: z.string(),
     metaTitle: z.string().optional(),
     metaDescription: z.string().optional(),
-    // ── Personality. Both fields render on the LITTER C LISTING CARD. ────────
-    // Personality is a browsing surface: a visitor comparing the litter should
-    // be able to tell the kittens apart from the grid, without opening a page
-    // each. KittensListPage renders the chips and the line together inside the
-    // card; KittenDetailPage renders NEITHER and stays factual. Do not "restore"
-    // a personality block there — that would undo the product decision and
-    // duplicate the card.
+    // ── Personality. Both fields render on the KITTEN DETAIL PAGE. ───────────
+    // The two surfaces do different jobs. The listing is a photo-led index —
+    // portrait, status, name, breed and home name, and nothing more; it is the
+    // pre-existing production presentation and personality must never be added
+    // to it. Personality is what a visitor finds on opening a kitten, so
+    // KittenDetailPage renders the chips and the line together, between the
+    // factual description and the reservation CTA.
     //
     // cardPersonality — ONE short description (~8-12 words), owner-approved from
     // the breeder's own account of the litter. Optional by design, so a kitten
     // without it renders exactly as before and no placeholder copy is ever
-    // required. A string rather than an array: the card carries a single
-    // understated line beneath the chips.
+    // required. A string rather than an array: one line beneath the chips.
+    // (The name is historical — it was written for a card that no longer
+    // carries it. Renaming would churn all 30 content files for no gain.)
     cardPersonality: z.string().optional(),
     // traits — short localized personality chips, up to three, rendered as pills
-    // on the listing card above `cardPersonality`. Never padded to a fixed count:
-    // Cai and Caramel carry two because the source supports two.
+    // above `cardPersonality`. Never padded to a fixed count: Cai and Caramel
+    // carry two because the source supports two.
     traits: z.array(z.string()).default([]),
     captions: z.array(z.object({ n: z.number().int().min(1).max(4), text: z.string() })).default([]),
     // Body = the description. No fallback: a missing locale file is a missing
