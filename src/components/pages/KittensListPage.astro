@@ -92,13 +92,12 @@ const hiText = t(lang, 'kittens.hiText');
         </div>
         <p class="text-sm text-gray-medium mb-8">{t(lang, 'kittens.litterCMeta')}</p>
 
-        <div id="kitten-filters" class="flex flex-wrap gap-2 justify-center mb-4">
-          <span class="text-xs text-gray-medium uppercase tracking-wider mr-2 self-center">{t(lang, 'kittens.statusLabel')}</span>
-          <button data-filter="status" data-value="all" class="filter-btn active px-3 py-1.5 rounded-full text-xs font-medium border border-gold bg-gold text-warm-white transition-colors">{t(lang, 'kittens.statusAll')}</button>
-          <button data-filter="status" data-value="available" class="filter-btn px-3 py-1.5 rounded-full text-xs font-medium border border-gray-light text-dark-soft hover:border-gold hover:text-gold transition-colors">{t(lang, 'kittens.statusAvailable')}</button>
-          <button data-filter="status" data-value="reserved" class="filter-btn px-3 py-1.5 rounded-full text-xs font-medium border border-gray-light text-dark-soft hover:border-gold hover:text-gold transition-colors">{t(lang, 'kittens.statusReserved')}</button>
-        </div>
-
+        {/*
+          No status filter. Six kittens all fit on one screen, so filtering them
+          was UI for a problem the page does not have — every kitten is always
+          shown. Each portrait still carries its own status badge, which is where
+          a visitor actually reads availability.
+        */}
         <div id="kitten-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10">
           {litterC.map((entry) => {
             const k = entry.data;
@@ -108,7 +107,7 @@ const hiText = t(lang, 'kittens.hiText');
             const copy = litterCCopy.get(k.kittenId);
             const colorLabel = copy?.data.colorLabel;
             return (
-              <a href={kittenDetailPath(k.kittenId, lang)} class="kitten-card text-center group" data-status={k.commercialStatus ?? 'none'}>
+              <a href={kittenDetailPath(k.kittenId, lang)} class="kitten-card text-center group">
                 <div class="relative mx-auto w-72 h-72 sm:w-60 sm:h-60 md:w-64 md:h-64 mb-3">
                   <div class="w-full h-full rounded-full overflow-hidden border-2 border-gray-200 group-hover:border-gold/40 group-hover:shadow-md transition-all duration-300 shadow-sm">
                     <img src={photo.src} alt={copy?.data.alt ?? displayName} width={photo.width} height={photo.height} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
@@ -195,34 +194,3 @@ const hiText = t(lang, 'kittens.hiText');
   </div>
 </BaseLayout>
 
-<script>
-  const grid = document.getElementById('kitten-grid');
-  const empty = document.getElementById('filter-empty');
-  const activeFilters = { status: 'all', breed: 'all', sex: 'all' };
-
-  function applyFilters() {
-    if (!grid) return;
-    const cards = grid.querySelectorAll('[data-status]');
-    let visibleCount = 0;
-    cards.forEach((card) => {
-      const el = card as HTMLElement;
-      const matchStatus = activeFilters.status === 'all' || el.dataset.status === activeFilters.status;
-      if (matchStatus) { el.style.display = ''; visibleCount++; }
-      else { el.style.display = 'none'; }
-    });
-    if (empty) empty.classList.toggle('hidden', visibleCount > 0);
-  }
-
-  document.querySelectorAll('.filter-btn').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const filterType = btn.getAttribute('data-filter') as keyof typeof activeFilters;
-      const value = btn.getAttribute('data-value') || 'all';
-      activeFilters[filterType] = value;
-      const siblings = document.querySelectorAll(`[data-filter="${filterType}"]`);
-      siblings.forEach((b) => { b.classList.remove('active', 'bg-gold', 'text-warm-white', 'border-gold'); b.classList.add('border-gray-light', 'text-dark-soft'); });
-      btn.classList.add('active', 'bg-gold', 'text-warm-white', 'border-gold');
-      btn.classList.remove('border-gray-light', 'text-dark-soft');
-      applyFilters();
-    });
-  });
-</script>
