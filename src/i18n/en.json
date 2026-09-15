@@ -303,7 +303,7 @@
     "fieldColor": "Color",
     "fieldTitle": "Title",
     "healthTesting": "Health Testing",
-    "healthResultsExpected": "Results expected - Summer 2026",
+    "healthResultsExpected": "Genetic test information pending",
     "healthLabs": "Laboratory: SOVA GenLab (Kyiv, Ukraine)",
     "healthResultsClean": "PKdef N/N · PRA-rdAc N/N",
     "healthViewCert": "View certificate",
@@ -321,7 +321,12 @@
     "halvaPhoto1": "Photoshoot with flowers",
     "halvaPhoto2": "Sweet dreams",
     "halvaPhoto3": "Wrapped in a cozy blanket",
-    "halvaPhoto4": "Warming up in the sun"
+    "halvaPhoto4": "Warming up in the sun",
+    "enyaColor": "Black tortie",
+    "enyaPhoto1": "Catching the toy",
+    "enyaPhoto2": "Close-up portrait",
+    "enyaPhoto3": "Chasing the wand",
+    "enyaPhoto4": "Carrying her toy"
   },
   "kittens": {
     "pageSubtitle": "Each kitten grew up surrounded by love and found a family that was just right for them",

@@ -303,7 +303,7 @@
     "fieldColor": "Окрас",
     "fieldTitle": "Титул",
     "healthTesting": "Тестування здоров'я",
-    "healthResultsExpected": "Результати очікуються - літо 2026",
+    "healthResultsExpected": "Інформація про генетичні тести уточнюється",
     "healthLabs": "Лабораторія: SOVA GenLab (Київ, Україна)",
     "healthResultsClean": "PKdef N/N · PRA-rdAc N/N",
     "healthViewCert": "Переглянути сертифікат",
@@ -321,7 +321,12 @@
     "halvaPhoto1": "Фотосесія із квітками",
     "halvaPhoto2": "Солодкий сон",
     "halvaPhoto3": "Загорнулась у затишний плед",
-    "halvaPhoto4": "Гріємось на сонечку"
+    "halvaPhoto4": "Гріємось на сонечку",
+    "enyaColor": "Чорна черепаха",
+    "enyaPhoto1": "Ловить іграшку",
+    "enyaPhoto2": "Портрет зблизька",
+    "enyaPhoto3": "Полює на дражнилку",
+    "enyaPhoto4": "Несе свою іграшку"
   },
   "kittens": {
     "pageSubtitle": "Кожне кошеня виросло в любові та знайшло родину, яка підходить саме йому",

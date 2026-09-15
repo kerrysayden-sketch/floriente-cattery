@@ -303,7 +303,7 @@
     "fieldColor": "Kolor",
     "fieldTitle": "Tytuł",
     "healthTesting": "Testy zdrowotne",
-    "healthResultsExpected": "Wyniki oczekiwane - Lato 2026",
+    "healthResultsExpected": "Informacja o badaniach genetycznych w przygotowaniu",
     "healthLabs": "Laboratorium: SOVA GenLab (Kijów, Ukraina)",
     "healthResultsClean": "PKdef N/N · PRA-rdAc N/N",
     "healthViewCert": "Zobacz certyfikat",
@@ -321,7 +321,12 @@
     "halvaPhoto1": "Sesja z kwiatami",
     "halvaPhoto2": "Słodkie sny",
     "halvaPhoto3": "Owinięta przytulnym kocykiem",
-    "halvaPhoto4": "Ogrzewanie się w słońcu"
+    "halvaPhoto4": "Ogrzewanie się w słońcu",
+    "enyaColor": "Czarna szylkretowa",
+    "enyaPhoto1": "Łapie zabawkę",
+    "enyaPhoto2": "Portret z bliska",
+    "enyaPhoto3": "Poluje na wędkę",
+    "enyaPhoto4": "Niesie swoją zabawkę"
   },
   "kittens": {
     "pageSubtitle": "Każde kocię dorastało otoczone miłością i znalazło rodzinę, która była dla niego idealna",

@@ -303,7 +303,7 @@
     "fieldColor": "Окрас",
     "fieldTitle": "Титул",
     "healthTesting": "Тесты здоровья",
-    "healthResultsExpected": "Результаты ожидаются - Лето 2026",
+    "healthResultsExpected": "Информация о генетических тестах уточняется",
     "healthLabs": "Лаборатория: SOVA GenLab (Киев, Украина)",
     "healthResultsClean": "PKdef N/N · PRA-rdAc N/N",
     "healthViewCert": "Посмотреть сертификат",
@@ -321,7 +321,12 @@
     "halvaPhoto1": "Съёмка с цветами",
     "halvaPhoto2": "Сладкие сны",
     "halvaPhoto3": "В уютном пледе",
-    "halvaPhoto4": "На солнышке"
+    "halvaPhoto4": "На солнышке",
+    "enyaColor": "Чёрный черепаховый",
+    "enyaPhoto1": "Ловит игрушку",
+    "enyaPhoto2": "Портрет крупным планом",
+    "enyaPhoto3": "Охотится за дразнилкой",
+    "enyaPhoto4": "Несёт свою игрушку"
   },
   "kittens": {
     "pageSubtitle": "Каждый котёнок рос в любви и нашёл семью, которая ему идеально подошла",

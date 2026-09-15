@@ -303,7 +303,7 @@
     "fieldColor": "Farbe",
     "fieldTitle": "Titel",
     "healthTesting": "Gesundheitstests",
-    "healthResultsExpected": "Ergebnisse erwartet - Sommer 2026",
+    "healthResultsExpected": "Angaben zu Gentests folgen",
     "healthLabs": "Labor: SOVA GenLab (Kyjiw, Ukraine)",
     "healthResultsClean": "PKdef N/N · PRA-rdAc N/N",
     "healthViewCert": "Zertifikat ansehen",
@@ -321,7 +321,12 @@
     "halvaPhoto1": "Shooting mit Blumen",
     "halvaPhoto2": "Süße Träume",
     "halvaPhoto3": "In eine kuschelige Decke gewickelt",
-    "halvaPhoto4": "Sonnt sich"
+    "halvaPhoto4": "Sonnt sich",
+    "enyaColor": "Schwarz-Tortie",
+    "enyaPhoto1": "Fängt das Spielzeug",
+    "enyaPhoto2": "Porträt aus der Nähe",
+    "enyaPhoto3": "Jagt die Angel",
+    "enyaPhoto4": "Trägt ihr Spielzeug"
   },
   "kittens": {
     "pageSubtitle": "Jedes Kätzchen wuchs in Liebe auf und fand seine perfekte Familie",
