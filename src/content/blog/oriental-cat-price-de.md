@@ -24,7 +24,7 @@ In diesem Artikel ist alles im Detail aufgeschlüsselt. Wenn ein Züchter den Pr
 
 Kätzchen aus demselben Wurf können unterschiedliche Preise haben. Das ist keine Verhandlungssache — das ist ein Klassifizierungssystem.
 
-Pet-Klasse (800–1.500 EUR): Kätzchen mit ausgezeichneter Gesundheit und einem hervorragenden Charakter, die dem Ausstellungsstandard nicht vollständig entsprechen. Sie sehen wie Orientalen aus, verhalten sich wie Orientalen und werden zu starken Begleitern. Die Unterschiede liegen in feinen Detailmerkmalen des Typs (Ohrenstellung, Kinnlinie usw.), die für die meisten Menschen nicht sichtbar sind.
+Pet-Klasse (in der Regel 800–1.500 EUR): Kätzchen mit ausgezeichneter Gesundheit und einem hervorragenden Charakter, die dem Ausstellungsstandard nicht vollständig entsprechen. Sie sehen wie Orientalen aus, verhalten sich wie Orientalen und werden zu starken Begleitern. Die Unterschiede liegen in feinen Detailmerkmalen des Typs (Ohrenstellung, Kinnlinie usw.), die für die meisten Menschen nicht sichtbar sind. Für einzelne Kätzchen mit außergewöhnlichen Rassemerkmalen kann der Preis höher liegen und mit dem von Kätzchen der Breed- und Show-Klasse vergleichbar sein. Auch diese Kätzchen werden kastriert und ohne Zuchtrechte abgegeben.
 
 Breed-Klasse (1.600–2.500 EUR): Kätzchen, die dem Standard entsprechen und in einer registrierten Zucht für die Verpaarung eingesetzt werden können. Das ist eine andere Verantwortungskategorie: Bewertet werden nicht nur das Erscheinungsbild, sondern auch das genetische Potenzial.
 
@@ -87,7 +87,7 @@ Die Orientalisch-Rasse ist eine der wenigen, die alle diese Farben innerhalb ein
 
 ## Preise in Europa: was internationale Käufer wissen sollten
 
-Käufer aus Deutschland, Frankreich, den Niederlanden und anderen EU-Ländern fragen regelmäßig nach Floriente-Kätzchen. Die Preise sind für internationale Käufer dieselben: 800–1.500 EUR für die Pet-Klasse, 1.600–2.500 EUR für Breed und 2.600–4.500 EUR für Show. Bei der Ausfuhr ins Ausland entstehen jedoch zusätzliche Logistikkosten, die nicht im Kätzchenpreis enthalten sind — sie werden separat ausgewiesen und individuell vereinbart.
+Käufer aus Deutschland, Frankreich, den Niederlanden und anderen EU-Ländern fragen regelmäßig nach Floriente-Kätzchen. Die Preise sind für internationale Käufer dieselben: in der Regel 800–1.500 EUR für die Pet-Klasse, 1.600–2.500 EUR für Breed und 2.600–4.500 EUR für Show. Bei der Ausfuhr ins Ausland entstehen jedoch zusätzliche Logistikkosten, die nicht im Kätzchenpreis enthalten sind — sie werden separat ausgewiesen und individuell vereinbart.
 
 Zusätzliche Kosten für Käufer aus der EU:
 
@@ -141,7 +141,7 @@ Das Risiko eines billigen Kaufs ist nicht nur finanziell. Ein ungetestetes Zucht
 
 |  | Verkäufer «Preis auf Anfrage» | Floriente Cattery |
 | --- | --- | --- |
-| Preis öffentlich | Nein | Ja — 800–1.500 EUR Pet-Klasse |
+| Preis öffentlich | Nein | Ja — in der Regel 800–1.500 EUR Pet-Klasse |
 | Metrika (Stammbaum auf Anfrage) | Unbekannt | Enthalten |
 | Gentest (PRA) der Elterntiere | Unbekannt | Beide Elterntiere getestet |
 | Impfprotokoll | Unbekannt | dokumentiert im Heimtierausweis |
@@ -157,7 +157,7 @@ Für internationale Käufer kommen zum Basispaket separate Positionen hinzu: Tol
 
 ## Fragen und Antworten
 
-**Warum kostet ein Orientalisch-Kätzchen 800–1.500 EUR?**
+**Warum kostet ein Orientalisch-Kätzchen in der Regel 800–1.500 EUR?**
 
 Der Preis spiegelt die realen Kosten wider: Gentests beider Elterntiere, drei Impfdurchgänge, Mikrochip-Implantation, Stammbaum-Registrierung, mehrere Tierarztbesuche, Futter und Verbrauchsmaterial ab Geburt sowie die fachliche Infrastruktur einer lizenzierten Zucht. Einen Wurf großzuziehen kostet etwa 2.000 EUR, noch bevor ein einziges Kätzchen verkauft ist. Der Preis ist nicht willkürlich.
 

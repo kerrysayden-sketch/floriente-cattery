@@ -16,7 +16,7 @@ categories:
   - title: "Purchasing & Pricing"
     items:
       - q: "How much does a kitten cost?"
-        a: "Pet class kittens are priced between 800 and 1,500 EUR depending on the individual kitten. Breed and Show class kittens are priced individually, approximately 2x the pet class price. The price includes vaccinations, microchip, veterinary passport, metrika (kitten card), and a starter kit."
+        a: "Pet class kittens are typically priced between 800 and 1,500 EUR depending on the individual kitten. Some kittens with exceptional breed qualities may be priced higher, comparable to Breed and Show class kittens. These kittens also go home spayed/neutered, without breeding rights. Breed and Show class kittens are priced individually; their price is approximately twice the typical price of pet class kittens. The price includes vaccinations, microchip, veterinary passport, metrika (kitten card), and a starter kit."
       - q: "What is included in the price?"
         a: "Every kitten leaves with: full vaccination against viruses and rabies, microchip, veterinary passport, metrika (kitten card), spay/neuter for pet class, food for first days, toys, comfort blanket from home, and an adaptation guide."
       - q: "How does the reservation process work?"

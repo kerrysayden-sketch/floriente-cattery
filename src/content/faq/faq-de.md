@@ -16,7 +16,7 @@ categories:
   - title: "Kauf und Preise"
     items:
       - q: "Was kostet ein Kätzchen?"
-        a: "Pet-Klasse-Kätzchen kosten zwischen 800 und 1.500 EUR, je nach Kätzchen. Breed- und Show-Klasse-Kätzchen werden individuell bepreist, etwa das 2-fache des Pet-Klasse-Preises. Der Preis umfasst Impfungen, Mikrochip, Heimtierausweis, Metrika (Kätzchen-Karte) und Starterset."
+        a: "Pet-Klasse-Kätzchen kosten in der Regel zwischen 800 und 1.500 EUR, je nach Kätzchen. Für einzelne Kätzchen mit außergewöhnlichen Rassemerkmalen kann der Preis höher liegen und mit dem von Breed- und Show-Klasse-Kätzchen vergleichbar sein. Auch diese Kätzchen werden kastriert und ohne Zuchtrechte abgegeben. Breed- und Show-Klasse-Kätzchen werden individuell bepreist; ihr Preis ist etwa doppelt so hoch wie der übliche Preis von Pet-Klasse-Kätzchen. Der Preis umfasst Impfungen, Mikrochip, Heimtierausweis, Metrika (Kätzchen-Karte) und Starterset."
       - q: "Was ist im Preis enthalten?"
         a: "Jedes Kätzchen geht mit: vollständiger Impfung gegen Viren und Tollwut, Mikrochip, Heimtierausweis, Metrika (Kätzchen-Karte), Kastration für Pet-Klasse, Futter für die ersten Tage, Spielzeug, Kuscheldecke von zu Hause und Eingewöhnungs-Leitfaden."
       - q: "Wie funktioniert der Reservierungsprozess?"

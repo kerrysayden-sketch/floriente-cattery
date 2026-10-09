@@ -24,7 +24,7 @@ This article lays it all out. When a breeder hides the price — ask yourself wh
 
 Kittens from the same litter can have different prices. That's not haggling — it's a classification system.
 
-Pet class (800–1,500 EUR): Kittens with great health and character that don't fully match the show standard. They look like Orientals, act like Orientals, and become strong companions. The differences are in fine details of type (ear set, chin line, etc.) that most people don't notice.
+Pet class (typically 800–1,500 EUR): Kittens with great health and character that don't fully match the show standard. They look like Orientals, act like Orientals, and become strong companions. The differences are in fine details of type (ear set, chin line, etc.) that most people don't notice. Some kittens with exceptional breed qualities may be priced higher, comparable to breed and show class kittens. These kittens also go home spayed/neutered, without breeding rights.
 
 Breed class (1,600–2,500 EUR): Kittens that match the standard and can be used for breeding in a registered cattery. This is a different category of responsibility: it's not just looks being assessed, but genetic potential.
 
@@ -87,7 +87,7 @@ The Oriental breed is one of the few that contains all of these colors within a 
 
 ## Pricing in Europe: What International Buyers Need to Know
 
-Buyers from Germany, France, the Netherlands and other EU countries regularly inquire about Floriente kittens. Pricing for international buyers is the same: 800–1,500 EUR for pet class, 1,600–2,500 EUR for breed, and 2,600–4,500 for show. But export comes with additional logistics costs that aren't included in the kitten price — they're billed separately and arranged individually.
+Buyers from Germany, France, the Netherlands and other EU countries regularly inquire about Floriente kittens. Pricing for international buyers is the same: typically 800–1,500 EUR for pet class, 1,600–2,500 EUR for breed, and 2,600–4,500 for show. But export comes with additional logistics costs that aren't included in the kitten price — they're billed separately and arranged individually.
 
 Additional costs for EU buyers:
 
@@ -141,7 +141,7 @@ The risk of a cheap purchase isn't only financial. An untested breeding pair can
 
 | Item | "Price in DM" Seller | Floriente Cattery |
 | --- | --- | --- |
-| Public price | No | Yes — 800–1,500 EUR pet class |
+| Public price | No | Yes — typically 800–1,500 EUR pet class |
 | Metrika (pedigree on request) | Unknown | Included |
 | Genetic testing (PRA) of parents | Unknown | Both parents tested |
 | Vaccination protocol | Unknown | Documented in vet passport |
@@ -157,7 +157,7 @@ For international buyers, separate items are added to the base package: rabies a
 
 ## FAQ
 
-**Why does an Oriental kitten cost 800–1,500 EUR?**
+**Why does an Oriental kitten typically cost 800–1,500 EUR?**
 
 The price reflects real costs: genetic testing of both parents, three rounds of vaccinations, microchipping, pedigree registration, multiple vet visits, food and supplies from birth, and the professional infrastructure of a licensed cattery. Raising a litter costs about 2,000 EUR before a single kitten is sold. The price isn't arbitrary.
 

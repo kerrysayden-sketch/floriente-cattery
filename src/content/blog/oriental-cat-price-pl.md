@@ -24,7 +24,7 @@ W tym artykule wszystko jest rozłożone na półkach. Kiedy hodowca ukrywa cen�
 
 Kociaki z jednego miotu mogą mieć różną cenę. To nie targowanie się — to system klasyfikacji.
 
-Klasa «pet» (800–1 500 euro): Kociaki o doskonałym zdrowiu i charakterze, które nie odpowiadają w pełni standardowi wystawowemu. Wyglądają jak orientalne, zachowują się jak orientalne i stają się silnymi towarzyszami. Różnice — w drobnych szczegółach typu (osadzenie uszu, linia podbródka itp.), które dla większości ludzi są niezauważalne.
+Klasa «pet» (zwykle 800–1 500 euro): Kociaki o doskonałym zdrowiu i charakterze, które nie odpowiadają w pełni standardowi wystawowemu. Wyglądają jak orientalne, zachowują się jak orientalne i stają się silnymi towarzyszami. Różnice — w drobnych szczegółach typu (osadzenie uszu, linia podbródka itp.), które dla większości ludzi są niezauważalne. W przypadku pojedynczych kociaków o wyjątkowych cechach rasowych cena może być wyższa i porównywalna z ceną kociaków klas «breed» i «show». Takie kociaki również przekazujemy wysterylizowane, bez praw hodowlanych.
 
 Klasa «breed» (1 600–2 500 euro): Kociaki spełniające standard i mogące być wykorzystywane w rozrodzie w zarejestrowanej hodowli. To już inna kategoria odpowiedzialności: ocenia się nie tylko wygląd, ale i potencjał genetyczny.
 
@@ -87,7 +87,7 @@ Rasa orientalna — to jedna z niewielu, która zawiera wszystkie te umaszczenia
 
 ## Ceny w Europie: co muszą wiedzieć kupujący międzynarodowi
 
-Kupujący z Niemiec, Francji, Holandii i innych krajów UE regularnie interesują się kociakami Floriente. Ceny dla kupujących międzynarodowych są takie same: 800-1 500 euro dla klasy «pet», 1 600-2 500 euro dla breed i 2 600-4 500 euro dla show. Ale przy wywozie za granicę powstają dodatkowe koszty logistyczne, które nie są wliczone w cenę kociaka — są wystawiane osobno i ustalane indywidualnie.
+Kupujący z Niemiec, Francji, Holandii i innych krajów UE regularnie interesują się kociakami Floriente. Ceny dla kupujących międzynarodowych są takie same: zwykle 800-1 500 euro dla klasy «pet», 1 600-2 500 euro dla breed i 2 600-4 500 euro dla show. Ale przy wywozie za granicę powstają dodatkowe koszty logistyczne, które nie są wliczone w cenę kociaka — są wystawiane osobno i ustalane indywidualnie.
 
 Dodatkowe koszty dla kupujących z UE:
 
@@ -141,7 +141,7 @@ Ryzyko taniego zakupu — to nie tylko finansowe. Nieprzetestowana para hodowlan
 
 |  | Sprzedawca «cena na priv» | Floriente Cattery |
 | --- | --- | --- |
-| Cena publiczna | Nie | Tak — 800–1 500 euro klasa «pet» |
+| Cena publiczna | Nie | Tak — zwykle 800–1 500 euro klasa «pet» |
 | Metryka (rodowód na życzenie) | Nieznane | Wliczone |
 | Testowanie genetyczne (PRA) rodziców | Nieznane | Oboje rodzice przetestowani |
 | Protokół szczepień | Nieznane | Udokumentowane w paszporcie weterynaryjnym |
@@ -157,7 +157,7 @@ Dla kupujących międzynarodowych do podstawowego pakietu dodaje się osobne poz
 
 ## Pytania i odpowiedzi
 
-**Dlaczego kociak orientalny kosztuje 800–1 500 euro?**
+**Dlaczego kociak orientalny kosztuje zwykle 800–1 500 euro?**
 
 Cena odzwierciedla realne koszty: testowanie genetyczne obojga rodziców, trzy tury szczepień, czipowanie, rejestracja rodowodu, kilka wizyt weterynaryjnych, jedzenie i materiały eksploatacyjne od urodzenia, oraz fachowa infrastruktura licencjonowanej hodowli. Wychowanie miotu kosztuje około 2 000 euro jeszcze zanim sprzedano choć jednego kociaka. Cena — nie jest dowolna.
 

@@ -16,7 +16,7 @@ categories:
   - title: "Kupno i ceny"
     items:
       - q: "Ile kosztuje kociak?"
-        a: "Kocięta klasy pet kosztują od 800 do 1500 EUR w zależności od konkretnego kociaka. Kocięta klasy breed i show wyceniane są indywidualnie, około 2 razy więcej niż klasa pet. Cena obejmuje szczepienia, mikroczip, paszport weterynaryjny, metrykę i zestaw startowy."
+        a: "Kocięta klasy pet kosztują zwykle od 800 do 1500 EUR w zależności od konkretnego kociaka. W przypadku pojedynczych kociąt o wyjątkowych cechach rasowych cena może być wyższa i porównywalna z ceną kociąt klasy breed i show. Takie kocięta również są przekazywane po kastracji/sterylizacji, bez praw hodowlanych. Kocięta klasy breed i show wyceniane są indywidualnie; ich cena jest około dwukrotnie wyższa niż zwykła cena kociąt klasy pet. Cena obejmuje szczepienia, mikroczip, paszport weterynaryjny, metrykę i zestaw startowy."
       - q: "Co jest zawarte w cenie?"
         a: "Każde kocię opuszcza hodowlę z kompletem szczepień przeciwko wirusom i wściekliźnie, mikroczipem, paszportem weterynaryjnym, metryką, kastracją/sterylizacją (dla klasy pet), karmą na pierwsze dni, zabawkami, domowym kocykiem i przewodnikiem po adaptacji."
       - q: "Jak wygląda proces rezerwacji?"
