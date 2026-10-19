@@ -152,7 +152,7 @@ Przy wjeździe z Ukrainy z kotem, który tam mieszka: oryginał papierowego unij
 
 **Co zrobić, jeśli mój kot razem z transporterem waży więcej niż dopuszczalny limit 8 kg w kabinie?**
 
-Dostępne opcje: przewóz samolotem jako cargo (osobna procedura z określonymi wymogami — sztywny transporter spełniający przepisy IATA dotyczące przewozu żywych zwierząt oraz wymagania linii lotniczej, rezerwacja przez dział cargo, ograniczenia temperaturowe); podróż samochodem lub pociągiem; skorzystanie z usług profesjonalnego przewoźnika zwierząt, który regularnie kursuje między krajami. W przypadku transportu cargo należy kontaktować się bezpośrednio z działem cargo linii lotniczej, a nie ze standardowej infolinią rezerwacyjną.
+To zależy od linii lotniczej, lotu i kraju docelowego. Niektóre linie przewożą kota zbyt ciężkiego do kabiny w luku bagażowym jako bagaż rejestrowany, rezerwowany w zwykłym trybie rezerwacji przewozu zwierząt — np. Lufthansa, KLM i Austrian, choć nie na wszystkich trasach, samolotach i przesiadkach, a Lufthansa może odmówić przy ekstremalnej pogodzie. Kot podróżuje wtedy w sztywnym transporterze spełniającym przepisy IATA dotyczące przewozu żywych zwierząt oraz wymagania linii lotniczej. Wizz Air i Ryanair w ogóle nie przewożą zwierząt. Cargo (fracht lotniczy) to osobna usługa, rezerwowana przez dział cargo linii lotniczej lub wyspecjalizowanego agenta przewozu zwierząt; niektóre kraje przyjmują zwierzęta wyłącznie jako cargo. Drogą lądową możesz podróżować samochodem lub pociągiem albo skorzystać z usług profesjonalnego przewoźnika zwierząt, który regularnie kursuje między krajami.
 
 **Jak zmniejszyć stres bez sedacji?**
 

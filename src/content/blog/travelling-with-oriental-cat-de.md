@@ -152,7 +152,7 @@ Bei der Einreise aus der Ukraine mit einer dort lebenden Katze: das Original der
 
 **Was, wenn meine Katze schwerer ist als das 8-kg-Limit für die Kabine?**
 
-Ihre Optionen sind: Beförderung im Flugzeug als Frachtgut (ein eigener Prozess mit anderen Anforderungen: eine feste Transportbox gemäß den IATA-Lebendtiervorschriften und den Vorgaben der Fluggesellschaft, Buchung über die Frachtabteilung, Temperaturbeschränkungen), Reise mit dem Auto oder der Bahn oder ein professioneller Tiertransporteur, der regelmäßig zwischen Ländern reist. Für den Frachttransport wenden Sie sich an die Frachtabteilung der Fluggesellschaft, nicht an die Standard-Buchungslinie.
+Das hängt von der Fluggesellschaft, dem Flug und dem Zielland ab. Manche Fluggesellschaften befördern eine Katze, die für die Kabine zu schwer ist, im Frachtraum als aufgegebenes Gepäck, gebucht über die normale Tieranmeldung — etwa Lufthansa, KLM und Austrian, allerdings nicht auf allen Strecken, Flugzeugtypen und Umsteigeverbindungen, und Lufthansa kann sie bei extremem Wetter ablehnen. Die Katze reist dann in einer festen Transportbox gemäß den IATA-Lebendtiervorschriften und den Vorgaben der Fluggesellschaft. Wizz Air und Ryanair befördern überhaupt keine Tiere. Luftfracht (Cargo) ist ein eigener Service, gebucht über die Frachtabteilung der Fluggesellschaft oder einen spezialisierten Tierspediteur; manche Länder akzeptieren Tiere nur als Fracht. Auf dem Landweg können Sie mit dem Auto oder der Bahn reisen oder einen professionellen Tiertransporteur beauftragen, der regelmäßig zwischen Ländern fährt.
 
 **Wie kann man Stress ohne Sedierung reduzieren?**
 

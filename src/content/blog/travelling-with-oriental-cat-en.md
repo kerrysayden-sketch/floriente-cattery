@@ -152,7 +152,7 @@ Coming from Ukraine with a cat that lives there: the original paper EU animal he
 
 **What if my cat is heavier than the 8 kg cabin limit?**
 
-Your options: air transport as cargo (a separate process with different requirements — a rigid container that meets the IATA Live Animals Regulations and the airline's requirements, booking through the cargo department, temperature restrictions); travel by car or train; a professional pet courier who regularly travels between countries. For cargo transport, contact the airline's cargo department, not the standard reservation line.
+It depends on the airline, the flight and the destination. Some airlines carry a cat that is too heavy for the cabin in the aircraft hold as checked baggage, booked through their normal pet booking — Lufthansa, KLM and Austrian, for example, though not on every route, aircraft or connection, and Lufthansa may refuse it in extreme weather. The cat then travels in a rigid container that meets the IATA Live Animals Regulations and the airline's requirements. Wizz Air and Ryanair carry no animals at all. Cargo (air freight) is a separate service, booked through the airline's cargo division or a specialised animal shipping agent; some countries accept animals only as cargo. Over land, you can travel by car or train, or use a professional pet courier who regularly travels between countries.
 
 **How do I lower stress without sedation?**
 
