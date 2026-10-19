@@ -66,8 +66,6 @@ Drei Titelstufen. Neun Bewertungen. Sechs verschiedene Richter. Fünf Städte. Z
 
 Im Jahr 2025 — eine Auszeichnung der WCF. Nach der WCF-Ausstellungssaison belegte Sebastian bei der Teilnahme an Ausstellungen und Ringen den ersten Platz unter den orientalischen Katzen der Ukraine, Simona — den zweiten. Dies ist ein offizielles WCF-Ranking, das automatisch geführt wird: Punkte sammeln sich aus jeder Ausstellung und jedem Ring. Es ist kein zusätzlicher Titel, sondern ein Indikator für Aktivität und Saisonleistung.
 
-> *[Hier Screenshot einfügen: WCF-Ranking 2025 — orientalische Katzen Ukraine — Floriente Platz 1 und 2]*
-
 Eine Beobachtung, die uns auf jeder Ausstellung erstaunt hat: Obwohl Simona ein blauer getupfter Tabby ist (OSH a 24, verdünntes Schwarz, seltener) und Seba ein schwarzer getupfter Tabby (OSH n 24), lag Seba bei den Ringwettbewerben durchgängig vor ihr. Der Grund ist einfach: das Temperament. Im Ring bewerten die Richter, wie eine Katze auf Handling, fremde Menschen und Lärm reagiert. Seba blieb ruhig. Simona — daheim und im Hotel brillant — empfand die Ringatmosphäre als wirklich anstrengend. Verhalten zählte mehr als Farbe. Auf jeder Ausstellung.
 
 ## Simonas vollständiger Weg

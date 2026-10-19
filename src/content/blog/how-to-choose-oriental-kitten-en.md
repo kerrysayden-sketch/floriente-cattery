@@ -92,7 +92,7 @@ This is the document checklist for a kitten transferred within the EU or from Uk
 | 1 | EU pet passport (within EU) and animal health certificate / AHC (Ukraine to EU) | Required for legal entry |
 | 2 | ISO microchip, 15 digits | Must be implanted before travel; number recorded in passport |
 | 3 | Vaccination record — core viral panel and rabies | Dates, vaccine name, batch number, vet signature |
-| 4 | Rabies titer result (if required by destination country) | Blood test from an accredited lab; result ≥0.5 IU/ml |
+| 4 | Rabies titre test result (required for travel from Ukraine to the EU) | Blood test from an EU-approved lab; result ≥0.5 IU/ml |
 | 5 | Sales contract | States class, sterilization clause if applicable, return policy |
 | 6 | Metrika (kitten card / birth certificate); pedigree available on request | Standard handover includes the metrika — the official birth document with a club number. The pedigree (3–5 generations) is ordered separately through the club at the owner's initiative and for an additional fee. Issued by the registry (WCF, FIFe, TICA). |
 | 7 | Genetic test results for sire and dam | Minimum cardiac screening for HCM; PRA if relevant for the breed |

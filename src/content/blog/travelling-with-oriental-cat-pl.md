@@ -12,63 +12,81 @@ Podróż z kotem to nie sytuacja awaryjna, lecz zaplanowany proces. Kot powinien
 
 ## W skrócie
 
-Używaj miękkiego transportera z certyfikatem IATA, mieszczącego się pod fotelem przed tobą. Przyzwyczajaj do niego kota na 2-3 tygodnie przed podróżą, a nie na ostatnią chwilę.
+Używaj miękkiego transportera zgodnego z wymiarami twojej linii lotniczej, mieszczącego się pod fotelem przed tobą. Przyzwyczajaj do niego kota na 2-3 tygodnie przed podróżą, a nie na ostatnią chwilę.
 
 Zarezerwuj miejsce dla kota w kabinie jednocześnie z zakupem własnego biletu. Liczba miejsc jest ograniczona, a systemy linii lotniczych nie przydzielają ich automatycznie.
 
-W przypadku przekroczenia granicy UE wymagane są: paszport zwierzęcia, mikroczip oraz ważne szczepienie przeciwko wściekliźnie. Przy pierwszym wyjeździe z Ukrainy do UE wymagany jest dodatkowo test miana przeciwciał i oczekiwanie 3 miesiące.
+Pierwszy wjazd z Ukrainy do UE: mikroczip, szczepienie przeciwko wściekliźnie, badanie miana, co najmniej 90 dni od pobrania krwi do unijnego świadectwa zdrowia zwierzęcia i samo świadectwo. Kolejne podróże są prostsze, jeśli szczepienia przypominające są na czas. Kot mieszkający w UE podróżuje na podstawie paszportu UE.
 
 Większość linii lotniczych wprowadza limit wagi do 8 kg (łącznie kot i transporter).
 
-Podawanie środków uspokajających podczas lotu jest niebezpiecznie (IATA i AVMA odradzają takie rozwiązanie). W przypadku podróży samochodem leki można podać wyłącznie z zalecenia weterynarza i z myślą o konkretnej trasie.
+Podawanie środków uspokajających przed lotem nie jest zalecane (IATA to odradza, AVMA ostrzega przed ryzykiem dla serca i oddychania). W przypadku podróży samochodem leki można podać wyłącznie z zalecenia weterynarza i z myślą o konkretnej trasie.
 
 ## Dokumenty do podróży do UE
 
-Jeśli jesteś właścicielem kota i planujesz podróż do kraju UE, wymagany jest paszport zwierząt domowych UE (EU Pet Passport). Jest to ujednolicony dokument, którego wzór określa rozporządzenie UE nr 576/2013. W Ukrainie wystawia go uprawniony lekarz weterynarii, posiadający licencję na wydawanie dokumentów międzynarodowych.
+Te zasady dotyczą podróży niekomercyjnych: przewozisz własnego kota, który podróżuje z tobą (albo z osobą upoważnioną przez ciebie na piśmie, w ciągu 5 dni przed twoją podróżą lub po niej), a podróż nie jest związana ze sprzedażą ani zmianą właściciela. Od 22 kwietnia 2026 r. określają je rozporządzenie (UE) 2016/429 i rozporządzenie delegowane (UE) 2026/131. Oficjalne podsumowanie (po angielsku): [Komisja Europejska — wwóz zwierzęcia domowego do UE z kraju spoza UE](https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/bringing-pet-eu-non-eu-country_en).
 
-Trzy obowiązkowe elementy paszportu:
+Paszport UE wystawia wyłącznie upoważniony lekarz weterynarii w kraju UE i tylko dla zwierzęcia, którego właściciel tam mieszka — weterynarz w Ukrainie nie może go wystawić. Szczepienia kota mieszkającego w Ukrainie wpisuje się do ukraińskiego paszportu weterynaryjnego, a do UE wjeżdża on na podstawie unijnego świadectwa zdrowia zwierzęcia.
 
-Mikroczip ISO 11784/11785 — musi być wszczepiony jako pierwszy. Jeśli szczepienie wykonano przed czipowaniem, nie zostanie ono uznane w paszporcie.
+### Pierwszy wjazd z Ukrainy
 
-Szczepienie przeciwko wściekliźnie — wyłącznie po wszczepieniu mikroczipu i nie wcześniej niż 12. tygodniu życia kota.
+Mikroczip (ISO 11784/11785) — jako pierwszy. Szczepienie przeciwko wściekliźnie wykonane przed czipowaniem nie jest uznawane.
 
-Badanie miana przeciwciał przeciwko wściekliźnie. Krew do badania pobiera się nie wcześniej niż 30 dni od szczepienia i wyłącznie w laboratorium akredytowanym przez UE.
+Szczepienie przeciwko wściekliźnie — po wszczepieniu mikroczipu, w wieku co najmniej 12 tygodni.
 
-Od dnia pobrania krwi do momentu wyjazdu do UE muszą upłynąć 3 miesiące.
+Badanie miana przeciwciał przeciwko wściekliźnie — krew pobiera się nie wcześniej niż 30 dni po szczepieniu, a badanie wykonuje laboratorium zatwierdzone przez UE; wynik musi wynosić co najmniej 0,5 j.m./ml.
 
-Świadectwo weterynaryjne (AHC) jest wystawiane przez urzędowego lekarza weterynarii, i jest ważne przez 10 dni od daty wystawienia. Transport musi się odbyć w obrębie tego okna.
+Okres oczekiwania — krew musi zostać pobrana co najmniej 90 dni (około 3 miesięcy) przed wystawieniem świadectwa zdrowia. Liczy się od dnia pobrania krwi, a nie od daty wyniku ani szczepienia.
 
-Łącznie: od momentu pierwszego szczepienia do legalnego przekroczenia granicy UE około 4 miesięcy przygotowań. Planuj z wyprzedzeniem, jeśli jedziesz po raz pierwszy.
+Unijne świadectwo zdrowia zwierzęcia — wystawia ukraińska Państwowa Służba ds. Bezpieczeństwa Żywności i Ochrony Konsumentów nie wcześniej niż 10 dni przed wjazdem do UE; dołącza się do niego twoją pisemną deklarację, że podróż ma charakter niekomercyjny. Instrukcja krok po kroku (po ukraińsku): [dpss.gov.ua](https://dpss.gov.ua/mizhnarodne-spivrobitnictv/veterinariya-ta-bezpechnist/vimogi-do-nekomercijnogo-peremishchennya-tvarin/za-kordon).
 
-Paszport jest ważny dożywotnio — pod warunkiem zachowania terminów corocznych szczepień przeciw wściekliźnie wpisanych do dokumentu. Jeśli szczepienie jest spóźnione, paszport tymczasowo traci ważność w celach podróży. Po nowym szczepieniu paszport ponownie staje się ważny, ale przed kolejnym przekroczeniem granicy obowiązuje 30 dni oczekiwania.
+Wjazd — wyłącznie przez wyznaczony punkt wjazdu dla podróżnych ze zwierzętami, gdzie sprawdza się kota i dokumenty. Po tej kontroli świadectwo jest ważne także na podróże między krajami UE — do 6 miesięcy, ale nie dłużej niż szczepienie przeciwko wściekliźnie.
 
-Do dalszych przemieszczeń między krajami UE wystarczy paszport (bez powtórnego testu miana lub AHC). Jeden paszport UE obejmuje do 5 zwierząt podczas jednej podróży w ramach przemieszczenia niekomercyjnego.
+Łącznie: co najmniej około 4 miesiące przygotowań od szczepienia.
 
-Kierunek ma znaczenie: z UE do Ukrainy — minimum dokumentów. Z Ukrainy do UE — główny ciężar biurokratyczny.
+### Kolejne podróże z Ukrainy
 
-Zasady przewozu i wymagania wjazdowe mogą się zmieniać. Przed podróżą sprawdź aktualne wymagania linii lotniczej i kraju docelowego.
+Pozytywny wynik badania miana pozostaje ważny, dopóki każde szczepienie przypominające przeciwko wściekliźnie wykonuje się przed upływem ważności poprzedniego — wtedy nie trzeba nowego badania ani nowych 90 dni oczekiwania. Każdy wjazd z Ukrainy wymaga jednak nowego świadectwa zdrowia (wystawionego nie wcześniej niż 10 dni przed wjazdem) i wyznaczonego punktu wjazdu. Spóźnione szczepienie przypominające liczy się jako nowe szczepienie pierwotne, a badanie miana i 90 dni oczekiwania zaczynają się od nowa.
+
+### Powrót do UE z paszportem UE
+
+Kot mieszkający w UE może wrócić z Ukrainy na podstawie swojego paszportu UE — bez świadectwa zdrowia i bez 90 dni oczekiwania — jeśli przed wyjazdem z UE miał ważne szczepienie przeciwko wściekliźnie (ważne także w dniu powrotu), a badanie miana z pozytywnym wynikiem zostało wykonane i wpisane do paszportu. Wjazd również przez wyznaczony punkt wjazdu.
+
+### Na terenie UE i liczba zwierząt
+
+Między krajami UE kot podróżuje na podstawie paszportu UE albo — do 6 miesięcy po wjeździe z Ukrainy — świadectwa zdrowia. Szczepienie przypominające trzeba wykonać przed datą wpisaną przez weterynarza (zależy od szczepionki); po spóźnionym szczepieniu kot może znów podróżować po 21 dniach.
+
+W ramach jednego przemieszczenia niekomercyjnego można przewozić najwyżej 5 zwierząt (samochodem — najwyżej 5 w jednym pojeździe). Więcej tylko na zarejestrowane zawody, wystawy, imprezy sportowe lub treningi do nich, z pisemnym potwierdzeniem rejestracji i dla zwierząt starszych niż 6 miesięcy.
+
+Sprzedaż to inna procedura: przewóz kota w związku z jego sprzedażą lub zmianą właściciela nie jest podróżą niekomercyjną i powyższe zasady go nie obejmują.
+
+Wjazd do Ukrainy ma własne zasady, w tym badanie przeciwciał przeciwko wściekliźnie. Aktualna lista (po ukraińsku): [dpss.gov.ua](https://dpss.gov.ua/mizhnarodne-spivrobitnictv/veterinariya-ta-bezpechnist/vimogi-do-nekomercijnogo-peremishchennya-tvarin/v-ukrainu).
+
+Przepisy się zmieniają. Ten rozdział sprawdziliśmy w oficjalnych źródłach UE i Ukrainy w październiku 2026 r.; przed podróżą sprawdź aktualne wymagania linii lotniczej i kraju docelowego.
 
 ## Regulaminy linii lotniczych
 
-Warunki przewozu zwierząt w kabinie różnią się u każdego przewoźnika. Tabela poniżej obejmuje linie lotnicze najczęściej wybierane na trasach Ukraina–UE, na podstawie zweryfikowanych danych. Zawsze sprawdzaj warunki rezerwacji bezpośrednio w linii lotniczej przed rezerwacją — taryfy i przepisy się zmieniają.
+Warunki przewozu zwierząt w kabinie różnią się u każdego przewoźnika. Przestrzeń powietrzna Ukrainy jest zamknięta dla lotów cywilnych, dlatego podróż samolotem z Ukrainy zaczyna się na lotniskach w krajach sąsiednich. Tabela przedstawia zasady przewozu w kabinie kilku dużych europejskich linii lotniczych, sprawdzone na ich oficjalnych stronach w październiku 2026 r. Zawsze sprawdzaj warunki bezpośrednio w linii lotniczej przed rezerwacją — taryfy i przepisy się zmieniają.
 
 | Linia lotnicza | Kabina | Limit wagi | Wymiary transportera | Opłata (orientacyjnie) | Uwagi |
 |---|---|---|---|---|---|
-| Lufthansa | Tak | 8 kg | 55 × 40 × 23 cm | Zależy od trasy | Miejsce dla zwierzęcia rezerwuje się z wyprzedzeniem; liczba miejsc jest ograniczona |
-| KLM | Tak | 8 kg | 46 × 28 × 24 cm | €75–€200 | Taryfa zależy od trasy; rezerwować jednocześnie z biletem |
-| Austrian Airlines | Tak | 8 kg | 55 × 40 × 23 cm | Zależy od trasy | Ta sama polityka ramowa co w Lufthansie (Lufthansa Group) |
+| Lufthansa | Tak | 8 kg | 55 × 40 × 23 cm | Zależy od trasy; potwierdź przy rezerwacji | Tylko miękki transporter; zwierzę zgłasza się z wyprzedzeniem; liczba miejsc ograniczona |
+| KLM | Tak | 8 kg | 46 × 28 × 24 cm | Zależy od trasy; potwierdź przy rezerwacji | Torba lub kontener; jeden kot lub pies na pasażera w kabinie; rezerwować z wyprzedzeniem |
+| Austrian Airlines | Tak | 8 kg | 55 × 40 × 23 cm | Zależy od trasy; potwierdź przy rezerwacji | Tylko miękki transporter bez sztywnej ramy; liczba zwierząt na pokładzie ograniczona |
 
-Wizz Air i Ryanair: regulaminy przewozu zwierząt zależą od trasy. Sprawdzaj je bezpośrednio u przewoźnika.
+Oficjalne strony linii lotniczych o przewozie zwierząt: [Lufthansa](https://www.lufthansa.com/de/en/tiere-als-handgepaeck) · [KLM](https://www.klm.com/information/pets/reservation) · [Austrian Airlines](https://www.austrian.com/at/en/plan/special-requirements/travelling-with-animals).
+
+Wizz Air i Ryanair nie przewożą kotów ani innych zwierząt domowych — ani w kabinie, ani w luku bagażowym; przyjmują wyłącznie wyszkolone psy przewodniki i psy asystujące, na wybranych trasach i na własnych warunkach. Oficjalne strony: [Wizz Air](https://wizzair.com/en-gb/information-and-services/travel-information/special-assistance), [Ryanair](https://help.ryanair.com/hc/en-gb/articles/12890968181521-Does-Ryanair-carry-animals) (sprawdzone w październiku 2026 r.).
 
 Kluczowa zasada dla wszystkich przewoźników: liczba miejsc dla zwierząt w kabinie jest ograniczona. Zarezerwuj miejsce dla kota jednocześnie z zakupem własnego biletu, nie później. Halva leciała do Floriente, i linia lotnicza potwierdziła rezerwacje dopiero 2 dni przed wylotem. Wszystko się udało, ale takiego stresu można łatwo uniknąć.
 
-Limit wagi (kot plus transporter) — 8 kg u przewoźników pozwalających na zwierzęta w kabinie. Koty orientalne są smuklejszej budowy; dorosły kot orientalny w miękkim transporterze zwykle waży 5-6 kg. Zważ swojego kota przed rezerwacją.
+Limit wagi (kot plus transporter) — zwykle 8 kg w dużych europejskich liniach lotniczych przewożących zwierzęta w kabinie; niektóre mają inne limity (np. ITA Airways dopuszcza do 12 kg na lotach krajowych we Włoszech), więc sprawdź u swojego przewoźnika. Koty orientalne są smuklejszej budowy; dorosły kot orientalny w miękkim transporterze zwykle waży 5-6 kg. Zważ swojego kota przed rezerwacją.
 
 ## Wymagania dotyczące transportu
 
-Transporter do kabiny musi spełniać dwa kryteria: być certyfikowanym przez IATA i mieścić się pod siedzeniem przed tobą.
+Transporter do kabiny musi spełniać dwa kryteria: być zgodny z zasadami twojej linii lotniczej (wymiary, wentylacja, nieprzemakalne dno) i mieścić się pod siedzeniem przed tobą. IATA nie certyfikuje ani nie zatwierdza transporterów, więc napis o „certyfikacie IATA” niczego nie gwarantuje.
 
-Do przewozu w kabinie — tylko miękki transporter. To, czy twardy transporter jest dozwolony w kabinie, zależy od wymagań konkretnej linii lotniczej i lotu. Przed podróżą sprawdź aktualne zasady przewoźnika. Miękki transporter lekko się ściska i mieści pod siedzeniem, a twardy — nie.
+Wiele linii lotniczych, w tym Lufthansa i Austrian, przyjmuje do kabiny tylko miękki transporter; KLM dopuszcza też kontener, jeśli mieści się w limicie wymiarów. Przed podróżą sprawdź aktualne zasady przewoźnika. Miękki transporter to bezpieczniejszy wybór: lekko się ściska i mieści pod siedzeniem, a twardy — nie.
 
 Praktyczny krok dający największy efekt: przyzwyczajaj kota do transportera na kilka tygodni przed podróżą, a nie dzień wcześniej. Postaw otwarty transporter w pokoju, w którym kot często bywa. Zostaw go tam. Kot go zbada, wejdzie do środka i się z nim oswoi. W dzień wylotu transporter nie będzie dla niego stresem, ale bezpiecznym domem.
 
@@ -98,7 +116,7 @@ Cel — spokojny stabilny stan. Kot, który regularnie jeździ w transporterze, 
 
 ## Pytanie sedacji: lot lotniczy vs samochód
 
-IATA (Międzynarodowe Stowarzyszenie Transportu Lotniczego) i AVMA (Amerykańskie Stowarzyszenie Lekarzy Weterynarii) kategorycznie nie zalecają sedacji kotów podczas lotów. To stanowisko jest oparte na fizjologii, a nie na preferencjach.
+IATA (Międzynarodowe Stowarzyszenie Transportu Lotniczego) odradza podawanie kotom środków uspokajających przed lotem, a AVMA (Amerykańskie Stowarzyszenie Lekarzy Weterynarii) ostrzega, że takie leki mogą zwiększać ryzyko dla serca i oddychania; wszelkie leki na podróż — wyłącznie z przepisu weterynarza i po poinformowaniu linii lotniczej. To stanowisko jest oparte na fizjologii, a nie na preferencjach.
 
 Na wysokości przelotowej ciśnienie powietrza w kabinie jest niższe niż na poziomie morza. Środki sedacyjne obniżają ciśnienie tętnicze. Połączenie tych czynników tworzy ryzyko sercowo-naczyniowe, którego nie ma na ziemi. Ponadto sedatywny zaburzają zdolność kota do regulacji temperatury ciała i utrzymywania równowagi — oba czynniki są ważne w warunkach dezorientacji w locie.
 
@@ -116,21 +134,21 @@ Ogólna zasada: w przypadku samolotu — alternatywy bez użycia leków (znane z
 
 ## Jeśli dopiero planujesz przywieźć kota z Ukrainy
 
-Ten przewodnik jest dla właścicieli podróżujących ze swoim kotem. Jeśli wciąż wybierasz kociaka z Ukrainy do przywozu do UE — to osobne zadanie logistyczne hodowcy (a nie właściciela). Cały proces —od wyboru profesjonalnych przewoźników i dokumentów do terminów — opisano w Artykule #15 “Jak przekazujemy kociaki”.
+Ten przewodnik jest dla właścicieli podróżujących ze swoim kotem. Jeśli wybierasz kociaka z Ukrainy do domu w UE, pamiętaj, że powyższe zasady dotyczą tylko podróży niekomercyjnych; o trasę i terminy dla konkretnego kociaka zapytaj nas przed rezerwacją. Jak przygotowujemy kociaka do przeprowadzki, opisaliśmy w artykule „Z naszego domu do twojego: jak przygotowujemy kociaka do przeprowadzki”.
 
 ## FAQ
 
 **Jak długo ważny jest paszport UE dla zwierzęcia?**
 
-Przez całe życie zwierzęcia, pod warunkiem wykonywania corocznych szczepień przypominających przeciwko wściekliźnie, które muszą być wpisane do dokumentu. Jeśli termin szczepienia upłynął, paszport traci ważność na czas podróży. Po nowym szczepieniu wymagane jest 30 dni oczekiwania, zanim paszport znów zyska ważność.
+Sam paszport nie ma daty ważności, ale do podróży jest ważny tylko wtedy, gdy ważne jest szczepienie przeciwko wściekliźnie. Szczepienie przypominające trzeba wykonać przed datą wpisaną przez weterynarza do paszportu (zależy od szczepionki). Spóźnione szczepienie liczy się jako nowe szczepienie pierwotne: w UE kot może znów podróżować po 21 dniach, a przy wjeździe z Ukrainy badanie miana i 90 dni oczekiwania zaczynają się od nowa.
 
 **Czy mój kot może lecieć w kabinie tanich linii lotniczych?**
 
-Dane dotyczące Wizz Air i Ryanair w momencie pisania artykułu nie były dostępne w zweryfikowanych źródłach. Skontaktuj się z tymi przewoźnikami bezpośrednio przed zakupem biletu. Nie zakładaj, że przewóz w kabinie tych linii jest dozwolony — uzyskaj pisemnie potwierdzenie .
+Nie w Wizz Air ani Ryanair: te linie w ogóle nie przewożą zwierząt domowych, tylko wyszkolone psy przewodniki i psy asystujące (oficjalne strony przewoźników, sprawdzone w październiku 2026 r.). Inne tanie i regionalne linie mają własne zasady — przed zakupem biletu sprawdź oficjalną stronę przewoźnika o przewozie zwierząt i uzyskaj potwierdzenie rezerwacji dla kota.
 
 **Jakie dokumenty są potrzebne na granicy UE?**
 
-W przypadku przemieszczeń się w granicach UE: paszport zwierzęcia z ważnym szczepieniem przeciw wściekliźnie. W przypadku pierwszego wyjazdu z Ukrainy do UE: paszport oraz świadectwo weterynaryjne (AHC), ważne przed 10 dni od daty wystawienia. Oba dokumenty należy okazać w formie papierowej. Kopie cyfrowe nie są akceptowane przez graniczne punkty kontroli weterynaryjnej.
+Przy wjeździe z Ukrainy z kotem, który tam mieszka: oryginał papierowego unijnego świadectwa zdrowia, wystawionego nie wcześniej niż 10 dni przed wjazdem, z dołączoną deklaracją o niekomercyjnym charakterze podróży, dokumentacją szczepień i wynikiem badania miana — kopie cyfrowe nie są akceptowane. Kot mieszkający w UE, który wraca na podstawie paszportu UE: paszport z ważnym szczepieniem przeciwko wściekliźnie i badaniem miana wykonanym przed wyjazdem z UE. Między krajami UE: paszport UE lub, do 6 miesięcy po wjeździe, świadectwo zdrowia.
 
 **Co zrobić, jeśli mój kot razem z transporterem waży więcej niż dopuszczalny limit 8 kg w kabinie?**
 
@@ -146,7 +164,7 @@ Spraye feromonowe — tak, ponieważ to nie leki i można je bezpieczne stosowa�
 
 **Dwa koty w jednym transporterze czy w dwóch osobnych?**
 
-W osobnych. Nawet koty, które mieszkają razem, w stresującej sytuacji mogą zareagować wobec siebie agresją. Dzięki temu każdy z nich ma własną, bezpieczną i dobrze znaną przestrzeń, w której może się schować. W przypadku podróży samolotem jest to również wymóg większości linii lotniczych: jeden transporter = jedno zwierzę. Wyjątek mogą stanowić dwa kociaki w tym samym wieku, o ile mieszczą się swobodnie- należy to jednak wcześniej potwierdzić u przewoźnika.
+W osobnych. Nawet koty, które mieszkają razem, w stresującej sytuacji mogą zareagować wobec siebie agresją. Dzięki temu każdy z nich ma własną, bezpieczną i dobrze znaną przestrzeń, w której może się schować. W samolocie zasady są różne: niektóre linie pozwalają na dwa zwierzęta tego samego gatunku w jednym transporterze w ramach limitu wagi (np. Lufthansa), inne dopuszczają w kabinie tylko jednego kota lub psa (KLM). Sprawdź to u przewoźnika.
 
 **Co zrobić, jeśli kot ma chorobę lokomocyjną?**
 
@@ -154,7 +172,7 @@ Krótkie podróże treningowe na 1-2 tygodnie przed długą drogą — to pierws
 
 **Przekraczania granicy UE z paszportem zwierzęcia — czego się spodziewać w praktyce?**
 
-Funkcjonariusz Straży Granicznej lub inspektor weterynaryjny może sprawdzić mikroczip skanerem, datę ostatniego szczepienia w paszporcie oraz (przy pierwszym wjeździe z Ukrainy) świadectwo weterynaryjne. W przypadku tranzytu między krajami w strefie Schengen kontrola jest zazwyczaj minimalna. Trzymaj dokumenty w bagażu podręcznym, razem z transporterem, nie w luku bagażowym.
+Z Ukrainy zwierzęta mogą wjechać do UE wyłącznie przez wyznaczony punkt wjazdu dla podróżnych ze zwierzętami — zarówno ze świadectwem zdrowia, jak i z paszportem UE. Tam okazujesz kota i dokumenty: inspektor może zeskanować mikroczip i sprawdzić świadectwo lub paszport, szczepienie i badanie miana. Między krajami strefy Schengen kontrola jest zwykle minimalna. Trzymaj dokumenty w bagażu podręcznym, razem z transporterem, nie w luku bagażowym.
 
 ## Pytania dotyczące Twojej trasy?
 

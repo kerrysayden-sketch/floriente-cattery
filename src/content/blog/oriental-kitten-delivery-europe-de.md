@@ -16,7 +16,7 @@ Monate des Wartens sind viel — wenn sie still bleiben. Bei uns ist es anders.
 
 Während des gesamten Zeitraums Watch Me Grow senden wir Ihnen 2- bis 3-mal pro Woche Fotos und Videos. Sie beobachten, wie sich der Charakter formt: die ersten Ausflüge aus der Transportbox, die liebsten Spielzeuge, die Schlafgewohnheiten, wie das Kätzchen auf Neues reagiert. Im Moment der Übergabe sehen Sie keine fremde Katze. Sie sehen eine Katze, die Sie kennen.
 
-Geht das Kätzchen ins Ausland, dauert dieser Zeitraum länger – wegen der Anforderungen an Impfungen und Quarantäne.
+Geht das Kätzchen ins Ausland, dauert dieser Zeitraum länger – für die EU wegen der Wartezeiten nach der Tollwutimpfung und dem Antikörpertest.
 
 Bleibt das Kätzchen innerhalb der Ukraine, ist der Umzug bereits ab etwa 3,5 Monaten möglich.
 

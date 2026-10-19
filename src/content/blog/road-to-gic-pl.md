@@ -66,8 +66,6 @@ Trzy poziomy tytułów. Dziewięć ocen. Sześciu różnych sędziów. Pięć mi
 
 W 2025 roku — nagroda od WCF. Według podsumowania sezonu wystawowego WCF za udział w wystawach i ringach Sebastian zajął pierwsze miejsce wśród kotów orientalnych w Ukrainie, Simona — drugie. To oficjalny ranking WCF prowadzony automatycznie: punkty kumulują się z każdej wystawy i ringu. Nie jest to dodatkowy tytuł, lecz wskaźnik aktywności i wyników sezonu.
 
-> *[Tu wstawić zrzut ekranu: WCF ranking 2025 — orientalne Ukraina — Floriente 1. i 2. miejsce]*
-
 Pewien niuans, który dziwił na każdej wystawie: mimo że Simona to niebieski cętkowany tabby (OSH a 24, rozcieńczony czarny, rzadziej spotykany), a Seba — czarny cętkowany tabby (OSH n 24), Seba stale wyprzedzał ją w zawodach ringowych. Przyczyna jest prosta: temperament. W ringu sędziowie oceniają, jak kot reaguje na manipulację, na nieznajomych ludzi, na hałas. Seba zachowywał spokój. Simona — wspaniała w domu i w hotelu — uważała atmosferę ringu za naprawdę wyczerpującą. Zachowanie liczyło się bardziej niż umaszczenie. Na każdej wystawie.
 
 ## Pełna droga Simony

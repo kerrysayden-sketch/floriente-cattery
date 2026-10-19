@@ -16,7 +16,7 @@ Months of waiting — that's a lot, if it's silence. With us, it's different.
 
 Throughout the Watch Me Grow period, we send photos and videos 2–3 times a week. You watch the personality form: first ventures out of the carrier, favorite toys, sleeping styles, how the kitten reacts to new things. By the time of handover, you're not looking at a stranger. You're looking at a cat you know.
 
-If the kitten is going abroad — this period takes longer due to vaccination and quarantine requirements.
+If the kitten is going abroad, this period takes longer — for the EU, because of the waiting periods after the rabies vaccination and the antibody test.
 
 If the kitten is staying in Ukraine — the move is possible from ~3.5 months.
 

@@ -12,63 +12,81 @@ Traveling with a cat isn't an emergency — it's a planned process. A carrier th
 
 ## The short answer
 
-Soft IATA-approved carrier, under the seat in front of you — introduce the cat to it 2–3 weeks before the trip, not the night before.
+A soft carrier that meets your airline's size rules and fits under the seat in front of you — introduce the cat to it 2–3 weeks before the trip, not the night before.
 
 Book the cat's cabin spot at the same time as your ticket — slots are limited and aren't assigned automatically.
 
-For the EU — pet passport, microchip, and current rabies vaccination. First trip from Ukraine to the EU — also a titer test and 3 months of waiting.
+From Ukraine to the EU, the first time: microchip, rabies vaccination, a titre test, at least 90 days from the blood sample to the EU animal health certificate, and the certificate itself. Later trips are simpler if boosters are on time. A cat that lives in the EU travels on its EU pet passport.
 
 Cabin weight limit — 8 kg (cat plus carrier together) on most major airlines.
 
-Sedation at altitude is dangerous (IATA and AVMA against); for car — only as prescribed by a vet for that specific trip.
+Sedation for flights is not recommended (IATA advises against it; AVMA warns of heart and breathing risks); for the car — only as prescribed by a vet for that specific trip.
 
 ## Documents for travel to the EU
 
-If you already own the cat and are planning a trip to an EU country — you need an EU Pet Passport. It's a standardized document regulated by EU Regulation 576/2013. In Ukraine it's issued by a licensed vet authorized to issue international documents.
+These rules are for non-commercial travel: you are moving your own cat, it travels with you (or with someone you authorise in writing, within 5 days before or after your own journey), and the trip is not connected with a sale or change of ownership. Since 22 April 2026 they are set by Regulation (EU) 2016/429 and Delegated Regulation (EU) 2026/131. Official summary (in English): [European Commission — bringing a pet into the EU from a non-EU country](https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/bringing-pet-eu-non-eu-country_en).
 
-Three required components of the passport:
+An EU pet passport is issued only by an authorised vet in an EU country, for a pet whose owner lives there — a vet in Ukraine cannot issue it. A cat that lives in Ukraine has its vaccinations recorded in a Ukrainian veterinary passport and enters the EU with an EU animal health certificate.
 
-ISO 11784/11785 microchip — installed first. If vaccination was done before chipping, it doesn't count for the passport.
+### First entry from Ukraine
 
-Rabies vaccination — only after the chip, not earlier than 12 weeks of age.
+Microchip (ISO 11784/11785) — first. A rabies vaccination given before chipping doesn't count.
 
-Rabies antibody titer test — a blood sample to an EU-approved lab, no earlier than 30 days after the rabies vaccination.
+Rabies vaccination — after the chip, at 12 weeks of age or older.
 
-3 months of waiting after the date of the confirmed test result (not from the vaccination date).
+Rabies antibody (titre) test — blood taken at least 30 days after the vaccination and tested in an EU-approved laboratory; the result must be at least 0.5 IU/ml.
 
-Animal Health Certificate (AHC) — issued by an official state vet, valid 10 days from the date of issue. The trip has to happen within that window.
+Waiting period — the blood sample must be taken at least 90 days (about 3 months) before the animal health certificate is issued. The count starts from the day of the blood sample, not from the result or the vaccination.
 
-All in: from the first vaccination to a legal EU border crossing — about 4 months of preparation. Plan ahead if you're going for the first time.
+EU animal health certificate — issued by Ukraine's State Service on Food Safety and Consumer Protection no more than 10 days before you enter the EU, with your written declaration that the trip is non-commercial attached. Step-by-step guidance (in Ukrainian): [dpss.gov.ua](https://dpss.gov.ua/mizhnarodne-spivrobitnictv/veterinariya-ta-bezpechnist/vimogi-do-nekomercijnogo-peremishchennya-tvarin/za-kordon).
 
-The passport is valid for life — provided the rabies revaccination is done annually and entered in the document on time. If revaccination is overdue, the passport stops being valid for travel; after a new vaccination the passport is valid again, but before the next border crossing — 30 days of waiting.
+Entry — only through a designated travellers' point of entry, where the cat and the documents are checked. After that check, the certificate also covers travel between EU countries for up to 6 months, or until the rabies vaccination expires, whichever is earlier.
 
-For further movement between EU countries — the passport is enough (no repeat titer test or AHC). One EU passport covers up to 5 animals per trip for non-commercial movement.
+All in: at least about 4 months of preparation from the vaccination.
 
-Direction matters: from the EU to Ukraine — minimal documents. From Ukraine to the EU — the bulk of the bureaucratic prep.
+### Later trips from Ukraine
 
-Transport and entry rules may change. Check the current requirements of the airline and destination country before travelling.
+A satisfactory titre result stays valid as long as every rabies booster is given before the previous vaccination expires — then there is no new test and no new 90-day wait. Each entry from Ukraine still needs a new animal health certificate (issued no more than 10 days before entry) and a designated point of entry. If a booster is late, it counts as a new first vaccination, and the titre test and the 90-day wait start again.
+
+### Returning to the EU with an EU pet passport
+
+A cat that lives in the EU can come back from Ukraine on its EU pet passport — without an animal health certificate and without the 90-day wait — if, before it left the EU, its rabies vaccination was valid (and still is on return) and a titre test with a satisfactory result was done and recorded in the passport. It still enters through a designated point of entry.
+
+### Within the EU and the number of animals
+
+Between EU countries a cat travels on its EU pet passport, or — for up to 6 months after entering from Ukraine — on its animal health certificate. Boosters are due by the date your vet records, which depends on the vaccine; after a late booster the cat can travel again 21 days later.
+
+No more than 5 pets may be moved in one non-commercial movement (by car, that means no more than 5 in the vehicle). More are allowed only for registered competitions, shows or sporting events, or training for them, with written proof of registration and animals older than 6 months.
+
+A sale is a different procedure: moving a cat in connection with its sale or change of ownership is not non-commercial travel, and the rules above do not cover it.
+
+Entering Ukraine has its own rules, including a rabies antibody test. Current list (in Ukrainian): [dpss.gov.ua](https://dpss.gov.ua/mizhnarodne-spivrobitnictv/veterinariya-ta-bezpechnist/vimogi-do-nekomercijnogo-peremishchennya-tvarin/v-ukrainu).
+
+Rules change. This section was checked against official EU and Ukrainian sources in October 2026; check the current requirements of the airline and destination country before you travel.
 
 ## Airline rules
 
-Conditions for transporting animals in the cabin vary by carrier. The table below covers the airlines most often used on Ukraine–EU routes, based on verified data. Always confirm directly with the airline before booking — fares and conditions change.
+Conditions for transporting animals in the cabin vary by carrier. Ukrainian airspace is closed to civil flights, so air travel from Ukraine starts at airports in neighbouring countries. The table shows the cabin rules of several major European airlines, checked on their official pages in October 2026. Always confirm directly with the airline before booking — fees and conditions change.
 
 | Airline | Cabin | Weight limit | Carrier dimensions | Fee (approx.) | Notes |
 |---|---|---|---|---|---|
-| Lufthansa | Yes | 8 kg | 55 × 40 × 23 cm | Depends on route | Pet slot booked in advance; limited number |
-| KLM | Yes | 8 kg | 46 × 28 × 24 cm | €75–€200 | Fee depends on route; book at the same time as the ticket |
-| Austrian Airlines | Yes | 8 kg | 55 × 40 × 23 cm | Depends on route | Same framework policy as Lufthansa (Lufthansa Group) |
+| Lufthansa | Yes | 8 kg | 55 × 40 × 23 cm | Depends on route; confirm when booking | Soft-sided carrier only; register the pet in advance; limited places |
+| KLM | Yes | 8 kg | 46 × 28 × 24 cm | Depends on route; confirm when booking | Travel bag or kennel; one cat or dog per passenger in the cabin; book early |
+| Austrian Airlines | Yes | 8 kg | 55 × 40 × 23 cm | Depends on route; confirm when booking | Soft carrier only, no solid frame; limited number per flight |
 
-Wizz Air and Ryanair: pet transport rules depend on the route. Check directly with the airline.
+Airlines' official pet pages: [Lufthansa](https://www.lufthansa.com/de/en/tiere-als-handgepaeck) · [KLM](https://www.klm.com/information/pets/reservation) · [Austrian Airlines](https://www.austrian.com/at/en/plan/special-requirements/travelling-with-animals).
+
+Wizz Air and Ryanair do not carry cats or other pets on board — neither in the cabin nor in the hold; they accept only trained guide/assistance dogs, on certain routes and under their own conditions. Official pages: [Wizz Air](https://wizzair.com/en-gb/information-and-services/travel-information/special-assistance), [Ryanair](https://help.ryanair.com/hc/en-gb/articles/12890968181521-Does-Ryanair-carry-animals) (checked October 2026).
 
 Key rule for all carriers: the number of pet slots in the cabin is limited. Book the cat's spot at the same time as your ticket — not after. Halva flew to us at Floriente, and the airline approval was confirmed only 2 days before the flight. It worked out, but that nervous margin — easy to avoid.
 
-Weight limit (cat plus carrier) — 8 kg on carriers that allow pets in the cabin. Oriental cats are lighter-built; an adult Oriental in a soft carrier usually clocks in at 5–6 kg. Weigh your cat before booking.
+Weight limit (cat plus carrier) — usually 8 kg on major European airlines that take pets in the cabin; some differ (ITA Airways, for example, allows up to 12 kg on domestic flights within Italy), so check yours. Oriental cats are lighter-built; an adult Oriental in a soft carrier usually clocks in at 5–6 kg. Weigh your cat before booking.
 
 ## Carrier requirements
 
-A cabin carrier has to meet two criteria: be IATA-approved and fit under the seat in front of you.
+A cabin carrier has to meet two criteria: comply with your airline's own rules (size, ventilation, leak-proof bottom) and fit under the seat in front of you. IATA does not certify or approve carriers, so a label claiming IATA approval guarantees nothing.
 
-For cabin transport — soft carrier only. Whether a hard carrier is permitted in the cabin depends on the requirements of the specific airline and flight. Check the carrier's current rules before travel. A soft carrier compresses slightly and fits under the seat; a hard one doesn't.
+Many airlines, including Lufthansa and Austrian, accept only a soft carrier in the cabin; KLM also allows a kennel if it fits the size limit. Check the carrier's current rules before travel. A soft carrier is the safer default: it compresses slightly and fits under the seat; a hard one doesn't.
 
 The single highest-impact step: introduce the cat to the carrier weeks before the trip, not the night before. Set the open carrier in a room the cat uses. Leave it there. The cat will explore, go inside, sleep there. By the day of the flight, the carrier is a familiar place, not a trap.
 
@@ -98,7 +116,7 @@ The goal is a calm baseline. A cat who's used to riding in the carrier regularly
 
 ## The sedation question: flight vs. car
 
-IATA (International Air Transport Association) and AVMA (American Veterinary Medical Association) categorically advise against sedating cats during flights. This is a position grounded in physiology, not preference.
+IATA (International Air Transport Association) advises against sedating cats for flights, and AVMA (American Veterinary Medical Association) warns that sedatives can increase heart and breathing risks; any travel medication — only on a vet's prescription, and the airline must be told. This is a position grounded in physiology, not preference.
 
 At cruising altitude, cabin air pressure is lower than at sea level. Sedatives lower blood pressure. The combination of these factors creates a cardiovascular risk that doesn't exist on the ground. On top of that, sedatives impair the cat's ability to regulate body temperature and maintain balance — both critical during the disorientation of flight.
 
@@ -116,21 +134,21 @@ General rule: for flights — non-medication alternatives (familiar smells, carr
 
 ## If you're just planning to bring a cat from Ukraine
 
-This guide is for owners traveling with a cat they already have. If you're still choosing a kitten from Ukraine for delivery to the EU — that's a separate logistics task for the breeder (not the owner). The whole process — documents, handover through professional couriers, timelines — is covered in Article #15 "How We Deliver Kittens."
+This guide is for owners travelling with a cat they already have. If you are choosing a kitten from Ukraine for a home in the EU, keep in mind that the rules above cover only non-commercial travel; ask us about the route and timing for a specific kitten before you reserve. How we prepare a kitten for the move is described in the article "From Our Home to Yours: How We Prepare a Kitten to Move."
 
 ## FAQ
 
 **How long is the EU pet passport valid?**
 
-For the entire life of the animal — provided the rabies revaccination is done annually and entered in the document on time. If the revaccination deadline has passed, the passport is temporarily invalid for travel; after a new vaccination, 30 days of waiting are required, and the passport is valid again.
+The passport itself has no expiry date, but it is valid for travel only while the rabies vaccination is valid. Boosters are due by the date your vet records in the passport, which depends on the vaccine. A late booster counts as a new first vaccination: within the EU the cat can travel again 21 days later; for entry from Ukraine the titre test and the 90-day wait start again.
 
 **Can my cat fly in the cabin on a budget airline?**
 
-Data on Wizz Air and Ryanair wasn't available in verified sources at the time of writing. Contact these carriers directly before buying a ticket. Don't assume cabin transport is available — confirm in writing.
+Not with Wizz Air or Ryanair: they do not carry pets at all, only trained guide/assistance dogs (official airline pages, checked October 2026). Other low-cost and regional airlines each have their own rules — check the airline's official pet page before buying a ticket and get the pet booking confirmed.
 
 **What documents are needed at the EU border?**
 
-For movement within the EU: pet passport with current rabies vaccination. For the first trip from Ukraine to the EU: passport plus Animal Health Certificate (AHC), valid 10 days from the date of issue. Both documents — physical, in hand. Digital copies aren't accepted at border veterinary checkpoints.
+Coming from Ukraine with a cat that lives there: the original paper EU animal health certificate, issued no more than 10 days before entry, with your non-commercial declaration, the vaccination record and the titre test report attached — digital copies aren't accepted. A cat that lives in the EU and returns on its EU pet passport: the passport, showing a valid rabies vaccination and a titre test done before leaving the EU. Between EU countries: the EU pet passport, or the animal health certificate for up to 6 months after entry.
 
 **What if my cat is heavier than the 8 kg cabin limit?**
 
@@ -146,7 +164,7 @@ Pheromone sprays — yes, they aren't medication and are safe for self-use. Seda
 
 **Two cats in one carrier or two separate carriers?**
 
-Two separate. Even cats who live together can become tense with each other in a stressful situation; two carriers let each one hide in their own familiar space. For flights, this is also a requirement of most carriers: one carrier = one animal (exceptions — two kittens of the same age, if they fit without crowding; check with the airline).
+Two separate. Even cats who live together can become tense with each other in a stressful situation; two carriers let each one hide in their own familiar space. For flights, airlines differ: some allow two animals of the same species in one carrier within the weight limit (Lufthansa, for example), others allow only one cat or dog in the cabin (KLM). Check with your airline.
 
 **What if the cat gets carsick?**
 
@@ -154,7 +172,7 @@ Short training rides 1–2 weeks before a long drive are the first step. Don't f
 
 **Crossing the EU border with a pet passport — what to expect in practice?**
 
-A border officer or veterinary inspector may scan the microchip, check the date of the last revaccination in the passport, and (on first entry from Ukraine) the Animal Health Certificate. For transit between countries inside Schengen — usually minimal control. Keep the documents in your hand luggage, with the carrier, not in checked baggage.
+From Ukraine, pets can enter the EU only through a designated travellers' point of entry — with an animal health certificate or with an EU pet passport. There you present the cat and its documents: the inspector may scan the microchip and check the certificate or passport, the vaccination and the titre test. Between Schengen countries there is usually little control. Keep the documents in your hand luggage, with the carrier, not in checked baggage.
 
 ## Questions about your route?
 

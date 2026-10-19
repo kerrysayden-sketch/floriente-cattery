@@ -66,8 +66,6 @@ Three title levels. Nine evaluations. Six different judges. Five cities. Two cou
 
 In 2025 — a recognition from WCF. Based on the WCF show season, by show and ring participation, Sebastian took first place among Oriental cats in Ukraine, Simona — second. This is the official WCF ranking, kept automatically: points accumulate from every show and ring. It's not an additional title, but an indicator of activity and season results.
 
-> *[Insert screenshot here: WCF ranking 2025 — Orientals Ukraine — Floriente 1st and 2nd place]*
-
 One detail surprised us at every show: even though Simona is a blue spotted tabby (OSH a 24, the dilute black variant, less common), and Seba is a black spotted tabby (OSH n 24), Seba consistently beat her in ring competitions. The reason is simple: temperament. In the ring, judges evaluate how a cat reacts to handling, to strangers, to noise. Seba stayed calm. Simona — brilliant at home and in the hotel — found the ring atmosphere genuinely draining. Behavior counted more than color. At every show.
 
 ## Simona's Full Path

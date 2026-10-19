@@ -92,7 +92,7 @@ To lista kontrolna dokumentów dla kociaka przekazywanego wewnątrz UE lub z Ukr
 | 1 | Paszport UE dla zwierząt (w obrębie UE) oraz Świadectwo zdrowia weterynaryjnego / AHC — Animal Health Certificate (z Ukrainy do UE) | Obowiązkowy dla legalnego przywozu |
 | 2 | Mikrochip ISO, 15 cyfr | Musi być wszczepiony przed przeprowadzką; numer zapisany w paszporcie |
 | 3 | Wpis o szczepieniu — kompleks przeciw wirusom i przeciw wściekliźnie | Daty, nazwa szczepionki, numer serii, podpis weterynarza |
-| 4 | Wynik miana przeciw wściekliźnie (jeśli wymaga kraj przeznaczenia) | Badanie krwi z akredytowanego laboratorium; wynik ≥0,5 j.m./ml |
+| 4 | Wynik badania miana przeciwciał przeciw wściekliźnie (wymagany przy podróży z Ukrainy do UE) | Badanie krwi z laboratorium zatwierdzonego przez UE; wynik ≥0,5 j.m./ml |
 | 5 | Umowa kupna-sprzedaży | Określa kategorię, klauzulę o sterylizacji jeśli dotyczy, politykę zwrotu |
 | 6 | Metryka (świadectwo urodzenia); rodowód — dodatkowo na życzenie | Standardowo przy przekazaniu wydawana jest metryka — oficjalny dokument o urodzeniu z numerem klubu. Rodowód (3–5 pokoleń) zamawiany jest osobno przez klub z inicjatywy właściciela i za dodatkową opłatą. Wydawany przez rejestr (WCF, FIFe, TICA). |
 | 7 | Wyniki testów genetycznych ojca i matki | Minimum badanie kardiologiczne w kierunku HCM; postępujący zanik siatkówki (PRA), jeśli istotne dla rasy |
