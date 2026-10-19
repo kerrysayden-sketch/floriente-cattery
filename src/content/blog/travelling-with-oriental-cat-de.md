@@ -152,7 +152,7 @@ Bei der Einreise aus der Ukraine mit einer dort lebenden Katze: das Original der
 
 **Was, wenn meine Katze schwerer ist als das 8-kg-Limit für die Kabine?**
 
-Ihre Optionen sind: Beförderung im Flugzeug als Frachtgut (ein eigener Prozess mit anderen Anforderungen: harte IATA-Box, Buchung über die Frachtabteilung, Temperaturbeschränkungen), Reise mit dem Auto oder der Bahn oder ein professioneller Tiertransporteur, der regelmäßig zwischen Ländern reist. Für den Frachttransport wenden Sie sich an die Frachtabteilung der Fluggesellschaft, nicht an die Standard-Buchungslinie.
+Ihre Optionen sind: Beförderung im Flugzeug als Frachtgut (ein eigener Prozess mit anderen Anforderungen: eine feste Transportbox gemäß den IATA-Lebendtiervorschriften und den Vorgaben der Fluggesellschaft, Buchung über die Frachtabteilung, Temperaturbeschränkungen), Reise mit dem Auto oder der Bahn oder ein professioneller Tiertransporteur, der regelmäßig zwischen Ländern reist. Für den Frachttransport wenden Sie sich an die Frachtabteilung der Fluggesellschaft, nicht an die Standard-Buchungslinie.
 
 **Wie kann man Stress ohne Sedierung reduzieren?**
 

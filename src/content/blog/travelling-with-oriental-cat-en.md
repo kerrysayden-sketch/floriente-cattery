@@ -152,7 +152,7 @@ Coming from Ukraine with a cat that lives there: the original paper EU animal he
 
 **What if my cat is heavier than the 8 kg cabin limit?**
 
-Your options: air transport as cargo (a separate process with different requirements — IATA hard carrier, booking through the cargo department, temperature restrictions); travel by car or train; a professional pet courier who regularly travels between countries. For cargo transport, contact the airline's cargo department, not the standard reservation line.
+Your options: air transport as cargo (a separate process with different requirements — a rigid container that meets the IATA Live Animals Regulations and the airline's requirements, booking through the cargo department, temperature restrictions); travel by car or train; a professional pet courier who regularly travels between countries. For cargo transport, contact the airline's cargo department, not the standard reservation line.
 
 **How do I lower stress without sedation?**
 

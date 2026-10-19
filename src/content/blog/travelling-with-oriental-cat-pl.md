@@ -152,7 +152,7 @@ Przy wjeździe z Ukrainy z kotem, który tam mieszka: oryginał papierowego unij
 
 **Co zrobić, jeśli mój kot razem z transporterem waży więcej niż dopuszczalny limit 8 kg w kabinie?**
 
-Dostępne opcje: przewóz samolotem jako cargo (osobny procedura z określonymi wymogami — twardy transporter z certyfikatem IATA, rezerwacja przez dział cargo, ograniczenia temperaturowe); podróż samochodem lub pociągiem; skorzystanie z usług profesjonalnego przewoźnika zwierząt, który regularnie kursuje między krajami. W przypadku transportu cargo należy kontaktować się bezpośrednio z działem cargo linii lotniczej, a nie ze standardowej infolinią rezerwacyjną.
+Dostępne opcje: przewóz samolotem jako cargo (osobna procedura z określonymi wymogami — sztywny transporter spełniający przepisy IATA dotyczące przewozu żywych zwierząt oraz wymagania linii lotniczej, rezerwacja przez dział cargo, ograniczenia temperaturowe); podróż samochodem lub pociągiem; skorzystanie z usług profesjonalnego przewoźnika zwierząt, który regularnie kursuje między krajami. W przypadku transportu cargo należy kontaktować się bezpośrednio z działem cargo linii lotniczej, a nie ze standardowej infolinią rezerwacyjną.
 
 **Jak zmniejszyć stres bez sedacji?**
 
