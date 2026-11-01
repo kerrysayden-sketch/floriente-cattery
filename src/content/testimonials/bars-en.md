@@ -10,4 +10,4 @@ fullReview:
   anchor: "tatiana-and-bars"
 ---
 
-When you decide to get such a baby, you need to consciously approach the choice of cattery - first of all, it's the health of your little one. I'm very glad that your cattery caught my eye. They give parents the most precious thing - their babies - and continue caring about them afterwards.
+Our boy is now 1.8 years old, he’s just as playful, talkative and curious, he adores car rides and playing with the children ... What I dream of is for Venyushka to get a little sister or brother, and from this very cattery, because they give the parents the most precious thing, their babies, and keep showing them care and attention afterwards 🤗🤗🤗

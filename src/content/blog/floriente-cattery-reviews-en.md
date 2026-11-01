@@ -8,16 +8,16 @@ publishDate: "2026-06-17"
 ogImage: "/images/blog/floriente-cattery-reviews.webp"
 ---
 
-Three families came back for a second Oriental. One of them — for a third. This isn't marketing. It's a pattern you can't fake.
+Below are reviews from families who took Floriente kittens home, in their own words. Each review is marked as an original, a translation or an edited voice message.
 
-You don't verify a cattery by its own words. You verify it through the people who've already walked the path — made the decision, brought the kitten home, and then chose to come back.
+You don't verify a cattery by its own words. You verify it through the people who've already walked the path — made the decision and brought the kitten home.
 
 <h2 id="alexander-and-tatiana" class="scroll-mt-28">Alexander and Tatiana — the family of Cai and Cia</h2>
 
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-cai-cia.webp" width="96" height="96" alt="Alexander and Tatiana — the family of Cai and Cia" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Full review, translated from Russian</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Translated from Russian</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>My husband and I are the happy owners of two wonderful (well-mannered, independent, knowing what they want, “routine-loving”, “lively”) kittens from the same litter.</p>
 <p>The breed matters, of course!</p>
@@ -42,7 +42,7 @@ You don't verify a cattery by its own words. You verify it through the people wh
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-salma.webp" width="96" height="96" alt="Lidiia — the family of Salma" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Full review, translated from Ukrainian</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Translated from Ukrainian</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>I found out about the cattery when I was looking for a kitten on OLX.</p>
 <p>The first reason to choose an Oriental is its unusual, “alien” look and incredibly intelligent gaze. After researching the breed, we decided we wanted a cat like that.</p>
@@ -58,7 +58,7 @@ You don't verify a cattery by its own words. You verify it through the people wh
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-bars.webp" width="96" height="96" alt="Tatiana — the family of Bars (Venyushka)" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Full review, translated from Russian</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Translated from Russian</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>Venyushka is our second Oriental child.... Our love for Orientals began with our first kitten, Lucifer. I had always liked this breed, I read, watched videos, dreamed, and my dream was destined to come true: my husband gave me Lyusinka, that’s what we tenderly called him. Love and an understanding of their character and behaviour came gradually :))) every kitten is individual and unique, as I understand now. This breed is so people-oriented, he’s with you everywhere and always 🥰🥰🥰 With Lyusenka we learned that they really love carrying toys around; Lyuska carried sweets, stole them and hid them, and then brought them in his teeth. At first it was so unexpected, but now I understand that it’s in their blood. They are very playful fidgets, chatterboxes; when you hear him drawl “mama, come on, maaama”, your heart starts beating with even more love ❤️❤️❤️ Our Lyusinka was a real repeat-offender thief, and Venyushka is his complete opposite, he’s a very well-mannered child, an aristocrat. So how did Venyushka come to us 😻😻😻 Unfortunately, we didn’t get Lyusinka from you; he had no documents or vaccinations, and that was our most terrible mistake: we didn’t know the state of his health. After what we went through, I am so glad that it was You, Your cattery that caught my eye, and that we got the most, most, most beloved and longed-for child. We fought for Lyusinka’s life by every possible and impossible means and method, we stopped at nothing, we went to more than one clinic; without those blue eyes it was impossible not just to live but even to breathe, you were simply suffocating from the pain, from the fact that not everything is in your hands and depends on you. That’s why, when you decide to get a child like this, you need to choose the cattery and the people consciously and understand the full responsibility for this child. Will you be able to give him the care he needs, good food, conditions... To be with him 24/7 — I want to say that this breed doesn’t tolerate loneliness at all, they start to worry.... Venyushka, our Venyushka, sometimes it seems to me that he was ours from the start, he chose us, he was waiting for us, and I believe there are no coincidences, and some time later we brought him home 🥰🥰🥰 At first he behaved cautiously, getting used to us and the house, but that didn’t last long :))) with dad it was love at first sight ❤️❤️❤️ Our boy is now 1.8 years old, he’s just as playful, talkative and curious, he adores car rides and playing with the children ... What I dream of is for Venyushka to get a little sister or brother, and from this very cattery, because they give the parents the most precious thing, their babies, and keep showing them care and attention afterwards 🤗🤗🤗 What would I say to people who are thinking about exactly this kind of child :))) choose your cattery responsibly, above all it’s about your little one’s health, and I’m very glad I got to know these people 🤗🤗🤗 These are children who will always remain children to you, and they need care and looking after 24/7, so make your choice consciously. An Oriental is love straight into your heart and soul ❤️❤️❤️, it’s love for life 😻😻😻 A person who gives their love to such a child, or indeed to any other, receives it back without limit and loves you simply because you are in his life ❤️❤️❤️ In a word, it’s simply Luuurve, and we are very happy that we can feel it every moment, every minute.... Good luck and prosperity to Your business, Your cattery, You make people happy 🤗🤗🤗</p>
 </blockquote>
@@ -70,7 +70,7 @@ You don't verify a cattery by its own words. You verify it through the people wh
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-barbie.webp" width="96" height="96" alt="Stas — the family of Barbie (Dora)" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Full review, translated from Ukrainian; the cattery name in square brackets was inserted at the author’s request</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Translated from Ukrainian; “[Floriente]” is an editorial substitution for a placeholder the author left for the cattery’s name</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>Our Dora is the third cat in our family, besides a Scottish and an Abyssinian, so choosing an Oriental specifically was a very deliberate and conscious decision. What drew us to the breed was that very “alien look”, and when we started studying the breed itself, its habits and character, we realised that such a cat would suit our family and lifestyle perfectly. Once we had settled on the breed, we started looking for suitable options by age (because we wanted the youngest possible kitten) and colour. When we finally found a suitable option, and it was [Floriente], we got in touch and were pleasantly impressed by their attitude towards their animals and their readiness to provide any photos, videos and even live video calls, through which we could watch our little princess grow. We picked up the kitten in person, although they were ready to send her to us, at our request, to any city with special volunteers who transport animals. The kitten arrived with a “trousseau”, microchipped, with her documents in order.</p>
 <p>Unlike other breeds, the kitten settled into the flat from the very first minutes and started asking to be picked up... If only we had known that this was just the beginning. From the moment she arrived until now, and it’s almost two years already, she sleeps with us every day, eats with us, sits in our arms, on our shoulders, on our heads and anywhere she pleases. She talks to us very loudly and often. In other words, all the traits typical of this breed are fully embodied in Dora. She has never once damaged a single thing or scratched a single person. Even now, as I write this review, she is sitting on my lap and meowing loudly, demanding attention. So, personally, on behalf of our family, I can recommend the Oriental breed and [Floriente] as caring and attentive people who raise their animals with love and are ready to pass it on to You.</p>
@@ -83,7 +83,7 @@ You don't verify a cattery by its own words. You verify it through the people wh
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-barton.webp" width="96" height="96" alt="Natalia — the family of Barton (Yarik)" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Full review, translated from Ukrainian</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Translated from Ukrainian</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>We actually have a very interesting, though very sad, story of how we found you.</p>
 <p>I fell in love with Orientals a very long time ago — even before we found you. It was love at first sight. Their grace, caution and intelligent gaze made me fall for them from the very first minutes.</p>
@@ -102,7 +102,7 @@ You don't verify a cattery by its own words. You verify it through the people wh
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-axel.webp" width="96" height="96" alt="Yulia — the family of Axel Cornelius (Korneliy)" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Full review, translated from Russian</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Translated from Russian</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>We “adopted” the cat from the cattery 2 years ago. It was a birthday present for our son. We found him through an ad on OLX. We liked the photos, I called, and they told me about this breed for a very long time and in great detail :) and we decided he was the one we needed :) a big plus for the breeders — they were accommodating and let us pick up the kitty at 6 in the morning :)</p>
 <p>We didn’t even really choose the breed; my husband suggested it, we started reading up on it and went for it :)</p>
@@ -119,10 +119,11 @@ You don't verify a cattery by its own words. You verify it through the people wh
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-bantik.webp" width="96" height="96" alt="Tatiana — the family of Bantik (Busik)" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Transcript of two voice messages, translated from Ukrainian</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">From a voice review, edited for readability; translated from Ukrainian</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
-<p>Elvirochka, good evening. Our Busik is the best. Such a cutie. He is our much-loved little son. We love our youngest little son very much. We think of you, Elvira. Every time we kiss him, we think of you. And we wish you all the very best. We kiss him very often. And so all our very best wishes to you, so that you … us such a little son.</p>
-<p>That was me dropping the phone. Thank you sincerely for Busik. Thank you sincerely. We love him. Ilai loves him too. He sleeps with us, between me and Kolya. Such a good boy. Our boundless gratitude to you for him.</p>
+<p>Elvirochka, good evening! Our Busik is the best. Such a cutie. He is our much-loved little son. We love our youngest little son very much.</p>
+<p>Every time we kiss him, we think of you. And we wish you all the very best. We kiss him very often.</p>
+<p>Thank you sincerely for Busik. We love him. Ilai loves him too. He sleeps with us, between me and Kolya. Such a good boy. Our boundless gratitude to you for him.</p>
 </blockquote>
 </div>
 </div>

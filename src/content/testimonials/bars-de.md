@@ -10,4 +10,4 @@ fullReview:
   anchor: "tatiana-and-bars"
 ---
 
-Wenn man sich entscheidet, so ein Baby zu bekommen, muss man bewusst mit der Wahl der Zucht umgehen - es geht vor allem um die Gesundheit Ihres Kleinen. Ich bin sehr froh, dass Ihre Zucht mir ins Auge gefallen ist. Sie geben den Eltern das Wertvollste - ihre Babys - und kümmern sich weiter um sie.
+Jetzt ist unser Junge 1,8 Jahre alt, er ist genauso verspielt, gesprächig, neugierig, liebt Autofahrten und das Spielen mit den Kindern ... Wovon ich träume: dass Wenjuschka ein Schwesterchen oder Brüderchen bekommt, und zwar genau aus dieser Zucht, denn sie geben den Eltern das Wertvollste, ihre Kinder, und kümmern sich auch danach mit Fürsorge und Aufmerksamkeit um sie 🤗🤗🤗

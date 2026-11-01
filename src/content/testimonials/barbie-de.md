@@ -10,4 +10,4 @@ fullReview:
   anchor: "stas-and-barbie"
 ---
 
-Wir waren angenehm überrascht von der Einstellung zu den Kätzchen, der Bereitschaft, jegliche Fotos, Videos und sogar Videoanrufe online bereitzustellen. Das Kätzchen kam mit einer „Mitgift" und gechipt, mit allen Dokumenten. Von der ersten Minute an fühlte sie sich wohl und bat darum, auf den Arm genommen zu werden.
+Anders als bei anderen Rassen hat sich das Kätzchen von den ersten Minuten an in der Wohnung eingelebt und wollte auf den Arm... Hätten wir nur gewusst, dass das erst der Anfang war. Seit ihrer Ankunft bis heute, und das sind schon fast zwei Jahre, schläft sie jeden Tag bei uns, isst mit uns, sitzt auf den Armen, Schultern, auf dem Kopf und überall, wo es ihr gefällt. Sie redet sehr laut und oft mit uns.

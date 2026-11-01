@@ -10,4 +10,4 @@ fullReview:
   anchor: "yulia-and-axel"
 ---
 
-When my husband comes home from work, Korneliy screams until he picks him up and carries him around. He sleeps with me, and if it's bedtime but I'm not in bed yet - there will be a scandal. If you want the most affectionate cat breed - it's the Oriental.
+If you want the gentlest cat breed, it’s the Oriental. Yes, they have character, but he’s always close by, he needs to be near you and, without fail, up to date on everything :) He inspects all your shopping and every bag :) and, most importantly, be ready for the fact that the cat talks a lot :)

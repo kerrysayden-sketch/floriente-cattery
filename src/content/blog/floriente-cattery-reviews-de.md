@@ -8,16 +8,16 @@ publishDate: "2026-06-17"
 ogImage: "/images/blog/floriente-cattery-reviews.webp"
 ---
 
-Drei Familien sind für einen zweiten Orientalen zurückgekehrt. Eine von ihnen sogar für einen dritten. Das ist kein Marketing. Das ist eine Regelmäßigkeit, die sich nicht fälschen lässt.
+Hier finden Sie Erfahrungsberichte von Familien, die ein Kätzchen von Floriente zu sich geholt haben — in ihren eigenen Worten. Bei jedem Bericht steht, ob es sich um das Original, eine Übersetzung oder eine bearbeitete Sprachnachricht handelt.
 
-Eine Zucht beurteilt man nicht nach ihren eigenen Worten. Man beurteilt sie anhand der Menschen, die diesen Weg bereits gegangen sind — die Entscheidung getroffen, das Kätzchen nach Hause gebracht haben und sich später dafür entschieden haben, wiederzukommen.
+Eine Zucht beurteilt man nicht nach ihren eigenen Worten. Man beurteilt sie anhand der Menschen, die diesen Weg bereits gegangen sind — die Entscheidung getroffen und das Kätzchen nach Hause gebracht haben.
 
 <h2 id="alexander-and-tatiana" class="scroll-mt-28">Alexander und Tatiana — die Familie von Cai und Cia</h2>
 
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-cai-cia.webp" width="96" height="96" alt="Alexander und Tatiana — die Familie von Cai und Cia" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Vollständiger Erfahrungsbericht, aus dem Russischen übersetzt</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Aus dem Russischen übersetzt</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>Mein Mann und ich sind die glücklichen Besitzer von zwei wunderbaren Kätzchen aus einem Wurf (gut erzogen, selbstständig, wissen, was sie wollen, „mit festem Tagesrhythmus“, „voller Leben“).</p>
 <p>Die Rasse spielt natürlich eine Rolle!</p>
@@ -42,7 +42,7 @@ Eine Zucht beurteilt man nicht nach ihren eigenen Worten. Man beurteilt sie anha
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-salma.webp" width="96" height="96" alt="Lidija — die Familie von Salma" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Vollständiger Erfahrungsbericht, aus dem Ukrainischen übersetzt</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Aus dem Ukrainischen übersetzt</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>Von der Zucht habe ich erfahren, als ich auf OLX nach einem Kätzchen gesucht habe.</p>
 <p>Der erste Grund für einen Orientalen ist sein ungewöhnliches, „außerirdisches“ Aussehen und sein unglaublich kluger Blick. Nachdem wir uns mit den Besonderheiten der Rasse beschäftigt hatten, beschlossen wir, dass wir so eine Katze wollen.</p>
@@ -58,7 +58,7 @@ Eine Zucht beurteilt man nicht nach ihren eigenen Worten. Man beurteilt sie anha
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-bars.webp" width="96" height="96" alt="Tatiana — die Familie von Bars (Wenjuschka)" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Vollständiger Erfahrungsbericht, aus dem Russischen übersetzt</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Aus dem Russischen übersetzt</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>Wenjuschka ist unser zweites orientalisches Kind.... Die Liebe zu Orientalen begann mit unserem ersten Kätzchen, Luzifer. Diese Rasse hat mir schon immer gefallen, ich habe gelesen, Videos geschaut, geträumt, und mein Traum sollte in Erfüllung gehen: Mein Mann schenkte mir Ljusinka, so zärtlich nannten wir ihn. Die Liebe, das Verständnis für Charakter und Verhalten kamen nach und nach :))) jedes Kätzchen ist individuell und einzigartig, wie ich heute verstehe. Diese Rasse ist so sehr auf den Menschen ausgerichtet, er ist überall und immer bei dir 🥰🥰🥰 Mit Ljusenka haben wir gelernt, dass sie sehr gern Spielzeug herumtragen; Ljuska trug Bonbons herum, klaute und versteckte sie und brachte sie dann im Maul. Anfangs war das so unerwartet, aber heute verstehe ich, dass ihnen das im Blut liegt. Sie sind sehr verspielte Zappelphilippe, Plaudertaschen; wenn du hörst, wie er gedehnt „Mama, na, Maaama“ sagt, beginnt das Herz mit noch mehr Liebe zu schlagen ❤️❤️❤️ Unser Ljusinka war ein richtiger Wiederholungsdieb, und Wenjuschka ist sein komplettes Gegenteil, ein sehr wohlerzogenes Kind, ein Aristokrat. Wie kam Wenjuschka zu uns 😻😻😻 Ljusinka haben wir leider nicht bei Ihnen geholt; er hatte keine Papiere, keine Impfungen, und das war unser schlimmster Fehler, wir wussten nichts über seinen Gesundheitszustand. Nach allem, was wir durchgemacht haben, bin ich sehr froh, dass gerade Sie, Ihre Zucht mir ins Auge gefallen ist und wir das allerallerallerliebste und ersehnteste Kind bekommen haben. Um Ljusinkas Leben haben wir mit allen möglichen und unmöglichen Mitteln und Methoden gekämpft, wir haben vor nichts haltgemacht, sind zu mehr als einer Klinik gefahren; ohne diese blauen Augen war es unmöglich, nicht nur zu leben, sondern sogar zu atmen, man erstickte einfach vor Schmerz, daran, dass nicht alles in deinen Händen liegt und von dir abhängt. Deshalb, wenn du dich entscheidest, dir so ein Kind zuzulegen, muss man die Zucht und die Menschen bewusst auswählen und die ganze Verantwortung für dieses Kind verstehen. Kannst du ihm die nötige Pflege, gutes Futter, Bedingungen geben... 24/7 bei ihm sein — ich möchte sagen, diese Rasse verträgt Einsamkeit überhaupt nicht, sie fangen an, sich zu sorgen.... Wenjuschka, unser Wenjuschka, manchmal scheint mir, dass er von Anfang an unser war, er hat uns ausgewählt, er hat auf uns gewartet, und ich glaube daran, dass es keine Zufälle gibt, und einige Zeit später haben wir ihn nach Hause gebracht 🥰🥰🥰 Anfangs verhielt er sich vorsichtig, gewöhnte sich an uns und an das Zuhause, aber das dauerte nicht lange :))) mit Papa war es Liebe auf den ersten Blick ❤️❤️❤️ Jetzt ist unser Junge 1,8 Jahre alt, er ist genauso verspielt, gesprächig, neugierig, liebt Autofahrten und das Spielen mit den Kindern ... Wovon ich träume: dass Wenjuschka ein Schwesterchen oder Brüderchen bekommt, und zwar genau aus dieser Zucht, denn sie geben den Eltern das Wertvollste, ihre Kinder, und kümmern sich auch danach mit Fürsorge und Aufmerksamkeit um sie 🤗🤗🤗 Was ich Menschen sagen würde, die genau an so ein Kind denken :))) die Zucht verantwortungsvoll auswählen, vor allem geht es um die Gesundheit Ihres Kleinen, und ich bin sehr froh, dass ich diese Menschen kennengelernt habe 🤗🤗🤗 Das sind Kinder, die für dich immer Kinder bleiben, und sie brauchen Fürsorge und Betreuung 24/7, deshalb treffen Sie Ihre Wahl bewusst. Ein Orientale ist Liebe mitten ins Herz und in die Seele ❤️❤️❤️, Liebe fürs ganze Leben 😻😻😻 Ein Mensch, der seine Liebe so einem Kind schenkt, ja überhaupt jedem anderen, bekommt sie grenzenlos zurück und liebt dich einfach dafür, dass du in seinem Leben bist ❤️❤️❤️ Mit einem Wort — das ist einfach Liiiebe, und wir sind sehr froh, dass wir sie in jedem Augenblick, jeder Minute spüren können.... Viel Glück und Erfolg für Ihre Arbeit, Ihre Zucht, Sie machen Menschen glücklich 🤗🤗🤗</p>
 </blockquote>
@@ -70,7 +70,7 @@ Eine Zucht beurteilt man nicht nach ihren eigenen Worten. Man beurteilt sie anha
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-barbie.webp" width="96" height="96" alt="Stas — die Familie von Barbie (Dora)" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Vollständiger Erfahrungsbericht, aus dem Ukrainischen übersetzt; der Name der Zucht in eckigen Klammern wurde auf Wunsch des Autors eingefügt</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Aus dem Ukrainischen übersetzt; „[Floriente]“ ist eine redaktionelle Ersetzung eines vom Autor hinterlassenen Platzhalters für den Namen der Zucht</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>Unsere Dora ist für unsere Familie die dritte Katze, neben einer Schottischen und einer Abessinierin, deshalb war die Entscheidung gerade für eine Orientalin äußerst durchdacht und bewusst. An der Rasse reizte uns eben dieses „außerirdische Aussehen“, und als wir anfingen, uns mit der Rasse selbst, ihren Gewohnheiten und ihrem Charakter zu beschäftigen, verstanden wir, dass so eine Katze perfekt zu unserer Familie und unserem Lebensstil passen würde. Nachdem wir uns für die Rasse entschieden hatten, begannen wir, nach passenden Optionen nach Alter (weil wir ein möglichst junges Kätzchen wollten) und Farbe zu suchen. Als wir endlich eine passende Option gefunden hatten, und das war eben [Floriente], nahmen wir Kontakt auf und waren angenehm beeindruckt von der Einstellung zu ihren Tieren und der Bereitschaft, beliebige Fotos, Videos und sogar Live-Videoanrufe anzubieten, über die wir beobachten konnten, wie unsere kleine Prinzessin heranwächst. Das Kätzchen haben wir persönlich abgeholt, obwohl man bereit war, es uns auf Wunsch mit speziellen ehrenamtlichen Tiertransporteuren in jede beliebige Stadt zu schicken. Das Kätzchen kam mit einer „Aussteuer“, gechippt und mit fertigen Papieren.</p>
 <p>Anders als bei anderen Rassen hat sich das Kätzchen von den ersten Minuten an in der Wohnung eingelebt und wollte auf den Arm... Hätten wir nur gewusst, dass das erst der Anfang war. Seit ihrer Ankunft bis heute, und das sind schon fast zwei Jahre, schläft sie jeden Tag bei uns, isst mit uns, sitzt auf den Armen, Schultern, auf dem Kopf und überall, wo es ihr gefällt. Sie redet sehr laut und oft mit uns. Das heißt, alle Eigenschaften, die dieser Rasse eigen sind, haben sich in Dora voll und ganz verkörpert. Sie hat kein einziges Mal etwas kaputt gemacht und keinen einzigen Menschen gekratzt. Sogar jetzt, während ich diese Bewertung schreibe, sitzt sie auf meinem Schoß und miaut laut, weil sie Aufmerksamkeit will. Deshalb kann ich persönlich im Namen unserer Familie die Rasse der Orientalen und [Floriente] als fürsorgliche und aufmerksame Menschen empfehlen, die ihre Tiere mit Liebe großziehen und bereit sind, diese an Sie weiterzugeben.</p>
@@ -83,7 +83,7 @@ Eine Zucht beurteilt man nicht nach ihren eigenen Worten. Man beurteilt sie anha
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-barton.webp" width="96" height="96" alt="Natalia — die Familie von Barton (Jaryk)" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Vollständiger Erfahrungsbericht, aus dem Ukrainischen übersetzt</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Aus dem Ukrainischen übersetzt</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>Wir haben eigentlich eine sehr interessante, wenn auch sehr traurige Geschichte, wie wir Sie gefunden haben.</p>
 <p>In Orientalen habe ich mich vor sehr langer Zeit verliebt — noch bevor wir Sie gefunden haben. Es war Liebe auf den ersten Blick. Ihre Anmut, ihre Vorsicht und ihr kluger Blick haben mich von den ersten Minuten an verzaubert.</p>
@@ -102,7 +102,7 @@ Eine Zucht beurteilt man nicht nach ihren eigenen Worten. Man beurteilt sie anha
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-axel.webp" width="96" height="96" alt="Yulia — die Familie von Axel Cornelius (Korneliy)" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Vollständiger Erfahrungsbericht, aus dem Russischen übersetzt</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Aus dem Russischen übersetzt</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>Den Kater aus der Zucht haben wir vor 2 Jahren „adoptiert“. Er war ein Geburtstagsgeschenk für unseren Sohn. Gefunden haben wir ihn über eine Anzeige auf OLX. Die Fotos haben uns gefallen, ich habe angerufen, man hat mir sehr lange und ausführlich von dieser Rasse erzählt :) und wir haben beschlossen, dass wir ihn brauchen :) ein großes Plus für die Züchter — sie sind uns entgegengekommen und haben uns erlaubt, den Kater um 6 Uhr morgens abzuholen :)</p>
 <p>Die Rasse haben wir gar nicht groß ausgesucht, mein Mann hat sie vorgeschlagen, wir haben uns eingelesen und uns entschieden :)</p>
@@ -119,10 +119,11 @@ Eine Zucht beurteilt man nicht nach ihren eigenen Worten. Man beurteilt sie anha
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-bantik.webp" width="96" height="96" alt="Tatiana — die Familie von Bantik (Busik)" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Abschrift zweier Sprachnachrichten, aus dem Ukrainischen übersetzt</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Aus einer Sprachnachricht, für die Lesbarkeit bearbeitet; aus dem Ukrainischen übersetzt</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
-<p>Elwirotschka, guten Abend. Unser Busik ist der Beste. So ein Hübscher. Er ist unser sehr geliebtes Söhnchen. Unser jüngstes Söhnchen lieben wir sehr. Wir denken an Sie, Elwira. So oft wir ihn küssen, so oft denken wir an Sie. Und wir wünschen Ihnen alles Gute. Wir küssen ihn sehr oft. Und deshalb all unsere besten Wünsche an Sie, dass Sie uns … so ein Söhnchen.</p>
-<p>Da ist mir das Telefon aus der Hand gefallen. Herzlichen Dank Ihnen für Busik. Herzlichen Dank. Wir lieben ihn. Ilai liebt ihn auch. Er schläft bei uns, zwischen mir und Kolja. So ein guter Junge. Unsere grenzenlose Dankbarkeit Ihnen für ihn.</p>
+<p>Elwirotschka, guten Abend! Unser Busik ist der Beste. So ein Hübscher. Er ist unser sehr geliebtes Söhnchen. Unser jüngstes Söhnchen lieben wir sehr.</p>
+<p>So oft wir ihn küssen, so oft denken wir an Sie. Und wir wünschen Ihnen alles Gute. Wir küssen ihn sehr oft.</p>
+<p>Herzlichen Dank Ihnen für Busik. Wir lieben ihn. Ilai liebt ihn auch. Er schläft bei uns, zwischen mir und Kolja. So ein guter Junge. Unsere grenzenlose Dankbarkeit Ihnen für ihn.</p>
 </blockquote>
 </div>
 </div>

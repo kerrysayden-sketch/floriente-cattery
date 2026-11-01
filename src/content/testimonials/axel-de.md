@@ -10,4 +10,4 @@ fullReview:
   anchor: "yulia-and-axel"
 ---
 
-Wenn mein Mann von der Arbeit nach Hause kommt, schreit Korneliy, bis er ihn hochnimmt und herumträgt. Er schläft bei mir, und wenn es Zeit zum Schlafen ist, ich aber noch nicht im Bett bin - gibt es einen Skandal. Wenn Sie die anhänglichste Katzenrasse wollen - das ist der Orientale.
+Wenn Sie die zärtlichste Katzenrasse wollen — das ist der Orientale. Ja, sie haben Charakter, aber er ist immer in der Nähe, er muss bei Ihnen sein und unbedingt über alles Bescheid wissen :) Er ist der Prüfer all Ihrer Einkäufe und aller Tüten :) und vor allem muss man darauf gefasst sein, dass der Kater sehr viel redet :)

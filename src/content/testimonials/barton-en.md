@@ -10,4 +10,4 @@ fullReview:
   anchor: "natalia-and-barton"
 ---
 
-We found you - and immediately felt the love for the kittens. You could see that you interact with them constantly, play with them, aren't afraid to send videos right away and even let us see the little ones. We felt that the kitten grows up in love and care.
+And then we found you — and we immediately felt the love for the kittens. It was clear that you are in constant contact with them, play with them, aren’t afraid to send a video right away and even let us see the little ones. We felt that the kitten was growing up in love and care. That really won us over. We felt your attitude towards animals, and getting to know you was very warm, almost homely.

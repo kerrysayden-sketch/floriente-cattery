@@ -10,4 +10,4 @@ fullReview:
   anchor: "tatiana-and-bars"
 ---
 
-Kiedy podejmujesz decyzję o takim maluszku, musisz świadomie podejść do wyboru hodowli - przede wszystkim chodzi o zdrowie twojego malucha. Bardzo się cieszę, że właśnie wasza hodowla wpadła mi w oko. Oddajecie rodzicom najcenniejsze - swoje dzieci - i nadal się o nie troszczycie.
+Teraz nasz chłopczyk ma 1,8 roku, jest tak samo figlarny, gadatliwy, ciekawski, uwielbia jazdę samochodem, zabawy z dziećmi ... Marzę o tym, żeby Wieniuszka miał siostrzyczkę albo braciszka i to właśnie z tej hodowli, bo oni oddają rodzicom to, co najcenniejsze, swoje dzieci, i dalej okazują im troskę i uwagę 🤗🤗🤗

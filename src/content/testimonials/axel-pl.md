@@ -10,4 +10,4 @@ fullReview:
   anchor: "yulia-and-axel"
 ---
 
-Kiedy mąż wraca z pracy, Korneliy krzyczy, dopóki nie weźmie go na ręce i nie ponosi. Śpi ze mną, a jeśli już pora spać, a ja jeszcze nie jestem w łóżku - będzie skandal. Jeśli chcesz najczulszą rasę kotów - to orientał.
+Jeśli chcecie najczulszą rasę kotów — to oriental. Tak, mają charakter, ale przy tym on zawsze jest obok, musi być przy was i koniecznie wiedzieć o wszystkim, co się dzieje :) To rewizor wszystkich waszych zakupów i wszystkich toreb :) i jeszcze najważniejsze — trzeba być gotowym na to, że kot bardzo dużo mówi :)

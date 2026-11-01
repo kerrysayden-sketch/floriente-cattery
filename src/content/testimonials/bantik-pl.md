@@ -10,4 +10,4 @@ fullReview:
   anchor: "tatiana-and-bantik"
 ---
 
-Dziękujemy ogromnie za Busika. Za każdym razem, gdy go całujemy, myślimy o was. Śpi z nami. Nasza nieskończona wdzięczność za niego.
+Ile razy go całujemy, tyle razy Panią wspominamy. I życzymy Pani wszystkiego najlepszego. Całujemy go bardzo często. Szczerze dziękuję Pani za Busika. Kochamy go. Ilai też go kocha. Śpi z nami, między mną a Kolą. Taki dobry chłopczyk. Nasza bezgraniczna wdzięczność dla Pani za niego.

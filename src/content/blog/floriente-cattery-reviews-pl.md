@@ -8,16 +8,16 @@ publishDate: "2026-06-17"
 ogImage: "/images/blog/floriente-cattery-reviews.webp"
 ---
 
-Trzy rodziny wróciły po drugiego orientalnego. Jedna z nich — nawet po trzeciego. To nie marketing. To wzorzec, którego się nie podrabia.
+Poniżej — opinie rodzin, które zabrały do domu kocięta z Floriente, ich własnymi słowami. Przy każdej opinii zaznaczono, czy to oryginał, tłumaczenie, czy zredagowany zapis wiadomości głosowej.
 
-Hodowli nie sprawdza się po jej własnych słowach. Sprawdza się przez ludzi, którzy już przeszli tę drogę — podjęli decyzję, przywieźli kociaka do domu, a potem wybrali, by wrócić.
+Hodowli nie sprawdza się po jej własnych słowach. Sprawdza się przez ludzi, którzy już przeszli tę drogę — podjęli decyzję i przywieźli kociaka do domu.
 
 <h2 id="alexander-and-tatiana" class="scroll-mt-28">Aleksander i Tatiana — rodzina Cai i Cia</h2>
 
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-cai-cia.webp" width="96" height="96" alt="Aleksander i Tatiana — rodzina Cai i Cia" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Pełna opinia, tłumaczenie z rosyjskiego</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Tłumaczenie z rosyjskiego</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>Razem z mężem jesteśmy szczęśliwymi właścicielami dwóch wspaniałych (dobrze wychowanych, samodzielnych, wiedzących, czego chcą, «trzymających się rytmu dnia», «pełnych życia») kociąt z jednego miotu.</p>
 <p>Rasa ma znaczenie, bez wątpienia!</p>
@@ -42,7 +42,7 @@ Hodowli nie sprawdza się po jej własnych słowach. Sprawdza się przez ludzi, 
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-salma.webp" width="96" height="96" alt="Lidia — rodzina Salma" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Pełna opinia, tłumaczenie z ukraińskiego</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Tłumaczenie z ukraińskiego</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>O hodowli dowiedziałam się, gdy szukałam kociaka na OLX.</p>
 <p>Pierwszy powód, by wybrać orientala, to jego niezwykły, «nieziemski» wygląd i niesamowicie mądre spojrzenie. Po poznaniu cech rasy zdecydowaliśmy, że chcemy takiego kotka.</p>
@@ -58,7 +58,7 @@ Hodowli nie sprawdza się po jej własnych słowach. Sprawdza się przez ludzi, 
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-bars.webp" width="96" height="96" alt="Tatiana — rodzina Bars (Wieniuszka)" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Pełna opinia, tłumaczenie z rosyjskiego</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Tłumaczenie z rosyjskiego</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>Wieniuszka to nasze drugie orientalne dziecko.... Miłość do orientali zaczęła się od naszego pierwszego kociaka, Lucyfera. Ta rasa zawsze mi się podobała, czytałam, oglądałam filmy, marzyłam, i mojemu marzeniu było dane się spełnić: mąż podarował mi Lusińkę, tak czule go nazywaliśmy. Miłość, zrozumienie charakteru i zachowania przychodziły stopniowo :))) każdy kociak jest indywidualny i niepowtarzalny, jak teraz to rozumiem. Ta rasa jest tak bardzo nastawiona na człowieka, on jest z tobą wszędzie i zawsze 🥰🥰🥰 Dzięki Lusieńce dowiedzieliśmy się, że one bardzo lubią nosić zabawki; Luśka nosił cukierki, kradł je i chował, a potem przynosił w zębach. Na początku było to tak nieoczekiwane, a teraz rozumiem, że mają to we krwi. To bardzo figlarne wiercipięty, gaduły; kiedy słyszysz, jak przeciągle mówi «mama, no maaama», serce zaczyna bić z jeszcze większą miłością ❤️❤️❤️ Nasz Lusińka był po prostu złodziejem recydywistą, a Wieniuszka to jego zupełne przeciwieństwo, bardzo dobrze wychowane dziecko, arystokrata. Jak to się stało, że pojawił się u nas Wieniuszka 😻😻😻 Lusińkę, niestety, wzięliśmy nie od was; był bez dokumentów, bez szczepień i to był nasz najstraszniejszy błąd, nie wiedzieliśmy, jaki jest jego stan zdrowia. Po tym, co przeżyliśmy, bardzo się cieszę, że to właśnie Wy, Wasza hodowla wpadła mi w oko i pojawiło się u nas najnajnajukochańsze i wymarzone dziecko. O życie Lusińki walczyliśmy wszystkimi możliwymi i niemożliwymi sposobami i metodami, nie cofaliśmy się przed niczym, objechaliśmy niejedną klinikę; bez tych niebieskich oczu nie dało się nie tylko żyć, ale nawet oddychać, po prostu dusiłeś się z bólu, z tego, że nie wszystko jest w twoich rękach i zależy od ciebie. Dlatego, kiedy podejmujesz decyzję o takim dziecku, trzeba świadomie podchodzić do wyboru hodowli, ludzi, rozumieć całą odpowiedzialność za to dziecko. Czy zdołasz zapewnić mu potrzebną opiekę, dobre żywienie, warunki... Być z nim 24/7 — chcę powiedzieć, że ta rasa w ogóle nie znosi samotności, zaczynają się denerwować.... Wieniuszka, nasz Wieniuszka, czasem wydaje mi się, że był nasz od początku, wybrał nas, czekał na nas, a ja wierzę, że nie ma przypadków, i po jakimś czasie przywieźliśmy go do domu 🥰🥰🥰 Na początku zachowywał się ostrożnie, oswajał się z nami i z domem, ale nie trwało to długo :))) z tatą to miłość od pierwszego wejrzenia ❤️❤️❤️ Teraz nasz chłopczyk ma 1,8 roku, jest tak samo figlarny, gadatliwy, ciekawski, uwielbia jazdę samochodem, zabawy z dziećmi ... Marzę o tym, żeby Wieniuszka miał siostrzyczkę albo braciszka i to właśnie z tej hodowli, bo oni oddają rodzicom to, co najcenniejsze, swoje dzieci, i dalej okazują im troskę i uwagę 🤗🤗🤗 Co powiedziałabym ludziom, którzy myślą właśnie o takim dziecku :))) odpowiedzialnie podchodzić do wyboru hodowli, to przede wszystkim zdrowie waszego maluszka, i bardzo się cieszę, że poznałam tych ludzi 🤗🤗🤗 To dzieci, które dla ciebie zawsze pozostaną dziećmi i potrzebują troski i opieki 24/7, dlatego dokonujcie wyboru świadomie. Oriental to miłość prosto w serce i duszę ❤️❤️❤️, to miłość na całe życie 😻😻😻 Człowiek, który obdarza swoją miłością takie dziecko, a w ogóle każde inne, dostaje ją w zamian bez granic i kocha cię po prostu za to, że jesteś w jego życiu ❤️❤️❤️ Jednym słowem — to po prostu Miłooość i bardzo się cieszymy, że możemy ją czuć w każdej chwili, w każdej minucie.... Powodzenia i pomyślności dla Waszej działalności, Waszej hodowli, uszczęśliwiacie ludzi 🤗🤗🤗</p>
 </blockquote>
@@ -70,7 +70,7 @@ Hodowli nie sprawdza się po jej własnych słowach. Sprawdza się przez ludzi, 
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-barbie.webp" width="96" height="96" alt="Stas — rodzina Barbie (Dora)" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Pełna opinia, tłumaczenie z ukraińskiego; nazwę hodowli w nawiasach kwadratowych wstawiono na prośbę autora</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Tłumaczenie z ukraińskiego; «[Floriente]» to redakcyjne wstawienie w miejsce pozostawionej przez autora luki na nazwę hodowli</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>Nasza Dora to dla naszej rodziny trzecia kotka, oprócz szkockiej i abisyńskiej, więc wybór właśnie orientala był maksymalnie przemyślany i świadomy. W rasie przyciągał ten właśnie «nieziemski wygląd», a kiedy zaczęliśmy poznawać samą rasę, jej zwyczaje i charakter, zrozumieliśmy, że taka kotka będzie idealnie pasować do naszej rodziny i stylu życia. Kiedy już zdecydowaliśmy się na rasę, zaczęliśmy szukać odpowiednich opcji pod względem wieku (bo chcieliśmy jak najmłodszego kociaka) i umaszczenia. Kiedy w końcu znaleźliśmy odpowiednią opcję, a była to właśnie [Floriente], skontaktowaliśmy się i byliśmy mile zaskoczeni stosunkiem do swoich podopiecznych, gotowością udostępnienia dowolnych zdjęć, filmów, a nawet rozmów wideo na żywo, dzięki którym mogliśmy obserwować, jak rośnie nasza mała księżniczka. Kociaka odbieraliśmy osobiście, choć byli gotowi wysłać go nam na naszą prośbę do dowolnego miasta ze specjalnymi wolontariuszami, którzy przewożą zwierzęta. Kociak przyjechał z «wyprawką», zaczipowany, z kompletem dokumentów.</p>
 <p>W przeciwieństwie do innych ras kociak od pierwszych minut zadomowił się w mieszkaniu i zaczął prosić się na ręce... Gdybyśmy tylko wiedzieli, że to dopiero początek. Od chwili przyjazdu aż do teraz, a to już prawie dwa lata, codziennie śpi z nami, je z nami, siedzi na rękach, ramionach, głowie i wszędzie, gdzie tylko jej się zachce. Bardzo głośno i często z nami rozmawia. Czyli wszystkie te cechy, które są właściwe tej rasie, w pełni ucieleśniły się w Dorze. Ani razu nie zniszczyła żadnej rzeczy i nie podrapała żadnego człowieka. Nawet teraz, kiedy piszę tę opinię, siedzi mi na kolanach i głośno miauczy, domagając się uwagi. Dlatego osobiście w imieniu naszej rodziny mogę polecić rasę orientalną i [Floriente] jako troskliwych i uważnych ludzi, którzy wychowują zwierzątka w miłości i są gotowi przekazać ją Wam.</p>
@@ -83,7 +83,7 @@ Hodowli nie sprawdza się po jej własnych słowach. Sprawdza się przez ludzi, 
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-barton.webp" width="96" height="96" alt="Natalia — rodzina Barton (Jaryk)" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Pełna opinia, tłumaczenie z ukraińskiego</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Tłumaczenie z ukraińskiego</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>Mamy właściwie bardzo ciekawą, choć bardzo smutną historię o tym, jak was znaleźliśmy.</p>
 <p>W orientalach zakochałam się bardzo dawno — jeszcze zanim was znaleźliśmy. To była miłość od pierwszego wejrzenia. Ich gracja, ostrożność i mądre spojrzenie oczarowały mnie od pierwszych minut.</p>
@@ -102,7 +102,7 @@ Hodowli nie sprawdza się po jej własnych słowach. Sprawdza się przez ludzi, 
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-axel.webp" width="96" height="96" alt="Yulia — rodzina Axel Cornelius (Korneliy)" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Pełna opinia, tłumaczenie z rosyjskiego</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Tłumaczenie z rosyjskiego</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
 <p>Kota z hodowli «adoptowaliśmy» 2 lata temu. To był prezent dla syna na urodziny. Znaleźliśmy go przez ogłoszenie na OLX. Spodobały nam się zdjęcia, zadzwoniłam, bardzo długo i dużo opowiadano mi o tej rasie :) i zdecydowaliśmy, że go potrzebujemy :) duży plus dla hodowców — poszli nam na rękę i pozwolili odebrać kotka o 6 rano :)</p>
 <p>Rasy nawet specjalnie nie wybieraliśmy, mąż zaproponował, zaczęliśmy czytać i się zdecydowaliśmy :)</p>
@@ -119,10 +119,11 @@ Hodowli nie sprawdza się po jej własnych słowach. Sprawdza się przez ludzi, 
 <div class="not-prose my-8 flex flex-col sm:flex-row gap-5 sm:gap-6">
 <img src="/images/family/testimonial-bantik.webp" width="96" height="96" alt="Tatiana — rodzina Bantik (Busik)" loading="lazy" decoding="async" class="w-24 h-24 shrink-0 rounded-full object-cover border-2 border-accent-gold/20">
 <div class="flex-1 min-w-0">
-<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Zapis dwóch wiadomości głosowych, tłumaczenie z ukraińskiego</p>
+<p class="text-xs uppercase tracking-wider text-gray-medium mb-3">Z opinii głosowej, zredagowano dla czytelności; tłumaczenie z ukraińskiego</p>
 <blockquote class="border-l-4 border-gold pl-5 italic text-dark-soft text-base leading-relaxed space-y-3">
-<p>Elwirko, dobry wieczór. Nasz Busik jest najlepszy. Taki śliczniutki. To nasz bardzo ukochany synek. Najmłodszego synka bardzo kochamy. Wspominamy Panią, Elwiro. Ile razy go całujemy, tyle razy Panią wspominamy. I życzymy Pani wszystkiego najlepszego. Całujemy go bardzo często. I dlatego wszystkie nasze najlepsze życzenia dla Pani, żeby Pani nam … takiego synka.</p>
-<p>To mi telefon wypadł z rąk. Szczerze dziękuję Pani za Busika. Szczerze dziękuję. Kochamy go. Ilai też go kocha. Śpi z nami, między mną a Kolą. Taki dobry chłopczyk. Nasza bezgraniczna wdzięczność dla Pani za niego.</p>
+<p>Elwirko, dobry wieczór! Nasz Busik jest najlepszy. Taki śliczniutki. To nasz bardzo ukochany synek. Najmłodszego synka bardzo kochamy.</p>
+<p>Ile razy go całujemy, tyle razy Panią wspominamy. I życzymy Pani wszystkiego najlepszego. Całujemy go bardzo często.</p>
+<p>Szczerze dziękuję Pani za Busika. Kochamy go. Ilai też go kocha. Śpi z nami, między mną a Kolą. Taki dobry chłopczyk. Nasza bezgraniczna wdzięczność dla Pani za niego.</p>
 </blockquote>
 </div>
 </div>

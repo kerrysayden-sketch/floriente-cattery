@@ -10,4 +10,4 @@ fullReview:
   anchor: "natalia-and-barton"
 ---
 
-Znaleźliśmy was - i od razu poczuliśmy miłość do kociąt. Było widać, że ciągle z nimi kontaktujecie, bawicie się, nie boicie się od razu wysłać filmiku i nawet pozwalacie zobaczyć maluchy. Poczuliśmy, że kociak rośnie w miłości i trosce.
+A potem znaleźliśmy was — i od razu poczuliśmy miłość do kotków. Było widać, że stale macie z nimi kontakt, bawicie się, nie boicie się od razu wysłać filmu, a nawet pozwalacie zobaczyć maluchy. Poczuliśmy, że kotek rośnie w miłości i trosce. To nas bardzo ujęło. Poczuliśmy wasz stosunek do zwierząt, a ta znajomość była bardzo ciepła, niemal domowa.

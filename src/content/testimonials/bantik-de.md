@@ -10,4 +10,4 @@ fullReview:
   anchor: "tatiana-and-bantik"
 ---
 
-Vielen Dank für Busik. Jedes Mal, wenn wir ihn küssen, denken wir an Sie. Er schläft bei uns. Unser grenzenloser Dank an Sie für ihn.
+So oft wir ihn küssen, so oft denken wir an Sie. Und wir wünschen Ihnen alles Gute. Wir küssen ihn sehr oft. Herzlichen Dank Ihnen für Busik. Wir lieben ihn. Ilai liebt ihn auch. Er schläft bei uns, zwischen mir und Kolja. So ein guter Junge. Unsere grenzenlose Dankbarkeit Ihnen für ihn.

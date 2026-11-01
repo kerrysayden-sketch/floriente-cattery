@@ -10,4 +10,4 @@ fullReview:
   anchor: "stas-and-barbie"
 ---
 
-Byliśmy mile zaskoczeni podejściem do swoich kociąt, gotowością do udostępnienia zdjęć, filmów, a nawet wideorozmów online. Kociak przyjechał z „wyprawką", zaczipowany i z kompletem dokumentów. Od pierwszej minuty oswoił się i zaczął prosić się na ręce.
+W przeciwieństwie do innych ras kociak od pierwszych minut zadomowił się w mieszkaniu i zaczął prosić się na ręce... Gdybyśmy tylko wiedzieli, że to dopiero początek. Od chwili przyjazdu aż do teraz, a to już prawie dwa lata, codziennie śpi z nami, je z nami, siedzi na rękach, ramionach, głowie i wszędzie, gdzie tylko jej się zachce. Bardzo głośno i często z nami rozmawia.

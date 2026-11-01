@@ -10,4 +10,4 @@ fullReview:
   anchor: "stas-and-barbie"
 ---
 
-We were pleasantly surprised by the attitude towards their kittens, the willingness to provide any photos, videos, and even video calls online. The kitten came with a "dowry" and chipped, with all documents. From day one, she settled in and started asking to be held.
+Unlike other breeds, the kitten settled into the flat from the very first minutes and started asking to be picked up... If only we had known that this was just the beginning. From the moment she arrived until now, and it’s almost two years already, she sleeps with us every day, eats with us, sits in our arms, on our shoulders, on our heads and anywhere she pleases. She talks to us very loudly and often.
