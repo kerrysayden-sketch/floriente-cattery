@@ -2,7 +2,7 @@
 articleSlug: "floriente-cattery-reviews"
 lang: "en"
 title: "Our Families: Stories and Reviews from Floriente Kitten Owners"
-description: "Real Floriente Cattery reviews: six families, seven Oriental kittens — why they chose the breed, how adaptation went, and why they come back."
+description: "Real Floriente Cattery reviews: seven families, eight Oriental kittens — why they chose the breed, how adaptation went, and why they come back."
 category: "Life at Floriente"
 publishDate: "2026-06-17"
 ogImage: "/images/blog/floriente-cattery-reviews.webp"
@@ -37,6 +37,24 @@ Ours, of course, are the very best! :))<br>
 I hope everyone finds “their own”!<br>
 You know the address!</p>
 <p>— Alexander and Tatiana</p>
+</blockquote>
+
+<h2 id="lidiia-and-salma" class="scroll-mt-28">Lidiia and Salma</h2>
+
+<figure class="not-prose my-8">
+<img src="/images/family/review-salma.webp" width="720" height="1280" alt="Lidiia holding her cat Salma" loading="lazy" decoding="async" class="w-full max-w-sm mx-auto rounded-lg shadow-sm">
+<figcaption class="mt-3 text-center text-sm text-gray-medium">Lidiia with Salma</figcaption>
+</figure>
+
+Her review in full (translated from Ukrainian):
+
+<blockquote>
+<p>I found out about the cattery when I was looking for a kitten on OLX.<br>
+The first reason to choose an Oriental is its unusual, “alien” look and incredibly intelligent gaze. After researching the breed, we decided we wanted a cat like that.<br>
+At home the kitty settled in quickly and easily. She knew her “toilet business” well. And I can say with confidence that she loved us at first sight, just as we loved her.<br>
+What was very unusual was her attachment to people. She is always close by, day and night, in the bathroom and in bed. She is a very gentle creature without a drop of aggression. She is also very clever: she looks you straight in the eye, listens to you, studies you. She can be taught to follow commands.<br>
+My advice is what I would have liked to hear myself before buying my kitty: take two kittens at once! A cat like this needs company; she finds it very hard to stay home alone, even for half a day. And you should be aware that an Oriental cat needs your attention and time, but she is worth it!</p>
+<p>— Lidiia</p>
 </blockquote>
 
 ## Tetiana and Bars (Venyushka) — A Second Chance

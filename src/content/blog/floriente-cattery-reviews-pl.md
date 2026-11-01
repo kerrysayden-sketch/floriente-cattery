@@ -2,7 +2,7 @@
 articleSlug: "floriente-cattery-reviews"
 lang: "pl"
 title: "Nasze rodziny: Historie i opinie właścicieli kociaków Floriente"
-description: "Prawdziwe opinie o hodowli Floriente: sześć rodzin, siedem kociaków orientalnych — dlaczego wybrali rasę, jak przebiegła adaptacja i czemu wracają."
+description: "Prawdziwe opinie o hodowli Floriente: siedem rodzin, osiem kociaków orientalnych — dlaczego wybrali rasę, jak przebiegła adaptacja i czemu wracają."
 category: "Życie w Floriente"
 publishDate: "2026-06-17"
 ogImage: "/images/blog/floriente-cattery-reviews.webp"
@@ -37,6 +37,24 @@ Nasze maluchy są oczywiście najlepsze! :))<br>
 Życzę wszystkim, by znaleźli «swoich»!<br>
 Adres już znacie!</p>
 <p>— Aleksander i Tatiana</p>
+</blockquote>
+
+<h2 id="lidiia-and-salma" class="scroll-mt-28">Lidia i Salma</h2>
+
+<figure class="not-prose my-8">
+<img src="/images/family/review-salma.webp" width="720" height="1280" alt="Lidia trzyma na rękach kotkę Salmę" loading="lazy" decoding="async" class="w-full max-w-sm mx-auto rounded-lg shadow-sm">
+<figcaption class="mt-3 text-center text-sm text-gray-medium">Lidia z Salmą</figcaption>
+</figure>
+
+Jej opinia w całości (tłumaczenie z ukraińskiego):
+
+<blockquote>
+<p>O hodowli dowiedziałam się, gdy szukałam kociaka na OLX.<br>
+Pierwszy powód, by wybrać orientala, to jego niezwykły, «nieziemski» wygląd i niesamowicie mądre spojrzenie. Po poznaniu cech rasy zdecydowaliśmy, że chcemy takiego kotka.<br>
+W domu kicia szybko i łatwo się zaadaptowała. Dobrze znała «sprawy toaletowe». I mogę śmiało powiedzieć, że pokochała nas od pierwszego wejrzenia, tak jak my ją.<br>
+Bardzo nietypowe było jej przywiązanie do człowieka. Zawsze jest obok, i w dzień, i w nocy, i w łazience, i w łóżku. To bardzo czułe stworzenie bez kropli agresji. A do tego jest bardzo mądra, patrzy prosto w oczy, słucha cię, przygląda się. Można ją nauczyć wykonywania komend.<br>
+Mogę doradzić to, co sama chciałabym usłyszeć przed zakupem swojej kici — bierzcie od razu dwa kociaki! Taka kotka potrzebuje towarzystwa, bardzo ciężko znosi zostawanie sama w domu, nawet na pół dnia. I warto mieć świadomość, że kotka orientalna potrzebuje waszej uwagi i czasu, ale jest tego warta!</p>
+<p>— Lidia</p>
 </blockquote>
 
 ## Tatiana i Bars (Wieniuszka) — Druga szansa

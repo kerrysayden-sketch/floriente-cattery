@@ -2,7 +2,7 @@
 articleSlug: "floriente-cattery-reviews"
 lang: "de"
 title: "Unsere Familien: Geschichten und Erfahrungsberichte der Halter von Floriente-Kätzchen"
-description: "Echte Floriente Cattery Erfahrungen: sechs Familien, sieben orientalische Kätzchen — warum sie die Rasse wählten und wie die Eingewöhnung wirklich lief."
+description: "Echte Floriente Cattery Erfahrungen: sieben Familien, acht orientalische Kätzchen — warum sie die Rasse wählten und wie die Eingewöhnung wirklich lief."
 category: "Leben bei Floriente"
 publishDate: "2026-06-17"
 ogImage: "/images/blog/floriente-cattery-reviews.webp"
@@ -37,6 +37,24 @@ Wir haben natürlich die allerbesten! :))<br>
 Ich wünsche allen, „ihre“ zu finden!<br>
 Die Adresse kennen Sie ja!</p>
 <p>— Alexander und Tatiana</p>
+</blockquote>
+
+<h2 id="lidiia-and-salma" class="scroll-mt-28">Lidija und Salma</h2>
+
+<figure class="not-prose my-8">
+<img src="/images/family/review-salma.webp" width="720" height="1280" alt="Lidija hält ihre Katze Salma auf dem Arm" loading="lazy" decoding="async" class="w-full max-w-sm mx-auto rounded-lg shadow-sm">
+<figcaption class="mt-3 text-center text-sm text-gray-medium">Lidija mit Salma</figcaption>
+</figure>
+
+Ihr Erfahrungsbericht in voller Länge (aus dem Ukrainischen übersetzt):
+
+<blockquote>
+<p>Von der Zucht habe ich erfahren, als ich auf OLX nach einem Kätzchen gesucht habe.<br>
+Der erste Grund für einen Orientalen ist sein ungewöhnliches, „außerirdisches“ Aussehen und sein unglaublich kluger Blick. Nachdem wir uns mit den Besonderheiten der Rasse beschäftigt hatten, beschlossen wir, dass wir so eine Katze wollen.<br>
+Zu Hause hat sich die Mieze schnell und leicht eingelebt. Mit dem „Klogang“ kannte sie sich gut aus. Und ich kann mit Sicherheit sagen, dass sie uns auf den ersten Blick geliebt hat, so wie wir sie.<br>
+Sehr ungewöhnlich war ihre Bindung an den Menschen. Sie ist immer in der Nähe, Tag und Nacht, im Bad und im Bett. Sie ist ein sehr zärtliches Wesen ohne einen Funken Aggression. Außerdem ist sie sehr klug, schaut dir direkt in die Augen, hört dir zu, studiert dich. Man kann ihr beibringen, Kommandos auszuführen.<br>
+Raten kann ich das, was ich selbst gern vor dem Kauf meiner Mieze gehört hätte: Nehmen Sie gleich zwei Kätzchen! So eine Katze braucht Gesellschaft, es fällt ihr sehr schwer, allein zu Hause zu bleiben, selbst für einen halben Tag. Und man sollte sich bewusst sein, dass eine orientalische Katze Ihre Aufmerksamkeit und Zeit braucht, aber sie ist es wert!</p>
+<p>— Lidija</p>
 </blockquote>
 
 ## Tetjana und Bars (Wenjuschka) — Eine zweite Chance
