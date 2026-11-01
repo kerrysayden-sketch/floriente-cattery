@@ -53,11 +53,13 @@ cardPhoto:
 documents: "metrics"
 
 # Clinical reports attached to this kitten only. Localised strings live in
-# i18n; href points at a byte-for-byte copy of the clinic's original PDF.
+# i18n; href points at a byte-for-byte copy of the clinic's signed, stamped
+# sheet (JPG). The earlier unsigned PDF of the same examination stays at its
+# URL but is intentionally no longer linked, so visitors see one report.
 healthDocuments:
   - labelKey: "kittens.healthDocChanelEchoLabel"
     noteKey: "kittens.healthDocChanelEchoNote"
-    href: "/documents/vet/chanel-echocardiography-2026-10-29.pdf"
+    href: "/documents/vet/chanel-echocardiography-2026-10-29.jpg"
 
 images:
   - n: 1
