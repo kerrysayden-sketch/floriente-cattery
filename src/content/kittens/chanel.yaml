@@ -27,7 +27,7 @@ publicationState: "published"
 # commercialStatus: available | reserved | evaluation | at_new_home | null
 #   null = NOT STATED. The workbook is not authoritative for availability, so
 #   no status is invented here merely to satisfy the schema.
-commercialStatus: "available"
+commercialStatus: "reserved"
 
 # featuredInKittensPreview: explicit editorial switch, independent of both
 #   fields above. Means "include in the KittensPreview block on the kittens
@@ -51,6 +51,13 @@ cardPhoto:
 # §10 Traceability: every asset back to workbook row / anchor / media / sha.
 # §9 Normalized customer-facing value. Raw wording stays in source.documentRaw.
 documents: "metrics"
+
+# Clinical reports attached to this kitten only. Localised strings live in
+# i18n; href points at a byte-for-byte copy of the clinic's original PDF.
+healthDocuments:
+  - labelKey: "kittens.healthDocChanelEchoLabel"
+    noteKey: "kittens.healthDocChanelEchoNote"
+    href: "/documents/vet/chanel-echocardiography-2026-10-29.pdf"
 
 images:
   - n: 1

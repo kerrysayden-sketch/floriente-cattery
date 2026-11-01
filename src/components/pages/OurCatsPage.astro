@@ -22,6 +22,20 @@ const certByCat: Record<string, string> = {
   simona: '/images/certs/genetic-simona.webp',
   halva: '/images/certs/genetic-heldig.webp',
 };
+
+// Per-cat clinical reports (not genetic). Each report applies ONLY to the cat
+// it is attached to and is never generalised across the cattery or a litter.
+// Localised strings live in i18n; `href` points at the file in /documents/vet/.
+type VetReport = { labelKey: string; noteKey: string; href: string };
+const vetReportsByCat: Record<string, VetReport[]> = {
+  simona: [
+    {
+      labelKey: 'ourCats.vetReportSimonaLabel',
+      noteKey: 'ourCats.vetReportSimonaNote',
+      href: '/documents/vet/simona-abdominal-ultrasound-2026-09-21.pdf',
+    },
+  ],
+};
 ---
 
 <BaseLayout
@@ -43,6 +57,7 @@ const certByCat: Record<string, string> = {
       const gallery = cat.gallery.map((g) => ({ src: g.src, label: t(lang, g.labelKey) }));
       const color = t(lang, `ourCats.${cat.catId}Color`);
       const certSrc = certByCat[cat.catId] ?? null;
+      const vetReports = vetReportsByCat[cat.catId] ?? [];
 
       return (
         <section
@@ -120,6 +135,25 @@ const certByCat: Record<string, string> = {
                       <>
                         <p class="text-xs text-gray-medium">{t(lang, 'ourCats.healthResultsExpected')}</p>
                       </>
+                    )}
+                    {vetReports.length > 0 && (
+                      <div class="mt-2 pt-2 border-t border-gray-light/40 space-y-1.5">
+                        {vetReports.map((r) => (
+                          <div>
+                            <p class="text-xs font-medium text-dark">{t(lang, r.labelKey)}</p>
+                            <p class="text-xs text-gray-medium">{t(lang, r.noteKey)}</p>
+                            <a
+                              href={r.href}
+                              target="_blank"
+                              rel="noopener"
+                              class="mt-1 inline-flex items-center gap-1 text-xs font-medium text-gold hover:text-gold-dark underline underline-offset-2"
+                            >
+                              {t(lang, 'ourCats.vetReportView')}
+                              <span aria-hidden="true">→</span>
+                            </a>
+                          </div>
+                        ))}
+                      </div>
                     )}
                   </div>
                 </div>

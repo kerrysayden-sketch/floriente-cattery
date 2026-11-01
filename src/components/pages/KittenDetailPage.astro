@@ -86,6 +86,23 @@ const description = c.metaDescription || paragraphs[0] || `${displayName} · ${b
           <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldSex')}</dt><dd class="text-sm text-dark">{k.sex === 'male' ? '♂ ' + t(lang, 'kittens.male') : '♀ ' + t(lang, 'kittens.female')}</dd></div>
           <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldBorn')}</dt><dd class="text-sm text-dark">{dob}</dd></div>
           {documents && <div class="flex"><dt class="w-32 text-sm text-gray-medium">{t(lang, 'kittens.fieldDocuments')}</dt><dd class="text-sm text-dark">{documents}</dd></div>}
+          {k.healthDocuments && k.healthDocuments.length > 0 && (
+            <div class="flex">
+              <dt class="w-32 text-sm text-gray-medium shrink-0">{t(lang, 'kittens.fieldHealthChecks')}</dt>
+              <dd class="text-sm text-dark space-y-2">
+                {k.healthDocuments.map((d) => (
+                  <div>
+                    <p class="font-medium">{t(lang, d.labelKey)}</p>
+                    <p class="text-gray-medium">{t(lang, d.noteKey)}</p>
+                    <a href={d.href} target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-gold hover:text-gold-dark underline underline-offset-2">
+                      {t(lang, 'kittens.healthDocView')}
+                      <span aria-hidden="true">→</span>
+                    </a>
+                  </div>
+                ))}
+              </dd>
+            </div>
+          )}
         </dl>
 
         {paragraphs.length > 0 && (
