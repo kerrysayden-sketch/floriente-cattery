@@ -2,7 +2,7 @@
 articleSlug: "floriente-cattery-reviews"
 lang: "en"
 title: "Our Families: Stories and Reviews from Floriente Kitten Owners"
-description: "Real Floriente Cattery reviews: seven families, eight Oriental kittens — why they chose the breed, how adaptation went, and why they come back."
+description: "Real Floriente Cattery reviews: seven families, eight Oriental kittens — why they chose the breed and how adaptation went."
 category: "Life at Floriente"
 publishDate: "2026-06-17"
 ogImage: "/images/blog/floriente-cattery-reviews.webp"
@@ -143,10 +143,6 @@ Yes. Write to us — we'll ask on your behalf. Not every family is available, bu
 **What pushed these owners toward Floriente?**
 
 Different things. Tetiana came after a loss — she needed documents and a healthy kitten. Stas came after research — he needed transparency and access. Nataliia came after a cold experience — she wanted to feel the difference. Yulia found us on OLX. The starting points differ. The pattern doesn't.
-
-**Why do families come back for a second cat?**
-
-Nobody comes back to a cattery they don't trust. Nobody buys a cat from someone who got it wrong the first time. Repeat buyers are a signal that doesn't lie.
 
 **What does "Ориенталов мало не бывает" mean?**
 

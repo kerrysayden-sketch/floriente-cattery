@@ -144,10 +144,6 @@ Ja. Schreiben Sie uns — wir fragen in Ihrem Namen nach. Nicht jede Familie ist
 
 Unterschiedliches. Tetjana kam nach einem Verlust — sie brauchte Dokumente und ein gesundes Kätzchen. Stas kam nach einer Recherche — er brauchte Transparenz und Zugang. Natalia kam nach einer kühlen Erfahrung — sie wollte den Unterschied spüren. Julia hat auf OLX gefunden. Die Ausgangspunkte sind unterschiedlich. Die Regelmäßigkeit bleibt dieselbe.
 
-**Warum sind die Familien für eine zweite Katze zurückgekehrt?**
-
-Niemand kehrt zu einer Zucht zurück, der er nicht vertraut. Niemand kauft eine Katze bei jemandem, der es beim ersten Mal falsch gemacht hat. Wiederkäufer sind ein Signal, das nicht lügt.
-
 **Was bedeutet «Ориенталов мало не бывает»?**
 
 Das ist ein Satz von Elvira. Übersetzt: «Orientalen gibt es nie zu viele.» Sie wiederholt ihn, weil er sich immer wieder als wahr erweist. Eine Familie hat drei. Eine andere plant einen zweiten. Die Rasse schafft ihre eigene Nachfrage. Wenn man einen nimmt — versteht man, warum.

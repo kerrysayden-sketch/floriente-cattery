@@ -2,7 +2,7 @@
 articleSlug: "floriente-cattery-reviews"
 lang: "pl"
 title: "Nasze rodziny: Historie i opinie właścicieli kociaków Floriente"
-description: "Prawdziwe opinie o hodowli Floriente: siedem rodzin, osiem kociaków orientalnych — dlaczego wybrali rasę, jak przebiegła adaptacja i czemu wracają."
+description: "Prawdziwe opinie o hodowli Floriente: siedem rodzin, osiem kociaków orientalnych — dlaczego wybrali rasę i jak przebiegła adaptacja."
 category: "Życie w Floriente"
 publishDate: "2026-06-17"
 ogImage: "/images/blog/floriente-cattery-reviews.webp"
@@ -143,10 +143,6 @@ Tak. Napisz do nas — zapytamy w twoim imieniu. Nie każda rodzina jest dostęp
 **Co skłoniło tych właścicieli, by wybrać Floriente?**
 
 Różne rzeczy. Tatiana przyszła po stracie — potrzebowała dokumentów i zdrowego kociaka. Stas przyszedł po researchu — potrzebował przejrzystości i dostępu. Natalia przyszła po chłodnym doświadczeniu — chciała poczuć różnicę. Julia znalazła na OLX. Punkty wyjścia różne. Wzorzec jeden.
-
-**Dlaczego rodziny wracały po drugiego kota?**
-
-Nikt nie wraca do hodowli, której nie ufa. Nikt nie kupuje kota u kogoś, kto zrobił to źle pierwszy raz. Powracający kupujący — to sygnał, który nie kłamie.
 
 **Co znaczy «Ориенталов мало не бывает»?**
 
