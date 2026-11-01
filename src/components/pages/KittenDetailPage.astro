@@ -95,7 +95,7 @@ const description = c.metaDescription || paragraphs[0] || `${displayName} · ${b
                     <p class="font-medium">{t(lang, d.labelKey)}</p>
                     <p class="text-gray-medium">{t(lang, d.noteKey)}</p>
                     <a href={d.href} target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-gold hover:text-gold-dark underline underline-offset-2">
-                      {t(lang, 'kittens.healthDocView')}
+                      {d.href.endsWith('.pdf') ? t(lang, 'kittens.healthDocView') : t(lang, 'kittens.healthDocViewImage')}
                       <span aria-hidden="true">→</span>
                     </a>
                   </div>

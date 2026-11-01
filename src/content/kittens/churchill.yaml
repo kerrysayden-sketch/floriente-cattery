@@ -52,6 +52,16 @@ cardPhoto:
 # §9 Normalized customer-facing value. Raw wording stays in source.documentRaw.
 documents: "metrics"
 
+# Clinical reports attached to this kitten only. Localised strings live in
+# i18n; each href is a byte-for-byte copy of the clinic's original JPG.
+healthDocuments:
+  - labelKey: "kittens.healthDocChurchillEchoLabel"
+    noteKey: "kittens.healthDocChurchillEchoNote"
+    href: "/documents/vet/churchill-echocardiography-2026-10-29.jpg"
+  - labelKey: "kittens.healthDocChurchillFivFelvLabel"
+    noteKey: "kittens.healthDocChurchillFivFelvNote"
+    href: "/documents/vet/churchill-fiv-ab-felv-ag-2026-10-29.jpg"
+
 images:
   - n: 1
     src: "/images/kittens/litter-c/churchill-1.webp"

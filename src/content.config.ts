@@ -182,16 +182,17 @@ const kittens = defineCollection({
       }),
     })).length(4),
 
-    // Optional per-kitten clinical reports. Each entry points at a published
-    // PDF in /documents/vet/ and renders a short labelled line in the detail
-    // page's <dl>. The field is deliberately optional — a kitten without any
-    // check simply omits the row. Scope stays per-kitten: a report attached
-    // here applies only to this kitten and is never generalised across the
-    // litter.
+    // Optional per-kitten clinical reports. Each entry points at an unmodified
+    // clinic original in /documents/vet/ — a PDF, or a JPG when the clinic
+    // issued a photographed sheet — and renders a short labelled line in the
+    // detail page's <dl>. The link label follows the file type, so an image is
+    // never presented as a PDF. A kitten without any check omits the row.
+    // Scope stays per-kitten: a report attached here applies only to this
+    // kitten and is never generalised across the litter.
     healthDocuments: z.array(z.object({
       labelKey: z.string(),
       noteKey: z.string(),
-      href: z.string().regex(/^\/documents\/vet\/.+\.pdf$/),
+      href: z.string().regex(/^\/documents\/vet\/.+\.(pdf|jpg)$/),
     })).optional(),
 
     // Verbatim workbook values, kept for audit. §1.9: `documentRaw` is source
