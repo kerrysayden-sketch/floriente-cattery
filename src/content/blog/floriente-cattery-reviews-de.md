@@ -12,7 +12,7 @@ Drei Familien sind für einen zweiten Orientalen zurückgekehrt. Eine von ihnen 
 
 Eine Zucht beurteilt man nicht nach ihren eigenen Worten. Man beurteilt sie anhand der Menschen, die diesen Weg bereits gegangen sind — die Entscheidung getroffen, das Kätzchen nach Hause gebracht haben und sich später dafür entschieden haben, wiederzukommen.
 
-<h2 id="alexander-and-tatiana">Alexander und Tatiana — die Familie von Cai und Cia</h2>
+<h2 id="alexander-and-tatiana" class="scroll-mt-28">Alexander und Tatiana — die Familie von Cai und Cia</h2>
 
 <figure class="not-prose my-8">
 <img src="/images/family/review-cai-cia.webp" width="720" height="960" alt="Alexander hält zwei Kätzchen auf dem Arm — Cai und Cia" loading="lazy" decoding="async" class="w-full max-w-sm mx-auto rounded-lg shadow-sm">

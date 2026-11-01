@@ -12,7 +12,7 @@ ogImage: "/images/blog/floriente-cattery-reviews.webp"
 
 Розплідник не перевіряють за його власними словами. Його перевіряють через людей, які вже пройшли цей шлях — ухвалили рішення, привезли кошеня додому, і потім вибрали повернутися.
 
-<h2 id="alexander-and-tatiana">Олександр і Тетяна — родина Cai і Cia</h2>
+<h2 id="alexander-and-tatiana" class="scroll-mt-28">Олександр і Тетяна — родина Cai і Cia</h2>
 
 <figure class="not-prose my-8">
 <img src="/images/family/review-cai-cia.webp" width="720" height="960" alt="Олександр тримає на руках двох кошенят — Cai і Cia" loading="lazy" decoding="async" class="w-full max-w-sm mx-auto rounded-lg shadow-sm">

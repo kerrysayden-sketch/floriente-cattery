@@ -12,7 +12,7 @@ ogImage: "/images/blog/floriente-cattery-reviews.webp"
 
 Питомник не проверяют по его собственным словам. Его проверяют через людей, которые уже прошли этот путь — приняли решение, привезли котёнка домой, а потом выбрали вернуться.
 
-<h2 id="alexander-and-tatiana">Александр и Татьяна — семья Cai и Cia</h2>
+<h2 id="alexander-and-tatiana" class="scroll-mt-28">Александр и Татьяна — семья Cai и Cia</h2>
 
 <figure class="not-prose my-8">
 <img src="/images/family/review-cai-cia.webp" width="720" height="960" alt="Александр держит на руках двух котят — Cai и Cia" loading="lazy" decoding="async" class="w-full max-w-sm mx-auto rounded-lg shadow-sm">

@@ -12,7 +12,7 @@ Trzy rodziny wróciły po drugiego orientalnego. Jedna z nich — nawet po trzec
 
 Hodowli nie sprawdza się po jej własnych słowach. Sprawdza się przez ludzi, którzy już przeszli tę drogę — podjęli decyzję, przywieźli kociaka do domu, a potem wybrali, by wrócić.
 
-<h2 id="alexander-and-tatiana">Aleksander i Tatiana — rodzina Cai i Cia</h2>
+<h2 id="alexander-and-tatiana" class="scroll-mt-28">Aleksander i Tatiana — rodzina Cai i Cia</h2>
 
 <figure class="not-prose my-8">
 <img src="/images/family/review-cai-cia.webp" width="720" height="960" alt="Aleksander trzyma na rękach dwa kocięta — Cai i Cia" loading="lazy" decoding="async" class="w-full max-w-sm mx-auto rounded-lg shadow-sm">

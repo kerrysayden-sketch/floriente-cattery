@@ -12,7 +12,7 @@ Three families came back for a second Oriental. One of them — for a third. Thi
 
 You don't verify a cattery by its own words. You verify it through the people who've already walked the path — made the decision, brought the kitten home, and then chose to come back.
 
-<h2 id="alexander-and-tatiana">Alexander and Tatiana — the family of Cai and Cia</h2>
+<h2 id="alexander-and-tatiana" class="scroll-mt-28">Alexander and Tatiana — the family of Cai and Cia</h2>
 
 <figure class="not-prose my-8">
 <img src="/images/family/review-cai-cia.webp" width="720" height="960" alt="Alexander holding two kittens, Cai and Cia" loading="lazy" decoding="async" class="w-full max-w-sm mx-auto rounded-lg shadow-sm">
