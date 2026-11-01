@@ -2,7 +2,7 @@
 articleSlug: "how-to-choose-oriental-kitten"
 lang: "de"
 title: "Wie Sie ein Orientalisch-Kätzchen beim Züchter auswählen"
-description: "Orientalisch-Kätzchen beim Züchter auswählen: pet/breed/show-Klassen, Charakter von Geburt an lesen, das Käufer-Interview und die 7-Punkte-EU-Checkliste."
+description: "Orientalisch-Kätzchen beim Züchter auswählen: pet/breed/show-Klassen, Charakter von Geburt an lesen, das Käufer-Interview und die Dokumenten-Checkliste zur Übergabe."
 category: "Käuferleitfaden"
 publishDate: "2026-06-01"
 ogImage: "/images/blog/how-to-choose-oriental-kitten.webp"
@@ -12,7 +12,7 @@ Sie wählen kein Kätzchen aus. Sie finden Ihres. Manchmal erkennt der Züchter 
 
 Sie kamen, um Fotos anzusehen. Es endete mit einem 45-minütigen Gespräch über Ihren Arbeitstag, Ihre Wohnungsgröße und ob Sie überhaupt schon einmal eine Katze hatten. Das ist kein Smalltalk — das ist ein Prozess. Ein verantwortungsvoller Züchter verkauft Ihnen kein Kätzchen. Er entscheidet, ob Ihr Zuhause der richtige Ort für das Tier ist.
 
-Dieser Artikel ist ein fertiger Leitfaden: was die Klassen bedeuten, wie sich der Charakter von Geburt an lesen lässt, welche Fragen Ihnen gestellt werden (und warum), wie ein echter Videoanruf aussieht und welche 7 Punkte Sie bei der Übergabe prüfen sollten.
+Dieser Artikel ist ein fertiger Leitfaden: was die Klassen bedeuten, wie sich der Charakter von Geburt an lesen lässt, welche Fragen Ihnen gestellt werden (und warum), wie ein echter Videoanruf aussieht und welche Dokumente Sie bei der Übergabe erhalten sollten.
 
 ## Pet / Breed / Show — was das für Sie bedeutet
 
@@ -21,12 +21,12 @@ Jedes registrierte Kätzchen wird nach dem Rassestandard bewertet und einer von 
 | Kategorie | Was sie bedeutet | Preisklasse | Bedingungen |
 |---|---|---|---|
 | Pet | Gesund, typischer Charakter. Mögliche (aber nicht zwingend) minimale Abweichungen vom Standard. Häufig eine strategische Entscheidung des Züchters ohne jegliche Mängel. | Niedrigste | Kastration verpflichtend; keine Zuchtrechte |
-| Breed | Entspricht dem Standard gut; geeignet für ein registriertes Zuchtprogramm | Mittel-hoch | Verkauf ausschließlich an registrierte Züchter (WCF/FIFe/TICA); Zuchtvertrag erforderlich |
+| Breed | Entspricht dem Standard gut; geeignet für ein registriertes Zuchtprogramm | Mittel-hoch | Nur an ein vorbereitetes Zuchtzuhause, das die Registrierungsanforderungen seines Verbandes erfüllen kann; Zuchtvertrag erforderlich |
 | Show | Außergewöhnliche Übereinstimmung mit dem Standard — Richter werden eine solche Katze auf dem Ausstellungstisch bemerken | Höchste | Miteigentum möglich; eine Ausstellungskarriere ist vorgesehen |
 
 Was das für die meisten Käufer bedeutet: Pet-Klasse ist die richtige Wahl. Ein Orientalisch-Kätzchen der Pet-Klasse aus einer seriösen Zucht stammt von genetisch getesteten Elterntieren (die Tests erfolgen bei den Zuchttieren, nicht bei jedem Kätzchen einzeln), ist geimpft, gechippt und verhaltensgesund. Möchte der Käufer einen zusätzlichen individuellen Test des konkreten Kätzchens, lehnt der Züchter dies nicht ab: Der Kunde übernimmt die Testkosten, der Züchter bringt das Tier zur Probenahme. Der «Mangel», der das Kätzchen aus der Show-Klasse herausgenommen hat, ist im Alltag für Sie unsichtbar. Gesundheit und Charakter sind identisch.
 
-Wichtige Nuance: Pet-Klasse bedeutet nicht zwingend einen Mangel. Häufig geht ein ganzer Wurf in die Pet-Klasse, ohne jegliche Standardabweichungen. Der Grund ist Marktlogik: Übersteigt die Nachfrage das Angebot, ist es für die Zucht vorteilhafter, in die Pet-Klasse zu verkaufen (mit verpflichtender Kastration), als Zuchtrechte zu vergeben und dadurch direkte Konkurrenz zu schaffen. Pet-Klasse heißt also nicht immer «da stimmt etwas nicht» — oft ist es eine strategische Entscheidung der Zucht.
+Wichtige Nuance: Pet-Klasse bedeutet nicht zwingend einen Mangel. Auch ein Kätzchen ohne sichtbare Fehler kann in ein Pet-Zuhause gehen — oft ist das eine bewusste Entscheidung im Rahmen des Zuchtprogramms. Zuchtrechte sind eine eigene Frage, und bei Floriente geben wir sie nur in ein Zuhause, das wirklich für die Zucht bereit ist. Bevor wir zustimmen, betrachten wir das Gesamtbild: Versteht der Käufer die Verantwortung für die Katze und künftige Würfe, ist er vorbereitet und hat er das Wissen — oder lernt er aktiv, sind die Haltungsbedingungen geeignet, und kann er die Registrierungsanforderungen seines Verbandes oder Landes erfüllen? Ein ernsthafter Einsteiger ist nicht ausgeschlossen: Die Registrierungsverfahren unterscheiden sich von Land zu Land, und entscheidend sind Vorbereitung und Lernbereitschaft. Sind diese Voraussetzungen nicht gegeben, geht das Kätzchen in ein liebevolles Pet-Zuhause.
 
 Wenn die Kategorie in der Anzeige nicht angegeben ist — oder der Züchter mit dieser Klassifizierung nicht vertraut ist — ist das ein Signal, auf das Sie achten sollten.
 
@@ -83,23 +83,35 @@ Wenn ein Verkäufer einen Videoanruf ablehnt, sich auf technische Probleme beruf
 
 Der Videoanruf findet vor jeder Anzahlung statt.
 
-## Dokumente bei der Übergabe — Checkliste mit 7 Punkten für die EU
+## Dokumente bei der Übergabe — Standardpaket und Auslandsreise
 
-Dies ist die Dokumenten-Checkliste für ein Kätzchen, das innerhalb der EU oder aus der Ukraine nach Europa übergeben wird. Jeder Punkt auf dieser Liste hat einen Grund. Fehlende Dokumente sind keine administrativen Versäumnisse. Es geht um Verantwortung.
+Dies ist die Dokumenten-Checkliste bei der Übergabe. Das Standardpaket erhält jedes Kätzchen; Dokumente für eine Auslandsreise kommen nur hinzu, wenn das Kätzchen tatsächlich ins Ausland reist. Fehlende Dokumente sind keine administrativen Versäumnisse. Es geht um Verantwortung.
+
+### Standardpaket bei der Übergabe
 
 | # | Dokument | Anmerkungen |
 |---|---|---|
-| 1 | EU-Heimtierausweis (innerhalb der EU) und tierärztliches Gesundheitszeugnis / AHC — Animal Health Certificate (aus der Ukraine in die EU) | Verpflichtend für die legale Einreise |
-| 2 | ISO-Mikrochip mit 15 Ziffern | Muss vor der Reise implantiert sein; die Nummer ist im Heimtierausweis vermerkt |
+| 1 | Ukrainischer Veterinärpass | In der Ukraine ausgestellt; enthält die Mikrochipnummer und die Impfungen. Er ist kein EU-Heimtierausweis |
+| 2 | ISO-Mikrochip mit 15 Ziffern | Vor der Übergabe implantiert; die Nummer ist im Pass vermerkt |
 | 3 | Impfeintrag — Kombination gegen Viruserkrankungen und gegen Tollwut | Daten, Name des Impfstoffs, Chargennummer, Unterschrift des Tierarztes |
-| 4 | Ergebnis der Tollwut-Titerbestimmung (Pflicht für Reisen aus der Ukraine in die EU) | Bluttest aus einem von der EU zugelassenen Labor; Ergebnis ≥ 0,5 IE/ml |
-| 5 | Kaufvertrag | Nennt die Kategorie, gegebenenfalls Kastrationsklauseln, Rückgaberegelungen |
-| 6 | Metrika (Kätzchen-Karte / Geburtsurkunde); Stammbaum — zusätzlich auf Anfrage | Standardmäßig wird bei der Übergabe die Metrika ausgehändigt — das offizielle Geburtsdokument mit der Verbandsnummer. Der Stammbaum (3–5 Generationen) wird separat über den Verband auf Initiative des Halters und gegen Aufpreis bestellt. Ausgestellt durch das Register (WCF, FIFe, TICA). |
-| 7 | Gentestergebnisse von Vater und Mutter | Mindestens kardiologisches HCM-Screening; progressive Netzhautatrophie (PRA), wenn für die Rasse relevant |
+| 4 | Kaufvertrag | Nennt die Kategorie, gegebenenfalls Kastrationsklauseln, Rückgaberegelungen |
+| 5 | Metrika (Registrierungsdokument des Kätzchens) | Das offizielle Dokument mit der Verbandsnummer. Ein Stammbaum ist nicht enthalten; er kann auf Wunsch separat über den Verband bestellt werden, zur aktuellen Gebühr des Verbandes |
+| 6 | Gentestergebnisse von Vater und Mutter | Die vorhandenen DNA-Testunterlagen der Eltern. Das HCM-Screening ist eine andere Untersuchung — ein Herzultraschall (Echokardiographie), kein Gentest |
+
+### Für eine Auslandsreise
+
+Reist das Kätzchen ins Ausland, gelten für die Reise eigene Anforderungen zusätzlich zum Standardpaket. Für eine Reise aus der Ukraine in die EU gehören dazu:
+
+| # | Dokument | Anmerkungen |
+|---|---|---|
+| 7 | EU-Tiergesundheitsbescheinigung | Vom staatlichen Veterinärdienst der Ukraine für die konkrete Reise ausgestellt, höchstens 10 Tage vor der Einreise in die EU |
+| 8 | Ergebnis der Tollwut-Titerbestimmung | Bluttest aus einem von der EU zugelassenen Labor; Ergebnis ≥ 0,5 IE/ml. Erforderlich für eine Reise aus der Ukraine in die EU, nicht für ein Kätzchen, das in der Ukraine bleibt |
+
+Wer diese Dokumente vorbereitet, hängt davon ab, was beim Verkauf vereinbart wurde. Hat Floriente die Ausfuhr eines Kätzchens zugesagt, koordinieren wir die Vorbereitung dieser Reise. Reist der Halter später selbstständig mit der Katze, kümmert er sich um die Anforderungen dieser Reise. Das rechtliche Verfahren richtet sich nach der Reise selbst, nicht nach der Vereinbarung zwischen Käufer und Verkäufer: Die EU-Regeln für nichtkommerzielle Reisen mit Heimtieren gelten für Halter, die mit ihrer eigenen Katze reisen, nicht für eine Verbringung im Zusammenhang mit einem Verkauf oder Halterwechsel.
 
 Ein Kätzchen ohne Metrika aus einem anerkannten Register ist kein «Rassekitten». Das ist ein Kätzchen mit einem Zettel. Die Metrika ist das Basisdokument, das die Herkunft belegt: Sie enthält die Daten des Kätzchens und die Kontakte des Verbandes, über den Sie die Angaben direkt prüfen und bei Bedarf nachfragen können.
 
-Der Stammbaum mit 3–5 Generationen ist ein zusätzliches Dokument, das Sie bei Bedarf separat über den Verband bestellen können (häufiger wird er für die Zucht gebraucht als von Pet-Klasse-Haltern).
+Ein Stammbaum (vier oder fünf Generationen) ist ein zusätzliches Dokument. Bei der Übergabe erhalten Sie die Metrika; der Stammbaum wird auf Wunsch separat über den Verband bestellt, zur aktuellen Gebühr des Verbandes (häufiger wird er für die Zucht gebraucht als von Pet-Klasse-Haltern).
 
 Die harte Wahrheit: Bietet ein Züchter ein Kätzchen unter 12 Wochen (3 Monaten) an, gehen Sie. Es ist nicht bereit. Und der Züchter auch nicht. Das ist ein direkter Verstoß gegen die Regeln der Verbände und felinologischen Systeme — ein solches Kätzchen gilt also nicht als Verbandsregistriert.
 
@@ -111,7 +123,7 @@ Mindestens 12 Wochen (3 Monate). Die meisten verantwortungsvollen Züchter behal
 
 **Was ist der Unterschied zwischen einem «Rassekitten» und einem «registrierten Kätzchen»?**
 
-Ein registriertes Kätzchen besitzt eine vom Verband ausgestellte Metrika — ein offizielles Geburtsdokument mit Verbandsnummer und Angaben zum Kätzchen und seinen Eltern. Standardmäßig wird bei der Übergabe genau die Metrika ausgehändigt. Der Stammbaum (3–5 Generationen) ist ein separates Dokument, das auf Initiative des neuen Halters über den Verband bestellt wird.
+Ein registriertes Kätzchen besitzt eine vom Verband ausgestellte Metrika — ein offizielles Geburtsdokument mit Verbandsnummer und Angaben zum Kätzchen und seinen Eltern. Standardmäßig wird bei der Übergabe genau die Metrika ausgehändigt. Der Stammbaum (vier oder fünf Generationen) ist ein separates Dokument, das auf Wunsch über den Verband bestellt wird, zur aktuellen Gebühr des Verbandes.
 
 Ein «Stammbaum» ohne Registrierungsunterlagen ist ein Marketingbegriff, keine geprüfte Tatsache. Erfragen Sie stets, in welchem Register die Zucht eingetragen ist, und prüfen Sie die Registrierungsnummer direkt auf der offiziellen Webseite des Systems.
 

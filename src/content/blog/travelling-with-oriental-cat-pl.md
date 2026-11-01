@@ -82,6 +82,8 @@ Kluczowa zasada dla wszystkich przewoźników: liczba miejsc dla zwierząt w kab
 
 Limit wagi (kot plus transporter) — zwykle 8 kg w dużych europejskich liniach lotniczych przewożących zwierzęta w kabinie; niektóre mają inne limity (np. ITA Airways dopuszcza do 12 kg na lotach krajowych we Włoszech), więc sprawdź u swojego przewoźnika. Koty orientalne są smuklejszej budowy; dorosły kot orientalny w miękkim transporterze zwykle waży 5-6 kg. Zważ swojego kota przed rezerwacją.
 
+Dodatkowa lektura (opcjonalnie): [przegląd AirAdvisor zasad przewozu zwierząt w europejskich liniach lotniczych](https://airadvisor.com/pl/najlepsze-europejskie-linie-lotnicze-przyjazne-zwierzetom). To zewnętrzne porównanie; aktualne zasady swojego lotu sprawdzaj na oficjalnej stronie przewoźnika.
+
 ## Wymagania dotyczące transportu
 
 Transporter do kabiny musi spełniać dwa kryteria: być zgodny z zasadami twojej linii lotniczej (wymiary, wentylacja, nieprzemakalne dno) i mieścić się pod siedzeniem przed tobą. IATA nie certyfikuje ani nie zatwierdza transporterów, więc napis o „certyfikacie IATA” niczego nie gwarantuje.
@@ -122,7 +124,7 @@ Na wysokości przelotowej ciśnienie powietrza w kabinie jest niższe niż na po
 
 Przy podróżach samochodem sytuacja się różni. Ryzyko związane z lotem (ciśnienie, wysokość) nie ma zastosowania. Jeśli kot jest temperamentny, a długa podróż wiąże się ze stresem, weterynarz może indywidualnie rozważyć łagodny środek uspokajający na czas jazdy samochodem. Ale to decyzja weterynarza, a nie samodzielna: dawka i typ preparatu zależą od wagi, wieku, stanu kota oraz długości podróży. Nie kopiuj cudzych decyzji.
 
-Co można używać zamiast leków:
+Jak zmniejszyć stres w podróży bez leków:
 
 Znajomy kocyk o zapachu domu lub hodowli.
 

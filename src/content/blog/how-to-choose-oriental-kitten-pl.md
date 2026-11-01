@@ -2,7 +2,7 @@
 articleSlug: "how-to-choose-oriental-kitten"
 lang: "pl"
 title: "Jak wybrać kociaka orientalnego u hodowcy"
-description: "Jak wybrać kociaka orientalnego u hodowcy: klasy pet/breed/show, czytanie charakteru od urodzenia, wywiad z kupującym i lista 7 dokumentów dla UE."
+description: "Jak wybrać kociaka orientalnego u hodowcy: klasy pet/breed/show, czytanie charakteru od urodzenia, wywiad z kupującym i lista dokumentów przy przekazaniu."
 category: "Przewodnik kupującego"
 publishDate: "2026-06-01"
 ogImage: "/images/blog/how-to-choose-oriental-kitten.webp"
@@ -12,7 +12,7 @@ Nie wybierasz kociaka. Znajdujesz swojego. Czasem hodowca widzi dopasowanie wcze
 
 Przyszedłeś popatrzeć na zdjęcia. Skończyło się 45-minutową rozmową o twoim grafiku pracy, metrażu mieszkania i o tym, czy w ogóle miałeś wcześniej kota. To nie small talk — to proces. Odpowiedzialny hodowca nie sprzedaje ci kociaka. Decyduje, czy twój dom będzie odpowiednim miejscem dla niego.
 
-Ten artykuł — gotowa rama: co znaczą klasy, jak czytać charakter od urodzenia, jakie pytania ci postawią (i po co), jak wygląda prawdziwa rozmowa wideo i które dokładnie 7 punktów masz sprawdzić przy przekazaniu.
+Ten artykuł — gotowa rama: co znaczą klasy, jak czytać charakter od urodzenia, jakie pytania ci postawią (i po co), jak wygląda prawdziwa rozmowa wideo i jakie dokumenty powinieneś otrzymać przy przekazaniu.
 
 ## Pet / Breed / Show — co to znaczy dla ciebie
 
@@ -21,12 +21,12 @@ Każdy zarejestrowany kociak jest oceniany według standardu rasy i trafia do je
 | Kategoria | Co oznacza | Grupa cenowa | Warunki |
 |---|---|---|---|
 | Pet | Zdrowy, typowy charakter. Możliwe (ale nieobowiązkowe) minimalne odchylenia od standardu. Często — strategiczna decyzja hodowcy bez żadnych wad. | Najniższa | Sterylizacja obowiązkowa; brak praw do rozrodu |
-| Breed | Dobrze odpowiada standardowi; nadaje się do zarejestrowanego programu hodowlanego | Średnio-wysoka | Sprzedawany wyłącznie zarejestrowanym hodowcom WCF/FIFe/TICA; wymagana umowa hodowlana |
+| Breed | Dobrze odpowiada standardowi; nadaje się do zarejestrowanego programu hodowlanego | Średnio-wysoka | Tylko do przygotowanego domu hodowlanego, który może spełnić wymagania rejestracyjne swojego klubu; wymagana umowa hodowlana |
 | Show | Wyjątkowa zgodność ze standardem — sędziowie zwrócą uwagę na takiego kota na stole wystawowym | Najwyższa | Możliwa współwłasność; przewidywana kariera wystawowa |
 
 Co to znaczy dla większości kupujących: klasa Pet — właściwy wybór. Kociak orientalny klasy pet z poważnej hodowli pochodzi od rodziców testowanych genetycznie (testy wykonuje się na zwierzętach hodowlanych, nie na każdym kociaku osobno), zaszczepionych, zaczipowanych i behawioralnie zdrowych. Jeśli kupujący chce dodatkowo zrobić indywidualny test konkretnego kociaka — hodowca nie odmawia: klient pokrywa koszt testu, hodowca zawozi zwierzę na pobranie próbki. «Wada», która zniżyła go z klasy show, w codziennym życiu jest dla ciebie niewidoczna. Zdrowie i charakter — identyczne.
 
-Ważny niuans: klasa PET — to nie zawsze o wadach. Często bywa, że cały miot idzie w PET bez żadnych braków standardu. Powód — logika rynkowa: jeśli popyt przewyższa podaż, hodowcy bardziej opłaca się sprzedawać w PET (z obowiązkową sterylizacją), niż dawać prawa do rozrodu i otrzymywać obok konkurenta. Dlatego klasa PET — to nie zawsze «coś nie tak»; często to strategiczna decyzja hodowli.
+Ważny niuans: klasa PET — to nie zawsze o wadach. Kociak bez widocznych wad też może trafić do domu jako PET — często to świadoma decyzja w ramach programu hodowlanego. Prawa hodowlane to osobna kwestia i w Floriente przekazujemy je tylko do domu, który jest naprawdę gotowy do hodowli. Zanim się zgodzimy, patrzymy na całość: czy kupujący rozumie odpowiedzialność za kota i przyszłe mioty, czy jest przygotowany i ma wiedzę — albo aktywnie się uczy, czy warunki są odpowiednie i czy może spełnić wymagania rejestracyjne swojego klubu lub kraju. Poważny początkujący hodowca nie jest wykluczony: procedury rejestracji różnią się w poszczególnych krajach, a liczą się przygotowanie i gotowość do nauki. Jeśli tych warunków nie ma, kociak trafia do kochającego domu jako PET.
 
 Jeśli w ogłoszeniu kategoria nie jest podana — albo hodowca nie zna tej klasyfikacji — to sygnał, na który warto zwrócić uwagę.
 
@@ -83,23 +83,35 @@ Jeśli sprzedawca odmawia rozmowy wideo, powołuje się na problemy techniczne l
 
 Rozmowa wideo odbywa się przed jakąkolwiek zaliczką.
 
-## Dokumenty przy przekazaniu — lista kontrolna z 7 punktów dla UE
+## Dokumenty przy przekazaniu — pakiet standardowy i podróż międzynarodowa
 
-To lista kontrolna dokumentów dla kociaka przekazywanego wewnątrz UE lub z Ukrainy do Europy. Każdy punkt na tej liście istnieje z powodu. Brakujące dokumenty — to nie administracyjne niedopatrzenia. To odpowiedzialność.
+To lista kontrolna dokumentów przy przekazaniu. Pakiet standardowy otrzymuje każdy kociak; dokumenty na podróż międzynarodową dochodzą tylko wtedy, gdy kociak naprawdę wyjeżdża za granicę. Brakujące dokumenty — to nie administracyjne niedopatrzenia. To odpowiedzialność.
+
+### Pakiet standardowy przy przekazaniu
 
 | # | Dokument | Uwagi |
 |---|---|---|
-| 1 | Paszport UE dla zwierząt (w obrębie UE) oraz Świadectwo zdrowia weterynaryjnego / AHC — Animal Health Certificate (z Ukrainy do UE) | Obowiązkowy dla legalnego przywozu |
-| 2 | Mikrochip ISO, 15 cyfr | Musi być wszczepiony przed przeprowadzką; numer zapisany w paszporcie |
+| 1 | Ukraiński paszport weterynaryjny | Wydawany w Ukrainie; zapisane są w nim numer mikrochipu i szczepienia. To nie jest paszport UE dla zwierząt |
+| 2 | Mikrochip ISO, 15 cyfr | Wszczepiony przed przekazaniem; numer zapisany w paszporcie |
 | 3 | Wpis o szczepieniu — kompleks przeciw wirusom i przeciw wściekliźnie | Daty, nazwa szczepionki, numer serii, podpis weterynarza |
-| 4 | Wynik badania miana przeciwciał przeciw wściekliźnie (wymagany przy podróży z Ukrainy do UE) | Badanie krwi z laboratorium zatwierdzonego przez UE; wynik ≥0,5 j.m./ml |
-| 5 | Umowa kupna-sprzedaży | Określa kategorię, klauzulę o sterylizacji jeśli dotyczy, politykę zwrotu |
-| 6 | Metryka (świadectwo urodzenia); rodowód — dodatkowo na życzenie | Standardowo przy przekazaniu wydawana jest metryka — oficjalny dokument o urodzeniu z numerem klubu. Rodowód (3–5 pokoleń) zamawiany jest osobno przez klub z inicjatywy właściciela i za dodatkową opłatą. Wydawany przez rejestr (WCF, FIFe, TICA). |
-| 7 | Wyniki testów genetycznych ojca i matki | Minimum badanie kardiologiczne w kierunku HCM; postępujący zanik siatkówki (PRA), jeśli istotne dla rasy |
+| 4 | Umowa kupna-sprzedaży | Określa kategorię, klauzulę o sterylizacji jeśli dotyczy, politykę zwrotu |
+| 5 | Metryka (dokument rejestracyjny kociaka) | Oficjalny dokument z numerem klubu. Rodowód nie jest wliczony; można go zamówić osobno przez klub na życzenie, według aktualnej opłaty klubu |
+| 6 | Wyniki testów genetycznych ojca i matki | Dostępna dokumentacja testów DNA rodziców. Badanie w kierunku HCM to inne badanie — USG serca (echokardiografia), a nie test genetyczny |
+
+### Na podróż międzynarodową
+
+Jeśli kociak wyjeżdża za granicę, podróż ma własne wymagania poza pakietem standardowym. W przypadku podróży z Ukrainy do UE należą do nich:
+
+| # | Dokument | Uwagi |
+|---|---|---|
+| 7 | Unijne świadectwo zdrowia zwierzęcia | Wystawia ukraińska państwowa służba weterynaryjna na konkretną podróż, nie wcześniej niż 10 dni przed wjazdem do UE |
+| 8 | Wynik badania miana przeciwciał przeciw wściekliźnie | Badanie krwi z laboratorium zatwierdzonego przez UE; wynik ≥0,5 j.m./ml. Potrzebny przy podróży z Ukrainy do UE, a nie dla kociaka, który zostaje w Ukrainie |
+
+Kto przygotowuje te dokumenty, zależy od ustaleń przy sprzedaży. Jeśli Floriente uzgodniło wywóz kociaka za granicę, przygotowania do tej podróży koordynujemy my. Jeśli właściciel później podróżuje z kotem samodzielnie, wymagania tej podróży spełnia właściciel. Procedurę prawną określa sama podróż, a nie ustalenia między kupującym a sprzedającym: unijne przepisy o niekomercyjnych podróżach ze zwierzętami dotyczą właściciela podróżującego z własnym kotem, a nie przewozu związanego ze sprzedażą lub zmianą właściciela.
 
 Kociak bez metryki z uznanego rejestru — to nie «kociak rasowy». To kociak ze świstkiem. Metryka — to podstawowy dokument, który potwierdza pochodzenie: są w niej dane kociaka i kontakty klubu, przez który możesz bezpośrednio sprawdzić informację i w razie potrzeby skontaktować się.
 
-Rodowód na 3-5 pokoleń — dodatkowy dokument, który można zamówić osobno przez klub, jeśli jest ci potrzebny (częściej jest potrzebny do rozrodu niż właścicielom klasy PET).
+Rodowód (na cztery lub pięć pokoleń) to dodatkowy dokument. Przy przekazaniu otrzymujesz metrykę; rodowód zamawia się osobno przez klub na życzenie, według aktualnej opłaty klubu (częściej jest potrzebny do hodowli niż właścicielom klasy PET).
 
 Twarda prawda: jeśli hodowca proponuje kociaka młodszego niż 12 tygodni (3 miesiące) — odejdź. Nie jest gotowy. I hodowca też. To bezpośrednie naruszenie zasad klubów i systemów felinologicznych — a więc taki kociak nie jest klubowy.
 
@@ -111,7 +123,7 @@ Minimum 12 tygodni (3 miesiące). Większość odpowiedzialnych hodowców trzyma
 
 **Jaka różnica między «kociakiem rasowym» a «zarejestrowanym kociakiem»?**
 
-Zarejestrowany kociak ma metrykę wydaną przez klub — to oficjalny dokument o urodzeniu z numerem klubu i danymi o kociaku i jego rodzicach. Standardowo przy przekazaniu kociaka wydawana jest właśnie metryka. Rodowód (3-5 pokoleń) — to osobny dokument, zamawiany przez klub z inicjatywy nowego właściciela.
+Zarejestrowany kociak ma metrykę wydaną przez klub — to oficjalny dokument o urodzeniu z numerem klubu i danymi o kociaku i jego rodzicach. Standardowo przy przekazaniu kociaka wydawana jest właśnie metryka. Rodowód (na cztery lub pięć pokoleń) to osobny dokument, który zamawia się przez klub na życzenie, według aktualnej opłaty klubu.
 
 «Rodowód» bez dokumentacji rejestracyjnej — to termin marketingowy, nie zweryfikowany fakt. Zawsze pytaj, w jakim rejestrze hodowla jest zarejestrowana, i sprawdzaj jego numer rejestracyjny bezpośrednio na oficjalnej stronie systemu.
 

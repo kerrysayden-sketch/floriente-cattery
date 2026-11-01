@@ -34,9 +34,9 @@ Ein Spielzeug mit dem Geruch des Zuhauses. Kein neues, das eigens für den Absch
 
 Eine Decke, auf der das Kätzchen geschlafen hat. Sie trägt den Geruch der Mutter und der Zucht. Legen Sie sie an den Schlafplatz des Kätzchens bei Ihnen — sie überträgt die sensorische Verbindung zwischen altem und neuem Zuhause.
 
-Ein Futtervorrat für eine Woche. Dieselbe Marke, dieselbe Rezeptur, dieselbe Konsistenz. Eine abrupte Futterumstellung unter dem Stress des Umzugs erschwert die Eingewöhnung. Diese Woche ist ein Puffer: Das Kätzchen gewöhnt sich an Sie und den neuen Raum, ohne gleichzeitig die Verdauung umstellen zu müssen.
+Ein Futtervorrat für etwa eine Woche — meist für 7–10 Tage, je nach Appetit des Kätzchens. Dieselbe Marke, dieselbe Rezeptur, dieselbe Konsistenz. Eine abrupte Futterumstellung unter dem Stress des Umzugs erschwert die Eingewöhnung. Diese erste Woche ist ein Puffer: Das Kätzchen gewöhnt sich an Sie und den neuen Raum, ohne gleichzeitig seine Verdauung umstellen zu müssen.
 
-Die Transportbox ist eine eigene Geschichte. Wir öffnen sie bei uns zu Hause einige Tage vor der Abreise. Das Kätzchen geht hinein und wieder heraus, legt sich darin nieder, hört auf, sie als fremd zu empfinden.
+Die Transportbox gehört nicht zur Mitgift. Meist wählt der Käufer sie aus — jeder reist anders: zu Fuß mit einer Rucksack-Box, mit dem Auto, mit dem Flugzeug. Wir fragen vorab nach der Box, und wenn Sie keine passende haben, können wir nach vorheriger Absprache helfen, eine zu besorgen. Ist die Box vor der Abreise bei uns, öffnen wir sie einige Tage vorher: Das Kätzchen geht hinein und wieder heraus, legt sich darin nieder und empfindet sie nicht mehr als fremd.
 
 ## Was Sie während der Wartezeit tun
 
@@ -44,7 +44,22 @@ Während wir das Kätzchen vorbereiten, bereiten auch Sie sich vor. Der Umzug ve
 
 ### Was während der Wartezeit zu tun ist
 
-Das Grundset können Sie in einem Schritt oder portionsweise vorbereiten — wie es Ihnen lieber ist: Näpfe (getrennt für Futter und Wasser), Katzentoilette, dasselbe Streu, das der Züchter verwendet, Kratzbaum und Liegefläche. Beim Futter sollten Sie das nehmen, an das das Kätzchen bereits gewöhnt ist — die Umstellung auf ein anderes lässt sich später vornehmen. Ein paar einfache Spielzeuge für den Anfang genügen. Außerdem ist es sinnvoll, einen «sicheren Raum» festzulegen — still, ohne unnötige Reize, in dem die erste Eingewöhnung stattfindet.
+Das kommt von uns, und das bereiten Sie vor.
+
+**Von uns:** vertraute Spielzeuge, eine Decke mit dem Geruch des Zuhauses und ein Vorrat des gewohnten Futters für etwa eine Woche.
+
+**Sie bereiten vor der Ankunft des Kätzchens vor:**
+
+- dasselbe Futter, das das Kätzchen bei uns frisst — für den ersten Monat
+- Näpfe für Futter und Wasser
+- eine Katzentoilette
+- die Streu, an die das Kätzchen gewöhnt ist
+- eine Streuschaufel
+- einen Kratzbaum
+- eine Transportbox
+- einen bequemen Schlafplatz
+
+Es lohnt sich auch, ein «sicheres Zimmer» auszuwählen — ruhig, ohne unnötige Reize, in dem die erste Eingewöhnung stattfindet.
 
 Vor der Ankunft des Kätzchens ist es ratsam, Kabel, zerbrechliche Gegenstände und giftige Pflanzen wegzuräumen, den Raum aus der «Kätzchen-Perspektive» zu betrachten, Fenster mit Sicherungen zu versehen und Zonen zu trennen: Futter und Wasser getrennt von der Katzentoilette.
 
@@ -58,7 +73,7 @@ In den ersten Tagen ist es besser, keine Gäste einzuladen und nicht voreilig an
 
 Das persönliche Treffen ist für uns Standard. Sie kommen zu uns, sehen das Kätzchen lebendig, aktiv, in seiner natürlichen Umgebung. Wir nehmen es gemeinsam auf den Arm. Sie sehen uns, wir sehen Sie. Jener Moment, in dem der neue Halter das Kätzchen erstmals hält, ist die beiderseitige Bestätigung, dass beide Seiten die richtige Wahl getroffen haben.
 
-Einige Stunden vor der Abreise: Wir geben die letzte ruhige Mahlzeit, prüfen die Mitgift, öffnen die Transportbox mit ihrem vertrauten Geruch. Das Kätzchen geht von selbst hinein — es kennt diese Box bereits seit einigen Tagen.
+Einige Stunden vor der Abreise: Wir geben die letzte ruhige Mahlzeit und prüfen die Mitgift. War die Transportbox schon vorher bei uns, öffnen wir sie mit ihrem vertrauten Geruch — das Kätzchen geht von selbst hinein, weil es diese Box seit einigen Tagen kennt.
 
 Unterwegs: Die Transportbox in eine warme und ruhige Umgebung — eine Decke oder ein Tuch obenauf reduziert den visuellen Reizstrom. Keine abrupten Stopps, keine laute Musik, kein Übergeben in fremde Hände. Bei langer Fahrt (über 3–4 Stunden) besprechen wir vorab mit Ihnen, ob ein leichtes Beruhigungsmittel notwendig ist; dies ist eine individuelle Entscheidung je nach Temperament des konkreten Kätzchens (mehr dazu in den FAQ unten).
 
@@ -94,11 +109,11 @@ Weil Sie bis zum Übergabemoment den Charakter des Kätzchens nicht aus Fotos, s
 
 **Was gehört zur «Mitgift»?**
 
-Ein Spielzeug mit dem Geruch unseres Zuhauses (drei Tage offen im Raum vor der Abreise), eine Decke mit dem Geruch der Mutter und der Zucht, ein Futtervorrat für eine Woche. Dazu — die vertraute Transportbox, die bei uns bereits einige Tage offen stand. Zusammen schaffen sie für das Kätzchen eine sensorische Brücke zwischen altem und neuem Zuhause.
+Ein Spielzeug mit dem Geruch unseres Zuhauses (drei Tage offen im Raum vor der Abreise), eine Decke mit dem Geruch der Mutter und der Zucht und ein Vorrat des gewohnten Futters für etwa eine Woche (meist 7–10 Tage, je nach Appetit). Die Transportbox gehört nicht zur Mitgift: Meist wählt der Käufer sie aus; wir fragen vorab danach und können nach vorheriger Absprache helfen, eine zu besorgen. Zusammen bildet das für das Kätzchen eine sensorische Brücke zwischen dem alten und dem neuen Zuhause.
 
 **Kann ich das Futter sofort auf eine andere Marke umstellen?**
 
-Nein, nicht in der ersten Woche. Die Verdauung verträgt unter dem Umzugsstress keine doppelte Belastung. Verwenden Sie dasselbe Futter, das wir geben. Nach der ersten Woche, falls eine Umstellung wirklich nötig ist, gehen Sie schrittweise vor: Mischen Sie das neue mit dem alten Futter über 7–10 Tage und erhöhen Sie den Anteil des neuen Futters allmählich.
+Wir empfehlen, im ersten Monat beim gewohnten Futter zu bleiben — das ist unsere Empfehlung für die Eingewöhnung, kein medizinisches Verbot. Der Umzug ist schon eine große Veränderung, und das gewohnte Futter bedeutet eine Veränderung weniger. Wenn Sie danach umstellen möchten, tun Sie es schrittweise: Mischen Sie über 7–10 Tage neues und altes Futter und erhöhen Sie den Anteil des neuen langsam.
 
 **Wird auf langen Reisen eine Sedierung eingesetzt?**
 

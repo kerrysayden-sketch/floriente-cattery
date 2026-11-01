@@ -34,9 +34,9 @@ Zabawka z zapachem domu. Nie nowa, kupiona specjalnie przed wyjazdem. Ta, któr�
 
 Kocyk, na którym kociak spał. Niesie zapach matki i hodowli. Połóż go tam, gdzie kociak będzie spał u ciebie — przenosi zmysłowe połączenie między starym a nowym domem.
 
-Zapas karmy na tydzień. Ta sama marka, ta sama formuła, ta sama tekstura. Gwałtowna zmiana diety w stresie przeprowadzki utrudnia adaptację. Ten tydzień — bufor: kociak przyzwyczaja się do ciebie i nowej przestrzeni, nie przebudowując jednocześnie trawienia.
+Zapas karmy na mniej więcej tydzień — zwykle na 7–10 dni, w zależności od apetytu kociaka. Ta sama marka, ta sama formuła, ta sama tekstura. Gwałtowna zmiana diety w stresie przeprowadzki utrudnia adaptację. Ten pierwszy tydzień to bufor: kociak przyzwyczaja się do ciebie i nowej przestrzeni, nie przebudowując jednocześnie trawienia.
 
-Transporter — osobna historia. Otwieramy go u siebie kilka dni przed wyjazdem. Kociak wchodzi i wychodzi, leży w środku, przestaje go postrzegać jako obcy.
+Transporter nie wchodzi w skład wyprawki. Zwykle wybiera go kupujący — każdy podróżuje inaczej: pieszo z transporterem-plecakiem, samochodem, samolotem. Pytamy o transporter z wyprzedzeniem, a jeśli nie masz odpowiedniego, po wcześniejszym uzgodnieniu możemy pomóc go zorganizować. Jeśli transporter jest u nas przed wyjazdem, otwieramy go kilka dni wcześniej: kociak wchodzi i wychodzi, leży w środku i przestaje postrzegać go jako obcy.
 
 ## Co robisz ty podczas oczekiwania
 
@@ -44,7 +44,22 @@ Podczas gdy my przygotowujemy kociaka — przygotowuj się i ty. Przeprowadzka p
 
 ### Co robić podczas oczekiwania
 
-Podstawowy zestaw wygodnie przygotować od razu lub częściami — jak ci komfortniej: miski (osobno na jedzenie i wodę), kuwetę, ten sam żwirek, którego używa hodowca, drapak i legowisko. Karmę lepiej wziąć tę, do której kociak już się przyzwyczaił — przejście na inną można zrobić później. Kilka prostych zabawek na start wystarczy. Warto też wyznaczyć «bezpieczny pokój» — cichy, bez zbędnych bodźców, gdzie odbędzie się pierwsza adaptacja.
+Oto co dostajesz od nas, a co przygotowujesz ty.
+
+**Od nas:** znajome zabawki, kocyk z zapachem domu i zapas znanej karmy na mniej więcej tydzień.
+
+**Ty przygotowujesz przed przyjazdem kociaka:**
+
+- tę samą karmę, którą kociak je u nas — na pierwszy miesiąc
+- miski na jedzenie i wodę
+- kuwetę
+- żwirek, do którego kociak jest przyzwyczajony
+- łopatkę
+- drapak
+- transporter
+- wygodne miejsce do spania
+
+Warto też wybrać «bezpieczny pokój» — cichy, bez zbędnych bodźców, w którym przebiegnie pierwsza adaptacja.
 
 Przed przyjazdem kociaka warto sprzątnąć kable, kruche rzeczy i toksyczne rośliny, popatrzeć na przestrzeń z «poziomu kociaka», zamknąć okna na blokady i rozdzielić strefy: jedzenie i woda osobno od kuwety.
 
@@ -58,7 +73,7 @@ W pierwszych dniach lepiej nie planować gości i nie spieszyć się z zapoznani
 
 Spotkanie osobiste — to dla nas standard. Przyjeżdżasz, widzisz kociaka żywego, aktywnego, w naturalnym środowisku. Bierzemy go na ręce razem. Widzisz nas, my widzimy ciebie. Ten moment, gdy nowy właściciel po raz pierwszy trzyma kociaka — to potwierdzenie z obu stron, że obie strony dokonały właściwego wyboru.
 
-Kilka godzin przed wyjazdem: dajemy ostatnie spokojne karmienie, sprawdzamy wyprawkę, otwieramy transporter z rodzimym zapachem. Kociak wchodzi sam — zna ten transporter od kilku dni.
+Kilka godzin przed wyjazdem: dajemy ostatnie spokojne karmienie i sprawdzamy wyprawkę. Jeśli transporter był u nas wcześniej, otwieramy go z rodzimym zapachem — kociak wchodzi sam, bo zna ten transporter od kilku dni.
 
 W drodze: transporter pod ciepłe i ciche — pled, ręcznik z góry zmniejsza strumień wzrokowy. Żadnych gwałtownych zatrzymań, głośnej muzyki, przekazywania w obce ręce. Jeśli droga jest długa (ponad 3-4 godziny) — omawiamy z tobą z wyprzedzeniem, czy potrzebne lekkie środki uspokajające; to indywidualna decyzja zależna od temperamentu konkretnego kociaka (szczegóły — w FAQ poniżej).
 
@@ -94,11 +109,11 @@ Bo do momentu przekazania powinieneś znać charakter kociaka nie ze zdjęć, le
 
 **Co wchodzi w skład «wyprawki»?**
 
-Zabawka z zapachem naszego domu (trzy dni w pokoju przed wyjazdem), kocyk z zapachem matki i hodowli, zapas karmy na tydzień. Plus — znajomy transporter, który już od kilku dni stał otwarty u nas. Razem tworzy to dla kociaka sensoryczny most między starym a nowym domem.
+Zabawka z zapachem naszego domu (trzy dni w pokoju przed wyjazdem), kocyk z zapachem matki i hodowli oraz zapas znanej karmy na mniej więcej tydzień (zwykle na 7–10 dni, w zależności od apetytu). Transporter nie wchodzi w skład wyprawki: zwykle wybiera go kupujący, a my pytamy o niego z wyprzedzeniem i po wcześniejszym uzgodnieniu możemy pomóc go zorganizować. Razem tworzy to dla kociaka sensoryczny most między starym a nowym domem.
 
 **Czy mogę od razu zmienić karmę na inną markę?**
 
-Nie, nie w pierwszym tygodniu. Trawienie podczas stresu przeprowadzki nie wytrzymuje podwójnego obciążenia. Używaj tej samej karmy, którą my dajemy. Po pierwszym tygodniu, jeśli naprawdę potrzebujesz zmienić — rób to stopniowo, mieszając nową ze starą przez 7-10 dni, stopniowo zwiększając udział nowej.
+Zalecamy, by przez pierwszy miesiąc karmić kociaka znaną mu karmą — to nasze zalecenie na czas adaptacji, a nie zakaz medyczny. Przeprowadzka to i tak duża zmiana, a znana dieta oznacza o jedną zmianę mniej. Jeśli potem zechcesz zmienić karmę, rób to stopniowo: mieszaj nową ze starą przez 7–10 dni, powoli zwiększając udział nowej.
 
 **Czy stosuje się sedację do długich podróży?**
 

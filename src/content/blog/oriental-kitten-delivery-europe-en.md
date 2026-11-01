@@ -34,9 +34,9 @@ A toy with the smell of home. Not new, not bought specially for the trip. The on
 
 A blanket the kitten slept on. It carries the smell of mom and the cattery. Put it where the kitten will sleep at your place — it carries the sensory link between the old home and the new.
 
-A week's supply of food. Same brand, same formula, same texture. A sudden change of diet during the stress of moving makes adjustment harder. This week is a buffer: the kitten gets used to you and the new space without rebuilding its digestion at the same time.
+About a week's supply of food — roughly 7–10 days, depending on the kitten's appetite. Same brand, same formula, same texture. A sudden change of diet during the stress of moving makes adjustment harder. This first week is a buffer: the kitten gets used to you and the new space without rebuilding its digestion at the same time.
 
-The carrier is its own story. We open it up at our home a few days before departure. The kitten goes in and out, lies inside, stops seeing it as foreign.
+The carrier isn't part of the kit. Usually the buyer chooses it, because everyone travels differently — on foot with a backpack carrier, by car, by plane. We ask about the carrier in advance, and if you don't have a suitable one, we can help arrange one by prior agreement. When the carrier is at our home before departure, we open it up a few days in advance: the kitten goes in and out, lies inside and stops seeing it as foreign.
 
 ## What You Do During the Wait
 
@@ -44,7 +44,22 @@ While we prepare the kitten — you prepare too. The move goes smoother if the n
 
 ### What to do during the wait
 
-It's easiest to put together the basic kit in one go or in pieces — whichever works for you: bowls (separate for food and water), a litter box, the same litter the breeder uses, a scratching post, and a bed. Better to start with the food the kitten is already used to — switching to something else can come later. A few simple toys for the start are enough. Also worth picking out a "safe room" — quiet, no extra distractions, where the first adjustment happens.
+Here's what comes from us and what you prepare.
+
+**From us:** familiar toys, a blanket with the scent of home and about a week of the food the kitten is used to.
+
+**You prepare before the kitten arrives:**
+
+- the same food the kitten eats with us, enough for the first month
+- bowls for food and water
+- a litter tray
+- the litter the kitten is used to
+- a scoop
+- a scratching post
+- a carrier
+- a comfortable place to sleep
+
+Also worth picking out a "safe room" — quiet, no extra distractions, where the first adjustment happens.
 
 Before the kitten arrives, it helps to put away cords, fragile items, and toxic plants, look at the space from "kitten level," install window stops, and separate zones: food and water away from the litter box.
 
@@ -58,7 +73,7 @@ In the first days, don't plan visitors and don't rush introductions with other a
 
 Personal handoff is our standard. You come over, see the kitten alive, active, in its natural environment. We pick it up together. You see us, we see you. The moment a new owner first holds the kitten — that's confirmation from both sides that both made the right call.
 
-A few hours before departure: we give one last calm feeding, check the trousseau, open the carrier with the familiar smell. The kitten walks in on its own — it's known this carrier for days.
+A few hours before departure: we give one last calm feeding and check the trousseau. If the carrier has been with us beforehand, we open it with the familiar smell — the kitten walks in on its own, because it has known this carrier for days.
 
 On the road: carrier somewhere warm and quiet — a blanket or towel over the top reduces the visual flow. No sudden stops, no loud music, no passing the kitten to strangers. If the trip is long (over 3–4 hours) — we discuss with you in advance whether a mild sedative might be needed; this is an individual call based on the specific kitten's temperament (more in the FAQ below).
 
@@ -94,11 +109,11 @@ Because by the time of handover, you should know the kitten's personality not fr
 
 **What's in the "trousseau"?**
 
-A toy with the smell of our home (three days in the room before departure), a blanket with the smell of mom and the cattery, a week's supply of food. Plus — the familiar carrier, which has been sitting open at our place for several days. Together, this gives the kitten a sensory bridge between the old home and the new.
+A toy with the smell of our home (three days in the room before departure), a blanket with the smell of mom and the cattery, and about a week's supply of familiar food (roughly 7–10 days, depending on appetite). The carrier isn't part of the kit: usually the buyer chooses it, and we ask about it in advance and can help arrange one by prior agreement. Together, the kit gives the kitten a sensory bridge between the old home and the new.
 
 **Can I switch to a different food brand right away?**
 
-No, not in the first week. Digestion under the stress of moving can't handle a double load. Use the same food we give. After the first week, if you really need to change — do it gradually, mixing new with old over 7–10 days, slowly increasing the share of new.
+We recommend keeping the food the kitten is used to for the first month — that's our settling-in recommendation, not a medical rule. Moving is already a big change, and a familiar diet means one less change at a time. If you then want to switch, do it gradually, mixing new with old over 7–10 days and slowly increasing the share of the new food.
 
 **Is sedation used for long trips?**
 

@@ -2,7 +2,7 @@
 articleSlug: "how-to-choose-oriental-kitten"
 lang: "en"
 title: "How to Choose an Oriental Kitten from a Breeder"
-description: "How to choose an Oriental kitten: pet/breed/show classes, reading character from birth, the breeder's buyer interview, and the 7-item EU handover checklist."
+description: "How to choose an Oriental kitten: pet/breed/show classes, reading character from birth, the breeder's buyer interview, and the handover document checklist."
 category: "Buyer's Guide"
 publishDate: "2026-06-01"
 ogImage: "/images/blog/how-to-choose-oriental-kitten.webp"
@@ -12,7 +12,7 @@ You don't choose a kitten. You find yours. Sometimes the breeder sees the match 
 
 You came to look at photos. It ended in a 45-minute conversation about your work schedule, the size of your apartment, and whether you've ever had a cat at all. This isn't small talk — it's the process. A responsible breeder isn't selling you a kitten. They're deciding whether your home is the right place for one.
 
-This article is the ready-made framework: what the classes mean, how to read character from birth, what questions you'll be asked (and why), what a real video call looks like, and the exact 7 items you need to check at handover.
+This article is the ready-made framework: what the classes mean, how to read character from birth, what questions you'll be asked (and why), what a real video call looks like, and which documents you should receive at handover.
 
 ## Pet / Breed / Show — What It Means for You
 
@@ -21,12 +21,12 @@ Every registered kitten is evaluated against the breed standard and falls into o
 | Category | What It Means | Price Range | Conditions |
 |---|---|---|---|
 | Pet | Healthy, typical character. Possible (but not required) minor deviations from standard. Often — a strategic decision by the breeder with no defects at all. | Lowest | Sterilization required; no breeding rights |
-| Breed | Strong fit to standard; suitable for a registered breeding program | Mid to high | Sold exclusively to registered WCF/FIFe/TICA breeders; breeding contract required |
+| Breed | Strong fit to standard; suitable for a registered breeding program | Mid to high | Only to a prepared breeding home that can meet its club's registration requirements; breeding contract required |
 | Show | Exceptional fit to standard — judges will take notice on the show table | Highest | Co-ownership possible; show career expected |
 
 What that means for most buyers: pet class is the right call. An Oriental pet class kitten from a serious cattery comes from genetically tested parents (testing is done on breeding cats, not on each kitten individually), vaccinated, microchipped, and behaviorally healthy. If the buyer wants an additional individual test on the specific kitten — the breeder doesn't refuse: the client pays the test cost, the breeder takes the cat in for sample collection. The "defect" that dropped the kitten from show class is invisible to you in daily life. Health and character — identical.
 
-Important nuance: pet class isn't always about defects. Often the entire litter goes to pet with no faults at all. The reason is market logic: when demand exceeds supply, it makes more sense for the breeder to sell pet (with mandatory sterilization) than to give breeding rights and create a competitor next door. So pet class isn't always "something's off" — often it's a strategic call by the cattery.
+Important nuance: pet class isn't always about defects. A kitten with no visible faults can still go to a pet home — that is often a deliberate decision within the cattery's breeding programme. Breeding rights are a separate question, and at Floriente they go only to a home that is genuinely ready for breeding. Before agreeing to a breeding placement, we look at the whole picture: does the buyer understand the responsibility for the cat and future litters, are they prepared and do they have the knowledge — or are they actively learning, are the living conditions suitable, and can they meet the registration requirements of their club or country. A serious beginner isn't ruled out: registration procedures differ between countries, and what matters is preparation and a willingness to learn. If those conditions aren't there, the kitten goes to a loving pet home.
 
 If the listing doesn't specify a category — or the breeder doesn't know this classification — that's a signal to pay attention to.
 
@@ -83,23 +83,35 @@ If the seller refuses a video call, claims technical problems, or only offers pr
 
 The video call happens before any deposit.
 
-## Handover Documents — 7-Item Checklist for the EU
+## Handover Documents — Standard Package and International Travel
 
-This is the document checklist for a kitten transferred within the EU or from Ukraine to Europe. Every item on this list exists for a reason. Missing documents aren't administrative oversights. They're a question of responsibility.
+This is the document checklist at handover. The standard package comes with every kitten; documents for an international journey are added only when the kitten actually travels abroad. Missing documents aren't administrative oversights. They're a question of responsibility.
+
+### Standard handover package
 
 | # | Document | Notes |
 |---|---|---|
-| 1 | EU pet passport (within EU) and animal health certificate / AHC (Ukraine to EU) | Required for legal entry |
-| 2 | ISO microchip, 15 digits | Must be implanted before travel; number recorded in passport |
+| 1 | Ukrainian veterinary passport | Issued in Ukraine; records the microchip number and vaccinations. It is not an EU pet passport |
+| 2 | ISO microchip, 15 digits | Implanted before handover; number recorded in the passport |
 | 3 | Vaccination record — core viral panel and rabies | Dates, vaccine name, batch number, vet signature |
-| 4 | Rabies titre test result (required for travel from Ukraine to the EU) | Blood test from an EU-approved lab; result ≥0.5 IU/ml |
-| 5 | Sales contract | States class, sterilization clause if applicable, return policy |
-| 6 | Metrika (kitten card / birth certificate); pedigree available on request | Standard handover includes the metrika — the official birth document with a club number. The pedigree (3–5 generations) is ordered separately through the club at the owner's initiative and for an additional fee. Issued by the registry (WCF, FIFe, TICA). |
-| 7 | Genetic test results for sire and dam | Minimum cardiac screening for HCM; PRA if relevant for the breed |
+| 4 | Sales contract | States class, sterilization clause if applicable, return policy |
+| 5 | Metrika (kitten registration document) | The official document with the club number. A pedigree isn't included; it can be ordered separately through the club on request, for the club's current fee |
+| 6 | Parents' genetic test results | The DNA test documentation available for the sire and dam. HCM screening is a different examination — an ultrasound of the heart (echocardiography), not a genetic test |
+
+### For international travel
+
+When the kitten travels abroad, the journey has its own requirements on top of the standard package. For travel from Ukraine to the EU, these include:
+
+| # | Document | Notes |
+|---|---|---|
+| 7 | EU animal health certificate | Issued by Ukraine's state veterinary service for the specific journey, no more than 10 days before entry into the EU |
+| 8 | Rabies antibody (titre) test result | Blood test from an EU-approved lab; result ≥0.5 IU/ml. Needed for travel from Ukraine to the EU, not for a kitten that stays in Ukraine |
+
+Who arranges these documents depends on what was agreed at the sale. When Floriente has agreed to export a kitten, we coordinate the preparation for that journey. When the owner later travels with the cat independently, the owner arranges what that trip requires. The legal procedure follows the journey itself, not the agreement between buyer and seller: the EU's non-commercial pet-travel rules cover an owner travelling with their own cat, not a movement connected with a sale or change of ownership.
 
 A kitten without a metrika from a recognized registry isn't a "purebred kitten." It's a kitten with a piece of paper. The metrika is the baseline document confirming origin: it lists the kitten's information and the contact details of the club, where you can verify the data directly and reach out if needed.
 
-A 3–5 generation pedigree is an additional document you can order separately through the club if you need it (more often needed for breeding than for pet class owners).
+A pedigree (four or five generations) is an additional document. At handover you receive the metrika; the pedigree is ordered separately through the club on request, for the club's current fee (more often needed for breeding than for pet class owners).
 
 Hard truth: if a breeder offers a kitten under 12 weeks (3 months) — walk. The kitten isn't ready. Neither is the breeder. It's a direct violation of club and felinology system rules — meaning that kitten isn't club-registered.
 
@@ -111,7 +123,7 @@ Minimum 12 weeks (3 months). Most responsible breeders keep kittens until 14–1
 
 **What's the difference between a "purebred kitten" and a "registered kitten"?**
 
-A registered kitten has a metrika issued by the club — an official birth document with the club number and information about the kitten and its parents. Standard handover includes the metrika. The pedigree (3–5 generations) is a separate document the new owner can order through the club at their own initiative.
+A registered kitten has a metrika issued by the club — an official birth document with the club number and information about the kitten and its parents. Standard handover includes the metrika. The pedigree (four or five generations) is a separate document ordered through the club on request, for the club's current fee.
 
 "Pedigree" without registration paperwork is a marketing term, not a verified fact. Always check which registry the cattery is registered with, and verify the registration number directly on the system's official site.
 

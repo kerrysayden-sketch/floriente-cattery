@@ -82,6 +82,8 @@ Key rule for all carriers: the number of pet slots in the cabin is limited. Book
 
 Weight limit (cat plus carrier) — usually 8 kg on major European airlines that take pets in the cabin; some differ (ITA Airways, for example, allows up to 12 kg on domestic flights within Italy), so check yours. Oriental cats are lighter-built; an adult Oriental in a soft carrier usually clocks in at 5–6 kg. Weigh your cat before booking.
 
+Further reading (optional): [AirAdvisor's overview of European airlines' pet policies](https://airadvisor.com/en/pet-friendly-european-airlines). It is a third-party comparison; for the current rules of your flight, rely on the airline's official page.
+
 ## Carrier requirements
 
 A cabin carrier has to meet two criteria: comply with your airline's own rules (size, ventilation, leak-proof bottom) and fit under the seat in front of you. IATA does not certify or approve carriers, so a label claiming IATA approval guarantees nothing.
@@ -122,7 +124,7 @@ At cruising altitude, cabin air pressure is lower than at sea level. Sedatives l
 
 For car trips the situation is different. The flight risks (pressure, altitude) don't apply. If the cat is high-strung and a long drive is genuinely hard for him, a vet may individually consider a mild sedative for the car. But that's the vet's call, not a DIY decision: dose and drug type depend on the cat's weight, age, condition, and trip length. Don't copy other people's solutions.
 
-What to use instead:
+How to reduce travel stress without medication:
 
 A familiar blanket with the scent of home or the cattery
 

@@ -82,6 +82,8 @@ Schlüsselregel für alle Fluggesellschaften: Die Zahl der Tierplätze in der Ka
 
 Das Gewichtslimit (Katze plus Transportbox) liegt bei großen europäischen Fluggesellschaften, die Tiere in der Kabine mitnehmen, meist bei 8 kg; manche weichen ab (ITA Airways etwa erlaubt bis zu 12 kg auf Inlandsflügen in Italien), prüfen Sie also Ihre Airline. Orientalische Katzen sind leichter gebaut; eine erwachsene orientalische Katze in einer weichen Transportbox kommt üblicherweise auf 5–6 kg. Wiegen Sie Ihre Katze vor der Buchung.
 
+Weiterführend (optional): [AirAdvisor-Überblick über die Tierregeln europäischer Fluggesellschaften](https://airadvisor.com/de/beste-tierfreundliche-europaeische-fluggesellschaften). Es ist ein Vergleich eines Drittanbieters; die aktuellen Regeln für Ihren Flug finden Sie auf der offiziellen Seite der Fluggesellschaft.
+
 ## Anforderungen an die Transportbox
 
 Die Kabinen-Transportbox muss zwei Kriterien erfüllen: den Regeln Ihrer Fluggesellschaft entsprechen (Maße, Belüftung, auslaufsicherer Boden) und unter den Vordersitz passen. Die IATA zertifiziert oder genehmigt keine Transportboxen; ein Etikett mit „IATA-Zulassung“ garantiert daher nichts.
@@ -122,7 +124,7 @@ Auf Reiseflughöhe ist der Luftdruck in der Kabine niedriger als auf Meereshöhe
 
 Bei Autoreisen ist die Situation anders. Die Risiken eines Fluges (Druck, Höhe) gelten nicht. Wenn die Katze temperamentvoll ist und eine lange Fahrt ihr tatsächlich schwerfällt, kann der Tierarzt individuell ein leichtes Beruhigungsmittel für die Autofahrt in Betracht ziehen. Aber das ist eine Entscheidung des Tierarztes, keine Entscheidung auf eigene Faust: Dosierung und Wirkstoff hängen von Gewicht, Alter, Zustand der Katze und Dauer der Reise ab. Kopieren Sie keine fremden Lösungen.
 
-Was Sie stattdessen verwenden sollten:
+Wie Sie Reisestress ohne Medikamente verringern:
 
 Eine vertraute Decke mit dem Geruch von zu Hause oder der Zucht
 
