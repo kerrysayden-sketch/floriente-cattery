@@ -29,6 +29,12 @@ const testimonials = defineCollection({
     kitten: z.string(),
     photo: z.string().nullable(),
     order: z.number(),
+    // "owner" keeps the legacy single-owner caption; "family" is for a couple
+    // or household, where a singular "Owner of" would misattribute.
+    relation: z.enum(['owner', 'family']).default('owner'),
+    // Optional link to the complete review: a canonical (English-slug) path
+    // resolved per locale, plus a locale-invariant section anchor.
+    fullReview: z.object({ path: z.string(), anchor: z.string().regex(/^[a-z0-9-]+$/) }).optional(),
   }),
 });
 

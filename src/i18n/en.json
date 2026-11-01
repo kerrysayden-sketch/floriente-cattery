@@ -120,7 +120,9 @@
     "familyCtaTitle": "Want to Join Our Family?",
     "familyCtaText": "We'll help you find the kitten that fits your home best.",
     "familyCtaCta": "How to Reserve",
-    "testimonialOwnerOf": "Owner of"
+    "testimonialOwnerOf": "Owner of",
+    "testimonialFamilyOf": "Family of",
+    "testimonialReadFull": "Read the full review"
   },
   "about": {
     "storyTitle": "Our Story",

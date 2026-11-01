@@ -2,7 +2,7 @@
 articleSlug: "floriente-cattery-reviews"
 lang: "pl"
 title: "Nasze rodziny: Historie i opinie właścicieli kociaków Floriente"
-description: "Prawdziwe opinie o hodowli Floriente: pięć rodzin, pięć kociaków orientalnych — dlaczego wybrali rasę, jak przebiegła adaptacja i czemu wracają."
+description: "Prawdziwe opinie o hodowli Floriente: sześć rodzin, siedem kociaków orientalnych — dlaczego wybrali rasę, jak przebiegła adaptacja i czemu wracają."
 category: "Życie w Floriente"
 publishDate: "2026-06-17"
 ogImage: "/images/blog/floriente-cattery-reviews.webp"
@@ -11,6 +11,33 @@ ogImage: "/images/blog/floriente-cattery-reviews.webp"
 Trzy rodziny wróciły po drugiego orientalnego. Jedna z nich — nawet po trzeciego. To nie marketing. To wzorzec, którego się nie podrabia.
 
 Hodowli nie sprawdza się po jej własnych słowach. Sprawdza się przez ludzi, którzy już przeszli tę drogę — podjęli decyzję, przywieźli kociaka do domu, a potem wybrali, by wrócić.
+
+<h2 id="alexander-and-tatiana">Aleksander i Tatiana — rodzina Cai i Cia</h2>
+
+<figure class="not-prose my-8">
+<img src="/images/family/review-cai-cia.webp" width="720" height="960" alt="Aleksander trzyma na rękach dwa kocięta — Cai i Cia" loading="lazy" decoding="async" class="w-full max-w-sm mx-auto rounded-lg shadow-sm">
+<figcaption class="mt-3 text-center text-sm text-gray-medium">Aleksander z Cai i Cia</figcaption>
+</figure>
+
+Ich opinia w całości (tłumaczenie z rosyjskiego):
+
+<blockquote>
+<p>Razem z mężem jesteśmy szczęśliwymi właścicielami dwóch wspaniałych (dobrze wychowanych, samodzielnych, wiedzących, czego chcą, «trzymających się rytmu dnia», «pełnych życia») kociąt z jednego miotu.<br>
+Rasa ma znaczenie, bez wątpienia!<br>
+Ale chcę podzielić się doświadczeniem kontaktu z hodowcami przez ponad miesiąc.<br>
+A raczej uczuciami, emocjami i posmakiem, które pojawiały się za każdym razem po przesłanej codziennej wideorelacji, rozmowie, korespondencji.<br>
+Jeśli macie otwarte oczy, zobaczycie profesjonalizm, troskę, głęboką wiedzę, pewność i konsekwencję w każdym działaniu.<br>
+Jeśli macie otwarte uszy — łagodny, troskliwy, kochający głos gospodyni, nuty ciepła, zaangażowania, zachwytu, miłości do każdego ze swoich podopiecznych!<br>
+Jeśli macie otwarte serce — na pewno mocniej zabije, jeśli będziecie mieli szczęście trafić na stronę tych cudownych ludzi!<br>
+Te ręce przekażą Wam maluchy wycałowane każdym słowem i wypieszczone każdym gestem :)<br>
+A to wiele znaczy, bo to jest start!<br>
+Efekt — maluchy wiedzą, co to kuweta i drapak, mają w sobie nastawiony zegarek: czas na zabawę, polowanie, jedzenie, sen, pieszczoty i rozmowy od serca :)<br>
+Jeśli jesteście gotowi kochać, szanować i uczyć się od swoich pupili, to «przygotowanie» i «fundament» u tych hodowców są właśnie takie, że sprawią Wam tylko radość!!<br>
+Nasze maluchy są oczywiście najlepsze! :))<br>
+Życzę wszystkim, by znaleźli «swoich»!<br>
+Adres już znacie!</p>
+<p>— Aleksander i Tatiana</p>
+</blockquote>
 
 ## Tatiana i Bars (Wieniuszka) — Druga szansa
 

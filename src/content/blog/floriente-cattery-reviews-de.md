@@ -2,7 +2,7 @@
 articleSlug: "floriente-cattery-reviews"
 lang: "de"
 title: "Unsere Familien: Geschichten und Erfahrungsberichte der Halter von Floriente-Kätzchen"
-description: "Echte Floriente Cattery Erfahrungen: fünf Familien, fünf orientalische Kätzchen — warum sie die Rasse wählten und wie die Eingewöhnung wirklich lief."
+description: "Echte Floriente Cattery Erfahrungen: sechs Familien, sieben orientalische Kätzchen — warum sie die Rasse wählten und wie die Eingewöhnung wirklich lief."
 category: "Leben bei Floriente"
 publishDate: "2026-06-17"
 ogImage: "/images/blog/floriente-cattery-reviews.webp"
@@ -11,6 +11,33 @@ ogImage: "/images/blog/floriente-cattery-reviews.webp"
 Drei Familien sind für einen zweiten Orientalen zurückgekehrt. Eine von ihnen sogar für einen dritten. Das ist kein Marketing. Das ist eine Regelmäßigkeit, die sich nicht fälschen lässt.
 
 Eine Zucht beurteilt man nicht nach ihren eigenen Worten. Man beurteilt sie anhand der Menschen, die diesen Weg bereits gegangen sind — die Entscheidung getroffen, das Kätzchen nach Hause gebracht haben und sich später dafür entschieden haben, wiederzukommen.
+
+<h2 id="alexander-and-tatiana">Alexander und Tatiana — die Familie von Cai und Cia</h2>
+
+<figure class="not-prose my-8">
+<img src="/images/family/review-cai-cia.webp" width="720" height="960" alt="Alexander hält zwei Kätzchen auf dem Arm — Cai und Cia" loading="lazy" decoding="async" class="w-full max-w-sm mx-auto rounded-lg shadow-sm">
+<figcaption class="mt-3 text-center text-sm text-gray-medium">Alexander mit Cai und Cia</figcaption>
+</figure>
+
+Ihr Erfahrungsbericht in voller Länge (aus dem Russischen übersetzt):
+
+<blockquote>
+<p>Mein Mann und ich sind die glücklichen Besitzer von zwei wunderbaren Kätzchen aus einem Wurf (gut erzogen, selbstständig, wissen, was sie wollen, „mit festem Tagesrhythmus“, „voller Leben“).<br>
+Die Rasse spielt natürlich eine Rolle!<br>
+Aber ich möchte unsere Erfahrung aus mehr als einem Monat Kontakt mit den Züchtern teilen.<br>
+Genauer gesagt die Gefühle, Emotionen und den Nachgeschmack, die jedes Mal nach dem zugeschickten täglichen Videobericht, nach jedem Gespräch und jeder Nachricht entstanden.<br>
+Wenn Ihre Augen offen sind, sehen Sie Professionalität, Fürsorge, tiefes Wissen, Sicherheit und Konsequenz in jeder Handlung.<br>
+Wenn Ihre Ohren offen sind — die sanfte, fürsorgliche, liebevolle Stimme der Hausherrin, Töne von Wärme, Anteilnahme, Bewunderung und Liebe zu jedem ihrer Tiere!<br>
+Wenn Ihr Herz offen ist, wird es bestimmt höherschlagen, wenn Sie das Glück haben, die Website dieser wunderbaren Menschen zu besuchen!<br>
+Diese Hände übergeben Ihnen Kleine, die mit jedem Wort abgeküsst und mit jeder Geste geherzt wurden :)<br>
+Und das ist viel wert, denn es ist der Start!<br>
+Das Ergebnis: Die Kleinen wissen, was ein Katzenklo und ein Kratzbaum sind, in ihnen tickt eine innere Uhr — Zeit zum Spielen, Jagen, Fressen, Schlafen, Schmusen und für Gespräche von Herz zu Herz :)<br>
+Wenn Sie bereit sind, Ihre Tiere zu lieben, zu respektieren und von ihnen zu lernen, dann sind die „Vorarbeit“ und der „Grundstock“ bei diesen Züchtern genau so, dass sie Ihnen nur Freude machen werden!!<br>
+Wir haben natürlich die allerbesten! :))<br>
+Ich wünsche allen, „ihre“ zu finden!<br>
+Die Adresse kennen Sie ja!</p>
+<p>— Alexander und Tatiana</p>
+</blockquote>
 
 ## Tetjana und Bars (Wenjuschka) — Eine zweite Chance
 

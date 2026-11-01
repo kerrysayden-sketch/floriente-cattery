@@ -120,7 +120,9 @@
     "familyCtaTitle": "Chcesz dołączyć do naszej rodziny?",
     "familyCtaText": "Pomożemy znaleźć kociaka, który najlepiej pasuje do Twojego domu.",
     "familyCtaCta": "Jak zarezerwować",
-    "testimonialOwnerOf": "Rodzina"
+    "testimonialOwnerOf": "Rodzina",
+    "testimonialFamilyOf": "Rodzina",
+    "testimonialReadFull": "Przeczytaj całą opinię"
   },
   "about": {
     "storyTitle": "Nasza historia",

@@ -65,7 +65,7 @@ const reviews = allReviews.sort((a, b) => a.data.order - b.data.order);
             {/* Name + kitten */}
             <p class="text-dark font-semibold text-base mb-1">{entry.data.owner}</p>
             <p class="text-gray-medium text-xs mb-4">
-              {t(lang, 'home.testimonialOwnerOf')} {entry.data.kitten}
+              {entry.data.relation === 'family' ? t(lang, 'home.testimonialFamilyOf') : t(lang, 'home.testimonialOwnerOf')} {entry.data.kitten}
             </p>
 
             {/* Quote */}
@@ -75,6 +75,15 @@ const reviews = allReviews.sort((a, b) => a.data.order - b.data.order);
             <p class="text-dark-soft italic text-sm leading-relaxed">
               {entry.body!.trim()}
             </p>
+            {entry.data.fullReview && (
+              <a
+                href={`${getLocalizedPath(entry.data.fullReview.path, lang)}#${entry.data.fullReview.anchor}`}
+                class="inline-flex items-center gap-1 mt-3 text-xs font-medium text-gold hover:text-gold-dark underline underline-offset-2"
+              >
+                {t(lang, 'home.testimonialReadFull')}
+                <span aria-hidden="true">→</span>
+              </a>
+            )}
           </div>
         ))}
       </div>

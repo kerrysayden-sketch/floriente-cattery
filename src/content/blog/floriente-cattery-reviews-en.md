@@ -2,7 +2,7 @@
 articleSlug: "floriente-cattery-reviews"
 lang: "en"
 title: "Our Families: Stories and Reviews from Floriente Kitten Owners"
-description: "Real Floriente Cattery reviews: five families, five Oriental kittens — why they chose the breed, how adaptation went, and why they come back."
+description: "Real Floriente Cattery reviews: six families, seven Oriental kittens — why they chose the breed, how adaptation went, and why they come back."
 category: "Life at Floriente"
 publishDate: "2026-06-17"
 ogImage: "/images/blog/floriente-cattery-reviews.webp"
@@ -11,6 +11,33 @@ ogImage: "/images/blog/floriente-cattery-reviews.webp"
 Three families came back for a second Oriental. One of them — for a third. This isn't marketing. It's a pattern you can't fake.
 
 You don't verify a cattery by its own words. You verify it through the people who've already walked the path — made the decision, brought the kitten home, and then chose to come back.
+
+<h2 id="alexander-and-tatiana">Alexander and Tatiana — the family of Cai and Cia</h2>
+
+<figure class="not-prose my-8">
+<img src="/images/family/review-cai-cia.webp" width="720" height="960" alt="Alexander holding two kittens, Cai and Cia" loading="lazy" decoding="async" class="w-full max-w-sm mx-auto rounded-lg shadow-sm">
+<figcaption class="mt-3 text-center text-sm text-gray-medium">Alexander with Cai and Cia</figcaption>
+</figure>
+
+Their review in full (translated from Russian):
+
+<blockquote>
+<p>My husband and I are the happy owners of two wonderful (well-mannered, independent, knowing what they want, “routine-loving”, “lively”) kittens from the same litter.<br>
+The breed matters, of course!<br>
+But I want to share our experience of being in touch with the breeders for more than a month.<br>
+Or rather, the feelings, emotions and aftertaste that came every time after a daily video report they sent us, after every conversation and message.<br>
+If your eyes are open, you will see professionalism, care, deep knowledge, confidence and consistency in every action.<br>
+If your ears are open — the soft, caring, loving voice of the lady of the house, notes of warmth, sympathy, admiration and love for each of her pets!<br>
+If your heart is open, it will surely skip a beat if you are lucky enough to visit the website of these wonderful people!<br>
+These hands will hand you little ones kissed with every word and doted on with every gesture :)<br>
+And that is worth a lot, because it is the start!<br>
+The result: the little ones know what a litter box and a scratching post are, and they have a little clock set inside them — time for play, hunting, food, sleep, cuddles and heart-to-heart talks :)<br>
+If you are ready to love, respect and learn from your pets, then the “groundwork” and “head start” these breeders give are exactly the kind that will only bring you joy!!<br>
+Ours, of course, are the very best! :))<br>
+I hope everyone finds “their own”!<br>
+You know the address!</p>
+<p>— Alexander and Tatiana</p>
+</blockquote>
 
 ## Tetiana and Bars (Venyushka) — A Second Chance
 

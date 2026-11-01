@@ -120,7 +120,9 @@
     "familyCtaTitle": "Möchten Sie zu unserer Familie gehören?",
     "familyCtaText": "Wir helfen Ihnen, das Kätzchen zu finden, das am besten zu Ihrem Zuhause passt.",
     "familyCtaCta": "Reservieren",
-    "testimonialOwnerOf": "Familie"
+    "testimonialOwnerOf": "Familie",
+    "testimonialFamilyOf": "Familie von",
+    "testimonialReadFull": "Ganzen Erfahrungsbericht lesen"
   },
   "about": {
     "storyTitle": "Unsere Geschichte",
