@@ -11,4 +11,4 @@ fullReview:
   anchor: "lidiia-and-salma"
 ---
 
-Zawsze jest obok, i w dzień, i w nocy, i w łazience, i w łóżku. To bardzo czułe stworzenie bez kropli agresji.
+I mogę śmiało powiedzieć, że pokochała nas od pierwszego wejrzenia, tak jak my ją. Bardzo nietypowe było jej przywiązanie do człowieka. Zawsze jest obok, i w dzień, i w nocy, i w łazience, i w łóżku. To bardzo czułe stworzenie bez kropli agresji. A do tego jest bardzo mądra, patrzy prosto w oczy, słucha cię, przygląda się. Można ją nauczyć wykonywania komend.

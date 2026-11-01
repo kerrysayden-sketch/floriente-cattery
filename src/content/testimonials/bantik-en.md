@@ -5,6 +5,9 @@ owner: "Tatiana"
 kitten: "Bantik (Busik)"
 photo: "/images/family/testimonial-bantik.webp"
 order: 4
+fullReview:
+  path: "/blog/floriente-cattery-reviews/"
+  anchor: "tatiana-and-bantik"
 ---
 
 Thank you so much for Busik. Every time we kiss him, we think of you. He sleeps with us. Our endless gratitude to you for him.

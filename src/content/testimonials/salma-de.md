@@ -11,4 +11,4 @@ fullReview:
   anchor: "lidiia-and-salma"
 ---
 
-Sie ist immer in der Nähe, Tag und Nacht, im Bad und im Bett. Sie ist ein sehr zärtliches Wesen ohne einen Funken Aggression.
+Und ich kann mit Sicherheit sagen, dass sie uns auf den ersten Blick geliebt hat, so wie wir sie. Sehr ungewöhnlich war ihre Bindung an den Menschen. Sie ist immer in der Nähe, Tag und Nacht, im Bad und im Bett. Sie ist ein sehr zärtliches Wesen ohne einen Funken Aggression. Außerdem ist sie sehr klug, schaut dir direkt in die Augen, hört dir zu, studiert dich. Man kann ihr beibringen, Kommandos auszuführen.

@@ -45,7 +45,7 @@ const reviews = allReviews.sort((a, b) => a.data.order - b.data.order);
       {/* Scrollable container */}
       <div id="testimonial-track" class="flex gap-6 overflow-x-auto snap-x snap-mandatory scrollbar-none pb-4">
         {reviews.map((entry) => (
-          <div class="flex-shrink-0 w-[85%] sm:w-[45%] md:w-[calc(33.333%-16px)] snap-start text-center">
+          <div class="flex-shrink-0 w-[85%] sm:w-[45%] md:w-[calc(33.333%-16px)] snap-start text-center flex flex-col">
             {/* Photo circle */}
             {entry.data.photo ? (
               <div class="w-48 h-48 sm:w-44 sm:h-44 md:w-40 md:h-40 lg:w-48 lg:h-48 mx-auto mb-5 rounded-full overflow-hidden border-2 border-accent-gold/20">
@@ -75,10 +75,11 @@ const reviews = allReviews.sort((a, b) => a.data.order - b.data.order);
             <p class="text-dark-soft italic text-sm leading-relaxed">
               {entry.body!.trim()}
             </p>
+            {/* Cards stretch to the tallest; mt-auto aligns links without padding quotes. */}
             {entry.data.fullReview && (
               <a
                 href={`${getLocalizedPath(entry.data.fullReview.path, lang)}#${entry.data.fullReview.anchor}`}
-                class="inline-flex items-center gap-1 mt-3 text-xs font-medium text-gold hover:text-gold-dark underline underline-offset-2"
+                class="mt-auto pt-4 self-center inline-flex items-center gap-1 text-xs font-medium text-gold hover:text-gold-dark underline underline-offset-2"
               >
                 {t(lang, 'home.testimonialReadFull')}
                 <span aria-hidden="true">→</span>

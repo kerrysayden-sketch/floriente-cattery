@@ -5,6 +5,9 @@ owner: "Стас"
 kitten: "Barbie (Dora)"
 photo: "/images/family/testimonial-barbie.webp"
 order: 5
+fullReview:
+  path: "/blog/floriente-cattery-reviews/"
+  anchor: "stas-and-barbie"
 ---
 
 Приятно удивились отношению к своим котятам, готовности предоставить любые фото, видео и даже видеозвонки онлайн. Котёнок приехал с «приданым», чипированный, с оформленными документами. С первой минуты освоился и начал проситься на руки.

@@ -11,4 +11,4 @@ fullReview:
   anchor: "lidiia-and-salma"
 ---
 
-She is always close by, day and night, in the bathroom and in bed. She is a very gentle creature without a drop of aggression.
+And I can say with confidence that she loved us at first sight, just as we loved her. What was very unusual was her attachment to people. She is always close by, day and night, in the bathroom and in bed. She is a very gentle creature without a drop of aggression. She is also very clever: she looks you straight in the eye, listens to you, studies you. She can be taught to follow commands.

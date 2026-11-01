@@ -5,6 +5,9 @@ owner: "Наталия"
 kitten: "Barton (Yarik)"
 photo: "/images/family/testimonial-barton.webp"
 order: 3
+fullReview:
+  path: "/blog/floriente-cattery-reviews/"
+  anchor: "natalia-and-barton"
 ---
 
 А потом мы нашли вас - и сразу почувствовалась любовь к котятам. Было видно, что вы с ними постоянно контактируете, играете, не боитесь сразу отправить видео и даже позволяете увидеть малышей. Мы почувствовали, что котик растёт в любви и заботе.
