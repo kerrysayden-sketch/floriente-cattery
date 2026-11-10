@@ -38,6 +38,7 @@ type DocGroup = 'pedigree' | 'exams' | 'extra';
 const OPEN_PDF = 'ourCats.vetReportView';
 const OPEN_IMAGE = 'ourCats.docOpenReportImage';
 const OPEN_PEDIGREE = 'ourCats.docOpenPedigree';
+const OPEN_DOCUMENT = 'ourCats.docOpenDocumentImage';
 const COPY = 'ourCats.docCopyWatermark';
 const COPY_HIDDEN = 'ourCats.docCopyWatermarkHidden';
 const docsByCat: Record<string, Partial<Record<DocGroup, CatDoc[]>>> = {
@@ -45,6 +46,10 @@ const docsByCat: Record<string, Partial<Record<DocGroup, CatDoc[]>>> = {
     pedigree: [
       { labelKey: 'ourCats.docPedigreeWcfLabel', noteKey: 'ourCats.docPedigreeWcfNote', copyKey: COPY_HIDDEN,
         href: '/documents/pedigree/sebastian-pedigree-wcf.webp', linkKey: OPEN_PEDIGREE },
+    ],
+    extra: [
+      { labelKey: 'ourCats.docVetCertificate20241108Label', noteKey: 'ourCats.docVetCertificateArchiveNote', copyKey: COPY_HIDDEN,
+        href: '/documents/vet/sebastian-veterinary-certificate-2024-11-08.jpg', linkKey: OPEN_DOCUMENT },
     ],
   },
   simona: {
@@ -58,13 +63,28 @@ const docsByCat: Record<string, Partial<Record<DocGroup, CatDoc[]>>> = {
       { labelKey: 'ourCats.vetReportSimonaLabel', noteKey: 'ourCats.vetReportSimonaNote',
         href: '/documents/vet/simona-abdominal-ultrasound-2026-09-21.pdf', linkKey: OPEN_PDF },
     ],
+    extra: [
+      { labelKey: 'ourCats.docVetCertificate20241108Label', noteKey: 'ourCats.docVetCertificateArchiveNote', copyKey: COPY_HIDDEN,
+        href: '/documents/vet/simona-veterinary-certificate-2024-11-08.webp', linkKey: OPEN_DOCUMENT },
+    ],
   },
   halva: {
+    pedigree: [
+      { labelKey: 'ourCats.docPedigreeLoofLabel', noteKey: 'ourCats.docPedigreeLoofNote', copyKey: COPY_HIDDEN,
+        href: '/documents/pedigree/halva-pedigree-loof.webp', linkKey: OPEN_PEDIGREE },
+    ],
     exams: [
       { labelKey: 'ourCats.docHalvaFivFelvLabel', noteKey: 'ourCats.docFivFelvClinicNote', copyKey: COPY_HIDDEN,
         href: '/documents/vet/halva-fiv-ab-felv-ag-2026-05-13.pdf', linkKey: OPEN_PDF },
       { labelKey: 'ourCats.docAbdominalUltrasound20260814Label', noteKey: 'ourCats.docAbdominalUltrasoundProtocolNote', copyKey: COPY,
         href: '/documents/vet/halva-abdominal-ultrasound-2026-08-14.pdf', linkKey: OPEN_PDF },
+      { labelKey: 'ourCats.docEcho20260814Label', noteKey: 'ourCats.docEchoClinicNote', copyKey: COPY,
+        href: '/documents/vet/halva-echocardiography-2026-08-14.webp', linkKey: OPEN_IMAGE },
+    ],
+    // The certificate's date of birth differs from the pedigree; the profile keeps the pedigree date.
+    extra: [
+      { labelKey: 'ourCats.docHealthCertificate20260216Label', noteKey: 'ourCats.docHealthCertificateDobNote', copyKey: COPY,
+        href: '/documents/vet/halva-health-certificate-2026-02-16.webp', linkKey: OPEN_DOCUMENT },
     ],
   },
   enya: {
@@ -77,6 +97,13 @@ const docsByCat: Record<string, Partial<Record<DocGroup, CatDoc[]>>> = {
         href: '/documents/vet/enya-felv-ag-fiv-ab-pra-rdac-2026-05-25.webp', linkKey: OPEN_IMAGE },
       { labelKey: 'ourCats.docAbdominalUltrasound20260814Label', noteKey: 'ourCats.docAbdominalUltrasoundProtocolNote', copyKey: COPY_HIDDEN,
         href: '/documents/vet/enya-abdominal-ultrasound-2026-08-14.pdf', linkKey: OPEN_PDF },
+      { labelKey: 'ourCats.docEcho20260814Label', noteKey: 'ourCats.docEchoClinicNote', copyKey: COPY,
+        href: '/documents/vet/enya-echocardiography-2026-08-14.webp', linkKey: OPEN_IMAGE },
+    ],
+    // Litter-level report (patient "Miot E"), shown on Enya's profile only as a litter test.
+    extra: [
+      { labelKey: 'ourCats.docLitterEParasitologyLabel', noteKey: 'ourCats.docLitterEParasitologyNote', copyKey: COPY,
+        href: '/documents/vet/litter-e-parasitology-giardia-2026-04-27.webp', linkKey: OPEN_DOCUMENT },
     ],
   },
 };
