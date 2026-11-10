@@ -23,19 +23,68 @@ const certByCat: Record<string, string> = {
   halva: '/images/certs/genetic-heldig.webp',
 };
 
-// Per-cat clinical reports (not genetic). Each report applies ONLY to the cat
-// it is attached to and is never generalised across the cattery or a litter.
-// Localised strings live in i18n; `href` points at the file in /documents/vet/.
-type VetReport = { labelKey: string; noteKey: string; href: string };
-const vetReportsByCat: Record<string, VetReport[]> = {
-  simona: [
-    {
-      labelKey: 'ourCats.vetReportSimonaLabel',
-      noteKey: 'ourCats.vetReportSimonaNote',
-      href: '/documents/vet/simona-abdominal-ultrasound-2026-09-21.pdf',
-    },
-  ],
+// Genetic result for a cat without a separate certificate, taken from a lab
+// report that is itself listed among that cat's documents.
+const geneticSummaryByCat: Record<string, { resultKey: string; labKey: string }> = {
+  enya: { resultKey: 'ourCats.geneticEnyaResult', labKey: 'ourCats.geneticEnyaLab' },
 };
+
+// Per-cat documents grouped by meaning. Each document applies ONLY to the cat it
+// is attached to and is never generalised across the cattery or a litter.
+// Files live under /documents/ (served with X-Robots-Tag: noindex) and load only on click.
+// `copyKey` marks a watermarked public copy; documents without it are the clinic file as received.
+type CatDoc = { labelKey: string; noteKey: string; copyKey?: string; href: string; linkKey: string };
+type DocGroup = 'pedigree' | 'exams' | 'extra';
+const OPEN_PDF = 'ourCats.vetReportView';
+const OPEN_IMAGE = 'ourCats.docOpenReportImage';
+const OPEN_PEDIGREE = 'ourCats.docOpenPedigree';
+const COPY = 'ourCats.docCopyWatermark';
+const COPY_HIDDEN = 'ourCats.docCopyWatermarkHidden';
+const docsByCat: Record<string, Partial<Record<DocGroup, CatDoc[]>>> = {
+  sebastian: {
+    pedigree: [
+      { labelKey: 'ourCats.docPedigreeWcfLabel', noteKey: 'ourCats.docPedigreeWcfNote', copyKey: COPY_HIDDEN,
+        href: '/documents/pedigree/sebastian-pedigree-wcf.webp', linkKey: OPEN_PEDIGREE },
+    ],
+  },
+  simona: {
+    pedigree: [
+      { labelKey: 'ourCats.docPedigreeWcfLabel', noteKey: 'ourCats.docPedigreeWcfNote', copyKey: COPY_HIDDEN,
+        href: '/documents/pedigree/simona-pedigree-wcf.webp', linkKey: OPEN_PEDIGREE },
+    ],
+    exams: [
+      { labelKey: 'ourCats.docSimonaFivFelvLabel', noteKey: 'ourCats.docFivFelvClinicNote', copyKey: COPY_HIDDEN,
+        href: '/documents/vet/simona-fiv-ab-felv-ag-2026-05-14.pdf', linkKey: OPEN_PDF },
+      { labelKey: 'ourCats.vetReportSimonaLabel', noteKey: 'ourCats.vetReportSimonaNote',
+        href: '/documents/vet/simona-abdominal-ultrasound-2026-09-21.pdf', linkKey: OPEN_PDF },
+    ],
+  },
+  halva: {
+    exams: [
+      { labelKey: 'ourCats.docHalvaFivFelvLabel', noteKey: 'ourCats.docFivFelvClinicNote', copyKey: COPY_HIDDEN,
+        href: '/documents/vet/halva-fiv-ab-felv-ag-2026-05-13.pdf', linkKey: OPEN_PDF },
+      { labelKey: 'ourCats.docAbdominalUltrasound20260814Label', noteKey: 'ourCats.docAbdominalUltrasoundProtocolNote', copyKey: COPY,
+        href: '/documents/vet/halva-abdominal-ultrasound-2026-08-14.pdf', linkKey: OPEN_PDF },
+    ],
+  },
+  enya: {
+    pedigree: [
+      { labelKey: 'ourCats.docPedigreeFplLabel', noteKey: 'ourCats.docPedigreeFplNote', copyKey: COPY_HIDDEN,
+        href: '/documents/pedigree/enya-pedigree-fpl.webp', linkKey: OPEN_PEDIGREE },
+    ],
+    exams: [
+      { labelKey: 'ourCats.docEnyaVetlabLabel', noteKey: 'ourCats.docEnyaVetlabNote', copyKey: COPY,
+        href: '/documents/vet/enya-felv-ag-fiv-ab-pra-rdac-2026-05-25.webp', linkKey: OPEN_IMAGE },
+      { labelKey: 'ourCats.docAbdominalUltrasound20260814Label', noteKey: 'ourCats.docAbdominalUltrasoundProtocolNote', copyKey: COPY_HIDDEN,
+        href: '/documents/vet/enya-abdominal-ultrasound-2026-08-14.pdf', linkKey: OPEN_PDF },
+    ],
+  },
+};
+const docGroups: { key: DocGroup; titleKey: string }[] = [
+  { key: 'pedigree', titleKey: 'ourCats.docsGroupPedigree' },
+  { key: 'exams', titleKey: 'ourCats.docsGroupExams' },
+  { key: 'extra', titleKey: 'ourCats.docsGroupExtra' },
+];
 ---
 
 <BaseLayout
@@ -57,7 +106,10 @@ const vetReportsByCat: Record<string, VetReport[]> = {
       const gallery = cat.gallery.map((g) => ({ src: g.src, label: t(lang, g.labelKey) }));
       const color = t(lang, `ourCats.${cat.catId}Color`);
       const certSrc = certByCat[cat.catId] ?? null;
-      const vetReports = vetReportsByCat[cat.catId] ?? [];
+      const genetic = geneticSummaryByCat[cat.catId] ?? null;
+      const catDocs = docsByCat[cat.catId] ?? {};
+      // The exams group always shows, because it carries the genetic-test line.
+      const visibleGroups = docGroups.filter((g) => g.key === 'exams' || (catDocs[g.key]?.length ?? 0) > 0);
 
       return (
         <section
@@ -115,46 +167,64 @@ const vetReportsByCat: Record<string, VetReport[]> = {
               <div class="bg-warm-white border border-gray-light/50 p-4 mt-2">
                 <div class="flex items-start gap-3">
                   <span class="text-lg">🔬</span>
-                  <div>
-                    <p class="text-xs font-semibold uppercase tracking-wider text-dark mb-1">{t(lang, 'ourCats.healthTesting')}</p>
-                    {certSrc ? (
-                      <>
-                        <p class="text-xs text-gray-medium">{t(lang, 'ourCats.healthResultsClean')}</p>
-                        <p class="text-xs text-gray-medium">{t(lang, 'ourCats.healthLabs')}</p>
-                        <button
-                          type="button"
-                          data-cert-open
-                          data-cert-src={certSrc}
-                          class="mt-1.5 inline-flex items-center gap-1 text-xs font-medium text-gold hover:text-gold-dark underline underline-offset-2 cursor-pointer"
-                        >
-                          {t(lang, 'ourCats.healthViewCert')}
-                          <span aria-hidden="true">→</span>
-                        </button>
-                      </>
-                    ) : (
-                      <>
-                        <p class="text-xs text-gray-medium">{t(lang, 'ourCats.healthResultsExpected')}</p>
-                      </>
-                    )}
-                    {vetReports.length > 0 && (
-                      <div class="mt-2 pt-2 border-t border-gray-light/40 space-y-1.5">
-                        {vetReports.map((r) => (
-                          <div>
-                            <p class="text-xs font-medium text-dark">{t(lang, r.labelKey)}</p>
-                            <p class="text-xs text-gray-medium">{t(lang, r.noteKey)}</p>
-                            <a
-                              href={r.href}
-                              target="_blank"
-                              rel="noopener"
-                              class="mt-1 inline-flex items-center gap-1 text-xs font-medium text-gold hover:text-gold-dark underline underline-offset-2"
-                            >
-                              {t(lang, 'ourCats.vetReportView')}
-                              <span aria-hidden="true">→</span>
-                            </a>
+                  <div class="min-w-0 flex-1">
+                    <p class="text-xs font-semibold uppercase tracking-wider text-dark mb-2">{t(lang, 'ourCats.docsTitle')}</p>
+                    <div class="space-y-3">
+                      {visibleGroups.map((group, groupIndex) => {
+                        const docs = catDocs[group.key] ?? [];
+                        const withGenetic = group.key === 'exams';
+                        return (
+                          <div data-doc-group={group.key} class:list={[groupIndex > 0 && 'pt-3 border-t border-gray-light/40']}>
+                            <p class="text-[10px] font-semibold uppercase tracking-wider text-gray-medium mb-1.5">{t(lang, group.titleKey)}</p>
+                            <div class="space-y-2.5">
+                              {withGenetic && (
+                                <div data-doc-genetic>
+                                  <p class="text-xs font-medium text-dark">{t(lang, 'ourCats.geneticTestLabel')}</p>
+                                  {certSrc ? (
+                                    <>
+                                      <p class="text-xs text-gray-medium">{t(lang, 'ourCats.healthResultsClean')}</p>
+                                      <p class="text-xs text-gray-medium">{t(lang, 'ourCats.healthLabs')}</p>
+                                      <button
+                                        type="button"
+                                        data-cert-open
+                                        data-cert-src={certSrc}
+                                        class="mt-1 inline-flex items-center gap-1 text-xs font-medium text-gold hover:text-gold-dark underline underline-offset-2 cursor-pointer"
+                                      >
+                                        {t(lang, 'ourCats.healthViewCert')}
+                                        <span aria-hidden="true">→</span>
+                                      </button>
+                                    </>
+                                  ) : genetic ? (
+                                    <>
+                                      <p class="text-xs text-gray-medium">{t(lang, genetic.resultKey)}</p>
+                                      <p class="text-xs text-gray-medium">{t(lang, genetic.labKey)}</p>
+                                    </>
+                                  ) : (
+                                    <p class="text-xs text-gray-medium">{t(lang, 'ourCats.healthResultsExpected')}</p>
+                                  )}
+                                </div>
+                              )}
+                              {docs.map((doc) => (
+                                <div data-doc>
+                                  <p class="text-xs font-medium text-dark">{t(lang, doc.labelKey)}</p>
+                                  <p class="text-xs text-gray-medium">{t(lang, doc.noteKey)}</p>
+                                  {doc.copyKey && <p class="text-[11px] text-gray-medium italic">{t(lang, doc.copyKey)}</p>}
+                                  <a
+                                    href={doc.href}
+                                    target="_blank"
+                                    rel="noopener"
+                                    class="mt-1 inline-flex items-center gap-1 text-xs font-medium text-gold hover:text-gold-dark underline underline-offset-2"
+                                  >
+                                    {t(lang, doc.linkKey)}
+                                    <span aria-hidden="true">→</span>
+                                  </a>
+                                </div>
+                              ))}
+                            </div>
                           </div>
-                        ))}
-                      </div>
-                    )}
+                        );
+                      })}
+                    </div>
                   </div>
                 </div>
               </div>
