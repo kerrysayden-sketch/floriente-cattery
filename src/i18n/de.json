@@ -366,7 +366,7 @@
     "enyaPhoto4": "Trägt ihr Spielzeug"
   },
   "kittens": {
-    "pageSubtitle": "Jedes Kätzchen wuchs in Liebe auf und fand seine perfekte Familie",
+    "pageSubtitle": "Lernen Sie die Floriente-Kätzchen kennen — jene, die noch eine Familie suchen, und jene, die bereits ein neues Zuhause haben.",
     "litterATitle": "Wurf „A\"",
     "litterBTitle": "Wurf „B\"",
     "litterCTitle": "Wurf „C\"",
@@ -410,10 +410,10 @@
     "watchMeGrow": "Wachstum verfolgen",
     "weekLabel": "Woche",
     "availabilityNone": "Am 6. Juli 2026 sind bei uns 6 Kätzchen geboren: 2 Kater und 4 Katzen.",
-    "availabilityNext": "Sie sind nach dem 6. Oktober 2026 im Alter von 3 Monaten bereit für ihr neues Zuhause.",
-    "availabilityCta": "Schreiben Sie uns auf WhatsApp, um nach diesen Kätzchen zu fragen oder sich auf die Warteliste setzen zu lassen.",
+    "availabilityNext": "Möchten Sie die Floriente-Kätzchen kennenlernen? Schreiben Sie uns — wir erzählen Ihnen, wer gerade eine Familie sucht, und über die Möglichkeit, sich für kommende Würfe auf die Warteliste setzen zu lassen.",
+    "availabilityCta": "Auf WhatsApp nach den Kätzchen fragen",
     "waitlistPrompt": "Möchten Sie Ihre Angaben hinterlassen?",
-    "waitlistFormLink": "Tragen Sie sich in die Warteliste ein."
+    "waitlistFormLink": "Warteliste-Formular ausfüllen."
   },
   "common": {
     "viewAll": "Alle ansehen",

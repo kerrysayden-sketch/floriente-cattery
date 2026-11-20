@@ -366,7 +366,7 @@
     "enyaPhoto4": "Carrying her toy"
   },
   "kittens": {
-    "pageSubtitle": "Each kitten grew up surrounded by love and found a family that was just right for them",
+    "pageSubtitle": "Meet the Floriente kittens — those still looking for a family, and those already in their new home.",
     "litterATitle": "Litter \"A\"",
     "litterBTitle": "Litter \"B\"",
     "litterCTitle": "Litter \"C\"",
@@ -410,10 +410,10 @@
     "watchMeGrow": "Watch Me Grow",
     "weekLabel": "Week",
     "availabilityNone": "Six kittens were born on July 6, 2026 — 2 boys and 4 girls.",
-    "availabilityNext": "They will be ready for their new homes after October 6, 2026, at 3 months of age.",
-    "availabilityCta": "Message us on WhatsApp to ask about these kittens or join the waiting list.",
+    "availabilityNext": "Would you like to meet the Floriente kittens? Message us — we'll tell you who's currently looking for a family and about joining the waiting list for upcoming litters.",
+    "availabilityCta": "Ask about the kittens on WhatsApp",
     "waitlistPrompt": "Prefer to leave your details?",
-    "waitlistFormLink": "Join the waiting list."
+    "waitlistFormLink": "Fill in the waiting list form."
   },
   "common": {
     "viewAll": "View all",

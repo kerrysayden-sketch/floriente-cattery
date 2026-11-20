@@ -366,7 +366,7 @@
     "enyaPhoto4": "Niesie swoją zabawkę"
   },
   "kittens": {
-    "pageSubtitle": "Każde kocię dorastało otoczone miłością i znalazło rodzinę, która była dla niego idealna",
+    "pageSubtitle": "Poznaj kocięta Floriente — te, które szukają rodziny, i te, które są już w nowym domu.",
     "litterATitle": "Miot \"A\"",
     "litterBTitle": "Miot \"B\"",
     "litterCTitle": "Miot \"C\"",
@@ -410,10 +410,10 @@
     "watchMeGrow": "Patrz, jak rosnę",
     "weekLabel": "Tydzień",
     "availabilityNone": "6 lipca 2026 urodziło się u nas 6 kociąt: 2 kocurki i 4 kotki.",
-    "availabilityNext": "Będą gotowe do nowych domów po 6 października 2026, w wieku 3 miesięcy.",
-    "availabilityCta": "Napisz do nas na WhatsApp, aby zapytać o te kocięta lub dołączyć do listy oczekujących.",
+    "availabilityNext": "Chcesz poznać kocięta Floriente? Napisz do nas — opowiemy, które obecnie szukają rodziny, oraz o możliwości dołączenia do listy oczekujących na przyszłe mioty.",
+    "availabilityCta": "Zapytaj o kocięta na WhatsApp",
     "waitlistPrompt": "Chcesz zostawić swoje dane?",
-    "waitlistFormLink": "Dołącz do listy oczekujących."
+    "waitlistFormLink": "Wypełnij formularz listy oczekujących."
   },
   "common": {
     "viewAll": "Zobacz wszystkie",

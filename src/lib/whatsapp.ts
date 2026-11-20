@@ -12,11 +12,11 @@ export type WhatsAppIntent = 'nextLitter' | 'generalContact' | 'howToBuy';
  */
 const MESSAGES: Record<WhatsAppIntent, Record<Lang, string>> = {
   nextLitter: {
-    en: 'Hello! I would like to ask about the kittens born on July 6, 2026, available after October 6, 2026, and join the waiting list.',
-    ru: 'Здравствуйте! Хочу узнать о котятах, которые родились 6 июля 2026 и будут доступны после 6 октября 2026, и попасть в лист ожидания.',
-    uk: 'Вітаю! Хочу дізнатися про кошенят, які народилися 6 липня 2026 і будуть доступні після 6 жовтня 2026, і потрапити до списку очікування.',
-    de: 'Hallo! Ich möchte nach den Kätzchen fragen, die am 6. Juli 2026 geboren sind und nach dem 6. Oktober 2026 verfügbar sind, und mich auf die Warteliste setzen lassen.',
-    pl: 'Dzień dobry! Chciałbym zapytać o kocięta urodzone 6 lipca 2026, dostępne po 6 października 2026, i dołączyć do listy oczekujących.',
+    en: "Hello! I'd like to ask which Floriente kittens are currently available and about the waiting list for upcoming litters.",
+    ru: 'Здравствуйте! Хочу узнать, какие котята сейчас свободны, и о листе ожидания будущих помётов Floriente.',
+    uk: 'Вітаю! Хочу дізнатися, які кошенята зараз вільні, і про список очікування майбутніх послідів Floriente.',
+    de: 'Hallo! Ich möchte erfahren, welche Floriente-Kätzchen gerade verfügbar sind, und etwas über die Warteliste für kommende Würfe.',
+    pl: 'Dzień dobry! Chciałbym zapytać, które kocięta Floriente są obecnie dostępne, oraz o listę oczekujących na przyszłe mioty.',
   },
   generalContact: {
     en: 'Hello! I found Floriente Cattery on your website and would like to ask a question.',
